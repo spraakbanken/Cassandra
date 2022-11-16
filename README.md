@@ -8,11 +8,12 @@ This is a very preliminary release of some scripts we are using within the Cassa
 
 ## Usage
 ### General
-- `korp16.rb` will output a json and a tsv that contain the relative frequencies of the given variant(s) across the years. It will do so by running `count_time` in the Korp API: https://ws.spraakbanken.gu.se/docs/korp. So basically it's a wrapper for running this command and processing its output in a convenient way
-- `plot.rb` draws a nice graph, using the tsv file
+`korp16.rb` will output a json and a tsv that contain the relative frequencies of the given variant(s) across the years. It will do so by running `count_time` in the Korp API: https://ws.spraakbanken.gu.se/docs/korp. So basically it's a wrapper for running this command and processing its output in a convenient way
+
+`plot.rb` draws a nice graph, using the tsv file
 
 ### Variable
-- `korp16.rb` needs to know what to look for. You have to descripe your variable using the CQP language (https://cwb.sourceforge.io/files/CQP_Tutorial.pdf) in the file `korp_queries.rb`. The description consists of two or three lines.
+`korp16.rb` needs to know what to look for. You have to descripe your variable using the CQP language (https://cwb.sourceforge.io/files/CQP_Tutorial.pdf) in the file `korp_queries.rb`. The description consists of two or three lines.
 
 Line 1: a unique label of your choice. "#label = your_label"
 
