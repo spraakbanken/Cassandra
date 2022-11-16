@@ -13,8 +13,11 @@ This is a very preliminary release of some scripts we are using within the Cassa
 
 ### Variable
 - `korp16.rb` needs to know what to look for. You have to descripe your variable using the CQP language (https://cwb.sourceforge.io/files/CQP_Tutorial.pdf) in the file `korp_queries.rb`. The description consists of two or three lines.
+
 Line 1: a unique label of your choice. "#label = your_label"
+
 Line 2: variant1 = your_variant1_in_CQP (see examples in the file)
+
 Line 3 (optional): variant2 = your_variant2_in_CQP (see examples in the file)
 
 
