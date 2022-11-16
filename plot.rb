@@ -8,12 +8,14 @@ require 'rinruby'
 #create a read-in tool?
 #total_threshold = 5
 total_threshold = 20
-if !ARGV.include?("--qtype")
-    abort "Cassandra says: qtype not specified, must be \"time\" or \"authors\""
-elsif !ARGV.include?("--corpus")
+#if !ARGV.include?("--qtype")
+#    abort "Cassandra says: qtype not specified, must be \"time\" or \"authors\""
+qtype = "time"
+query = "time"
+if !ARGV.include?("--corpus")
     abort "Cassandra says: corpus not specified"
 else
-    query = ARGV[ARGV.index("--qtype") + 1]
+    #query = ARGV[ARGV.index("--qtype") + 1]
     corpus_and_label = ARGV[ARGV.index("--corpus") + 1]
     if ARGV.include?("--corpus2")
         corpus_and_label2 = ARGV[ARGV.index("--corpus2") + 1]
@@ -81,7 +83,7 @@ end
 maincorpus = corpus_and_label.split("-")[0]
 subcorpus = corpus_and_label.split("-")[1]
 
-R.eval "setwd('C:/Sasha/D/DGU/CassandraMy/KorpApi/#{dir}')"
+#R.eval "setwd('C:/Sasha/D/DGU/CassandraMy/KorpApi/#{dir}')"
 
 
 #if nvariants == 1
