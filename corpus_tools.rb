@@ -136,9 +136,9 @@ end
 
 def read_corpus_label(corpus_and_label,outputmode="string")
     maincorpus = corpus_and_label.split("-")[0]
-    STDERR.puts maincorpus
+    #STDERR.puts maincorpus
     label = corpus_and_label.split("-")[1..-1].join("-")
-    STDERR.puts label
+    #STDERR.puts label
 
     corpus = ""
     labelfile = File.open("#{PATH}subforum_labels.tsv", "r:utf-8")
