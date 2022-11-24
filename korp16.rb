@@ -3,7 +3,7 @@
 #plot: several graphs
 
 require_relative 'corpus_tools.rb'
-
+require_relative 'read_cmd.rb'
 #CONSIDER:
 #adding timespan: 
 
@@ -15,55 +15,23 @@ require 'uri'
 require 'net/http'
 require 'json'
 
-if !ARGV.include?("--corpus")
-    abort "Cassandra says: corpus not specified"
-    #abort "Cassandra says: qtype not specified, must be \"time\" or \"authors\""
-else
-    corpus_and_label = ARGV[ARGV.index("--corpus") + 1]
-    if !ARGV.include?("--qtype")
-        query = "time"
-    else
-        query = ARGV[ARGV.index("--qtype") + 1]
-    end
-    
-    if query == "time"
-
-        if !ARGV.include?("--variable")
-            abort "Cassandra says: variable not specified, must be specified if qtype == time"
-        else    
-            variable = ARGV[ARGV.index("--variable") + 1]
-            if !ARGV.include?("--user")
-                username = "all_users"
-            else
-                username = code_space(ARGV[ARGV.index("--user") + 1],"decode")
-            end
-
-            if !ARGV.include?("--nvariants")
-                nvariants = 2
-            else
-                nvariants = ARGV[ARGV.index("--nvariants") + 1].to_i
-            end
-
-            if !ARGV.include?("--granularity")
-                granularity = "y"
-            else
-                granularity = ARGV[ARGV.index("--granularity") + 1]
-            end
-        end
-    elsif query == "authors"
-        if ARGV.include?("--year")
-            year_for_authors = ARGV[ARGV.index("--year") + 1].to_i
-        end
-    else 
-        abort "Cassandra says: unknown qtype, must be \"time\" or \"authors\""
-    end
-    if ARGV.include?("--local")
-        only_process_local = true
-    end
-end
 #STDERR.puts nvariants
+
+
+outhash = process_cmd
+corpus_and_label = outhash["corpus_and_label"]
+query = outhash["query"]
+variable = outhash["variable"]
+username = outhash["username"]
+nvariants = outhash["nvariants"] 
+only_process_local = outhash["only_process_local"]
+granularity = outhash["granularity"]
+variable_source = outhash["variable_source"]
 maincorpus = corpus_and_label.split("-")[0]
 label = corpus_and_label.split("-")[1..-1].join("-")
+
+
+
 
 #STDERR.puts corpus_and_label
 if !ARGV.include?("--nolabel")
@@ -145,7 +113,7 @@ if query == "time"
         #if ARGV.include?("nyordslistor")
         #    variant1 = "[word = '#{variable}']"
         #else
-            variant1, variant2 = read_in_variable(variable,useradd,nvariants)
+            variant1, variant2 = read_in_variable(variable,useradd,nvariants, variable_source)
         #end
         #variant1.gsub!("\"","\'") 
         variant1.gsub!(" ","+")
