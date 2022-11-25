@@ -76,6 +76,12 @@ def process_cmd
                     variable_source = ARGV[ARGV.index("--variable_source") + 1]
                 end
 
+                if !ARGV.include?("--var_output")
+                    var_output = ""
+                else
+                    var_output = "#{ARGV[ARGV.index("--variable_source") + 1]}\\"
+                end
+
             end
         elsif query == "authors"
             if ARGV.include?("--year")
@@ -88,6 +94,6 @@ def process_cmd
             only_process_local = true
         end
     end
-    outhash = {"corpus_and_label" => corpus_and_label, "corpus_and_label2" => corpus_and_label2, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source}
+    outhash = {"corpus_and_label" => corpus_and_label, "corpus_and_label2" => corpus_and_label2, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output}
     return outhash
 end

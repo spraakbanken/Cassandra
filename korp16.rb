@@ -27,6 +27,8 @@ nvariants = outhash["nvariants"]
 only_process_local = outhash["only_process_local"]
 granularity = outhash["granularity"]
 variable_source = outhash["variable_source"]
+var_output = outhash["var_output"]
+
 maincorpus = corpus_and_label.split("-")[0]
 label = corpus_and_label.split("-")[1..-1].join("-")
 
@@ -42,9 +44,9 @@ end
 
 
 if ARGV.include?("nyordslistor")
-    outputdir = "variables\\nyordslistor2"
+    outputdir = "#{var_output}variables\\nyordslistor2"
 else
-    outputdir = "variables"
+    outputdir = "#{var_output}variables"
 end
 
 if !Dir.exist?(outputdir)

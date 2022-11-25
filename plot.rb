@@ -4,6 +4,7 @@
 
 require 'rinruby'
 require_relative 'read_cmd.rb'
+require_relative 'date_tools.rb'
 
 
 gran_hash = {"m" => "-----m"}
@@ -24,6 +25,7 @@ nvariants = outhash["nvariants"]
 only_process_local = outhash["only_process_local"]
 granularity = outhash["granularity"]
 total_threshold = outhash["total_threshold"]
+var_output = outhash["var_output"]
 
 maincorpus = corpus_and_label.split("-")[0]
 subcorpus = corpus_and_label.split("-")[1]
@@ -33,25 +35,10 @@ if !Dir.exist?(dir)
 end
 R.eval "setwd('#{dir}')"
 
-
-#R.eval "setwd('C:/Sasha/D/DGU/CassandraMy/KorpApi/#{dir}')"
-
-
-
-#if nvariants == 1
-#    value_index = 1
-#elsif nvariants == 2
-#    if whattoplot == "v2rel"
-#       value_index = 5
-#    elsif whattoplot == "total"
-#       value_index = 1
-#    end
-#end
-
 if ARGV.include?("nyordslistor")
-    inputdir = "variables\\nyordslistor2"
+    inputdir = "#{var_output}variables\\nyordslistor2"
 else
-    inputdir = "variables"
+    inputdir = "#{var_output}variables"
 end
 
 
@@ -61,28 +48,33 @@ file = File.open("#{inputdir}\\#{variable}#{gran_addendum}\\#{maincorpus}\\#{sub
 #file = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\hbt_authors\\Varnagel.tsv","r:utf-8")
 header = []
 years = []
+labels = []
 values = []
 whattoplot_id = nil
+period_id = nil
+#absmonth_id = nil
 file.each_line.with_index do |line,index|
-    #line1 = line.strip.gsub("#","")
-    #STDERR.puts line1
     if index > 0
         line1 = line.split("\t")
-        years << line1[0].to_i
-        #STDERR.puts line
+        if granularity == "y"
+            years << line1[period_id].to_i
+        elsif granularity == "m"
+            labels << line1[period_id]
+            years << absmonth(line1[period_id])
+        end
+        
         if nvariants == 1 or (nvariants == 2 and line1[1].to_i >= total_threshold)
-        #if nvariants == 1 or (nvariants == 2 and line1[1].to_i + line1[2].to_i >= total_threshold)
+        
             values << line1[whattoplot_id].to_f
         else
             values << "NA"
         end
-        #year = year_hash[nyord]
+        
     else
         header = line.strip.split("\t")
         whattoplot_id = header.index(whattoplot)
-        #STDERR.puts whattoplot
-        #STDERR.puts header
-        #STDERR.puts whattoplot_id
+        period_id = header.index("period")
+        #absmonth_id = header.index("absmonth")
     end
 end
 file.close
@@ -122,10 +114,6 @@ end
 
 
 if !years.empty?
-    #values_temp = values.clone
-    #values_temp.delete("NA")
-    #if !values_temp.empty?
-        #o.puts "#{nyord}\t#{values_temp.max - values_temp.min}"
         
     R.assign "years", years
     R.assign "values", values
@@ -153,7 +141,14 @@ if !years.empty?
     else
         ylab = "proportion incoming"
     end
-    R.eval "plot(years, values, type='b',xlab = 'time', ylab = '#{ylab}', ylim = c(0,maxvalue))"
+    if granularity == "y"
+        R.eval "plot(years, values, type='b',xlab = 'time', ylab = '#{ylab}', ylim = c(0,maxvalue))"
+    elsif granularity == "m"
+        R.eval "plot(years, values, type='l',xaxt='n', ylab = '#{ylab}', ylim = c(0,maxvalue))"
+        R.assign "labels",labels
+        R.eval "axis(1, at=years,labels = labels)"
+    end
+    
     if !corpus_and_label2.nil?
         R.eval "lines(years2, values2, type='b', col = 'blue', lwd = 2)"
     end
@@ -164,5 +159,5 @@ if !years.empty?
 	
     
     R.eval "dev.off()"
-    #end
+    
 end
