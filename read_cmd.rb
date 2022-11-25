@@ -4,8 +4,12 @@ def process_cmd
         #abort "Cassandra says: qtype not specified, must be \"time\" or \"authors\""
     else
         corpus_and_label = ARGV[ARGV.index("--corpus") + 1]
-        if ARGV.include?("--corpus2")
-            corpus_and_label2 = ARGV[ARGV.index("--corpus2") + 1]
+        #if ARGV.include?("--corpus2")
+        #    corpus_and_label2 = ARGV[ARGV.index("--corpus2") + 1]
+        #end
+
+        if ARGV.include?("--more_corpora")
+            more_corpora_and_labels = ARGV[ARGV.index("--more_corpora") + 1]
         end
     
         if !ARGV.include?("--qtype")
@@ -79,7 +83,7 @@ def process_cmd
                 if !ARGV.include?("--var_output")
                     var_output = ""
                 else
-                    var_output = "#{ARGV[ARGV.index("--variable_source") + 1]}\\"
+                    var_output = "#{ARGV[ARGV.index("--var_output") + 1]}\\"
                 end
 
             end
@@ -94,6 +98,6 @@ def process_cmd
             only_process_local = true
         end
     end
-    outhash = {"corpus_and_label" => corpus_and_label, "corpus_and_label2" => corpus_and_label2, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output}
+    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels}
     return outhash
 end
