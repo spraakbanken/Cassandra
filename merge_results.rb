@@ -43,7 +43,11 @@ corpora_and_labels.split(",").each do |corpus_and_label|
             v1ipm_id = line2.include?("v1ipm")
             v2ipm_id = line2.include?("v2ipm")
         else
+            if nvariants == 1
 
+            elsif nvariants == 2
+
+            end
         end
     end
 
