@@ -86,6 +86,10 @@ def process_cmd
                     var_output = "#{ARGV[ARGV.index("--var_output") + 1]}\\"
                 end
 
+                if ARGV.include?("--merged_label")
+                    merged_label = "#{ARGV[ARGV.index("--merged_label") + 1]}"
+                end
+
             end
         elsif query == "authors"
             if ARGV.include?("--year")
@@ -98,6 +102,6 @@ def process_cmd
             only_process_local = true
         end
     end
-    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels}
+    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label}
     return outhash
 end
