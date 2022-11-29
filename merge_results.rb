@@ -1,4 +1,5 @@
 require_relative 'read_cmd.rb'
+require_relative 'math_tools.rb'
 
 outhash = process_cmd
 corpora_and_labels = outhash["corpus_and_label"]
@@ -47,25 +48,23 @@ corpora_and_labels.split(",").each do |corpus_and_label|
     file.each_line.with_index do |line,index|
         line2 = line.strip.split("\t")
         if index == 0
-            period_id = line2.include?("period")
-            v1abs_id = line2.include?("v1abs")
-            v2abs_id = line2.include?("v2abs")
-            #v1rel_id = line2.include?("v1rel")
-            #v2rel_id = line2.include?("v2rel")
-            v1ipm_id = line2.include?("v1ipm")
-            #v2ipm_id = line2.include?("v2ipm")
+            period_id = line2.index("period")
+            v1abs_id = line2.index("v1abs")
+            v2abs_id = line2.index("v2abs")
+            v1ipm_id = line2.index("v1ipm")
+            
         else
             period = line2[period_id]
             periods[period] = true
-            v1abs = line2[v1abs_id]
-            v1ipm = line2[v1ipm_id]
-            corpus_size = (v1abs.to_f/v1ipm*1000000).round
+            v1abs = line2[v1abs_id].to_i
+            v1ipm = line2[v1ipm_id].to_f
+            corpus_size = (div_by_zero(v1abs.to_f,v1ipm)*1000000).round
             corpus_sizes[period] += corpus_size
             v1abss[period] += v1abs
             if nvariants == 1
                 
             elsif nvariants == 2
-                v2abs = line2[v2abs_id]
+                v2abs = line2[v2abs_id].to_i
                 v2abss[period] += v2abs
                 #v2ipm = line2[v2ipm_id]
             
@@ -76,7 +75,17 @@ corpora_and_labels.split(",").each do |corpus_and_label|
     file.close
 end
 
+if !Dir.exist?("#{inputdir}\\#{variable}#{gran_addendum}\\#{merged_label}") 
+    Dir.mkdir("#{inputdir}\\#{variable}#{gran_addendum}\\#{merged_label}")
+end
+if !Dir.exist?("#{inputdir}\\#{variable}#{gran_addendum}\\#{merged_label}\\all") 
+    Dir.mkdir("#{inputdir}\\#{variable}#{gran_addendum}\\#{merged_label}\\all")
+end
+
 o = File.open("#{inputdir}\\#{variable}#{gran_addendum}\\#{merged_label}\\all\\#{username}.tsv","w:utf-8")
+
+
+
 if nvariants == 1
     o.puts "period\tv1ipm\tv1abs"
 elsif nvariants == 2
@@ -85,14 +94,24 @@ end
 
 periods.each_key do |period|
     v1abs = v1abss[period]
-    v1ipm = v1abs/corpus_sizes[period]*1000000
+    if corpus_sizes[period] != 0
+        v1ipm = v1abs/corpus_sizes[period]*1000000
+    else
+        v1ipm = "NaN"
+    end
+
     if nvariants == 1
         o.puts "#{period}\t#{v1ipm}\t#{v1abs}"
     elsif nvariants == 2
         v2abs = v2abss[period]
-        v2ipm = v2abs.to_f/corpus_sizes[period]*1000000
-        v1rel = v1abs.to_f/(v1abs + v2abs)
-        v2rel = v2abs.to_f/(v1abs + v2abs)
+        if corpus_sizes[period] != 0
+            v2ipm = v2abs/corpus_sizes[period]*1000000
+        else
+            v2ipm = "NaN"
+        end 
+        #v2ipm = v2abs.to_f/corpus_sizes[period]*1000000
+        v1rel = div_by_zero(v1abs,v1abs+v2abs)
+        v2rel = div_by_zero(v1abs,v1abs+v2abs)
         total = v1abs + v2abs
         o.puts "#{period}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}\t#{v1ipm}\t#{v2ipm}"
     end
