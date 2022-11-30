@@ -121,13 +121,14 @@ if !years.empty?
             all_names << "#{plot_data[3]}_#{plot_data[4]}"
         end
         all_values.flatten!
-        all_years.flatten!
-        all_years.uniq!
     end
+    all_years.flatten!
+    all_years.uniq!
+    
     minyear = all_years.min
     maxyear = all_years.max
-    STDERR.puts minyear
-    STDERR.puts maxyear
+    #STDERR.puts minyear
+    #STDERR.puts maxyear
     R.assign "minyear",minyear
     R.assign "maxyear",maxyear
  

@@ -1,5 +1,6 @@
-
-
+#label = kommer_att0
+variant1 = [word = 'kommer' %c] [word = 'att' %c] [pos = 'VB' & msd = '.*INF.*']
+variant2 = [word = 'kommer' %c] [pos = 'VB' & msd = '.*INF.*']
 
 
 #label = smiley1vs2neg
@@ -16,10 +17,22 @@ variant1 = [word = ':-\)']
 #label = smiley2
 variant1 = [word = ':\)']
 
+#label = dom1_filtered
+variant1 = [((word = 'de' %c ) | (word = 'dem' %c )) & (pos = 'PN' | pos = 'DT')]
+variant2 = [deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')]
+
+#in-between option
+#[deprel != "DT" & deprel != "AT" & word !=".*domstols.*" & word != ".*rätts.*"] [word = "dom" %c & pos = "PN"]
+
+#a slightly more reliable but much slower filter
+#variant2 = [word != 'en' %c & word != 'villkorlig' %c & word != 'fällande' %c & word != 'gammal' %c & word != 'sin' %c & word != 'sådan' %c & word != 'friande' %c & word != '.*ens.*' %c & word != '.*ets.*' %c & deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & pos = 'PN']
+
+#this is to check false negatives
+#[(word = "en" %c | word = "villkorlig" %c | word = "fällande" %c | word = "gammal" %c | word = "sin" %c | word = "sådan" %c | word = ".*ens.*" %c | word = ".*ets.*" %c | deprel = "DT" | deprel = "AT")] [word = "dom" %c & pos = "PN"]
 
 #label = dom_svebe
 variant1 = [((word = 'de' %c ) | (word = 'dem' %c )) & (pos = 'PN' | pos = 'DT')]
-variant2 = [(word = 'dom' %c ) & (pos = 'PN' | pos = 'DT')]
+variant2 = [(word = 'dom' %c ) & (pos = 'PN' | pos = 'DT') & ]
 
 #label = hen_svebe
 variant1 = [(word = 'hon' %c ) | (word = 'han' %c ) | (word = 'henne' %c ) | (word = 'honom' %c )]
@@ -509,9 +522,6 @@ variant2 = [(word = 'växt' %c) & msd = '.*SUP.*' & pos = 'VB']
 variant1 = [(word = 'beslöt' %c) & msd = '.*PRT.*' & pos = 'VB']
 variant2 = [(word = 'beslutade' %c) & msd = '.*PRT.*' & pos = 'VB']
 
-#label = kommer+inf
-variant1 = [word+=+'kommer'+%c]+[word+=+'att'+%c]+[pos+=+'VB'+&+msd+=+'.*INF.*']
-variant2 = [word+=+'kommer'+%c]+[pos+=+'VB'+&+msd+=+'.*INF.*']
 
 #label = hen
 variant1 = [(lex contains 'han\.\.pn\.1' | lex contains 'hon\.\.pn\.1')]
