@@ -15,7 +15,6 @@ query = "time"
 outhash = process_cmd
 corpus_and_label = outhash["corpus_and_label"]
 more_corpora_and_labels = outhash["more_corpora_and_labels"].to_s.split(",")
-
 whattoplot = outhash["whattoplot"] 
 max_predef = outhash["max"]
 dir = outhash["dir"]
@@ -87,7 +86,7 @@ end
 more_years = []
 more_values = []
 #more_labels = []
-colors = ["blue","green","yellow","gray","magenta","brown","orange"]
+colors = ["black","blue","green","red","gray","magenta","brown","orange"]
 
 plot_data = extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold)
 years = plot_data[0]
@@ -145,7 +144,7 @@ if !years.empty?
     end
 
     R.assign "maxvalue", max
-    R.eval "jpeg(file='#{variable.gsub(":","_colon_")}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}.jpg')"
+    R.eval "pdf(file='#{variable.gsub(":","_colon_")}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}.pdf')"
     if nvariants == 1
         ylab = "ipm"
     else
@@ -164,7 +163,7 @@ if !years.empty?
         for i in 0..more_corpora_and_labels.length-1
             R.assign "years2", more_years[i]
             R.assign "values2", more_values[i]
-            color = colors[i]
+            color = colors[i+1]
             if granularity == "y"
                 type = "b"
             elsif granularity == "m"
