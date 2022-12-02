@@ -274,5 +274,5 @@
 "cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')]"
 }
 ],
-"time": 7.517504930496216
+"time": 8.18509030342102
 }

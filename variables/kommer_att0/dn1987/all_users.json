@@ -1,0 +1,97 @@
+{
+"corpora": {
+"DN1987": [
+{
+"absolute": {
+"1987": 2086,
+"1988": null
+},
+"relative": {
+"1987": 407.2439443938264,
+"1988": null
+},
+"sums": {
+"absolute": 2086,
+"relative": 407.2439443938264
+}
+},
+{
+"absolute": {
+"1987": 2068,
+"1988": null
+},
+"relative": {
+"1987": 403.72985474900906,
+"1988": null
+},
+"sums": {
+"absolute": 2068,
+"relative": 403.72985474900906
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [pos = 'VB' & msd = '.*INF.*']"
+},
+{
+"absolute": {
+"1987": 18,
+"1988": null
+},
+"relative": {
+"1987": 3.5140896448172936,
+"1988": null
+},
+"sums": {
+"absolute": 18,
+"relative": 3.5140896448172936
+},
+"cqp": "[word = 'kommer' %c] [pos = 'VB' & msd = '.*INF.*']"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1987": 2086,
+"1988": null
+},
+"relative": {
+"1987": 407.2439443938264,
+"1988": null
+},
+"sums": {
+"absolute": 2086,
+"relative": 407.21588102893264
+}
+},
+{
+"absolute": {
+"1987": 2068,
+"1988": null
+},
+"relative": {
+"1987": 403.72985474900906,
+"1988": null
+},
+"sums": {
+"absolute": 2068,
+"relative": 403.70203354162635
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [pos = 'VB' & msd = '.*INF.*']"
+},
+{
+"absolute": {
+"1987": 18,
+"1988": null
+},
+"relative": {
+"1987": 3.5140896448172936,
+"1988": null
+},
+"sums": {
+"absolute": 18,
+"relative": 3.5138474873062258
+},
+"cqp": "[word = 'kommer' %c] [pos = 'VB' & msd = '.*INF.*']"
+}
+],
+"time": 1.1974036693572998
+}

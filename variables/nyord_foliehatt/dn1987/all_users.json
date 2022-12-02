@@ -1,0 +1,97 @@
+{
+"corpora": {
+"DN1987": [
+{
+"absolute": {
+"1987": 15630,
+"1988": null
+},
+"relative": {
+"1987": 3051.40117491635,
+"1988": null
+},
+"sums": {
+"absolute": 15630,
+"relative": 3051.40117491635
+}
+},
+{
+"absolute": {
+"1987": 15225,
+"1988": null
+},
+"relative": {
+"1987": 2972.334157907961,
+"1988": null
+},
+"sums": {
+"absolute": 15225,
+"relative": 2972.334157907961
+},
+"cqp": "[(word = 'dem' %c | word = 'de' %c ) & pos = 'PN'] [(word != 'som' %c )]"
+},
+{
+"absolute": {
+"1987": 400,
+"1988": null
+},
+"relative": {
+"1987": 78.09088099593986,
+"1988": null
+},
+"sums": {
+"absolute": 400,
+"relative": 78.09088099593986
+},
+"cqp": "[(word = 'dom' %c & pos = 'PN')] [(word != 'som' %c )]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1987": 15630,
+"1988": null
+},
+"relative": {
+"1987": 3051.40117491635,
+"1988": null
+},
+"sums": {
+"absolute": 15630,
+"relative": 3051.190901477573
+}
+},
+{
+"absolute": {
+"1987": 15225,
+"1988": null
+},
+"relative": {
+"1987": 2972.334157907961,
+"1988": null
+},
+"sums": {
+"absolute": 15225,
+"relative": 2972.1293330131825
+},
+"cqp": "[(word = 'dem' %c | word = 'de' %c ) & pos = 'PN'] [(word != 'som' %c )]"
+},
+{
+"absolute": {
+"1987": 400,
+"1988": null
+},
+"relative": {
+"1987": 78.09088099593986,
+"1988": null
+},
+"sums": {
+"absolute": 400,
+"relative": 78.08549971791614
+},
+"cqp": "[(word = 'dom' %c & pos = 'PN')] [(word != 'som' %c )]"
+}
+],
+"time": 2.7625892162323
+}

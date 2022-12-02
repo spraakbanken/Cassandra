@@ -38,8 +38,10 @@ label = corpus_and_label.split("-")[1..-1].join("-")
 #STDERR.puts corpus_and_label
 if !ARGV.include?("--nolabel")
     corpus = read_corpus_label(corpus_and_label)
+    nolabel = false
 else
     corpus = corpus_and_label
+    nolabel = true
 end
 
 
@@ -92,9 +94,9 @@ elsif query == "authors"
 end
 
 
-start_to_finish = get_years(maincorpus)
-#start
-
+start_to_finish = get_years(corpus_and_label,nolabel)
+STDERR.puts start_to_finish
+__END__
 
 
 useradd = ""
@@ -116,6 +118,7 @@ if query == "time"
         #    variant1 = "[word = '#{variable}']"
         #else
             variant1, variant2 = read_in_variable(variable,useradd,nvariants, variable_source)
+            STDERR.puts variant1 
         #end
         #variant1.gsub!("\"","\'") 
         variant1.gsub!(" ","+")
@@ -177,11 +180,13 @@ if query == "time"
             variant2h = data_hash["combined"][2]["absolute"]
             variant1h_ipm = data_hash["combined"][1]["relative"]
             variant2h_ipm = data_hash["combined"][2]["relative"]
+            periods = [variant1h.keys, variant2h.keys].flatten.uniq.sort
             #for i in (start..finish) do 
             for i in start_to_finish do 
-   
+            #for i in periods
+                
                 if granularity == "y"
-                    period = i.to_s
+                    period = i.to_s  
                     v1rel = sprintf("%.10f",variant1h[period].to_f/totalh[period].to_f)
                     v2rel = sprintf("%.10f",variant2h[period].to_f/totalh[period].to_f)
                     o.puts "#{period}\t#{totalh[period].to_i}\t#{variant1h[period].to_i}\t#{variant2h[period].to_i}\t#{v1rel}\t#{v2rel}\t#{variant1h_ipm[period].to_f}\t#{variant2h_ipm[period].to_f}"
@@ -203,8 +208,11 @@ if query == "time"
             o.puts "period\tv1ipm\tv1abs"
             variant1h = data_hash["combined"]["relative"]
             variant1h_abs = data_hash["combined"]["absolute"]
+            periods = [variant1h.keys].flatten.uniq.sort
             #for i in (start..finish) do 
             for i in start_to_finish do 
+            #for i in periods
+                
                 if granularity == "y"
                     period = i.to_s
                     v1rel = variant1h[period]

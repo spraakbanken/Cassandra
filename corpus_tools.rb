@@ -1,7 +1,119 @@
 #PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\KorpApi\\"
 PATH = ""
 
-def get_years(maincorpus,corpus=maincorpus,yearlycorpus=false)
+#require 'uri'
+#require 'net/http'
+#require 'json'
+
+
+def get_years(corpus,nolabel)
+
+    if nolabel
+        firstyear,lastyear = get_years_from_file(corpus,nolabel)
+        if firstyear.nil? or lastyear.nil?
+            firstyear,lastyear = get_years_from_api(corpus)
+        end
+    else
+        corphash = get_years_from_file(corpus,nolabel)
+        corpora = read_corpus_label(corpus,outputmode="array")
+        firstmax = 3000
+        lastmin = 0
+        corpora.each do |corpus1|
+            if corphash[corpus1].nil?
+                first,last = get_years_from_api(corpus1)
+            else
+                first = corphash[corpus1][0]
+                last = corphash[corpus1][1]
+                
+            end
+            if first < firstmax
+                firstmax = first.clone
+            end
+            if last > lastmin
+                lastmax = last.clone
+            end
+            firstyear = firstmax
+            lastyear = lastmax
+            
+        end
+        f = File.open("years.tsv","a:utf-8")
+        f.puts "#{corpus}\t#{firstyear}\t#{lastyear}"
+        f.close
+    
+    end
+    
+    return (firstyear..lastyear).to_a
+end
+
+def get_years_from_api(corpus)
+    safe_uri = URI.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/corpus_info?corpus=#{corpus}")
+    safe_uri.gsub!("+&+","+%26+")
+    uri = URI(safe_uri)
+    res = Net::HTTP.get_response(uri)
+    j = File.open("temp.json", "w:utf-8")
+    j.puts res.body if res.is_a?(Net::HTTPSuccess)
+    j.close
+    file = File.read("temp.json")
+    data_hash = JSON.parse(file)
+    STDERR.puts corpus
+    #STDERR.puts data_hash["corpora"][corpus.upcase]["info"]
+    firstyear = data_hash["corpora"][corpus.upcase]["info"]["FirstDate"][0..3].to_i  #.split(" ")[0].split("-")[0]
+    lastyear = data_hash["corpora"][corpus.upcase]["info"]["LastDate"][0..3].to_i   #.split(" ")[0].split("-")[0]
+    f = File.open("years.tsv","a:utf-8")
+    f.puts "#{corpus}\t#{firstyear}\t#{lastyear}"
+    f.close
+    File.delete("temp.json")
+    return [firstyear,lastyear]
+end
+
+def get_years_from_file(corpus,nolabel)
+    if !nolabel
+        corpora = read_corpus_label(corpus,outputmode="array")
+        corphash = {}
+    end
+
+
+    f = File.open("years.tsv","r:utf-8")
+    firstyear = nil
+    lastyear = nil
+    
+    f.each_line.with_index do |line,index|
+        if index > 0
+            line2 = line.strip.split("\t")
+            if nolabel
+                if line2[0] == corpus
+                    firstyear = line2[1].to_i
+                    lastyear = line2[2].to_i
+                
+                    break
+                end
+            else
+                corpora.each do |corpus1|
+                    if line2[0] == corpus1
+                        firstyear = line2[1].to_i
+                        lastyear = line2[2].to_i
+                        corphash[corpus1] = [firstyear,lastyear]
+                    end
+
+                end
+
+                
+            end
+        end
+    end
+    f.close
+    if nolabel
+        return [firstyear,lastyear]
+    else
+        return corphash
+    end
+
+end
+
+
+
+
+def get_years_deprecated(maincorpus,corpus=maincorpus,yearlycorpus=false)
     #maincorpus = get_maincorpus(corpus)
     #STDERR.puts maincorpus,yearlycorpus
     if yearlycorpus and ["svt","gp","bloggmix","press","webbnyheter"].include?(maincorpus)
