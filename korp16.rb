@@ -95,8 +95,8 @@ end
 
 
 start_to_finish = get_years(corpus_and_label,nolabel)
-STDERR.puts start_to_finish
-__END__
+#STDERR.puts start_to_finish
+#__END__
 
 
 useradd = ""
@@ -118,7 +118,7 @@ if query == "time"
         #    variant1 = "[word = '#{variable}']"
         #else
             variant1, variant2 = read_in_variable(variable,useradd,nvariants, variable_source)
-            STDERR.puts variant1 
+            #STDERR.puts variant1 
         #end
         #variant1.gsub!("\"","\'") 
         variant1.gsub!(" ","+")

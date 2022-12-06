@@ -21,8 +21,6 @@
  
  
  
- 
- 
 {
 "corpora": {
 "FLASHBACK-POLITIK": [
@@ -370,5 +368,5 @@
 "cqp": "[word = 'kommer' %c] [pos = 'VB' & msd = '.*INF.*']"
 }
 ],
-"time": 128.87405037879944
+"time": 117.24743032455444
 }

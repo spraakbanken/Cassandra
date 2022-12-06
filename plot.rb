@@ -17,7 +17,12 @@ corpus_and_label = outhash["corpus_and_label"]
 more_corpora_and_labels = outhash["more_corpora_and_labels"].to_s.split(",")
 whattoplot = outhash["whattoplot"] 
 max_predef = outhash["max"]
-dir = outhash["dir"]
+var_output = outhash["var_output"]
+if var_output.to_s == ""
+    dir = outhash["dir"]
+else
+    dir = "#{var_output}\\#{outhash["dir"]}"
+end
 nyl_year = outhash["nyl_year"]
 variable = outhash["variable"]
 username = outhash["username"]
@@ -25,8 +30,8 @@ nvariants = outhash["nvariants"]
 only_process_local = outhash["only_process_local"]
 granularity = outhash["granularity"]
 total_threshold = outhash["total_threshold"]
-var_output = outhash["var_output"]
-
+format = outhash["format"]
+#dir = "#{var_output}#{dir}"
 
 
 if !Dir.exist?(dir)
@@ -119,8 +124,9 @@ if !years.empty?
             all_years << plot_data[0]
             all_names << "#{plot_data[3]}_#{plot_data[4]}"
         end
-        all_values.flatten!
+        
     end
+    all_values.flatten!
     all_years.flatten!
     all_years.uniq!
     
@@ -138,13 +144,13 @@ if !years.empty?
     elsif (nvariants == 1 or whattoplot == "total") and more_corpora_and_labels.empty?
         max = values.max
     elsif (nvariants == 1 or whattoplot == "total") and !more_corpora_and_labels.empty?
-        max = [all_values].max
+        max = all_values.max
     elsif nvariants == 2
         max = 1
     end
-
+    #STDERR.puts max
     R.assign "maxvalue", max
-    R.eval "pdf(file='#{variable.gsub(":","_colon_")}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}.pdf')"
+    R.eval "#{format}(file='#{variable.gsub(":","_colon_")}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}.#{format}')"
     if nvariants == 1
         ylab = "ipm"
     else
