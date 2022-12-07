@@ -17,6 +17,12 @@ variant1 = [word = ':-\)']
 #label = smiley2
 variant1 = [word = ':\)']
 
+#label = smiley1neg
+variant1 = [word = ':-\(']
+
+#label = smiley2neg
+variant1 = [word = ':\(']
+
 #label = dom1_filtered
 variant1 = [((word = 'de' %c ) | (word = 'dem' %c )) & (pos = 'PN' | pos = 'DT')]
 variant2 = [deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')]

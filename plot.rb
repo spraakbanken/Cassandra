@@ -15,6 +15,7 @@ query = "time"
 outhash = process_cmd
 corpus_and_label = outhash["corpus_and_label"]
 more_corpora_and_labels = outhash["more_corpora_and_labels"].to_s.split(",")
+more_variables = outhash["more_variables"].to_s.split(",")
 whattoplot = outhash["whattoplot"] 
 max_predef = outhash["max"]
 var_output = outhash["var_output"]
@@ -31,6 +32,7 @@ only_process_local = outhash["only_process_local"]
 granularity = outhash["granularity"]
 total_threshold = outhash["total_threshold"]
 format = outhash["format"]
+
 #dir = "#{var_output}#{dir}"
 
 
@@ -90,8 +92,10 @@ end
 
 more_years = []
 more_values = []
+var_more_values = []
 #more_labels = []
 colors = ["black","blue","green","red","gray","magenta","brown","orange"]
+ltys = [1,5,3,4,2]
 
 plot_data = extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold)
 years = plot_data[0]
@@ -108,11 +112,14 @@ if !years.empty?
     R.assign "values", values
     R.assign "labels",labels
     all_names = ["#{maincorpus}_#{subcorpus}"]
-    all_values = []
+    all_values = [values]
     all_years = [years]
+    var_all_names = [variable]
     
+    
+
     if !more_corpora_and_labels.empty?
-        all_values = [values]
+        #all_values = [values]
         
         
         more_corpora_and_labels.each.with_index do |extra_corpus_and_label,index|
@@ -126,6 +133,15 @@ if !years.empty?
         end
         
     end
+
+    if !more_variables.empty?
+        more_variables.each.with_index do |extra_variable,index|
+            plot_data = extract_data(corpus_and_label,inputdir,extra_variable,username,gran_addendum,whattoplot,nvariants,total_threshold)
+            var_more_values[index] = plot_data[1]
+            all_values << plot_data[1]
+            var_all_names << extra_variable.gsub(":","_colon_")
+        end
+    end
     all_values.flatten!
     all_years.flatten!
     all_years.uniq!
@@ -138,19 +154,20 @@ if !years.empty?
     R.assign "maxyear",maxyear
  
     namelist = all_names.join("_")
+    var_namelist = var_all_names.join("_")
     
     if max_predef != nil
         max = max_predef
-    elsif (nvariants == 1 or whattoplot == "total") and more_corpora_and_labels.empty?
-        max = values.max
-    elsif (nvariants == 1 or whattoplot == "total") and !more_corpora_and_labels.empty?
+    #elsif (nvariants == 1 or whattoplot == "total") and more_corpora_and_labels.empty? and more_variables.
+    #    max = values.max
+    elsif (nvariants == 1 or whattoplot == "total") #and !more_corpora_and_labels.empty?
         max = all_values.max
     elsif nvariants == 2
         max = 1
     end
     #STDERR.puts max
     R.assign "maxvalue", max
-    R.eval "#{format}(file='#{variable.gsub(":","_colon_")}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}.#{format}')"
+    R.eval "#{format}(file='#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}.#{format}')"
     if nvariants == 1
         ylab = "ipm"
     else
@@ -181,7 +198,23 @@ if !years.empty?
         R.assign "namelist",all_names
         R.assign "colors",colors
         R.eval "legend('topleft', legend=namelist,col=colors,lty=1,bty='n')"
+    end
+    
+    if !more_variables.empty?
+        for i in 0..more_variables.length-1
+            R.assign "values2", var_more_values[i]
+            lty = ltys[i+1]
+            if granularity == "y"
+                type = "b"
+            elsif granularity == "m"
+                type = "l" 
+            end
 
+            R.eval "lines(years, values2, type='#{type}', lty = #{lty}, lwd = 2)"
+        end
+        R.assign "namelist",var_all_names
+        R.assign "ltys",ltys
+        R.eval "legend('topleft', legend=namelist,lty=ltys,bty='n')"
     end
 
     if !nyl_year.nil?

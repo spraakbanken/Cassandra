@@ -55,7 +55,7 @@ def get_years_from_api(corpus)
     j.close
     file = File.read("temp.json")
     data_hash = JSON.parse(file)
-    STDERR.puts corpus
+    #STDERR.puts corpus
     #STDERR.puts data_hash["corpora"][corpus.upcase]["info"]
     firstyear = data_hash["corpora"][corpus.upcase]["info"]["FirstDate"][0..3].to_i  #.split(" ")[0].split("-")[0]
     lastyear = data_hash["corpora"][corpus.upcase]["info"]["LastDate"][0..3].to_i   #.split(" ")[0].split("-")[0]

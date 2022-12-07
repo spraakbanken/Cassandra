@@ -29,6 +29,10 @@ def process_cmd
                 else
                     username = code_space(ARGV[ARGV.index("--user") + 1],"decode")
                 end
+
+                if ARGV.include?("--more_variables")
+                    more_variables = ARGV[ARGV.index("--more_variables") + 1]
+                end
     
                 if !ARGV.include?("--nvariants")
                     nvariants = 2
@@ -108,6 +112,6 @@ def process_cmd
             only_process_local = true
         end
     end
-    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label, "format" => format}
+    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label, "format" => format, "more_variables" => more_variables}
     return outhash
 end
