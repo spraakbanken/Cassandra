@@ -1,5 +1,5 @@
 # Cassandra
-This is a very preliminary release of some scripts we are using within the Cassandra project to study language change in contemporary Swedish. You will find a very detailed tutorial and manual for v1.0.0 [https://spraakbanken.gu.se/blogg/index.php/2022/12/07/cassandra-a-toolset-for-analyzing-and-visualizing-language-change/](here). This readme provides only a very short summary.
+This is a very preliminary release of some scripts we are using within the Cassandra project to study language change in contemporary Swedish. You will find a very detailed tutorial and manual for v1.0.0 [here](https://spraakbanken.gu.se/blogg/index.php/2022/12/07/cassandra-a-toolset-for-analyzing-and-visualizing-language-change/). This readme provides only a very short summary.
 
 ## Requirements: 
 - Ruby (recommended version:  2.6.3p62. Any other version should in principle also be fine, but if you use 3.0+, you may have to tweak some of the scripts, since some methods have become deprecated);
