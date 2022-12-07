@@ -9,12 +9,12 @@ This is a very preliminary release of some scripts we are using within the Cassa
 ## Usage
 
 ### General
-`korp16.rb` will output a json and a tsv that contain the relative frequencies of the given variant(s) across the years. It will do so by running `count_time` in the [https://ws.spraakbanken.gu.se/docs/korp](Korp API). So basically it's a wrapper for running this command and processing its output in a convenient way.
+`korp16.rb` will output a json and a tsv that contain the relative frequencies of the given variant(s) across the years. It will do so by running `count_time` in the [Korp API](https://ws.spraakbanken.gu.se/docs/korp). So basically it's a wrapper for running this command and processing its output in a convenient way.
 
 `plot.rb` draws a nice graph, using the tsv file.
 
 ### Variable
-`korp16.rb` needs to know what to look for. You have to descripe your variable using the CQP language (https://cwb.sourceforge.io/files/CQP_Tutorial.pdf) in the file `korp_queries.rb`. The description consists of two or three lines.
+`korp16.rb` needs to know what to look for. You have to descripe your variable using the [CQP language](https://cwb.sourceforge.io/files/CQP_Tutorial.pdf) in the file `korp_queries.rb`. The description consists of two or three lines.
 
 Line 1: a unique label of your choice. "#label = your_label"
 
@@ -28,7 +28,7 @@ When launching `korp16.rb`, provide the label of your variable in the command li
 If you are using only one variant, add `--nvariants 1`. The default is `--nvariants 2`, it's not necessary to specify it.
 
 ### Corpus
-`korp16.rb` needs to know where to look for your variable. You may name a specific corpus at Språkbanken Text (the list of all corpora is available [https://ws.spraakbanken.gu.se/ws/korp/v8/info?indent=4](here)).
+`korp16.rb` needs to know where to look for your variable. You may name a specific corpus at Språkbanken Text (the list of all corpora is available [here](https://ws.spraakbanken.gu.se/ws/korp/v8/info?indent=4)).
 
 Example: `ruby korp16.rb --variable your_label --corpus familjeliv-pappagrupp`
 
@@ -48,7 +48,7 @@ Run `ruby plot.rb --variable your_label --corpus familjeliv-all [--nvariants n]`
 
 ### Other
 
-See more in the [https://spraakbanken.gu.se/blogg/index.php/2022/12/07/cassandra-a-toolset-for-analyzing-and-visualizing-language-change/](tutorial).
+See more in the [tutorial](https://spraakbanken.gu.se/blogg/index.php/2022/12/07/cassandra-a-toolset-for-analyzing-and-visualizing-language-change/).
 
 ## Contact
 aleksandrs.berdicevskis@gu.se
