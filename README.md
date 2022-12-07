@@ -1,5 +1,5 @@
 # Cassandra
-This is a very preliminary release of some scripts we are using within the Cassandra project to study language change in contemporary Swedish.
+This is a very preliminary release of some scripts we are using within the Cassandra project to study language change in contemporary Swedish. You will find a very detailed tutorial and manual for v1.0.0 [https://spraakbanken.gu.se/blogg/index.php/2022/12/07/cassandra-a-toolset-for-analyzing-and-visualizing-language-change/](here). This readme provides only a very short summary.
 
 ## Requirements: 
 - Ruby (recommended version:  2.6.3p62. Any other version should in principle also be fine, but if you use 3.0+, you may have to tweak some of the scripts, since some methods have become deprecated);
@@ -9,7 +9,7 @@ This is a very preliminary release of some scripts we are using within the Cassa
 ## Usage
 
 ### General
-`korp16.rb` will output a json and a tsv that contain the relative frequencies of the given variant(s) across the years. It will do so by running `count_time` in the Korp API: https://ws.spraakbanken.gu.se/docs/korp. So basically it's a wrapper for running this command and processing its output in a convenient way.
+`korp16.rb` will output a json and a tsv that contain the relative frequencies of the given variant(s) across the years. It will do so by running `count_time` in the [https://ws.spraakbanken.gu.se/docs/korp](Korp API). So basically it's a wrapper for running this command and processing its output in a convenient way.
 
 `plot.rb` draws a nice graph, using the tsv file.
 
@@ -28,32 +28,27 @@ When launching `korp16.rb`, provide the label of your variable in the command li
 If you are using only one variant, add `--nvariants 1`. The default is `--nvariants 2`, it's not necessary to specify it.
 
 ### Corpus
-`korp16.rb` needs to know where to look for your variable. You may name a specific corpus at Språkbanken Text (the list of all corpora is available here: https://ws.spraakbanken.gu.se/ws/korp/v8/info?indent=4). In this case, add `--nolabel` to the command line.
+`korp16.rb` needs to know where to look for your variable. You may name a specific corpus at Språkbanken Text (the list of all corpora is available [https://ws.spraakbanken.gu.se/ws/korp/v8/info?indent=4](here)).
 
-Example: `ruby korp16.rb --variable your_label --corpus familjeliv-pappagrupp --nolabel`
+Example: `ruby korp16.rb --variable your_label --corpus familjeliv-pappagrupp`
 
 It is, however, usually convenient to search in several corpora at once. You may, for instance, want to look in the whole Familjeliv. In this case, use:
 
 Example: `ruby korp16.rb --variable your_label --corpus familjeliv-all`
 
-Since there is no `--nolabel` flag, the script will look up your corpus label in `subforum_labels.tsv` (first column) and search in all subcorpora specified in the second column. The third column says how the forum names should be generated. 
+The script will look up your corpus label in `subforum_labels.tsv` (first column) and search in all subcorpora specified in the second column. The third column says how the forum names should be generated. 
 
 Feel free to add your own labels to `subforum_labels.tsv`. 
 
 ### Plotting
 
-Run `ruby plot.rb --variable your_label --corpus familjeliv-all [--nvariants n]` in order to create a nice jpg with a rather self-explanatory name. See the requirements above. The command-line parameters are exactly the same as for `korp16.rb`.
+Run `ruby plot.rb --variable your_label --corpus familjeliv-all [--nvariants n]` in order to create a nice pdf with a rather self-explanatory name. See the requirements above. The command-line parameters are exactly the same as for `korp16.rb`.
 
 
 
 ### Other
 
-There is some additional functionality (which may not always work properly), for instance:
-`--granularity`: (m)onth or (y)ear (default)
-`--user`: whether the script should look only in texts authored by the user with a specific `username`. Might not work correctly for some corpora.
-
-The script is using `corpus_tools.rb` as an auxiliary script.
-Output will be stored in the folder `variables` (`\\variable_name\\corpus_name\\subcorpus_name\\username.{json,tsv}.` By default, `username = all_users`.
+See more in the [https://spraakbanken.gu.se/blogg/index.php/2022/12/07/cassandra-a-toolset-for-analyzing-and-visualizing-language-change/](tutorial).
 
 ## Contact
 aleksandrs.berdicevskis@gu.se
