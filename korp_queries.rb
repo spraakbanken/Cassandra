@@ -1,3 +1,19 @@
+#label = ish_typ
+variant1 = [word = 'typ']
+variant2 = [word = 'ish']
+
+
+#label = ish_word
+variant1 = [word = 'ish']
+
+#label = ish_affix
+variant1 = [word = '.*ish']
+
+#label = ish_word_or_clitic
+variant1 = [word = '.*\[-:;,\]ish']
+
+
+
 #label = kommer_att0
 variant1 = [word = 'kommer' %c] [word = 'att' %c] [pos = 'VB' & msd = '.*INF.*']
 variant2 = [word = 'kommer' %c] [pos = 'VB' & msd = '.*INF.*']
