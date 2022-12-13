@@ -1,3 +1,70 @@
+### Use single quotes, not double quotes in this file!
+
+#label = sprita
+variant1 = [lemma contains 'sprita']
+
+#label = hbt(q)
+variant1 = [(word = 'hbt' %c )]
+variant2 = [(word = 'hbtq' %c )]
+
+#label = hbt(q)2
+variant1 = [(word = 'hbt*' %c )]
+variant2 = [(word = 'hbtq*' %c )]
+
+#label = aen
+variant1 = [word = 'än' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\.\.pn\.1' | lex contains 'du\.\.pn\.1' | lex contains 'han\.\.pn\.1' | lex contains 'hon\.\.pn\.1' | lex contains 'vi\.\.pn\.1' | lex contains 'ni\.\.pn\.1')]
+variant2 = [word = 'än' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\.\.pn\.1' | lex contains 'du\.\.pn\.1' | lex contains 'han\.\.pn\.1' | lex contains 'hon\.\.pn\.1' | lex contains 'vi\.\.pn\.1' | lex contains 'ni\.\.pn\.1')]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#label = oevertagit_vs_oevertatt
+variant1 = [word = 'övertagit']
+variant2 = [word = 'övertatt']
+
+#label = oevertaga_vs_oeverta_inf
+variant1 = [word = 'övertaga']
+variant2 = [word = 'överta']
+
+
+
+#label = tagit_vs_tatt
+variant1 = [word = 'har'] [word = 'tagit']
+variant2 = [word = 'har'] [word = 'tatt']
+
+#label = givit_vs_gett
+variant1 = [word = 'har'] [word = 'givit']
+variant2 = [word = 'har'] [word = 'gett']
+
+
 #label = ish_typ
 variant1 = [word = 'typ']
 variant2 = [word = 'ish']
@@ -185,7 +252,7 @@ variant1 = [(word = 'matkasse' %c | word = 'matkasses' %c | word = 'matkassen' %
 variant1 = [(word = 'menskopp' %c | word = 'menskopps' %c | word = 'menskoppen' %c | word = 'menskoppens' %c | word = 'menskoppar' %c | word = 'menskoppars' %c | word = 'menskopparna' %c | word = 'menskopparnas' %c )]
 
 #label = nyord_sprita
-variant1 = [(lex contains 'sprita..vb.2' )]
+variant1 = [(lex contains 'sprita..vb.3' )]
 
 #label = nyord_fronta
 variant1 = [(lex contains 'fronta..vb.1' )]
@@ -510,13 +577,7 @@ variant2 = [(lex contains 'tvittra..vb.1' | lex contains 'twittra..vb.1' )]
 variant1 = [(word = 'pm:a' %c | word = 'pm:ar' %c | word = 'pm:ade' %c | word = 'pm:at' %c | word = 'pm:as' %c | word = 'pm:ades' %c | word = 'pm:ats' %c | word = 'pma' %c | word = 'pmar' %c | word = 'pmade' %c | word = 'pmat' %c | word = 'pmas' %c | word = 'pmades' %c | word = 'pmats' %c )]
 variant2 = [(word = 'dm:a' %c | word = 'dm:ar' %c | word = 'dm:ade' %c | word = 'dm:at' %c | word = 'dm:as' %c | word = 'dm:ades' %c | word = 'dm:ats' %c | word = 'dma' %c | word = 'dmar' %c | word = 'dmade' %c | word = 'dmat' %c | word = 'dmas' %c | word = 'dmades' %c | word = 'dmats' %c )]
 
-#label = hbt(q)
-variant1 = [(word = 'hbt' %c )]
-variant2 = [(word = 'hbtq' %c )]
 
-#label = hbt(q)2
-variant1 = [(word = 'hbt*' %c )]
-variant2 = [(word = 'hbtq*' %c )]
 
 
 

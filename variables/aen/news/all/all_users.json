@@ -1,0 +1,1733 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"corpora": {
+"DA": [
+{
+"absolute": {
+"2007": 0,
+"2023": null,
+"2009": 2,
+"2010": 0,
+"2012": 5,
+"2013": 4,
+"2014": 11,
+"2015": 6,
+"2016": 5,
+"2017": 4,
+"2018": 3,
+"2019": 12,
+"2020": 5,
+"2021": 4,
+"2022": 8
+},
+"relative": {
+"2007": 0,
+"2023": null,
+"2009": 13.938836385938503,
+"2010": 0.0,
+"2012": 7.906838466452866,
+"2013": 5.240788004884414,
+"2014": 10.836135952131862,
+"2015": 6.5487884741322855,
+"2016": 6.532002894983683,
+"2017": 4.717415045251804,
+"2018": 3.4428701601852723,
+"2019": 13.405514581848486,
+"2020": 5.412444508912672,
+"2021": 4.571486041538808,
+"2022": 15.83145829499152
+},
+"sums": {
+"absolute": 69,
+"relative": 98.38457881125218
+}
+},
+{
+"absolute": {
+"2007": 0,
+"2023": null,
+"2009": 2,
+"2010": 0,
+"2012": 4,
+"2013": 4,
+"2014": 5,
+"2015": 3,
+"2016": 1,
+"2017": 3,
+"2018": 2,
+"2019": 9,
+"2020": 4,
+"2021": 3,
+"2022": 6
+},
+"relative": {
+"2007": 0,
+"2023": null,
+"2009": 13.938836385938503,
+"2010": 0.0,
+"2012": 6.325470773162293,
+"2013": 5.240788004884414,
+"2014": 4.92551634187812,
+"2015": 3.2743942370661427,
+"2016": 1.3064005789967366,
+"2017": 3.5380612839388528,
+"2018": 2.2952467734568485,
+"2019": 10.054135936386364,
+"2020": 4.329955607130138,
+"2021": 3.4286145311541056,
+"2022": 11.87359372124364
+},
+"sums": {
+"absolute": 46,
+"relative": 70.53101417523615
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2007": 0,
+"2023": null,
+"2012": 1,
+"2013": 0,
+"2014": 6,
+"2015": 3,
+"2016": 4,
+"2017": 1,
+"2018": 1,
+"2019": 3,
+"2020": 1,
+"2021": 1,
+"2022": 2
+},
+"relative": {
+"2007": 0,
+"2023": null,
+"2012": 1.5813676932905731,
+"2013": 0.0,
+"2014": 5.910619610253742,
+"2015": 3.2743942370661427,
+"2016": 5.225602315986946,
+"2017": 1.179353761312951,
+"2018": 1.1476233867284242,
+"2019": 3.3513786454621215,
+"2020": 1.0824889017825345,
+"2021": 1.142871510384702,
+"2022": 3.95786457374788
+},
+"sums": {
+"absolute": 23,
+"relative": 27.853564636016014
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2001": [
+{
+"absolute": {
+"2001": 494,
+"2002": null
+},
+"relative": {
+"2001": 28.321892874790805,
+"2002": null
+},
+"sums": {
+"absolute": 494,
+"relative": 28.321892874790805
+}
+},
+{
+"absolute": {
+"2001": 419,
+"2002": null
+},
+"relative": {
+"2001": 24.022010353314467,
+"2002": null
+},
+"sums": {
+"absolute": 419,
+"relative": 24.022010353314467
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2001": 75,
+"2002": null
+},
+"relative": {
+"2001": 4.299882521476336,
+"2002": null
+},
+"sums": {
+"absolute": 75,
+"relative": 4.299882521476336
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2002": [
+{
+"absolute": {
+"2002": 547,
+"2003": null
+},
+"relative": {
+"2002": 25.92425662075656,
+"2003": null
+},
+"sums": {
+"absolute": 547,
+"relative": 25.92425662075656
+}
+},
+{
+"absolute": {
+"2002": 474,
+"2003": null
+},
+"relative": {
+"2002": 22.464529503178447,
+"2003": null
+},
+"sums": {
+"absolute": 474,
+"relative": 22.464529503178447
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2002": 73,
+"2003": null
+},
+"relative": {
+"2002": 3.4597271175781152,
+"2003": null
+},
+"sums": {
+"absolute": 73,
+"relative": 3.4597271175781152
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2003": [
+{
+"absolute": {
+"2003": 503,
+"2004": null
+},
+"relative": {
+"2003": 26.340399018817518,
+"2004": null
+},
+"sums": {
+"absolute": 503,
+"relative": 26.340399018817518
+}
+},
+{
+"absolute": {
+"2003": 446,
+"2004": null
+},
+"relative": {
+"2003": 23.35550290734118,
+"2004": null
+},
+"sums": {
+"absolute": 446,
+"relative": 23.35550290734118
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2003": 57,
+"2004": null
+},
+"relative": {
+"2003": 2.9848961114763393,
+"2004": null
+},
+"sums": {
+"absolute": 57,
+"relative": 2.9848961114763393
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2004": [
+{
+"absolute": {
+"2004": 572,
+"2005": null
+},
+"relative": {
+"2004": 25.548625466083752,
+"2005": null
+},
+"sums": {
+"absolute": 572,
+"relative": 25.548625466083752
+}
+},
+{
+"absolute": {
+"2004": 502,
+"2005": null
+},
+"relative": {
+"2004": 22.422045426528047,
+"2005": null
+},
+"sums": {
+"absolute": 502,
+"relative": 22.422045426528047
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2004": 70,
+"2005": null
+},
+"relative": {
+"2004": 3.126580039555704,
+"2005": null
+},
+"sums": {
+"absolute": 70,
+"relative": 3.126580039555704
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2005": [
+{
+"absolute": {
+"2005": 535,
+"2006": null
+},
+"relative": {
+"2005": 23.069246374721832,
+"2006": null
+},
+"sums": {
+"absolute": 535,
+"relative": 23.069246374721832
+}
+},
+{
+"absolute": {
+"2005": 483,
+"2006": null
+},
+"relative": {
+"2005": 20.827001867272234,
+"2006": null
+},
+"sums": {
+"absolute": 483,
+"relative": 20.827001867272234
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2005": 52,
+"2006": null
+},
+"relative": {
+"2005": 2.2422445074495987,
+"2006": null
+},
+"sums": {
+"absolute": 52,
+"relative": 2.2422445074495987
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2006": [
+{
+"absolute": {
+"2006": 585,
+"2007": null
+},
+"relative": {
+"2006": 25.9902553869136,
+"2007": null
+},
+"sums": {
+"absolute": 585,
+"relative": 25.9902553869136
+}
+},
+{
+"absolute": {
+"2006": 527,
+"2007": null
+},
+"relative": {
+"2006": 23.41344374171533,
+"2007": null
+},
+"sums": {
+"absolute": 527,
+"relative": 23.41344374171533
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2006": 58,
+"2007": null
+},
+"relative": {
+"2006": 2.5768116451982714,
+"2007": null
+},
+"sums": {
+"absolute": 58,
+"relative": 2.5768116451982714
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2007": [
+{
+"absolute": {
+"2007": 591,
+"2008": null
+},
+"relative": {
+"2007": 31.715118172891508,
+"2008": null
+},
+"sums": {
+"absolute": 591,
+"relative": 31.715118172891508
+}
+},
+{
+"absolute": {
+"2007": 528,
+"2008": null
+},
+"relative": {
+"2007": 28.334318773750788,
+"2008": null
+},
+"sums": {
+"absolute": 528,
+"relative": 28.334318773750788
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2007": 63,
+"2008": null
+},
+"relative": {
+"2007": 3.380799399140719,
+"2008": null
+},
+"sums": {
+"absolute": 63,
+"relative": 3.380799399140719
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2008": [
+{
+"absolute": {
+"2008": 429,
+"2009": null
+},
+"relative": {
+"2008": 25.343847780951176,
+"2009": null
+},
+"sums": {
+"absolute": 429,
+"relative": 25.343847780951176
+}
+},
+{
+"absolute": {
+"2008": 359,
+"2009": null
+},
+"relative": {
+"2008": 21.208488003173596,
+"2009": null
+},
+"sums": {
+"absolute": 359,
+"relative": 21.208488003173596
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2008": 70,
+"2009": null
+},
+"relative": {
+"2008": 4.135359777777581,
+"2009": null
+},
+"sums": {
+"absolute": 70,
+"relative": 4.135359777777581
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2009": [
+{
+"absolute": {
+"2009": 459,
+"2010": null
+},
+"relative": {
+"2009": 26.403153606472326,
+"2010": null
+},
+"sums": {
+"absolute": 459,
+"relative": 26.403153606472326
+}
+},
+{
+"absolute": {
+"2009": 397,
+"2010": null
+},
+"relative": {
+"2009": 22.836714557232057,
+"2010": null
+},
+"sums": {
+"absolute": 397,
+"relative": 22.836714557232057
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2009": 62,
+"2010": null
+},
+"relative": {
+"2009": 3.566439049240271,
+"2010": null
+},
+"sums": {
+"absolute": 62,
+"relative": 3.566439049240271
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2010": [
+{
+"absolute": {
+"2010": 520,
+"2011": null
+},
+"relative": {
+"2010": 30.16888425371057,
+"2011": null
+},
+"sums": {
+"absolute": 520,
+"relative": 30.16888425371057
+}
+},
+{
+"absolute": {
+"2010": 438,
+"2011": null
+},
+"relative": {
+"2010": 25.411483275240826,
+"2011": null
+},
+"sums": {
+"absolute": 438,
+"relative": 25.411483275240826
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2010": 82,
+"2011": null
+},
+"relative": {
+"2010": 4.757400978469744,
+"2011": null
+},
+"sums": {
+"absolute": 82,
+"relative": 4.757400978469744
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2011": [
+{
+"absolute": {
+"2011": 587,
+"2012": null
+},
+"relative": {
+"2011": 29.44467641253687,
+"2012": null
+},
+"sums": {
+"absolute": 587,
+"relative": 29.44467641253687
+}
+},
+{
+"absolute": {
+"2011": 500,
+"2012": null
+},
+"relative": {
+"2011": 25.080644303694097,
+"2012": null
+},
+"sums": {
+"absolute": 500,
+"relative": 25.080644303694097
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2011": 87,
+"2012": null
+},
+"relative": {
+"2011": 4.364032108842773,
+"2012": null
+},
+"sums": {
+"absolute": 87,
+"relative": 4.364032108842773
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2012": [
+{
+"absolute": {
+"2012": 521,
+"2013": null
+},
+"relative": {
+"2012": 30.304784113313136,
+"2013": null
+},
+"sums": {
+"absolute": 521,
+"relative": 30.304784113313136
+}
+},
+{
+"absolute": {
+"2012": 417,
+"2013": null
+},
+"relative": {
+"2012": 24.2554606050894,
+"2013": null
+},
+"sums": {
+"absolute": 417,
+"relative": 24.2554606050894
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2012": 104,
+"2013": null
+},
+"relative": {
+"2012": 6.049323508223735,
+"2013": null
+},
+"sums": {
+"absolute": 104,
+"relative": 6.049323508223735
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"GP2013": [
+{
+"absolute": {
+"2013": 519,
+"2014": null
+},
+"relative": {
+"2013": 30.762455460380295,
+"2014": null
+},
+"sums": {
+"absolute": 519,
+"relative": 30.762455460380295
+}
+},
+{
+"absolute": {
+"2013": 441,
+"2014": null
+},
+"relative": {
+"2013": 26.13919625824222,
+"2014": null
+},
+"sums": {
+"absolute": 441,
+"relative": 26.13919625824222
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2013": 78,
+"2014": null
+},
+"relative": {
+"2013": 4.62325920213808,
+"2014": null
+},
+"sums": {
+"absolute": 78,
+"relative": 4.62325920213808
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2004": [
+{
+"absolute": {
+"2004": 2,
+"2005": null
+},
+"relative": {
+"2004": 4.472381923526742,
+"2005": null
+},
+"sums": {
+"absolute": 2,
+"relative": 4.472381923526742
+}
+},
+{
+"absolute": {
+"2004": 2,
+"2005": null
+},
+"relative": {
+"2004": 4.472381923526742,
+"2005": null
+},
+"sums": {
+"absolute": 2,
+"relative": 4.472381923526742
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2005": [
+{
+"absolute": {
+"2005": 26,
+"2006": null
+},
+"relative": {
+"2005": 7.877245848236982,
+"2006": null
+},
+"sums": {
+"absolute": 26,
+"relative": 7.877245848236982
+}
+},
+{
+"absolute": {
+"2005": 22,
+"2006": null
+},
+"relative": {
+"2005": 6.665361871585138,
+"2006": null
+},
+"sums": {
+"absolute": 22,
+"relative": 6.665361871585138
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2005": 4,
+"2006": null
+},
+"relative": {
+"2005": 1.2118839766518434,
+"2006": null
+},
+"sums": {
+"absolute": 4,
+"relative": 1.2118839766518434
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2006": [
+{
+"absolute": {
+"2006": 32,
+"2007": null
+},
+"relative": {
+"2006": 7.6699780998156575,
+"2007": null
+},
+"sums": {
+"absolute": 32,
+"relative": 7.6699780998156575
+}
+},
+{
+"absolute": {
+"2006": 24,
+"2007": null
+},
+"relative": {
+"2006": 5.752483574861743,
+"2007": null
+},
+"sums": {
+"absolute": 24,
+"relative": 5.752483574861743
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2006": 8,
+"2007": null
+},
+"relative": {
+"2006": 1.9174945249539144,
+"2007": null
+},
+"sums": {
+"absolute": 8,
+"relative": 1.9174945249539144
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2007": [
+{
+"absolute": {
+"2007": 27,
+"2008": null
+},
+"relative": {
+"2007": 4.879210623234222,
+"2008": null
+},
+"sums": {
+"absolute": 27,
+"relative": 4.879210623234222
+}
+},
+{
+"absolute": {
+"2007": 15,
+"2008": null
+},
+"relative": {
+"2007": 2.7106725684634574,
+"2008": null
+},
+"sums": {
+"absolute": 15,
+"relative": 2.7106725684634574
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2007": 12,
+"2008": null
+},
+"relative": {
+"2007": 2.1685380547707656,
+"2008": null
+},
+"sums": {
+"absolute": 12,
+"relative": 2.1685380547707656
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2008": [
+{
+"absolute": {
+"2008": 38,
+"2009": null
+},
+"relative": {
+"2008": 4.939189479006495,
+"2009": null
+},
+"sums": {
+"absolute": 38,
+"relative": 4.939189479006495
+}
+},
+{
+"absolute": {
+"2008": 30,
+"2009": null
+},
+"relative": {
+"2008": 3.899360115005128,
+"2009": null
+},
+"sums": {
+"absolute": 30,
+"relative": 3.899360115005128
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2008": 8,
+"2009": null
+},
+"relative": {
+"2008": 1.0398293640013674,
+"2009": null
+},
+"sums": {
+"absolute": 8,
+"relative": 1.0398293640013674
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2009": [
+{
+"absolute": {
+"2009": 57,
+"2010": null
+},
+"relative": {
+"2009": 6.432693430809328,
+"2010": null
+},
+"sums": {
+"absolute": 57,
+"relative": 6.432693430809328
+}
+},
+{
+"absolute": {
+"2009": 36,
+"2010": null
+},
+"relative": {
+"2009": 4.062753745774313,
+"2010": null
+},
+"sums": {
+"absolute": 36,
+"relative": 4.062753745774313
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2009": 21,
+"2010": null
+},
+"relative": {
+"2009": 2.369939685035016,
+"2010": null
+},
+"sums": {
+"absolute": 21,
+"relative": 2.369939685035016
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2010": [
+{
+"absolute": {
+"2010": 69,
+"2011": null
+},
+"relative": {
+"2010": 6.988522213169779,
+"2011": null
+},
+"sums": {
+"absolute": 69,
+"relative": 6.988522213169779
+}
+},
+{
+"absolute": {
+"2010": 45,
+"2011": null
+},
+"relative": {
+"2010": 4.557731878154203,
+"2011": null
+},
+"sums": {
+"absolute": 45,
+"relative": 4.557731878154203
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2010": 24,
+"2011": null
+},
+"relative": {
+"2010": 2.4307903350155753,
+"2011": null
+},
+"sums": {
+"absolute": 24,
+"relative": 2.4307903350155753
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2011": [
+{
+"absolute": {
+"2011": 64,
+"2012": null
+},
+"relative": {
+"2011": 6.86174169445136,
+"2012": null
+},
+"sums": {
+"absolute": 64,
+"relative": 6.86174169445136
+}
+},
+{
+"absolute": {
+"2011": 38,
+"2012": null
+},
+"relative": {
+"2011": 4.074159131080495,
+"2012": null
+},
+"sums": {
+"absolute": 38,
+"relative": 4.074159131080495
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2011": 26,
+"2012": null
+},
+"relative": {
+"2011": 2.787582563370865,
+"2012": null
+},
+"sums": {
+"absolute": 26,
+"relative": 2.787582563370865
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2012": [
+{
+"absolute": {
+"2012": 70,
+"2013": null
+},
+"relative": {
+"2012": 7.333935344654625,
+"2013": null
+},
+"sums": {
+"absolute": 70,
+"relative": 7.333935344654625
+}
+},
+{
+"absolute": {
+"2012": 47,
+"2013": null
+},
+"relative": {
+"2012": 4.924213731410962,
+"2013": null
+},
+"sums": {
+"absolute": 47,
+"relative": 4.924213731410962
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2012": 23,
+"2013": null
+},
+"relative": {
+"2012": 2.4097216132436623,
+"2013": null
+},
+"sums": {
+"absolute": 23,
+"relative": 2.4097216132436623
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2013": [
+{
+"absolute": {
+"2013": 126,
+"2014": null
+},
+"relative": {
+"2013": 9.024605587133319,
+"2014": null
+},
+"sums": {
+"absolute": 126,
+"relative": 9.024605587133319
+}
+},
+{
+"absolute": {
+"2013": 77,
+"2014": null
+},
+"relative": {
+"2013": 5.515036747692585,
+"2014": null
+},
+"sums": {
+"absolute": 77,
+"relative": 5.515036747692585
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2013": 49,
+"2014": null
+},
+"relative": {
+"2013": 3.5095688394407354,
+"2014": null
+},
+"sums": {
+"absolute": 49,
+"relative": 3.5095688394407354
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2014": [
+{
+"absolute": {
+"2014": 138,
+"2015": null
+},
+"relative": {
+"2014": 8.583572460466119,
+"2015": null
+},
+"sums": {
+"absolute": 138,
+"relative": 8.583572460466119
+}
+},
+{
+"absolute": {
+"2014": 86,
+"2015": null
+},
+"relative": {
+"2014": 5.349182837681783,
+"2015": null
+},
+"sums": {
+"absolute": 86,
+"relative": 5.349182837681783
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2014": 52,
+"2015": null
+},
+"relative": {
+"2014": 3.2343896227843345,
+"2015": null
+},
+"sums": {
+"absolute": 52,
+"relative": 3.2343896227843345
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2015": [
+{
+"absolute": {
+"2015": 149,
+"2016": null
+},
+"relative": {
+"2015": 7.758380091892545,
+"2016": null
+},
+"sums": {
+"absolute": 149,
+"relative": 7.758380091892545
+}
+},
+{
+"absolute": {
+"2015": 79,
+"2016": null
+},
+"relative": {
+"2015": 4.113503538654436,
+"2016": null
+},
+"sums": {
+"absolute": 79,
+"relative": 4.113503538654436
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2015": 70,
+"2016": null
+},
+"relative": {
+"2015": 3.644876553238108,
+"2016": null
+},
+"sums": {
+"absolute": 70,
+"relative": 3.644876553238108
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2016": [
+{
+"absolute": {
+"2016": 175,
+"2017": null
+},
+"relative": {
+"2016": 8.053552164145936,
+"2017": null
+},
+"sums": {
+"absolute": 175,
+"relative": 8.053552164145936
+}
+},
+{
+"absolute": {
+"2016": 119,
+"2017": null
+},
+"relative": {
+"2016": 5.4764154716192355,
+"2017": null
+},
+"sums": {
+"absolute": 119,
+"relative": 5.4764154716192355
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2016": 56,
+"2017": null
+},
+"relative": {
+"2016": 2.5771366925266994,
+"2017": null
+},
+"sums": {
+"absolute": 56,
+"relative": 2.5771366925266994
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2017": [
+{
+"absolute": {
+"2017": 178,
+"2018": null
+},
+"relative": {
+"2017": 8.402313336236695,
+"2018": null
+},
+"sums": {
+"absolute": 178,
+"relative": 8.402313336236695
+}
+},
+{
+"absolute": {
+"2017": 100,
+"2018": null
+},
+"relative": {
+"2017": 4.720400750694772,
+"2018": null
+},
+"sums": {
+"absolute": 100,
+"relative": 4.720400750694772
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2017": 78,
+"2018": null
+},
+"relative": {
+"2017": 3.6819125855419226,
+"2018": null
+},
+"sums": {
+"absolute": 78,
+"relative": 3.6819125855419226
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2018": [
+{
+"absolute": {
+"2018": 162,
+"2019": null
+},
+"relative": {
+"2018": 8.608944438191445,
+"2019": null
+},
+"sums": {
+"absolute": 162,
+"relative": 8.608944438191445
+}
+},
+{
+"absolute": {
+"2018": 94,
+"2019": null
+},
+"relative": {
+"2018": 4.995313439444419,
+"2019": null
+},
+"sums": {
+"absolute": 94,
+"relative": 4.995313439444419
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2018": 68,
+"2019": null
+},
+"relative": {
+"2018": 3.6136309987470265,
+"2019": null
+},
+"sums": {
+"absolute": 68,
+"relative": 3.6136309987470265
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2019": [
+{
+"absolute": {
+"2019": 188,
+"2020": null
+},
+"relative": {
+"2019": 10.287398729998738,
+"2020": null
+},
+"sums": {
+"absolute": 188,
+"relative": 10.287398729998738
+}
+},
+{
+"absolute": {
+"2019": 94,
+"2020": null
+},
+"relative": {
+"2019": 5.143699364999369,
+"2020": null
+},
+"sums": {
+"absolute": 94,
+"relative": 5.143699364999369
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2019": 94,
+"2020": null
+},
+"relative": {
+"2019": 5.143699364999369,
+"2020": null
+},
+"sums": {
+"absolute": 94,
+"relative": 5.143699364999369
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2020": [
+{
+"absolute": {
+"2020": 148,
+"2021": null
+},
+"relative": {
+"2020": 9.235127980777955,
+"2021": null
+},
+"sums": {
+"absolute": 148,
+"relative": 9.235127980777955
+}
+},
+{
+"absolute": {
+"2020": 83,
+"2021": null
+},
+"relative": {
+"2020": 5.17915961084169,
+"2021": null
+},
+"sums": {
+"absolute": 83,
+"relative": 5.17915961084169
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2020": 65,
+"2021": null
+},
+"relative": {
+"2020": 4.055968369936264,
+"2021": null
+},
+"sums": {
+"absolute": 65,
+"relative": 4.055968369936264
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"SVT-2021": [
+{
+"absolute": {
+"2021": 155,
+"2022": null
+},
+"relative": {
+"2021": 10.347823735838084,
+"2022": null
+},
+"sums": {
+"absolute": 155,
+"relative": 10.347823735838084
+}
+},
+{
+"absolute": {
+"2021": 49,
+"2022": null
+},
+"relative": {
+"2021": 3.271247503587524,
+"2022": null
+},
+"sums": {
+"absolute": 49,
+"relative": 3.271247503587524
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2021": 106,
+"2022": null
+},
+"relative": {
+"2021": 7.076576232250561,
+"2022": null
+},
+"sums": {
+"absolute": 106,
+"relative": 7.076576232250561
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2001": 494,
+"2023": null,
+"2002": 547,
+"2003": 503,
+"2004": 574,
+"2005": 561,
+"2006": 617,
+"2007": 618,
+"2008": 467,
+"2009": 518,
+"2010": 589,
+"2011": 651,
+"2012": 596,
+"2013": 649,
+"2014": 149,
+"2015": 155,
+"2016": 180,
+"2017": 182,
+"2018": 165,
+"2019": 200,
+"2020": 153,
+"2021": 159,
+"2022": 8
+},
+"relative": {
+"2001": 28.321892874790805,
+"2023": null,
+"2002": 25.92425662075656,
+"2003": 26.340399018817518,
+"2004": 25.135894762752404,
+"2005": 21.176448738989663,
+"2006": 23.125462907488366,
+"2007": 25.55467602811362,
+"2008": 18.883474727562408,
+"2009": 19.629572534605266,
+"2010": 21.566600812251643,
+"2011": 21.82033405087932,
+"2012": 21.77643059456963,
+"2013": 20.540387529066706,
+"2014": 8.717353219663728,
+"2015": 7.703302579761486,
+"2016": 8.001776750073038,
+"2017": 8.260500230477035,
+"2018": 8.38031217831029,
+"2019": 10.433001377834328,
+"2020": 9.026781398434874,
+"2021": 10.029024881064595,
+"2022": 15.83145829499152
+},
+"sums": {
+"absolute": 8735,
+"relative": 18.252130437350928
+}
+},
+{
+"absolute": {
+"2001": 419,
+"2023": null,
+"2002": 474,
+"2003": 446,
+"2004": 504,
+"2005": 505,
+"2006": 551,
+"2007": 543,
+"2008": 389,
+"2009": 435,
+"2010": 483,
+"2011": 538,
+"2012": 468,
+"2013": 522,
+"2014": 91,
+"2015": 82,
+"2016": 120,
+"2017": 103,
+"2018": 96,
+"2019": 103,
+"2020": 87,
+"2021": 52,
+"2022": 6
+},
+"relative": {
+"2001": 24.022010353314467,
+"2023": null,
+"2002": 22.464529503178447,
+"2003": 23.35550290734118,
+"2004": 22.070541742904553,
+"2005": 19.062578633136862,
+"2006": 20.651750505714894,
+"2007": 22.453380393633807,
+"2008": 15.729489655292882,
+"2009": 16.484293537747668,
+"2010": 17.685344978467818,
+"2011": 18.03277990687108,
+"2012": 17.09961328566877,
+"2013": 16.520928028001265,
+"2014": 5.324021093888585,
+"2015": 4.075295558325431,
+"2016": 5.334517833382026,
+"2017": 4.674898482083157,
+"2018": 4.87581799465326,
+"2019": 5.3729957095846785,
+"2020": 5.132875697149242,
+"2021": 3.2799326655054024,
+"2022": 11.87359372124364
+},
+"sums": {
+"absolute": 7017,
+"relative": 14.662301005024778
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+},
+{
+"absolute": {
+"2001": 75,
+"2023": null,
+"2002": 73,
+"2003": 57,
+"2004": 70,
+"2005": 56,
+"2006": 66,
+"2007": 75,
+"2008": 78,
+"2009": 83,
+"2010": 106,
+"2011": 113,
+"2012": 128,
+"2013": 127,
+"2014": 58,
+"2015": 73,
+"2016": 60,
+"2017": 79,
+"2018": 69,
+"2019": 97,
+"2020": 66,
+"2021": 107,
+"2022": 2
+},
+"relative": {
+"2001": 4.299882521476336,
+"2023": null,
+"2002": 3.4597271175781152,
+"2003": 2.9848961114763393,
+"2004": 3.0653530198478545,
+"2005": 2.1138701058528007,
+"2006": 2.473712401773472,
+"2007": 3.101295634479808,
+"2008": 3.1539850722695246,
+"2009": 3.145278996857601,
+"2010": 3.881255833783827,
+"2011": 3.7875541440082383,
+"2012": 4.67681730890086,
+"2013": 4.019459501065442,
+"2014": 3.3933321257751423,
+"2015": 3.6280070214360545,
+"2016": 2.667258916691013,
+"2017": 3.5856017483938776,
+"2018": 3.5044941836570302,
+"2019": 5.060005668249648,
+"2020": 3.8939057012856315,
+"2021": 6.749092215559193,
+"2022": 3.95786457374788
+},
+"sums": {
+"absolute": 1718,
+"relative": 3.589829432326147
+},
+"cqp": "[word = '\u00e4n' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\\.\\.pn\\.1' | lex contains 'du\\.\\.pn\\.1' | lex contains 'han\\.\\.pn\\.1' | lex contains 'hon\\.\\.pn\\.1' | lex contains 'vi\\.\\.pn\\.1' | lex contains 'ni\\.\\.pn\\.1')]"
+}
+],
+"time": 53.82949900627136
+}

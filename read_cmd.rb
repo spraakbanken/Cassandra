@@ -99,6 +99,12 @@ def process_cmd
                 else
                     format = "pdf"
                 end
+                
+                if ARGV.include?("--showplot")
+                    showplot = "#{ARGV[ARGV.index("--showplot") + 1]}"
+                else
+                    showplot = "yes"
+                end
 
             end
         elsif query == "authors"
@@ -111,7 +117,10 @@ def process_cmd
         if ARGV.include?("--local")
             only_process_local = true
         end
+
+
+
     end
-    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label, "format" => format, "more_variables" => more_variables}
+    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label, "format" => format, "more_variables" => more_variables, "showplot" => showplot}
     return outhash
 end

@@ -32,6 +32,7 @@ only_process_local = outhash["only_process_local"]
 granularity = outhash["granularity"]
 total_threshold = outhash["total_threshold"]
 format = outhash["format"]
+showplot = outhash["showplot"]
 
 #dir = "#{var_output}#{dir}"
 
@@ -168,6 +169,8 @@ if !years.empty?
     #STDERR.puts max
     R.assign "maxvalue", max
     R.eval "#{format}(file='#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}.#{format}')"
+    plotfilename = "#{dir}\\#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}.#{format}"
+
     if nvariants == 1
         ylab = "ipm"
     else
@@ -175,9 +178,9 @@ if !years.empty?
     end
     if granularity == "y"
         #R.eval "plot(0,0,xlab = 'HEY', ylab = '#{ylab}', xlim = c(minyear,maxyear), ylim = c(0,maxvalue),frame.plot=FALSE)"
-        R.eval "plot(values~years, type='b',xlab = 'time', ylab = '#{ylab}', xlim = c(minyear,maxyear), ylim = c(0,maxvalue))"
+        R.eval "plot(values~years, type='b',xlab = 'time', ylab = '#{ylab}', xlim = c(minyear,maxyear), ylim = c(0,maxvalue), lwd =2 )"
     elsif granularity == "m"
-        R.eval "plot(years, values, type='l',xaxt='n', ylab = '#{ylab}', xlim = c(minyear,maxyear),ylim = c(0,maxvalue))"
+        R.eval "plot(years, values, type='l',xaxt='n', ylab = '#{ylab}', xlim = c(minyear,maxyear),ylim = c(0,maxvalue), lwd =2)"
         
         R.eval "axis(1, at=years,labels = labels)"
     end
@@ -224,5 +227,9 @@ if !years.empty?
 	
     
     R.eval "dev.off()"
-    
+    STDERR.puts plotfilename
+    if showplot != "no"
+        system "start #{plotfilename}"
+    end
 end
+
