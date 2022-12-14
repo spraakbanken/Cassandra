@@ -106,6 +106,36 @@ def process_cmd
                     showplot = "yes"
                 end
 
+                if ARGV.include?("--limit")
+                    limit = "#{ARGV[ARGV.index("--limit") + 1]}"
+                else
+                    limit = 1000000000
+                end
+
+                if ARGV.include?("--context")
+                    context = "#{ARGV[ARGV.index("--context") + 1]}".gsub("_"," ")
+                else
+                    context = "1 sentence"
+                end
+
+                if ARGV.include?("--show")
+                    show = "#{ARGV[ARGV.index("--show") + 1]}"
+                else
+                    show = "msd,lemma,pos,ref,lex,deprel,dephead"
+                end
+
+                if ARGV.include?("--sort")
+                    sort = "&sort=#{ARGV[ARGV.index("--sort") + 1]}"
+                else
+                    sort = ""
+                end
+
+                if ARGV.include?("--structs")
+                    structs = "#{ARGV[ARGV.index("--structs") + 1]}"
+                else
+                    structs = ""
+                end
+
             end
         elsif query == "authors"
             if ARGV.include?("--year")
@@ -121,6 +151,6 @@ def process_cmd
 
 
     end
-    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label, "format" => format, "more_variables" => more_variables, "showplot" => showplot}
+    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label, "format" => format, "more_variables" => more_variables, "showplot" => showplot, "structs" => structs, "sort" => sort, "show" => show, "context" => context, "limit" => limit}
     return outhash
 end

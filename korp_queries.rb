@@ -1,50 +1,28 @@
 ### Use single quotes, not double quotes in this file!
 
-#label = sprita
-variant1 = [lemma contains 'sprita']
+#label = de_filtered
+variant1 = [word = 'de' %c  & (pos = 'PN' | pos = 'DT')]
+
+#label = dem_filtered
+variant1 = [word = 'dem' %c  & (pos = 'PN' | pos = 'DT')]
+
+#label = dom_filtered
+variant1 = [deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')]
 
 #label = hbt(q)
 variant1 = [(word = 'hbt' %c )]
 variant2 = [(word = 'hbtq' %c )]
 
 #label = hbt(q)2
-variant1 = [(word = 'hbt*' %c )]
-variant2 = [(word = 'hbtq*' %c )]
+variant1 = [(word = 'hbt[^q].*' %c )]
+variant2 = [(word = 'hbtq.*' %c )]
 
 #label = aen
 variant1 = [word = 'än' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\.\.pn\.1' | lex contains 'du\.\.pn\.1' | lex contains 'han\.\.pn\.1' | lex contains 'hon\.\.pn\.1' | lex contains 'vi\.\.pn\.1' | lex contains 'ni\.\.pn\.1')]
 variant2 = [word = 'än' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\.\.pn\.1' | lex contains 'du\.\.pn\.1' | lex contains 'han\.\.pn\.1' | lex contains 'hon\.\.pn\.1' | lex contains 'vi\.\.pn\.1' | lex contains 'ni\.\.pn\.1')]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#label = sprita
+variant1 = [lemma contains 'sprita']
 
 #label = oevertagit_vs_oevertatt
 variant1 = [word = 'övertagit']
@@ -105,6 +83,10 @@ variant1 = [word = ':-\(']
 
 #label = smiley2neg
 variant1 = [word = ':\(']
+
+#label = dom1_filtered_merged
+variant1 = [(((word = 'de' %c ) | (word = 'dem' %c )) & (pos = 'PN' | pos = 'DT') | deprel != 'DT') & (deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT'))]
+
 
 #label = dom1_filtered
 variant1 = [((word = 'de' %c ) | (word = 'dem' %c )) & (pos = 'PN' | pos = 'DT')]

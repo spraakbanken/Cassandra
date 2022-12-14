@@ -147,6 +147,7 @@ end
 safe_uri.gsub!("+&+","+%26+")
 STDERR.puts safe_uri
 
+#__END__
 jsonflag = false
 for attempt_counter in 1..5
     STDERR.puts "Attempt #{attempt_counter}"
