@@ -23,11 +23,12 @@ granularity = outhash["granularity"]
 variable_source = outhash["variable_source"]
 var_output = outhash["var_output"]
 context = outhash["context"]
-limit = outhash["var_output"]
+var_output = outhash["var_output"]
 show = outhash["show"]
 structs = outhash["structs"]
 sort = outhash["sort"]
 granularity = outhash["granularity"]
+limit = outhash["limit"].to_i - 1
 
 
 #variable = ARGV[0]
@@ -37,10 +38,14 @@ corpora = read_corpus_label(corpus_and_label,outputmode="array")
 #STDERR.puts corpora
 #corpora = read_corpus_label(ARGV[1],"array")#read_corpus_label("flashback-all") #["twitter", "twitter-2015",#"twitter-2016","twitter-2017"] 
 #STDERR.puts corpora
-output_dir = "#{var_output}#{variable}\\Jsons_#{maincorpus}"
+output_dir = "#{var_output}Jsons\\#{variable}\\Jsons_#{maincorpus}"
 
-if !Dir.exist?("#{var_output}#{variable}\\")
-    Dir.mkdir("#{var_output}#{variable}\\")
+if !Dir.exist?("#{var_output}Jsons\\")
+    Dir.mkdir("#{var_output}Jsons\\")
+end
+
+if !Dir.exist?("#{var_output}Jsons\\#{variable}\\")
+    Dir.mkdir("#{var_output}Jsons\\#{variable}\\")
 end
 
 if !Dir.exist?(output_dir)
