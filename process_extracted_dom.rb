@@ -32,9 +32,9 @@ def cleant(parameter)
 end
 
 conll_file = File.open("#{var_output}#{variable}.txt","w:utf-8")
-predictor_file = File.open("#{var_output}#{variable}.tsv","w:utf-8")
-header = "unique_id\tmaincorpus\tsubcorpus\tword\tpos\tdeprel"
-predictor_file.puts header
+sample_file = File.open("#{var_output}#{variable}.tsv","w:utf-8")
+header = "unique_id\tmatch_end\tword\tpos\tpos_correct\tdeprel\tdeprel_correct\tdephead_correct\tmaincorpus\tsubcorpus"
+sample_file.puts header
 input_dir = "#{var_output}Jsons\\#{variable}\\Jsons_#{maincorpus}"
 filelist = Dir.children(input_dir) 
 
@@ -85,146 +85,32 @@ filelist.each do |filename2|
                 output_array << unique_id
                 corpus_from_json = hit["corpus"]
                 output_array << corpus_from_json
-                if maincorpus != "gp" and maincorpus != "bloggmix" and maincorpus != "twitter"
-                    date = hit["structs"]["text_date"].split(date_sep[maincorpus])[0]
-                    time = hit["structs"]["text_date"].split(date_sep[maincorpus])[1]
-                elsif maincorpus == "twitter"
-                    date = hit["structs"]["text_datetime"].split(date_sep[maincorpus])[0]
-                    time = hit["structs"]["text_datetime"].split(date_sep[maincorpus])[1]
-                else
-                    date = hit["structs"]["text_date"]
-                    time = nil
-                end
-                year = date.split("-")[0]
-                month = date.split("-")[1]
-                output_array << year
-                output_array << month
-                if maincorpus == "familjeliv" or maincorpus == "flashback"
-                    username = hit["structs"]["text_username"]
-                    thread_id = hit["structs"]["thread_id"]
-                elsif maincorpus == "svt"
-                    username = hit["structs"]["text_authors"]
-                    section = hit["structs"]["text_section"]
-                elsif maincorpus == "gp"
-                    username = hit["structs"]["text_author"]
-                    section = hit["structs"]["text_section"]
-                    shortsection = hit["structs"]["text_sectionshort"]
-                elsif maincorpus == "da"
-                    username = hit["structs"]["text_author"]
-                elsif maincorpus == "twitter"
-                    username = hit["structs"]["user_username"]
-                elsif maincorpus == "bloggmix"
-                    username = hit["structs"]["blog_title"]
-                end
+                conll_file.puts "#sent_id = #{unique_id}; de-dem-dom_id = #{match_end}"
+                tokens = hit["tokens"]
+                dword = ""
+                dpos = ""
+                ddeprel = ""
                 
-                if maincorpus == "gp" 
-                    message_id = hit["structs"]["text_title"]
-                elsif maincorpus == "bloggmix"
-                    message_id = "#{hit["structs"]["text_title"]}___#{hit["structs"]["text_url"]}"
-                else
-                    message_id = hit["structs"]["text_id"]
-                end
-                if maincorpus == "flashback"
-                    userid = hit["structs"]["text_userid"]
-                end
-                output_array << cleant(username)
-                birthyear = age_hash[username]
-                gender = gender_hash[username]
-
-                if maincorpus == "bloggmix" and !hit["structs"]["blog_age"].nil? and hit["structs"]["blog_age"] != ""and !hit["structs"]["blog_age"].include?("-")
-                    if !(hit["structs"]["blog_age"].to_i > 80 or hit["structs"]["blog_age"].to_i < 12)
-                        birthyear = year.to_i - hit["structs"]["blog_age"].to_i
-                        birthyears << birthyear
+                tokens.each.with_index do |token, tindex|
+                    id = token["ref"].to_i
+            
+                    word = token["word"]
+                    pos = token["pos"]
+                    msd = token["msd"]
+                    deprel = token["deprel"]
+                    dephead = token["dephead"]
+                    conll_file.puts "#{id}\t#{word}\t#{lemma}\t#{pos}\t#{msd}\t#{deprel}\t#{dephead}"
+                    if id == match_end
+                        dword = word
+                        dpos = pos
+                        ddeprel = deprel
                     end
                 end
-                
-                
-                output_array << gender
-                output_array << birthyear
-                output_array << cleant(message_id)
-                output_array << cleant(thread_id)
-                
-                tokens = hit["tokens"]
-                
-                trigram1 = []
-                trigram2 = []
-                trigram3 = []
-                postrigram1 = []
-                postrigram2 = []
-                postrigram3 = []
-                
-                pos = ""
-                msd = ""
-                token_array = []
-                pos_array = []
-                key_index = 0
-                tokens.each.with_index do |token, tindex|
-                    token_array << token["word"].downcase
-                    pos_array << token["pos"]
-                   
-                    #lexlist.each do |lemgram| #will be a problem if there are several instances of the same lemgram in the example (googlar och googlar) or "twittrar och kvittrar" ***change to identification by match
-                    #    if token["lex"].gsub("|","") == lemgram
-                    #        key_index = tindex
-                        if tindex == match_start
-                            pos = token["pos"]
-                            msd = token["msd"]
-                        end
-                    #        break
-                    #    end
-                    #end
-                end
-                key_index = match_start
-            
-                if key_index == 2
-                    trigram1 = cleant([token_array[0],token_array[1],token_array[2]].join(" "))
-                    trigram2 = cleant([token_array[1],token_array[2],token_array[3]].join(" "))
-                    trigram3 = cleant([token_array[2],token_array[3],token_array[4]].join(" "))
-                    postrigram1 = cleant([pos_array[0],pos_array[1],pos_array[2]].join(" "))
-                    postrigram2 = cleant([pos_array[1],pos_array[2],pos_array[3]].join(" "))
-                    postrigram3 = cleant([pos_array[2],pos_array[3],pos_array[4]].join(" "))
-
-                elsif key_index == 1
-                    trigram1 = cleant(["SPECSTART",token_array[0],token_array[1]].join(" "))
-                    trigram2 = cleant([token_array[0],token_array[1],token_array[2]].join(" "))
-                    trigram3 = cleant([token_array[1],token_array[2],token_array[3]].join(" "))
-                    postrigram1 = cleant(["SPEC",pos_array[0],pos_array[1]].join(" "))
-                    postrigram2 = cleant([pos_array[0],pos_array[1],pos_array[2]].join(" "))
-                    postrigram3 = cleant([pos_array[1],pos_array[2],pos_array[3]].join(" "))
-                elsif key_index == 3
-                    trigram1 = cleant([token_array[1],token_array[2],token_array[3]].join(" "))
-                    trigram2 = cleant([token_array[2],token_array[3],token_array[4]].join(" "))
-                    trigram3 = cleant([token_array[3],token_array[4],"SPECEND"].join(" "))
-                    postrigram1 = cleant([pos_array[1],pos_array[2],pos_array[3]].join(" "))
-                    postrigram2 = cleant([pos_array[2],pos_array[3],pos_array[4]].join(" "))
-                    postrigram3 = cleant([pos_array[3],pos_array[4],"SPEC"].join(" "))
-                elsif key_index == 0
-                    trigram1 = cleant(["SPECSTART","SPECSTART",token_array[0]].join(" "))
-                    trigram2 = cleant(["SPECSTART",token_array[0],token_array[1]].join(" "))
-                    trigram2 = cleant([token_array[0],token_array[1],token_array[2]].join(" "))
-                    postrigram1 = cleant(["SPEC","SPEC",pos_array[0]].join(" "))
-                    postrigram2 = cleant(["SPEC",pos_array[0],pos_array[1]].join(" "))
-                    postrigram2 = cleant([pos_array[0],pos_array[1],pos_array[2]].join(" "))
-                elsif key_index == 4
-                    trigram1 = cleant([token_array[2],token_array[3],token_array[4]].join(" "))
-                    trigram2 = cleant([token_array[3],token_array[4],"SPECEND"].join(" "))
-                    trigram3 = cleant([token_array[4],"SPECEND","SPECEND"].join(" "))
-                    postrigram1 = cleant([pos_array[2],pos_array[3],pos_array[4]].join(" "))
-                    postrigram2 = cleant([pos_array[3],pos_array[4],"SPEC"].join(" "))
-                    postrigram3 = cleant([pos_array[4],"SPEC","SPEC"].join(" "))
-                end
-                output_array << pos
-                output_array << msd
-                output_array << trigram1
-                output_array << trigram2
-                output_array << trigram3
-                output_array << postrigram1
-                output_array << postrigram2
-                output_array << postrigram3
+                sample_file.puts "#{unique_id}\t#{match_end}\t#{dword}\t#{dpos}\tpos_correct\t#{ddeprel}\tdeprel_correct\tdephead_correct\tmaincorpus\tsubcorpus"
                 
                 
                 
                 
-                predictor_file.puts output_array.join("\t")
                 
             end
                 
