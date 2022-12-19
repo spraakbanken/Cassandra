@@ -1,5 +1,27 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = med_vs_paa_kort_varsel
+variant1 = [lex contains 'med\.\.pp\.1'] [lex contains 'kort\.\.av\.1'] [lex contains 'varsel\.\.nn\.1']
+variant2 = [lex contains 'på\.\.pp\.1'] [lex contains 'kort\.\.av\.1'] [lex contains 'varsel\.\.nn\.1']
+
+#sade_vs_sa
+variant1 = [(word = 'sade' %c) & msd = '.*PRT.*' & pos = 'VB']
+variant2 = [(word = 'sa' %c) & msd = '.*PRT.*' & pos = 'VB']
+
+#lade_vs_la
+variant1 = [(word = 'lade' %c) & msd = '.*PRT.*' & pos = 'VB']
+variant2 = [(word = 'la' %c) & msd = '.*PRT.*' & pos = 'VB']
+
+#tipsa_(om)
+variant1 = [lex contains 'tipsa\.\.vb\.1'] [word = 'om'] [lex contains "att\.\.sn\.1"]
+variant2 = [lex contains 'tipsa\.\.vb\.1'] [lex contains "att\.\.sn\.1"]
+
+#verka_som_(om)
+variant1 = [lex contains 'tipsa\.\.vb\.1'] [word = 'om'] [lex contains "att\.\.sn\.1"]
+variant2 = [lex contains 'tipsa\.\.vb\.1'] [lex contains "att\.\.sn\.1"]
+
+
+
 #label = de_filtered
 variant1 = [word = 'de' %c  & (pos = 'PN' | pos = 'DT')]
 
