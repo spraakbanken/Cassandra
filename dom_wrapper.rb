@@ -1,0 +1,8 @@
+system "ruby korp16.rb --corpus familjeliv-all --variable dom_filtered_obj --nvariants 1 --var_output C:\\Sasha\\D\\DGU\\Repos\\CassandraInternal"
+system "ruby korp16.rb --corpus flashback-all --variable dom_filtered_obj --nvariants 1 --var_output C:\\Sasha\\D\\DGU\\Repos\\CassandraInternal"
+system "ruby korp16.rb --corpus bloggmix-all --variable dom_filtered_obj --nvariants 1 --var_output C:\\Sasha\\D\\DGU\\Repos\\CassandraInternal"
+system "ruby korp16.rb --corpus twitter-all --variable dom_filtered_obj --nvariants 1 --var_output C:\\Sasha\\D\\DGU\\Repos\\CassandraInternal"
+system "ruby korp16.rb --corpus svt-all --variable dom_filtered_obj --nvariants 1 --var_output C:\\Sasha\\D\\DGU\\Repos\\CassandraInternal"
+system "ruby korp16.rb --corpus webbnyheter-all --variable dom_filtered_obj --nvariants 1 --var_output C:\\Sasha\\D\\DGU\\Repos\\CassandraInternal"
+system "ruby korp16.rb --corpus da --variable dom_filtered_obj --nvariants 1 --var_output C:\\Sasha\\D\\DGU\\Repos\\CassandraInternal"
+system "ruby korp16.rb --corpus gp-all --variable dom_filtered_obj --nvariants 1 --var_output C:\\Sasha\\D\\DGU\\Repos\\CassandraInternal"

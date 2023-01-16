@@ -21,6 +21,19 @@ variant1 = [lex contains 'tipsa\.\.vb\.1'] [word = 'om'] [lex contains "att\.\.s
 variant2 = [lex contains 'tipsa\.\.vb\.1'] [lex contains "att\.\.sn\.1"]
 
 
+#label = de_filtered_obj
+variant1 = [word = 'de' %c  & (pos = 'PN' | pos = 'DT') & (deprel = 'OO' | deprel = 'IO' | deprel = 'PA')] [word != 'som' %c & deprel != 'UA']
+#UA excludes a lot of cases like "än de(m)", which is reasonable, right? We could also exclude cases with "än" in front, but then we'd lose determiners like "...än de kloka tjejerna"
+
+#label = dem_filtered_obj
+variant1 = [word = 'dem' %c  & (pos = 'PN' | pos = 'DT') & (deprel = 'OO' | deprel = 'IO' | deprel = 'PA')] [word != 'som' %c & deprel != 'UA']
+#UA excludes a lot of cases like "än de(m)", which is reasonable, right? We could also exclude cases with "än" in front, but then we'd lose determiners like "...än de kloka tjejerna"
+
+#label = dom_filtered_obj
+variant1 = [word = 'dom' %c  & (pos = 'PN' | pos = 'DT') & (deprel = 'OO' | deprel = 'IO' | deprel = 'PA')] [word != 'som' %c & deprel != 'UA']
+#UA excludes a lot of cases like "än de(m)", which is reasonable, right? We could also exclude cases with "än" in front, but then we'd lose determiners like "...än de kloka tjejerna"
+
+
 
 #label = de_filtered
 variant1 = [word = 'de' %c  & (pos = 'PN' | pos = 'DT')]
