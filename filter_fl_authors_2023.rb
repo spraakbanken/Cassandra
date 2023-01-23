@@ -24,7 +24,7 @@ subforumtype = ARGV[3] #"single" if not using a label
 #end
 
 
-f = File.open("age\\all_age_1000_merged.tsv", "r:utf-8")
+f = File.open("age\\all_age_1000_merged3.tsv", "r:utf-8")
 usercounter = 0
 
 f.each_line.with_index do |line, index|
@@ -43,7 +43,7 @@ f.each_line.with_index do |line, index|
                 birthyear = line1[2]
                 if !File.exist?("variables\\#{variable}\\#{maincorpus}\\#{subcorpus}\\#{nickname2}.tsv")
                     #system("ruby korp4b.rb time #{maincorpus}-#{subcorpus} #{variable} #{nickname2}")
-                    system("ruby korp16.rb --corpus #{maincorpus}-#{subcorpus} --variable #{variable} --user #{nickname2}")
+                    system("ruby korp16.rb --corpus #{maincorpus}-#{subcorpus} --variable #{variable} --user #{nickname2} --nvariants 1")
                 end
                 indfile = File.open("variables\\#{variable}\\#{maincorpus}\\#{subcorpus}\\#{nickname2}.tsv")
                 indfile.each_line.with_index do |iline, iindex|

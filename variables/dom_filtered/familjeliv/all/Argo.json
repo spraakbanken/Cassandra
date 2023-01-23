@@ -1,0 +1,613 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"corpora": {
+"FAMILJELIV-ADOPTION": {
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-ALLMANNA-EKONOMI": {
+"absolute": {
+"2003": 0,
+"2023": null,
+"2009": 2,
+"2010": 3,
+"2011": 2,
+"2012": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2009": 0.27185788357278345,
+"2010": 0.5569285908017303,
+"2011": 0.48847850181689584,
+"2012": 0.0
+},
+"sums": {
+"absolute": 7,
+"relative": 1.3172649761914095
+}
+},
+"FAMILJELIV-ALLMANNA-FAMILJELIV": {
+"absolute": {
+"2003": 0,
+"2023": null,
+"2009": 1,
+"2010": 5,
+"2011": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2009": 0.1307822254923591,
+"2010": 0.7950738496394498,
+"2011": 0.0
+},
+"sums": {
+"absolute": 6,
+"relative": 0.9258560751318089
+}
+},
+"FAMILJELIV-ALLMANNA-FRITID": {
+"absolute": {
+"2004": 0,
+"2023": null,
+"2012": 2,
+"2013": 0
+},
+"relative": {
+"2004": 0,
+"2023": null,
+"2012": 1.2404231579561051,
+"2013": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 1.2404231579561051
+}
+},
+"FAMILJELIV-ALLMANNA-HUSDJUR": {
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-ALLMANNA-HUSHEM": {
+"absolute": {
+"2004": 0,
+"2023": null,
+"2011": 1,
+"2012": 1,
+"2013": 0
+},
+"relative": {
+"2004": 0,
+"2023": null,
+"2011": 0.21853710388510894,
+"2012": 0.2802558623921295,
+"2013": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 0.49879296627723846
+}
+},
+"FAMILJELIV-ALLMANNA-KROPP": {
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-ALLMANNA-NOJE": {
+"absolute": {
+"2003": 0,
+"2023": null,
+"2010": 1,
+"2011": 2,
+"2012": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2010": 0.16019774810025494,
+"2011": 0.3006910180285314,
+"2012": 0.0
+},
+"sums": {
+"absolute": 3,
+"relative": 0.4608887661287863
+}
+},
+"FAMILJELIV-ALLMANNA-SAMHALLE": {
+"absolute": {
+"2003": 0,
+"2022": null,
+"2009": 25,
+"2010": 23,
+"2011": 23,
+"2012": 11,
+"2013": 0
+},
+"relative": {
+"2003": 0,
+"2022": null,
+"2009": 0.6175979953856042,
+"2010": 0.7680076335951783,
+"2011": 0.7338169122975208,
+"2012": 0.4756241334452578,
+"2013": 0.0
+},
+"sums": {
+"absolute": 82,
+"relative": 2.595046674723561
+}
+},
+"FAMILJELIV-ALLMANNA-SANDLADAN": {
+"absolute": {
+"2005": 0,
+"2022": null
+},
+"relative": {
+"2005": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-ANGLARUM": {
+"absolute": {
+"2006": 0,
+"2022": null
+},
+"relative": {
+"2006": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-EXPERT": {
+"absolute": {
+"2009": 0,
+"2023": null
+},
+"relative": {
+"2009": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-FORALDER": {
+"absolute": {
+"2003": 0,
+"2022": null,
+"2009": 1,
+"2010": 0
+},
+"relative": {
+"2003": 0,
+"2022": null,
+"2009": 0.012346743576014011,
+"2010": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.012346743576014011
+}
+},
+"FAMILJELIV-GRAVID": {
+"absolute": {
+"2003": 0,
+"2022": null
+},
+"relative": {
+"2003": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-KANSLIGA": {
+"absolute": {
+"2003": 0,
+"2022": null,
+"2009": 1,
+"2010": 3,
+"2011": 7,
+"2012": 2,
+"2013": 0
+},
+"relative": {
+"2003": 0,
+"2022": null,
+"2009": 0.010423772422029609,
+"2010": 0.0392526371164615,
+"2011": 0.07326784325542342,
+"2012": 0.01966352503510357,
+"2013": 0.0
+},
+"sums": {
+"absolute": 13,
+"relative": 0.1426077778290181
+}
+},
+"FAMILJELIV-MEDLEM-ALLMANNA": {
+"absolute": {
+"2006": 0,
+"2022": null
+},
+"relative": {
+"2006": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-MEDLEM-FORALDRAR": {
+"absolute": {
+"2006": 0,
+"2022": null
+},
+"relative": {
+"2006": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-MEDLEM-PLANERARBARN": {
+"absolute": {
+"2005": 0,
+"2021": null
+},
+"relative": {
+"2005": 0,
+"2021": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-MEDLEM-VANTARBARN": {
+"absolute": {
+"2003": 0,
+"2022": null
+},
+"relative": {
+"2003": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-PAPPAGRUPP": {
+"absolute": {
+"2004": 0,
+"2023": null
+},
+"relative": {
+"2004": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-PLANERARBARN": {
+"absolute": {
+"2003": 0,
+"2022": null
+},
+"relative": {
+"2003": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-SEXSAMLEVNAD": {
+"absolute": {
+"2004": 0,
+"2022": null
+},
+"relative": {
+"2004": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"FAMILJELIV-SVARTATTFABARN": {
+"absolute": {
+"2003": 0,
+"2022": null
+},
+"relative": {
+"2003": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+}
+},
+"combined": {
+"absolute": {
+"2003": 0,
+"2023": null,
+"2009": 30,
+"2010": 35,
+"2011": 35,
+"2012": 16,
+"2013": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2009": 0.050568326805619734,
+"2010": 0.08492146728388462,
+"2011": 0.09703279345516137,
+"2012": 0.055088851034661414,
+"2013": 0.0
+},
+"sums": {
+"absolute": 116,
+"relative": 0.025974271979345317
+}
+},
+"time": 1042.1801662445068
+}
