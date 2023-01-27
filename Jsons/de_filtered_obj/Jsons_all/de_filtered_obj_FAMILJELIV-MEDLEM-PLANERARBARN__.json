@@ -1,0 +1,245 @@
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FAMILJELIV-MEDLEM-PLANERARBARN",
+"match": {
+"position": 34213,
+"start": 4,
+"end": 6
+},
+"tokens": [
+{
+"word": "jo",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|jo|",
+"lex": "|jo..in.1|",
+"msd": "IN",
+"pos": "IN"
+},
+{
+"word": "ja",
+"deprel": "HD",
+"dephead": "1",
+"ref": "2",
+"lemma": "|ja|",
+"lex": "|ja..in.1|",
+"msd": "IN",
+"pos": "IN"
+},
+{
+"word": "kan",
+"deprel": "MS",
+"dephead": "1",
+"ref": "3",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "f\u00f6rst\u00e5",
+"deprel": "VG",
+"dephead": "3",
+"ref": "4",
+"lemma": "|f\u00f6rst\u00e5|",
+"lex": "|f\u00f6rst\u00e5..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "4",
+"ref": "5",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "!",
+"deprel": "IU",
+"dephead": "3",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FAMILJELIV-MEDLEM-PLANERARBARN",
+"match": {
+"position": 47033,
+"start": 5,
+"end": 7
+},
+"tokens": [
+{
+"word": "Ska",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|skola|",
+"lex": "|skola..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "vi",
+"deprel": "SS",
+"dephead": "1",
+"ref": "2",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "l\u00e5ta",
+"deprel": "VG",
+"dephead": "1",
+"ref": "3",
+"lemma": "|l\u00e5ta|",
+"lex": "|l\u00e5ta..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "TS",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "sk\u00f6ta",
+"deprel": "VO",
+"dephead": "3",
+"ref": "5",
+"lemma": "|sk\u00f6ta|",
+"lex": "|sk\u00f6ta..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "5",
+"ref": "6",
+"lemma": "|de|den_h\u00e4r|",
+"lex": "|de..pn.1|den_h\u00e4r..pnm.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "h\u00e4r",
+"deprel": "HD",
+"dephead": "6",
+"ref": "7",
+"lemma": "|h\u00e4r|den_h\u00e4r:6|",
+"lex": "|h\u00e4r..ab.1|den_h\u00e4r..pnm.1:6|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "att",
+"deprel": "OA",
+"dephead": "5",
+"ref": "8",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "l\u00e4gga",
+"deprel": "IF",
+"dephead": "8",
+"ref": "9",
+"lemma": "|l\u00e4gga|l\u00e4gga_in|",
+"lex": "|l\u00e4gga..vb.1|l\u00e4gga_in..vbm.1|l\u00e4gga_in..vbm.2|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "in",
+"deprel": "PL",
+"dephead": "9",
+"ref": "10",
+"lemma": "|in|l\u00e4gga_in:9|in_i|",
+"lex": "|in..ab.1|l\u00e4gga_in..vbm.1:9|l\u00e4gga_in..vbm.2:9|in_i..ppm.1|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "i",
+"deprel": "RA",
+"dephead": "9",
+"ref": "11",
+"lemma": "|i|in_i:10|",
+"lex": "|i..pp.1|in_i..ppm.1:10|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "listan",
+"deprel": "CJ",
+"dephead": "13",
+"ref": "12",
+"lemma": "|lista|",
+"lex": "|lista..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "PA",
+"dephead": "11",
+"ref": "13",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "siffror",
+"deprel": "CJ",
+"dephead": "13",
+"ref": "14",
+"lemma": "|siffra|",
+"lex": "|siffra..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "?",
+"deprel": "I?",
+"dephead": "1",
+"ref": "15",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 18662,
+"corpus_hits": {
+"FAMILJELIV-MEDLEM-PLANERARBARN": 18662
+},
+"corpus_order": [
+"FAMILJELIV-MEDLEM-PLANERARBARN"
+],
+"query_data": "eJwFwTEOgCAMAMAXmUCBtuiEERMMEMPgDmj__wTvPFs_xiv4GoueAfvsMoUMT9Aozg2h3hk_ZScACxB6AmvIgSOt9HaGkvIVc3qWEo8cy3LnUGMLbQ-trpoR4Qd1rhrF\n",
+"time": 11.51830792427063
+}

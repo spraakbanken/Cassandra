@@ -1,0 +1,273 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2009",
+"match": {
+"position": 5916,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "Fem",
+"deprel": "DT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|fem|",
+"lex": "|fem..nl.1|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "kollegor",
+"deprel": "SS",
+"dephead": "5",
+"ref": "2",
+"lemma": "|kollega|",
+"lex": "|kollega..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "ET",
+"dephead": "2",
+"ref": "3",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "3",
+"ref": "4",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e5kte",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "5",
+"lemma": "|\u00e5ka|\u00e5ka_fast|",
+"lex": "|\u00e5ka..vb.1|\u00e5ka_fast..vbm.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "nyligen",
+"deprel": "TA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|nyligen|",
+"lex": "|nyligen..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "fast",
+"deprel": "PL",
+"dephead": "5",
+"ref": "7",
+"lemma": "|fast|\u00e5ka_fast:5|",
+"lex": "|fast..ab.1|\u00e5ka_fast..vbm.1:5|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "f\u00f6r",
+"deprel": "OA",
+"dephead": "5",
+"ref": "8",
+"lemma": "|f\u00f6r|",
+"lex": "|f\u00f6r..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "samma",
+"deprel": "DT",
+"dephead": "10",
+"ref": "9",
+"lemma": "|samma|",
+"lex": "|samma..pn.1|",
+"msd": "DT.UTR+NEU.SIN+PLU.IND",
+"pos": "DT"
+},
+{
+"word": "sorts",
+"deprel": "DT",
+"dephead": "11",
+"ref": "10",
+"lemma": "|sort|",
+"lex": "|sort..nn.1|",
+"msd": "NN.UTR.SIN.IND.GEN",
+"pos": "NN"
+},
+{
+"word": "fifflande",
+"deprel": "PA",
+"dephead": "8",
+"ref": "11",
+"lemma": "|fifflande|",
+"lex": "|fifflande..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e5",
+"deprel": "+A",
+"dephead": "13",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "har",
+"deprel": "TA",
+"dephead": "5",
+"ref": "13",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "avskedats",
+"deprel": "VG",
+"dephead": "13",
+"ref": "14",
+"lemma": "|avskeda|",
+"lex": "|avskeda..vb.1|",
+"msd": "VB.SUP.SFO",
+"pos": "VB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "5",
+"ref": "15",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2009",
+"match": {
+"position": 81145,
+"start": 2,
+"end": 4
+},
+"tokens": [
+{
+"word": "Men",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|men|",
+"lex": "|men..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "bland",
+"deprel": "RA",
+"dephead": "4",
+"ref": "2",
+"lemma": "|bland|",
+"lex": "|bland..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "anst\u00e4lla",
+"deprel": "TA",
+"dephead": "5",
+"ref": "4",
+"lemma": "|anst\u00e4lla|",
+"lex": "|anst\u00e4lla..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "blev",
+"deprel": "MS",
+"dephead": "1",
+"ref": "5",
+"lemma": "|bli|",
+"lex": "|bli..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "5",
+"ref": "6",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "inget",
+"deprel": "DT",
+"dephead": "8",
+"ref": "7",
+"lemma": "|ingen|",
+"lex": "|ingen..pn.1|",
+"msd": "DT.NEU.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "jubel",
+"deprel": "SP",
+"dephead": "5",
+"ref": "8",
+"lemma": "|jubel|",
+"lex": "|jubel..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "5",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 125,
+"corpus_hits": {
+"SVT-2009": 125
+},
+"corpus_order": [
+"SVT-2009"
+],
+"query_data": "eJwNycENgEAIBMCKTIADAS1D4_9uhf5L0N8kY14pSK8osKERLa2vzoQP5THdhZdJQHvCyfonKP6rtXOf13NvQpQHi31FDBTE\n",
+"time": 4.210275888442993
+}

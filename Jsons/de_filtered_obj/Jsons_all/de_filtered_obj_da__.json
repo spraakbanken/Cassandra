@@ -1,0 +1,453 @@
+{
+"kwic": [
+{
+"corpus": "DA",
+"match": {
+"position": 125804,
+"start": 7,
+"end": 9
+},
+"structs": {
+"text_date": "2009-12-10 21:11:25",
+"text_id": "coverage-ge-rost-at-rattvisan",
+"text_author": "H\u00e5kan A Bengtsson"
+},
+"tokens": [
+{
+"word": "Men",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|men|",
+"lex": "|men..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "dessutom",
+"deprel": "+A",
+"dephead": "3",
+"ref": "2",
+"lemma": "|dessutom|",
+"lex": "|dessutom..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "sl\u00e5r",
+"deprel": "MS",
+"dephead": "1",
+"ref": "3",
+"lemma": "|sl\u00e5|",
+"lex": "|sl\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "detta",
+"deprel": "SS",
+"dephead": "3",
+"ref": "4",
+"lemma": "|denna|",
+"lex": "|denna..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "allra",
+"deprel": "AA",
+"dephead": "6",
+"ref": "5",
+"lemma": "|allra|",
+"lex": "|allra..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "h\u00e5rdast",
+"deprel": "AA",
+"dephead": "3",
+"ref": "6",
+"lemma": "|h\u00e5rd|",
+"lex": "|h\u00e5rd..av.1|",
+"msd": "JJ.SUV.UTR+NEU.SIN+PLU.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "mot",
+"deprel": "OA",
+"dephead": "3",
+"ref": "7",
+"lemma": "|mot|",
+"lex": "|mot..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "3",
+"ref": "9",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "l\u00e5ga",
+"deprel": "AT",
+"dephead": "11",
+"ref": "10",
+"lemma": "|l\u00e5g|",
+"lex": "|l\u00e5g..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "inkomster",
+"deprel": "CJ",
+"dephead": "12",
+"ref": "11",
+"lemma": "|inkomst|",
+"lex": "|inkomst..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "PA",
+"dephead": "7",
+"ref": "12",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "15",
+"ref": "13",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "svag",
+"deprel": "AT",
+"dephead": "15",
+"ref": "14",
+"lemma": "|svag|",
+"lex": "|svag..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "st\u00e4llning",
+"deprel": "CJ",
+"dephead": "12",
+"ref": "15",
+"lemma": "|st\u00e4llning|",
+"lex": "|st\u00e4llning..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "p\u00e5",
+"deprel": "ET",
+"dephead": "15",
+"ref": "16",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "arbetsmarknaden",
+"deprel": "PA",
+"dephead": "16",
+"ref": "17",
+"lemma": "|arbetsmarknad|",
+"lex": "|arbetsmarknad..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "18",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 209544,
+"start": 1,
+"end": 3
+},
+"structs": {
+"text_date": "2009-05-28 13:36:57",
+"text_id": "editorial-chockbeskedet",
+"text_author": "Nisha Besara"
+},
+"tokens": [
+{
+"word": "Av",
+"deprel": "AA",
+"dephead": "15",
+"ref": "1",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "1",
+"ref": "2",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "med",
+"deprel": "HD",
+"dephead": "1",
+"ref": "3",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "5",
+"ref": "4",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "\u00e5rsinkomst",
+"deprel": "PA",
+"dephead": "3",
+"ref": "5",
+"lemma": "|\u00e5rsinkomst|",
+"lex": "|\u00e5rsinkomst..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "under",
+"deprel": "ET",
+"dephead": "5",
+"ref": "6",
+"lemma": "|under|",
+"lex": "|under..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "300000",
+"deprel": "DT",
+"dephead": "8",
+"ref": "7",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "kronor",
+"deprel": "PA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|krona|",
+"lex": "|krona..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "(",
+"deprel": "IR",
+"dephead": "8",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "drygt",
+"deprel": "AA",
+"dephead": "11",
+"ref": "10",
+"lemma": "|dryg|",
+"lex": "|dryg..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "sex",
+"deprel": "DT",
+"dephead": "12",
+"ref": "11",
+"lemma": "|sex|",
+"lex": "|sex..nl.1|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "miljoner",
+"deprel": "DT",
+"dephead": "13",
+"ref": "12",
+"lemma": "|miljon|",
+"lex": "|miljon..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "personer",
+"deprel": "AN",
+"dephead": "8",
+"ref": "13",
+"lemma": "|person|",
+"lex": "|person..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ")",
+"deprel": "JR",
+"dephead": "8",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "var",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "15",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "15",
+"ref": "16",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "bara",
+"deprel": "CA",
+"dephead": "15",
+"ref": "17",
+"lemma": "|bara|",
+"lex": "|bara..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "3",
+"deprel": "DT",
+"dephead": "19",
+"ref": "18",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "promille",
+"deprel": "XX",
+"dephead": "15",
+"ref": "19",
+"lemma": "|promille|",
+"lex": "|promille..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "21",
+"ref": "20",
+"lemma": "|",
+"lex": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "hade",
+"deprel": "EF",
+"dephead": "19",
+"ref": "21",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "skattereduktion",
+"deprel": "OO",
+"dephead": "21",
+"ref": "22",
+"lemma": "|skattereduktion|",
+"lex": "|skattereduktion..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "15",
+"ref": "23",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 356,
+"corpus_hits": {
+"DA": 356
+},
+"corpus_order": [
+"DA"
+],
+"query_data": "eJwFwcERgDAIBMCW4DCQ6MsZGzlI6L8Ed4-uY6x2uqHCxHoCo3arVsqgJBrhR2UbrwBpvhhIZWnO53tvG_4DxaITUQ==\n",
+"time": 2.2766807079315186
+}

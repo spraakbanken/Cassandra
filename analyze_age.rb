@@ -2,7 +2,7 @@ corpus = ARGV[0]
 maincorpus = corpus.split("-")[0]
 subcorpus = corpus.split("-")[1..-1].join("-")
 variable = ARGV[1]
-path = "C:\\Sasha\\D\\DGU\\CassandraMy\\KorpApi\\variables\\#{variable}\\age_corr\\"
+path = "variables\\#{variable}\\age_corr\\"
 o = File.open("#{path}#{corpus}.tsv","w:utf-8")
 o.puts "author\tage\tv2rel\tyear\tbin\tbinlabel"
 o2 = File.open("#{path}#{corpus}_change.tsv","w:utf-8")
@@ -68,7 +68,7 @@ end
 require "rinruby"
 
 
-for year in 2003..2021 do
+for year in 2003..2022 do
     f = File.open("#{path}#{corpus}_#{year}.tsv","r:utf-8")
     f.each_line.with_index do |line, index|
         if index > 0

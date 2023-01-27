@@ -1,0 +1,193 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "TWITTER-2016",
+"match": {
+"position": 113,
+"start": 1,
+"end": 3
+},
+"tokens": [
+{
+"word": "talade",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|tala|",
+"lex": "|tala..vb.1|",
+"ref": "1",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "2",
+"dephead": "1",
+"deprel": "OO"
+},
+{
+"word": "om",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"ref": "3",
+"dephead": "1",
+"deprel": "OA"
+},
+{
+"word": "att",
+"pos": "IE",
+"msd": "IE",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"ref": "4",
+"dephead": "3",
+"deprel": "PA"
+},
+{
+"word": "minska",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|minska|",
+"lex": "|minska..vb.1|",
+"ref": "5",
+"dephead": "4",
+"deprel": "IF"
+},
+{
+"word": "inv",
+"pos": "JJ",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"lemma": "|",
+"lex": "|",
+"ref": "6",
+"dephead": "5",
+"deprel": "SP"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "7",
+"dephead": "1",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "TWITTER-2016",
+"match": {
+"position": 11932,
+"start": 2,
+"end": 4
+},
+"tokens": [
+{
+"word": "Synd",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|synd|",
+"lex": "|synd..nn.1|",
+"ref": "1",
+"dephead": "4",
+"deprel": "SS"
+},
+{
+"word": "f\u00f6r",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|f\u00f6r|",
+"lex": "|f\u00f6r..pp.1|",
+"ref": "2",
+"dephead": "1",
+"deprel": "ET"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "3",
+"dephead": "2",
+"deprel": "PA"
+},
+{
+"word": "har",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"ref": "4",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "en",
+"pos": "DT",
+"msd": "DT.UTR.SIN.IND",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"ref": "5",
+"dephead": "7",
+"deprel": "DT"
+},
+{
+"word": "snygg",
+"pos": "JJ",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"lemma": "|snygg|",
+"lex": "|snygg..av.1|",
+"ref": "6",
+"dephead": "7",
+"deprel": "AT"
+},
+{
+"word": "produkt",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|produkt|",
+"lex": "|produkt..nn.1|",
+"ref": "7",
+"dephead": "4",
+"deprel": "OO"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "8",
+"dephead": "4",
+"deprel": "IP"
+}
+]
+}
+],
+"hits": 48276,
+"corpus_hits": {
+"TWITTER-2016": 48276
+},
+"corpus_order": [
+"TWITTER-2016"
+],
+"query_data": "eJwFwTsOgDAIANATmZRvic4OrqaJMxS4_xF8rzOgCLUCOUsyubcJGpH2TN1knbtTvdknKAvQUA8TiSCvuNb3rHW_Bw7Qkw2n_vkKF00=\n",
+"time": 54.82633328437805
+}

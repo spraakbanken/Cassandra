@@ -6,7 +6,7 @@ PATH = ""
 #require 'json'
 
 
-def get_years(corpus,nolabel)
+def get_years(corpus,nolabel=false)
 
     if nolabel
         firstyear,lastyear = get_years_from_file(corpus,nolabel)

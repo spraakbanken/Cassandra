@@ -1,0 +1,475 @@
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FAMILJELIV-ALLMANNA-NOJE",
+"match": {
+"position": 15396,
+"start": 23,
+"end": 25
+},
+"tokens": [
+{
+"word": "\u00e5",
+"deprel": "+A",
+"dephead": "3",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "jag",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "v\u00e4xlade",
+"deprel": "MS",
+"dephead": "14",
+"ref": "3",
+"lemma": "|v\u00e4xla|v\u00e4xla_in|",
+"lex": "|v\u00e4xla..vb.1|v\u00e4xla_in..vbm.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "in",
+"deprel": "PL",
+"dephead": "3",
+"ref": "4",
+"lemma": "|in|v\u00e4xla_in:3|",
+"lex": "|in..ab.1|v\u00e4xla_in..vbm.1:3|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "(",
+"deprel": "IR",
+"dephead": "3",
+"ref": "5",
+"lemma": "|",
+"lex": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "allt",
+"deprel": "+F",
+"dephead": "3",
+"ref": "6",
+"lemma": "|all|",
+"lex": "|all..pn.1|",
+"msd": "PN.NEU.SIN.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "utom",
+"deprel": "RA",
+"dephead": "6",
+"ref": "7",
+"lemma": "|utom|",
+"lex": "|utom..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "50Euro",
+"deprel": "PA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": ")",
+"deprel": "JR",
+"dephead": "3",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "p\u00e5",
+"deprel": "RA",
+"dephead": "3",
+"ref": "10",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "bussen",
+"deprel": "PA",
+"dephead": "10",
+"ref": "11",
+"lemma": "|buss|",
+"lex": "|buss..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "RA",
+"dephead": "3",
+"ref": "12",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Alanya",
+"deprel": "PA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "&",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "14",
+"lemma": "|&|",
+"lex": "|o..kna.2|",
+"msd": "KN.AN",
+"pos": "KN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "16",
+"ref": "15",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e9",
+"deprel": "MS",
+"dephead": "3",
+"ref": "16",
+"lemma": "|",
+"lex": "|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "jag",
+"deprel": "OO",
+"dephead": "16",
+"ref": "17",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "glad",
+"deprel": "OP",
+"dephead": "16",
+"ref": "18",
+"lemma": "|glad|",
+"lex": "|glad..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "\u00f6ver",
+"deprel": "OA",
+"dephead": "16",
+"ref": "19",
+"lemma": "|\u00f6ver|",
+"lex": "|\u00f6ver..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "...",
+"deprel": "PA",
+"dephead": "19",
+"ref": "20",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "Verkade",
+"deprel": "MS",
+"dephead": "3",
+"ref": "21",
+"lemma": "|verka|",
+"lex": "|verka..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "b\u00f6kigt",
+"deprel": "AA",
+"dephead": "21",
+"ref": "22",
+"lemma": "|b\u00f6kig|",
+"lex": "|b\u00f6kig..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "21",
+"ref": "23",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "23",
+"ref": "24",
+"lemma": "|de|den_d\u00e4r|",
+"lex": "|de..pn.1|den_d\u00e4r..pnm.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "d\u00e4r",
+"deprel": "RA",
+"dephead": "21",
+"ref": "25",
+"lemma": "|d\u00e4r|den_d\u00e4r:24|",
+"lex": "|d\u00e4r..ab.1|den_d\u00e4r..pnm.1:24|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "26",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FAMILJELIV-ALLMANNA-NOJE",
+"match": {
+"position": 28046,
+"start": 12,
+"end": 14
+},
+"tokens": [
+{
+"word": "Vilket",
+"deprel": "SS",
+"dephead": "3",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "inte",
+"deprel": "NA",
+"dephead": "3",
+"ref": "2",
+"lemma": "|inte|",
+"lex": "|inte..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "\u00e4r",
+"deprel": "MS",
+"dephead": "12",
+"ref": "3",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "n\u00e5gra",
+"deprel": "DT",
+"dephead": "5",
+"ref": "4",
+"lemma": "|n\u00e5gon|",
+"lex": "|n\u00e5gon..pn.1|",
+"msd": "DT.UTR+NEU.PLU.IND",
+"pos": "DT"
+},
+{
+"word": "pengar",
+"deprel": "SS",
+"dephead": "3",
+"ref": "5",
+"lemma": "|peng|pengar|",
+"lex": "|peng..nn.1|pengar..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "alls",
+"deprel": "ET",
+"dephead": "5",
+"ref": "6",
+"lemma": "|alls|",
+"lex": "|alls..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "(",
+"deprel": "IR",
+"dephead": "5",
+"ref": "7",
+"lemma": "|",
+"lex": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "ca",
+"deprel": "AA",
+"dephead": "9",
+"ref": "8",
+"lemma": "|ca|",
+"lex": "|ca..aba.1|",
+"msd": "AB.AN",
+"pos": "AB"
+},
+{
+"word": "120",
+"deprel": "DT",
+"dephead": "10",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "kr",
+"deprel": "AN",
+"dephead": "5",
+"ref": "10",
+"lemma": "|kr|",
+"lex": "|kr..nna.1|",
+"msd": "NN.AN",
+"pos": "NN"
+},
+{
+"word": ")",
+"deprel": "JR",
+"dephead": "5",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "men",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "12",
+"lemma": "|men|",
+"lex": "|men..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "17",
+"ref": "13",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "ville",
+"deprel": "MS",
+"dephead": "12",
+"ref": "14",
+"lemma": "|vilja|",
+"lex": "|vilja..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "han",
+"deprel": "SS",
+"dephead": "14",
+"ref": "15",
+"lemma": "|han|",
+"lex": "|han..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "inte",
+"deprel": "NA",
+"dephead": "14",
+"ref": "16",
+"lemma": "|inte|",
+"lex": "|inte..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "ha",
+"deprel": "VG",
+"dephead": "14",
+"ref": "17",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "12",
+"ref": "18",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 13361,
+"corpus_hits": {
+"FAMILJELIV-ALLMANNA-NOJE": 13361
+},
+"corpus_order": [
+"FAMILJELIV-ALLMANNA-NOJE"
+],
+"query_data": "eJwFwUEOwBAQAMAXSazF0p4cNCHorXes_f8TOhO2BPDxeGYQ4GN1tHoRI0TaHCYdJz46IdxucrAGNG5Bt9isSdrcT-ql1dzKp1JrPY2R1HhrvgDRww_zcBnf\n",
+"time": 10.203072309494019
+}

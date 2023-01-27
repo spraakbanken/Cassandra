@@ -1,0 +1,447 @@
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-SPORT",
+"match": {
+"position": 4503,
+"start": 14,
+"end": 16
+},
+"tokens": [
+{
+"word": "Alla",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|all|",
+"lex": "|all..pn.1|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "vet",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|veta|",
+"lex": "|veta..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "CJ",
+"dephead": "10",
+"ref": "3",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "Fiorentina",
+"deprel": "SS",
+"dephead": "5",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "\u00e4r",
+"deprel": "UA",
+"dephead": "3",
+"ref": "5",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "provinsklubb",
+"deprel": "SP",
+"dephead": "5",
+"ref": "7",
+"lemma": "|provinsklubb|",
+"lex": "|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "RA",
+"dephead": "5",
+"ref": "8",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Italien",
+"deprel": "PA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|Italien|",
+"lex": "|Italien..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "och",
+"deprel": "OO",
+"dephead": "2",
+"ref": "10",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "att",
+"deprel": "CJ",
+"dephead": "10",
+"ref": "11",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "man",
+"deprel": "SS",
+"dephead": "13",
+"ref": "12",
+"lemma": "|man|",
+"lex": "|man..pn.1|",
+"msd": "PN.UTR.SIN.IND.SUB",
+"pos": "PN"
+},
+{
+"word": "kan",
+"deprel": "UA",
+"dephead": "11",
+"ref": "13",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "dominera",
+"deprel": "VG",
+"dephead": "13",
+"ref": "14",
+"lemma": "|dominera|",
+"lex": "|dominera..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "14",
+"ref": "15",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "till",
+"deprel": "OA",
+"dephead": "14",
+"ref": "16",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "underkastelse",
+"deprel": "PA",
+"dephead": "16",
+"ref": "17",
+"lemma": "|underkastelse|",
+"lex": "|underkastelse..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "18",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FLASHBACK-SPORT",
+"match": {
+"position": 10180,
+"start": 18,
+"end": 20
+},
+"tokens": [
+{
+"word": "F\u00e5r",
+"deprel": "AA",
+"dephead": "13",
+"ref": "1",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "vi",
+"deprel": "SS",
+"dephead": "1",
+"ref": "2",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "de",
+"deprel": "DT",
+"dephead": "4",
+"ref": "3",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "namn",
+"deprel": "OO",
+"dephead": "1",
+"ref": "4",
+"lemma": "|namn|",
+"lex": "|namn..nn.1|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "6",
+"ref": "5",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "ryktas",
+"deprel": "ET",
+"dephead": "4",
+"ref": "6",
+"lemma": "|rykta|ryktas|",
+"lex": "|rykta..vb.1|ryktas..vb.1|",
+"msd": "VB.PRS.SFO",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "6",
+"ref": "7",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "ut\u00f6ver",
+"deprel": "TA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|ut\u00f6ver|",
+"lex": "|ut\u00f6ver..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "DT",
+"dephead": "11",
+"ref": "9",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "redan",
+"deprel": "TA",
+"dephead": "11",
+"ref": "10",
+"lemma": "|redan|",
+"lex": "|redan..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "klara",
+"deprel": "PA",
+"dephead": "8",
+"ref": "11",
+"lemma": "|klar|",
+"lex": "|klar..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "s\u00e5",
+"deprel": "DB",
+"dephead": "13",
+"ref": "12",
+"lemma": "|s\u00e5|",
+"lex": "|s\u00e5..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "tror",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "13",
+"lemma": "|tro|",
+"lex": "|tro..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "jag",
+"deprel": "SS",
+"dephead": "13",
+"ref": "14",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "absolut",
+"deprel": "AA",
+"dephead": "13",
+"ref": "15",
+"lemma": "|absolut|",
+"lex": "|absolut..ab.1|absolut..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "vi",
+"deprel": "SS",
+"dephead": "17",
+"ref": "16",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "kan",
+"deprel": "UA",
+"dephead": "15",
+"ref": "17",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "ge",
+"deprel": "VG",
+"dephead": "17",
+"ref": "18",
+"lemma": "|ge|",
+"lex": "|ge..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "IO",
+"dephead": "18",
+"ref": "19",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "22",
+"ref": "20",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "redig",
+"deprel": "AT",
+"dephead": "22",
+"ref": "21",
+"lemma": "|redig|",
+"lex": "|redig..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "utmaning",
+"deprel": "OO",
+"dephead": "18",
+"ref": "22",
+"lemma": "|utmaning|",
+"lex": "|utmaning..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "...",
+"deprel": "IG",
+"dephead": "13",
+"ref": "23",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 24130,
+"corpus_hits": {
+"FLASHBACK-SPORT": 24130
+},
+"corpus_order": [
+"FLASHBACK-SPORT"
+],
+"query_data": "eJwNylEKgCAMANATBXPqnPVlQQQFRXaBOdv9j1Dv-70Rhawlg6hKiCxgvWmmCGSJDdCpZFQjYKRAzN17Ef6r-oh5Wo9St7ks-1Cv835GDM7DBwLcFt0=\n",
+"time": 22.97624683380127
+}

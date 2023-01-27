@@ -1,0 +1,415 @@
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-SEX",
+"match": {
+"position": 15972,
+"start": 5,
+"end": 7
+},
+"tokens": [
+{
+"word": "Har",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "aldrig",
+"deprel": "TA",
+"dephead": "1",
+"ref": "2",
+"lemma": "|aldrig|",
+"lex": "|aldrig..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "varit",
+"deprel": "VG",
+"dephead": "1",
+"ref": "3",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "missn\u00f6jd",
+"deprel": "SP",
+"dephead": "3",
+"ref": "4",
+"lemma": "|missn\u00f6jd|",
+"lex": "|missn\u00f6jd..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "3",
+"ref": "5",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "jag",
+"deprel": "SS",
+"dephead": "8",
+"ref": "7",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "har",
+"deprel": "ET",
+"dephead": "6",
+"ref": "8",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "varit",
+"deprel": "VG",
+"dephead": "8",
+"ref": "9",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "9",
+"ref": "10",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "hittils",
+"deprel": "PA",
+"dephead": "10",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+}
+]
+},
+{
+"corpus": "FLASHBACK-SEX",
+"match": {
+"position": 23384,
+"start": 21,
+"end": 23
+},
+"tokens": [
+{
+"word": "Typ",
+"deprel": "DT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|typ|",
+"lex": "|typ..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "brudar",
+"deprel": "SS",
+"dephead": "23",
+"ref": "2",
+"lemma": "|brud|",
+"lex": "|brud..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "4",
+"ref": "3",
+"lemma": "|",
+"lex": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "\u00e4r",
+"deprel": "MS",
+"dephead": "9",
+"ref": "4",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "proffs",
+"deprel": "SP",
+"dephead": "4",
+"ref": "5",
+"lemma": "|proffs|",
+"lex": "|proffs..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "RA",
+"dephead": "4",
+"ref": "6",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "vissa",
+"deprel": "DT",
+"dephead": "8",
+"ref": "7",
+"lemma": "|viss|",
+"lex": "|viss..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "sporter",
+"deprel": "PA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|sport|",
+"lex": "|sport..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "ET",
+"dephead": "2",
+"ref": "9",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "har",
+"deprel": "+F",
+"dephead": "9",
+"ref": "10",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "det",
+"deprel": "OO",
+"dephead": "10",
+"ref": "11",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "som",
+"deprel": "OP",
+"dephead": "10",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "yrke",
+"deprel": "UA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|yrke|",
+"lex": "|yrke..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "....",
+"deprel": "AT",
+"dephead": "15",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "typ",
+"deprel": "DT",
+"dephead": "16",
+"ref": "15",
+"lemma": "|typ|",
+"lex": "|typ..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "brottare",
+"deprel": "CJ",
+"dephead": "19",
+"ref": "16",
+"lemma": "|brottare|",
+"lex": "|brottare..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "19",
+"ref": "17",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "kulst\u00f6terskor",
+"deprel": "CJ",
+"dephead": "19",
+"ref": "18",
+"lemma": "|kulst\u00f6terskor|",
+"lex": "|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "OO",
+"dephead": "10",
+"ref": "19",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "maratonbrudar",
+"deprel": "CJ",
+"dephead": "19",
+"ref": "20",
+"lemma": "|",
+"lex": "|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "....",
+"deprel": "IK",
+"dephead": "23",
+"ref": "21",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "21",
+"ref": "22",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "g\u00e5r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "23",
+"lemma": "|g\u00e5|",
+"lex": "|g\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "ju",
+"deprel": "MA",
+"dephead": "23",
+"ref": "24",
+"lemma": "|ju|",
+"lex": "|ju..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "bart",
+"deprel": "SS",
+"dephead": "23",
+"ref": "25",
+"lemma": "|",
+"lex": "|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "utseendem\u00e4ssigt",
+"deprel": "AA",
+"dephead": "23",
+"ref": "26",
+"lemma": "|utseendem\u00e4ssig|",
+"lex": "|utseendem\u00e4ssig..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "!",
+"deprel": "IU",
+"dephead": "23",
+"ref": "27",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 11522,
+"corpus_hits": {
+"FLASHBACK-SEX": 11522
+},
+"corpus_order": [
+"FLASHBACK-SEX"
+],
+"query_data": "eJwFwTEOgDAIAMAXmRQoFHVSozHRrYsrtOX_T_AuuiPkFiQ28vBeZuZSNDQZsgiMRsqSLUFh8lDqIdyShVG4s67Xu9V7345nque3ADDiD-UIFvo=\n",
+"time": 10.649670600891113
+}

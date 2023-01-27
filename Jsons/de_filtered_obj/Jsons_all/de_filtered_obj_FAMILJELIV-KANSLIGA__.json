@@ -1,0 +1,440 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FAMILJELIV-KANSLIGA",
+"match": {
+"position": 2862,
+"start": 10,
+"end": 12
+},
+"tokens": [
+{
+"word": "Sannolikheten",
+"deprel": "SS",
+"dephead": "13",
+"ref": "1",
+"lemma": "|sannolikhet|",
+"lex": "|sannolikhet..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "att",
+"deprel": "ET",
+"dephead": "1",
+"ref": "2",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "han",
+"deprel": "SS",
+"dephead": "4",
+"ref": "3",
+"lemma": "|han|",
+"lex": "|han..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "orkar",
+"deprel": "UA",
+"dephead": "2",
+"ref": "4",
+"lemma": "|orka|",
+"lex": "|orka..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "6",
+"ref": "5",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "stund",
+"deprel": "OO",
+"dephead": "4",
+"ref": "6",
+"lemma": "|stund|",
+"lex": "|stund..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e5",
+"deprel": "+A",
+"dephead": "9",
+"ref": "7",
+"lemma": "|",
+"lex": "|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "sen",
+"deprel": "HD",
+"dephead": "7",
+"ref": "8",
+"lemma": "|sen|",
+"lex": "|sen..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "skiter",
+"deprel": "TA",
+"dephead": "4",
+"ref": "9",
+"lemma": "|skita|",
+"lex": "|skita..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "i",
+"deprel": "RA",
+"dephead": "9",
+"ref": "10",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "10",
+"ref": "11",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "igen",
+"deprel": "AA",
+"dephead": "9",
+"ref": "12",
+"lemma": "|igen|",
+"lex": "|igen..ab.1|igen..ab.2|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "13",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "ju",
+"deprel": "MA",
+"dephead": "13",
+"ref": "14",
+"lemma": "|ju|",
+"lex": "|ju..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "ganska",
+"deprel": "AA",
+"dephead": "16",
+"ref": "15",
+"lemma": "|ganska|",
+"lex": "|ganska..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "stor",
+"deprel": "SP",
+"dephead": "13",
+"ref": "16",
+"lemma": "|stor|",
+"lex": "|stor..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "som",
+"deprel": "KA",
+"dephead": "13",
+"ref": "17",
+"lemma": "|som|",
+"lex": "|som..ab.1|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "jag",
+"deprel": "SS",
+"dephead": "19",
+"ref": "18",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "k\u00e4nner",
+"deprel": "UA",
+"dephead": "17",
+"ref": "19",
+"lemma": "|k\u00e4nna|",
+"lex": "|k\u00e4nna..vb.1|k\u00e4nna..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "...",
+"deprel": "IG",
+"dephead": "13",
+"ref": "20",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FAMILJELIV-KANSLIGA",
+"match": {
+"position": 21898,
+"start": 14,
+"end": 16
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "nog",
+"deprel": "MA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|nog|",
+"lex": "|nog..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "b\u00e4ttre",
+"deprel": "SP",
+"dephead": "2",
+"ref": "4",
+"lemma": "|bra|god|",
+"lex": "|bra..av.1|god..av.1|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "hon",
+"deprel": "SS",
+"dephead": "7",
+"ref": "5",
+"lemma": "|hon|",
+"lex": "|hon..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "sj\u00e4lv",
+"deprel": "PT",
+"dephead": "5",
+"ref": "6",
+"lemma": "|sj\u00e4lv|",
+"lex": "|sj\u00e4lv..pn.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "f\u00e5r",
+"deprel": "TA",
+"dephead": "2",
+"ref": "7",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "uppt\u00e4cka",
+"deprel": "VG",
+"dephead": "7",
+"ref": "8",
+"lemma": "|uppt\u00e4cka|",
+"lex": "|uppt\u00e4cka..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "11",
+"ref": "9",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "d\u00e5lig",
+"deprel": "AT",
+"dephead": "11",
+"ref": "10",
+"lemma": "|d\u00e5lig|",
+"lex": "|d\u00e5lig..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "pappa",
+"deprel": "OO",
+"dephead": "8",
+"ref": "11",
+"lemma": "|pappa|",
+"lex": "|pappa..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e4n",
+"deprel": "ET",
+"dephead": "11",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "att",
+"deprel": "UA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "f\u00e5",
+"deprel": "IF",
+"dephead": "13",
+"ref": "14",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "14",
+"ref": "15",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "h\u00f6rt",
+"deprel": "VG",
+"dephead": "14",
+"ref": "16",
+"lemma": "|h\u00f6ra|",
+"lex": "|h\u00f6ra..vb.1|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "av",
+"deprel": "AG",
+"dephead": "16",
+"ref": "17",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "mig",
+"deprel": "PA",
+"dephead": "17",
+"ref": "18",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.OBJ",
+"pos": "PN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "19",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 165083,
+"corpus_hits": {
+"FAMILJELIV-KANSLIGA": 165083
+},
+"corpus_order": [
+"FAMILJELIV-KANSLIGA"
+],
+"query_data": "eJwFwUEOhCAMAMAXmRRaoKwnDmpQ9GKy91LK_5_gjGebyDmKTFMaFoa4MTw4IiCLafaMnjWBee6COYGSSoeJyXIPvO7lru3cWv0vV3neVo_yczEA4wekOhke\n",
+"time": 87.6443543434143
+}

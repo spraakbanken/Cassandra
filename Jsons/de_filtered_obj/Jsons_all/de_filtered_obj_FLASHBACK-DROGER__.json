@@ -1,0 +1,213 @@
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-DROGER",
+"match": {
+"position": 1620,
+"start": 1,
+"end": 3
+},
+"tokens": [
+{
+"word": "ja",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|ja|",
+"lex": "|ja..in.1|",
+"msd": "IN",
+"pos": "IN"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "3",
+"ref": "2",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "hade",
+"deprel": "MS",
+"dephead": "1",
+"ref": "3",
+"lemma": "|ha|ha_r\u00e4tt|",
+"lex": "|ha..vb.1|ha_r\u00e4tt..vbm.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "du",
+"deprel": "SS",
+"dephead": "3",
+"ref": "4",
+"lemma": "|du|",
+"lex": "|du..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "r\u00e4tt",
+"deprel": "PL",
+"dephead": "3",
+"ref": "5",
+"lemma": "|r\u00e4tt|ha_r\u00e4tt:3|",
+"lex": "|r\u00e4tt..ab.1|ha_r\u00e4tt..vbm.1:3|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "i",
+"deprel": "RA",
+"dephead": "3",
+"ref": "6",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "haha",
+"deprel": "PA",
+"dephead": "6",
+"ref": "7",
+"lemma": "|haha|",
+"lex": "|haha..in.1|",
+"msd": "IN",
+"pos": "IN"
+}
+]
+},
+{
+"corpus": "FLASHBACK-DROGER",
+"match": {
+"position": 6316,
+"start": 9,
+"end": 11
+},
+"tokens": [
+{
+"word": "Och",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "plugga",
+"deprel": "MS",
+"dephead": "1",
+"ref": "2",
+"lemma": "|plugga|",
+"lex": "|plugga..vb.1|plugga..vb.2|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "plugga",
+"deprel": "OO",
+"dephead": "2",
+"ref": "3",
+"lemma": "|plugga|",
+"lex": "|plugga..vb.1|plugga..vb.2|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "plugga",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|plugga|",
+"lex": "|plugga..vb.1|plugga..vb.2|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "roider",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "innan",
+"deprel": "TA",
+"dephead": "4",
+"ref": "7",
+"lemma": "|innan|",
+"lex": "|innan..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "du",
+"deprel": "SS",
+"dephead": "9",
+"ref": "8",
+"lemma": "|du|",
+"lex": "|du..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "anv\u00e4nder",
+"deprel": "UA",
+"dephead": "7",
+"ref": "9",
+"lemma": "|anv\u00e4nda|",
+"lex": "|anv\u00e4nda..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "9",
+"ref": "10",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "..",
+"deprel": "IP",
+"dephead": "2",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 55118,
+"corpus_hits": {
+"FLASHBACK-DROGER": 55118
+},
+"corpus_order": [
+"FLASHBACK-DROGER"
+],
+"query_data": "eJwFwdkNg0AMBcCKItmGtwf54kYCCYlUsPjov4TMKNELAjFXkJcwa1mDQ5Ih9WZVBBCXXptLa1GUndElZYnqOX-3a_wd0zifn-W59_UZAObyBxavF40=\n",
+"time": 0.5384335517883301
+}

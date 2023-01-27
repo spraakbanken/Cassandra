@@ -1,0 +1,301 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "TWITTER",
+"match": {
+"position": 42282,
+"start": 8,
+"end": 10
+},
+"structs": {
+"text_datetime": "2012-05-02 13:13:27",
+"text_id": "197644968989425665",
+"user_username": "TWO_Cosmetics"
+},
+"tokens": [
+{
+"word": "Vi",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "sl\u00e4nger",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|sl\u00e4nga|sl\u00e4nga_ut|",
+"lex": "|sl\u00e4nga..vb.1|sl\u00e4nga_ut..vbm.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "d\u00e4rf\u00f6r",
+"deprel": "AA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|d\u00e4rf\u00f6r|",
+"lex": "|d\u00e4rf\u00f6r..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "ut",
+"deprel": "PL",
+"dephead": "2",
+"ref": "4",
+"lemma": "|ut|sl\u00e4nga_ut:2|",
+"lex": "|ut..ab.1|sl\u00e4nga_ut..vbm.1:2|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "10",
+"deprel": "DT",
+"dephead": "6",
+"ref": "5",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "stycken",
+"deprel": "DT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|styck|",
+"lex": "|styck..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "BlueLight",
+"deprel": "OO",
+"dephead": "2",
+"ref": "7",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "till",
+"deprel": "RA",
+"dephead": "2",
+"ref": "8",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "...",
+"deprel": "IG",
+"dephead": "2",
+"ref": "10",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "http://t.co/XIoSXq92",
+"deprel": "IG",
+"dephead": "2",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+}
+]
+},
+{
+"corpus": "TWITTER",
+"match": {
+"position": 59644,
+"start": 8,
+"end": 10
+},
+"structs": {
+"text_datetime": "2017-09-10 14:37:21",
+"text_id": "906859135899226112",
+"user_username": "backdahl"
+},
+"tokens": [
+{
+"word": "Appen",
+"deprel": "DT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|app|",
+"lex": "|app..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "Utegym",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|utegym|",
+"lex": "|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "f\u00f6rs\u00f6ker",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|f\u00f6rs\u00f6ka|",
+"lex": "|f\u00f6rs\u00f6ka..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "dock",
+"deprel": "+A",
+"dephead": "3",
+"ref": "4",
+"lemma": "|dock|",
+"lex": "|dock..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "lista",
+"deprel": "OO",
+"dephead": "3",
+"ref": "5",
+"lemma": "|lista|",
+"lex": "|lista..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "alla",
+"deprel": "DT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|all|",
+"lex": "|all..pn.1|",
+"msd": "DT.UTR+NEU.PLU.IND+DEF",
+"pos": "DT"
+},
+{
+"word": "utegym",
+"deprel": "OO",
+"dephead": "5",
+"ref": "7",
+"lemma": "|utegym|",
+"lex": "|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "inklusive",
+"deprel": "OA",
+"dephead": "5",
+"ref": "8",
+"lemma": "|inklusive|",
+"lex": "|inklusive..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "i",
+"deprel": "AA",
+"dephead": "5",
+"ref": "10",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "metall",
+"deprel": "CJ",
+"dephead": "12",
+"ref": "11",
+"lemma": "|metall|",
+"lex": "|metall..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "/",
+"deprel": "PA",
+"dephead": "10",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "st\u00e5l",
+"deprel": "CJ",
+"dephead": "12",
+"ref": "13",
+"lemma": "|st\u00e5l|",
+"lex": "|st\u00e5l..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 21776,
+"corpus_hits": {
+"TWITTER": 21776
+},
+"corpus_order": [
+"TWITTER"
+],
+"query_data": "eJwNyTsSgCAMBcArEcjLR2sLW4cZ6hDx_keQZpsNq-bsXhqSkYYamB8WzW3uYVsQL7koI4UNxHhNQ0hbhJ993L1fz1FJVX4yWRS_\n",
+"time": 40.49441957473755
+}

@@ -1,0 +1,274 @@
+ 
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-RESOR",
+"match": {
+"position": 55838,
+"start": 10,
+"end": 12
+},
+"tokens": [
+{
+"word": "NANA",
+"deprel": "SS",
+"dephead": "7",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "e",
+"deprel": "HD",
+"dephead": "1",
+"ref": "2",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "kul",
+"deprel": "PT",
+"dephead": "1",
+"ref": "3",
+"lemma": "|kul|",
+"lex": "|kul..av.1|",
+"msd": "JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "mitt",
+"deprel": "AA",
+"dephead": "5",
+"ref": "4",
+"lemma": "|mitt|mitt_i|",
+"lex": "|mitt..ab.1|mitt_i..ppm.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "i",
+"deprel": "RA",
+"dephead": "3",
+"ref": "5",
+"lemma": "|i|mitt_i:4|",
+"lex": "|i..pp.1|mitt_i..ppm.1:4|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "porrgatan",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|porrgata|",
+"lex": "|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "---",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "7",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "inte",
+"deprel": "NA",
+"dephead": "9",
+"ref": "8",
+"lemma": "|inte|",
+"lex": "|inte..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "l\u00e5ngt",
+"deprel": "AA",
+"dephead": "10",
+"ref": "9",
+"lemma": "|l\u00e5ng|l\u00e5ngt|",
+"lex": "|l\u00e5ng..av.1|l\u00e5ngt..ab.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "fr\u00e5n",
+"deprel": "+F",
+"dephead": "7",
+"ref": "10",
+"lemma": "|fr\u00e5n|",
+"lex": "|fr\u00e5n..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "10",
+"ref": "11",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "jag",
+"deprel": "SS",
+"dephead": "13",
+"ref": "12",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "rekomenderar",
+"deprel": "ET",
+"dephead": "11",
+"ref": "13",
+"lemma": "|",
+"lex": "|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+}
+]
+},
+{
+"corpus": "FLASHBACK-RESOR",
+"match": {
+"position": 57358,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "m\u00e5set",
+"deprel": "VG",
+"dephead": "6",
+"ref": "2",
+"lemma": "|",
+"lex": "|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "g\u00f6ra",
+"deprel": "OO",
+"dephead": "2",
+"ref": "3",
+"lemma": "|g\u00f6ra|",
+"lex": "|g\u00f6ra..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "hur",
+"deprel": "AA",
+"dephead": "6",
+"ref": "5",
+"lemma": "|hur|",
+"lex": "|hur..ab.1|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "ska",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "6",
+"lemma": "|skola|",
+"lex": "|skola..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "6",
+"ref": "7",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "annars",
+"deprel": "AA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|annars|",
+"lex": "|annars..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "fixa",
+"deprel": "VG",
+"dephead": "6",
+"ref": "9",
+"lemma": "|fixa|",
+"lex": "|fixa..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "pengar",
+"deprel": "OO",
+"dephead": "9",
+"ref": "10",
+"lemma": "|peng|pengar|",
+"lex": "|peng..nn.1|pengar..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "?",
+"deprel": "I?",
+"dephead": "6",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 3676,
+"corpus_hits": {
+"FLASHBACK-RESOR": 3676
+},
+"corpus_order": [
+"FLASHBACK-RESOR"
+],
+"query_data": "eJwNw1sKgCAQAMATBe7aPqwviyIoCPQEuur9j1ADIzCwOXA0rJQ-SKAEzx4EsCNaq2zVRNQTMakTNkKY3T-o1iDr-cR8bXG_p3TkNy2ehT_CmhXl\n",
+"time": 5.358638525009155
+}

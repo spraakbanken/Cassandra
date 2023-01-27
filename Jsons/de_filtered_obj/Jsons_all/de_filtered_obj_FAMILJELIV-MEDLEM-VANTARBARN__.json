@@ -1,0 +1,318 @@
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FAMILJELIV-MEDLEM-VANTARBARN",
+"match": {
+"position": 3417,
+"start": 12,
+"end": 14
+},
+"tokens": [
+{
+"word": "S\u00e5\u00e5",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "IN",
+"pos": "IN"
+},
+{
+"word": "har",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "ignorerat",
+"deprel": "VG",
+"dephead": "2",
+"ref": "3",
+"lemma": "|ignorera|",
+"lex": "|ignorera..vb.1|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "n\u00e5gra",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|n\u00e5gon|",
+"lex": "|n\u00e5gon..pn.1|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "4",
+"ref": "5",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "dessa",
+"deprel": "DT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|denna|",
+"lex": "|denna..pn.1|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "namn",
+"deprel": "PA",
+"dephead": "5",
+"ref": "7",
+"lemma": "|namn|",
+"lex": "|namn..nn.1|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "3",
+"ref": "8",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "\u00e4ven",
+"deprel": "AA",
+"dephead": "3",
+"ref": "9",
+"lemma": "|\u00e4ven|\u00e4ven_om|",
+"lex": "|\u00e4ven..ab.1|\u00e4ven_om..snm.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "om",
+"deprel": "HD",
+"dephead": "9",
+"ref": "10",
+"lemma": "|om|\u00e4ven_om:9|",
+"lex": "|om..sn.1|\u00e4ven_om..snm.1:9|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "n\u00e5gra",
+"deprel": "SS",
+"dephead": "14",
+"ref": "11",
+"lemma": "|n\u00e5gon|",
+"lex": "|n\u00e5gon..pn.1|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "11",
+"ref": "12",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "UA",
+"dephead": "9",
+"ref": "14",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "s\u00e5",
+"deprel": "AA",
+"dephead": "16",
+"ref": "15",
+"lemma": "|s\u00e5|",
+"lex": "|s\u00e5..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "vackra",
+"deprel": "SP",
+"dephead": "14",
+"ref": "16",
+"lemma": "|vacker|",
+"lex": "|vacker..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "17",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FAMILJELIV-MEDLEM-VANTARBARN",
+"match": {
+"position": 4233,
+"start": 2,
+"end": 4
+},
+"tokens": [
+{
+"word": "M\u00e5nga",
+"deprel": "SS",
+"dephead": "4",
+"ref": "1",
+"lemma": "|m\u00e5ngen|",
+"lex": "|m\u00e5ngen..pn.1|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "1",
+"ref": "2",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "MS",
+"dephead": "7",
+"ref": "4",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "m\u00e4ktiga",
+"deprel": "SP",
+"dephead": "4",
+"ref": "5",
+"lemma": "|m\u00e4ktig|",
+"lex": "|m\u00e4ktig..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "4",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "och",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "7",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "har",
+"deprel": "+F",
+"dephead": "7",
+"ref": "8",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "fint",
+"deprel": "AT",
+"dephead": "10",
+"ref": "9",
+"lemma": "|fin|",
+"lex": "|fin..av.1|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "uttal",
+"deprel": "OO",
+"dephead": "8",
+"ref": "10",
+"lemma": "|uttal|",
+"lex": "|uttal..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "7",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 54540,
+"corpus_hits": {
+"FAMILJELIV-MEDLEM-VANTARBARN": 54540
+},
+"corpus_order": [
+"FAMILJELIV-MEDLEM-VANTARBARN"
+],
+"query_data": "eJwNyDEOgCAMAMAXmbS2paATRkw04GCMO0X9_xP0xmuCpELqagD1UuvNEG40rfhvY0BB7h9DehUNrKFnAubek4UnuHGJZc1byuvVlTTnVLor7mc8pnjsg7AwfO5AGXg=\n",
+"time": 28.233243942260742
+}

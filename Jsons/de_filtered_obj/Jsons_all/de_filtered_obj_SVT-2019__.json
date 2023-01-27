@@ -1,0 +1,374 @@
+ 
+{
+"kwic": [
+{
+"corpus": "SVT-2019",
+"match": {
+"position": 20085,
+"start": 7,
+"end": 9
+},
+"tokens": [
+{
+"word": "\u2013",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "Givetvis",
+"deprel": "MA",
+"dephead": "3",
+"ref": "2",
+"lemma": "|givetvis|",
+"lex": "|givetvis..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kan",
+"deprel": "MS",
+"dephead": "1",
+"ref": "3",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "man",
+"deprel": "SS",
+"dephead": "3",
+"ref": "4",
+"lemma": "|man|",
+"lex": "|man..pn.1|",
+"msd": "PN.UTR.SIN.IND.SUB",
+"pos": "PN"
+},
+{
+"word": "inte",
+"deprel": "NA",
+"dephead": "3",
+"ref": "5",
+"lemma": "|inte|",
+"lex": "|inte..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "sp\u00e4rra",
+"deprel": "VG",
+"dephead": "3",
+"ref": "6",
+"lemma": "|sp\u00e4rra|sp\u00e4rra_in|",
+"lex": "|sp\u00e4rra..vb.1|sp\u00e4rra_in..vbm.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "in",
+"deprel": "PL",
+"dephead": "6",
+"ref": "7",
+"lemma": "|in|sp\u00e4rra_in:6|",
+"lex": "|in..ab.1|sp\u00e4rra_in..vbm.1:6|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "6",
+"ref": "8",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "p\u00e5",
+"deprel": "TA",
+"dephead": "6",
+"ref": "9",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "livstid",
+"deprel": "PA",
+"dephead": "9",
+"ref": "10",
+"lemma": "|livstid|",
+"lex": "|livstid..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2019",
+"match": {
+"position": 41138,
+"start": 18,
+"end": 20
+},
+"tokens": [
+{
+"word": "\u2013",
+"deprel": "MS",
+"dephead": "10",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "Vi",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "f\u00e5r",
+"deprel": "MS",
+"dephead": "10",
+"ref": "3",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "mycket",
+"deprel": "DT",
+"dephead": "5",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "samtal",
+"deprel": "OO",
+"dephead": "3",
+"ref": "5",
+"lemma": "|samtal|",
+"lex": "|samtal..nn.1|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "fr\u00e5n",
+"deprel": "OA",
+"dephead": "3",
+"ref": "6",
+"lemma": "|fr\u00e5n|",
+"lex": "|fr\u00e5n..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "olika",
+"deprel": "AT",
+"dephead": "8",
+"ref": "7",
+"lemma": "|olik|",
+"lex": "|olik..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "brukare",
+"deprel": "PA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|brukare|",
+"lex": "|brukare..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "10",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "och",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "10",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "d\u00e5",
+"deprel": "TA",
+"dephead": "12",
+"ref": "11",
+"lemma": "|d\u00e5|",
+"lex": "|d\u00e5..ab.1|d\u00e5..ab.2|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "pratar",
+"deprel": "MS",
+"dephead": "16",
+"ref": "12",
+"lemma": "|prata|",
+"lex": "|prata..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "vi",
+"deprel": "SS",
+"dephead": "12",
+"ref": "13",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "12",
+"ref": "14",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "dem",
+"deprel": "PA",
+"dephead": "14",
+"ref": "15",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.OBJ",
+"pos": "PN"
+},
+{
+"word": "och",
+"deprel": "++",
+"dephead": "10",
+"ref": "16",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "ber\u00e4ttar",
+"deprel": "+F",
+"dephead": "16",
+"ref": "17",
+"lemma": "|ber\u00e4tta|",
+"lex": "|ber\u00e4tta..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "f\u00f6r",
+"deprel": "OA",
+"dephead": "17",
+"ref": "18",
+"lemma": "|f\u00f6r|",
+"lex": "|f\u00f6r..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "18",
+"ref": "19",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "vad",
+"deprel": "OO",
+"dephead": "17",
+"ref": "20",
+"lemma": "|vad|",
+"lex": "|vad..pn.1|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "vi",
+"deprel": "SS",
+"dephead": "22",
+"ref": "21",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "vet",
+"deprel": "ET",
+"dephead": "20",
+"ref": "22",
+"lemma": "|veta|",
+"lex": "|veta..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "16",
+"ref": "23",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 419,
+"corpus_hits": {
+"SVT-2019": 419
+},
+"corpus_order": [
+"SVT-2019"
+],
+"query_data": "eJwFwdENgDAIBcCJTCw8KOgYGv8Lhf1H8K4La1NYa3vEFiXJQIjtjoXVkwukygmu8jKVkVOC0TVPS7mf7z3oHH5h-A95fRWT\n",
+"time": 5.083080530166626
+}

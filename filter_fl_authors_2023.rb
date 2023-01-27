@@ -36,7 +36,7 @@ f.each_line.with_index do |line, index|
             usercounter += 1
             nickname2 = nickname.gsub(" ","+%+")
             
-            STDERR.puts nickname2
+            STDERR.puts usercounter, nickname2
             
           
             #if type == "age"
@@ -63,9 +63,9 @@ f.each_line.with_index do |line, index|
             #    end
             #end
             
-#            if usercounter >= 300 and type != "age"
-#                break
-#            end
+            if usercounter >= 200 #and type != "age"
+                break
+            end
         #end
     end
 end

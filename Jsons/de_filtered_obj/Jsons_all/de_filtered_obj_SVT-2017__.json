@@ -1,0 +1,293 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2017",
+"match": {
+"position": 10637,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "PA",
+"dephead": "10",
+"ref": "1",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "kommer",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|komma|",
+"lex": "|komma..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "vi",
+"deprel": "SS",
+"dephead": "2",
+"ref": "3",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "aldrig",
+"deprel": "TA",
+"dephead": "2",
+"ref": "4",
+"lemma": "|aldrig|",
+"lex": "|aldrig..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "att",
+"deprel": "VG",
+"dephead": "2",
+"ref": "5",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "kunna",
+"deprel": "IF",
+"dephead": "5",
+"ref": "6",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "f\u00e5",
+"deprel": "VG",
+"dephead": "6",
+"ref": "7",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "n\u00e5got",
+"deprel": "DT",
+"dephead": "9",
+"ref": "8",
+"lemma": "|n\u00e5gon|",
+"lex": "|n\u00e5gon..pn.1|",
+"msd": "DT.NEU.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "svar",
+"deprel": "OO",
+"dephead": "7",
+"ref": "9",
+"lemma": "|svar|",
+"lex": "|svar..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "p\u00e5",
+"deprel": "OA",
+"dephead": "7",
+"ref": "10",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "2",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "s\u00e4ger",
+"deprel": "MS",
+"dephead": "2",
+"ref": "12",
+"lemma": "|s\u00e4ga|",
+"lex": "|s\u00e4ga..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "Carina",
+"deprel": "SS",
+"dephead": "12",
+"ref": "13",
+"lemma": "|Carina|",
+"lex": "|Carina..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Persson",
+"deprel": "HD",
+"dephead": "13",
+"ref": "14",
+"lemma": "|Persson|",
+"lex": "|Persson..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "13",
+"ref": "15",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "regionpolischef",
+"deprel": "AN",
+"dephead": "13",
+"ref": "16",
+"lemma": "|regionpolischef|",
+"lex": "|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "12",
+"ref": "17",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2017",
+"match": {
+"position": 52508,
+"start": 5,
+"end": 7
+},
+"tokens": [
+{
+"word": "Vad",
+"deprel": "SP",
+"dephead": "4",
+"ref": "1",
+"lemma": "|vad|vad_f\u00f6r|",
+"lex": "|vad..pn.1|vad_f\u00f6r..pnm.1|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "kan",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "straffet",
+"deprel": "SS",
+"dephead": "2",
+"ref": "3",
+"lemma": "|straff|",
+"lex": "|straff..nn.1|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "bli",
+"deprel": "VG",
+"dephead": "2",
+"ref": "4",
+"lemma": "|bli|",
+"lex": "|bli..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "f\u00f6r",
+"deprel": "OA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|f\u00f6r|vad_f\u00f6r:1|",
+"lex": "|f\u00f6r..pp.1|vad_f\u00f6r..pnm.1:1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "misst\u00e4nka",
+"deprel": "VS",
+"dephead": "4",
+"ref": "7",
+"lemma": "|misst\u00e4nka|",
+"lex": "|misst\u00e4nka..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "blekingarna",
+"deprel": "OO",
+"dephead": "7",
+"ref": "8",
+"lemma": "|bleking|",
+"lex": "|bleking..nn.1|",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "?",
+"deprel": "I?",
+"dephead": "2",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 670,
+"corpus_hits": {
+"SVT-2017": 670
+},
+"corpus_order": [
+"SVT-2017"
+],
+"query_data": "eJwNx8sRgDAIBcCKnAmE8NEydLyTF9J_Cbq33dyTh-rSubUGxQL9xdgoyCLzkKSySmF4L8nucJ8sFMgW1_0-BzeyU619Q_QUyA==\n",
+"time": 4.232742786407471
+}

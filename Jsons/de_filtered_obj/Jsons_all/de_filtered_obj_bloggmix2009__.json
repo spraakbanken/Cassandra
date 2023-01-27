@@ -1,0 +1,515 @@
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "BLOGGMIX2009",
+"match": {
+"position": 238,
+"start": 17,
+"end": 19
+},
+"tokens": [
+{
+"word": "Kan",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"ref": "01",
+"dephead": "07",
+"deprel": "AA"
+},
+{
+"word": "det",
+"pos": "PN",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"ref": "02",
+"dephead": "01",
+"deprel": "SS"
+},
+{
+"word": "vara",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|vara|",
+"lex": "|vara..vb.2|vara..vb.1|",
+"ref": "03",
+"dephead": "01",
+"deprel": "VG"
+},
+{
+"word": "f\u00f6r",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|f\u00f6r|",
+"lex": "|f\u00f6r..pp.1|",
+"ref": "04",
+"dephead": "03",
+"deprel": "TA"
+},
+{
+"word": "att",
+"pos": "SN",
+"msd": "SN",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"ref": "05",
+"dephead": "04",
+"deprel": "HD"
+},
+{
+"word": "skidorna",
+"pos": "NN",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"lemma": "|skida|",
+"lex": "|skida..nn.1|",
+"ref": "06",
+"dephead": "04",
+"deprel": "HD"
+},
+{
+"word": "\u00e4r",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"ref": "07",
+"dephead": "09",
+"deprel": "MS"
+},
+{
+"word": "nya",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"lemma": "|ny|",
+"lex": "|ny..av.1|",
+"ref": "08",
+"dephead": "07",
+"deprel": "SP"
+},
+{
+"word": "eller",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|eller|",
+"lex": "|eller..kn.1|",
+"ref": "09",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "har",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"ref": "10",
+"dephead": "09",
+"deprel": "+F"
+},
+{
+"word": "jag",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"ref": "11",
+"dephead": "12",
+"deprel": "SS"
+},
+{
+"word": "f\u00e5tt",
+"pos": "VB",
+"msd": "VB.SUP.AKT",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"ref": "12",
+"dephead": "10",
+"deprel": "VG"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"lex": "|",
+"ref": "13",
+"dephead": "12",
+"deprel": "IK"
+},
+{
+"word": "fel",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"lemma": "|fel|",
+"lex": "|fel..av.1|",
+"ref": "14",
+"dephead": "15",
+"deprel": "AT"
+},
+{
+"word": "skidor",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|skida|",
+"lex": "|skida..nn.1|",
+"ref": "15",
+"dephead": "16",
+"deprel": "CJ"
+},
+{
+"word": "och",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"ref": "16",
+"dephead": "12",
+"deprel": "+F"
+},
+{
+"word": "har",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|ha|ha_r\u00e4tt|",
+"lex": "|ha..vb.1|ha_r\u00e4tt..vbm.1|",
+"ref": "17",
+"dephead": "16",
+"deprel": "CJ"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "18",
+"dephead": "16",
+"deprel": "IO"
+},
+{
+"word": "inte",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|inte|",
+"lex": "|inte..ab.1|",
+"ref": "19",
+"dephead": "16",
+"deprel": "+F"
+},
+{
+"word": "r\u00e4tt",
+"pos": "JJ",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"lemma": "|r\u00e4tt|ha_r\u00e4tt:17|",
+"lex": "|r\u00e4tt..av.1|ha_r\u00e4tt..vbm.1:17|",
+"ref": "20",
+"dephead": "21",
+"deprel": "DT"
+},
+{
+"word": "spann",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|spann|",
+"lex": "|spann..nn.2|spann..nn.1|",
+"ref": "21",
+"dephead": "19",
+"deprel": "SS"
+},
+{
+"word": "?",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "22",
+"dephead": "09",
+"deprel": "I?"
+}
+]
+},
+{
+"corpus": "BLOGGMIX2009",
+"match": {
+"position": 10083,
+"start": 20,
+"end": 22
+},
+"tokens": [
+{
+"word": "Hade",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"ref": "01",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "flera",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"lemma": "|m\u00e5ngen|flera|",
+"lex": "|m\u00e5ngen..pn.1|flera..pn.1|",
+"ref": "02",
+"dephead": "01",
+"deprel": "SS"
+},
+{
+"word": "missade",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|missa|",
+"lex": "|missa..vb.1|",
+"ref": "03",
+"dephead": "01",
+"deprel": "VG"
+},
+{
+"word": "samtal",
+"pos": "NN",
+"msd": "NN.NEU.PLU.IND.NOM",
+"lemma": "|samtal|",
+"lex": "|samtal..nn.1|",
+"ref": "04",
+"dephead": "03",
+"deprel": "OO"
+},
+{
+"word": "fr\u00e5n",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|fr\u00e5n|",
+"lex": "|fr\u00e5n..pp.1|",
+"ref": "05",
+"dephead": "03",
+"deprel": "OA"
+},
+{
+"word": "flera",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.PLU.IND.NOM",
+"lemma": "|",
+"lex": "|",
+"ref": "06",
+"dephead": "07",
+"deprel": "DT"
+},
+{
+"word": "stycken",
+"pos": "NN",
+"msd": "NN.NEU.PLU.IND.NOM",
+"lemma": "|stycke|styck|",
+"lex": "|stycke..nn.1|styck..nn.1|",
+"ref": "07",
+"dephead": "05",
+"deprel": "PA"
+},
+{
+"word": "p\u00e5",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"ref": "08",
+"dephead": "07",
+"deprel": "ET"
+},
+{
+"word": "morgon",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|morgon|",
+"lex": "|morgon..nn.1|",
+"ref": "09",
+"dephead": "08",
+"deprel": "HD"
+},
+{
+"word": ";p",
+"pos": "IN",
+"msd": "IN",
+"lemma": "|",
+"lex": "|",
+"ref": "10",
+"dephead": "15",
+"deprel": "OO"
+},
+{
+"word": "N\u00e5ja",
+"pos": "IN",
+"msd": "IN",
+"lemma": "|n\u00e5ja|",
+"lex": "|n\u00e5ja..in.1|",
+"ref": "11",
+"dephead": "10",
+"deprel": "HD"
+},
+{
+"word": ",",
+"pos": "MID",
+"msd": "MID",
+"lemma": "|",
+"lex": "|",
+"ref": "12",
+"dephead": "10",
+"deprel": "IK"
+},
+{
+"word": "hoppas",
+"pos": "VB",
+"msd": "VB.PRS.SFO",
+"lemma": "|hoppas|hoppa|",
+"lex": "|hoppas..vb.1|hoppa..vb.1|",
+"ref": "13",
+"dephead": "10",
+"deprel": "MA"
+},
+{
+"word": "dom",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB+OBJ",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "14",
+"dephead": "13",
+"deprel": "SS"
+},
+{
+"word": "f\u00e5r",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"ref": "15",
+"dephead": "03",
+"deprel": "VG"
+},
+{
+"word": "himla",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|himla|",
+"lex": "|himla..ab.1|",
+"ref": "16",
+"dephead": "17",
+"deprel": "AA"
+},
+{
+"word": "roligt",
+"pos": "JJ",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"lemma": "|rolig|",
+"lex": "|rolig..av.1|",
+"ref": "17",
+"dephead": "20",
+"deprel": "SP"
+},
+{
+"word": ":)",
+"pos": "IN",
+"msd": "IN",
+"lemma": "|",
+"lex": "|",
+"ref": "18",
+"dephead": "20",
+"deprel": "MA"
+},
+{
+"word": "Ig\u00e5r",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|ig\u00e5r|",
+"lex": "|ig\u00e5r..ab.1|",
+"ref": "19",
+"dephead": "20",
+"deprel": "TA"
+},
+{
+"word": "blev",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|bli|",
+"lex": "|bli..vb.1|",
+"ref": "20",
+"dephead": "15",
+"deprel": "VG"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "21",
+"dephead": "20",
+"deprel": "OO"
+},
+{
+"word": "ju",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|ju|",
+"lex": "|ju..ab.1|",
+"ref": "22",
+"dephead": "21",
+"deprel": "MA"
+},
+{
+"word": "som",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|som_sagt|",
+"lex": "|som_sagt..abm.1|",
+"ref": "23",
+"dephead": "21",
+"deprel": "ET"
+},
+{
+"word": "sagt",
+"pos": "PC",
+"msd": "PC.PRF.NEU.SIN.IND.NOM",
+"lemma": "|s\u00e4ga|som_sagt:23|",
+"lex": "|s\u00e4ga..vb.1|som_sagt..abm.1:23|",
+"ref": "24",
+"dephead": "25",
+"deprel": "AT"
+},
+{
+"word": "bowling",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|bowling|",
+"lex": "|bowling..nn.1|",
+"ref": "25",
+"dephead": "23",
+"deprel": "UA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "26",
+"dephead": "01",
+"deprel": "IP"
+}
+]
+}
+],
+"hits": 5561,
+"corpus_hits": {
+"BLOGGMIX2009": 5561
+},
+"corpus_order": [
+"BLOGGMIX2009"
+],
+"query_data": "eJwNybkNgDAMAMCV_DuBjgYhgWhpcRzvPwJce5HRKHgkZPeyEWmOygxF2MWrYfLfAsGoNU1AyZWa5TuJVNbtvPf9Oh4C6Iuq4Qek4RWE\n",
+"time": 12.259650707244873
+}

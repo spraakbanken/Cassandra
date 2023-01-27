@@ -109,7 +109,7 @@ def process_cmd
                 if ARGV.include?("--limit")
                     limit = "#{ARGV[ARGV.index("--limit") + 1]}"
                 else
-                    limit = 1000000000
+                    limit = 1000 000000
                 end
 
                 if ARGV.include?("--context")

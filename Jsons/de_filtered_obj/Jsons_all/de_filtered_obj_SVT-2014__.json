@@ -1,0 +1,473 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2014",
+"match": {
+"position": 36647,
+"start": 14,
+"end": 16
+},
+"tokens": [
+{
+"word": "Grannarnas",
+"deprel": "DT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|granne|",
+"lex": "|granne..nn.1|",
+"msd": "NN.UTR.PLU.DEF.GEN",
+"pos": "NN"
+},
+{
+"word": "advokat",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|advokat|",
+"lex": "|advokat..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "anser",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|anse|",
+"lex": "|anse..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "\u00e5talet",
+"deprel": "SS",
+"dephead": "6",
+"ref": "5",
+"lemma": "|\u00e5tal|",
+"lex": "|\u00e5tal..nn.1|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "ska",
+"deprel": "UA",
+"dephead": "4",
+"ref": "6",
+"lemma": "|skola|",
+"lex": "|skola..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "ogillas",
+"deprel": "VG",
+"dephead": "6",
+"ref": "7",
+"lemma": "|ogilla|",
+"lex": "|ogilla..vb.1|",
+"msd": "VB.INF.SFO",
+"pos": "VB"
+},
+{
+"word": "eftersom",
+"deprel": "AA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|eftersom|",
+"lex": "|eftersom..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "besk\u00e4rningen",
+"deprel": "SS",
+"dephead": "10",
+"ref": "9",
+"lemma": "|besk\u00e4rning|",
+"lex": "|besk\u00e4rning..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "gjorts",
+"deprel": "UA",
+"dephead": "8",
+"ref": "10",
+"lemma": "|g\u00f6ra|",
+"lex": "|g\u00f6ra..vb.1|",
+"msd": "VB.SUP.SFO",
+"pos": "VB"
+},
+{
+"word": "av",
+"deprel": "AG",
+"dephead": "10",
+"ref": "11",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "sakkunnigt",
+"deprel": "AT",
+"dephead": "13",
+"ref": "12",
+"lemma": "|sakkunnig|",
+"lex": "|sakkunnig..av.1|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "folk",
+"deprel": "PA",
+"dephead": "11",
+"ref": "13",
+"lemma": "|folk|",
+"lex": "|folk..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "p\u00e5",
+"deprel": "ET",
+"dephead": "13",
+"ref": "14",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "14",
+"ref": "15",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e5talades",
+"deprel": "UA",
+"dephead": "8",
+"ref": "16",
+"lemma": "|\u00e5tala|",
+"lex": "|\u00e5tala..vb.1|",
+"msd": "VB.PRT.SFO",
+"pos": "VB"
+},
+{
+"word": "tomt",
+"deprel": "AA",
+"dephead": "16",
+"ref": "17",
+"lemma": "|tom|",
+"lex": "|tom..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "18",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2014",
+"match": {
+"position": 99243,
+"start": 21,
+"end": 23
+},
+"tokens": [
+{
+"word": "Med",
+"deprel": "AA",
+"dephead": "7",
+"ref": "1",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "6",
+"ref": "2",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "allt",
+"deprel": "AA",
+"dephead": "4",
+"ref": "3",
+"lemma": "|allt|",
+"lex": "|allt..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "\u00e4ldre",
+"deprel": "AT",
+"dephead": "6",
+"ref": "4",
+"lemma": "|gammal|",
+"lex": "|gammal..av.1|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "finskspr\u00e5kig",
+"deprel": "AT",
+"dephead": "6",
+"ref": "5",
+"lemma": "|finskspr\u00e5kig|",
+"lex": "|finskspr\u00e5kig..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "befolkning",
+"deprel": "PA",
+"dephead": "1",
+"ref": "6",
+"lemma": "|befolkning|",
+"lex": "|befolkning..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "vill",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "7",
+"lemma": "|vilja|",
+"lex": "|vilja..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "nu",
+"deprel": "TA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|nu|",
+"lex": "|nu..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "Finska",
+"deprel": "AT",
+"dephead": "10",
+"ref": "9",
+"lemma": "|finsk|",
+"lex": "|finsk..av.1|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "f\u00f6reningen",
+"deprel": "SS",
+"dephead": "7",
+"ref": "10",
+"lemma": "|f\u00f6rening|",
+"lex": "|f\u00f6rening..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "10",
+"ref": "11",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Olofstr\u00f6m",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|Olofstr\u00f6m|",
+"lex": "|Olofstr\u00f6m..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "7",
+"ref": "13",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "kommunen",
+"deprel": "SS",
+"dephead": "15",
+"ref": "14",
+"lemma": "|kommun|",
+"lex": "|kommun..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "ska",
+"deprel": "UA",
+"dephead": "13",
+"ref": "15",
+"lemma": "|skola|",
+"lex": "|skola..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "\u00f6ppna",
+"deprel": "VG",
+"dephead": "15",
+"ref": "16",
+"lemma": "|\u00f6ppna|",
+"lex": "|\u00f6ppna..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "18",
+"ref": "17",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "avdelning",
+"deprel": "OO",
+"dephead": "16",
+"ref": "18",
+"lemma": "|avdelning|",
+"lex": "|avdelning..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "inom",
+"deprel": "RA",
+"dephead": "16",
+"ref": "19",
+"lemma": "|inom|",
+"lex": "|inom..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "\u00e4ldreomsorgen",
+"deprel": "PA",
+"dephead": "19",
+"ref": "20",
+"lemma": "|\u00e4ldreomsorg|",
+"lex": "|\u00e4ldreomsorg..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "f\u00f6r",
+"deprel": "OA",
+"dephead": "16",
+"ref": "21",
+"lemma": "|f\u00f6r|",
+"lex": "|f\u00f6r..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "21",
+"ref": "22",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "med",
+"deprel": "ET",
+"dephead": "22",
+"ref": "23",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "finsk",
+"deprel": "AT",
+"dephead": "25",
+"ref": "24",
+"lemma": "|finsk|",
+"lex": "|finsk..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "bakgrund",
+"deprel": "PA",
+"dephead": "23",
+"ref": "25",
+"lemma": "|bakgrund|",
+"lex": "|bakgrund..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "7",
+"ref": "26",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 416,
+"corpus_hits": {
+"SVT-2014": 416
+},
+"corpus_order": [
+"SVT-2014"
+],
+"query_data": "eJwNyssRgCAMBcCKnMmPELQMHe_JA_ovQfe802v71sjeZYyNBLthpQ6OZFUoubeJSRKI_HMUCLVKuXWx636fQ4jtNPYPUj0VEQ==\n",
+"time": 2.567289113998413
+}

@@ -1,0 +1,283 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2012",
+"match": {
+"position": 223835,
+"start": 5,
+"end": 7
+},
+"tokens": [
+{
+"word": "Hon",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|hon|",
+"lex": "|hon..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "driver",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|driva|",
+"lex": "|driva..vb.1|driva..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "4",
+"ref": "3",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "hemsida",
+"deprel": "OO",
+"dephead": "2",
+"ref": "4",
+"lemma": "|hemsida|",
+"lex": "|hemsida..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "f\u00f6r",
+"deprel": "OA",
+"dephead": "2",
+"ref": "5",
+"lemma": "|f\u00f6r|",
+"lex": "|f\u00f6r..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "med",
+"deprel": "ET",
+"dephead": "6",
+"ref": "7",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "funktionsneds\u00e4ttningar",
+"deprel": "CJ",
+"dephead": "13",
+"ref": "8",
+"lemma": "|funktionsneds\u00e4ttning|",
+"lex": "|funktionsneds\u00e4ttning..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "13",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "spr\u00e5kst\u00f6rningar",
+"deprel": "CJ",
+"dephead": "13",
+"ref": "10",
+"lemma": "|spr\u00e5kst\u00f6rning|",
+"lex": "|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "13",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "diagnoser",
+"deprel": "CJ",
+"dephead": "13",
+"ref": "12",
+"lemma": "|diagnos|",
+"lex": "|diagnos..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "PA",
+"dephead": "7",
+"ref": "13",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "syndrom",
+"deprel": "CJ",
+"dephead": "13",
+"ref": "14",
+"lemma": "|syndrom|",
+"lex": "|syndrom..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "15",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2012",
+"match": {
+"position": 307431,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "G\u00e4vledala",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "har",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "tr\u00e4ffat",
+"deprel": "VG",
+"dephead": "2",
+"ref": "3",
+"lemma": "|tr\u00e4ffa|",
+"lex": "|tr\u00e4ffa..vb.1|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "drabbade",
+"deprel": "OP",
+"dephead": "3",
+"ref": "5",
+"lemma": "|drabba|",
+"lex": "|drabba..vb.1|",
+"msd": "PC.PRF.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "PC"
+},
+{
+"word": "ett",
+"deprel": "DT",
+"dephead": "8",
+"ref": "6",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.NEU.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "drygt",
+"deprel": "AT",
+"dephead": "8",
+"ref": "7",
+"lemma": "|dryg|",
+"lex": "|dryg..av.1|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "halv\u00e5r",
+"deprel": "TA",
+"dephead": "3",
+"ref": "8",
+"lemma": "|halv\u00e5r|",
+"lex": "|halv\u00e5r..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "efter\u00e5t",
+"deprel": "TA",
+"dephead": "3",
+"ref": "9",
+"lemma": "|efter\u00e5t|",
+"lex": "|efter\u00e5t..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "10",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 212,
+"corpus_hits": {
+"SVT-2012": 212
+},
+"corpus_order": [
+"SVT-2012"
+],
+"query_data": "eJwNysERgDAIBMCKnIFLQg4tQ8d_QOy_BN33osUDiqcxdfRXqQX2N7IkuKYYolrvIlJOx0iLRR9_mpbJ47yvDaLYofgAGngT9w==\n",
+"time": 2.084517478942871
+}
