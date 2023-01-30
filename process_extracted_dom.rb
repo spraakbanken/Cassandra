@@ -109,7 +109,7 @@ filelist.each do |filename2|
                     end
                 end
                 conll_file.puts ""
-                sample_file.puts "#{unique_id}\t#{match_end}\t#{dword}\t#{dpos}\t\t#{ddeprel}\t\t\t\t\t#{maincorpus}\t#{corpus_from_json}"
+                sample_file.puts "#{unique_id}\t#{match_end-1}\t#{dword}\t#{dpos}\t\t#{ddeprel}\t\t\t\t\t#{maincorpus}\t#{corpus_from_json}"
                 
                 
                 
