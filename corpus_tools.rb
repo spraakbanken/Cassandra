@@ -1,5 +1,5 @@
 #PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\KorpApi\\"
-PATH = ""
+PATH = "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\"
 
 #require 'uri'
 #require 'net/http'

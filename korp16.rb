@@ -86,6 +86,7 @@ elsif query == "authors"
     #if !Dir.exist?("#{query}\\#{maincorpus}\\#{label}") 
     #    Dir.mkdir("#{query}\\#{maincorpus}\\#{label}") 
     #end
+    year_for_authors = nil
     if !year_for_authors.nil?
         filename = "#{query}\\#{maincorpus}\\#{label}_by_date"
     else
@@ -243,7 +244,8 @@ if query == "time"
             o.puts "#{period}\t#{totalh[period].to_i}"
         end
     end
-elsif query == "authors" and 
+elsif query == "authors" 
+    period_for_authors = nil
     if period_for_authors.nil?
         o.puts "author\tntokens"
         totalh = data_hash["combined"]["text_username"]
