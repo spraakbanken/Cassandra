@@ -1,10 +1,11 @@
 f = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\age\\all_age_1000_merged2.tsv","r:utf-8")
 agehash = {}
+threshold = 100000
 
 f.each_line.with_index do |line,index|
     line1 = line.strip.split("\t")
     if index > 0 
-        if line1[1].to_i >= 500000
+        if line1[1].to_i >= threshold
             agehash[line1[0]] = line1[2].to_i
         else
             break
@@ -17,27 +18,42 @@ end
 
 
 f.close
-STDOUT.puts agehash.keys
-STDOUT.puts ""
+#STDOUT.puts agehash.keys
+#STDOUT.puts ""
 
 current_year = nil
 current_user = nil
 
 f = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-adoption_sentence.conllu","r:utf-8")
-o = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-adoption_sentence_age.conllu","w:utf-8")
+o = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-adoption_sentence_age#{threshold}.conllu","w:utf-8")
 authorhash = {}
 array = []
 f.each_line do |line|
     line1 = line.strip
     #STDERR.puts line1
     if line1 == ""
-        #STDERR.puts current_user
-        #STDERR.puts current_year
-        authorhash[current_user] = true
+        
+        
         if !agehash[current_user].nil?
-            current_age = agehash[current_user] - current_year
+            current_age = current_year - agehash[current_user]
             if current_age >=  18
+                authorhash[current_user] = true
                 o.puts "# age = #{current_age}"
+                if current_age < 20
+                    agebin = "<20"
+                elsif current_age < 30
+                    agebin = "20--29"
+                elsif current_age < 40
+                    agebin = "30--39"
+                elsif current_age < 50
+                    agebin = "40--49"
+                elsif current_age < 60
+                    agebin = "50--59"
+                else
+                    agebin = ">60"
+                end
+                o.puts "# agebin = #{agebin}"
+
                 o.puts array
                 o.puts ""
             end
@@ -56,4 +72,4 @@ f.each_line do |line|
     end
 
 end
-STDOUT.puts authorhash.keys
+STDERR.puts authorhash.keys.length
