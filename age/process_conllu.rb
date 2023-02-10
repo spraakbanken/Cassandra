@@ -24,10 +24,11 @@ f.close
 current_year = nil
 current_user = nil
 
-f = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-adoption_sentence.conllu","r:utf-8")
-o = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-adoption_sentence_age#{threshold}.conllu","w:utf-8")
+f = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-kansliga_sentence.conllu","r:utf-8")
+o = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-kansliga_sentence_age#{threshold}.conllu","w:utf-8")
 authorhash = {}
 array = []
+tokens = 0
 f.each_line do |line|
     line1 = line.strip
     #STDERR.puts line1
@@ -68,8 +69,10 @@ f.each_line do |line|
         end
         array << line1
     else
+        tokens += 1
         array << line1
     end
 
 end
 STDERR.puts authorhash.keys.length
+STDERR.puts tokens
