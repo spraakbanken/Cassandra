@@ -1,6 +1,6 @@
-f = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\age\\all_age_1000_merged2.tsv","r:utf-8")
+f = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\age\\all_age_1000_merged.tsv","r:utf-8")
 agehash = {}
-threshold = 100000
+threshold = 10000
 age_threshold = 18
 
 f.each_line.with_index do |line,index|
