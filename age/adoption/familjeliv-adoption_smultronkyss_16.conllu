@@ -1,0 +1,123 @@
+# age = 16
+# agebin = <20
+# subforum_id = Intresserad
+# subsubforum_id = Intresserad
+# thread_id = 44684867
+# thread_title = någon som vill berätta hur det fungerar?
+# post_id = 44684867
+# post_date = 2009-06-09 21:35:50
+# username = smultronkyss
+# sent_id = bac8591e
+1	Undrar	|undra|	VB	_	VB.PRS.AKT	9	AA	|undra..vb.1|
+2	lite	|lite|	AB	_	AB.POS	1	AA	|lite..ab.1|
+3	hur	|hur|	HA	_	HA	6	AA	|hur..ab.1|
+4	en	|en|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|
+5	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	6	SS	|adoption..nn.1|
+6	går	|gå|gå tillväga|	VB	_	VB.PRS.AKT	1	OO	|gå..vb.1|gå_tillväga..vbm.1|
+7	tillväga	|gå tillväga:6|	VB	_	VB.INF.AKT	6	VS	|gå_tillväga..vbm.1:6|
+8	....	|	MID	_	MID	9	SS	|
+9	sitter	|sitta|	VB	_	VB.PRS.AKT	12	MS	|sitta..vb.1|
+10	själv	|själv|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	9	FP	|själv..pn.1|
+11	barnlös	|barnlös|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	9	SP	|barnlös..av.1|
+12	och	|och|	KN	_	KN	21	AA	|och..kn.1|
+13	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	14	SS	|vi..pn.1|
+14	har	|ha|	VB	_	VB.PRS.AKT	12	MS	|ha..vb.1|
+15	börjat	|börja|	VB	_	VB.SUP.AKT	14	VG	|börja..vb.1|börja..vb.2|
+16	fundera	|fundera|	VB	_	VB.INF.AKT	15	OO	|fundera..vb.1|
+17	över	|över|	PP	_	PP	16	OA	|över..pp.1|
+18	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	17	PA	|adoption..nn.1|
+19	,	|	MID	_	MID	23	IK	|
+20	hur	|hur|	HA	_	HA	21	AA	|hur..ab.1|
+21	börjar	|börja|	VB	_	VB.PRS.AKT	23	MS	|börja..vb.1|börja..vb.2|
+22	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	21	SS	|man..pn.1|
+23	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+24	hur	|hur|	HA	_	HA	25	AA	|hur..ab.1|
+25	går	|gå|gå tillväga|	VB	_	VB.PRS.AKT	23	MS	|gå..vb.1|gå_tillväga..vbm.1|
+26	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	25	SS	|man..pn.1|
+27	tillväga	|gå tillväga:25|	VB	_	VB.INF.AKT	25	OA	|gå_tillväga..vbm.1:25|
+28	?	|	MAD	_	MAD	23	I?	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Intresserad
+# subsubforum_id = Intresserad
+# thread_id = 44684867
+# thread_title = någon som vill berätta hur det fungerar?
+# post_id = 44684867
+# post_date = 2009-06-09 21:35:50
+# username = smultronkyss
+# sent_id = baca5d09
+1	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	0	ROOT	|någon..pn.1|
+2	som	|	HP	_	HP.-.-.-	3	SS	|
+3	vill	|vilja|	VB	_	VB.PRS.AKT	1	ET	|vilja..vb.1|
+4	berätta	|berätta|	VB	_	VB.INF.AKT	3	VG	|berätta..vb.1|
+5	?	|	MAD	_	MAD	1	I?	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Intresserad
+# subsubforum_id = Intresserad
+# thread_id = 44684867
+# thread_title = någon som vill berätta hur det fungerar?
+# post_id = 44684867
+# post_date = 2009-06-09 21:35:50
+# username = smultronkyss
+# sent_id = bacb9fca
+1	Kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
+3	adoptera	|adoptera|	VB	_	VB.INF.AKT	1	VG	|adoptera..vb.1|
+4	från	|från|	PP	_	PP	8	RA	|från..pp.1|
+5	vilket	|	HD	_	HD.NEU.SIN.IND	6	DT	|
+6	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	4	PA	|land..nn.1|land..nn.2|land..nn.3|
+7	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	8	SS	|man..pn.1|
+8	vill	|vilja|	VB	_	VB.PRS.AKT	3	OO	|vilja..vb.1|
+9	?	|	MAD	_	MAD	1	I?	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Intresserad
+# subsubforum_id = Intresserad
+# thread_id = 44684867
+# thread_title = någon som vill berätta hur det fungerar?
+# post_id = 44684867
+# post_date = 2009-06-09 21:35:50
+# username = smultronkyss
+# sent_id = bac958b1
+1	Får	|få|	VB	_	VB.PRS.AKT	0	ROOT	|få..vb.1|
+2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
+3	själv	|själv|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	2	PT	|själv..pn.1|
+4	välja	|välja|	VB	_	VB.INF.AKT	1	VG	|välja..vb.1|
+5	ålder	|ålder|	NN	_	NN.UTR.SIN.IND.NOM	6	CJ	|ålder..nn.1|
+6	,	|	MID	_	MID	4	OO	|
+7	kön	|kön|	NN	_	NN.NEU.SIN.IND.NOM	8	DT	|kön..nn.1|
+8	mm	|mm|	NN	_	NN.AN	4	OO	|mm..nna.1|
+9	på	|på|	PP	_	PP	8	ET	|på..pp.1|
+10	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	9	PA	|barn..nn.1|
+11	?	|	MAD	_	MAD	1	I?	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Intresserad
+# subsubforum_id = Intresserad
+# thread_id = 44684867
+# thread_title = någon som vill berätta hur det fungerar?
+# post_id = 44684867
+# post_date = 2009-06-09 21:35:50
+# username = smultronkyss
+# sent_id = bacd4f07
+1	Lite	|lite|	AB	_	AB.POS	2	AA	|lite..ab.1|
+2	nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	0	ROOT	|nyfiken..av.1|
+3	...	|	MAD	_	MAD	2	IG	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Intresserad
+# subsubforum_id = Intresserad
+# thread_id = 44684867
+# thread_title = någon som vill berätta hur det fungerar?
+# post_id = 44685410
+# post_date = 2009-06-09 21:49:05
+# username = smultronkyss
+# sent_id = bacd626f
+1	puffar	|puff|	NN	_	NN.UTR.PLU.IND.NOM	0	ROOT	|puff..nn.1|
+

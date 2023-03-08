@@ -1,0 +1,459 @@
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58273640
+# post_date = 2011-04-06 13:27:39
+# username = Carolines
+# sent_id = 7b408a12
+1	Hej	|hej|	IN	_	IN	11	MS	|hej..in.1|
+2	,	|	MID	_	MID	11	IK	|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	CJ	|jag..pn.1|
+4	och	|och|	KN	_	KN	7	SS	|och..kn.1|
+5	min	|jag|	PS	_	PS.UTR.SIN.DEF	6	DT	|jag..pn.1|
+6	man	|man|	NN	_	NN.UTR.SIN.IND.NOM	4	CJ	|man..nn.1|man..nn.2|
+7	ska	|skola|	VB	_	VB.PRS.AKT	11	MS	|skola..vb.2|
+8	adoptera	|adoptera|	VB	_	VB.INF.AKT	7	VG	|adoptera..vb.1|
+9	från	|från|	PP	_	PP	8	RA	|från..pp.1|
+10	Colombia	|Colombia|	PM	_	PM.NOM	9	PA	|Colombia..pm.1|
+11	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+12	undrar	|undra|	VB	_	VB.PRS.AKT	11	+F	|undra..vb.1|
+13	lite	|lite|	AB	_	AB.POS	15	AA	|lite..ab.1|
+14	hur	|hur|	HA	_	HA	15	AA	|hur..ab.1|
+15	lång	|lång|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	16	AT	|lång..av.1|
+16	väntetid	|väntetid|	NN	_	NN.UTR.SIN.IND.NOM	18	SP	|väntetid..nn.1|
+17	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	18	SS	|den..pn.1|
+18	är	|vara|	VB	_	VB.PRS.AKT	12	OO	|vara..vb.1|
+19	från	|från|från och med|	PP	_	PP	18	SP	|från..pp.1|från_och_med..ppm.1|
+20	och	|och|från och med:19|	KN	_	KN	19	HD	|och..kn.1|från_och_med..ppm.1:19|
+21	med	|med|från och med:19|	PP	_	PP	19	HD	|med..pp.1|från_och_med..ppm.1:19|
+22	dess	|	AB	_	AB	19	HD	|
+23	att	|att|	SN	_	SN	20	CJ	|att..sn.1|
+24	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	25	SS	|man..pn.1|
+25	har	|ha|	VB	_	VB.PRS.AKT	23	UA	|ha..vb.1|
+26	blivit	|bli|	VB	_	VB.SUP.AKT	25	VG	|bli..vb.1|
+27	medlem	|medlem|	NN	_	NN.UTR.SIN.IND.NOM	26	SP	|medlem..nn.1|
+28	.	|	MAD	_	MAD	11	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58273640
+# post_date = 2011-04-06 13:27:39
+# username = Carolines
+# sent_id = 7b4b6c00
+1	Finns	|finna|finnas|	VB	_	VB.PRS.SFO	0	ROOT	|finna..vb.1|finnas..vb.1|
+2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	FS	|den..pn.1|
+3	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	1	ES	|någon..pn.1|
+4	som	|	HP	_	HP.-.-.-	6	SS	|
+5	nyss	|nyss|	AB	_	AB	6	TA	|nyss..ab.1|
+6	har	|ha|	VB	_	VB.PRS.AKT	3	ET	|ha..vb.1|
+7	adopterat	|adoptera|	VB	_	VB.SUP.AKT	6	VG	|adoptera..vb.1|
+8	från	|från|	PP	_	PP	7	RA	|från..pp.1|
+9	Colombia	|Colombia|	PM	_	PM.NOM	8	PA	|Colombia..pm.1|
+10	?	|	MAD	_	MAD	1	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58273640
+# post_date = 2011-04-06 13:27:39
+# username = Carolines
+# sent_id = 7b467141
+1	Är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+2	jätte	|jätte|	AB	_	AB	3	AA	|jätte..ab.1|
+3	tacksam	|tacksam|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	1	SP	|tacksam..av.1|
+4	för	|för|	PP	_	PP	1	OA	|för..pp.1|
+5	svar	|svar|	NN	_	NN.NEU.SIN.IND.NOM	4	PA	|svar..nn.1|
+6	!	|	MAD	_	MAD	1	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58281378
+# post_date = 2011-04-06 19:57:52
+# username = Carolines
+# sent_id = 7b456c83
+1	Stort	|stor|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	AT	|stor..av.1|
+2	tack	|tack|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|tack..nn.1|
+3	för	|för|	PP	_	PP	2	OA	|för..pp.1|
+4	era	|ni|	PS	_	PS.UTR+NEU.PLU.DEF	5	DT	|ni..pn.1|
+5	svar	|svar|	NN	_	NN.NEU.PLU.IND.NOM	3	PA	|svar..nn.1|
+6	!	|	MAD	_	MAD	2	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58281378
+# post_date = 2011-04-06 19:57:52
+# username = Carolines
+# sent_id = 7b4db5a7
+1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+2	är	|vara|vara med|	VB	_	VB.PRS.AKT	6	MS	|vara..vb.1|vara_med..vbm.1|
+3	med	|med|vara med:2|	PL	_	PL	2	PL	|med..ab.1|vara_med..vbm.1:2|
+4	i	|i|	PP	_	PP	2	RA	|i..pp.1|
+5	AC	|	PM	_	PM.NOM	4	PA	|
+6	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+7	har	|ha|	VB	_	VB.PRS.AKT	6	+F	|ha..vb.1|
+8	stått	|stå|	VB	_	VB.SUP.AKT	7	VG	|stå..vb.1|
+9	i	|i|	PP	_	PP	8	PL	|i..pp.1|
+10	kö	|kö|	NN	_	NN.UTR.SIN.IND.NOM	9	HD	|kö..nn.1|
+11	sedan	|sedan|	PP	_	PP	8	TA	|sedan..pp.1|
+12	januari	|januari|	NN	_	NN.UTR.SIN.IND.NOM	11	PA	|januari..nn.1|
+13	2010	|	RG	_	RG.NOM	12	ET	|
+14	.	|	MAD	_	MAD	6	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58281378
+# post_date = 2011-04-06 19:57:52
+# username = Carolines
+# sent_id = 7b419b87
+1	Privat	|privat|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	CJ	|privat..av.1|
+2	eller	|eller|	KN	_	KN	6	OA	|eller..kn.1|
+3	via	|via|	PP	_	PP	2	CJ	|via..pp.1|
+4	det	|den|en|	DT	_	DT.NEU.SIN.DEF	5	DT	|den..pn.1|en..al.1|
+5	statliga	|statlig|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	3	PA	|statlig..av.1|
+6	spelar	|spela|spela roll|	VB	_	VB.PRS.AKT	12	MS	|spela..vb.1|spela..vb.2|spela_roll..vbm.1|
+7	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	9	DT	|ingen..pn.1|
+8	större	|stor|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	9	AT	|stor..av.1|
+9	roll	|roll|spela roll:6|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|roll..nn.1|roll..nn.2|spela_roll..vbm.1:6|
+10	för	|för|	PP	_	PP	6	OA	|för..pp.1|
+11	oss	|vi|	PN	_	PN.UTR.PLU.DEF.OBJ	10	PA	|vi..pn.1|
+12	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	14	SS	|jag..pn.1|
+14	har	|ha|	VB	_	VB.PRS.AKT	12	MS	|ha..vb.1|
+15	förstått	|förstå|	VB	_	VB.SUP.AKT	14	VG	|förstå..vb.1|
+16	att	|att|	SN	_	SN	15	OO	|att..sn.1|
+17	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	18	SS	|den..pn.1|
+18	är	|vara|	VB	_	VB.PRS.AKT	16	UA	|vara..vb.1|
+19	kortare	|kort|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	20	AT	|kort..av.1|
+20	väntetid	|väntetid|	NN	_	NN.UTR.SIN.IND.NOM	18	SP	|väntetid..nn.1|
+21	med	|med|	PP	_	PP	18	OA	|med..pp.1|
+22	privata	|privat|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	23	AT	|privat..av.1|
+23	barnhem	|barnhem|	NN	_	NN.NEU.PLU.IND.NOM	21	PA	|barnhem..nn.1|
+24	.	|	MAD	_	MAD	12	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58281378
+# post_date = 2011-04-06 19:57:52
+# username = Carolines
+# sent_id = 7b413723
+1	Idoli	|	PM	_	PM.NOM	5	SS	|
+2	:	|	MID	_	MID	1	IQ	|
+3	hur	|hur|	HA	_	HA	4	AA	|hur..ab.1|
+4	länge	|länge|	AB	_	AB.POS	5	TA	|länge..ab.1|
+5	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+6	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|ni..pn.1|
+7	stått	|stå|	VB	_	VB.SUP.AKT	5	VG	|stå..vb.1|
+8	i	|i|	PP	_	PP	7	PL	|i..pp.1|
+9	kö	|kö|	NN	_	NN.UTR.SIN.IND.NOM	8	HD	|kö..nn.1|
+10	?	|	MAD	_	MAD	5	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58281378
+# post_date = 2011-04-06 19:57:52
+# username = Carolines
+# sent_id = 7b487476
+1	Simba	|	PM	_	PM.NOM	2	SS	|
+2	:	|	MID	_	MID	0	ROOT	|
+3	tack	|tack|	NN	_	NN.NEU.SIN.IND.NOM	2	SP	|tack..nn.1|
+4	för	|för|	PP	_	PP	3	HD	|för..pp.1|
+5	tipset	|tips|	NN	_	NN.NEU.SIN.DEF.NOM	4	PA	|tips..nn.1|
+6	om	|om|	PP	_	PP	5	ET	|om..pp.1|
+7	Colombialistan	|	NN	_	NN.UTR.SIN.DEF.NOM	6	PA	|
+8	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58281378
+# post_date = 2011-04-06 19:57:52
+# username = Carolines
+# sent_id = 7b4dd7b0
+1	Ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
+2	kolla	|kolla|kolla in|	VB	_	VB.INF.AKT	1	VG	|kolla..vb.1|kolla..vb.2|kolla_in..vbm.1|
+3	in	|in|kolla in:2|	PL	_	PL	2	PL	|in..ab.1|kolla_in..vbm.1:2|
+4	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	2	OO	|den..pn.1|
+5	direkt	|direkt|	AB	_	AB.POS	2	AA	|direkt..ab.1|direkt..av.1|
+6	!	|	MAD	_	MAD	1	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58468690
+# post_date = 2011-04-16 23:34:49
+# username = Carolines
+# sent_id = 7b4902d0
+1	Ålen	|ål|	NN	_	NN.UTR.SIN.DEF.NOM	0	ROOT	|ål..nn.1|
+2	regiens	|regi|	NN	_	NN.UTR.SIN.DEF.GEN	1	ET	|regi..nn.1|
+3	:	|	MID	_	MID	1	IQ	|
+4	Grattis	|	PM	_	PM.NOM	1	MS	|
+5	!	|	MAD	_	MAD	4	IU	|
+6	!	|	MAD	_	MAD	4	IU	|
+7	!	|	MAD	_	MAD	1	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58468690
+# post_date = 2011-04-16 23:34:49
+# username = Carolines
+# sent_id = 7b41e159
+1	Vilka	|	HD	_	HD.UTR+NEU.PLU.IND	2	DT	|
+2	organisation	|organisation|	NN	_	NN.UTR.SIN.IND.NOM	6	PA	|organisation..nn.1|organisation..nn.2|
+3	är	|vara|vara med|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|vara_med..vbm.1|
+4	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|ni..pn.1|
+5	med	|med|vara med:3|	PL	_	PL	3	PL	|med..ab.1|vara_med..vbm.1:3|
+6	i	|i|	PP	_	PP	3	OA	|i..pp.1|
+7	?	|	MAD	_	MAD	3	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58468690
+# post_date = 2011-04-16 23:34:49
+# username = Carolines
+# sent_id = 7b43b679
+1	Så	|så|	AB	_	AB	0	ROOT	|så..ab.1|
+2	om	|om|	SN	_	SN	1	HD	|om..sn.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+4	förstod	|förstå|	VB	_	VB.PRT.AKT	1	UA	|förstå..vb.1|
+5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	OO	|den..pn.1|
+6	korrekt	|korrekt|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	7	AT	|korrekt..av.1|
+7	stad	|stad|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|stad..nn.1|
+8	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|ni..pn.1|
+9	i	|i|	PP	_	PP	12	AA	|i..pp.1|
+10	kö	|kö|	NN	_	NN.UTR.SIN.IND.NOM	9	HD	|kö..nn.1|
+11	totalt	|total|	AB	_	AB.POS	12	AA	|total..av.1|
+12	i	|i|	PP	_	PP	4	TA	|i..pp.1|
+13	24	|	RG	_	RG.NOM	14	DT	|
+14	månader	|månad|	NN	_	NN.UTR.PLU.IND.NOM	12	PA	|månad..nn.1|
+15	.	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58468690
+# post_date = 2011-04-16 23:34:49
+# username = Carolines
+# sent_id = 7b4374fe
+1	Trodde	|tro|	VB	_	VB.PRT.AKT	0	ROOT	|tro..vb.1|
+2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
+3	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	5	SS	|vi..pn.1|
+4	minst	|föga|lite|liten|minst|	AB	_	AB.SUV	5	AA	|föga..ab.1|lite..ab.1|liten..av.1|minst..ab.1|
+5	skulle	|skola|	VB	_	VB.PRT.AKT	2	UA	|skola..vb.2|
+6	behöva	|behöva|	VB	_	VB.INF.AKT	5	VG	|behöva..vb.1|
+7	stå	|stå|	VB	_	VB.INF.AKT	6	VG	|stå..vb.1|
+8	i	|i|	PP	_	PP	7	PL	|i..pp.1|
+9	kö	|kö|	NN	_	NN.UTR.SIN.IND.NOM	8	HD	|kö..nn.1|
+10	i	|i|	PP	_	PP	7	TA	|i..pp.1|
+11	4	|	RG	_	RG.NOM	12	DT	|
+12	år	|år|	NN	_	NN.NEU.PLU.IND.NOM	10	PA	|år..nn.1|
+13	....	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58468730
+# post_date = 2011-04-16 23:37:41
+# username = Carolines
+# sent_id = 7b499e86
+1	Ålen	|ål|	NN	_	NN.UTR.SIN.DEF.NOM	2	DT	|ål..nn.1|
+2	Returns	|	PM	_	PM.NOM	3	SS	|
+3	:	|	MID	_	MID	0	ROOT	|
+4	läste	|läsa|	VB	_	VB.PRT.AKT	3	MS	|läsa..vb.1|
+5	precis	|precis|	AB	_	AB	4	AA	|precis..ab.1|
+6	den	|den|en|	DT	_	DT.UTR.SIN.DEF	7	DT	|den..pn.1|en..al.1|
+7	presentation	|presentation|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|presentation..nn.1|
+8	...	|	MAD	_	MAD	4	IG	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58468730
+# post_date = 2011-04-16 23:37:41
+# username = Carolines
+# sent_id = 7b4edcdf
+1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	2	SS	|all..pn.1|
+4	gått	|gå|	VB	_	VB.SUP.AKT	2	VG	|gå..vb.1|
+5	?	|	MAD	_	MAD	2	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58468730
+# post_date = 2011-04-16 23:37:41
+# username = Carolines
+# sent_id = 7b47d3e1
+1	Låter	|låta|	VB	_	VB.PRS.AKT	0	ROOT	|låta..vb.1|
+2	ju	|ju|	AB	_	AB	1	MA	|ju..ab.1|
+3	fruktansvärt	|fruktansvärd|fruktansvärt|	AB	_	AB.POS	1	AA	|fruktansvärd..av.1|fruktansvärt..ab.1|
+4	...	|	MAD	_	MAD	1	IG	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58475534
+# post_date = 2011-04-17 15:17:15
+# username = Carolines
+# sent_id = 7b455b0a
+1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
+2	innerligt	|innerlig|	AB	_	AB.POS	1	MA	|innerlig..av.1|
+3	att	|att|	SN	_	SN	1	OO	|att..sn.1|
+4	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|ni..pn.1|
+5	återförenas	|återförena|	VB	_	VB.PRS.SFO	3	UA	|återförena..vb.1|
+6	med	|med|	PP	_	PP	5	AA	|med..pp.1|
+7	er	|ni|	PS	_	PS.UTR.SIN.DEF	8	DT	|ni..pn.1|
+8	son	|son|	NN	_	NN.UTR.SIN.IND.NOM	6	PA	|son..nn.1|
+9	snart	|snar|snart|	AB	_	AB.POS	5	TA	|snar..av.1|snart..ab.1|
+10	.	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58475534
+# post_date = 2011-04-17 15:17:15
+# username = Carolines
+# sent_id = 7b444446
+1	Kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+2	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
+3	föreställa	|föreställa|föreställa sig|	VB	_	VB.INF.AKT	1	VG	|föreställa..vb.1|föreställa_sig..vbm.1|
+4	mig	|jag|föreställa sig:3|	PN	_	PN.UTR.SIN.DEF.OBJ	3	IO	|jag..pn.1|föreställa_sig..vbm.1:3|
+5	hur	|hur|	HA	_	HA	6	AA	|hur..ab.1|
+6	tufft	|tuff|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	9	SP	|tuff..av.1|
+7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	SS	|den..pn.1|
+8	måste	|måste|	VB	_	VB.PRS.AKT	3	OO	|måste..vb.1|
+9	vara	|vara|	VB	_	VB.INF.AKT	8	VG	|vara..vb.1|vara..vb.2|
+10	...	|	MAD	_	MAD	3	IG	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58607960
+# post_date = 2011-04-26 18:03:59
+# username = Carolines
+# sent_id = 7b496b9c
+1	Oj	|oj|	IN	_	IN	2	SP	|oj..in.1|
+2	va	|	VB	_	VB.PRT.AKT	0	ROOT	|
+3	jobbigt	|jobbig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	SP	|jobbig..av.1|
+4	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58607960
+# post_date = 2011-04-26 18:03:59
+# username = Carolines
+# sent_id = 7b46fdc1
+1	Varför	|varför|	HA	_	HA	2	AA	|varför..ab.1|
+2	tyckte	|tycka|	VB	_	VB.PRT.AKT	0	ROOT	|tycka..vb.1|
+3	dem	|de|	PN	_	PN.UTR+NEU.PLU.DEF.OBJ	2	SS	|de..pn.1|
+4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+5	att	|att|	SN	_	SN	2	OO	|att..sn.1|
+6	utredningen	|utredning|	NN	_	NN.UTR.SIN.DEF.NOM	7	SS	|utredning..nn.1|
+7	var	|vara|	VB	_	VB.PRT.AKT	5	UA	|vara..vb.1|
+8	tillräcklig	|tillräcklig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	7	SP	|tillräcklig..av.1|
+9	?	|	MAD	_	MAD	2	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58607960
+# post_date = 2011-04-26 18:03:59
+# username = Carolines
+# sent_id = 7b4ee6ca
+1	Börjar	|börja|	VB	_	VB.PRS.AKT	0	ROOT	|börja..vb.1|börja..vb.2|
+2	bli	|bli|	VB	_	VB.INF.AKT	1	OO	|bli..vb.1|
+3	lite	|lite|	AB	_	AB.POS	4	AA	|lite..ab.1|
+4	orolig	|orolig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	2	SP	|orolig..av.1|
+5	för	|för|	PP	_	PP	2	OA	|för..pp.1|
+6	vår	|vi|	PS	_	PS.UTR.SIN.DEF	7	DT	|vi..pn.1|
+7	utredning	|utredning|	NN	_	NN.UTR.SIN.IND.NOM	5	PA	|utredning..nn.1|
+8	nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
+9	...	|	MAD	_	MAD	2	IG	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 58273640
+# thread_title = Ni som nyligen adopterat från Colombia, hur lång väntetid?
+# post_id = 58610903
+# post_date = 2011-04-26 20:34:37
+# username = Carolines
+# sent_id = 7b46bf93
+1	Okej	|	IN	_	IN	0	ROOT	|
+2	,	|	MID	_	MID	1	IK	|
+3	tack	|tack|	IN	_	IN	1	MS	|tack..in.1|
+4	!	|	MAD	_	MAD	3	IU	|
+

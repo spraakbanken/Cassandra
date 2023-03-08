@@ -1,0 +1,575 @@
+# age = 21
+# agebin = 20--29
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 42588414
+# thread_title = Gravid utan att känna något?
+# post_id = 42589096
+# post_date = 2009-03-24 21:41:18
+# username = Angelica89
+# sent_id = 845d529ba
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	visste	|veta|	VB	_	VB.PRT.AKT	0	ROOT	|veta..vb.1|
+3	ingenting	|ingenting|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	2	OO	|ingenting..pn.1|
+4	om	|om|	PP	_	PP	2	OA	|om..pp.1|
+5	att	|att|	SN	_	SN	4	PA	|att..sn.1|
+6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
+7	var	|vara|	VB	_	VB.PRT.AKT	5	UA	|vara..vb.1|
+8	gravid	|gravid|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	7	SP	|gravid..av.1|
+9	,	|	MID	_	MID	2	IK	|
+10	föräns	|	KN	_	KN	12	++	|
+11	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|jag..pn.1|
+12	fick	|få|	VB	_	VB.PRT.AKT	16	MS	|få..vb.1|
+13	lite	|lite|	AB	_	AB.POS	14	AA	|lite..ab.1|
+14	svim	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	15	AT	|
+15	attacker	|attack|	NN	_	NN.UTR.PLU.IND.NOM	12	OO	|attack..nn.1|
+16	o	|o|	KN	_	KN	2	MS	|o..kna.1|
+17	testade	|testa|	VB	_	VB.PRT.AKT	16	+F	|testa..vb.1|
+18	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	17	OO	|jag..pn.1|
+19	,	|	MID	_	MID	2	IK	|
+20	annars	|annars|	AB	_	AB	21	AA	|annars..ab.1|
+21	hade	|ha|	VB	_	VB.PRT.AKT	2	MS	|ha..vb.1|
+22	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	21	SS	|jag..pn.1|
+23	nog	|nog|	AB	_	AB	21	MA	|nog..ab.1|
+24	inte	|inte|	AB	_	AB	21	NA	|inte..ab.1|
+25	testat	|testa|	VB	_	VB.SUP.AKT	21	VG	|testa..vb.1|
+26	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	25	OO	|jag..pn.1|
+27	o	|o|	KN	_	KN	2	MS	|o..kna.1|
+28	inte	|inte|	AB	_	AB	29	NA	|inte..ab.1|
+29	vetat	|veta|	VB	_	VB.SUP.AKT	27	+F	|veta..vb.1|
+30	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	29	OO	|någon..pn.1|
+31	föräns	|	SN	_	SN	29	AA	|
+32	magen	|mage|	NN	_	NN.UTR.SIN.DEF.NOM	33	SS	|mage..nn.1|
+33	började	|börja|	VB	_	VB.PRT.AKT	31	UA	|börja..vb.1|börja..vb.2|
+34	växa	|växa|	VB	_	VB.INF.AKT	33	OO	|växa..vb.1|
+35	.	|	MAD	_	MAD	2	IP	|
+
+# age = 21
+# agebin = 20--29
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 42588414
+# thread_title = Gravid utan att känna något?
+# post_id = 42589096
+# post_date = 2009-03-24 21:41:18
+# username = Angelica89
+# sent_id = 845d587ba
+1	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	började	|börja|	VB	_	VB.PRT.AKT	0	ROOT	|börja..vb.1|börja..vb.2|
+3	synas	|syna|synas|	VB	_	VB.INF.SFO	2	OO	|syna..vb.1|synas..vb.1|
+4	i	|i|	PP	_	PP	3	TA	|i..pp.1|
+5	vecka	|vecka|	NN	_	NN.UTR.SIN.IND.NOM	6	DT	|vecka..nn.1|
+6	25	|	RG	_	RG.NOM	4	PA	|
+7	.	|	MAD	_	MAD	2	IP	|
+
+# age = 21
+# agebin = 20--29
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 42588414
+# thread_title = Gravid utan att känna något?
+# post_id = 42589096
+# post_date = 2009-03-24 21:41:18
+# username = Angelica89
+# sent_id = 845d67017
+1	så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
+2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
+3	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
+4	mycket	|mycket|	AB	_	AB.POS	5	AA	|mycket..ab.1|
+5	möjligt	|möjlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	3	SP	|möjlig..av.1|
+6	.	|	MAD	_	MAD	3	IP	|
+
+# age = 21
+# agebin = 20--29
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 42588414
+# thread_title = Gravid utan att känna något?
+# post_id = 42589096
+# post_date = 2009-03-24 21:41:18
+# username = Angelica89
+# sent_id = 845dada96
+1	:)	|	IN	_	IN	0	ROOT	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 36032058
+# thread_title = Måste göra abort, men jag vill inte!!!!!
+# post_id = 36032217
+# post_date = 2008-09-08 13:01:02
+# username = Angelica89
+# sent_id = a07cc6d67
+1	Är	|vara|	VB	_	VB.PRS.AKT	4	MS	|vara..vb.1|
+2	19	|	RG	_	RG.NOM	3	DT	|
+3	år	|år|	NN	_	NN.NEU.PLU.IND.NOM	1	SP	|år..nn.1|
+4	och	|och|	KN	_	KN	9	SS	|och..kn.1|
+5	pappan	|pappa|	NN	_	NN.UTR.SIN.DEF.NOM	9	SS	|pappa..nn.1|
+6	till	|till|	PP	_	PP	5	ET	|till..pp.1|
+7	mitt	|jag|	PS	_	PS.NEU.SIN.DEF	8	DT	|jag..pn.1|
+8	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	6	PA	|barn..nn.1|
+9	ville	|vilja|	VB	_	VB.PRT.AKT	16	MS	|vilja..vb.1|
+10	absolut	|absolut|	AB	_	AB.POS	9	MA	|absolut..ab.1|absolut..av.1|
+11	inte	|inte|	AB	_	AB	9	NA	|inte..ab.1|
+12	heller	|heller|	AB	_	AB	9	+A	|heller..ab.1|
+13	ha	|ha|	VB	_	VB.INF.AKT	9	VG	|ha..vb.1|
+14	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	13	OO	|barn..nn.1|
+15	,	|	MID	_	MID	13	IK	|
+16	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+17	försökte	|försöka|	VB	_	VB.PRT.AKT	16	+F	|försöka..vb.1|
+18	få	|få|	VB	_	VB.INF.AKT	17	OO	|få..vb.1|
+19	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	18	OO	|jag..pn.1|
+20	till	|till|	PP	_	PP	18	OA	|till..pp.1|
+21	abort	|abort|	NN	_	NN.UTR.SIN.IND.NOM	20	PA	|abort..nn.1|
+22	.	|	MAD	_	MAD	16	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 36032058
+# thread_title = Måste göra abort, men jag vill inte!!!!!
+# post_id = 36032217
+# post_date = 2008-09-08 13:01:02
+# username = Angelica89
+# sent_id = a07cbe441
+1	Först	|först|	AB	_	AB	2	TA	|först..ab.1|
+2	gick	|gå|gå med|	VB	_	VB.PRT.AKT	7	MS	|gå..vb.1|gå_med..vbm.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+4	med	|med|gå med:2|	PL	_	PL	2	PL	|med..ab.1|gå_med..vbm.1:2|
+5	på	|på|	PP	_	PP	2	OA	|på..pp.1|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	PA	|den..pn.1|
+7	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
+8	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	9	SS	|all..pn.1|
+9	var	|vara|	VB	_	VB.PRT.AKT	7	MS	|vara..vb.1|
+10	så	|så|	AB	_	AB	11	AA	|så..ab.1|
+11	omtumlande	|omtumlande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	9	SP	|omtumlande..av.1|
+12	.	|	MAD	_	MAD	7	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 36032058
+# thread_title = Måste göra abort, men jag vill inte!!!!!
+# post_id = 36032217
+# post_date = 2008-09-08 13:01:02
+# username = Angelica89
+# sent_id = a07ca3d2a
+1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	nu	|nu|	AB	_	AB	3	TA	|nu..ab.1|
+3	sitter	|sitta|	VB	_	VB.PRS.AKT	6	MS	|sitta..vb.1|
+4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
+5	här	|här|	AB	_	AB	3	RA	|här..ab.1|
+6	och	|och|	KN	_	KN	1	++	|och..kn.1|
+7	har	|ha|ha kvar|	VB	_	VB.PRS.AKT	6	+F	|ha..vb.1|ha_kvar..vbm.1|
+8	sju	|sju|	RG	_	RG.NOM	9	DT	|sju..nl.1|
+9	veckor	|vecka|	NN	_	NN.UTR.PLU.IND.NOM	10	AA	|vecka..nn.1|
+10	kvar	|kvar|ha kvar:7|	AB	_	AB	7	TA	|kvar..ab.1|ha_kvar..vbm.1:7|
+11	tills	|tills|	SN	_	SN	7	TA	|tills..sn.1|
+12	lillen	|lillen|	NN	_	NN.UTR.SIN.DEF.NOM	13	SS	|lillen..nn.1|
+13	kommer	|komma|	VB	_	VB.PRS.AKT	11	UA	|komma..vb.1|
+14	.	|	MAD	_	MAD	6	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 36032058
+# thread_title = Måste göra abort, men jag vill inte!!!!!
+# post_id = 36032217
+# post_date = 2008-09-08 13:01:02
+# username = Angelica89
+# sent_id = a07c35fba
+1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	6	MS	|vara..vb.1|
+3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+4	tillsammans	|tillsammans|	AB	_	AB	2	AA	|tillsammans..ab.1|
+5	pappan	|pappa|	NN	_	NN.UTR.SIN.DEF.NOM	2	SP	|pappa..nn.1|
+6	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+7	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
+8	men	|men|	KN	_	KN	10	++	|men..kn.1|
+9	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	SS	|den..pn.1|
+10	var	|vara|	VB	_	VB.PRT.AKT	6	MS	|vara..vb.1|
+11	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	10	SS	|vi..pn.1|
+12	inte	|inte|	AB	_	AB	10	NA	|inte..ab.1|
+13	när	|när|	HA	_	HA	15	TA	|när..ab.1|
+14	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|jag..pn.1|
+15	bestämde	|bestämma|bestämma sig|	VB	_	VB.PRT.AKT	10	TA	|bestämma..vb.1|bestämma_sig..vbm.1|
+16	mig	|jag|bestämma sig:15|	PN	_	PN.UTR.SIN.DEF.OBJ	15	OO	|jag..pn.1|bestämma_sig..vbm.1:15|
+17	heller.Men	|	AB	_	AB.AN	10	IT	|
+18	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	19	SS	|han..pn.1|
+19	har	|ha|	VB	_	VB.PRS.AKT	24	MS	|ha..vb.1|
+20	tydligt	|tydlig|	AB	_	AB.POS	19	AA	|tydlig..av.1|
+21	ändrat	|ändra|ändra sig|	VB	_	VB.SUP.AKT	19	VG	|ändra..vb.1|ändra_sig..vbm.1|
+22	sig	|sig|ändra sig:21|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	21	OO	|sig..pn.1|ändra_sig..vbm.1:21|
+23	iallfall	|	AB	_	AB	21	AA	|
+24	och	|och|	KN	_	KN	10	ES	|och..kn.1|
+25	tycker	|tycka|	VB	_	VB.PRS.AKT	24	+F	|tycka..vb.1|
+26	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	25	OO	|den..pn.1|
+27	ska	|skola|	VB	_	VB.PRS.AKT	25	OO	|skola..vb.2|
+28	bli	|bli|	VB	_	VB.INF.AKT	27	VG	|bli..vb.1|
+29	lite	|lite|	AB	_	AB.POS	30	AA	|lite..ab.1|
+30	skojj	|	NN	_	NN.NEU.SIN.IND.NOM	28	SP	|
+31	iallafall	|iallafall|	AB	_	AB	28	AA	|iallafall..ab.1|
+32	!	|	MAD	_	MAD	6	IU	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 36032058
+# thread_title = Måste göra abort, men jag vill inte!!!!!
+# post_id = 36032217
+# post_date = 2008-09-08 13:01:02
+# username = Angelica89
+# sent_id = a07cc619c
+1	:)	|	IN	_	IN	0	ROOT	|
+2	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	1	HD	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+3	till	|till|lycka till:2|	PP	_	PP	1	OA	|till..pp.1|lycka_till..inm.1:2|
+4	.	|	MAD	_	MAD	1	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 36032058
+# thread_title = Måste göra abort, men jag vill inte!!!!!
+# post_id = 36032217
+# post_date = 2008-09-08 13:01:02
+# username = Angelica89
+# sent_id = a07caa912
+1	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+3	bara	|bara|	AB	_	AB	2	CA	|bara..ab.1|
+4	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	XX	|du..pn.1|
+5	som	|	HP	_	HP.-.-.-	6	SS	|
+6	vet	|veta|	VB	_	VB.PRS.AKT	4	EF	|veta..vb.1|
+7	hur	|hur|	HA	_	HA	9	AA	|hur..ab.1|
+8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
+9	kommer	|komma|	VB	_	VB.PRS.AKT	6	OO	|komma..vb.1|
+10	sluta	|sluta|	VB	_	VB.INF.AKT	9	VG	|sluta..vb.1|sluta..vb.2|sluta..vb.3|
+11	:	|	MAD	_	MAD	2	IQ	|
+12	)	|	PAD	_	PAD	2	JR	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 34811058
+# thread_title = Jag har 2 fruktansvärda val....HJÄLP MIG
+# post_id = 35016440
+# post_date = 2008-08-05 22:09:07
+# username = Angelica89
+# sent_id = 3b65e85cb
+1	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+3	äldigt	|	AB	_	AB.POS	4	AA	|
+4	starkt	|stark|	AB	_	AB.POS	5	AA	|stark..av.1|
+5	gjort	|gjord|göra|	PC	_	PC.PRF.NEU.SIN.IND.NOM	2	SP	|gjord..av.1|göra..vb.1|
+6	,	|	MID	_	MID	2	IK	|
+7	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|du..pn.1|
+8	kan	|kunna|	VB	_	VB.PRS.AKT	2	MS	|kunna..vb.1|
+9	inte	|inte|	AB	_	AB	8	NA	|inte..ab.1|
+10	ångra	|ångra|ångra sig|	VB	_	VB.INF.AKT	8	VG	|ångra..vb.1|ångra_sig..vbm.1|
+11	dig	|du|ångra sig:10|	PN	_	PN.UTR.SIN.DEF.OBJ	10	OO	|du..pn.1|ångra_sig..vbm.1:10|
+12	:	|	MID	_	MID	2	IQ	|
+13	)	|	PAD	_	PAD	2	JR	|
+14	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 34811058
+# thread_title = Jag har 2 fruktansvärda val....HJÄLP MIG
+# post_id = 35016440
+# post_date = 2008-08-05 22:09:07
+# username = Angelica89
+# sent_id = 3b6572c77
+1	Du	|Du|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|Du..pn.1|du..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	säkert	|säker|	AB	_	AB.POS	2	MA	|säker..av.1|
+4	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	5	DT	|
+5	andra	|annan|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	2	OO	|annan..pn.1|
+6	som	|	HP	_	HP.-.-.-	7	SS	|
+7	ställer	|ställa|ställa upp|ställa sig|	VB	_	VB.PRS.AKT	5	ET	|ställa..vb.1|ställa_upp..vbm.1|ställa_sig..vbm.1|
+8	upp	|upp|ställa upp:7|	PL	_	PL	7	PL	|upp..ab.1|ställa_upp..vbm.1:7|
+9	för	|för|	PP	_	PP	7	OA	|för..pp.1|
+10	dig	|du|ställa sig:7|	PN	_	PN.UTR.SIN.DEF.OBJ	9	PA	|du..pn.1|ställa_sig..vbm.1:7|
+11	som	|	KN	_	KN	7	OP	|
+12	din	|du|	PS	_	PS.UTR.SIN.DEF	14	DT	|du..pn.1|
+13	familj	|familj|	NN	_	NN.UTR.SIN.IND.NOM	14	CJ	|familj..nn.1|
+14	och	|och|	KN	_	KN	11	UA	|och..kn.1|
+15	vänner	|vän|	NN	_	NN.UTR.PLU.IND.NOM	14	CJ	|vän..nn.1|
+16	..	|	MID	_	MID	2	IK	|
+17	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	18	SS	|du..pn.1|
+18	ska	|skola|	VB	_	VB.PRS.AKT	2	MS	|skola..vb.2|
+19	se	|se|	VB	_	VB.INF.AKT	18	VG	|se..vb.1|
+20	att	|att|	SN	_	SN	19	OO	|att..sn.1|
+21	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	22	SS	|den..pn.1|
+22	kommer	|komma|	VB	_	VB.PRS.AKT	20	UA	|komma..vb.1|
+23	gå	|gå|gå bra|	VB	_	VB.INF.AKT	22	VG	|gå..vb.1|gå_bra..vbm.1|
+24	bra	|bra|gå bra:23|	AB	_	AB.POS	23	AA	|bra..ab.1|bra..ab.2|bra..av.1|gå_bra..vbm.1:23|
+25	,	|	MID	_	MID	2	IK	|
+26	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	27	SS	|jag..pn.1|
+27	är	|vara|	VB	_	VB.PRS.AKT	2	MS	|vara..vb.1|
+28	på	|på|på ett ungefär|	PP	_	PP	27	OA	|på..pp.1|på_ett_ungefär..abm.1|
+29	ett	|en|på ett ungefär:28|	DT	_	DT.NEU.SIN.IND	33	DT	|en..al.1|på_ett_ungefär..abm.1:28|
+30	ungefär	|ungefär|på ett ungefär:28|	AB	_	AB	31	AA	|ungefär..ab.1|på_ett_ungefär..abm.1:28|
+31	i	|i|	PP	_	PP	27	AA	|i..pp.1|
+32	samma	|samma|	DT	_	DT.UTR+NEU.SIN+PLU.IND	33	DT	|samma..pn.1|
+33	sits	|sits|	NN	_	NN.UTR.SIN.IND.NOM	31	PA	|sits..nn.1|
+34	som	|	KN	_	KN	33	ET	|
+35	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	34	UA	|du..pn.1|
+36	,	|	MID	_	MID	2	IK	|
+37	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	38	SS	|jag..pn.1|
+38	valde	|välja|	VB	_	VB.PRT.AKT	2	MS	|välja..vb.1|
+39	att	|att|	IE	_	IE	38	OO	|att..sn.1|
+40	behålla	|behålla|	VB	_	VB.INF.AKT	39	IF	|behålla..vb.1|
+41	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	40	OO	|barn..nn.1|
+42	när	|när|	HA	_	HA	44	TA	|när..ab.1|
+43	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	44	SS	|jag..pn.1|
+44	va	|	VB	_	VB.PRT.AKT	49	TA	|
+45	i	|i|	PP	_	PP	44	TA	|i..pp.1|
+46	tredje	|	RO	_	RO.NOM	47	DT	|
+47	månaden	|månad|	NN	_	NN.UTR.SIN.DEF.NOM	45	PA	|månad..nn.1|
+48	(	|	PAD	_	PAD	2	IR	|
+49	fick	|få|få reda|	VB	_	VB.PRT.AKT	2	MS	|få..vb.1|få_reda..vbm.1|
+50	reda	|få reda:49|	PL	_	PL	49	PL	|få_reda..vbm.1:49|
+51	på	|på|	PP	_	PP	49	OA	|på..pp.1|
+52	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	51	PA	|den..pn.1|
+53	sent	|sen|	AB	_	AB.POS	49	TA	|sen..av.1|
+54	)	|	PAD	_	PAD	2	JR	|
+55	då	|då|	AB	_	AB	56	TA	|då..ab.1|då..ab.2|
+56	hade	|ha|	VB	_	VB.PRT.AKT	2	MS	|ha..vb.1|
+57	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	56	SS	|jag..pn.1|
+58	två	|två|	RG	_	RG.NOM	59	DT	|två..nl.1|
+59	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	56	OO	|dag..nn.1|
+60	på	|på|	PP	_	PP	56	OA	|på..pp.1|
+61	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	60	PA	|jag..pn.1|
+62	att	|att|	IE	_	IE	56	OA	|att..sn.1|
+63	bestämma	|bestämma|bestämma sig|	VB	_	VB.INF.AKT	62	IF	|bestämma..vb.1|bestämma_sig..vbm.1|
+64	mig	|jag|bestämma sig:63|	PN	_	PN.UTR.SIN.DEF.OBJ	63	OO	|jag..pn.1|bestämma_sig..vbm.1:63|
+65	,	|	MID	_	MID	2	IK	|
+66	hade	|ha|	VB	_	VB.PRT.AKT	2	MS	|ha..vb.1|
+67	inget	|ingen|	DT	_	DT.NEU.SIN.IND	68	DT	|ingen..pn.1|
+68	stöd	|stöd|	NN	_	NN.NEU.SIN.IND.NOM	66	OO	|stöd..nn.1|
+69	alls	|alls|	AB	_	AB	66	AA	|alls..ab.1|
+70	ifrån	|ifrån|	PP	_	PP	66	OA	|ifrån..pp.1|
+71	pappan	|pappa|	NN	_	NN.UTR.SIN.DEF.NOM	70	PA	|pappa..nn.1|
+72	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Abort
+# subsubforum_id = Abort
+# thread_id = 34811058
+# thread_title = Jag har 2 fruktansvärda val....HJÄLP MIG
+# post_id = 35016440
+# post_date = 2008-08-05 22:09:07
+# username = Angelica89
+# sent_id = 3b65892c6
+1	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	änsålänge	|änsålänge|	AB	_	AB	4	TA	|änsålänge..ab.1|
+3	så	|så|	AB	_	AB	4	DB	|så..ab.1|
+4	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
+5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+6	riktigt	|riktig|	AB	_	AB	7	AA	|riktig..av.1|
+7	stolt	|stolt|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	4	SP	|stolt..av.1|
+8	över	|över|	PP	_	PP	4	OA	|över..pp.1|
+9	mitt	|jag|	PS	_	PS.NEU.SIN.DEF	10	DT	|jag..pn.1|
+10	beslut	|beslut|	NN	_	NN.NEU.SIN.IND.NOM	8	PA	|beslut..nn.1|
+11	..	|	MID	_	MID	4	IK	|
+12	om	|om|	SN	_	SN	4	AA	|om..sn.1|
+13	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	14	SS	|du..pn.1|
+14	känner	|känna|	VB	_	VB.PRS.AKT	12	UA	|känna..vb.1|känna..vb.2|
+15	för	|för|	PP	_	PP	14	AA	|för..pp.1|
+16	att	|att|	IE	_	IE	15	PA	|att..sn.1|
+17	prata	|prata|	VB	_	VB.INF.AKT	16	IF	|prata..vb.1|
+18	så	|så|	AB	_	AB	19	AA	|så..ab.1|
+19	är	|vara|	VB	_	VB.PRS.AKT	15	PA	|vara..vb.1|
+20	detbara	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	19	SP	|
+21	att	|att|	IE	_	IE	19	OA	|att..sn.1|
+22	skriva	|skriva|	VB	_	VB.INF.AKT	21	IF	|skriva..vb.1|
+23	..	|	MAD	_	MAD	4	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 34616110
+# thread_title = Min mans mamma försökte ge MIN son SITT bröst?!?!!?!
+# post_id = 34616147
+# post_date = 2008-07-20 17:01:05
+# username = Angelica89
+# sent_id = c65cb8bbc
+1	Fy	|fy|fy fan|	IN	_	IN	0	ROOT	|fy..in.1|fy_fan..inm.1|
+2	fan	|fan|fy fan:1|	IN	_	IN	1	HD	|fan..in.1|fy_fan..inm.1:1|
+3	va	|	VB	_	VB.PRT.AKT	1	MS	|
+4	äckligt	|äcklig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	3	SP	|äcklig..av.1|
+5	.	|	MAD	_	MAD	1	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 34616110
+# thread_title = Min mans mamma försökte ge MIN son SITT bröst?!?!!?!
+# post_id = 34616147
+# post_date = 2008-07-20 17:01:05
+# username = Angelica89
+# sent_id = c65c4aaa4
+1	Näe	|	IN	_	IN	0	ROOT	|
+2	skulle	|skola|	VB	_	VB.PRT.AKT	1	MS	|skola..vb.2|
+3	aldrig	|aldrig|	AB	_	AB	2	TA	|aldrig..ab.1|
+4	någonsin	|någonsin|	AB	_	AB	2	TA	|någonsin..ab.1|
+5	acceptera	|acceptera|	VB	_	VB.INF.AKT	2	VG	|acceptera..vb.1|
+6	att	|att|	SN	_	SN	5	OO	|att..sn.1|
+7	min	|jag|	PS	_	PS.UTR.SIN.DEF	8	DT	|jag..pn.1|
+8	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	9	SS	|mamma..nn.1|
+9	skulle	|skola|	VB	_	VB.PRT.AKT	6	UA	|skola..vb.2|
+10	ge	|ge|	VB	_	VB.INF.AKT	9	VG	|ge..vb.1|
+11	mitt	|jag|	PS	_	PS.NEU.SIN.DEF	12	DT	|jag..pn.1|
+12	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	10	IO	|barn..nn.1|
+13	sitt	|sig|	PS	_	PS.NEU.SIN.DEF	14	DT	|sig..pn.1|
+14	bröst	|bröst|	NN	_	NN.NEU.SIN.IND.NOM	10	OO	|bröst..nn.1|
+15	,	|	MID	_	MID	2	IK	|
+16	fy	|fy|	IN	_	IN	17	+A	|fy..in.1|
+17	mår	|må|	VB	_	VB.PRS.AKT	2	MS	|må..vb.1|
+18	ju	|ju|	AB	_	AB	17	MA	|ju..ab.1|
+19	nästan	|nästan|	AB	_	AB	20	AA	|nästan..ab.1|
+20	illa	|	AB	_	AB	17	AA	|
+21	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 34616110
+# thread_title = Min mans mamma försökte ge MIN son SITT bröst?!?!!?!
+# post_id = 34616147
+# post_date = 2008-07-20 17:01:05
+# username = Angelica89
+# sent_id = c65cc79cc
+1	Tycker	|tycka|	VB	_	VB.PRS.AKT	3	AA	|tycka..vb.1|
+2	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|du..pn.1|
+3	ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
+4	ta	|ta|	VB	_	VB.INF.AKT	3	VG	|ta..vb.1|
+5	ett	|en|	DT	_	DT.NEU.SIN.IND	7	DT	|en..al.1|
+6	rejält	|rejäl|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	7	AT	|rejäl..av.1|
+7	snack	|snack|	NN	_	NN.NEU.SIN.IND.NOM	4	OO	|snack..nn.1|
+8	med	|med|	PP	_	PP	4	OA	|med..pp.1|
+9	häxan	|häxa|	NN	_	NN.UTR.SIN.DEF.NOM	8	PA	|häxa..nn.1|
+10	!	|	MAD	_	MAD	3	IU	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 34616110
+# thread_title = Min mans mamma försökte ge MIN son SITT bröst?!?!!?!
+# post_id = 34616147
+# post_date = 2008-07-20 17:01:05
+# username = Angelica89
+# sent_id = c65cabd5c
+1	så	|så|	AB	_	AB	2	AA	|så..ab.1|
+2	får	|få|	VB	_	VB.PRS.AKT	0	ROOT	|få..vb.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+4	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
+5	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+6	gå	|gå|gå till|	VB	_	VB.INF.AKT	2	VG	|gå..vb.1|gå_till..vbm.1|
+7	till	|till|gå till:6|	PL	_	PL	6	PL	|till..ab.1|gå_till..vbm.1:6|
+8	..	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 35013604
+# thread_title = Hittade en sedel i sängbordet!
+# post_id = 35013775
+# post_date = 2008-08-05 20:58:45
+# username = Angelica89
+# sent_id = 27e9172c3
+1	förstår	|förstå|	VB	_	VB.PRS.AKT	11	MS	|förstå..vb.1|
+2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
+3	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|han..pn.1|
+4	kanske	|kanske|	AB	_	AB	5	MA	|kanske..ab.1|
+5	velat	|vela|vilja|	VB	_	VB.SUP.AKT	2	UA	|vela..vb.1|vilja..vb.1|
+6	spara	|spara|	VB	_	VB.INF.AKT	5	VG	|spara..vb.1|spara..vb.2|
+7	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	6	OO	|de..pn.1|
+8	som	|	KN	_	KN	6	OP	|
+9	minne	|minne|	NN	_	NN.NEU.SIN.IND.NOM	8	UA	|minne..nn.1|
+10	,	|	MID	_	MID	11	IK	|
+11	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+12	måste	|måste|	VB	_	VB.PRS.AKT	11	MS	|måste..vb.1|
+13	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|han..pn.1|
+14	ha	|ha|	VB	_	VB.INF.AKT	12	VG	|ha..vb.1|
+15	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	14	OO	|den..pn.1|
+16	framme	|framme|	AB	_	AB	14	RA	|framme..ab.1|
+17	?	|	MAD	_	MAD	11	I?	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 35013604
+# thread_title = Hittade en sedel i sängbordet!
+# post_id = 35013775
+# post_date = 2008-08-05 20:58:45
+# username = Angelica89
+# sent_id = 27e9b6203
+1	visste	|veta|	VB	_	VB.PRT.AKT	9	AA	|veta..vb.1|
+2	i	|i|	PP	_	PP	1	RA	|i..pp.1|
+3	en	|en|	DT	_	DT.UTR.SIN.IND	4	DT	|en..al.1|
+4	låda	|låda|	NN	_	NN.UTR.SIN.IND.NOM	5	CJ	|låda..nn.1|
+5	eller	|eller|	KN	_	KN	2	PA	|eller..kn.1|
+6	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	7	DT	|någon..pn.1|
+7	:-P	|	NN	_	NN.AN	5	CJ	|
+8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
+9	hade	|ha|	VB	_	VB.PRT.AKT	12	MS	|ha..vb.1|
+10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|jag..pn.1|
+11	gått	|gå|	VB	_	VB.SUP.AKT	9	VG	|gå..vb.1|
+12	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+13	hade	|ha|	VB	_	VB.PRT.AKT	12	MS	|ha..vb.1|
+14	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|jag..pn.1|
+15	hittat	|hitta|	VB	_	VB.SUP.AKT	13	VG	|hitta..vb.1|
+16	det	|den|den där|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	15	OO	|den..pn.1|den_där..pnm.1|
+17	där	|där|den där:16|	AB	_	AB	15	RA	|där..ab.1|den_där..pnm.1:16|
+18	så	|så|	AB	_	AB	19	DB	|så..ab.1|
+19	hade	|ha|	VB	_	VB.PRT.AKT	12	MS	|ha..vb.1|
+20	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	19	SS	|jag..pn.1|
+21	börjat	|börja|	VB	_	VB.SUP.AKT	19	VG	|börja..vb.1|börja..vb.2|
+22	undra	|undra|	VB	_	VB.INF.AKT	21	OO	|undra..vb.1|
+23	lite	|lite|	AB	_	AB.POS	24	AA	|lite..ab.1|
+24	faktiskt	|faktisk|	AB	_	AB.POS	22	AA	|faktisk..av.1|
+25	.	|	MAD	_	MAD	19	IP	|
+
+# age = 24
+# agebin = 20--29
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 66145201
+# thread_title = Min mamma fick panik när hon fick träffa min nya pojkvän.
+# post_id = 66148891
+# post_date = 2012-08-10 20:01:29
+# username = Angelica89
+# sent_id = 0c99709d8
+1	Nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	2	AA	|nyfiken..av.1|
+2	nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	0	ROOT	|nyfiken..av.1|
+3	..	|	MID	_	MID	2	AA	|
+4	:)	|	IN	_	IN	3	HD	|
+5	hoppax	|	MID	_	MID	9	CJ	|
+6	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	7	SS	|de..pn.1|
+7	går	|gå|gå bra|	VB	_	VB.PRS.AKT	9	CJ	|gå..vb.1|gå_bra..vbm.1|
+8	bra	|bra|gå bra:7|	AB	_	AB.POS	7	AA	|bra..ab.1|bra..ab.2|bra..av.1|gå_bra..vbm.1:7|
+9	och	|och|	KN	_	KN	3	AA	|och..kn.1|
+10	att	|att|	SN	_	SN	9	CJ	|att..sn.1|
+11	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	13	SS	|de..pn.1|
+12	inte	|inte|	AB	_	AB	13	NA	|inte..ab.1|
+13	är	|vara|	VB	_	VB.PRS.AKT	10	UA	|vara..vb.1|
+14	nått	|nå|	VB	_	VB.SUP.AKT	13	VG	|nå..vb.1|
+15	märkvärdigt	|märkvärdig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	14	AA	|märkvärdig..av.1|
+

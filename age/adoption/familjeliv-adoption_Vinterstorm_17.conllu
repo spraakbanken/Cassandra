@@ -1,0 +1,71 @@
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 7955219
+# thread_title = Adoption från Sydafrika!
+# post_id = 7997308
+# post_date = 2006-03-16 06:39:07
+# username = Vinterstorm
+# sent_id = a5819782
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	läste	|läsa|	VB	_	VB.PRT.AKT	0	ROOT	|läsa..vb.1|
+3	en	|en|	DT	_	DT.UTR.SIN.IND	4	DT	|en..al.1|
+4	artikel	|artikel|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|artikel..nn.1|
+5	i	|i|	PP	_	PP	2	RA	|i..pp.1|
+6	GP	|	PM	_	PM.NOM	5	PA	|
+7	,	|	MID	_	MID	6	IK	|
+8	göteborgsposten	|	NN	_	NN.UTR.SIN.DEF.NOM	6	AN	|
+9	,	|	MID	_	MID	2	IK	|
+10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|jag..pn.1|
+11	tror	|tro|	VB	_	VB.PRS.AKT	2	MS	|tro..vb.1|
+12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	OO	|den..pn.1|
+13	var	|vara|	VB	_	VB.PRT.AKT	11	OO	|vara..vb.1|
+14	i	|i|i tisdags|	PP	_	PP	13	SP	|i..pp.1|i_tisdags..abm.1|
+15	tisdags	|tisdag|i tisdags:14|	NN	_	NN.UTR.SIN.IND.GEN	14	HD	|tisdag..nn.1|i_tisdags..abm.1:14|
+16	,	|	MID	_	MID	13	IK	|
+17	om	|om|	PP	_	PP	2	OA	|om..pp.1|
+18	ett	|en|ett par|	DT	_	DT.NEU.SIN.IND	19	DT	|en..al.1|ett_par..pnm.1|
+19	par	|par|ett par:18|	NN	_	NN.NEU.SIN.IND.NOM	17	PA	|par..nn.1|ett_par..pnm.1:18|
+20	som	|	HP	_	HP.-.-.-	21	SS	|
+21	adopterat	|adoptera|	VB	_	VB.SUP.AKT	19	ET	|adoptera..vb.1|
+22	två	|två|	RG	_	RG.NOM	24	DT	|två..nl.1|
+23	härliga	|härlig|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	24	AT	|härlig..av.1|
+24	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	21	OO	|barn..nn.1|
+25	därifrån	|därifrån|	AB	_	AB	21	RA	|därifrån..ab.1|
+26	!	|	MAD	_	MAD	2	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 7955219
+# thread_title = Adoption från Sydafrika!
+# post_id = 7997308
+# post_date = 2006-03-16 06:39:07
+# username = Vinterstorm
+# sent_id = a5804535
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
+2	kanske	|kanske|	AB	_	AB	3	MA	|kanske..ab.1|
+3	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+4	vara	|vara|vara sig|	VB	_	VB.INF.AKT	3	VG	|vara..vb.1|vara..vb.2|vara_sig..vbm.1|
+5	intressant	|intressant|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	6	AT	|intressant..av.1|
+6	läsning	|läsning|	NN	_	NN.UTR.SIN.IND.NOM	4	SP	|läsning..nn.1|
+7	för	|för|	PP	_	PP	4	OA	|för..pp.1|
+8	er	|ni|vara sig:4|	PN	_	PN.UTR.PLU.DEF.OBJ	7	PA	|ni..pn.1|vara_sig..vbm.1:4|
+9	?	|	MAD	_	MAD	3	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 7955219
+# thread_title = Adoption från Sydafrika!
+# post_id = 7997308
+# post_date = 2006-03-16 06:39:07
+# username = Vinterstorm
+# sent_id = a58c94b0
+1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+3	!	|	MAD	_	MAD	2	PA	|
+

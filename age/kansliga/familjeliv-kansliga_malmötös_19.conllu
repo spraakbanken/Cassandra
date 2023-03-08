@@ -1,0 +1,87 @@
+# age = 19
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 1379851
+# thread_title = Rätta glädjen infinner sig inte..
+# post_id = 1380022
+# post_date = 2004-11-06 20:44:23
+# username = malmötös
+# sent_id = 5dec84fce
+1	Ingen	|ingen|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	0	ROOT	|ingen..pn.1|
+2	som	|	HP	_	HP.-.-.-	3	SS	|
+3	har	|ha|	VB	_	VB.PRS.AKT	1	ET	|ha..vb.1|
+4	känt	|känna|	VB	_	VB.SUP.AKT	3	VG	|känna..vb.1|känna..vb.2|
+5	liknande	|likna|liknande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	AA	|likna..vb.1|liknande..av.1|
+6	?	|	MAD	_	MAD	1	I?	|
+
+# age = 19
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 1379851
+# thread_title = Rätta glädjen infinner sig inte..
+# post_id = 1380022
+# post_date = 2004-11-06 20:44:23
+# username = malmötös
+# sent_id = 5dec287c9
+1	Skulle	|skola|	VB	_	VB.PRT.AKT	7	AA	|skola..vb.2|
+2	verkligen	|verkligen|	AB	_	AB	1	MA	|verkligen..ab.1|
+3	behöva	|behöva|	VB	_	VB.INF.AKT	1	VG	|behöva..vb.1|
+4	lite	|lite|	AB	_	AB.POS	5	AT	|lite..ab.1|
+5	stöd	|stöd|	NN	_	NN.NEU.SIN.IND.NOM	3	OO	|stöd..nn.1|
+6	,	|	MID	_	MID	7	IK	|
+7	funderar	|fundera|	VB	_	VB.PRS.AKT	0	ROOT	|fundera..vb.1|
+8	ju	|ju|	AB	_	AB	7	MA	|ju..ab.1|
+9	faktsikt	|	AB	_	AB.POS	7	MA	|
+10	på	|på|	PP	_	PP	7	OA	|på..pp.1|
+11	något	|någon|	DT	_	DT.NEU.SIN.IND	13	DT	|någon..pn.1|
+12	så	|så|	AB	_	AB	13	AA	|så..ab.1|
+13	drastiskt	|drastisk|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	10	PA	|drastisk..av.1|
+14	som	|	KN	_	KN	7	KA	|
+15	en	|en|	DT	_	DT.UTR.SIN.IND	16	DT	|en..al.1|
+16	abort	|abort|	NN	_	NN.UTR.SIN.IND.NOM	14	UA	|abort..nn.1|
+17	.	|	MAD	_	MAD	7	IP	|
+
+# age = 19
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 1379851
+# thread_title = Rätta glädjen infinner sig inte..
+# post_id = 1380022
+# post_date = 2004-11-06 20:44:23
+# username = malmötös
+# sent_id = 5dec418df
+1	Har	|ha|	VB	_	VB.PRS.AKT	9	MS	|ha..vb.1|
+2	ju	|ju|ju ju|	AB	_	AB	1	MA	|ju..ab.1|ju_ju..knm.1|
+3	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	4	DT	|ingen..pn.1|
+4	annan	|annan|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	1	OO	|annan..pn.1|
+5	att	|att|	IE	_	IE	1	OA	|att..sn.1|
+6	prata	|prata|	VB	_	VB.INF.AKT	5	IF	|prata..vb.1|
+7	med	|med|	PP	_	PP	6	OA	|med..pp.1|
+8	,	|	MID	_	MID	9	IK	|
+9	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
+10	graviditeten	|graviditet|	NN	_	NN.UTR.SIN.DEF.NOM	11	SS	|graviditet..nn.1|
+11	är	|vara|	VB	_	VB.PRS.AKT	9	MS	|vara..vb.1|
+12	ju	|ju|ju ju:2|	AB	_	AB	11	MA	|ju..ab.1|ju_ju..knm.1:2|
+13	inte	|inte|	AB	_	AB	11	NA	|inte..ab.1|
+14	precis	|precis|	AB	_	AB	11	TA	|precis..ab.1|
+15	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	11	XX	|någon..pn.1|
+16	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	17	SS	|jag..pn.1|
+17	basunerat	|basunera ut|	VB	_	VB.SUP.AKT	15	ET	|basunera_ut..vbm.1|
+18	ut	|ut|basunera ut:17|	PL	_	PL	17	PL	|ut..ab.1|basunera_ut..vbm.1:17|
+19	i	|i|	PP	_	PP	17	RA	|i..pp.1|
+20	bekantskapskretsen	|bekantskapskrets|	NN	_	NN.UTR.SIN.DEF.NOM	19	PA	|bekantskapskrets..nn.1|
+21	innan	|innan|	SN	_	SN	17	TA	|innan..sn.1|
+22	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	23	SS	|jag..pn.1|
+23	bestämt	|bestämma|bestämma sig|	VB	_	VB.SUP.AKT	21	UA	|bestämma..vb.1|bestämma_sig..vbm.1|
+24	mig	|jag|bestämma sig:23|	PN	_	PN.UTR.SIN.DEF.OBJ	23	OO	|jag..pn.1|bestämma_sig..vbm.1:23|
+25	för	|för|	PP	_	PP	23	OA	|för..pp.1|
+26	hur	|hur|	HA	_	HA	28	AA	|hur..ab.1|
+27	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	28	SS	|jag..pn.1|
+28	ska	|skola|	VB	_	VB.PRS.AKT	25	PA	|skola..vb.2|
+29	ha	|ha|ha det|	VB	_	VB.INF.AKT	28	VG	|ha..vb.1|ha_det..inm.1|
+30	det	|den|ha det:29|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	29	OO	|den..pn.1|ha_det..inm.1:29|
+31	!	|	MAD	_	MAD	9	IU	|
+

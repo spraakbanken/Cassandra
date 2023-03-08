@@ -1,0 +1,4279 @@
+# age = 20
+# agebin = 20--29
+# subforum_id = Föräldraskap
+# subsubforum_id = Föräldraskap
+# thread_id = 50616034
+# thread_title = Föräldradagar, hur ska vi göra?
+# post_id = 50627053
+# post_date = 2010-02-09 08:41:59
+# username = soso
+# sent_id = 4074c6074
+1	Oj	|oj|	IN	_	IN	0	ROOT	|oj..in.1|
+2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
+3	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
+4	svårt	|svår|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	3	SP	|svår..av.1|
+5	det	|den|den där|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	DB	|den..pn.1|den_där..pnm.1|
+6	där	|där|den där:5|	AB	_	AB	3	RA	|där..ab.1|den_där..pnm.1:5|
+7	.	|	MAD	_	MAD	1	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Föräldraskap
+# subsubforum_id = Föräldraskap
+# thread_id = 50616034
+# thread_title = Föräldradagar, hur ska vi göra?
+# post_id = 50627053
+# post_date = 2010-02-09 08:41:59
+# username = soso
+# sent_id = 407476b0e
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	tycker	|tycka|	VB	_	VB.PRS.AKT	0	ROOT	|tycka..vb.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	FS	|den..pn.1|
+4	är	|vara|	VB	_	VB.PRS.AKT	2	OO	|vara..vb.1|
+5	skönt	|skön|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	SP	|skön..av.1|
+6	att	|att|	SN	_	SN	4	ES	|att..sn.1|
+7	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	8	SS	|vi..pn.1|
+8	har	|ha|	VB	_	VB.PRS.AKT	6	UA	|ha..vb.1|
+9	haft	|ha|	VB	_	VB.SUP.AKT	8	VG	|ha..vb.1|
+10	möjlighet	|möjlighet|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|möjlighet..nn.1|
+11	att	|att|	IE	_	IE	10	ET	|att..sn.1|
+12	ha	|ha|ha kvar|	VB	_	VB.INF.AKT	11	IF	|ha..vb.1|ha_kvar..vbm.1|
+13	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	12	OO	|dag..nn.1|
+14	kvar	|kvar|ha kvar:12|	AB	_	AB	12	TA	|kvar..ab.1|ha_kvar..vbm.1:12|
+15	efter	|	SN	_	SN	12	TA	|
+16	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	17	SS	|vi..pn.1|
+17	börjat	|börja|	VB	_	VB.SUP.AKT	15	UA	|börja..vb.1|börja..vb.2|
+18	jobba	|jobba|	VB	_	VB.INF.AKT	17	OO	|jobba..vb.1|
+19	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Föräldraskap
+# subsubforum_id = Föräldraskap
+# thread_id = 50616034
+# thread_title = Föräldradagar, hur ska vi göra?
+# post_id = 50627053
+# post_date = 2010-02-09 08:41:59
+# username = soso
+# sent_id = 40743235d
+1	Förutom	|förutom|	PP	_	PP	11	TA	|förutom..pp.1|
+2	sommar	|sommar|	NN	_	NN.UTR.SIN.IND.NOM	3	CJ	|sommar..nn.1|
+3	och	|och|	KN	_	KN	1	PA	|och..kn.1|
+4	julsemestrar	|julsemester|	NN	_	NN.UTR.PLU.IND.NOM	3	CJ	|
+5	som	|	HP	_	HP.-.-.-	6	SS	|
+6	ska	|skola|	VB	_	VB.PRS.AKT	3	ET	|skola..vb.2|
+7	får	|få|få ihop|	VB	_	VB.PRS.AKT	6	VG	|få..vb.1|få_ihop..vbm.1|
+8	ihop	|ihop|få ihop:7|	PL	_	PL	7	PL	|ihop..ab.1|få_ihop..vbm.1:7|
+9	,	|	MID	_	MID	7	IK	|
+10	så	|så|	AB	_	AB	11	DB	|så..ab.1|
+11	har	|ha|	VB	_	VB.PRS.AKT	40	MS	|ha..vb.1|
+12	ju	|ju|ju ju|	AB	_	AB	11	MA	|ju..ab.1|ju_ju..knm.1|
+13	förskolan	|förskola|	NN	_	NN.UTR.SIN.DEF.NOM	11	SS	|förskola..nn.1|
+14	normalt	|normal|	AB	_	AB.POS	11	AA	|normal..av.1|
+15	stängt	|stänga|	VB	_	VB.SUP.AKT	11	VG	|stänga..vb.1|
+16	2	|	RG	_	RG.NOM	17	DT	|
+17	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	15	OO	|dag..nn.1|
+18	/	|	MID	_	MID	15	TA	|
+19	termin	|termin|	NN	_	NN.UTR.SIN.IND.NOM	18	PA	|termin..nn.1|
+20	för	|för|	PP	_	PP	15	AA	|för..pp.1|
+21	vidareutbildning	|vidareutbildning|	NN	_	NN.UTR.SIN.IND.NOM	20	PA	|vidareutbildning..nn.1|
+22	(	|	PAD	_	PAD	15	IR	|
+23	om	|om|	SN	_	SN	15	AA	|om..sn.1|
+24	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	26	SS	|man..pn.1|
+25	inte	|inte|	AB	_	AB	26	NA	|inte..ab.1|
+26	kan	|kunna|	VB	_	VB.PRS.AKT	23	UA	|kunna..vb.1|
+27	lösa	|lösa|	VB	_	VB.INF.AKT	26	VG	|lösa..vb.1|
+28	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	27	OO	|den..pn.1|
+29	så	|så|	AB	_	AB	30	DB	|så..ab.1|
+30	är	|vara|	VB	_	VB.PRS.AKT	40	MS	|vara..vb.1|
+31	förskolan	|förskola|	NN	_	NN.UTR.SIN.DEF.NOM	30	SS	|förskola..nn.1|
+32	skyldiga	|skyldig|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	30	SP	|skyldig..av.1|
+33	att	|att|	IE	_	IE	30	ES	|att..sn.1|
+34	anordna	|anordna|	VB	_	VB.INF.AKT	33	IF	|anordna..vb.1|
+35	annan	|annan|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	36	DT	|annan..pn.1|
+36	tillsyn	|tillsyn|	NN	_	NN.UTR.SIN.IND.NOM	34	OO	|tillsyn..nn.1|
+37	av	|av|	PP	_	PP	34	OA	|av..pp.1|
+38	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	37	PA	|barn..nn.1|
+39	,	|	MID	_	MID	40	IK	|
+40	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+41	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	42	SS	|den..pn.1|
+42	kan	|kunna|	VB	_	VB.PRS.AKT	40	MS	|kunna..vb.1|
+43	ju	|ju|ju ju:12|	AB	_	AB	42	MA	|ju..ab.1|ju_ju..knm.1:12|
+44	bli	|bli|	VB	_	VB.INF.AKT	42	VG	|bli..vb.1|
+45	på	|på|	PP	_	PP	49	CJ	|på..pp.1|
+46	en	|en|en annan|	DT	_	DT.UTR.SIN.IND	48	DT	|en..al.1|en_annan..pnm.1|
+47	annan	|annan|en annan:46|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	48	DT	|annan..pn.1|en_annan..pnm.1:46|
+48	förskola	|förskola|	NN	_	NN.UTR.SIN.IND.NOM	45	PA	|förskola..nn.1|
+49	eller	|eller|	KN	_	KN	44	SP	|eller..kn.1|
+50	med	|med|	PP	_	PP	49	CJ	|med..pp.1|
+51	personal	|personal|	NN	_	NN.UTR.SIN.IND.NOM	50	PA	|personal..nn.1|personal..nn.2|
+52	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	54	SS	|barn..nn.1|
+53	inte	|inte|	AB	_	AB	54	NA	|inte..ab.1|
+54	känner	|känna|	VB	_	VB.PRS.AKT	51	ET	|känna..vb.1|känna..vb.2|
+55	)	|	PAD	_	PAD	40	JR	|
+56	.	|	MAD	_	MAD	40	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Föräldraskap
+# subsubforum_id = Föräldraskap
+# thread_id = 50616034
+# thread_title = Föräldradagar, hur ska vi göra?
+# post_id = 50627053
+# post_date = 2010-02-09 08:41:59
+# username = soso
+# sent_id = 40743adbe
+1	Då	|då|	AB	_	AB	2	TA	|då..ab.1|då..ab.2|
+2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
+4	skönt	|skön|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	SP	|skön..av.1|
+5	att	|att|	IE	_	IE	13	CJ	|att..sn.1|
+6	ha	|ha|	VB	_	VB.INF.AKT	5	IF	|ha..vb.1|
+7	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	8	DT	|någon..pn.1|
+8	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	6	OO	|dag..nn.1|
+9	att	|att|	IE	_	IE	13	CJ	|att..sn.1|
+10	ta	|ta|ta av|	VB	_	VB.INF.AKT	9	IF	|ta..vb.1|ta_av..vbm.1|
+11	av	|av|ta av:10|	PL	_	PL	10	PL	|av..ab.1|ta_av..vbm.1:10|
+12	...	|	MID	_	MID	10	OO	|
+13	och	|och|	KN	_	KN	2	ES	|och..kn.1|
+14	även	|även|	AB	_	AB	13	+A	|även..ab.1|
+15	att	|att|	IE	_	IE	13	CJ	|att..sn.1|
+16	ha	|ha|	VB	_	VB.INF.AKT	15	IF	|ha..vb.1|
+17	lite	|lite|	AB	_	AB.POS	18	AA	|lite..ab.1|
+18	mer	|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	19	DT	|
+19	marginal	|marginal|	NN	_	NN.UTR.SIN.IND.NOM	16	OO	|marginal..nn.1|
+20	kring	|kring|	PP	_	PP	16	TA	|kring..pp.1|
+21	sommar	|sommar|	NN	_	NN.UTR.SIN.IND.NOM	22	CJ	|sommar..nn.1|
+22	och	|och|	KN	_	KN	20	PA	|och..kn.1|
+23	jul	|jul|	NN	_	NN.UTR.SIN.IND.NOM	22	CJ	|jul..nn.1|
+24	och	|och|	KN	_	KN	20	PA	|och..kn.1|
+25	ev	|ev|	AB	_	AB.AN	27	CA	|ev..ava.1|
+26	andra	|andra|annan|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	27	DT	|andra..av.1|annan..pn.1|
+27	tillfällen	|tillfälle|	NN	_	NN.NEU.PLU.IND.NOM	24	CJ	|tillfälle..nn.1|
+28	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	29	SS	|man..pn.1|
+29	kan	|kunna|	VB	_	VB.PRS.AKT	27	ET	|kunna..vb.1|
+30	vilja	|vilja|	VB	_	VB.INF.AKT	29	VG	|vilja..vb.1|
+31	vara	|vara|	VB	_	VB.INF.AKT	30	VG	|vara..vb.1|vara..vb.2|
+32	ledig	|ledig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	31	SP	|ledig..av.1|
+33	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Föräldraskap
+# subsubforum_id = Föräldraskap
+# thread_id = 50616034
+# thread_title = Föräldradagar, hur ska vi göra?
+# post_id = 50627053
+# post_date = 2010-02-09 08:41:59
+# username = soso
+# sent_id = 40745fe73
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	tror	|tro|	VB	_	VB.PRS.AKT	17	MS	|tro..vb.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+4	skulle	|skola|	VB	_	VB.PRT.AKT	9	MS	|skola..vb.2|
+5	tagit	|ta|	VB	_	VB.SUP.AKT	4	VG	|ta..vb.1|
+6	en	|en|	DT	_	DT.UTR.SIN.IND	8	DT	|en..al.1|
+7	tidigare	|tidig|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	8	AT	|tidig..av.1|
+8	förskolestart	|förskolestart|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|
+9	och	|och|	KN	_	KN	17	MS	|och..kn.1|
+10	haft	|ha|	VB	_	VB.SUP.AKT	9	+F	|ha..vb.1|
+11	mer	|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	12	DT	|
+12	marginal	|marginal|	NN	_	NN.UTR.SIN.IND.NOM	10	OO	|marginal..nn.1|
+13	i	|i|	PP	_	PP	10	AA	|i..pp.1|
+14	ledighet	|ledighet|	NN	_	NN.UTR.SIN.IND.NOM	13	PA	|ledighet..nn.1|
+15	framöver	|framöver|	AB	_	AB	10	TA	|framöver..ab.1|
+16	...	|	MID	_	MID	17	IK	|
+17	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+18	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	19	SS	|den..pn.1|
+19	är	|vara|	VB	_	VB.PRS.AKT	17	MS	|vara..vb.1|
+20	inte	|inte|	AB	_	AB	19	NA	|inte..ab.1|
+21	helt	|hel|helt|	AB	_	AB.POS	22	AA	|hel..av.1|helt..ab.1|
+22	självklart	|självklar|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	19	SP	|självklar..av.1|
+23	.	|	MAD	_	MAD	17	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da5249c8
+1	Nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	13	MS	|vara..vb.1|
+3	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+4	gifta	|gift|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	2	SP	|gift..av.1|
+5	och	|och|	KN	_	KN	13	MS	|och..kn.1|
+6	har	|ha|	VB	_	VB.PRS.AKT	5	+F	|ha..vb.1|
+7	hus	|hus|	NN	_	NN.NEU.PLU.IND.NOM	6	OO	|hus..nn.1|
+8	,	|	MID	_	MID	2	IK	|
+9	men	|men|	KN	_	KN	13	MS	|men..kn.1|
+10	som	|	KN	_	KN	9	CJ	|
+11	sambos	|sambo|	NN	_	NN.UTR.SIN.IND.GEN	10	UA	|sambo..nn.1|sambo..nn.2|
+12	,	|	MID	_	MID	13	IK	|
+13	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+14	även	|även|	AB	_	AB	17	+A	|även..ab.1|
+15	än	|än|än så länge|	AB	_	AB	17	+A	|än..ab.1|än_så_länge..abm.1|
+16	så	|så|än så länge:15|så länge|	AB	_	AB	17	AA	|så..ab.1|än_så_länge..abm.1:15|så_länge..abm.1|
+17	länge	|länge|än så länge:15|så länge:16|	AB	_	AB.POS	13	+F	|länge..ab.1|än_så_länge..abm.1:15|så_länge..abm.1:16|
+18	i	|i|	PP	_	PP	17	RA	|i..pp.1|
+19	huset	|hus|	NN	_	NN.NEU.SIN.DEF.NOM	18	PA	|hus..nn.1|
+20	(	|	PAD	_	PAD	13	IR	|
+21	precis	|precis|	AB	_	AB	22	TA	|precis..ab.1|
+22	flyttat	|flytta|	VB	_	VB.SUP.AKT	13	MS	|flytta..vb.1|
+23	in	|in|	PL	_	PL	22	PL	|in..ab.1|
+24	)	|	PAD	_	PAD	13	JR	|
+25	så	|så|	AB	_	AB	26	DB	|så..ab.1|
+26	har	|ha|	VB	_	VB.PRS.AKT	13	MS	|ha..vb.1|
+27	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	26	SS	|vi..pn.1|
+28	löst	|lösa|	VB	_	VB.SUP.AKT	26	VG	|lösa..vb.1|
+29	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	28	OO	|den..pn.1|
+30	på	|på|	PP	_	PP	28	AA	|på..pp.1|
+31	följande	|följa|följande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	32	DT	|följa..vb.1|följande..av.1|
+32	sätt	|sätt|	NN	_	NN.NEU.SIN.IND.NOM	30	PA	|sätt..nn.1|
+33	.	|	MAD	_	MAD	26	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da525bdc
+1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
+4	gemensamt	|gemensam|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	AT	|gemensam..av.1|
+5	konto	|konto|	NN	_	NN.NEU.SIN.IND.NOM	2	OO	|konto..nn.1|
+6	,	|	MID	_	MID	5	IK	|
+7	med	|med|	PP	_	PP	5	ET	|med..pp.1|
+8	två	|två|	RG	_	RG.NOM	10	DT	|två..nl.1|
+9	kort	|kort|	AB	_	AB	10	AA	|kort..ab.1|kort..av.1|
+10	kopplade	|koppla|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	7	PA	|koppla..vb.1|
+11	till	|till|	PP	_	PP	10	OA	|till..pp.1|
+12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	PA	|den..pn.1|
+13	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da529152
+1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+2	sätter	|sätta|sätta in|	VB	_	VB.PRS.AKT	0	ROOT	|sätta..vb.1|sätta_in..vbm.1|sätta_in..vbm.2|
+3	in	|in|sätta in:2|	PL	_	PL	2	PL	|in..ab.1|sätta_in..vbm.1:2|sätta_in..vbm.2:2|
+4	X	|X|	RG	_	RG.NOM	5	DT	|X..nl.1|
+5	%	|%|	NN	_	NN.AN	2	OO	|proc..nna.2|
+6	av	|av|	PP	_	PP	5	ET	|av..pp.1|
+7	lönen	|lön|	NN	_	NN.UTR.SIN.DEF.NOM	6	PA	|lön..nn.1|
+8	på	|på|	PP	_	PP	7	ET	|på..pp.1|
+9	det	|den|en|	DT	_	DT.NEU.SIN.DEF	10	DT	|den..pn.1|en..al.1|
+10	kontot	|konto|	NN	_	NN.NEU.SIN.DEF.NOM	8	PA	|konto..nn.1|
+11	(	|	PAD	_	PAD	2	IR	|
+12	beräknat	|beräknad|	PC	_	PC.PRF.NEU.SIN.IND.NOM	10	PT	|beräknad..av.1|
+13	att	|att|	IE	_	IE	12	OA	|att..sn.1|
+14	täcka	|täcka|	VB	_	VB.INF.AKT	13	IF	|täcka..vb.1|
+15	hyror	|hyra|	NN	_	NN.UTR.PLU.IND.NOM	20	CJ	|hyra..nn.1|
+16	,	|	MID	_	MID	23	IK	|
+17	räkningar	|räkning|	NN	_	NN.UTR.PLU.IND.NOM	20	CJ	|räkning..nn.1|
+18	,	|	MID	_	MID	20	IK	|
+19	mat	|mat|	NN	_	NN.UTR.SIN.IND.NOM	20	CJ	|mat..nn.1|mat..nn.2|
+20	och	|och|	KN	_	KN	14	OO	|och..kn.1|
+21	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	22	DT	|annan..pn.1|
+22	gemensamt	|gemensam|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	23	CJ	|gemensam..av.1|
+23	samt	|samt|	KN	_	KN	14	OO	|samt..kn.1|
+24	visst	|viss|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	25	DT	|viss..av.1|
+25	sparande	|sparande|	NN	_	NN.NEU.SIN.IND.NOM	23	CJ	|sparande..nn.1|
+26	)	|	PAD	_	PAD	2	JR	|
+27	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da52a6db
+1	Resten	|rest|	NN	_	NN.UTR.SIN.DEF.NOM	2	OO	|rest..nn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+4	som	|	KN	_	KN	2	KA	|
+5	"	|	PAD	_	PAD	6	IC	|
+6	egna	|egen|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	8	DT	|egen..av.1|
+7	"	|	PAD	_	PAD	8	JC	|
+8	pengar	|peng|pengar|	NN	_	NN.UTR.PLU.IND.NOM	4	UA	|peng..nn.1|pengar..nn.1|
+9	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da52c61b
+1	Skulle	|skola|	VB	_	VB.PRT.AKT	8	AA	|skola..vb.2|
+2	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	4	DT	|en..al.1|
+3	gemensamma	|gemensam|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	4	AT	|gemensam..av.1|
+4	pengarna	|peng|pengar|	NN	_	NN.UTR.PLU.DEF.NOM	1	SS	|peng..nn.1|pengar..nn.1|
+5	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
+6	räcka	|räcka|	VB	_	VB.INF.AKT	1	VG	|räcka..vb.1|räcka..vb.2|
+7	så	|så|	AB	_	AB	8	DB	|så..ab.1|
+8	pytsar	|pytsa|	VB	_	VB.PRS.AKT	13	MS	|pytsa..vb.1|
+9	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	8	SS	|vi..pn.1|
+10	in	|in|	PL	_	PL	8	PL	|in..ab.1|
+11	mer	|mer|mycket|	AB	_	AB.KOM	8	AA	|mer..ab.1|mycket..ab.1|
+12	,	|	MID	_	MID	13	IK	|
+13	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
+14	i	|i|i praktiken|	PP	_	PP	16	AA	|i..pp.1|i_praktiken..abm.1|
+15	praktiken	|praktik|i praktiken:14|	NN	_	NN.UTR.SIN.DEF.NOM	14	PA	|praktik..nn.1|i_praktiken..abm.1:14|
+16	är	|vara|	VB	_	VB.PRS.AKT	13	MS	|vara..vb.1|
+17	alla	|all|	DT	_	DT.UTR+NEU.PLU.IND+DEF	18	DT	|all..pn.1|
+18	pengar	|peng|pengar|	NN	_	NN.UTR.PLU.IND.NOM	16	SS	|peng..nn.1|pengar..nn.1|
+19	våra	|vi|	PS	_	PS.UTR+NEU.PLU.DEF	20	DT	|vi..pn.1|
+20	pengar	|peng|pengar|	NN	_	NN.UTR.PLU.IND.NOM	16	SP	|peng..nn.1|pengar..nn.1|
+21	om	|om|	SN	_	SN	16	AA	|om..sn.1|
+22	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	23	SS	|den..pn.1|
+23	behövs	|behöva|behövas|	VB	_	VB.PRS.SFO	21	UA	|behöva..vb.1|behövas..vb.1|
+24	:	|	MID	_	MID	16	IQ	|
+25	)	|	PAD	_	PAD	13	JR	|
+26	.	|	MAD	_	MAD	13	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da5263bf
+1	Nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
+2	tjänar	|tjäna|	VB	_	VB.PRS.AKT	0	ROOT	|tjäna..vb.1|
+3	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+4	rätt	|rätt|	AB	_	AB	5	AA	|rätt..ab.1|rätt..av.1|
+5	lika	|lika|	AB	_	AB	2	AA	|lika..ab.1|
+6	så	|så|	KN	_	KN	2	AA	|så..kn.1|
+7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	SS	|den..pn.1|
+8	är	|vara|	VB	_	VB.PRS.AKT	2	MS	|vara..vb.1|
+9	ungefär	|ungefär|	AB	_	AB	10	AA	|ungefär..ab.1|
+10	samma	|samma|	DT	_	DT.UTR+NEU.SIN+PLU.IND	11	DT	|samma..pn.1|
+11	summor	|summa|	NN	_	NN.UTR.PLU.IND.NOM	8	SP	|summa..nn.1|
+12	för	|för|	PP	_	PP	8	OA	|för..pp.1|
+13	båda	|båda|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	12	PA	|båda..pn.1|
+14	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da528b58
+1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	i	|i|	PP	_	PP	5	TA	|i..pp.1|
+3	perioder	|period|	NN	_	NN.UTR.PLU.IND.NOM	2	PA	|period..nn.1|
+4	så	|så|	AB	_	AB	5	DB	|så..ab.1|
+5	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
+6	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	5	SS	|den..pn.1|
+7	som	|	HP	_	HP.-.-.-	8	SS	|
+8	tjänat	|tjäna|	VB	_	VB.SUP.AKT	6	ET	|tjäna..vb.1|
+9	mer	|mer|mycket|	AB	_	AB.KOM	8	AA	|mer..ab.1|mycket..ab.1|
+10	betalat	|betala|	VB	_	VB.SUP.AKT	8	OO	|betala..vb.1|
+11	mer	|mer|mycket|	AB	_	AB.KOM	10	AA	|mer..ab.1|mycket..ab.1|
+12	...	|	MAD	_	MAD	5	IG	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da520678
+1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+2	tycker	|tycka|	VB	_	VB.PRS.AKT	0	ROOT	|tycka..vb.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	FS	|den..pn.1|
+4	är	|vara|	VB	_	VB.PRS.AKT	2	OO	|vara..vb.1|
+5	viktigt	|viktig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	SP	|viktig..av.1|
+6	att	|att|	SN	_	SN	4	ES	|att..sn.1|
+7	båda	|båda|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	8	SS	|båda..pn.1|
+8	har	|ha|ha kvar|	VB	_	VB.PRS.AKT	6	UA	|ha..vb.1|ha_kvar..vbm.1|
+9	en	|en|	DT	_	DT.UTR.SIN.IND	11	DT	|en..al.1|
+10	egen	|egen|	JJ	_	JJ.POS.UTR.SIN.IND+DEF.NOM	11	DT	|egen..av.1|
+11	summa	|summa|	NN	_	NN.UTR.SIN.IND.NOM	12	DT	|summa..nn.1|
+12	pengar	|peng|pengar|	NN	_	NN.UTR.PLU.IND.NOM	8	OO	|peng..nn.1|pengar..nn.1|
+13	kvar	|kvar|ha kvar:8|	AB	_	AB	8	RA	|kvar..ab.1|ha_kvar..vbm.1:8|
+14	,	|	MID	_	MID	8	IK	|
+15	så	|så|	AB	_	AB	8	AA	|så..ab.1|
+16	att	|att|	SN	_	SN	15	HD	|att..sn.1|
+17	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	19	SS	|man..pn.1|
+18	inte	|inte|	AB	_	AB	19	NA	|inte..ab.1|
+19	upplever	|uppleva|	VB	_	VB.PRS.AKT	15	UA	|uppleva..vb.1|
+20	sig	|sig|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	19	IO	|sig..pn.1|
+21	att	|att|	SN	_	SN	19	OO	|att..sn.1|
+22	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	23	SS	|man..pn.1|
+23	hamnar	|hamna|	VB	_	VB.PRS.AKT	21	UA	|hamna..vb.1|
+24	i	|i|	PP	_	PP	23	RA	|i..pp.1|
+25	en	|en|	DT	_	DT.UTR.SIN.IND	26	DT	|en..al.1|
+26	beroendeställning	|beroendeställning|	NN	_	NN.UTR.SIN.IND.NOM	24	PA	|beroendeställning..nn.1|
+27	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da52b65a
+1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+2	vänner	|vän|	NN	_	NN.UTR.PLU.IND.NOM	1	SS	|vän..nn.1|
+3	som	|	HP	_	HP.-.-.-	4	SS	|
+4	har	|ha|	VB	_	VB.PRS.AKT	2	ET	|ha..vb.1|
+5	helt	|hel|helt|	AB	_	AB.POS	6	AA	|hel..av.1|helt..ab.1|
+6	gemensam	|gemensam|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	7	AT	|gemensam..av.1|
+7	ekonomi	|ekonomi|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|ekonomi..nn.1|
+8	,	|	MID	_	MID	7	IK	|
+9	där	|där|	HA	_	HA	11	RA	|där..ab.1|
+10	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|han..pn.1|
+11	tjänar	|tjäna|	VB	_	VB.PRS.AKT	15	MS	|tjäna..vb.1|
+12	rätt	|rätt|	AB	_	AB	13	AA	|rätt..ab.1|rätt..av.1|
+13	mycket	|mycket|	AB	_	AB.POS	14	AA	|mycket..ab.1|
+14	mer	|mer|mycket|	AB	_	AB.KOM	11	AA	|mer..ab.1|mycket..ab.1|
+15	och	|och|	KN	_	KN	2	ET	|och..kn.1|
+16	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	17	SS	|hon..pn.1|
+17	har	|ha|	VB	_	VB.PRS.AKT	15	+F	|ha..vb.1|
+18	svårt	|svår|	AB	_	AB.POS	17	OO	|svår..av.1|
+19	att	|att|	IE	_	IE	17	OA	|att..sn.1|
+20	köpa	|köpa|	VB	_	VB.INF.AKT	19	IF	|köpa..vb.1|köpa..vb.2|
+21	något	|någon|	DT	_	DT.NEU.SIN.IND	23	DT	|någon..pn.1|
+22	"	|	PAD	_	PAD	23	IC	|
+23	eget	|egen|	JJ	_	JJ.POS.NEU.SIN.IND+DEF.NOM	20	OO	|egen..av.1|
+24	"	|	PAD	_	PAD	20	JR	|
+25	utan	|utan|	PP	_	PP	20	AA	|utan..pp.1|
+26	att	|att|	IE	_	IE	25	PA	|att..sn.1|
+27	ha	|ha|	VB	_	VB.INF.AKT	26	IF	|ha..vb.1|
+28	kollat	|kolla|	VB	_	VB.SUP.AKT	27	VG	|kolla..vb.1|kolla..vb.2|
+29	av	|av|	PL	_	PL	28	PL	|av..ab.1|
+30	med	|med|	PP	_	PP	28	OA	|med..pp.1|
+31	honom	|han|	PN	_	PN.UTR.SIN.DEF.OBJ	30	PA	|han..pn.1|
+32	först	|först|	AB	_	AB	28	CA	|först..ab.1|
+33	(	|	PAD	_	PAD	28	IR	|
+34	vilket	|	HP	_	HP.NEU.SIN.IND	40	SS	|
+35	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	38	SS	|han..pn.1|
+36	då	|då|	AB	_	AB	38	TA	|då..ab.1|då..ab.2|
+37	inte	|inte|	AB	_	AB	38	NA	|inte..ab.1|
+38	tycker	|tycka|	VB	_	VB.PRS.AKT	43	MS	|tycka..vb.1|
+39	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	38	OO	|hon..pn.1|
+40	behöver	|behöva|	VB	_	VB.PRS.AKT	43	MS	|behöva..vb.1|
+41	alls	|alls|	AB	_	AB	40	AA	|alls..ab.1|
+42	...	|	MID	_	MID	40	VG	|
+43	men	|men|	KN	_	KN	2	ET	|men..kn.1|
+44	skulle	|skola|	VB	_	VB.PRT.AKT	43	+F	|skola..vb.2|
+45	vara	|vara|	VB	_	VB.INF.AKT	44	VG	|vara..vb.1|vara..vb.2|
+46	jobbigt	|jobbig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	45	SP	|jobbig..av.1|
+47	att	|att|	IE	_	IE	45	OA	|att..sn.1|
+48	känna	|känna|	VB	_	VB.INF.AKT	47	IF	|känna..vb.1|känna..vb.2|
+49	att	|att|	SN	_	SN	48	OO	|att..sn.1|
+50	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	51	SS	|jag..pn.1|
+51	behöver	|behöva|	VB	_	VB.PRS.AKT	49	UA	|behöva..vb.1|
+52	kolla	|kolla|	VB	_	VB.INF.AKT	51	VG	|kolla..vb.1|kolla..vb.2|
+53	av	|av|	PL	_	PL	52	PL	|av..ab.1|
+54	om	|om|	SN	_	SN	52	AA	|om..sn.1|
+55	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	56	FS	|den..pn.1|
+56	är	|vara|	VB	_	VB.PRS.AKT	54	UA	|vara..vb.1|
+57	ok	|ok|	NN	_	NN.NEU.SIN.IND.NOM	56	SP	|ok..nn.1|
+58	att	|att|	SN	_	SN	56	ES	|att..sn.1|
+59	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	60	SS	|jag..pn.1|
+60	köper	|köpa|	VB	_	VB.PRS.AKT	58	UA	|köpa..vb.1|köpa..vb.2|
+61	en	|en|	DT	_	DT.UTR.SIN.IND	63	DT	|en..al.1|
+62	ny	|ny|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	63	AT	|ny..av.1|
+63	tröja	|tröja|	NN	_	NN.UTR.SIN.IND.NOM	60	OO	|tröja..nn.1|
+64	eller	|eller|	KN	_	KN	60	OO	|eller..kn.1|
+65	vad	|vad|	HP	_	HP.NEU.SIN.IND	67	SP	|vad..pn.1|
+66	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	67	SS	|den..pn.1|
+67	är	|vara|	VB	_	VB.PRS.AKT	64	CJ	|vara..vb.1|
+68	...	|	MAD	_	MAD	65	HD	|
+69	)	|	PAD	_	PAD	65	HD	|
+70	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Ekonomi
+# subsubforum_id = Ekonomi
+# thread_id = 9611545
+# thread_title = delad ekonomi eller ej?
+# post_id = 9612410
+# post_date = 2006-05-24 14:07:11
+# username = soso
+# sent_id = da523bc9
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
+2	finns	|finna|finnas|	VB	_	VB.PRS.SFO	0	ROOT	|finna..vb.1|finnas..vb.1|
+3	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	4	DT	|
+4	sätt	|sätt|	NN	_	NN.NEU.PLU.IND.NOM	2	ES	|sätt..nn.1|
+5	,	|	MID	_	MID	4	IK	|
+6	lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	4	AN	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+7	till	|till|lycka till:6|	PP	_	PP	6	OA	|till..pp.1|lycka_till..inm.1:6|
+8	!	|	MAD	_	MAD	2	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 22756255
+# thread_title = Gravtest i Karlshamn-Snabbt svar SNÄLLA
+# post_id = 22760017
+# post_date = 2007-07-13 14:03:10
+# username = soso
+# sent_id = 7ce159ed8
+1	Typ	|typ|	NN	_	NN.UTR.SIN.IND.NOM	2	DT	|typ..nn.1|
+2	pressbyrån	|pressbyrå|	NN	_	NN.UTR.SIN.DEF.NOM	3	SS	|pressbyrå..nn.1|
+3	brukar	|bruka|	VB	_	VB.PRS.AKT	0	ROOT	|bruka..vb.1|
+4	ha	|ha|	VB	_	VB.INF.AKT	3	OO	|ha..vb.1|
+5	,	|	MID	_	MID	3	IK	|
+6	finns	|finna|finnas|	VB	_	VB.PRS.SFO	3	MS	|finna..vb.1|finnas..vb.1|
+7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	FS	|den..pn.1|
+8	i	|i|	PP	_	PP	6	RA	|i..pp.1|
+9	Karlshamn	|Karlshamn|	PM	_	PM.NOM	8	PA	|Karlshamn..pm.1|
+10	?	|	MAD	_	MAD	6	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 22756255
+# thread_title = Gravtest i Karlshamn-Snabbt svar SNÄLLA
+# post_id = 22760017
+# post_date = 2007-07-13 14:03:10
+# username = soso
+# sent_id = 7ce160a65
+1	Kanske	|kanske|	AB	_	AB	5	MA	|kanske..ab.1|
+2	en	|en|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|
+3	välsorterad	|välsorterad|	PC	_	PC.PRF.UTR.SIN.IND.NOM	5	AT	|välsorterad..av.1|
+4	beninmack	|beninmack|	NN	_	NN.UTR.SIN.IND.NOM	5	CJ	|
+5	/	|	MID	_	MID	7	HD	|
+6	kiosk	|kiosk|	NN	_	NN.UTR.SIN.IND.NOM	5	CJ	|kiosk..nn.1|
+7	.	|	MAD	_	MAD	0	ROOT	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 22756255
+# thread_title = Gravtest i Karlshamn-Snabbt svar SNÄLLA
+# post_id = 22760017
+# post_date = 2007-07-13 14:03:10
+# username = soso
+# sent_id = 7ce1c7603
+1	Hjälper	|hjälpa|	VB	_	VB.PRS.AKT	0	ROOT	|hjälpa..vb.1|
+2	ju	|ju|ju ju|	AB	_	AB	1	MA	|ju..ab.1|ju_ju..knm.1|
+3	knappast	|knapp|knappast|	AB	_	AB.SUV	1	NA	|knapp..av.1|knappast..ab.1|
+4	att	|att|	IE	_	IE	1	OA	|att..sn.1|
+5	åka	|åka|	VB	_	VB.INF.AKT	4	IF	|åka..vb.1|
+6	till	|till|	PP	_	PP	5	RA	|till..pp.1|
+7	Ronneby	|Ronneby|	PM	_	PM.NOM	6	PA	|Ronneby..pm.1|
+8	,	|	MID	_	MID	1	IK	|
+9	ännu	|ännu|	AB	_	AB	10	AA	|ännu..ab.1|
+10	mindre	|föga|lite|liten|	AB	_	AB.KOM	11	AA	|föga..ab.1|lite..ab.1|liten..av.1|
+11	ju	|ju|ju ju:2|	AB	_	AB	1	MA	|ju..ab.1|ju_ju..knm.1:2|
+12	:	|	MID	_	MID	11	IQ	|
+13	)	|	PAD	_	PAD	1	JR	|
+14	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 14855529
+# thread_title = ni gravida trots mens
+# post_id = 14855644
+# post_date = 2006-11-29 14:33:32
+# username = soso
+# sent_id = 98ac9e362
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	märkte	|märka|	VB	_	VB.PRT.AKT	0	ROOT	|märka..vb.1|
+3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
+4	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	5	SS	|någon..pn.1|
+5	var	|vara|	VB	_	VB.PRT.AKT	3	UA	|vara..vb.1|
+6	skumt	|skum|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	SP	|skum..av.1|
+7	när	|när|	HA	_	HA	9	TA	|när..ab.1|
+8	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|jag..pn.1|
+9	fick	|få|	VB	_	VB.PRT.AKT	5	TA	|få..vb.1|
+10	utslag	|utslag|	NN	_	NN.NEU.SIN.IND.NOM	9	OO	|utslag..nn.1|
+11	på	|på|	PP	_	PP	9	OA	|på..pp.1|
+12	äl-testen	|	NN	_	NN.UTR.SIN.DEF.NOM	11	PA	|
+13	"	|	PAD	_	PAD	9	IR	|
+14	för	|för|för tidig|	AB	_	AB	15	AA	|för..ab.1|för_tidig..avm.1|
+15	tidigt	|tidig|för tidig:14|	AB	_	AB.POS	17	CJ	|tidig..av.1|för_tidig..avm.1:14|
+16	"	|	PAD	_	PAD	15	JR	|
+17	och	|och|	KN	_	KN	9	RA	|och..kn.1|
+18	utan	|utan|	PP	_	PP	17	CJ	|utan..pp.1|
+19	äl-sekret	|	NN	_	NN.NEU.SIN.IND.NOM	18	PA	|
+20	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 14855529
+# thread_title = ni gravida trots mens
+# post_id = 14855644
+# post_date = 2006-11-29 14:33:32
+# username = soso
+# sent_id = 98ac036d5
+1	Testade	|testa|	VB	_	VB.PRT.AKT	0	ROOT	|testa..vb.1|
+2	då	|då|	AB	_	AB	1	AA	|då..ab.1|då..ab.2|
+3	med	|med|	PP	_	PP	1	OA	|med..pp.1|
+4	grav-test	|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	5	AT	|
+5	dagen	|dag|dagen efter|	NN	_	NN.UTR.SIN.DEF.NOM	3	PA	|dag..nn.1|dagen_efter..abm.1|
+6	efter	|efter|dagen efter:5|	PP	_	PP	1	OA	|efter..pp.1|dagen_efter..abm.1:5|
+7	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 14855529
+# thread_title = ni gravida trots mens
+# post_id = 14855644
+# post_date = 2006-11-29 14:33:32
+# username = soso
+# sent_id = 98acee76c
+1	Började	|börja|	VB	_	VB.PRT.AKT	0	ROOT	|börja..vb.1|börja..vb.2|
+2	dock	|dock|	AB	_	AB	1	+A	|dock..ab.1|
+3	blöda	|blöda|	VB	_	VB.INF.AKT	1	OO	|blöda..vb.1|
+4	samma	|samma|	DT	_	DT.UTR+NEU.SIN+PLU.IND	5	DT	|samma..pn.1|
+5	dag	|dag|	NN	_	NN.UTR.SIN.IND.NOM	3	TA	|dag..nn.1|
+6	som	|	HP	_	HP.-.-.-	8	OO	|
+7	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
+8	testade	|testa|	VB	_	VB.PRT.AKT	9	MS	|testa..vb.1|
+9	och	|och|	KN	_	KN	5	ET	|och..kn.1|
+10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	SS	|den..pn.1|
+11	slutade	|sluta|	VB	_	VB.PRT.AKT	9	MS	|sluta..vb.1|sluta..vb.2|
+12	med	|med|	PP	_	PP	11	OA	|med..pp.1|
+13	missfall	|missfall|	NN	_	NN.NEU.SIN.IND.NOM	12	PA	|missfall..nn.1|
+14	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 14855529
+# thread_title = ni gravida trots mens
+# post_id = 14855644
+# post_date = 2006-11-29 14:33:32
+# username = soso
+# sent_id = 98acee493
+1	Hade	|ha|	VB	_	VB.PRT.AKT	19	MS	|ha..vb.1|
+2	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	3	DT	|ingen..pn.1|
+3	anledning	|anledning|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|anledning..nn.1|
+4	att	|att|	IE	_	IE	3	ET	|att..sn.1|
+5	misstänka	|misstänka|	VB	_	VB.INF.AKT	4	IF	|misstänka..vb.1|
+6	graviditet	|graviditet|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|graviditet..nn.1|
+7	annars	|annars|	AB	_	AB	5	AA	|annars..ab.1|
+8	,	|	MID	_	MID	1	IK	|
+9	mensen	|mens|	NN	_	NN.UTR.SIN.DEF.NOM	10	SS	|mens..nn.1|
+10	kom	|komma|	VB	_	VB.PRT.AKT	19	MS	|komma..vb.1|
+11	,	|	MID	_	MID	10	IK	|
+12	något	|någon|	DT	_	DT.NEU.SIN.IND	14	DT	|någon..pn.1|
+13	sen	|sen|	AB	_	AB	10	TA	|sen..ab.1|
+14	och	|och|	KN	_	KN	10	VG	|och..kn.1|
+15	mer	|mer|mycket|	AB	_	AB.KOM	16	AA	|mer..ab.1|mycket..ab.1|
+16	sparsam	|sparsam|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	14	CJ	|sparsam..av.1|
+17	än	|	KN	_	KN	10	KA	|
+18	vanligt	|vanlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	17	UA	|vanlig..av.1|
+19	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+20	ändå	|ändå|	AB	_	AB	21	+A	|ändå..ab.1|
+21	så	|så|	KN	_	KN	19	+F	|så..kn.1|
+22	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	23	SS	|jag..pn.1|
+23	trodde	|tro|	VB	_	VB.PRT.AKT	21	UA	|tro..vb.1|
+24	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	23	OO	|den..pn.1|
+25	var	|vara|	VB	_	VB.PRT.AKT	23	OO	|vara..vb.1|
+26	kört	|köra|körd|	PC	_	PC.PRF.NEU.SIN.IND.NOM	25	SP	|köra..vb.1|körd..av.1|
+27	...	|	MAD	_	MAD	19	IG	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b440b1dd
+1	Är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+2	i	|i|	PP	_	PP	1	AA	|i..pp.1|
+3	snarlik	|snarlik|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	4	AT	|snarlik..av.1|
+4	situation	|situation|	NN	_	NN.UTR.SIN.IND.NOM	2	PA	|situation..nn.1|
+5	som	|	KN	_	KN	1	SP	|
+6	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	5	UA	|du..pn.1|
+7	!	|	MAD	_	MAD	1	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b442cfa3
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	haft	|ha|	VB	_	VB.SUP.AKT	2	VG	|ha..vb.1|
+4	tre	|tre|	RG	_	RG.NOM	6	DT	|tre..nl.1|
+5	tidiga	|tidig|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	6	AT	|tidig..av.1|
+6	missfall	|missfall|	NN	_	NN.NEU.PLU.IND.NOM	3	OO	|missfall..nn.1|
+7	från	|från|	PP	_	PP	3	TA	|från..pp.1|
+8	januari	|januari|	NN	_	NN.UTR.SIN.IND.NOM	7	PA	|januari..nn.1|
+9	2006	|	RG	_	RG.NOM	8	ET	|
+10	(	|	PAD	_	PAD	2	IR	|
+11	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	12	SS	|vi..pn.1|
+12	har	|ha|	VB	_	VB.PRS.AKT	2	MS	|ha..vb.1|
+13	försökt	|försöka|	VB	_	VB.SUP.AKT	12	VG	|försöka..vb.1|
+14	i	|i|	PP	_	PP	13	OA	|i..pp.1|
+15	ungefär	|ungefär|	AB	_	AB	16	AA	|ungefär..ab.1|
+16	1	|	RG	_	RG.NOM	17	DT	|
+17	1	|	RG	_	RG.NOM	14	PA	|
+18	/	|	MID	_	MID	20	DT	|
+19	2	|	RG	_	RG.NOM	20	DT	|
+20	år	|år|	NN	_	NN.NEU.SIN.IND.NOM	14	PA	|år..nn.1|
+21	)	|	PAD	_	PAD	13	JR	|
+22	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b44694ae
+1	Plussade	|plussa|	VB	_	VB.PRT.AKT	4	MS	|plussa..vb.1|
+2	förra	|förra|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	3	DT	|förra..av.1|
+3	veckan	|vecka|	NN	_	NN.UTR.SIN.DEF.NOM	1	TA	|vecka..nn.1|
+4	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+5	är	|vara|	VB	_	VB.PRS.AKT	4	+F	|vara..vb.1|
+6	nu	|nu|	AB	_	AB	5	TA	|nu..ab.1|
+7	inne	|inne|	AB	_	AB	5	RA	|inne..ab.1|
+8	på	|på|	PP	_	PP	7	RA	|på..pp.1|
+9	försök	|försök|	NN	_	NN.NEU.SIN.IND.NOM	8	PA	|försök..nn.1|
+10	fyra	|fyra|	RG	_	RG.NOM	9	ET	|fyra..nl.1|
+11	.	|	MAD	_	MAD	4	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b44a9cb1
+1	Är	|vara|	VB	_	VB.PRS.AKT	4	MS	|vara..vb.1|
+2	också	|också|	AB	_	AB	1	+A	|också..ab.1|
+3	orolig	|orolig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	1	SP	|orolig..av.1|
+4	och	|och|	KN	_	KN	6	++	|och..kn.1|
+5	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	4	+F	|hoppa..vb.1|hoppas..vb.1|
+6	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+7	vågar	|våga|	VB	_	VB.PRS.AKT	6	+F	|våga..vb.1|
+8	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
+9	riktigt	|riktig|	AB	_	AB	7	AA	|riktig..av.1|
+10	tro	|tro|	VB	_	VB.INF.AKT	7	OO	|tro..vb.1|
+11	att	|att|	SN	_	SN	10	OO	|att..sn.1|
+12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
+13	ska	|skola|	VB	_	VB.PRS.AKT	11	UA	|skola..vb.2|
+14	gå	|gå|gå vägen|	VB	_	VB.INF.AKT	13	VG	|gå..vb.1|gå_vägen..vbm.1|
+15	vägen	|väg|gå vägen:14|	NN	_	NN.UTR.SIN.DEF.NOM	14	OO	|väg..nn.1|gå_vägen..vbm.1:14|
+16	.	|	MAD	_	MAD	6	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b4420159
+1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+2	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
+3	berättat	|berätta|	VB	_	VB.SUP.AKT	1	VG	|berätta..vb.1|
+4	för	|för|	PP	_	PP	3	OA	|för..pp.1|
+5	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	4	PA	|någon..pn.1|
+6	(	|	PAD	_	PAD	5	IR	|
+7	utom	|	KN	_	KN	5	ET	|
+8	här	|här|	AB	_	AB	7	HD	|här..ab.1|
+9	på	|på|	PP	_	PP	5	AN	|på..pp.1|
+10	fm	|	NN	_	NN.AN	9	PA	|
+11	)	|	PAD	_	PAD	5	JR	|
+12	.	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b448bfaa
+1	Vill	|vilja|	VB	_	VB.PRS.AKT	0	ROOT	|vilja..vb.1|
+2	gärna	|gärna|	AB	_	AB.POS	1	MA	|gärna..ab.1|
+3	vänta	|vänta|	VB	_	VB.INF.AKT	1	VG	|vänta..vb.1|
+4	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
+5	tag	|tag|	NN	_	NN.NEU.SIN.IND.NOM	3	TA	|tag..nn.1|tag..nn.2|
+6	innan	|innan|	SN	_	SN	3	TA	|innan..sn.1|
+7	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	8	SS	|vi..pn.1|
+8	berättar	|berätta|	VB	_	VB.PRS.AKT	6	UA	|berätta..vb.1|
+9	.	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b4473d19
+1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+2	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|du..pn.1|
+3	fått	|få|	VB	_	VB.SUP.AKT	1	VG	|få..vb.1|
+4	någon	|någon|	DT	_	DT.UTR.SIN.IND	5	DT	|någon..pn.1|
+5	utredning	|utredning|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|utredning..nn.1|
+6	kring	|kring|	PP	_	PP	3	OA	|kring..pp.1|
+7	dina	|du|	PS	_	PS.UTR+NEU.PLU.DEF	8	DT	|du..pn.1|
+8	missfall	|missfall|	NN	_	NN.NEU.PLU.IND.NOM	6	PA	|missfall..nn.1|
+9	?	|	MAD	_	MAD	1	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b447bd5a
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	äter	|äta|	VB	_	VB.PRS.AKT	5	MS	|äta..vb.1|
+3	albyl	|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	4	AT	|
+4	minor	|mina|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|mina..nn.1|
+5	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+6	tar	|ta|	VB	_	VB.PRS.AKT	5	+F	|ta..vb.1|
+7	progesteron	|progesteron|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|progesteron..nn.1|
+8	vag	|vag|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	6	OP	|vag..av.1|
+9	denna	|denna|	DT	_	DT.UTR.SIN.DEF	10	DT	|denna..pn.1|
+10	graviditet	|graviditet|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|graviditet..nn.1|
+11	(	|	PAD	_	PAD	5	IR	|
+12	vår	|vi|	PS	_	PS.UTR.SIN.DEF	13	DT	|vi..pn.1|
+13	utredning	|utredning|	NN	_	NN.UTR.SIN.IND.NOM	14	SS	|utredning..nn.1|
+14	visar	|visa|	VB	_	VB.PRS.AKT	5	MS	|visa..vb.1|
+15	inget	|ingen|	DT	_	DT.NEU.SIN.IND	16	DT	|ingen..pn.1|
+16	fel	|fel|	NN	_	NN.NEU.SIN.IND.NOM	14	OO	|fel..nn.1|fel..nn.2|
+17	)	|	PAD	_	PAD	5	JR	|
+18	.	|	MAD	_	MAD	5	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b4498bbc
+1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+2	vet	|veta|veta om|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|veta_om..vbm.1|
+3	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
+4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+5	om	|om|veta om:2|	SN	_	SN	2	AA	|om..sn.1|veta_om..vbm.1:2|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
+7	hjälper	|hjälpa|	VB	_	VB.PRS.AKT	8	MS	|hjälpa..vb.1|
+8	men	|men|	KN	_	KN	5	UA	|men..kn.1|
+9	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	10	SS	|vi..pn.1|
+10	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	8	+F	|hoppa..vb.1|hoppas..vb.1|
+11	!	|	MAD	_	MAD	2	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b4494df3
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	9	MS	|ha..vb.1|
+3	kontakt	|kontakt|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|kontakt..nn.1|
+4	med	|med|	PP	_	PP	2	OA	|med..pp.1|
+5	en	|en|	DT	_	DT.UTR.SIN.IND	6	DT	|en..al.1|
+6	läkare	|läkare|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|läkare..nn.1|
+7	sen	|sen|	AB	_	AB	8	TA	|sen..ab.1|
+8	tidigare	|tidig|tidigare|	AB	_	AB.KOM	2	TA	|tidig..av.1|tidigare..ab.1|
+9	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+10	ska	|skola|	VB	_	VB.PRS.AKT	9	+F	|skola..vb.2|
+11	på	|på|	PP	_	PP	10	OA	|på..pp.1|
+12	VUL	|	PM	_	PM.NOM	11	PA	|
+13	efter	|efter|	PP	_	PP	10	TA	|efter..pp.1|
+14	påsk	|påsk|	NN	_	NN.UTR.SIN.IND.NOM	13	PA	|påsk..nn.1|
+15	.	|	MAD	_	MAD	9	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b44f675c
+1	Om	|om|	SN	_	SN	0	ROOT	|om..sn.1|
+2	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	3	SS	|all..pn.1|
+3	ser	|se|se ut|	VB	_	VB.PRS.AKT	1	UA	|se..vb.1|se_ut..vbm.1|
+4	bra	|bra|	AB	_	AB.POS	3	AA	|bra..ab.1|bra..ab.2|bra..av.1|
+5	ut	|ut|se ut:3|	PL	_	PL	3	PL	|ut..ab.1|se_ut..vbm.1:3|
+6	då	|då|	AB	_	AB	3	TA	|då..ab.1|då..ab.2|
+7	så	|så|	AB	_	AB	6	HD	|så..ab.1|
+8	kanske	|kanske|	AB	_	AB	10	MA	|kanske..ab.1|
+9	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	10	SS	|vi..pn.1|
+10	börjar	|börja|	VB	_	VB.PRS.AKT	12	MS	|börja..vb.1|börja..vb.2|
+11	berätta	|berätta|	VB	_	VB.INF.AKT	10	OO	|berätta..vb.1|
+12	och	|och|	KN	_	KN	1	UA	|och..kn.1|
+13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|jag..pn.1|
+14	kanske	|kanske|	AB	_	AB	15	MA	|kanske..ab.1|
+15	vågar	|våga|	VB	_	VB.PRS.AKT	12	CJ	|våga..vb.1|
+16	boka	|boka|	VB	_	VB.INF.AKT	15	OO	|boka..vb.1|
+17	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	16	OO	|tid..nn.1|
+18	.	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b44b91c7
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	kommer	|komma|	VB	_	VB.PRS.AKT	0	ROOT	|komma..vb.1|
+3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+4	att	|att|	IE	_	IE	2	VG	|att..sn.1|
+5	ringa	|ringa|	VB	_	VB.INF.AKT	4	IF	|ringa..vb.1|ringa..vb.2|ringa..vb.3|
+6	någon	|någon|	DT	_	DT.UTR.SIN.IND	7	DT	|någon..pn.1|
+7	BMS	|	PM	_	PM.NOM	5	OO	|
+8	än	|	KN	_	KN	7	ET	|
+9	på	|på|	PP	_	PP	8	UA	|på..pp.1|
+10	ett	|en|	DT	_	DT.NEU.SIN.IND	11	DT	|en..al.1|
+11	tag	|tag|	NN	_	NN.NEU.SIN.IND.NOM	9	PA	|tag..nn.1|tag..nn.2|
+12	!	|	MAD	_	MAD	2	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b442b8ae
+1	Rent	|ren|	AB	_	AB.POS	2	AA	|ren..av.1|
+2	faktamässigt	|faktamässig|	AB	_	AB.POS	4	AA	|faktamässig..av.1|
+3	så	|så|	AB	_	AB	4	DB	|så..ab.1|
+4	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+6	lugna	|lugna|lugna sig|	VB	_	VB.INF.AKT	4	VG	|lugna..vb.1|lugna_sig..vbm.1|
+7	dig	|du|lugna sig:6|	PN	_	PN.UTR.SIN.DEF.OBJ	6	OO	|du..pn.1|lugna_sig..vbm.1:6|
+8	med	|med|	PP	_	PP	6	OA	|med..pp.1|
+9	att	|att|	SN	_	SN	8	PA	|att..sn.1|
+10	missfall	|missfall|	NN	_	NN.NEU.SIN.IND.NOM	12	SS	|missfall..nn.1|
+11	inte	|inte|	AB	_	AB	12	NA	|inte..ab.1|
+12	beror	|bero|	VB	_	VB.PRS.AKT	9	UA	|bero..vb.1|
+13	på	|på|	PP	_	PP	12	OA	|på..pp.1|
+14	sex	|sex|	RG	_	RG.NOM	15	CJ	|sex..nl.1|
+15	,	|	MID	_	MID	13	PA	|
+16	träning	|träning|	NN	_	NN.UTR.SIN.IND.NOM	15	CJ	|träning..nn.1|
+17	,	|	MID	_	MID	15	IK	|
+18	stress	|stress|	NN	_	NN.UTR.SIN.IND.NOM	15	CJ	|stress..nn.1|
+19	osv	|osv|	AB	_	AB.AN	15	CJ	|osv..aba.1|
+20	,	|	MID	_	MID	12	IK	|
+21	utan	|utan|	KN	_	KN	9	UA	|utan..kn.1|
+22	går	|gå|	VB	_	VB.PRS.AKT	21	+F	|gå..vb.1|
+23	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	22	OO	|den..pn.1|
+24	snett	|sned|	AB	_	AB.POS	22	AA	|sned..av.1|
+25	så	|så|	AB	_	AB	26	DB	|så..ab.1|
+26	beror	|bero|	VB	_	VB.PRS.AKT	21	MS	|bero..vb.1|
+27	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	26	SS	|den..pn.1|
+28	på	|på|	PP	_	PP	26	OA	|på..pp.1|
+29	annat	|annan|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	28	PA	|annan..pn.1|
+30	(	|	PAD	_	PAD	26	IR	|
+31	i	|i|	PP	_	PP	26	TA	|i..pp.1|
+32	normalfallet	|normalfall|	NN	_	NN.NEU.SIN.DEF.NOM	31	PA	|
+33	)	|	PAD	_	PAD	26	JR	|
+34	.	|	MAD	_	MAD	4	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b44a3bff
+1	Nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
+2	spelar	|spela|spela roll|	VB	_	VB.PRS.AKT	9	MS	|spela..vb.1|spela..vb.2|spela_roll..vbm.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+4	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
+5	känslomässigt	|känslomässig|	AB	_	AB.POS	2	AA	|känslomässig..av.1|
+6	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+7	någon	|någon|	DT	_	DT.UTR.SIN.IND	8	DT	|någon..pn.1|
+8	roll	|roll|spela roll:2|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|roll..nn.1|roll..nn.2|spela_roll..vbm.1:2|
+9	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
+10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|jag..pn.1|
+11	vill	|vilja|	VB	_	VB.PRS.AKT	9	MS	|vilja..vb.1|
+12	också	|också|	AB	_	AB	11	+A	|också..ab.1|
+13	undvika	|undvika|	VB	_	VB.INF.AKT	11	VG	|undvika..vb.1|
+14	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	13	OO	|all..pn.1|
+15	som	|	HP	_	HP.-.-.-	16	SS	|
+16	kan	|kunna|	VB	_	VB.PRS.AKT	14	ET	|kunna..vb.1|
+17	tänkas	|tänka|	VB	_	VB.INF.SFO	16	VG	|tänka..vb.1|
+18	ha	|ha|	VB	_	VB.INF.AKT	17	VS	|ha..vb.1|
+19	minsta	|liten|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM	21	AT	|liten..av.1|
+20	lilla	|liten|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	21	AT	|liten..av.1|
+21	påverkan	|påverkan|	NN	_	NN.UTR.SIN.IND.NOM	18	OO	|påverkan..nn.1|
+22	...	|	MAD	_	MAD	9	IG	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19099487
+# post_date = 2007-04-02 13:35:06
+# username = soso
+# sent_id = 3b44cedf6
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	håller	|hålla|hålla tummarna|hålla sig|	VB	_	VB.PRS.AKT	0	ROOT	|hålla..vb.1|hålla_tummarna..vbm.1|hålla_sig..vbm.1|
+3	tummarna	|tumme|hålla tummarna:2|	NN	_	NN.UTR.PLU.DEF.NOM	2	OO	|tumme..nn.1|hålla_tummarna..vbm.1:2|
+4	för	|för|	PP	_	PP	2	OA	|för..pp.1|
+5	oss	|vi|hålla sig:2|	PN	_	PN.UTR.PLU.DEF.OBJ	4	PA	|vi..pn.1|hålla_sig..vbm.1:2|
+6	båda	|båda|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	5	PT	|båda..pn.1|
+7	att	|att|	SN	_	SN	2	OO	|att..sn.1|
+8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
+9	ska	|skola|	VB	_	VB.PRS.AKT	7	UA	|skola..vb.2|
+10	gå	|gå|gå bra|	VB	_	VB.INF.AKT	9	VG	|gå..vb.1|gå_bra..vbm.1|
+11	bra	|bra|gå bra:10|	AB	_	AB.POS	10	AA	|bra..ab.1|bra..ab.2|bra..av.1|gå_bra..vbm.1:10|
+12	den	|den|en|den här|	DT	_	DT.UTR.SIN.DEF	14	DT	|den..pn.1|en..al.1|den_här..pnm.1|
+13	här	|här|den här:12|	AB	_	AB	12	HD	|här..ab.1|den_här..pnm.1:12|
+14	gången	|gång|	NN	_	NN.UTR.SIN.DEF.NOM	10	TA	|gång..nn.1|gång..nn.2|gång..nn.3|
+15	!	|	MAD	_	MAD	2	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19132149
+# post_date = 2007-04-03 10:43:55
+# username = soso
+# sent_id = 3b44a09fb
+1	Anonym	|anonym|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	6	XF	|anonym..av.1|
+2	(	|	PAD	_	PAD	1	IR	|
+3	nervös	|nervös|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	1	PT	|nervös..av.1|nervös..av.2|
+4	)	|	PAD	_	PAD	3	JR	|
+5	-	|	MID	_	MID	6	IT	|
+6	vet	|veta|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|
+7	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|du..pn.1|
+8	varför	|varför|	HA	_	HA	10	AA	|varför..ab.1|
+9	barnmorskan	|barnmorska|	NN	_	NN.UTR.SIN.DEF.NOM	10	SS	|barnmorska..nn.1|
+10	gav	|ge|	VB	_	VB.PRT.AKT	6	OO	|ge..vb.1|
+11	det	|den|en|	DT	_	DT.NEU.SIN.DEF	12	DT	|den..pn.1|en..al.1|
+12	rådet	|råd|	NN	_	NN.NEU.SIN.DEF.NOM	10	OO	|råd..nn.1|råd..nn.2|
+13	?	|	MAD	_	MAD	6	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Graviditet
+# subsubforum_id = Graviditet
+# thread_id = 19080821
+# thread_title = Gravid efter tre missfall...............
+# post_id = 19132149
+# post_date = 2007-04-03 10:43:55
+# username = soso
+# sent_id = 3b4411cbd
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	10	MS	|ha..vb.1|
+3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+4	hört	|höra|	VB	_	VB.SUP.AKT	2	VG	|höra..vb.1|
+5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	OO	|den..pn.1|
+6	av	|av|	PP	_	PP	4	OA	|av..pp.1|
+7	någon	|någon|	DT	_	DT.UTR.SIN.IND	8	DT	|någon..pn.1|
+8	annan	|annan|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	6	PA	|annan..pn.1|
+9	,	|	MID	_	MID	10	IK	|
+10	så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
+11	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|jag..pn.1|
+12	blir	|bli|	VB	_	VB.PRS.AKT	10	MS	|bli..vb.1|
+13	nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	12	SP	|nyfiken..av.1|
+14	.	|	MAD	_	MAD	10	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400227bf
+1	Förstår	|förstå|	VB	_	VB.PRS.AKT	0	ROOT	|förstå..vb.1|
+2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
+3	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|du..pn.1|
+4	har	|ha|	VB	_	VB.PRS.AKT	2	UA	|ha..vb.1|
+5	mycket	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	6	DT	|
+6	frågor	|fråga|	NN	_	NN.UTR.PLU.IND.NOM	4	OO	|fråga..nn.1|
+7	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a40055885
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	6	MS	|ha..vb.1|
+3	läst	|läsa|	VB	_	VB.SUP.AKT	2	VG	|läsa..vb.1|
+4	en	|en|en del|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|en_del..pnm.1|
+5	del	|del|en del:4|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|del..nn.1|en_del..pnm.1:4|
+6	och	|och|	KN	_	KN	15	MS	|och..kn.1|
+7	även	|även|	AB	_	AB	8	+A	|även..ab.1|
+8	arbetat	|arbeta|	VB	_	VB.SUP.AKT	6	+F	|arbeta..vb.1|
+9	med	|med|	PP	_	PP	8	OA	|med..pp.1|
+10	ett	|en|	DT	_	DT.NEU.SIN.IND	11	DT	|en..al.1|
+11	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	9	PA	|barn..nn.1|
+12	med	|med|	PP	_	PP	11	ET	|med..pp.1|
+13	autism	|autism|	NN	_	NN.UTR.SIN.IND.NOM	12	PA	|autism..nn.1|
+14	,	|	MID	_	MID	8	IK	|
+15	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+16	har	|ha|	VB	_	VB.PRS.AKT	15	+F	|ha..vb.1|
+17	även	|även|	AB	_	AB	16	+A	|även..ab.1|
+18	idag	|idag|	AB	_	AB	16	TA	|idag..ab.1|
+19	kontakt	|kontakt|	NN	_	NN.UTR.SIN.IND.NOM	16	OO	|kontakt..nn.1|
+20	med	|med|	PP	_	PP	16	OA	|med..pp.1|
+21	barnets	|barn|	NN	_	NN.NEU.SIN.DEF.GEN	22	DT	|barn..nn.1|
+22	familj	|familj|	NN	_	NN.UTR.SIN.IND.NOM	20	PA	|familj..nn.1|
+23	.	|	MAD	_	MAD	15	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400a020c
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	9	MS	|vara..vb.1|
+3	absolut	|absolut|	AB	_	AB.POS	2	MA	|absolut..ab.1|absolut..av.1|
+4	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	5	DT	|ingen..pn.1|
+5	expert	|expert|	NN	_	NN.UTR.SIN.IND.NOM	2	SP	|expert..nn.1|
+6	på	|på|	PP	_	PP	2	AA	|på..pp.1|
+7	något	|någon|	DT	_	DT.NEU.SIN.IND	8	DT	|någon..pn.1|
+8	sätt	|sätt|	NN	_	NN.NEU.SIN.IND.NOM	6	PA	|sätt..nn.1|
+9	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+10	kanske	|kanske|	AB	_	AB	11	MA	|kanske..ab.1|
+11	kan	|kunna|	VB	_	VB.PRS.AKT	9	+F	|kunna..vb.1|
+12	svara	|svara|	VB	_	VB.INF.AKT	11	VG	|svara..vb.1|
+13	på	|på|	PP	_	PP	12	OA	|på..pp.1|
+14	någon	|någon|	DT	_	DT.UTR.SIN.IND	15	DT	|någon..pn.1|
+15	fråga	|fråga|	NN	_	NN.UTR.SIN.IND.NOM	13	PA	|fråga..nn.1|
+16	som	|	HP	_	HP.-.-.-	17	SS	|
+17	leder	|leda|	VB	_	VB.PRS.AKT	15	ET	|leda..vb.1|
+18	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	17	OO	|du..pn.1|
+19	vidare	|vid|vidare|	AB	_	AB.KOM	17	RA	|vid..av.1|vidare..ab.1|
+20	.	|	MAD	_	MAD	9	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400b067e
+1	Autism	|autism|	NN	_	NN.UTR.SIN.IND.NOM	2	SS	|autism..nn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	4	MS	|vara..vb.1|
+3	,	|	MID	_	MID	2	IK	|
+4	så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
+5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|jag..pn.1|
+6	förstått	|förstå|	VB	_	VB.SUP.AKT	4	MS	|förstå..vb.1|
+7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	OO	|den..pn.1|
+8	,	|	MID	_	MID	6	IK	|
+9	en	|en|	DT	_	DT.UTR.SIN.IND	11	DT	|en..al.1|
+10	medfödd	|medfödd|	PC	_	PC.PRF.UTR.SIN.IND.NOM	11	AT	|medfödd..av.1|
+11	hjärnskada	|hjärnskada|	NN	_	NN.UTR.SIN.IND.NOM	8	CJ	|hjärnskada..nn.1|
+12	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a40067618
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+3	inget	|ingen|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	2	XX	|ingen..pn.1|
+4	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|du..pn.1|
+5	har	|ha|	VB	_	VB.PRS.AKT	3	EF	|ha..vb.1|
+6	gjort	|göra|	VB	_	VB.SUP.AKT	5	VG	|göra..vb.1|
+7	som	|	HP	_	HP.-.-.-	8	SS	|
+8	har	|ha|	VB	_	VB.PRS.AKT	3	EF	|ha..vb.1|
+9	orsakat	|orsaka|	VB	_	VB.SUP.AKT	8	VG	|orsaka..vb.1|
+10	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	OO	|denna..pn.1|
+11	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400956f7
+1	Inget	|ingen|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	3	SS	|ingen..pn.1|
+2	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|du..pn.1|
+3	skulle	|skola|	VB	_	VB.PRT.AKT	0	ROOT	|skola..vb.2|
+4	kunna	|kunna|	VB	_	VB.INF.AKT	3	VG	|kunna..vb.1|
+5	ha	|ha|	VB	_	VB.INF.AKT	4	VG	|ha..vb.1|
+6	gjort	|göra|	VB	_	VB.SUP.AKT	5	VG	|göra..vb.1|
+7	för	|för|	PP	_	PP	6	AA	|för..pp.1|
+8	att	|att|	IE	_	IE	7	PA	|att..sn.1|
+9	hindra	|hindra|	VB	_	VB.INF.AKT	8	IF	|hindra..vb.1|
+10	att	|att|	SN	_	SN	9	OO	|att..sn.1|
+11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	SS	|den..pn.1|
+12	uppkom	|uppkomma|	VB	_	VB.PRT.AKT	10	UA	|uppkomma..vb.1|
+13	!	|	MAD	_	MAD	3	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400884ae
+1	För	|för|	PP	_	PP	3	OA	|för..pp.1|
+2	information	|information|	NN	_	NN.UTR.SIN.IND.NOM	1	PA	|information..nn.1|
+3	läs	|läsa|	VB	_	VB.IMP.AKT	0	ROOT	|läsa..vb.1|
+4	på	|på|	PP	_	PP	3	OA	|på..pp.1|
+5	www.autism.se	|	AB	_	AB.AN	4	PA	|
+6	-	|	MID	_	MID	3	IT	|
+7	som	|	HP	_	HP.-.-.-	8	SS	|
+8	är	|vara|	VB	_	VB.PRS.AKT	5	ET	|vara..vb.1|
+9	riksföreningen	|riksförening|	NN	_	NN.UTR.SIN.DEF.NOM	10	DT	|
+10	autism	|autism|	NN	_	NN.UTR.SIN.IND.NOM	8	SP	|autism..nn.1|
+11	i	|i|	PP	_	PP	8	RA	|i..pp.1|
+12	Sverige	|Sverige|	PM	_	PM.NOM	11	PA	|Sverige..pm.1|
+13	.	|	MAD	_	MAD	3	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400d3a15
+1	När	|när|	HA	_	HA	3	TA	|när..ab.1|
+2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
+3	började	|börja|	VB	_	VB.PRT.AKT	13	TA	|börja..vb.1|börja..vb.2|
+4	jobba	|jobba|	VB	_	VB.INF.AKT	3	OO	|jobba..vb.1|
+5	som	|	KN	_	KN	4	SP	|
+6	resurs	|resurs|	NN	_	NN.UTR.SIN.IND.NOM	5	UA	|resurs..nn.1|
+7	åt	|åt|	PP	_	PP	4	OA	|åt..pp.1|
+8	en	|en|	DT	_	DT.UTR.SIN.IND	9	DT	|en..al.1|
+9	pojk	|pojk|	NN	_	NN.UTR.SIN.IND.NOM	7	PA	|pojk..nn.1|
+10	med	|med|	PP	_	PP	9	ET	|med..pp.1|
+11	Autism	|	PM	_	PM.NOM	10	PA	|
+12	så	|så|	AB	_	AB	13	DB	|så..ab.1|
+13	läste	|läsa|	VB	_	VB.PRT.AKT	0	ROOT	|läsa..vb.1|
+14	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|jag..pn.1|
+15	Lorna	|	PM	_	PM.NOM	17	DT	|
+16	Wings	|	PM	_	PM.GEN	15	HD	|
+17	bok	|bok|	NN	_	NN.UTR.SIN.IND.NOM	19	DT	|bok..nn.1|bok..nn.2|
+18	"	|	PAD	_	PAD	19	IC	|
+19	Autismspektrum	|autismspektrum|	NN	_	NN.UTR.SIN.IND.NOM	13	OO	|
+20	"	|	PAD	_	PAD	19	JC	|
+21	.	|	MAD	_	MAD	13	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400a9afc
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	tyckte	|tycka|	VB	_	VB.PRT.AKT	0	ROOT	|tycka..vb.1|
+3	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	2	OO	|den..pn.1|
+4	förklarade	|förklara|	VB	_	VB.PRT.AKT	2	OO	|förklara..vb.1|
+5	autism	|autism|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|autism..nn.1|
+6	på	|på|	PP	_	PP	4	AA	|på..pp.1|
+7	ett	|en|	DT	_	DT.NEU.SIN.IND	9	DT	|en..al.1|
+8	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	9	AT	|bra..av.2|
+9	sätt	|sätt|	NN	_	NN.NEU.SIN.IND.NOM	6	PA	|sätt..nn.1|
+10	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400cbec3
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+3	ett	|en|	DT	_	DT.NEU.SIN.IND	4	DT	|en..al.1|
+4	standardverk	|standardverk|	NN	_	NN.NEU.SIN.IND.NOM	2	SP	|standardverk..nn.1|
+5	inom	|inom|	PP	_	PP	2	RA	|inom..pp.1|
+6	autism	|autism|	NN	_	NN.UTR.SIN.IND.NOM	5	PA	|autism..nn.1|
+7	,	|	MID	_	MID	6	IK	|
+8	som	|	HP	_	HP.-.-.-	10	OO	|
+9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
+10	förstått	|förstå|	VB	_	VB.SUP.AKT	6	ET	|förstå..vb.1|
+11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	OO	|den..pn.1|
+12	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a4001b32d
+1	Läste	|läsa|	VB	_	VB.PRT.AKT	0	ROOT	|läsa..vb.1|
+2	också	|också|	AB	_	AB	1	+A	|också..ab.1|
+3	nyligen	|nyligen|	AB	_	AB	1	TA	|nyligen..ab.1|
+4	en	|en|	DT	_	DT.UTR.SIN.IND	6	DT	|en..al.1|
+5	ny	|ny|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	6	AT	|ny..av.1|
+6	bok	|bok|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|bok..nn.1|bok..nn.2|
+7	som	|	HP	_	HP.-.-.-	8	SS	|
+8	heter	|heta|	VB	_	VB.PRS.AKT	6	ET	|heta..vb.1|
+9	"	|	PAD	_	PAD	10	IC	|
+10	Barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	8	OO	|barn..nn.1|
+11	i	|i|	PP	_	PP	10	HD	|i..pp.1|
+12	glaskulan	|glaskula|	NN	_	NN.UTR.SIN.DEF.NOM	11	PA	|glaskula..nn.1|
+13	"	|	PAD	_	PAD	10	JR	|
+14	av	|av|	PP	_	PP	8	OA	|av..pp.1|
+15	Birgitta	|Birgitta|	PM	_	PM.NOM	14	PA	|Birgitta..pm.1|
+16	Rubin	|	PM	_	PM.NOM	15	HD	|
+17	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400c4164
+1	Den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	var	|vara|	VB	_	VB.PRT.AKT	12	MS	|vara..vb.1|
+3	jättebra	|jättebra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	2	SP	|jättebra..av.1|
+4	,	|	MID	_	MID	2	IK	|
+5	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	6	SS	|den..pn.1|
+6	ger	|ge|	VB	_	VB.PRS.AKT	12	MS	|ge..vb.1|
+7	bakgrundsfakta	|bakgrundsfakta|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|
+8	till	|till|	PP	_	PP	6	OA	|till..pp.1|
+9	autistm	|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|
+10	och	|och|	KN	_	KN	8	PA	|och..kn.1|
+11	forskning	|forskning|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|forskning..nn.1|
+12	samt	|samt|	KN	_	KN	0	ROOT	|samt..kn.1|
+13	berättar	|berätta|	VB	_	VB.PRS.AKT	12	+F	|berätta..vb.1|
+14	om	|om|	PP	_	PP	13	OA	|om..pp.1|
+15	ett	|en|	DT	_	DT.NEU.SIN.IND	16	DT	|en..al.1|
+16	10-tal	|	NN	_	NN.NEU.SIN.IND.NOM	17	DT	|
+17	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	14	PA	|barn..nn.1|
+18	med	|med|	PP	_	PP	17	ET	|med..pp.1|
+19	autism	|autism|	NN	_	NN.UTR.SIN.IND.NOM	18	PA	|autism..nn.1|
+20	,	|	MID	_	MID	17	ET	|
+21	om	|om|	PP	_	PP	20	CJ	|om..pp.1|
+22	deras	|de|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	23	DT	|de..pn.1|
+23	diagnos	|diagnos|	NN	_	NN.UTR.SIN.IND.NOM	26	CJ	|diagnos..nn.1|
+24	,	|	MID	_	MID	21	PA	|
+25	problem	|problem|	NN	_	NN.NEU.SIN.IND.NOM	26	CJ	|problem..nn.1|
+26	,	|	MID	_	MID	21	PA	|
+27	utveckling	|utveckling|	NN	_	NN.UTR.SIN.IND.NOM	26	CJ	|utveckling..nn.1|
+28	osv	|osv|	AB	_	AB.AN	26	CJ	|osv..aba.1|
+29	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400a17ad
+1	Något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	0	ROOT	|någon..pn.1|
+2	som	|	HP	_	HP.-.-.-	4	OO	|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+4	upplevt	|uppleva|	VB	_	VB.SUP.AKT	1	ET	|uppleva..vb.1|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400c14f6
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	upplever	|uppleva|	VB	_	VB.PRS.AKT	0	ROOT	|uppleva..vb.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	OO	|den..pn.1|
+4	som	|	KN	_	KN	2	KA	|
+5	att	|att|	SN	_	SN	4	UA	|att..sn.1|
+6	föräldrar	|förälder|	NN	_	NN.UTR.PLU.IND.NOM	10	SS	|förälder..nn.1|
+7	i	|i|	PP	_	PP	6	ET	|i..pp.1|
+8	sverige	|	PM	_	PM.NOM	7	PA	|
+9	tyvärr	|tyvärr|	AB	_	AB	10	MA	|tyvärr..ab.1|
+10	får	|få|	VB	_	VB.PRS.AKT	5	UA	|få..vb.1|
+11	kämpa	|kämpa|	VB	_	VB.INF.AKT	10	VG	|kämpa..vb.1|
+12	mycket	|mycket|	AB	_	AB.POS	11	AA	|mycket..ab.1|
+13	för	|för|	PP	_	PP	11	AA	|för..pp.1|
+14	att	|att|	IE	_	IE	13	PA	|att..sn.1|
+15	få	|få|	VB	_	VB.INF.AKT	14	IF	|få..vb.1|
+16	en	|en|	DT	_	DT.UTR.SIN.IND	17	DT	|en..al.1|
+17	diagnos	|diagnos|	NN	_	NN.UTR.SIN.IND.NOM	15	OO	|diagnos..nn.1|
+18	och	|och|	KN	_	KN	11	AA	|och..kn.1|
+19	för	|för|	PP	_	PP	18	CJ	|för..pp.1|
+20	att	|att|	IE	_	IE	19	PA	|att..sn.1|
+21	få	|få|få rätt|	VB	_	VB.INF.AKT	20	IF	|få..vb.1|få_rätt..vbm.1|
+22	rätt	|rätt|få rätt:21|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	23	DT	|rätt..av.1|få_rätt..vbm.1:21|
+23	hjälp	|hjälp|	NN	_	NN.UTR.SIN.IND.NOM	21	OO	|hjälp..nn.1|
+24	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400166ed
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	önskar	|önska|	VB	_	VB.PRS.AKT	0	ROOT	|önska..vb.1|
+3	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	2	IO	|du..pn.1|
+4	all	|all|	DT	_	DT.UTR.SIN.IND+DEF	5	DT	|all..pn.1|
+5	lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+6	till	|till|lycka till:5|	PP	_	PP	2	OA	|till..pp.1|lycka_till..inm.1:5|
+7	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a40023806
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+3	en	|en|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|
+4	stor	|stor|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	5	AT	|stor..av.1|
+5	fördel	|fördel|	NN	_	NN.UTR.SIN.IND.NOM	2	SP	|fördel..nn.1|
+6	ändå	|ändå|	AB	_	AB	2	+A	|ändå..ab.1|
+7	att	|att|	SN	_	SN	2	ES	|att..sn.1|
+8	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|du..pn.1|
+9	fått	|få|	VB	_	VB.SUP.AKT	7	UA	|få..vb.1|
+10	en	|en|	DT	_	DT.UTR.SIN.IND	11	DT	|en..al.1|
+11	diagnos	|diagnos|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|diagnos..nn.1|
+12	,	|	MID	_	MID	13	IK	|
+13	eller	|eller|	KN	_	KN	9	+F	|eller..kn.1|
+14	i	|i|	PP	_	PP	13	CJ	|i..pp.1|
+15	allafall	|allafall|	NN	_	NN.UTR.SIN.IND.NOM	14	PA	|
+16	är	|vara|	VB	_	VB.PRS.AKT	13	+F	|vara..vb.1|
+17	på	|på|på väg|	PP	_	PP	16	SP	|på..pp.1|på_väg..avm.1|
+18	väg	|väg|på väg:17|	NN	_	NN.UTR.SIN.IND.NOM	17	PA	|väg..nn.1|på_väg..avm.1:17|
+19	att	|att|	IE	_	IE	16	OA	|att..sn.1|
+20	få	|få|	VB	_	VB.INF.AKT	19	IF	|få..vb.1|
+21	en	|en|	DT	_	DT.UTR.SIN.IND	22	DT	|en..al.1|
+22	utredning	|utredning|	NN	_	NN.UTR.SIN.IND.NOM	20	OO	|utredning..nn.1|
+23	för	|för|	PP	_	PP	20	OA	|för..pp.1|
+24	diagnos	|diagnos|	NN	_	NN.UTR.SIN.IND.NOM	23	PA	|diagnos..nn.1|
+25	,	|	MID	_	MID	20	IK	|
+26	så	|så|så här|	AB	_	AB	20	AA	|så..ab.1|så_här..abm.1|
+27	här	|här|så här:26|	AB	_	AB	26	HD	|här..ab.1|så_här..abm.1:26|
+28	tidigt	|tidig|	AB	_	AB.POS	20	TA	|tidig..av.1|
+29	i	|i|	PP	_	PP	20	RA	|i..pp.1|
+30	barnets	|barn|	NN	_	NN.NEU.SIN.DEF.GEN	31	DT	|barn..nn.1|
+31	liv	|liv|	NN	_	NN.NEU.SIN.IND.NOM	29	PA	|liv..nn.1|
+32	(	|	PAD	_	PAD	20	IR	|
+33	även	|även|även om|	AB	_	AB	20	AA	|även..ab.1|även_om..snm.1|
+34	om	|om|även om:33|	SN	_	SN	33	HD	|om..sn.1|även_om..snm.1:33|
+35	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	37	SS	|den..pn.1|
+36	inte	|inte|	AB	_	AB	37	NA	|inte..ab.1|
+37	känns	|känna|kännas|	VB	_	VB.PRS.SFO	33	UA	|känna..vb.1|känna..vb.2|kännas..vb.1|
+38	så	|så|	AB	_	AB	37	AA	|så..ab.1|
+39	för	|för|	PP	_	PP	37	OA	|för..pp.1|
+40	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	39	PA	|du..pn.1|
+41	just	|just|just nu|	AB	_	AB	42	CA	|just..ab.1|just..av.1|just_nu..abm.1|
+42	nu	|nu|just nu:41|	AB	_	AB	37	TA	|nu..ab.1|just_nu..abm.1:41|
+43	,	|	MID	_	MID	44	IK	|
+44	säkerligen	|säkerligen|	AB	_	AB	37	+F	|säkerligen..ab.1|
+45	)	|	PAD	_	PAD	44	JR	|
+46	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400f2cb4
+1	Sen	|sen|	AB	_	AB	2	TA	|sen..ab.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
+4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+5	kört	|köra|körd|	PC	_	PC.PRF.NEU.SIN.IND.NOM	2	SP	|köra..vb.1|körd..av.1|
+6	om	|om|	SN	_	SN	2	ES	|om..sn.1|
+7	din	|du|	PS	_	PS.UTR.SIN.DEF	8	DT	|du..pn.1|
+8	dotter	|dotter|	NN	_	NN.UTR.SIN.IND.NOM	9	SS	|dotter..nn.1|
+9	har	|ha|	VB	_	VB.PRS.AKT	6	UA	|ha..vb.1|
+10	autism	|autism|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|autism..nn.1|
+11	,	|	MID	_	MID	2	IK	|
+12	försök	|försöka|	VB	_	VB.IMP.AKT	2	MS	|försöka..vb.1|
+13	att	|att|	IE	_	IE	12	OO	|att..sn.1|
+14	inte	|inte|	AB	_	AB	15	NA	|inte..ab.1|
+15	tänka	|tänka|tänka om|	VB	_	VB.INF.AKT	13	IF	|tänka..vb.1|tänka_om..vbm.1|
+16	på	|på|	PP	_	PP	15	OA	|på..pp.1|
+17	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	16	PA	|den..pn.1|
+18	som	|	KN	_	KN	15	OP	|
+19	en	|en|	DT	_	DT.UTR.SIN.IND	21	DT	|en..al.1|
+20	"	|	PAD	_	PAD	21	IC	|
+21	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	18	UA	|de..pn.1|
+22	"	|	PAD	_	PAD	21	JC	|
+23	om	|om|tänka om:15|	SN	_	SN	15	AA	|om..sn.1|tänka_om..vbm.1:15|
+24	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	25	SS	|du..pn.1|
+25	kan	|kunna|	VB	_	VB.PRS.AKT	23	UA	|kunna..vb.1|
+26	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a40024f73
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
+2	finns	|finna|finnas|	VB	_	VB.PRS.SFO	0	ROOT	|finna..vb.1|finnas..vb.1|
+3	goda	|god|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	4	AT	|god..av.1|
+4	förusättningar	|	NN	_	NN.UTR.PLU.IND.NOM	2	ES	|
+5	för	|för|	PP	_	PP	2	OA	|för..pp.1|
+6	utveckling	|utveckling|	NN	_	NN.UTR.SIN.IND.NOM	7	CJ	|utveckling..nn.1|
+7	och	|och|	KN	_	KN	5	PA	|och..kn.1|
+8	ett	|en|	DT	_	DT.NEU.SIN.IND	10	DT	|en..al.1|
+9	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	10	AT	|bra..av.2|
+10	liv	|liv|	NN	_	NN.NEU.SIN.IND.NOM	7	CJ	|liv..nn.1|
+11	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a400938a0
+1	Framför	|framför|framför allt|	PP	_	PP	4	CA	|framför..pp.1|framför_allt..abm.1|
+2	allt	|all|framför allt:1|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	1	HD	|all..pn.1|framför_allt..abm.1:1|
+3	kanske	|kanske|	AB	_	AB	4	MA	|kanske..ab.1|
+4	med	|med|med tanke på|	PP	_	PP	0	ROOT	|med..pp.1|med_tanke_på..ppm.1|
+5	tanke	|tanke|med tanke på:4|	NN	_	NN.UTR.SIN.IND.NOM	4	HD	|tanke..nn.1|med_tanke_på..ppm.1:4|
+6	på	|på|med tanke på:4|	PP	_	PP	4	HD	|på..pp.1|med_tanke_på..ppm.1:4|
+7	att	|att|	SN	_	SN	4	PA	|att..sn.1|
+8	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	9	SS	|de..pn.1|
+9	tror	|tro|	VB	_	VB.PRS.AKT	7	UA	|tro..vb.1|
+10	att	|att|	SN	_	SN	9	OO	|att..sn.1|
+11	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|hon..pn.1|
+12	har	|ha|	VB	_	VB.PRS.AKT	10	UA	|ha..vb.1|
+13	"	|	PAD	_	PAD	15	IC	|
+14	lätt	|lätt|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	15	AT	|lätt..av.1|
+15	autism	|autism|	NN	_	NN.UTR.SIN.IND.NOM	12	OO	|autism..nn.1|
+16	"	|	PAD	_	PAD	15	JC	|
+17	.	|	MAD	_	MAD	3	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a40085484
+1	Önskar	|önska|	VB	_	VB.PRS.AKT	0	ROOT	|önska..vb.1|
+2	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	1	IO	|du..pn.1|
+3	all	|all|	DT	_	DT.UTR.SIN.IND+DEF	4	DT	|all..pn.1|
+4	lycka	|lycka|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|lycka..nn.1|lycka..nn.2|
+5	!	|	MAD	_	MAD	1	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 12575600
+# thread_title = Nån förälder med barn som har Autism?
+# post_id = 12603286
+# post_date = 2006-09-19 17:42:41
+# username = soso
+# sent_id = a40095b14
+1	Ledsen	|ledsen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	0	ROOT	|ledsen..av.1|
+2	att	|att|	SN	_	SN	1	KA	|att..sn.1|
+3	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	SS	|den..pn.1|den_här..pnm.1|
+4	här	|här|den här:3|	AB	_	AB	5	RA	|här..ab.1|den_här..pnm.1:3|
+5	blev	|bli|	VB	_	VB.PRT.AKT	2	UA	|bli..vb.1|
+6	långt	|lång|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	SP	|lång..av.1|
+7	!	|	MAD	_	MAD	1	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 10334598
+# thread_title = Ägglossning
+# post_id = 10386527
+# post_date = 2006-06-26 16:15:44
+# username = soso
+# sent_id = 0d0c3d7ad
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	blödde	|blöda|	VB	_	VB.PRT.AKT	0	ROOT	|blöda..vb.1|
+3	i	|i|	PP	_	PP	2	TA	|i..pp.1|
+4	typ	|typ|	NN	_	NN.UTR.SIN.IND.NOM	6	DT	|typ..nn.1|
+5	2	|	RG	_	RG.NOM	6	DT	|
+6	månader	|månad|	NN	_	NN.UTR.PLU.IND.NOM	3	PA	|månad..nn.1|
+7	,	|	MID	_	MID	2	IK	|
+8	sen	|sen|	PP	_	PP	14	TA	|sen..pp.1|
+9	ca	|ca|	AB	_	AB.AN	10	AA	|ca..aba.1|
+10	2	|	RG	_	RG.NOM	11	DT	|
+11	veckor	|vecka|	NN	_	NN.UTR.PLU.IND.NOM	8	PA	|vecka..nn.1|
+12	efter	|efter|	PP	_	PP	14	TA	|efter..pp.1|
+13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	14	SS	|jag..pn.1|
+14	slutat	|sluta|	VB	_	VB.SUP.AKT	2	TA	|sluta..vb.1|sluta..vb.2|
+15	blöda	|blöda|	VB	_	VB.INF.AKT	14	OO	|blöda..vb.1|
+16	tror	|tro|	VB	_	VB.PRS.AKT	2	MS	|tro..vb.1|
+17	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	16	SS	|jag..pn.1|
+18	att	|att|	SN	_	SN	16	OO	|att..sn.1|
+19	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|jag..pn.1|
+20	hade	|ha|	VB	_	VB.PRT.AKT	18	UA	|ha..vb.1|
+21	ÄL	|	VB	_	VB.INF.AKT	20	VG	|
+22	,	|	MID	_	MID	2	IK	|
+23	sen	|sen|	AB	_	AB	24	TA	|sen..ab.1|
+24	kom	|komma|	VB	_	VB.PRT.AKT	2	MS	|komma..vb.1|
+25	mennsen	|	NN	_	NN.UTR.SIN.DEF.NOM	24	SS	|
+26	ca	|ca|	AB	_	AB.AN	27	AA	|ca..aba.1|
+27	4	|	RG	_	RG.NOM	28	DT	|
+28	veckor	|vecka|	NN	_	NN.UTR.PLU.IND.NOM	24	TA	|vecka..nn.1|
+29	efter	|	SN	_	SN	24	TA	|
+30	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	31	SS	|jag..pn.1|
+31	slutade	|sluta|	VB	_	VB.PRT.AKT	29	UA	|sluta..vb.1|sluta..vb.2|
+32	blöda	|blöda|	VB	_	VB.INF.AKT	31	OO	|blöda..vb.1|
+33	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 10334598
+# thread_title = Ägglossning
+# post_id = 10386527
+# post_date = 2006-06-26 16:15:44
+# username = soso
+# sent_id = 0d0c2baa3
+1	Hade	|ha|	VB	_	VB.PRT.AKT	0	ROOT	|ha..vb.1|
+2	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
+3	väldigt	|väldig|	AB	_	AB.POS	4	AA	|väldig..av.1|
+4	tidigt	|tidig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	AT	|tidig..av.1|
+5	missfall	|missfall|	NN	_	NN.NEU.SIN.IND.NOM	1	OO	|missfall..nn.1|
+6	,	|	MID	_	MID	5	IK	|
+7	v	|v|	NN	_	NN.AN	8	DT	|v..nna.1|
+8	5	|	RG	_	RG.NOM	5	AN	|
+9	...	|	MAD	_	MAD	1	IG	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 10334598
+# thread_title = Ägglossning
+# post_id = 10386527
+# post_date = 2006-06-26 16:15:44
+# username = soso
+# sent_id = 0d0cfdba9
+1	Kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+2	vara	|vara|	VB	_	VB.INF.AKT	1	VG	|vara..vb.1|vara..vb.2|
+3	väldigt	|väldig|	AB	_	AB.POS	4	AA	|väldig..av.1|
+4	olika	|olik|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	2	SP	|olik..av.1|
+5	det	|den|den där|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SP	|den..pn.1|den_där..pnm.1|
+6	där	|där|den där:5|	AB	_	AB	2	RA	|där..ab.1|den_där..pnm.1:5|
+7	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 10334598
+# thread_title = Ägglossning
+# post_id = 10386527
+# post_date = 2006-06-26 16:15:44
+# username = soso
+# sent_id = 0d0c1862b
+1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	3	AA	|hoppa..vb.1|hoppas..vb.1|
+2	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
+3	kommer	|komma|	VB	_	VB.PRS.AKT	0	ROOT	|komma..vb.1|
+4	jättesnbbt	|	AB	_	AB.POS	3	AA	|
+5	!	|	MAD	_	MAD	3	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 10334598
+# thread_title = Ägglossning
+# post_id = 10386527
+# post_date = 2006-06-26 16:15:44
+# username = soso
+# sent_id = 0d0c58293
+1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+3	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 19892017
+# thread_title = Snälla, vet någon..??
+# post_id = 19892317
+# post_date = 2007-04-23 11:11:05
+# username = soso
+# sent_id = 673714e3b
+1	De	|en|	DT	_	DT.UTR+NEU.PLU.DEF	2	DT	|en..al.1|
+2	flesta	|mången|	JJ	_	JJ.SUV.UTR+NEU.PLU.DEF.NOM	3	SS	|mången..pn.1|
+3	räknar	|räkna|	VB	_	VB.PRS.AKT	13	MS	|räkna..vb.1|
+4	nog	|nog|	AB	_	AB	3	MA	|nog..ab.1|
+5	missfallets	|missfall|	NN	_	NN.NEU.SIN.DEF.GEN	7	DT	|missfall..nn.1|
+6	första	|	RO	_	RO.NOM	7	DT	|
+7	dag	|dag|	NN	_	NN.UTR.SIN.IND.NOM	3	TA	|dag..nn.1|
+8	som	|	KN	_	KN	7	ET	|
+9	mensens	|mens|	NN	_	NN.UTR.SIN.DEF.GEN	11	DT	|mens..nn.1|
+10	första	|	RO	_	RO.NOM	11	DT	|
+11	dag	|dag|	NN	_	NN.UTR.SIN.IND.NOM	8	UA	|dag..nn.1|
+12	,	|	MID	_	MID	13	IK	|
+13	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+14	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	15	FS	|den..pn.1|
+15	är	|vara|	VB	_	VB.PRS.AKT	13	MS	|vara..vb.1|
+16	viktigt	|viktig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	15	SP	|viktig..av.1|
+17	att	|att|	IE	_	IE	15	ES	|att..sn.1|
+18	veta	|veta|	VB	_	VB.INF.AKT	17	IF	|veta..vb.1|
+19	att	|att|	SN	_	SN	18	OO	|att..sn.1|
+20	cykeln	|cykel|	NN	_	NN.UTR.SIN.DEF.NOM	21	SS	|cykel..nn.1|cykel..nn.2|
+21	kan	|kunna|	VB	_	VB.PRS.AKT	19	UA	|kunna..vb.1|
+22	vara	|vara|	VB	_	VB.INF.AKT	21	VG	|vara..vb.1|vara..vb.2|
+23	väldigt	|väldig|	AB	_	AB.POS	24	AA	|väldig..av.1|
+24	varierande	|variera|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	22	SP	|variera..vb.1|
+25	efter	|efter|	PP	_	PP	22	TA	|efter..pp.1|
+26	missfall	|missfall|	NN	_	NN.NEU.SIN.IND.NOM	25	PA	|missfall..nn.1|
+27	.	|	MAD	_	MAD	13	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 19892017
+# thread_title = Snälla, vet någon..??
+# post_id = 19892317
+# post_date = 2007-04-23 11:11:05
+# username = soso
+# sent_id = 673711b6f
+1	Mensen	|mens|	NN	_	NN.UTR.SIN.DEF.NOM	2	SS	|mens..nn.1|
+2	kan	|kunna|	VB	_	VB.PRS.AKT	8	MS	|kunna..vb.1|
+3	komma	|komma|	VB	_	VB.INF.AKT	2	VG	|komma..vb.1|
+4	som	|	KN	_	KN	3	SP	|
+5	"	|	PAD	_	PAD	4	UA	|
+6	vanligt	|vanlig|	AB	_	AB.POS	3	AA	|vanlig..av.1|
+7	"	|	PAD	_	PAD	6	JC	|
+8	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
+9	dröja	|dröja|	VB	_	VB.INF.AKT	8	+F	|dröja..vb.1|
+10	upp	|upp|	PL	_	PL	9	PL	|upp..ab.1|
+11	till	|till|	PP	_	PP	9	TA	|till..pp.1|
+12	ett	|en|ett par|	DT	_	DT.NEU.SIN.IND	14	DT	|en..al.1|ett_par..pnm.1|
+13	par	|par|ett par:12|	NN	_	NN.NEU.SIN.IND.NOM	12	HD	|par..nn.1|ett_par..pnm.1:12|
+14	månader	|månad|	NN	_	NN.UTR.PLU.IND.NOM	11	PA	|månad..nn.1|
+15	.	|	MAD	_	MAD	8	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 19892017
+# thread_title = Snälla, vet någon..??
+# post_id = 19892317
+# post_date = 2007-04-23 11:11:05
+# username = soso
+# sent_id = 6737a5fdc
+1	Så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
+2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
+3	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
+4	ju	|ju|	AB	_	AB	3	MA	|ju..ab.1|
+5	inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
+6	ett	|en|	DT	_	DT.NEU.SIN.IND	8	DT	|en..al.1|
+7	säkert	|säker|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	8	AT	|säker..av.1|
+8	sätt	|sätt|	NN	_	NN.NEU.SIN.IND.NOM	3	SP	|sätt..nn.1|
+9	att	|att|	IE	_	IE	8	ET	|att..sn.1|
+10	räknar	|räkna|	VB	_	VB.PRS.AKT	9	IF	|räkna..vb.1|
+11	på	|på|	PP	_	PP	10	OA	|på..pp.1|
+12	.	|	MAD	_	MAD	3	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 19892017
+# thread_title = Snälla, vet någon..??
+# post_id = 19892317
+# post_date = 2007-04-23 11:11:05
+# username = soso
+# sent_id = 67370a597
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	tycker	|tycka|	VB	_	VB.PRS.AKT	22	MS	|tycka..vb.1|
+3	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	2	OO	|jag..pn.1|
+4	ha	|ha|	VB	_	VB.INF.AKT	2	VO	|ha..vb.1|
+5	läst	|läsa|	VB	_	VB.SUP.AKT	4	VG	|läsa..vb.1|
+6	om	|om|	PP	_	PP	5	OA	|om..pp.1|
+7	många	|mången|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	6	PA	|mången..pn.1|
+8	här	|här|	AB	_	AB	7	ET	|här..ab.1|
+9	på	|på|	PP	_	PP	8	RA	|på..pp.1|
+10	fm	|	NN	_	NN.UTR.SIN.IND.NOM	9	PA	|
+11	som	|	HP	_	HP.-.-.-	12	SS	|
+12	blivit	|bli|bli efter|	VB	_	VB.SUP.AKT	7	ET	|bli..vb.1|bli_efter..vbm.1|
+13	gravida	|gravid|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	12	SP	|gravid..av.1|
+14	direkt	|direkt|	AB	_	AB.POS	15	AA	|direkt..ab.1|direkt..av.1|
+15	efter	|bli efter:12|	AB	_	AB	12	TA	|bli_efter..vbm.1:12|
+16	utan	|utan|	PP	_	PP	12	AA	|utan..pp.1|
+17	att	|att|	IE	_	IE	16	PA	|att..sn.1|
+18	ha	|ha|	VB	_	VB.INF.AKT	17	IF	|ha..vb.1|
+19	en	|en|	DT	_	DT.UTR.SIN.IND	20	DT	|en..al.1|
+20	mens	|mens|	NN	_	NN.UTR.SIN.IND.NOM	18	OO	|mens..nn.1|
+21	imellan	|	AB	_	AB	18	RA	|
+22	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+23	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	24	SS	|den..pn.1|
+24	har	|ha|	VB	_	VB.PRS.AKT	22	MS	|ha..vb.1|
+25	gått	|gå|	VB	_	VB.SUP.AKT	24	VG	|gå..vb.1|
+26	jättebra	|jättebra|	AB	_	AB.POS	25	AA	|
+27	.	|	MAD	_	MAD	22	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 19892017
+# thread_title = Snälla, vet någon..??
+# post_id = 19892317
+# post_date = 2007-04-23 11:11:05
+# username = soso
+# sent_id = 6737b7fff
+1	Läkarna	|läkare|	NN	_	NN.UTR.PLU.DEF.NOM	2	SS	|läkare..nn.1|
+2	brukar	|bruka|	VB	_	VB.PRS.AKT	0	ROOT	|bruka..vb.1|
+3	dock	|dock|	AB	_	AB	2	+A	|dock..ab.1|
+4	rekommendera	|rekommendera|	VB	_	VB.INF.AKT	2	OO	|rekommendera..vb.1|
+5	att	|att|	SN	_	SN	4	OO	|att..sn.1|
+6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	7	SS	|man..pn.1|
+7	väntar	|vänta|vänta in|	VB	_	VB.PRS.AKT	5	UA	|vänta..vb.1|vänta_in..vbm.1|
+8	in	|in|vänta in:7|	PL	_	PL	7	PL	|in..ab.1|vänta_in..vbm.1:7|
+9	en	|en|	DT	_	DT.UTR.SIN.IND	10	DT	|en..al.1|
+10	mens	|mens|	NN	_	NN.UTR.SIN.IND.NOM	7	OO	|mens..nn.1|
+11	både	|både och|	KN	_	KN	12	VA	|både_och..knm.1|
+12	för	|för|	PP	_	PP	7	AA	|för..pp.1|
+13	att	|att|	SN	_	SN	12	HD	|att..sn.1|
+14	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	15	FS	|den..pn.1|
+15	är	|vara|	VB	_	VB.PRS.AKT	13	UA	|vara..vb.1|
+16	enklare	|enkel|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	15	SP	|enkel..av.1|
+17	att	|att|	IE	_	IE	15	ES	|att..sn.1|
+18	räkna	|räkna|	VB	_	VB.INF.AKT	17	IF	|räkna..vb.1|
+19	var	|var|	HA	_	HA	21	RA	|var..ab.1|
+20	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	21	SS	|man..pn.1|
+21	är	|vara|	VB	_	VB.PRS.AKT	18	OO	|vara..vb.1|
+22	i	|i|	PP	_	PP	21	RA	|i..pp.1|
+23	graviditeten	|graviditet|	NN	_	NN.UTR.SIN.DEF.NOM	22	PA	|graviditet..nn.1|
+24	mer	|mer|mycket|	AB	_	AB.KOM	25	AA	|mer..ab.1|mycket..ab.1|
+25	framförallt	|framförallt|	AB	_	AB	21	AA	|framförallt..ab.1|
+26	för	|för|	PP	_	PP	32	CJ	|för..pp.1|
+27	att	|att|	SN	_	SN	26	HD	|att..sn.1|
+28	livmodern	|livmoder|	NN	_	NN.UTR.SIN.DEF.NOM	29	SS	|livmoder..nn.1|
+29	ska	|skola|	VB	_	VB.PRS.AKT	26	UA	|skola..vb.2|
+30	hinna	|hinna|	VB	_	VB.INF.AKT	29	VG	|hinna..vb.1|
+31	läka	|läka|	VB	_	VB.INF.AKT	30	OO	|läka..vb.1|
+32	och	|och|både och:11|	KN	_	KN	18	OO	|och..kn.1|både_och..knm.1:11|
+33	att	|att|	SN	_	SN	32	CJ	|att..sn.1|
+34	alla	|all|	DT	_	DT.UTR+NEU.PLU.IND+DEF	36	DT	|all..pn.1|
+35	eventuella	|eventuell|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	36	AT	|eventuell..av.1|
+36	rester	|rest|	NN	_	NN.UTR.PLU.IND.NOM	37	SS	|rest..nn.1|
+37	ska	|skola|	VB	_	VB.PRS.AKT	33	UA	|skola..vb.2|
+38	ha	|ha|	VB	_	VB.INF.AKT	37	VG	|ha..vb.1|
+39	kommit	|komma|komma ut|	VB	_	VB.SUP.AKT	38	VG	|komma..vb.1|komma_ut..vbm.1|
+40	ut	|ut|komma ut:39|	PL	_	PL	39	PL	|ut..ab.1|komma_ut..vbm.1:39|
+41	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 40822fd3d
+1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
+2	,	|	MID	_	MID	1	IK	|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+4	fick	|få|	VB	_	VB.PRT.AKT	1	MS	|få..vb.1|
+5	missfall	|missfall|	NN	_	NN.NEU.SIN.IND.NOM	4	OO	|missfall..nn.1|
+6	den	|den|en|	DT	_	DT.UTR.SIN.DEF	8	DT	|den..pn.1|en..al.1|
+7	4	|	RO	_	RO.NOM	8	DT	|
+8	januari	|januari|	NN	_	NN.UTR.SIN.IND.NOM	5	ET	|januari..nn.1|
+9	(	|	PAD	_	PAD	1	IR	|
+10	var	|vara|	VB	_	VB.PRT.AKT	1	MS	|vara..vb.1|
+11	i	|i|	PP	_	PP	10	TA	|i..pp.1|
+12	vecka	|vecka|	NN	_	NN.UTR.SIN.IND.NOM	13	DT	|vecka..nn.1|
+13	5	|	RG	_	RG.NOM	10	SP	|
+14	)	|	PAD	_	PAD	1	JR	|
+15	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 4082c8017
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	blöder	|blöda|	VB	_	VB.PRS.AKT	4	MS	|blöda..vb.1|
+3	(	|	PAD	_	PAD	2	IR	|
+4	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+5	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
+6	så	|så|	AB	_	AB	7	AA	|så..ab.1|
+7	mycket	|mycket|	AB	_	AB.POS	2	AA	|mycket..ab.1|
+8	)	|	PAD	_	PAD	4	JR	|
+9	fortfarande	|fortfarande|	AB	_	AB	2	TA	|fortfarande..ab.1|
+10	och	|och|	KN	_	KN	4	++	|och..kn.1|
+11	var	|vara|	VB	_	VB.PRT.AKT	12	MS	|vara..vb.1|
+12	och	|och|	KN	_	KN	10	+F	|och..kn.1|
+13	pratade	|prata|	VB	_	VB.PRT.AKT	12	+F	|prata..vb.1|
+14	med	|med|	PP	_	PP	13	OA	|med..pp.1|
+15	en	|en|	DT	_	DT.UTR.SIN.IND	16	DT	|en..al.1|
+16	barnmorska	|barnmorska|	NN	_	NN.UTR.SIN.IND.NOM	14	PA	|barnmorska..nn.1|
+17	idag	|idag|	AB	_	AB	13	TA	|idag..ab.1|
+18	.	|	MAD	_	MAD	4	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 4082cfbf0
+1	Hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|hon..pn.1|
+2	kände	|känna|	VB	_	VB.PRT.AKT	5	MS	|känna..vb.1|
+3	på	|på|	PP	_	PP	2	OA	|på..pp.1|
+4	livmodern	|livmoder|	NN	_	NN.UTR.SIN.DEF.NOM	3	PA	|livmoder..nn.1|
+5	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+6	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
+7	kändes	|känna|kännas|	VB	_	VB.PRT.SFO	5	MS	|känna..vb.1|kännas..vb.1|
+8	"	|	PAD	_	PAD	9	IC	|
+9	normal	|normal|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	7	SP	|normal..av.1|
+10	"	|	PAD	_	PAD	7	JR	|
+11	.	|	MAD	_	MAD	5	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 40826cbcf
+1	Hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|hon..pn.1|
+2	trodde	|tro|	VB	_	VB.PRT.AKT	0	ROOT	|tro..vb.1|
+3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
+4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	SS	|den..pn.1|
+5	kanske	|kanske|	AB	_	AB	6	MA	|kanske..ab.1|
+6	var	|vara|	VB	_	VB.PRT.AKT	3	UA	|vara..vb.1|
+7	hormoner	|hormon|	NN	_	NN.NEU.PLU.IND.NOM	6	XX	|hormon..nn.1|
+8	som	|	HP	_	HP.-.-.-	9	SS	|
+9	spökade	|spöka|	VB	_	VB.PRT.AKT	7	EF	|spöka..vb.1|
+10	till	|till|	PP	_	PP	9	OA	|till..pp.1|
+11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	PA	|den..pn.1|
+12	lite	|lite|	AB	_	AB.POS	9	AA	|lite..ab.1|
+13	för	|för|	PP	_	PP	9	OA	|för..pp.1|
+14	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	13	PA	|jag..pn.1|
+15	och	|och|	KN	_	KN	7	ET	|och..kn.1|
+16	sa	|säga|	VB	_	VB.PRT.AKT	15	+F	|säga..vb.1|
+17	att	|att|	SN	_	SN	16	OO	|att..sn.1|
+18	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|jag..pn.1|
+19	inte	|inte|	AB	_	AB	20	NA	|inte..ab.1|
+20	skulle	|skola|	VB	_	VB.PRT.AKT	17	UA	|skola..vb.2|
+21	oroa	|oroa|oroa sig|	VB	_	VB.INF.AKT	20	VG	|oroa..vb.1|oroa_sig..vbm.1|
+22	mig	|jag|oroa sig:21|	PN	_	PN.UTR.SIN.DEF.OBJ	21	IO	|jag..pn.1|oroa_sig..vbm.1:21|
+23	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 4082464cb
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	hört	|höra|	VB	_	VB.SUP.AKT	2	VG	|höra..vb.1|
+4	om	|om|	PP	_	PP	3	OA	|om..pp.1|
+5	fler	|mången|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	4	PA	|mången..pn.1|
+6	som	|	HP	_	HP.-.-.-	7	SS	|
+7	blödit	|	VB	_	VB.SUP.AKT	5	ET	|
+8	flera	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	9	DT	|
+9	veckor	|vecka|	NN	_	NN.UTR.PLU.IND.NOM	7	OO	|vecka..nn.1|
+10	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 4082bb9fd
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+3	ju	|ju|ju ju|	AB	_	AB	2	MA	|ju..ab.1|ju_ju..knm.1|
+4	ta	|ta|ta tid|	VB	_	VB.INF.AKT	2	VG	|ta..vb.1|ta_tid..vbm.1|
+5	tid	|tid|ta tid:4|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|tid..nn.1|ta_tid..vbm.1:4|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
+7	är	|vara|	VB	_	VB.PRS.AKT	5	ET	|vara..vb.1|
+8	ju	|ju|ju ju:3|	AB	_	AB	7	MA	|ju..ab.1|ju_ju..knm.1:3|
+9	rätt	|rätt|	AB	_	AB	10	AA	|rätt..ab.1|rätt..av.1|
+10	mycket	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	12	DT	|
+11	slemhinna	|slemhinna|	NN	_	NN.UTR.SIN.IND.NOM	12	CJ	|slemhinna..nn.1|
+12	och	|och|	KN	_	KN	7	SP	|och..kn.1|
+13	annat	|annan|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	12	CJ	|annan..pn.1|
+14	som	|	HP	_	HP.-.-.-	17	OO	|
+15	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	16	SS	|man..pn.1|
+16	ska	|skola|	VB	_	VB.PRS.AKT	12	ET	|skola..vb.2|
+17	blöda	|blöda|	VB	_	VB.INF.AKT	16	VG	|blöda..vb.1|
+18	ut	|ut|	PL	_	PL	17	PL	|ut..ab.1|
+19	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 4082e2742
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	tycker	|tycka|	VB	_	VB.PRS.AKT	0	ROOT	|tycka..vb.1|
+3	dock	|dock|	AB	_	AB	2	+A	|dock..ab.1|
+4	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|du..pn.1|
+5	ska	|skola|	VB	_	VB.PRS.AKT	2	OO	|skola..vb.2|
+6	ringa	|ringa|	VB	_	VB.INF.AKT	5	VG	|ringa..vb.1|ringa..vb.2|ringa..vb.3|
+7	till	|till|	PP	_	PP	6	OA	|till..pp.1|
+8	din	|du|	PS	_	PS.UTR.SIN.DEF	9	DT	|du..pn.1|
+9	barnmorska	|barnmorska|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|barnmorska..nn.1|
+10	/	|	MID	_	MID	12	++	|
+11	gynekolog	|gynekolog|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|gynekolog..nn.1|
+12	och	|och|	KN	_	KN	6	OO	|och..kn.1|
+13	höra	|höra|	VB	_	VB.INF.AKT	12	CJ	|höra..vb.1|
+14	vad	|vad|	HP	_	HP.NEU.SIN.IND	16	OO	|vad..pn.1|
+15	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	16	SS	|de..pn.1|
+16	säger	|säga|	VB	_	VB.PRS.AKT	13	OO	|säga..vb.1|
+17	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 4082d9a13
+1	Om	|om|om inte annat|	SN	_	SN	5	AA	|om..sn.1|om_inte_annat..abm.1|
+2	inte	|inte|om inte annat:1|	AB	_	AB	3	NA	|inte..ab.1|om_inte_annat..abm.1:1|
+3	annat	|annan|om inte annat:1|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	1	HD	|annan..pn.1|om_inte_annat..abm.1:1|
+4	så	|så|	AB	_	AB	5	DB	|så..ab.1|
+5	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	FS	|den..pn.1|
+7	ju	|ju|ju ju|	AB	_	AB	5	MA	|ju..ab.1|ju_ju..knm.1|
+8	skönt	|skön|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	SP	|skön..av.1|
+9	att	|att|	IE	_	IE	5	ES	|att..sn.1|
+10	få	|få|	VB	_	VB.INF.AKT	9	IF	|få..vb.1|
+11	bekräftat	|bekräfta|	VB	_	VB.SUP.AKT	10	VG	|bekräfta..vb.1|
+12	att	|att|	SN	_	SN	11	OO	|att..sn.1|
+13	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	14	SS	|all..pn.1|
+14	är	|vara|	VB	_	VB.PRS.AKT	12	UA	|vara..vb.1|
+15	ok	|ok|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	14	SP	|ok..av.1|
+16	....	|	MID	_	MID	14	SP	|
+17	och	|och|	KN	_	KN	12	UA	|och..kn.1|
+18	skulle	|skola|	VB	_	VB.PRT.AKT	17	MS	|skola..vb.2|
+19	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	18	SS	|den..pn.1|
+20	vara	|vara|	VB	_	VB.INF.AKT	18	VG	|vara..vb.1|vara..vb.2|
+21	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	20	SP	|någon..pn.1|
+22	kvar	|kvar|	PL	_	PL	20	PL	|kvar..ab.1|
+23	så	|så|	AB	_	AB	24	DB	|så..ab.1|
+24	är	|vara|	VB	_	VB.PRS.AKT	17	MS	|vara..vb.1|
+25	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	24	FS	|den..pn.1|
+26	ju	|ju|ju ju:7|	AB	_	AB	24	MA	|ju..ab.1|ju_ju..knm.1:7|
+27	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	24	SP	|bra..av.2|
+28	få	|få|	VB	_	VB.INF.AKT	24	VG	|få..vb.1|
+29	få	|få|	VB	_	VB.INF.AKT	28	VG	|få..vb.1|
+30	hjälp	|hjälp|	NN	_	NN.UTR.SIN.IND.NOM	29	OO	|hjälp..nn.1|
+31	att	|att|	IE	_	IE	29	OA	|att..sn.1|
+32	få	|få|	VB	_	VB.INF.AKT	31	IF	|få..vb.1|
+33	ut	|ut|	PL	_	PL	32	PL	|ut..ab.1|
+34	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	32	OO	|den..pn.1|
+35	också	|också|	AB	_	AB	32	+A	|också..ab.1|
+36	.	|	MAD	_	MAD	24	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 6660648
+# thread_title = Fortsatta blödningar efter missfall
+# post_id = 6663883
+# post_date = 2006-01-27 20:32:03
+# username = soso
+# sent_id = 408237c9e
+1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+3	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17661953
+# post_date = 2007-02-21 09:10:20
+# username = soso
+# sent_id = e05a3991a
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	haft	|ha|	VB	_	VB.SUP.AKT	2	VG	|ha..vb.1|
+4	3	|	RG	_	RG.NOM	6	DT	|
+5	tidiga	|tidig|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	6	AT	|tidig..av.1|
+6	missfall	|missfall|	NN	_	NN.NEU.PLU.IND.NOM	3	OO	|missfall..nn.1|
+7	i	|i|	PP	_	PP	3	RA	|i..pp.1|
+8	v6-7	|	RG	_	RG.NOM	7	PA	|
+9	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17661953
+# post_date = 2007-02-21 09:10:20
+# username = soso
+# sent_id = e05a03c11
+1	Först	|först|	AB	_	AB	2	CA	|först..ab.1|
+2	missfallet	|missfall|	NN	_	NN.NEU.SIN.DEF.NOM	3	TA	|missfall..nn.1|
+3	blödde	|blöda|	VB	_	VB.PRT.AKT	0	ROOT	|blöda..vb.1|
+4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
+5	först	|först|	AB	_	AB	3	CA	|först..ab.1|
+6	sparsamt	|sparsam|	AB	_	AB.POS	3	TA	|sparsam..av.1|
+7	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	9	DT	|en..al.1|
+8	första	|	RO	_	RO.NOM	9	DT	|
+9	dagarna	|dag|	NN	_	NN.UTR.PLU.DEF.NOM	3	TA	|dag..nn.1|
+10	,	|	MID	_	MID	3	IK	|
+11	sedan	|sedan|	PP	_	PP	3	TA	|sedan..pp.1|
+12	2-3	|	RG	_	RG.NOM	13	DT	|
+13	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	11	PA	|dag..nn.1|
+14	som	|	KN	_	KN	13	ET	|
+15	mens	|mens|	NN	_	NN.UTR.SIN.IND.NOM	14	UA	|mens..nn.1|
+16	,	|	MID	_	MID	3	IK	|
+17	sedan	|sedan|	AB	_	AB	18	TA	|sedan..ab.1|
+18	blev	|bli|	VB	_	VB.PRT.AKT	3	MS	|bli..vb.1|
+19	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	18	FS	|den..pn.1|
+20	mindre	|föga|lite|liten|	AB	_	AB.KOM	21	AA	|föga..ab.1|lite..ab.1|liten..av.1|
+21	bruna	|brun|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	22	AT	|brun..av.1|
+22	blödningar	|blödning|	NN	_	NN.UTR.PLU.IND.NOM	18	XX	|blödning..nn.1|
+23	som	|	HP	_	HP.-.-.-	24	SS	|
+24	höll	|hålla|hålla i sig|hålla sig|	VB	_	VB.PRT.AKT	22	EF	|hålla..vb.1|hålla_i_sig..vbm.1|hålla_sig..vbm.1|
+25	i	|hålla i sig:24|	PL	_	PL	24	PL	|hålla_i_sig..vbm.1:24|
+26	sig	|sig|hålla i sig:24|hålla sig:24|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	24	OO	|sig..pn.1|hålla_i_sig..vbm.1:24|hålla_sig..vbm.1:24|
+27	i	|i|	PP	_	PP	24	TA	|i..pp.1|
+28	7	|	RG	_	RG.NOM	29	DT	|
+29	veckor	|vecka|	NN	_	NN.UTR.PLU.IND.NOM	27	PA	|vecka..nn.1|
+30	.	|	MAD	_	MAD	18	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17661953
+# post_date = 2007-02-21 09:10:20
+# username = soso
+# sent_id = e05a1f3dd
+1	Var	|vara|	VB	_	VB.PRT.AKT	7	MS	|vara..vb.1|
+2	på	|på|	PP	_	PP	1	AA	|på..pp.1|
+3	kontroller	|kontroll|	NN	_	NN.UTR.PLU.IND.NOM	2	PA	|kontroll..nn.2|
+4	ett	|en|ett par|	DT	_	DT.NEU.SIN.IND	6	DT	|en..al.1|ett_par..pnm.1|
+5	par	|par|ett par:4|	NN	_	NN.NEU.SIN.IND.NOM	4	HD	|par..nn.1|ett_par..pnm.1:4|
+6	gånger	|gång|	NN	_	NN.UTR.PLU.IND.NOM	1	SP	|gång..nn.2|
+7	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+8	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	9	SS	|de..pn.1|
+9	hittade	|hitta|	VB	_	VB.PRT.AKT	7	MS	|hitta..vb.1|
+10	inget	|ingen|	DT	_	DT.NEU.SIN.IND	11	DT	|ingen..pn.1|
+11	fel	|fel|	NN	_	NN.NEU.SIN.IND.NOM	9	OO	|fel..nn.1|fel..nn.2|
+12	.	|	MAD	_	MAD	7	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17661953
+# post_date = 2007-02-21 09:10:20
+# username = soso
+# sent_id = e05ace247
+1	Andra	|	RO	_	RO.NOM	2	DT	|
+2	missfallet	|missfall|	NN	_	NN.NEU.SIN.DEF.NOM	15	SS	|missfall..nn.1|
+3	,	|	MID	_	MID	2	IK	|
+4	snarlikt	|snarlik|	AB	_	AB.POS	6	AA	|snarlik..av.1|
+5	det	|den|en|	DT	_	DT.NEU.SIN.DEF	6	DT	|den..pn.1|en..al.1|
+6	första	|	RO	_	RO.NOM	2	AN	|
+7	fast	|	SN	_	SN	15	AA	|
+8	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|jag..pn.1|
+9	blödde	|blöda|	VB	_	VB.PRT.AKT	7	UA	|blöda..vb.1|
+10	lite	|lite|	AB	_	AB.POS	11	AA	|lite..ab.1|
+11	mer	|mer|mycket|	AB	_	AB.KOM	9	AA	|mer..ab.1|mycket..ab.1|
+12	hela	|hel|hela tiden|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	13	DT	|hel..av.1|hela_tiden..abm.1|
+13	tiden	|tid|hela tiden:12|	NN	_	NN.UTR.SIN.DEF.NOM	9	TA	|tid..nn.1|hela_tiden..abm.1:12|
+14	,	|	MID	_	MID	2	IK	|
+15	blödde	|blöda|	VB	_	VB.PRT.AKT	20	TA	|blöda..vb.1|
+16	i	|i|	PP	_	PP	15	TA	|i..pp.1|
+17	6	|	RG	_	RG.NOM	18	DT	|
+18	veckor	|vecka|	NN	_	NN.UTR.PLU.IND.NOM	16	PA	|vecka..nn.1|
+19	sedan	|sedan|	AB	_	AB	16	HD	|sedan..ab.1|
+20	fick	|få|	VB	_	VB.PRT.AKT	0	ROOT	|få..vb.1|
+21	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|jag..pn.1|
+22	tabletter	|tablett|	NN	_	NN.UTR.PLU.IND.NOM	20	OO	|tablett..nn.1|
+23	som	|	HP	_	HP.-.-.-	24	SS	|
+24	stoppade	|stoppa|	VB	_	VB.PRT.AKT	26	CJ	|stoppa..vb.1|
+25	blödningen	|blödning|	NN	_	NN.UTR.SIN.DEF.NOM	24	OO	|blödning..nn.1|
+26	och	|och|	KN	_	KN	22	ET	|och..kn.1|
+27	som	|	HP	_	HP.-.-.-	28	SS	|
+28	skulle	|skola|	VB	_	VB.PRT.AKT	26	CJ	|skola..vb.2|
+29	pusha	|pusha|	VB	_	VB.INF.AKT	28	VG	|pusha..vb.1|
+30	igång	|igång|	PL	_	PL	29	PL	|igång..ab.1|
+31	en	|en|	DT	_	DT.UTR.SIN.IND	33	DT	|en..al.1|
+32	riktigt	|riktig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	33	AT	|riktig..av.1|
+33	mens	|mens|	NN	_	NN.UTR.SIN.IND.NOM	29	OO	|mens..nn.1|
+34	(	|	PAD	_	PAD	33	IR	|
+35	vilket	|	HP	_	HP.NEU.SIN.IND	38	SS	|
+36	inte	|inte|	AB	_	AB	38	NA	|inte..ab.1|
+37	riktigt	|riktig|	AB	_	AB	38	AA	|riktig..av.1|
+38	gick	|gå|	VB	_	VB.PRT.AKT	33	ET	|gå..vb.1|
+39	förrän	|	PP	_	PP	38	TA	|
+40	vid	|vid|	PP	_	PP	38	TA	|vid..pp.1|
+41	andra	|andra|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	42	DT	|andra..av.1|
+42	omgången	|omgång|	NN	_	NN.UTR.SIN.DEF.NOM	43	DT	|omgång..nn.1|
+43	tabletter	|tablett|	NN	_	NN.UTR.PLU.IND.NOM	40	PA	|tablett..nn.1|
+44	)	|	PAD	_	PAD	33	JR	|
+45	.	|	MAD	_	MAD	20	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17661953
+# post_date = 2007-02-21 09:10:20
+# username = soso
+# sent_id = e05a17791
+1	Tredje	|	RO	_	RO.NOM	2	DT	|
+2	missfallet	|missfall|	NN	_	NN.NEU.SIN.DEF.NOM	3	SS	|missfall..nn.1|
+3	,	|	MID	_	MID	0	ROOT	|
+4	bruna	|brun|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	5	AT	|brun..av.1|
+5	småblödningar	|småblödning|	NN	_	NN.UTR.PLU.IND.NOM	3	CJ	|
+6	i	|i|	PP	_	PP	5	ET	|i..pp.1|
+7	3	|	RG	_	RG.NOM	8	DT	|
+8	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	6	PA	|dag..nn.1|
+9	,	|	MID	_	MID	3	FP	|
+10	2-3	|	RG	_	RG.NOM	11	DT	|
+11	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	13	DT	|dag..nn.1|
+12	mycket	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	13	DT	|
+13	blödning	|blödning|	NN	_	NN.UTR.SIN.IND.NOM	3	CJ	|blödning..nn.1|
+14	,	|	MID	_	MID	3	IK	|
+15	sedan	|sedan|	PP	_	PP	3	TA	|sedan..pp.1|
+16	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	17	DT	|någon..pn.1|
+17	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	15	PA	|dag..nn.1|
+18	där	|där|	HA	_	HA	20	RA	|där..ab.1|
+19	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	20	SS	|den..pn.1|
+20	avtog	|avta|	VB	_	VB.PRT.AKT	17	ET	|avta..vb.1|
+21	.	|	MAD	_	MAD	3	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17661953
+# post_date = 2007-02-21 09:10:20
+# username = soso
+# sent_id = e05a8eca8
+1	Blödde	|blöda|	VB	_	VB.PRT.AKT	0	ROOT	|blöda..vb.1|
+2	ca	|ca|	AB	_	AB.AN	3	AA	|ca..aba.1|
+3	1	|	RG	_	RG.NOM	4	DT	|
+4	1	|	RG	_	RG.NOM	7	DT	|
+5	/	|	MID	_	MID	4	ET	|
+6	2	|	RG	_	RG.NOM	7	DT	|
+7	vecka	|vecka|	NN	_	NN.UTR.SIN.IND.NOM	1	TA	|vecka..nn.1|
+8	.	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17661953
+# post_date = 2007-02-21 09:10:20
+# username = soso
+# sent_id = e05a1d23d
+1	Till	|till|	PP	_	PP	5	OA	|till..pp.1|
+2	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	1	PA	|jag..pn.1|
+3	har	|ha|	VB	_	VB.PRS.AKT	25	MS	|ha..vb.1|
+4	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	3	SS	|de..pn.1|
+5	sagt	|säga|	VB	_	VB.SUP.AKT	3	VG	|säga..vb.1|
+6	att	|att|	SN	_	SN	5	OO	|att..sn.1|
+7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
+8	inte	|inte|	AB	_	AB	9	NA	|inte..ab.1|
+9	är	|vara|	VB	_	VB.PRS.AKT	6	UA	|vara..vb.1|
+10	"	|	PAD	_	PAD	11	IC	|
+11	farligt	|farlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	9	SP	|farlig..av.1|
+12	"	|	PAD	_	PAD	9	JC	|
+13	eller	|eller|	KN	_	KN	9	SP	|eller..kn.1|
+14	onormalt	|onormal|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	13	CJ	|onormal..av.1|
+15	att	|att|	IE	_	IE	14	OA	|att..sn.1|
+16	blöda	|blöda|	VB	_	VB.INF.AKT	15	IF	|blöda..vb.1|
+17	så	|så|så länge|	AB	_	AB	16	TA	|så..ab.1|så_länge..abm.1|
+18	länge	|länge|så länge:17|	AB	_	AB.POS	17	HD	|länge..ab.1|så_länge..abm.1:17|
+19	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|jag..pn.1|
+20	gjorde	|göra|	VB	_	VB.PRT.AKT	17	UA	|göra..vb.1|
+21	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	23	DT	|en..al.1|
+22	första	|	RO	_	RO.NOM	23	DT	|
+23	gångerna	|gång|	NN	_	NN.UTR.PLU.DEF.NOM	20	OO	|gång..nn.2|
+24	,	|	MID	_	MID	25	IK	|
+25	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+26	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	27	SS	|den..pn.1|
+27	är	|vara|	VB	_	VB.PRS.AKT	25	MS	|vara..vb.1|
+28	rätt	|rätt|	AB	_	AB	29	AA	|rätt..ab.1|rätt..av.1|
+29	ovanligt	|ovanlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	27	SP	|ovanlig..av.1|
+30	.	|	MAD	_	MAD	25	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17670358
+# post_date = 2007-02-21 12:17:20
+# username = soso
+# sent_id = e05a21b24
+1	Snö	|snö|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|snö..nn.1|
+2	:	|	MID	_	MID	1	IQ	|
+3	De	|en|	DT	_	DT.UTR+NEU.PLU.DEF	5	DT	|en..al.1|
+4	flesta	|mången|	JJ	_	JJ.SUV.UTR+NEU.PLU.DEF.NOM	5	DT	|mången..pn.1|
+5	läkare	|läkare|	NN	_	NN.UTR.PLU.IND.NOM	6	SS	|läkare..nn.1|
+6	verkar	|verka|	VB	_	VB.PRS.AKT	1	MS	|verka..vb.1|
+7	rekommendera	|rekommendera|	VB	_	VB.INF.AKT	6	VG	|rekommendera..vb.1|
+8	att	|att|	SN	_	SN	7	OO	|att..sn.1|
+9	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	10	SS	|man..pn.1|
+10	väntar	|vänta|vänta in|	VB	_	VB.PRS.AKT	8	UA	|vänta..vb.1|vänta_in..vbm.1|
+11	in	|in|vänta in:10|	PL	_	PL	10	PL	|in..ab.1|vänta_in..vbm.1:10|
+12	en	|en|	DT	_	DT.UTR.SIN.IND	13	DT	|en..al.1|
+13	mens	|mens|	NN	_	NN.UTR.SIN.IND.NOM	10	OO	|mens..nn.1|
+14	innan	|innan|	SN	_	SN	10	TA	|innan..sn.1|
+15	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	16	SS	|man..pn.1|
+16	försöker	|försöka|	VB	_	VB.PRS.AKT	14	UA	|försöka..vb.1|
+17	igen	|igen|	PL	_	PL	16	PL	|igen..ab.1|igen..ab.2|
+18	för	|för|	PP	_	PP	16	AA	|för..pp.1|
+19	att	|att|	IE	_	IE	18	PA	|att..sn.1|
+20	låta	|låta|	VB	_	VB.INF.AKT	19	IF	|låta..vb.1|
+21	kroppen	|kropp|	NN	_	NN.UTR.SIN.DEF.NOM	20	OO	|kropp..nn.1|
+22	läka	|läka|	VB	_	VB.INF.AKT	20	OO	|läka..vb.1|
+23	.	|	MAD	_	MAD	6	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17670358
+# post_date = 2007-02-21 12:17:20
+# username = soso
+# sent_id = e05ab0155
+1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	andra	|annan|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	3	SS	|annan..pn.1|
+3	säger	|säga|	VB	_	VB.PRS.AKT	1	MS	|säga..vb.1|
+4	att	|att|	SN	_	SN	3	OO	|att..sn.1|
+5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	FS	|den..pn.1|
+6	är	|vara|	VB	_	VB.PRS.AKT	4	UA	|vara..vb.1|
+7	ok	|ok|	NN	_	NN.NEU.SIN.IND.NOM	6	SP	|ok..nn.1|
+8	att	|att|	IE	_	IE	6	ES	|att..sn.1|
+9	försöka	|försöka|	VB	_	VB.INF.AKT	8	IF	|försöka..vb.1|
+10	direkt	|direkt|	AB	_	AB.POS	9	AA	|direkt..ab.1|direkt..av.1|
+11	.	|	MAD	_	MAD	3	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17670358
+# post_date = 2007-02-21 12:17:20
+# username = soso
+# sent_id = e05a5fafb
+1	Beror	|bero|	VB	_	VB.PRS.AKT	0	ROOT	|bero..vb.1|
+2	nog	|nog|	AB	_	AB	1	MA	|nog..ab.1|
+3	mycket	|mycket|	AB	_	AB.POS	1	AA	|mycket..ab.1|
+4	på	|på|	PP	_	PP	1	OA	|på..pp.1|
+5	hur	|hur|	HA	_	HA	7	AA	|hur..ab.1|
+6	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|du..pn.1|
+7	mår	|må|	VB	_	VB.PRS.AKT	4	PA	|må..vb.1|
+8	fysiskt	|fysisk|	AB	_	AB.POS	9	CJ	|fysisk..av.1|
+9	och	|och|	KN	_	KN	7	AA	|och..kn.1|
+10	psykiskt	|psykisk|	AB	_	AB.POS	9	CJ	|psykisk..av.1|
+11	.	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17670358
+# post_date = 2007-02-21 12:17:20
+# username = soso
+# sent_id = e05ace27f
+1	Eftersom	|eftersom|	SN	_	SN	7	AA	|eftersom..sn.1|
+2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
+3	blödde	|blöda|	VB	_	VB.PRT.AKT	1	UA	|blöda..vb.1|
+4	så	|så|så länge|	AB	_	AB	5	AA	|så..ab.1|så_länge..abm.1|
+5	länge	|länge|så länge:4|	AB	_	AB.POS	3	TA	|länge..ab.1|så_länge..abm.1:4|
+6	så	|så|	AB	_	AB	7	DB	|så..ab.1|
+7	väntade	|vänta|vänta in|	VB	_	VB.PRT.AKT	16	MS	|vänta..vb.1|vänta_in..vbm.1|
+8	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
+9	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	7	SS	|vi..pn.1|
+10	in	|in|vänta in:7|	PL	_	PL	7	PL	|in..ab.1|vänta_in..vbm.1:7|
+11	en	|en|	DT	_	DT.UTR.SIN.IND	7	OO	|en..al.1|
+12	extra	|extra|	AB	_	AB	13	AA	|extra..ab.1|
+13	vid	|vid|	PP	_	PP	7	TA	|vid..pp.1|
+14	första	|	RO	_	RO.NOM	13	PA	|
+15	(	|	PAD	_	PAD	7	IR	|
+16	fast	|fast|	KN	_	KN	0	ROOT	|fast..kn.1|
+17	sen	|sen|	AB	_	AB	18	TA	|sen..ab.1|
+18	dröjde	|dröja|	VB	_	VB.PRT.AKT	16	MS	|dröja..vb.1|
+19	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	18	SS	|den..pn.1|
+20	ändå	|ändå|	AB	_	AB	18	+A	|ändå..ab.1|
+21	6-7	|	RG	_	RG.NOM	22	DT	|
+22	månader	|månad|	NN	_	NN.UTR.PLU.IND.NOM	18	TA	|månad..nn.1|
+23	innan	|innan|	SN	_	SN	18	TA	|innan..sn.1|
+24	nästa	|nästa|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	25	DT	|nästa..av.1|
+25	grav	|grav|	NN	_	NN.UTR.SIN.IND.NOM	28	SS	|grav..nn.1|
+26	så	|så|	AB	_	AB	28	TA	|så..ab.1|
+27	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	28	SS	|den..pn.1|
+28	spelade	|spela|spela roll|	VB	_	VB.PRT.AKT	23	UA	|spela..vb.1|spela..vb.2|spela_roll..vbm.1|
+29	ju	|ju|	AB	_	AB	28	MA	|ju..ab.1|
+30	mindre	|liten|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	31	AT	|liten..av.1|
+31	roll	|roll|spela roll:28|	NN	_	NN.UTR.SIN.IND.NOM	28	OO	|roll..nn.1|roll..nn.2|spela_roll..vbm.1:28|
+32	)	|	PAD	_	PAD	18	JR	|
+33	.	|	MAD	_	MAD	16	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17670358
+# post_date = 2007-02-21 12:17:20
+# username = soso
+# sent_id = e05a967a9
+1	Vid	|vid|	PP	_	PP	3	CJ	|vid..pp.1|
+2	andra	|annan|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	1	PA	|annan..pn.1|
+3	och	|och|	KN	_	KN	8	TA	|och..kn.1|
+4	nu	|nu|	AB	_	AB	3	CJ	|nu..ab.1|
+5	vid	|vid|	PP	_	PP	3	CJ	|vid..pp.1|
+6	tredje	|	RO	_	RO.NOM	5	PA	|
+7	så	|så|	AB	_	AB	8	DB	|så..ab.1|
+8	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+9	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	8	SS	|vi..pn.1|
+10	väntat	|vänta|vänta in|	VB	_	VB.SUP.AKT	8	VG	|vänta..vb.1|vänta_in..vbm.1|
+11	in	|in|vänta in:10|	PL	_	PL	10	PL	|in..ab.1|vänta_in..vbm.1:10|
+12	en	|en|	DT	_	DT.UTR.SIN.IND	13	DT	|en..al.1|
+13	mens	|mens|	NN	_	NN.UTR.SIN.IND.NOM	10	OO	|mens..nn.1|
+14	innan	|innan|	SN	_	SN	10	TA	|innan..sn.1|
+15	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	16	SS	|vi..pn.1|
+16	försökt	|försöka|	VB	_	VB.SUP.AKT	14	UA	|försöka..vb.1|
+17	igen	|igen|	PL	_	PL	16	PL	|igen..ab.1|igen..ab.2|
+18	...	|	MAD	_	MAD	10	IG	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17672878
+# post_date = 2007-02-21 13:11:18
+# username = soso
+# sent_id = e05a5d9ed
+1	Gurlie	|	PM	_	PM.NOM	0	ROOT	|
+2	:	|	MID	_	MID	1	IQ	|
+3	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+4	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
+5	hört	|höra|	VB	_	VB.SUP.AKT	4	VG	|höra..vb.1|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	OO	|den..pn.1|
+7	också	|också|	AB	_	AB	5	+A	|också..ab.1|
+8	!	|	MAD	_	MAD	4	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17672878
+# post_date = 2007-02-21 13:11:18
+# username = soso
+# sent_id = e05a87782
+1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
+3	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
+4	också	|också|	AB	_	AB	3	+A	|också..ab.1|
+5	hört	|höra|	VB	_	VB.SUP.AKT	3	VG	|höra..vb.1|
+6	att	|att|	SN	_	SN	5	OO	|att..sn.1|
+7	i	|i|	PP	_	PP	10	RA	|i..pp.1|
+8	USA	|USA|	PM	_	PM.NOM	7	PA	|USA..pma.1|
+9	så	|så|	AB	_	AB	10	AA	|så..ab.1|
+10	rekommenderar	|rekommendera|	VB	_	VB.PRS.AKT	6	UA	|rekommendera..vb.1|
+11	läkarna	|läkare|	NN	_	NN.UTR.PLU.DEF.NOM	10	OO	|läkare..nn.1|
+12	att	|att|	SN	_	SN	10	OO	|att..sn.1|
+13	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	14	SS	|man..pn.1|
+14	väntar	|vänta|	VB	_	VB.PRS.AKT	12	UA	|vänta..vb.1|
+15	i	|i|	PP	_	PP	14	TA	|i..pp.1|
+16	3	|	RG	_	RG.NOM	17	DT	|
+17	månader	|månad|	NN	_	NN.UTR.PLU.IND.NOM	15	PA	|månad..nn.1|
+18	för	|för|	PP	_	PP	14	AA	|för..pp.1|
+19	att	|att|	SN	_	SN	18	PA	|att..sn.1|
+20	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	21	FS	|den..pn.1|
+21	finns	|finna|finnas|	VB	_	VB.PRS.SFO	19	UA	|finna..vb.1|finnas..vb.1|
+22	en	|en|	DT	_	DT.UTR.SIN.IND	26	DT	|en..al.1|
+23	något	|	AB	_	AB	24	AA	|
+24	liten	|liten|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	26	AT	|liten..av.1|
+25	ökad	|öka|	PC	_	PC.PRF.UTR.SIN.IND.NOM	26	AT	|öka..vb.2|
+26	risk	|risk|	NN	_	NN.UTR.SIN.IND.NOM	21	ES	|risk..nn.1|
+27	för	|för|	PP	_	PP	21	OA	|för..pp.1|
+28	missfall	|missfall|	NN	_	NN.NEU.PLU.IND.NOM	27	PA	|missfall..nn.1|
+29	om	|om|	SN	_	SN	21	AA	|om..sn.1|
+30	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	31	SS	|man..pn.1|
+31	provar	|prova|	VB	_	VB.PRS.AKT	29	UA	|prova..vb.1|
+32	för	|för|	AB	_	AB	33	AA	|för..ab.1|
+33	tätt	|tät|tätt|	AB	_	AB.POS	31	AA	|tät..av.1|tätt..ab.1|
+34	inpå	|inpå|	PP	_	PP	31	RA	|inpå..pp.1|
+35	,	|	MID	_	MID	3	IK	|
+36	anser	|anse|	VB	_	VB.PRS.AKT	3	MS	|anse..vb.1|
+37	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	36	SS	|de..pn.1|
+38	...	|	MID	_	MID	36	IG	|
+39	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	40	DT	|
+40	åsikter	|åsikt|	NN	_	NN.UTR.PLU.IND.NOM	41	CJ	|åsikt..nn.1|
+41	och	|och|	KN	_	KN	36	OO	|och..kn.1|
+42	ingen	|ingen|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	41	CJ	|ingen..pn.1|
+43	som	|	HP	_	HP.-.-.-	45	SS	|
+44	riktigt	|riktig|	AB	_	AB	45	AA	|riktig..av.1|
+45	vet	|veta|	VB	_	VB.PRS.AKT	42	ET	|veta..vb.1|
+46	tror	|tro|	VB	_	VB.PRS.AKT	45	MA	|tro..vb.1|
+47	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	46	SS	|jag..pn.1|
+48	.	|	MAD	_	MAD	3	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 17660228
+# thread_title = Ni som har fått MissFall!
+# post_id = 17672878
+# post_date = 2007-02-21 13:11:18
+# username = soso
+# sent_id = e05aff969
+1	I	|i|	PP	_	PP	12	RA	|i..pp.1|
+2	ett	|en|	DT	_	DT.NEU.SIN.IND	4	DT	|en..al.1|
+3	tidigt	|tidig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	AT	|tidig..av.1|
+4	missfall	|missfall|	NN	_	NN.NEU.SIN.IND.NOM	1	PA	|missfall..nn.1|
+5	som	|	HP	_	HP.-.-.-	7	SS	|
+6	"	|	PAD	_	PAD	7	IC	|
+7	går	|gå|	VB	_	VB.PRS.AKT	4	ET	|gå..vb.1|
+8	som	|som|	HA	_	HA	7	TA	|som..ab.1|
+9	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	SS	|den..pn.1|
+10	ska	|skola|	VB	_	VB.PRS.AKT	8	UA	|skola..vb.2|
+11	"	|	PAD	_	PAD	10	VG	|
+12	tror	|tro|	VB	_	VB.PRS.AKT	0	ROOT	|tro..vb.1|
+13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|jag..pn.1|
+14	nog	|nog|	AB	_	AB	12	MA	|nog..ab.1|
+15	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	16	SS	|man..pn.1|
+16	kan	|kunna|	VB	_	VB.PRS.AKT	20	CJ	|kunna..vb.1|
+17	köra	|köra|köra om|	VB	_	VB.INF.AKT	16	VG	|köra..vb.1|köra_om..vbm.1|
+18	direkt	|direkt|	AB	_	AB.POS	17	AA	|direkt..ab.1|direkt..av.1|
+19	,	|	MID	_	MID	20	IK	|
+20	men	|men|	KN	_	KN	12	OO	|men..kn.1|
+21	om	|om|köra om:17|	SN	_	SN	20	CJ	|om..sn.1|köra_om..vbm.1:17|
+22	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	23	SS	|den..pn.1|
+23	är	|vara|	VB	_	VB.PRS.AKT	21	UA	|vara..vb.1|
+24	jobbigare	|jobbig|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	26	AA	|jobbig..av.1|
+25	rent	|ren|	AB	_	AB.POS	26	AA	|ren..av.1|
+26	fysiskt	|fysisk|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	23	SP	|fysisk..av.1|
+27	så	|så|	AB	_	AB	23	AA	|så..ab.1|
+28	kanske	|kanske|	AB	_	AB	31	MA	|kanske..ab.1|
+29	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	31	SS	|den..pn.1|
+30	inte	|inte|	AB	_	AB	31	NA	|inte..ab.1|
+31	skadar	|skada|	VB	_	VB.PRS.AKT	27	UA	|skada..vb.1|
+32	att	|att|	IE	_	IE	31	OO	|att..sn.1|
+33	vänta	|vänta|	VB	_	VB.INF.AKT	32	IF	|vänta..vb.1|
+34	...	|	MAD	_	MAD	20	IG	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 20582090
+# thread_title = Trodde inte det skulle hända en gång till!
+# post_id = 20605631
+# post_date = 2007-05-11 08:59:12
+# username = soso
+# sent_id = e05a411d2
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+3	orättvist	|orättvis|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	CJ	|orättvis..av.1|
+4	och	|och|	KN	_	KN	2	SP	|och..kn.1|
+5	förjävligt	|förjävlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	CJ	|
+6	,	|	MID	_	MID	2	IK	|
+7	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
+8	vet	|veta|	VB	_	VB.PRS.AKT	2	TA	|veta..vb.1|
+9	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 20582090
+# thread_title = Trodde inte det skulle hända en gång till!
+# post_id = 20605631
+# post_date = 2007-05-11 08:59:12
+# username = soso
+# sent_id = e05a04e1d
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	också	|också|	AB	_	AB	2	+A	|också..ab.1|
+4	varit	|vara|	VB	_	VB.SUP.AKT	2	VG	|vara..vb.1|
+5	där	|där|	AB	_	AB	4	RA	|där..ab.1|
+6	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Missfall
+# subsubforum_id = Missfall
+# thread_id = 20582090
+# thread_title = Trodde inte det skulle hända en gång till!
+# post_id = 20605631
+# post_date = 2007-05-11 08:59:12
+# username = soso
+# sent_id = e05a30a9a
+1	Kram	|	IN	_	IN	0	ROOT	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 10396822
+# thread_title = Jag önskar mig en liten hobby
+# post_id = 10402545
+# post_date = 2006-06-27 09:54:01
+# username = soso
+# sent_id = f06933f15
+1	Göra	|göra|	VB	_	VB.INF.AKT	0	ROOT	|göra..vb.1|
+2	egna	|egen|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	3	DT	|egen..av.1|
+3	smycken	|smycke|	NN	_	NN.NEU.PLU.IND.NOM	1	OO	|smycke..nn.1|
+4	kanske	|kanske|	AB	_	AB	1	MA	|kanske..ab.1|
+5	?	|	MAD	_	MAD	1	I?	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 10396822
+# thread_title = Jag önskar mig en liten hobby
+# post_id = 10402545
+# post_date = 2006-06-27 09:54:01
+# username = soso
+# sent_id = f069d3328
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	PA	|den..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+4	fastnat	|fastna|	VB	_	VB.SUP.AKT	2	VG	|fastna..vb.1|
+5	i	|i|	PP	_	PP	4	RA	|i..pp.1|
+6	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 10396822
+# thread_title = Jag önskar mig en liten hobby
+# post_id = 10402545
+# post_date = 2006-06-27 09:54:01
+# username = soso
+# sent_id = f069fda00
+1	Går	|gå|	VB	_	VB.PRS.AKT	13	AA	|gå..vb.1|
+2	jättebra	|jättebra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	1	SP	|jättebra..av.1|
+3	att	|att|	IE	_	IE	1	OA	|att..sn.1|
+4	beställa	|beställa|	VB	_	VB.INF.AKT	3	IF	|beställa..vb.1|beställa..vb.2|
+5	pärlor	|pärla|	NN	_	NN.UTR.PLU.IND.NOM	4	OO	|pärla..nn.1|
+6	på	|på|	PP	_	PP	4	RA	|på..pp.1|
+7	nätet	|nät|	NN	_	NN.NEU.SIN.DEF.NOM	6	PA	|nät..nn.1|
+8	...	|	MID	_	MID	1	IG	|
+9	Om	|om|	SN	_	SN	1	AA	|om..sn.1|
+10	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|du..pn.1|
+11	vill	|vilja|	VB	_	VB.PRS.AKT	9	UA	|vilja..vb.1|
+12	så	|så|	AB	_	AB	13	DB	|så..ab.1|
+13	får	|få|	VB	_	VB.PRS.AKT	0	ROOT	|få..vb.1|
+14	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|du..pn.1|
+15	gärna	|gärna|	AB	_	AB.POS	13	MA	|gärna..ab.1|
+16	kika	|kika|	VB	_	VB.INF.AKT	13	VG	|kika..vb.1|
+17	in	|in|in i|	PL	_	PL	16	PL	|in..ab.1|in_i..ppm.1|
+18	i	|i|in i:17|	PP	_	PP	16	RA	|i..pp.1|in_i..ppm.1:17|
+19	smyckestråden	|smyckestråd|	NN	_	NN.UTR.SIN.DEF.NOM	18	PA	|
+20	här	|här|	AB	_	AB	19	ET	|här..ab.1|
+21	på	|på|	PP	_	PP	16	TA	|på..pp.1|
+22	fm	|	NN	_	NN.AN	21	PA	|
+23	-	|	MID	_	MID	21	PA	|
+24	www.familjeliv.se/Forum-5-179/m9350843.html	|	RG	_	RG.NOM	23	CJ	|
+25	.	|	MAD	_	MAD	13	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 10396822
+# thread_title = Jag önskar mig en liten hobby
+# post_id = 10402545
+# post_date = 2006-06-27 09:54:01
+# username = soso
+# sent_id = f069b824d
+1	Tycker	|tycka|	VB	_	VB.PRS.AKT	6	AA	|tycka..vb.1|
+2	"	|	PAD	_	PAD	1	SS	|
+3	Anonym	|anonym|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	1	OP	|anonym..av.1|
+4	"	|	PAD	_	PAD	3	JC	|
+5	ovan	|ovan|	AB	_	AB	1	RA	|ovan..ab.1|
+6	ger	|ge|	VB	_	VB.PRS.AKT	0	ROOT	|ge..vb.1|
+7	ett	|en|	DT	_	DT.NEU.SIN.IND	9	DT	|en..al.1|
+8	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	9	AT	|bra..av.2|
+9	tips	|tips|	NN	_	NN.NEU.SIN.IND.NOM	6	OO	|tips..nn.1|
+10	om	|om|	SN	_	SN	6	AA	|om..sn.1|
+11	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|du..pn.1|
+12	har	|ha|	VB	_	VB.PRS.AKT	10	UA	|ha..vb.1|
+13	bakong	|	NN	_	NN.UTR.SIN.IND.NOM	14	CJ	|
+14	eller	|eller|	KN	_	KN	12	OO	|eller..kn.1|
+15	trädgård	|trädgård|	NN	_	NN.UTR.SIN.IND.NOM	14	CJ	|trädgård..nn.1|
+16	.	|	MAD	_	MAD	6	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 10396822
+# thread_title = Jag önskar mig en liten hobby
+# post_id = 10402545
+# post_date = 2006-06-27 09:54:01
+# username = soso
+# sent_id = f0695ec91
+1	Att	|att|	IE	_	IE	5	SS	|att..sn.1|
+2	pyssla	|pyssla|	VB	_	VB.INF.AKT	1	IF	|pyssla..vb.1|
+3	med	|med|	PP	_	PP	2	OA	|med..pp.1|
+4	växter	|växt|	NN	_	NN.UTR.PLU.IND.NOM	3	PA	|växt..nn.1|
+5	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
+6	väldigt	|väldig|	AB	_	AB.POS	7	AA	|väldig..av.1|
+7	rogivande	|rogivande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	5	SP	|rogivande..av.1|
+8	.	|	MAD	_	MAD	5	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Psykisk ohälsa
+# subsubforum_id = Psykisk ohälsa
+# thread_id = 10396822
+# thread_title = Jag önskar mig en liten hobby
+# post_id = 10402545
+# post_date = 2006-06-27 09:54:01
+# username = soso
+# sent_id = f0699b718
+1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+3	!	|	MAD	_	MAD	2	PA	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 533704e85
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	låter	|låta|	VB	_	VB.PRS.AKT	0	ROOT	|låta..vb.1|
+3	jättejobbigt	|jättejobbig|	AB	_	AB.POS	2	AA	|jättejobbig..av.1|
+4	!	|	MAD	_	MAD	2	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 53379c931
+1	Vet	|veta|veta om|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|veta_om..vbm.1|
+2	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
+3	om	|om|veta om:1|	SN	_	SN	1	AA	|om..sn.1|veta_om..vbm.1:1|
+4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
+5	kan	|kunna|	VB	_	VB.PRS.AKT	3	UA	|kunna..vb.1|
+6	ge	|ge|	VB	_	VB.INF.AKT	5	VG	|ge..vb.1|
+7	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	8	DT	|någon..pn.1|
+8	råd	|råd|	NN	_	NN.NEU.PLU.IND.NOM	6	OO	|råd..nn.1|råd..nn.2|
+9	för	|för|	PP	_	PP	6	OA	|för..pp.1|
+10	att	|att|	IE	_	IE	9	PA	|att..sn.1|
+11	hjälpa	|hjälpa|	VB	_	VB.INF.AKT	10	IF	|hjälpa..vb.1|
+12	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	11	OO	|du..pn.1|
+13	dock	|dock|	AB	_	AB	11	+A	|dock..ab.1|
+14	...	|	MID	_	MID	15	IG	|
+15	ältandet	|ältande|	NN	_	NN.NEU.SIN.DEF.NOM	16	SS	|ältande..nn.1|
+16	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
+17	en	|en|en del|	DT	_	DT.UTR.SIN.IND	18	DT	|en..al.1|en_del..pnm.1|
+18	del	|del|en del:17|	NN	_	NN.UTR.SIN.IND.NOM	16	SS	|del..nn.1|en_del..pnm.1:17|
+19	av	|av|	PP	_	PP	18	ET	|av..pp.1|
+20	bearbetningsprocessen	|bearbetningsprocess|	NN	_	NN.UTR.SIN.DEF.NOM	19	PA	|
+21	så	|så|	AB	_	AB	16	AA	|så..ab.1|
+22	att	|att|	IE	_	IE	21	HD	|att..sn.1|
+23	älta	|älta|	VB	_	VB.INF.AKT	22	IF	|älta..vb.1|
+24	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	23	OO	|någon..pn.1|
+25	ibland	|ibland|	AB	_	AB	26	TA	|ibland..ab.1|
+26	är	|vara|	VB	_	VB.PRS.AKT	21	UA	|vara..vb.1|
+27	helt	|hel|helt|	AB	_	AB.POS	28	AA	|hel..av.1|helt..ab.1|
+28	naturligt	|naturlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	26	SP	|naturlig..av.1|
+29	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 5337e82a2
+1	Däremot	|däremot|	AB	_	AB	2	+A	|däremot..ab.1|
+2	låter	|låta|	VB	_	VB.PRS.AKT	12	MS	|låta..vb.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+4	lite	|lite|	AB	_	AB.POS	2	AA	|lite..ab.1|
+5	som	|	KN	_	KN	2	KA	|
+6	om	|om|	SN	_	SN	5	UA	|om..sn.1|
+7	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|du..pn.1|
+8	har	|ha|	VB	_	VB.PRS.AKT	6	UA	|ha..vb.1|
+9	fastnat	|fastna|	VB	_	VB.SUP.AKT	8	VG	|fastna..vb.1|
+10	i	|i|	PP	_	PP	9	RA	|i..pp.1|
+11	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	PA	|denna..pn.1|
+12	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+13	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	14	SS	|den..pn.1|
+14	var	|vara|	VB	_	VB.PRT.AKT	12	MS	|vara..vb.1|
+15	ju	|ju|	AB	_	AB	14	MA	|ju..ab.1|
+16	ändå	|ändå|	AB	_	AB	14	+A	|ändå..ab.1|
+17	relativt	|relativ|relativt|	AB	_	AB.POS	18	AA	|relativ..av.1|relativt..ab.1|
+18	länge	|länge|länge sedan|	AB	_	AB.POS	14	TA	|länge..ab.1|länge_sedan..abm.1|
+19	sedan	|sedan|länge sedan:18|	AB	_	AB	14	TA	|sedan..ab.1|länge_sedan..abm.1:18|
+20	.	|	MAD	_	MAD	12	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 5337b92db
+1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+2	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|du..pn.1|
+3	funderat	|fundera|	VB	_	VB.SUP.AKT	1	VG	|fundera..vb.1|
+4	på	|på|	PP	_	PP	3	OA	|på..pp.1|
+5	om	|om|	SN	_	SN	4	PA	|om..sn.1|
+6	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|du..pn.1|
+7	skulle	|skola|	VB	_	VB.PRT.AKT	5	UA	|skola..vb.2|
+8	kunna	|kunna|	VB	_	VB.INF.AKT	7	VG	|kunna..vb.1|
+9	kontakta	|kontakta|	VB	_	VB.INF.AKT	8	VG	|kontakta..vb.1|
+10	någon	|någon|	DT	_	DT.UTR.SIN.IND	11	DT	|någon..pn.1|
+11	psykolog	|psykolog|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|psykolog..nn.1|
+12	eller	|eller|	KN	_	KN	9	OO	|eller..kn.1|
+13	kanske	|kanske|	AB	_	AB	12	+F	|kanske..ab.1|
+14	en	|en|	DT	_	DT.UTR.SIN.IND	15	DT	|en..al.1|
+15	präst	|präst|	NN	_	NN.UTR.SIN.IND.NOM	12	CJ	|präst..nn.1|
+16	?	|	MAD	_	MAD	1	I?	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 5337223eb
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	låter	|låta|	VB	_	VB.PRS.AKT	0	ROOT	|låta..vb.1|
+3	som	|som|	HA	_	HA	2	KA	|som..ab.1|
+4	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|du..pn.1|
+5	skulle	|skola|	VB	_	VB.PRT.AKT	3	UA	|skola..vb.2|
+6	behövra	|	VB	_	VB.INF.AKT	5	VG	|
+7	prata	|prata|	VB	_	VB.INF.AKT	8	MS	|prata..vb.1|
+8	och	|och|	KN	_	KN	6	VG	|och..kn.1|
+9	reda	|reda|reda ut|	VB	_	VB.INF.AKT	8	CJ	|reda..vb.1|reda_ut..vbm.1|
+10	ut	|ut|reda ut:9|	PL	_	PL	9	PL	|ut..ab.1|reda_ut..vbm.1:9|
+11	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	OO	|den..pn.1|den_här..pnm.1|
+12	här	|här|den här:11|	AB	_	AB	11	HD	|här..ab.1|den_här..pnm.1:11|
+13	med	|med|	PP	_	PP	8	AA	|med..pp.1|
+14	någon	|någon|	DT	_	DT.UTR.SIN.IND	15	DT	|någon..pn.1|
+15	utomstående	|utomstående|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	13	PA	|utomstående..av.1|
+16	kanske	|kanske|	AB	_	AB	13	PA	|kanske..ab.1|
+17	?	|	MAD	_	MAD	2	I?	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 53373e9cd
+1	Att	|att|	IE	_	IE	18	SS	|att..sn.1|
+2	ge	|ge|ge sig|	VB	_	VB.INF.AKT	1	IF	|ge..vb.1|ge_sig..vbm.1|
+3	dig	|du|ge sig:2|	PN	_	PN.UTR.SIN.DEF.OBJ	2	IO	|du..pn.1|ge_sig..vbm.1:2|
+4	rådet	|råd|	NN	_	NN.NEU.SIN.DEF.NOM	2	OO	|råd..nn.1|råd..nn.2|
+5	att	|att|	IE	_	IE	4	ET	|att..sn.1|
+6	försöka	|försöka|	VB	_	VB.INF.AKT	5	IF	|försöka..vb.1|
+7	fokusera	|fokusera|	VB	_	VB.INF.AKT	6	OO	|fokusera..vb.1|
+8	på	|på|	PP	_	PP	7	OA	|på..pp.1|
+9	annat	|annan|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	8	PA	|annan..pn.1|
+10	,	|	MID	_	MID	7	IK	|
+11	gå	|gå|gå vidare|	VB	_	VB.INF.AKT	13	CJ	|gå..vb.1|gå_vidare..vbm.1|
+12	vidare	|vid|vidare|gå vidare:11|	AB	_	AB.KOM	11	AA	|vid..av.1|vidare..ab.1|gå_vidare..vbm.1:11|
+13	,	|	MID	_	MID	7	IK	|
+14	sätta	|sätta|sätta upp|	VB	_	VB.INF.AKT	11	+F	|sätta..vb.1|sätta_upp..vbm.1|
+15	upp	|upp|sätta upp:14|	PL	_	PL	14	PL	|upp..ab.1|sätta_upp..vbm.1:14|
+16	delmål	|delmål|	NN	_	NN.NEU.PLU.IND.NOM	14	OO	|
+17	etc	|etc|	AB	_	AB.AN	14	IV	|etc..aba.1|
+18	känns	|känna|kännas|	VB	_	VB.PRS.SFO	22	MS	|känna..vb.1|känna..vb.2|kännas..vb.1|
+19	lite	|lite|	AB	_	AB.POS	20	AA	|lite..ab.1|
+20	svårt	|svår|	AB	_	AB.POS	18	SP	|svår..av.1|
+21	,	|	MID	_	MID	22	IK	|
+22	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
+23	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	24	SS	|den..pn.1|
+24	har	|ha|	VB	_	VB.PRS.AKT	22	MS	|ha..vb.1|
+25	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	24	SS	|du..pn.1|
+26	säkert	|säker|	AB	_	AB.POS	24	MA	|säker..av.1|
+27	redan	|redan|	AB	_	AB	24	TA	|redan..ab.1|
+28	försökt	|försöka|	VB	_	VB.SUP.AKT	24	VG	|försöka..vb.1|
+29	(	|	PAD	_	PAD	28	IR	|
+30	och	|och|	KN	_	KN	22	++	|och..kn.1|
+31	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	32	SS	|den..pn.1|
+32	blir	|bli|	VB	_	VB.PRS.AKT	30	MS	|bli..vb.1|
+33	gärna	|gärna|	AB	_	AB.POS	32	MA	|gärna..ab.1|
+34	lite	|lite|	AB	_	AB.POS	35	AA	|lite..ab.1|
+35	klyshigt	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	32	SP	|
+36	)	|	PAD	_	PAD	30	JR	|
+37	.	|	MAD	_	MAD	22	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 5337eccfa
+1	Och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
+3	vet	|veta|	VB	_	VB.PRS.AKT	1	MS	|veta..vb.1|
+4	av	|av|	PP	_	PP	3	AA	|av..pp.1|
+5	egen	|egen|	JJ	_	JJ.POS.UTR.SIN.IND+DEF.NOM	6	DT	|egen..av.1|
+6	erfarenhet	|erfarenhet|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|erfarenhet..nn.1|
+7	att	|att|	SN	_	SN	3	OO	|att..sn.1|
+8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	FS	|den..pn.1|
+9	inte	|inte|	AB	_	AB	11	NA	|inte..ab.1|
+10	alltid	|alltid|	AB	_	AB	11	TA	|alltid..ab.1|
+11	är	|vara|	VB	_	VB.PRS.AKT	7	UA	|vara..vb.1|
+12	lika	|lika|	AB	_	AB	13	AA	|lika..ab.1|
+13	lätt	|lätt|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	11	SP	|lätt..av.1|
+14	att	|att|	IE	_	IE	11	ES	|att..sn.1|
+15	göra	|göra|	VB	_	VB.INF.AKT	14	IF	|göra..vb.1|
+16	som	|	KN	_	KN	11	KA	|
+17	att	|att|	IE	_	IE	16	UA	|att..sn.1|
+18	säga	|säga|	VB	_	VB.INF.AKT	17	IF	|säga..vb.1|
+19	.	|	MAD	_	MAD	3	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 53370fffc
+1	För	|för|	PP	_	PP	6	OA	|för..pp.1|
+2	min	|jag|	PS	_	PS.UTR.SIN.DEF	3	DT	|jag..pn.1|
+3	del	|del|	NN	_	NN.UTR.SIN.IND.NOM	1	PA	|del..nn.1|
+4	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	FS	|den..pn.1|
+6	hjälpt	|hjälpa|	VB	_	VB.SUP.AKT	4	VG	|hjälpa..vb.1|
+7	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	6	OO	|jag..pn.1|
+8	i	|i|	PP	_	PP	6	AA	|i..pp.1|
+9	kanske	|kanske|	AB	_	AB	10	MA	|kanske..ab.1|
+10	snarlika	|snarlik|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	11	AT	|snarlik..av.1|
+11	situationer	|situation|	NN	_	NN.UTR.PLU.IND.NOM	8	PA	|situation..nn.1|
+12	att	|att|	IE	_	IE	6	ES	|att..sn.1|
+13	byta	|byta|	VB	_	VB.INF.AKT	12	IF	|byta..vb.1|
+14	miljö	|miljö|	NN	_	NN.UTR.SIN.IND.NOM	13	OO	|miljö..nn.1|
+15	på	|på|	PP	_	PP	13	AA	|på..pp.1|
+16	något	|någon|	DT	_	DT.NEU.SIN.IND	17	DT	|någon..pn.1|
+17	sätt	|sätt|	NN	_	NN.NEU.SIN.IND.NOM	15	PA	|sätt..nn.1|
+18	,	|	MID	_	MID	6	IK	|
+19	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	17	AN	|någon..pn.1|
+20	som	|	HP	_	HP.-.-.-	21	SS	|
+21	hjälper	|hjälpa|hjälpa till|	VB	_	VB.PRS.AKT	19	ET	|hjälpa..vb.1|hjälpa_till..vbm.1|
+22	till	|till|hjälpa till:21|	PL	_	PL	21	PL	|till..ab.1|hjälpa_till..vbm.1:21|
+23	att	|att|	IE	_	IE	21	OA	|att..sn.1|
+24	bryta	|bryta|	VB	_	VB.INF.AKT	23	IF	|bryta..vb.1|
+25	mönster	|mönster|	NN	_	NN.NEU.SIN.IND.NOM	24	OO	|mönster..nn.1|
+26	.	|	MAD	_	MAD	4	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 14554788
+# thread_title = Varför kan jag inte släppa det?
+# post_id = 14555720
+# post_date = 2006-11-20 13:18:19
+# username = soso
+# sent_id = 53376f115
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+3	vara	|vara|	VB	_	VB.INF.AKT	2	VG	|vara..vb.1|vara..vb.2|
+4	mha	|	PP	_	PP	3	AA	|
+5	nytt	|ny|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	6	AT	|ny..av.1|
+6	jobb	|jobb|	NN	_	NN.NEU.SIN.IND.NOM	13	CJ	|jobb..nn.1|
+7	,	|	MID	_	MID	13	IK	|
+8	ny	|ny|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	9	AT	|ny..av.1|
+9	stad	|stad|	NN	_	NN.UTR.SIN.IND.NOM	13	CJ	|stad..nn.1|
+10	,	|	MID	_	MID	13	IK	|
+11	ny	|ny|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	12	AT	|ny..av.1|
+12	umgängeskrets	|umgängeskrets|	NN	_	NN.UTR.SIN.IND.NOM	13	CJ	|umgängeskrets..nn.1|
+13	eller	|eller|	KN	_	KN	4	PA	|eller..kn.1|
+14	nya	|ny|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	15	AT	|ny..av.1|
+15	tankemönster	|tankemönster|	NN	_	NN.NEU.PLU.IND.NOM	13	CJ	|tankemönster..nn.1|
+16	...	|	MID	_	MID	18	+F	|
+17	värdefullt	|värdefull|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	16	SP	|värdefull..av.1|
+18	men	|men|	KN	_	KN	3	SP	|men..kn.1|
+19	inte	|inte|	AB	_	AB	20	NA	|inte..ab.1|
+20	lätt	|lätt|	AB	_	AB.POS	18	+F	|lätt..av.1|
+21	...	|	MAD	_	MAD	3	IG	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 9793088
+# thread_title = Barn med olika pappor
+# post_id = 9811822
+# post_date = 2006-06-01 17:20:08
+# username = soso
+# sent_id = 3dae509b7
+1	Hum	|	IN	_	IN	0	ROOT	|
+2	...	|	MID	_	MID	1	IQ	|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+4	skulle	|skola|	VB	_	VB.PRT.AKT	1	MS	|skola..vb.2|
+5	nog	|nog|	AB	_	AB	4	MA	|nog..ab.1|
+6	spontant	|spontan|	AB	_	AB.POS	4	AA	|spontan..av.1|spontan..av.2|
+7	uppfatta	|uppfatta|	VB	_	VB.INF.AKT	4	VG	|uppfatta..vb.1|
+8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	OO	|den..pn.1|
+9	som	|	KN	_	KN	7	OP	|
+10	lite	|lite|	AB	_	AB.POS	11	AA	|lite..ab.1|
+11	omdömeslöst	|omdömeslös|	AB	_	AB.POS	9	UA	|omdömeslös..av.1|
+12	...	|	MID	_	MID	7	IG	|
+13	utan	|utan|	PP	_	PP	7	AA	|utan..pp.1|
+14	att	|att|	IE	_	IE	13	PA	|att..sn.1|
+15	veta	|veta|	VB	_	VB.INF.AKT	14	IF	|veta..vb.1|
+16	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	15	OO	|någon..pn.1|
+17	om	|om|	PP	_	PP	15	OA	|om..pp.1|
+18	situation	|situation|	NN	_	NN.UTR.SIN.IND.NOM	17	PA	|situation..nn.1|
+19	(	|	PAD	_	PAD	1	IR	|
+20	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	21	SS	|jag..pn.1|
+21	inser	|inse|	VB	_	VB.PRS.AKT	1	MS	|inse..vb.1|
+22	att	|att|	SN	_	SN	21	OO	|att..sn.1|
+23	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	24	SS	|den..pn.1|
+24	är	|vara|	VB	_	VB.PRS.AKT	22	UA	|vara..vb.1|
+25	fördomsfullt	|fördomsfull|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	24	SP	|fördomsfull..av.1|
+26	)	|	PAD	_	PAD	1	JR	|
+27	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 9793088
+# thread_title = Barn med olika pappor
+# post_id = 9811822
+# post_date = 2006-06-01 17:20:08
+# username = soso
+# sent_id = 3dae8d0c1
+1	Skulle	|skola|	VB	_	VB.PRT.AKT	0	ROOT	|skola..vb.2|
+2	dock	|dock|	AB	_	AB	1	+A	|dock..ab.1|
+3	aldrig	|aldrig|	AB	_	AB	1	TA	|aldrig..ab.1|
+4	kommentera	|kommentera|	VB	_	VB.INF.AKT	1	VG	|kommentera..vb.1|
+5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	OO	|den..pn.1|
+6	rakt	|rak|	AB	_	AB.POS	4	AA	|rak..av.1|
+7	i	|i|	PP	_	PP	4	RA	|i..pp.1|
+8	ansiktet	|ansikte|	NN	_	NN.NEU.SIN.DEF.NOM	7	PA	|ansikte..nn.1|
+9	på	|på|	PP	_	PP	4	TA	|på..pp.1|
+10	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	9	PA	|någon..pn.1|
+11	...	|	MID	_	MID	4	IG	|
+12	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	1	MS	|hoppa..vb.1|hoppas..vb.1|
+13	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|du..pn.1|
+14	inte	|inte|	AB	_	AB	12	NA	|inte..ab.1|
+15	tar	|ta|ta illa upp|ta upp|	VB	_	VB.PRS.AKT	12	OO	|ta..vb.1|ta_illa_upp..vbm.1|ta_upp..vbm.1|
+16	illa	|ta illa upp:15|	AB	_	AB	15	AA	|ta_illa_upp..vbm.1:15|
+17	upp	|upp|ta illa upp:15|ta upp:15|	PL	_	PL	15	PL	|upp..ab.1|ta_illa_upp..vbm.1:15|ta_upp..vbm.1:15|
+18	.	|	MAD	_	MAD	12	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 9793088
+# thread_title = Barn med olika pappor
+# post_id = 9811822
+# post_date = 2006-06-01 17:20:08
+# username = soso
+# sent_id = 3dae90b89
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	reagerar	|reagera|	VB	_	VB.PRS.AKT	0	ROOT	|reagera..vb.1|
+3	däremot	|däremot|	AB	_	AB	2	+A	|däremot..ab.1|
+4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+5	alls	|alls|	AB	_	AB	2	AA	|alls..ab.1|
+6	på	|på|	PP	_	PP	2	OA	|på..pp.1|
+7	om	|om|	SN	_	SN	6	PA	|om..sn.1|
+8	en	|en|	DT	_	DT.UTR.SIN.IND	9	DT	|en..al.1|
+9	person	|person|	NN	_	NN.UTR.SIN.IND.NOM	10	SS	|person..nn.1|
+10	har	|ha|	VB	_	VB.PRS.AKT	7	UA	|ha..vb.1|
+11	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	10	OO	|barn..nn.1|
+12	med	|med|	PP	_	PP	11	ET	|med..pp.1|
+13	två	|två|	RG	_	RG.NOM	14	DT	|två..nl.1|
+14	pappor	|pappa|	NN	_	NN.UTR.PLU.IND.NOM	12	PA	|pappa..nn.1|
+15	...	|	MID	_	MID	2	IG	|
+16	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	17	SS	|den..pn.1|
+17	är	|vara|	VB	_	VB.PRS.AKT	2	MS	|vara..vb.1|
+18	när	|när|	HA	_	HA	20	TA	|när..ab.1|
+19	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	20	SS	|den..pn.1|
+20	börjar	|börja|	VB	_	VB.PRS.AKT	17	TA	|börja..vb.1|börja..vb.2|
+21	bli	|bli|	VB	_	VB.INF.AKT	20	VS	|bli..vb.1|
+22	flera	|flera|mången|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	21	XX	|flera..pn.1|mången..pn.1|
+23	som	|	HP	_	HP.-.-.-	26	OO	|
+24	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	26	SS	|jag..pn.1|
+25	nog	|nog|	AB	_	AB	26	MA	|nog..ab.1|
+26	höjer	|höja|	VB	_	VB.PRS.AKT	22	EF	|höja..vb.1|
+27	lite	|lite|	AB	_	AB.POS	26	AA	|lite..ab.1|
+28	på	|på|	PP	_	PP	26	OA	|på..pp.1|
+29	ögonbryna	|	NN	_	NN.UTR.SIN.DEF.NOM	28	PA	|
+30	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 9793088
+# thread_title = Barn med olika pappor
+# post_id = 9811822
+# post_date = 2006-06-01 17:20:08
+# username = soso
+# sent_id = 3daea2e5b
+1	Sen	|sen|	AB	_	AB	2	TA	|sen..ab.1|
+2	reagerar	|reagera|	VB	_	VB.PRS.AKT	0	ROOT	|reagera..vb.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	OO	|jag..pn.1|
+5	också	|också|	AB	_	AB	2	+A	|också..ab.1|
+6	på	|på|	PP	_	PP	2	OA	|på..pp.1|
+7	hur	|hur|	HA	_	HA	8	AA	|hur..ab.1|
+8	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	9	DT	|
+9	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	11	SS	|barn..nn.1|
+10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	SS	|den..pn.1|
+11	är	|vara|	VB	_	VB.PRS.AKT	6	PA	|vara..vb.1|
+12	,	|	MID	_	MID	11	IK	|
+13	med	|med|	PP	_	PP	11	OA	|med..pp.1|
+14	reaktionen	|reaktion|	NN	_	NN.UTR.SIN.DEF.NOM	13	PA	|reaktion..nn.1|
+15	...	|	MID	_	MID	14	IG	|
+16	Puh	|puh|	IN	_	IN	14	PT	|puh..in.1|
+17	,	|	MID	_	MID	18	IK	|
+18	låter	|låta|	VB	_	VB.PRS.AKT	6	PA	|låta..vb.1|
+19	jobbigt	|jobbig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	20	CJ	|jobbig..av.1|
+20	och	|och|	KN	_	KN	18	OP	|och..kn.1|
+21	tufft	|tuff|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	20	CJ	|tuff..av.1|
+22	med	|med|	PP	_	PP	18	OA	|med..pp.1|
+23	så	|så|	AB	_	AB	24	AA	|så..ab.1|
+24	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	25	DT	|
+25	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	22	PA	|barn..nn.1|
+26	!	|	MAD	_	MAD	2	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 9793088
+# thread_title = Barn med olika pappor
+# post_id = 9811822
+# post_date = 2006-06-01 17:20:08
+# username = soso
+# sent_id = 3dae55bf2
+1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
+2	orkar	|orka|	VB	_	VB.PRS.AKT	0	ROOT	|orka..vb.1|
+3	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|hon..pn.1|
+4	!	|	MAD	_	MAD	2	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 9793088
+# thread_title = Barn med olika pappor
+# post_id = 9811822
+# post_date = 2006-06-01 17:20:08
+# username = soso
+# sent_id = 3dae98128
+1	(	|	PAD	_	PAD	2	IR	|
+2	Detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	0	ROOT	|denna..pn.1|
+3	oavsett	|oavsedd|	AB	_	AB.POS	2	AA	|oavsedd..av.1|
+4	hur	|hur|	HA	_	HA	5	AA	|hur..ab.1|
+5	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	6	DT	|
+6	pappor	|pappa|	NN	_	NN.UTR.PLU.IND.NOM	8	SS	|pappa..nn.1|
+7	som	|	HP	_	HP.-.-.-	8	XX	|
+8	är	|vara|	VB	_	VB.PRS.AKT	3	PA	|vara..vb.1|
+9	inblandade	|blanda in|inblandad|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	8	SP	|blanda_in..vbm.1|inblandad..av.1|
+10	,	|	MID	_	MID	8	IK	|
+11	en	|man|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	12	CJ	|man..pn.1|
+12	eller	|eller|	KN	_	KN	6	AN	|eller..kn.1|
+13	flera	|flera|mången|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	12	CJ	|flera..pn.1|mången..pn.1|
+14	)	|	PAD	_	PAD	13	JR	|
+15	...	|	MID	_	MID	2	IG	|
+16	:	|	MID	_	MID	2	IQ	|
+17	)	|	PAD	_	PAD	2	JR	|
+18	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c729d5d
+1	Har	|ha|	VB	_	VB.PRS.AKT	6	MS	|ha..vb.1|
+2	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
+3	läst	|läsa|	VB	_	VB.SUP.AKT	1	VG	|läsa..vb.1|
+4	alla	|all|	DT	_	DT.UTR+NEU.PLU.IND+DEF	5	DT	|all..pn.1|
+5	inlägg	|inlägg|	NN	_	NN.NEU.PLU.IND.NOM	3	OO	|inlägg..nn.1|
+6	utan	|utan|	KN	_	KN	0	ROOT	|utan..kn.1|
+7	kommenterar	|kommentera|	VB	_	VB.PRS.AKT	8	CJ	|kommentera..vb.1|
+8	/	|	MID	_	MID	6	+F	|
+9	svarar	|svara|	VB	_	VB.PRS.AKT	8	CJ	|svara..vb.1|
+10	på	|på|	PP	_	PP	8	OA	|på..pp.1|
+11	trådstarten	|trådstart|trådstarten|	NN	_	NN.UTR.SIN.DEF.NOM	10	PA	|
+12	...	|	MAD	_	MAD	6	IG	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c78537f
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	skulle	|skola|	VB	_	VB.PRT.AKT	0	ROOT	|skola..vb.2|
+3	bli	|bli|	VB	_	VB.INF.AKT	2	VG	|bli..vb.1|
+4	jätteglad	|jätteglad|	PC	_	PC.PRF.UTR.SIN.IND.NOM	3	SP	|jätteglad..av.1|
+5	om	|om|	SN	_	SN	3	AA	|om..sn.1|
+6	mina	|jag|	PS	_	PS.UTR+NEU.PLU.DEF	10	DT	|jag..pn.1|
+7	(	|	PAD	_	PAD	8	IR	|
+8	framtida	|framtida|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	10	AT	|framtida..av.1|
+9	)	|	PAD	_	PAD	8	JR	|
+10	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	11	SS	|barn..nn.1|
+11	fick	|få|	VB	_	VB.PRT.AKT	5	UA	|få..vb.1|
+12	lära	|lära|lära sig|	VB	_	VB.INF.AKT	11	VG	|lära..vb.1|lära_sig..vbm.1|
+13	sig	|sig|lära sig:12|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	12	IO	|sig..pn.1|lära_sig..vbm.1:12|
+14	ett	|en|	DT	_	DT.NEU.SIN.IND	16	DT	|en..al.1|
+15	extra	|extra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	16	AT	|extra..av.1|
+16	språk	|språk|	NN	_	NN.NEU.SIN.IND.NOM	12	OO	|språk..nn.1|
+17	gratis	|gratis|	AB	_	AB	12	AA	|gratis..ab.1|gratis..av.1|
+18	,	|	MID	_	MID	12	IK	|
+19	ex	|ex|	NN	_	NN.AN	12	OO	|ex..nna.1|
+20	genom	|genom|	PP	_	PP	12	AA	|genom..pp.1|
+21	att	|att|	SN	_	SN	20	PA	|att..sn.1|
+22	en	|en|	DT	_	DT.UTR.SIN.IND	24	DT	|en..al.1|
+23	nära	|nära|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	24	AT	|nära..av.1|
+24	person	|person|	NN	_	NN.UTR.SIN.IND.NOM	26	SS	|person..nn.1|
+25	bara	|bara|	AB	_	AB	26	CA	|bara..ab.1|
+26	pratar	|prata|	VB	_	VB.PRS.AKT	21	UA	|prata..vb.1|
+27	det	|den|en|	DT	_	DT.NEU.SIN.DEF	28	DT	|den..pn.1|en..al.1|
+28	språket	|språk|	NN	_	NN.NEU.SIN.DEF.NOM	26	OO	|språk..nn.1|
+29	.	|	MAD	_	MAD	2	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c73f884
+1	Vilken	|	HD	_	HD.UTR.SIN.IND	2	DT	|
+2	bonus	|bonus|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|bonus..nn.1|
+3	!	|	MAD	_	MAD	2	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c7da528
+1	Barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	2	SS	|barn..nn.1|
+2	är	|vara|	VB	_	VB.PRS.AKT	9	MS	|vara..vb.1|
+3	jättebra	|jättebra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	2	SP	|jättebra..av.1|
+4	på	|på|	PP	_	PP	2	OA	|på..pp.1|
+5	att	|att|	IE	_	IE	4	PA	|att..sn.1|
+6	lära	|lära|lära sig|	VB	_	VB.INF.AKT	5	IF	|lära..vb.1|lära_sig..vbm.1|
+7	sig	|sig|lära sig:6|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	6	IO	|sig..pn.1|lära_sig..vbm.1:6|
+8	språk	|språk|	NN	_	NN.NEU.SIN.IND.NOM	6	OO	|språk..nn.1|
+9	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+10	förstår	|förstå|	VB	_	VB.PRS.AKT	9	+F	|förstå..vb.1|
+11	tidigt	|tidig|	AB	_	AB.POS	10	TA	|tidig..av.1|
+12	att	|att|	SN	_	SN	10	OO	|att..sn.1|
+13	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	14	SS	|den..pn.1|
+14	är	|vara|	VB	_	VB.PRS.AKT	12	UA	|vara..vb.1|
+15	olika	|olik|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	16	AT	|olik..av.1|
+16	språk	|språk|	NN	_	NN.NEU.PLU.IND.NOM	14	SP	|språk..nn.1|
+17	.	|	MAD	_	MAD	9	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c78544f
+1	Inga	|ingen|inga problem|	DT	_	DT.UTR+NEU.PLU.IND	2	DT	|ingen..pn.1|inga_problem..inm.1|
+2	problem	|problem|inga problem:1|	NN	_	NN.NEU.PLU.IND.NOM	10	PA	|problem..nn.1|inga_problem..inm.1:1|
+3	med	|med|	PP	_	PP	2	ET	|med..pp.1|
+4	förvirring	|förvirring|	NN	_	NN.UTR.SIN.IND.NOM	3	PA	|förvirring..nn.1|
+5	,	|	MID	_	MID	2	IK	|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	PA	|den..pn.1|
+7	tror	|tro|	VB	_	VB.PRS.AKT	0	ROOT	|tro..vb.1|
+8	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
+9	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
+10	på	|på|	PP	_	PP	7	OA	|på..pp.1|
+11	!	|	MAD	_	MAD	7	IU	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c77cf34
+1	Barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	8	SS	|barn..nn.1|
+2	som	|	HP	_	HP.-.-.-	3	SS	|
+3	kan	|kunna|	VB	_	VB.PRS.AKT	1	ET	|kunna..vb.1|
+4	fler	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	6	AA	|
+5	än	|	KN	_	KN	4	HD	|
+6	ett	|en|	DT	_	DT.NEU.SIN.IND	7	DT	|en..al.1|
+7	språk	|språk|	NN	_	NN.NEU.SIN.IND.NOM	3	OO	|språk..nn.1|
+8	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+9	också	|också|	AB	_	AB	8	+A	|också..ab.1|
+10	lättare	|lätt|	AB	_	AB.KOM	8	AA	|lätt..av.1|
+11	att	|att|	IE	_	IE	8	OA	|att..sn.1|
+12	lära	|lära|	VB	_	VB.INF.AKT	11	IF	|lära..vb.1|
+13	ytterligare	|ytterlig|	AB	_	AB.KOM	14	AA	|ytterlig..av.1|
+14	fler	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	15	DT	|
+15	språk	|språk|	NN	_	NN.NEU.PLU.IND.NOM	12	OO	|språk..nn.1|
+16	senare	|sen|senare|	AB	_	AB.KOM	12	TA	|sen..av.1|senare..ab.1|
+17	.	|	MAD	_	MAD	8	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c7bab7a
+1	Och	|och|	KN	_	KN	4	++	|och..kn.1|
+2	vissa	|viss|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	3	DT	|viss..av.1|
+3	studier	|studie|	NN	_	NN.UTR.PLU.IND.NOM	4	SS	|studie..nn.1|
+4	visar	|visa|	VB	_	VB.PRS.AKT	69	MS	|visa..vb.1|
+5	på	|på|	PP	_	PP	4	OA	|på..pp.1|
+6	att	|att|	SN	_	SN	5	PA	|att..sn.1|
+7	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	8	SS	|de..pn.1|
+8	är	|vara|	VB	_	VB.PRS.AKT	6	UA	|vara..vb.1|
+9	mer	|mer|mycket|	AB	_	AB.KOM	10	AA	|mer..ab.1|mycket..ab.1|
+10	flexibla	|flexibel|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	8	SP	|flexibel..av.1|
+11	i	|i|	PP	_	PP	8	RA	|i..pp.1|
+12	sitt	|sig|	PS	_	PS.NEU.SIN.DEF	13	DT	|sig..pn.1|
+13	tänkande	|tänkande|	NN	_	NN.NEU.SIN.IND.NOM	11	PA	|tänkande..nn.1|
+14	(	|	PAD	_	PAD	16	IR	|
+15	ex	|ex|	NN	_	NN.AN	16	SS	|ex..nna.1|
+16	kan	|kunna|	VB	_	VB.PRS.AKT	6	UA	|kunna..vb.1|
+17	komma	|komma|	VB	_	VB.INF.AKT	16	VG	|komma..vb.1|
+18	på	|på|	PP	_	PP	17	OA	|på..pp.1|
+19	mer	|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	20	DT	|
+20	svar	|svar|	NN	_	NN.NEU.SIN.IND.NOM	18	PA	|svar..nn.1|
+21	på	|på|	PP	_	PP	20	ET	|på..pp.1|
+22	frågor	|fråga|	NN	_	NN.UTR.PLU.IND.NOM	21	PA	|fråga..nn.1|
+23	av	|av|	PP	_	PP	22	ET	|av..pp.1|
+24	sorten	|sort|	NN	_	NN.UTR.SIN.DEF.NOM	23	PA	|sort..nn.1|
+25	"	|	PAD	_	PAD	22	JR	|
+26	vad	|vad|	HP	_	HP.NEU.SIN.IND	27	SS	|vad..pn.1|
+27	kan	|kunna|	VB	_	VB.PRS.AKT	4	MS	|kunna..vb.1|
+28	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	27	SS	|man..pn.1|
+29	använda	|använda|	VB	_	VB.INF.AKT	27	VG	|använda..vb.1|
+30	ett	|en|	DT	_	DT.NEU.SIN.IND	31	DT	|en..al.1|
+31	gummiband	|gummiband|	NN	_	NN.NEU.SIN.IND.NOM	29	OO	|gummiband..nn.1|
+32	till	|till|	PP	_	PP	29	OA	|till..pp.1|
+33	"	|	PAD	_	PAD	32	PA	|
+34	,	|	MID	_	MID	29	IK	|
+35	då	|då|	HA	_	HA	38	TA	|då..ab.1|då..ab.2|
+36	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	38	SS	|de..pn.1|
+37	inte	|inte|	AB	_	AB	38	NA	|inte..ab.1|
+38	är	|vara|	VB	_	VB.PRS.AKT	33	TA	|vara..vb.1|
+39	låsta	|låsa|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	38	SP	|låsa..vb.1|
+40	vid	|vid|	PP	_	PP	38	OA	|vid..pp.1|
+41	att	|att|	SN	_	SN	40	PA	|att..sn.1|
+42	ett	|en|	DT	_	DT.NEU.SIN.IND	44	DT	|en..al.1|
+43	"	|	PAD	_	PAD	44	IC	|
+44	gummiband	|gummiband|	NN	_	NN.NEU.SIN.IND.NOM	46	SS	|gummiband..nn.1|
+45	"	|	PAD	_	PAD	44	JC	|
+46	är	|vara|	VB	_	VB.PRS.AKT	47	MS	|vara..vb.1|
+47	och	|och|	KN	_	KN	41	UA	|och..kn.1|
+48	måste	|måste|	VB	_	VB.PRS.AKT	47	+F	|måste..vb.1|
+49	heta	|heta|	VB	_	VB.INF.AKT	48	VG	|heta..vb.1|
+50	"	|	PAD	_	PAD	51	IC	|
+51	gummiband	|gummiband|	NN	_	NN.NEU.PLU.IND.NOM	49	OO	|gummiband..nn.1|
+52	"	|	PAD	_	PAD	47	JR	|
+53	,	|	MID	_	MID	69	IK	|
+54	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	55	SS	|den..pn.1|
+55	heter	|heta|	VB	_	VB.PRS.AKT	69	MS	|heta..vb.1|
+56	ju	|ju|	AB	_	AB	55	MA	|ju..ab.1|
+57	även	|även|	AB	_	AB	55	+A	|även..ab.1|
+58	"	|	PAD	_	PAD	59	IC	|
+59	rubberband	|rubberband|	NN	_	NN.NEU.SIN.IND.NOM	55	SS	|
+60	"	|	PAD	_	PAD	59	JC	|
+61	etc.	|etc.|	AB	_	AB.AN	59	CJ	|etc...aba.1|
+62	..	|	MID	_	MID	69	MS	|
+63	kanske	|kanske|	AB	_	AB	62	MA	|kanske..ab.1|
+64	inte	|inte|	AB	_	AB	62	NA	|inte..ab.1|
+65	det	|den|en|	DT	_	DT.NEU.SIN.DEF	67	DT	|den..pn.1|en..al.1|
+66	bästa	|bra|bäst|god|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM	67	AT	|bra..av.1|bäst..av.1|god..av.1|
+67	exemplet	|exempel|	NN	_	NN.NEU.SIN.DEF.NOM	63	SS	|exempel..nn.1|
+68	,	|	MID	_	MID	69	IK	|
+69	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+70	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	71	SS	|jag..pn.1|
+71	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	69	MS	|hoppa..vb.1|hoppas..vb.1|
+72	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	71	SS	|du..pn.1|
+73	förstår	|förstå|	VB	_	VB.PRS.AKT	71	MA	|förstå..vb.1|
+74	ändå	|ändå|	AB	_	AB	71	+A	|ändå..ab.1|
+75	)	|	PAD	_	PAD	69	JR	|
+76	.	|	MAD	_	MAD	69	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c7cc1fe
+1	Till	|till|	PP	_	PP	0	ROOT	|till..pp.1|
+2	TS	|	PM	_	PM.NOM	1	PA	|
+3	.	|	MAD	_	MAD	1	IP	|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c79f5c4
+1	Om	|om|	SN	_	SN	13	AA	|om..sn.1|
+2	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|du..pn.1|
+3	är	|vara|	VB	_	VB.PRS.AKT	1	UA	|vara..vb.1|
+4	orolig	|orolig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	SP	|orolig..av.1|
+5	,	|	MID	_	MID	13	IK	|
+6	försök	|försöka|	VB	_	VB.IMP.AKT	13	AA	|försöka..vb.1|
+7	läsa	|läsa|	VB	_	VB.INF.AKT	6	OO	|läsa..vb.1|
+8	någon	|någon|	DT	_	DT.UTR.SIN.IND	9	DT	|någon..pn.1|
+9	bok	|bok|	NN	_	NN.UTR.SIN.IND.NOM	7	OO	|bok..nn.1|bok..nn.2|
+10	om	|om|	PP	_	PP	7	OA	|om..pp.1|
+11	tvåspråkighet	|tvåspråkighet|	NN	_	NN.UTR.SIN.IND.NOM	10	PA	|tvåspråkighet..nn.1|
+12	så	|så|	AB	_	AB	13	DB	|så..ab.1|
+13	kommer	|komma|	VB	_	VB.PRS.AKT	0	ROOT	|komma..vb.1|
+14	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|du..pn.1|
+15	förhoppningsvis	|förhoppningsvis|	AB	_	AB	13	MA	|förhoppningsvis..ab.1|
+16	bli	|bli|	VB	_	VB.INF.AKT	13	VG	|bli..vb.1|
+17	mindre	|föga|lite|liten|	AB	_	AB.KOM	18	AA	|föga..ab.1|lite..ab.1|liten..av.1|
+18	orolig	|orolig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	16	SP	|orolig..av.1|
+
+# age = 16
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 10261101
+# thread_title = Irriterad över att svärmor bara pratar finska med vår son!
+# post_id = 10293931
+# post_date = 2006-06-21 15:46:13
+# username = soso
+# sent_id = e4c7c4e6c
+1	Tråkigt	|tråkig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	17	MS	|tråkig..av.1|
+2	om	|om|	SN	_	SN	1	KA	|om..sn.1|
+3	svärmodern	|svärmor|	NN	_	NN.UTR.SIN.DEF.NOM	5	SS	|svärmor..nn.1|
+4	inte	|inte|	AB	_	AB	5	NA	|inte..ab.1|
+5	tar	|ta|ta hänsyn|	VB	_	VB.PRS.AKT	2	UA	|ta..vb.1|ta_hänsyn..vbm.1|
+6	hänsyn	|hänsyn|ta hänsyn:5|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|hänsyn..nn.1|ta_hänsyn..vbm.1:5|
+7	till	|till|	PP	_	PP	5	OA	|till..pp.1|
+8	era	|ni|	PS	_	PS.UTR+NEU.PLU.DEF	9	DT	|ni..pn.1|
+9	åsikter	|åsikt|	NN	_	NN.UTR.PLU.IND.NOM	7	PA	|åsikt..nn.1|
+10	dock	|dock|	AB	_	AB	12	+A	|dock..ab.1|
+11	(	|	PAD	_	PAD	12	IR	|
+12	skulle	|skola|	VB	_	VB.PRT.AKT	17	MS	|skola..vb.2|
+13	irritera	|irritera|irritera sig|	VB	_	VB.INF.AKT	12	VG	|irritera..vb.1|irritera_sig..vbm.1|
+14	mig	|jag|irritera sig:13|	PN	_	PN.UTR.SIN.DEF.OBJ	13	OO	|jag..pn.1|irritera_sig..vbm.1:13|
+15	)	|	PAD	_	PAD	12	JR	|
+16	,	|	MID	_	MID	17	IK	|
+17	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+18	själva	|själv|själva|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	19	DT	|själv..pn.1|själva..pn.1|
+19	tvåspråkigheten	|tvåspråkighet|	NN	_	NN.UTR.SIN.DEF.NOM	22	OO	|tvåspråkighet..nn.1|
+20	skulle	|skola|	VB	_	VB.PRT.AKT	17	MS	|skola..vb.2|
+21	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|jag..pn.1|
+22	se	|se|	VB	_	VB.INF.AKT	20	VG	|se..vb.1|
+23	som	|	KN	_	KN	22	OP	|
+24	bonus	|bonus|	NN	_	NN.UTR.SIN.IND.NOM	23	UA	|bonus..nn.1|
+25	.	|	MAD	_	MAD	17	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f874a789
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
+2	finns	|finna|finnas|	VB	_	VB.PRS.SFO	0	ROOT	|finna..vb.1|finnas..vb.1|
+3	hjälp	|hjälp|	NN	_	NN.UTR.SIN.IND.NOM	2	ES	|hjälp..nn.1|
+4	att	|att|	IE	_	IE	2	ES	|att..sn.1|
+5	få	|få|	VB	_	VB.INF.AKT	4	IF	|få..vb.1|
+6	för	|för|	PP	_	PP	5	AA	|för..pp.1|
+7	att	|att|	IE	_	IE	6	PA	|att..sn.1|
+8	få	|få|	VB	_	VB.INF.AKT	7	IF	|få..vb.1|
+9	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	8	OO	|barn..nn.1|
+10	,	|	MID	_	MID	2	IK	|
+11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	FS	|den..pn.1|
+12	finns	|finna|finnas|	VB	_	VB.PRS.SFO	2	MS	|finna..vb.1|finnas..vb.1|
+13	alternativ	|alternativ|	NN	_	NN.NEU.PLU.IND.NOM	12	ES	|alternativ..nn.1|
+14	till	|till|	PP	_	PP	12	OA	|till..pp.1|
+15	biologiska	|biologisk|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	16	AT	|biologisk..av.1|
+16	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	14	PA	|barn..nn.1|
+17	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f875bcad
+1	Samt	|samt|	KN	_	KN	0	ROOT	|samt..kn.1|
+2	statistiskt	|statistisk|	AB	_	AB.POS	4	MA	|statistisk..av.1|
+3	sett	|se|	PC	_	PC.PRF.NEU.SIN.IND.NOM	2	HD	|se..vb.1|
+4	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
+5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	FS	|den..pn.1|
+6	lika	|lika|	AB	_	AB	7	AA	|lika..ab.1|
+7	sannolikt	|sannolik|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	SP	|sannolik..av.1|
+8	att	|att|	SN	_	SN	4	ES	|att..sn.1|
+9	"	|	PAD	_	PAD	10	IC	|
+10	felet	|fel|	NN	_	NN.NEU.SIN.DEF.NOM	12	SS	|fel..nn.1|fel..nn.2|
+11	"	|	PAD	_	PAD	10	JC	|
+12	ligger	|ligga|	VB	_	VB.PRS.AKT	8	UA	|ligga..vb.1|
+13	hos	|hos|	PP	_	PP	12	RA	|hos..pp.1|
+14	mannen	|man|	NN	_	NN.UTR.SIN.DEF.NOM	13	PA	|man..nn.1|
+15	som	|	KN	_	KN	14	ET	|
+16	hos	|hos|	PP	_	PP	15	UA	|hos..pp.1|
+17	kvinnan	|kvinna|	NN	_	NN.UTR.SIN.DEF.NOM	16	PA	|kvinna..nn.1|
+18	vid	|vid|	PP	_	PP	12	AA	|vid..pp.1|
+19	ofrivillig	|ofrivillig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	20	AT	|ofrivillig..av.1|
+20	barnlöshet	|barnlöshet|	NN	_	NN.UTR.SIN.IND.NOM	18	PA	|barnlöshet..nn.1|
+21	.	|	MAD	_	MAD	4	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f873f647
+1	Så	|så|	AB	_	AB	2	AA	|så..ab.1|
+2	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	8	OO	|barn..nn.1|
+3	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+4	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|ni..pn.1|
+5	med	|med|	PP	_	PP	3	AA	|med..pp.1|
+6	stor	|stor|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	7	AT	|stor..av.1|
+7	sannolikhet	|sannolikhet|	NN	_	NN.UTR.SIN.IND.NOM	5	PA	|sannolikhet..nn.1|
+8	få	|få|	VB	_	VB.INF.AKT	3	VG	|få..vb.1|
+9	inom	|inom|	PP	_	PP	8	AA	|inom..pp.1|
+10	förhållandet	|förhållande|	NN	_	NN.NEU.SIN.DEF.NOM	9	PA	|förhållande..nn.1|
+11	.	|	MAD	_	MAD	3	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f87da19f
+1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	tolkar	|tolka|	VB	_	VB.PRS.AKT	7	AA	|tolka..vb.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+4	TS	|	PM	_	PM.NOM	2	OO	|
+5	rätt	|rätt|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|rätt..nn.1|rätt..nn.2|rätt..nn.3|
+6	så	|så|	AB	_	AB	7	DB	|så..ab.1|
+7	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
+8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
+9	andra	|andra|annan|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	10	DT	|andra..av.1|annan..pn.1|
+10	faktorer	|faktor|	NN	_	NN.UTR.PLU.IND.NOM	7	XX	|faktor..nn.1|
+11	som	|	HP	_	HP.-.-.-	13	SS	|
+12	som	|	HP	_	HP.-.-.-	13	SS	|
+13	gör	|göra|	VB	_	VB.PRS.AKT	10	EF	|göra..vb.1|
+14	honom	|han|	PN	_	PN.UTR.SIN.DEF.OBJ	13	OO	|han..pn.1|
+15	tveksam	|tveksam|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	13	OP	|tveksam..av.1|
+16	.	|	MAD	_	MAD	7	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f87a2d73
+1	Är	|vara|	VB	_	VB.PRS.AKT	6	AA	|vara..vb.1|
+2	förhållandet	|förhållande|	NN	_	NN.NEU.SIN.DEF.NOM	1	SS	|förhållande..nn.1|
+3	starkt	|stark|	AB	_	AB.POS	1	AA	|stark..av.1|
+4	nog	|nog|	AB	_	AB	3	HD	|nog..ab.1|
+5	så	|så|	AB	_	AB	6	DB	|så..ab.1|
+6	hanterar	|hantera|	VB	_	VB.PRS.AKT	0	ROOT	|hantera..vb.1|
+7	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	6	SS	|man..pn.1|
+8	problemen	|problem|	NN	_	NN.NEU.PLU.DEF.NOM	6	OO	|problem..nn.1|
+9	med	|med|	PP	_	PP	6	OA	|med..pp.1|
+10	att	|att|	IE	_	IE	9	PA	|att..sn.1|
+11	(	|	PAD	_	PAD	13	IR	|
+12	inte	|inte|	AB	_	AB	13	NA	|inte..ab.1|
+13	lyckas	|lyckas|	VB	_	VB.INF.SFO	10	IF	|lyckas..vb.1|
+14	)	|	PAD	_	PAD	13	JR	|
+15	få	|få|	VB	_	VB.INF.AKT	10	IF	|få..vb.1|
+16	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	15	OO	|barn..nn.1|
+17	utan	|utan|	PP	_	PP	15	AA	|utan..pp.1|
+18	hjälp	|hjälp|	NN	_	NN.UTR.SIN.IND.NOM	17	PA	|hjälp..nn.1|
+19	.	|	MAD	_	MAD	6	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f873cfeb
+1	TS	|	IN	_	IN	0	ROOT	|
+2	:	|	MID	_	MID	1	IQ	|
+3	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|den..pn.1|
+4	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
+5	bara	|bara|	AB	_	AB	4	CA	|bara..ab.1|
+6	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	4	XX	|du..pn.1|
+7	som	|	HP	_	HP.-.-.-	8	SS	|
+8	kan	|kunna|	VB	_	VB.PRS.AKT	6	EF	|kunna..vb.1|
+9	avgöra	|avgöra|	VB	_	VB.INF.AKT	8	VG	|avgöra..vb.1|
+10	om	|om|	SN	_	SN	9	OO	|om..sn.1|
+11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	FS	|den..pn.1|
+12	är	|vara|	VB	_	VB.PRS.AKT	10	UA	|vara..vb.1|
+13	värt	|värd|värt|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	12	SP	|värd..av.1|värt..av.1|
+14	att	|att|	IE	_	IE	12	ES	|att..sn.1|
+15	kämpa	|kämpa|	VB	_	VB.INF.AKT	14	IF	|kämpa..vb.1|
+16	för	|för|	PP	_	PP	15	OA	|för..pp.1|
+17	.	|	MAD	_	MAD	1	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f8702d82
+1	Inget	|ingen|	DT	_	DT.NEU.SIN.IND	2	DT	|ingen..pn.1|
+2	förhållande	|förhållande|	NN	_	NN.NEU.SIN.IND.NOM	3	SS	|förhållande..nn.1|
+3	är	|vara|	VB	_	VB.PRS.AKT	5	MS	|vara..vb.1|
+4	perfekt	|perfekt|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	CJ	|perfekt..av.1|
+5	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+6	småproblem	|småproblem|	NN	_	NN.NEU.SIN.IND.NOM	5	+F	|
+7	finns	|finna|finnas|	VB	_	VB.PRS.SFO	5	MS	|finna..vb.1|finnas..vb.1|
+8	alltid	|alltid|	AB	_	AB	7	TA	|alltid..ab.1|
+9	.	|	MAD	_	MAD	7	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f87e0a07
+1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	ibland	|ibland|	AB	_	AB	3	TA	|ibland..ab.1|
+3	finns	|finna|finnas|	VB	_	VB.PRS.SFO	1	MS	|finna..vb.1|finnas..vb.1|
+4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	FS	|den..pn.1|
+5	inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
+6	tillräckligt	|tillräcklig|	AB	_	AB.POS	7	AA	|tillräcklig..av.1|
+7	mycket	|mycket|	AB	_	AB.POS	3	AA	|mycket..ab.1|
+8	att	|att|	IE	_	IE	3	OA	|att..sn.1|
+9	bygga	|bygga|bygga på|	VB	_	VB.INF.AKT	8	IF	|bygga..vb.1|bygga_på..vbm.1|
+10	på	|på|bygga på:9|	PL	_	PL	9	PL	|på..ab.1|bygga_på..vbm.1:9|
+11	.	|	MAD	_	MAD	3	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f87b815e
+1	Att	|att|	IE	_	IE	16	SS	|att..sn.1|
+2	lämna	|lämna|	VB	_	VB.INF.AKT	1	IF	|lämna..vb.1|
+3	henne	|hon|	PN	_	PN.UTR.SIN.DEF.OBJ	2	OO	|hon..pn.1|
+4	för	|för|	PP	_	PP	2	OA	|för..pp.1|
+5	att	|att|	SN	_	SN	4	PA	|att..sn.1|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	SS	|den..pn.1|
+7	"	|	PAD	_	PAD	8	IC	|
+8	ser	|se|se ut|	VB	_	VB.PRS.AKT	5	UA	|se..vb.1|se_ut..vbm.1|
+9	bra	|bra|	AB	_	AB.POS	8	AA	|bra..ab.1|bra..ab.2|bra..av.1|
+10	ut	|ut|se ut:8|	AB	_	AB	8	RA	|ut..ab.1|se_ut..vbm.1:8|
+11	på	|på|	PP	_	PP	10	RA	|på..pp.1|
+12	pappret	|papper|	NN	_	NN.NEU.SIN.DEF.NOM	11	PA	|papper..nn.1|
+13	"	|	PAD	_	PAD	8	JR	|
+14	,	|	MID	_	MID	2	IK	|
+15	tja	|tja|	IN	_	IN	16	DB	|tja..in.1|
+16	låter	|låta|	VB	_	VB.PRS.AKT	0	ROOT	|låta..vb.1|
+17	lite	|lite|	AB	_	AB.POS	18	AA	|lite..ab.1|
+18	tveksamt	|tveksam|	AB	_	AB.POS	16	AA	|tveksam..av.1|
+19	.	|	MAD	_	MAD	16	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f87f3e50
+1	I	|i|i slutändan|	PP	_	PP	3	TA	|i..pp.1|i_slutändan..abm.1|
+2	slutändan	|i slutändan:1|	NN	_	NN.UTR.SIN.DEF.NOM	1	PA	|i_slutändan..abm.1:1|
+3	kommer	|komma|	VB	_	VB.PRS.AKT	0	ROOT	|komma..vb.1|
+4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
+5	ändå	|ändå|	AB	_	AB	3	+A	|ändå..ab.1|
+6	ner	|ner|	PL	_	PL	3	PL	|ner..ab.1|
+7	till	|till|	PP	_	PP	3	OA	|till..pp.1|
+8	"	|	PAD	_	PAD	9	IC	|
+9	magkänsla	|magkänsla|	NN	_	NN.UTR.SIN.IND.NOM	7	PA	|magkänsla..nn.1|
+10	"	|	PAD	_	PAD	9	JC	|
+11	.	|	MAD	_	MAD	3	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f878fee9
+1	Vad	|vad|vad för|	HP	_	HP.NEU.SIN.IND	2	SS	|vad..pn.1|vad_för..pnm.1|
+2	känns	|känna|kännas|	VB	_	VB.PRS.SFO	0	ROOT	|känna..vb.1|känna..vb.2|kännas..vb.1|
+3	rätt	|rätt|	PL	_	PL	2	PL	|rätt..ab.1|
+4	för	|för|vad för:1|	PP	_	PP	2	OA	|för..pp.1|vad_för..pnm.1:1|
+5	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	4	PA	|du..pn.1|
+6	?	|	MAD	_	MAD	2	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f87d346c
+1	Vad	|vad|	HP	_	HP.NEU.SIN.IND	2	OO	|vad..pn.1|
+2	vill	|vilja|	VB	_	VB.PRS.AKT	0	ROOT	|vilja..vb.1|
+3	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|du..pn.1|
+4	?	|	MAD	_	MAD	2	I?	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f87ff401
+1	Jättesvårt	|jättesvår|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	MS	|jättesvår..av.1|
+2	,	|	MID	_	MID	5	IK	|
+3	ja	|ja|	IN	_	IN	5	MS	|ja..in.1|
+4	...	|	MID	_	MID	5	IK	|
+5	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+6	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	7	DT	|ingen..pn.1|
+7	annan	|annan|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	8	SS	|annan..pn.1|
+8	kan	|kunna|	VB	_	VB.PRS.AKT	5	MS	|kunna..vb.1|
+9	råda	|rå|råda|	VB	_	VB.INF.AKT	8	VG	|rå..vb.1|råda..vb.1|
+10	.	|	MAD	_	MAD	5	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23863765
+# post_date = 2007-08-16 16:33:58
+# username = soso
+# sent_id = 3f87a783a
+1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+3	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23888459
+# post_date = 2007-08-17 09:22:19
+# username = soso
+# sent_id = 3f8727464
+1	Sefindus	|	PM	_	PM.NOM	2	SS	|
+2	:	|	MID	_	MID	0	ROOT	|
+3	En	|en|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|
+4	tuff	|tuff|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	5	AT	|tuff..av.1|
+5	situation	|situation|	NN	_	NN.UTR.SIN.IND.NOM	2	SP	|situation..nn.1|
+6	,	|	MID	_	MID	5	IK	|
+7	psykiskt	|psykisk|	AB	_	AB.POS	8	CJ	|psykisk..av.1|
+8	och	|och|	KN	_	KN	5	PT	|och..kn.1|
+9	fysiskt	|fysisk|	AB	_	AB.POS	8	CJ	|fysisk..av.1|
+10	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23888459
+# post_date = 2007-08-17 09:22:19
+# username = soso
+# sent_id = 3f8756c9b
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	förstår	|förstå|	VB	_	VB.PRS.AKT	0	ROOT	|förstå..vb.1|
+3	att	|att|	SN	_	SN	8	CJ	|att..sn.1|
+4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	SS	|den..pn.1|
+5	tär	|tära|	VB	_	VB.PRS.AKT	3	UA	|tära..vb.1|
+6	på	|på|	PP	_	PP	5	OA	|på..pp.1|
+7	krafterna	|kraft|	NN	_	NN.UTR.PLU.DEF.NOM	6	PA	|kraft..nn.1|
+8	och	|och|	KN	_	KN	2	OO	|och..kn.1|
+9	att	|att|	SN	_	SN	8	CJ	|att..sn.1|
+10	orken	|ork|	NN	_	NN.UTR.SIN.DEF.NOM	11	SS	|ork..nn.1|
+11	tar	|ta|ta slut|	VB	_	VB.PRS.AKT	9	UA	|ta..vb.1|ta_slut..vbm.1|
+12	slut	|ta slut:11|	PL	_	PL	11	PL	|ta_slut..vbm.1:11|
+13	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23888459
+# post_date = 2007-08-17 09:22:19
+# username = soso
+# sent_id = 3f875a389
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	känner	|känna|känna igen|	VB	_	VB.PRS.AKT	0	ROOT	|känna..vb.1|känna..vb.2|känna_igen..vbm.1|
+3	igen	|igen|känna igen:2|	PL	_	PL	2	PL	|igen..ab.1|igen..ab.2|känna_igen..vbm.1:2|
+4	känslan	|känsla|	NN	_	NN.UTR.SIN.DEF.NOM	2	OO	|känsla..nn.1|
+5	av	|av|	PP	_	PP	4	ET	|av..pp.1|
+6	att	|att|	IE	_	IE	5	PA	|att..sn.1|
+7	pendla	|pendla|	VB	_	VB.INF.AKT	6	IF	|pendla..vb.1|
+8	mellan	|mellan|	PP	_	PP	7	OA	|mellan..pp.1|
+9	hopp	|hopp|	NN	_	NN.NEU.SIN.IND.NOM	10	CJ	|hopp..nn.1|
+10	och	|och|	KN	_	KN	8	PA	|och..kn.1|
+11	förtvivlan	|förtvivlan|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|förtvivlan..nn.1|
+12	,	|	MID	_	MID	7	IK	|
+13	även	|även|även om|	AB	_	AB	7	AA	|även..ab.1|även_om..snm.1|
+14	om	|om|även om:13|	SN	_	SN	13	HD	|om..sn.1|även_om..snm.1:13|
+15	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	17	SS	|vi..pn.1|
+16	inte	|inte|	AB	_	AB	17	NA	|inte..ab.1|
+17	är	|vara|	VB	_	VB.PRS.AKT	13	UA	|vara..vb.1|
+18	i	|i|	PP	_	PP	17	SP	|i..pp.1|
+19	samma	|samma|	DT	_	DT.UTR+NEU.SIN+PLU.IND	20	DT	|samma..pn.1|
+20	situation	|situation|	NN	_	NN.UTR.SIN.IND.NOM	18	PA	|situation..nn.1|
+21	som	|	KN	_	KN	20	ET	|
+22	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	21	UA	|ni..pn.1|
+23	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23888459
+# post_date = 2007-08-17 09:22:19
+# username = soso
+# sent_id = 3f875bab3
+1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	27	MS	|ha..vb.1|
+3	dock	|dock|	AB	_	AB	2	+A	|dock..ab.1|
+4	försökt	|försöka|	VB	_	VB.SUP.AKT	2	VG	|försöka..vb.1|
+5	bli	|bli|	VB	_	VB.INF.AKT	4	OO	|bli..vb.1|
+6	med	|med|	PP	_	PP	5	OA	|med..pp.1|
+7	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	6	PA	|barn..nn.1|
+8	i	|i|	PP	_	PP	7	ET	|i..pp.1|
+9	1	|	RG	_	RG.NOM	10	DT	|
+10	1	|	RG	_	RG.NOM	8	PA	|
+11	/	|	MID	_	MID	13	DT	|
+12	2	|	RG	_	RG.NOM	13	DT	|
+13	år	|år|	NN	_	NN.NEU.SIN.IND.NOM	8	PA	|år..nn.1|
+14	med	|med|	PP	_	PP	5	OA	|med..pp.1|
+15	tre	|tre|	RG	_	RG.NOM	16	DT	|tre..nl.1|
+16	missfall	|missfall|	NN	_	NN.NEU.PLU.IND.NOM	14	PA	|missfall..nn.1|
+17	innan	|innan|	SN	_	SN	5	TA	|innan..sn.1|
+18	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	20	SS	|vi..pn.1|
+19	nu	|nu|	AB	_	AB	20	TA	|nu..ab.1|
+20	lyckats	|lyckas|	VB	_	VB.SUP.SFO	17	UA	|lyckas..vb.1|
+21	(	|	PAD	_	PAD	20	IR	|
+22	är	|vara|	VB	_	VB.PRS.AKT	27	MS	|vara..vb.1|
+23	gravid	|gravid|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	22	SP	|gravid..av.1|
+24	för	|för|	PP	_	PP	22	TA	|för..pp.1|
+25	fjärde	|fyra|	RO	_	RO.NOM	26	DT	|fyra..nl.1|
+26	gången	|gång|	NN	_	NN.UTR.SIN.DEF.NOM	24	PA	|gång..nn.1|gång..nn.2|gång..nn.3|
+27	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+28	denna	|denna|	DT	_	DT.UTR.SIN.DEF	29	DT	|denna..pn.1|
+29	gången	|gång|	NN	_	NN.UTR.SIN.DEF.NOM	30	TA	|gång..nn.1|gång..nn.2|gång..nn.3|
+30	verkar	|verka|	VB	_	VB.PRS.AKT	27	MS	|verka..vb.1|
+31	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	30	SS	|den..pn.1|
+32	gå	|gå|gå vägen|	VB	_	VB.INF.AKT	30	VG	|gå..vb.1|gå_vägen..vbm.1|
+33	vägen	|väg|gå vägen:32|	NN	_	NN.UTR.SIN.DEF.NOM	32	OO	|väg..nn.1|gå_vägen..vbm.1:32|
+34	)	|	PAD	_	PAD	27	JR	|
+35	.	|	MAD	_	MAD	2	IP	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23888459
+# post_date = 2007-08-17 09:22:19
+# username = soso
+# sent_id = 3f8713ac2
+1	Så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
+2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
+3	kan	|kunna|	VB	_	VB.PRS.AKT	1	MS	|kunna..vb.1|
+4	förstå	|förstå|	VB	_	VB.INF.AKT	3	VG	|förstå..vb.1|
+5	att	|att|	SN	_	SN	4	OO	|att..sn.1|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
+7	är	|vara|	VB	_	VB.PRS.AKT	5	UA	|vara..vb.1|
+8	jobbigt	|jobbig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	7	SP	|jobbig..av.1|
+9	,	|	MID	_	MID	7	IK	|
+10	även	|även|även om|	AB	_	AB	7	AA	|även..ab.1|även_om..snm.1|
+11	om	|om|även om:10|	SN	_	SN	10	HD	|om..sn.1|även_om..snm.1:10|
+12	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	16	SS	|jag..pn.1|
+13	så	|så|så klart|	AB	_	AB	16	AA	|så..ab.1|så_klart..abm.1|
+14	klart	|klar|så klart:13|	AB	_	AB	13	HD	|klar..av.1|så_klart..abm.1:13|
+15	inte	|inte|	AB	_	AB	16	NA	|inte..ab.1|
+16	kan	|kunna|	VB	_	VB.PRS.AKT	10	UA	|kunna..vb.1|
+17	sätta	|sätta|sätta sig|sätta in|sätta sig in|	VB	_	VB.INF.AKT	16	VG	|sätta..vb.1|sätta_sig..vbm.1|sätta_in..vbm.1|sätta_in..vbm.2|sätta_sig_in..vbm.1|
+18	mig	|jag|sätta sig:17|sätta sig in:17|	PN	_	PN.UTR.SIN.DEF.OBJ	17	OO	|jag..pn.1|sätta_sig..vbm.1:17|sätta_sig_in..vbm.1:17|
+19	in	|in|sätta in:17|sätta sig in:17|in i|	PL	_	PL	17	PL	|in..ab.1|sätta_in..vbm.1:17|sätta_in..vbm.2:17|sätta_sig_in..vbm.1:17|in_i..ppm.1|
+20	i	|i|in i:19|	PP	_	PP	17	RA	|i..pp.1|in_i..ppm.1:19|
+21	er	|ni|sätta sig:17|	PS	_	PS.UTR.SIN.DEF	22	DT	|ni..pn.1|sätta_sig..vbm.1:17|
+22	situation	|situation|	NN	_	NN.UTR.SIN.IND.NOM	20	PA	|situation..nn.1|
+23	!	|	MAD	_	MAD	3	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Relationsproblem
+# subsubforum_id = Relationsproblem
+# thread_id = 23862450
+# thread_title = Lämna någon man tycker om för det verkar vettigt "på pappret"?
+# post_id = 23888459
+# post_date = 2007-08-17 09:22:19
+# username = soso
+# sent_id = 3f87f71f0
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
+3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
+4	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|ni..pn.1|
+5	båda	|båda|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	6	SS	|båda..pn.1|
+6	hittar	|hitta|	VB	_	VB.PRS.AKT	3	UA	|hitta..vb.1|
+7	ett	|en|	DT	_	DT.NEU.SIN.IND	8	DT	|en..al.1|
+8	sätt	|sätt|	NN	_	NN.NEU.SIN.IND.NOM	6	OO	|sätt..nn.1|
+9	att	|att|	IE	_	IE	8	ET	|att..sn.1|
+10	orka	|orka|	VB	_	VB.INF.AKT	9	IF	|orka..vb.1|
+11	gå	|gå|gå vidare|	VB	_	VB.INF.AKT	10	OO	|gå..vb.1|gå_vidare..vbm.1|
+12	vidare	|vid|vidare|gå vidare:11|	AB	_	AB.KOM	11	PL	|vid..av.1|vidare..ab.1|gå_vidare..vbm.1:11|
+13	,	|	MID	_	MID	11	IK	|
+14	med	|med|	PP	_	PP	16	CJ	|med..pp.1|
+15	varandra	|varandra|	PN	_	PN.UTR+NEU.PLU.DEF.OBJ	14	PA	|varandra..pn.1|
+16	eller	|eller|	KN	_	KN	11	RA	|eller..kn.1|
+17	utan	|utan|	PP	_	PP	16	CJ	|utan..pp.1|
+18	varandra	|varandra|	PN	_	PN.UTR+NEU.PLU.DEF.OBJ	17	PA	|varandra..pn.1|
+19	,	|	MID	_	MID	11	IK	|
+20	beroende	|bero|beroende|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	16	CJ	|bero..vb.1|beroende..av.1|
+21	på	|på|	PP	_	PP	20	HD	|på..pp.1|
+22	vilken	|	HD	_	HD.UTR.SIN.IND	23	DT	|
+23	väg	|väg|	NN	_	NN.UTR.SIN.IND.NOM	20	PA	|väg..nn.1|
+24	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	25	CJ	|du..pn.1|
+25	/	|	MID	_	MID	27	SS	|
+26	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	25	CJ	|ni..pn.1|
+27	väljer	|välja|	VB	_	VB.PRS.AKT	20	PA	|välja..vb.1|
+28	att	|att|	IE	_	IE	27	OO	|att..sn.1|
+29	ta	|ta|	VB	_	VB.INF.AKT	28	IF	|ta..vb.1|
+30	.	|	MAD	_	MAD	2	IP	|
+

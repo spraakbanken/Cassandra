@@ -1,0 +1,677 @@
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9108928
+# post_date = 2006-05-04 09:32:54
+# username = loveisintheair
+# sent_id = 42844a906
+1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	vill	|vilja|	VB	_	VB.PRS.AKT	1	MS	|vilja..vb.1|
+3	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|han..pn.1|
+4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+5	att	|att|	SN	_	SN	2	OO	|att..sn.1|
+6	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|du..pn.1|
+7	ska	|skola|	VB	_	VB.PRS.AKT	5	UA	|skola..vb.2|
+8	lära	|lära|lära känna|	VB	_	VB.INF.AKT	7	VG	|lära..vb.1|lära_känna..vbm.1|
+9	känna	|känna|lära känna:8|	VB	_	VB.INF.AKT	8	OO	|känna..vb.1|känna..vb.2|lära_känna..vbm.1:8|
+10	hans	|han|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	11	DT	|han..pn.1|
+11	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	9	OO	|barn..nn.1|
+12	också	|också|	AB	_	AB	9	+A	|också..ab.1|
+13	?	|	MAD	_	MAD	2	I?	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9108928
+# post_date = 2006-05-04 09:32:54
+# username = loveisintheair
+# sent_id = 428431436
+1	Föreslå	|föreslå|	VB	_	VB.INF.AKT	14	MS	|föreslå..vb.1|
+2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
+3	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|du..pn.1|
+4	får	|få|	VB	_	VB.PRS.AKT	10	MS	|få..vb.1|
+5	följa	|följa|	VB	_	VB.INF.AKT	4	VG	|följa..vb.1|
+6	med	|med|	PL	_	PL	5	PL	|med..ab.1|
+7	till	|till|	PP	_	PP	5	OA	|till..pp.1|
+8	hans	|han|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	9	DT	|han..pn.1|
+9	ex	|ex|	NN	_	NN.AN	7	PA	|ex..nna.1|
+10	och	|och|	KN	_	KN	2	UA	|och..kn.1|
+11	träffa	|träffa|	VB	_	VB.INF.AKT	10	+F	|träffa..vb.1|
+12	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	11	OO	|barn..nn.1|
+13	,	|	MID	_	MID	1	IK	|
+14	så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
+15	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	16	SS	|du..pn.1|
+16	får	|få|	VB	_	VB.PRS.AKT	14	MS	|få..vb.1|
+17	bli	|bli|	VB	_	VB.INF.AKT	16	VG	|bli..vb.1|
+18	en	|en|en del|	DT	_	DT.UTR.SIN.IND	19	DT	|en..al.1|en_del..pnm.1|
+19	del	|del|en del:18|	NN	_	NN.UTR.SIN.IND.NOM	17	SP	|del..nn.1|en_del..pnm.1:18|
+20	av	|av|	PP	_	PP	19	ET	|av..pp.1|
+21	det	|den|en|	DT	_	DT.NEU.SIN.DEF	22	DT	|den..pn.1|en..al.1|
+22	hela	|hel|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	20	PA	|hel..av.1|
+23	.	|	MAD	_	MAD	14	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9108928
+# post_date = 2006-05-04 09:32:54
+# username = loveisintheair
+# sent_id = 428409072
+1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+3	!	|	MAD	_	MAD	2	PA	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9109008
+# post_date = 2006-05-04 09:35:32
+# username = loveisintheair
+# sent_id = 42841080f
+1	Kanske	|kanske|	AB	_	AB	2	MA	|kanske..ab.1|
+2	ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
+3	tillägga	|tillägga|	VB	_	VB.INF.AKT	2	VG	|tillägga..vb.1|
+4	att	|att|	SN	_	SN	3	OO	|att..sn.1|
+5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
+6	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
+7	läst	|läsa|	VB	_	VB.SUP.AKT	11	MS	|läsa..vb.1|
+8	den	|den|en|	DT	_	DT.UTR.SIN.DEF	10	DT	|den..pn.1|en..al.1|
+9	gamla	|gammal|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	10	AT	|gammal..av.1|
+10	tråden	|tråd|	NN	_	NN.UTR.SIN.DEF.NOM	7	OO	|tråd..nn.1|
+11	och	|och|	KN	_	KN	4	UA	|och..kn.1|
+12	kanske	|kanske|	AB	_	AB	13	MA	|kanske..ab.1|
+13	missat	|missa|	VB	_	VB.SUP.AKT	11	+F	|missa..vb.1|
+14	väsentligheter	|väsentlighet|	NN	_	NN.UTR.PLU.IND.NOM	15	CJ	|väsentlighet..nn.1|
+15	,	|	MID	_	MID	18	AT	|
+16	ledsen	|ledsen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	18	AT	|ledsen..av.1|
+17	iså	|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	18	AT	|
+18	fall	|fall|	NN	_	NN.NEU.SIN.IND.NOM	13	OO	|fall..nn.1|
+19	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9109008
+# post_date = 2006-05-04 09:35:32
+# username = loveisintheair
+# sent_id = 4284c0162
+1	Hur	|hur|hur som helst|	HA	_	HA	4	AA	|hur..ab.1|hur_som_helst..abm.1|
+2	som	|hur som helst:1|	KN	_	KN	1	HD	|hur_som_helst..abm.1:1|
+3	helst	|gärna|hur som helst:1|	AB	_	AB.SUV	1	HD	|gärna..ab.1|hur_som_helst..abm.1:1|
+4	tycker	|tycka|	VB	_	VB.PRS.AKT	0	ROOT	|tycka..vb.1|
+5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+6	att	|att|	SN	_	SN	4	OO	|att..sn.1|
+7	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|han..pn.1|
+8	måste	|måste|	VB	_	VB.PRS.AKT	6	UA	|måste..vb.1|
+9	förstå	|förstå|	VB	_	VB.INF.AKT	8	VG	|förstå..vb.1|
+10	att	|att|	SN	_	SN	9	OO	|att..sn.1|
+11	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|du..pn.1|
+12	måste	|måste|	VB	_	VB.PRS.AKT	10	UA	|måste..vb.1|
+13	få	|få|	VB	_	VB.INF.AKT	12	VG	|få..vb.1|
+14	vara	|vara|	VB	_	VB.INF.AKT	13	VG	|vara..vb.1|vara..vb.2|
+15	en	|en|en del|	DT	_	DT.UTR.SIN.IND	16	DT	|en..al.1|en_del..pnm.1|
+16	del	|del|en del:15|	NN	_	NN.UTR.SIN.IND.NOM	14	SP	|del..nn.1|en_del..pnm.1:15|
+17	av	|av|	PP	_	PP	16	ET	|av..pp.1|
+18	hans	|han|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	19	DT	|han..pn.1|
+19	liv	|liv|	NN	_	NN.NEU.SIN.IND.NOM	17	PA	|liv..nn.1|
+20	med	|med|	PP	_	PP	19	ET	|med..pp.1|
+21	bäbisen	|bäbis|	NN	_	NN.UTR.SIN.DEF.NOM	20	PA	|bäbis..nn.1|
+22	om	|om|	SN	_	SN	14	AA	|om..sn.1|
+23	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	24	SS	|du..pn.1|
+24	ska	|skola|	VB	_	VB.PRS.AKT	22	UA	|skola..vb.2|
+25	kunna	|kunna|	VB	_	VB.INF.AKT	24	VG	|kunna..vb.1|
+26	ta	|ta|ta sig|	VB	_	VB.INF.AKT	25	VG	|ta..vb.1|ta_sig..vbm.1|
+27	dig	|du|ta sig:26|	PN	_	PN.UTR.SIN.DEF.OBJ	26	IO	|du..pn.1|ta_sig..vbm.1:26|
+28	igenom	|	PL	_	PL	26	PL	|
+29	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	26	OO	|den..pn.1|den_här..pnm.1|
+30	här	|här|den här:29|	AB	_	AB	26	RA	|här..ab.1|den_här..pnm.1:29|
+31	.	|	MAD	_	MAD	4	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 42848e610
+1	Åh	|åh|	IN	_	IN	0	ROOT	|åh..in.1|
+2	vad	|vad|	HP	_	HP.NEU.SIN.IND	6	SP	|vad..pn.1|
+3	frustrerad	|frustrera|frustrerad|	PC	_	PC.PRF.UTR.SIN.IND.NOM	5	SS	|frustrera..vb.1|frustrerad..av.1|
+4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
+5	skulle	|skola|	VB	_	VB.PRT.AKT	1	OO	|skola..vb.2|
+6	bli	|bli|	VB	_	VB.INF.AKT	5	VG	|bli..vb.1|
+7	om	|om|	SN	_	SN	6	AA	|om..sn.1|
+8	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|jag..pn.1|
+9	vore	|vara|	VB	_	VB.KON.PRT.AKT	7	UA	|vara..vb.1|
+10	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	9	SP	|du..pn.1|
+11	!	|	MAD	_	MAD	1	IU	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 42840cd7c
+1	Självklart	|självklar|	AB	_	AB.POS	2	MA	|självklar..av.1|
+2	borde	|böra|	VB	_	VB.PRT.AKT	11	MS	|böra..vb.1|
+3	din	|du|	PS	_	PS.UTR.SIN.DEF	4	DT	|du..pn.1|
+4	kille	|kille|	NN	_	NN.UTR.SIN.IND.NOM	2	SS	|kille..nn.1|kille..nn.2|
+5	kunna	|kunna|	VB	_	VB.INF.AKT	2	VG	|kunna..vb.1|
+6	ta	|ta|	VB	_	VB.INF.AKT	5	VG	|ta..vb.1|
+7	en	|en|	DT	_	DT.UTR.SIN.IND	8	DT	|en..al.1|
+8	promenad	|promenad|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|promenad..nn.1|
+9	med	|med|	PP	_	PP	6	OA	|med..pp.1|
+10	bäbisen	|bäbis|	NN	_	NN.UTR.SIN.DEF.NOM	9	PA	|bäbis..nn.1|
+11	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+12	möta	|möta|möta upp|	VB	_	VB.INF.AKT	11	+F	|möta..vb.1|möta_upp..vbm.1|
+13	upp	|upp|möta upp:12|	PL	_	PL	12	PL	|upp..ab.1|möta_upp..vbm.1:12|
+14	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	12	IO	|du..pn.1|
+15	om	|om|	SN	_	SN	12	AA	|om..sn.1|
+16	nu	|nu|	AB	_	AB	19	TA	|nu..ab.1|
+17	inte	|inte|	AB	_	AB	19	NA	|inte..ab.1|
+18	mamman	|mamma|	NN	_	NN.UTR.SIN.DEF.NOM	19	SS	|mamma..nn.1|
+19	klarar	|klara|klara av|	VB	_	VB.PRS.AKT	15	UA	|klara..vb.1|klara..vb.2|klara_av..vbm.1|
+20	av	|av|klara av:19|	PL	_	PL	19	PL	|av..ab.1|klara_av..vbm.1:19|
+21	att	|att|	IE	_	IE	19	OO	|att..sn.1|
+22	träffa	|träffa|	VB	_	VB.INF.AKT	21	IF	|träffa..vb.1|
+23	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	22	OO	|du..pn.1|
+24	.	|	MAD	_	MAD	11	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 42844f53e
+1	Självklart	|självklar|	AB	_	AB.POS	2	MA	|självklar..av.1|
+2	borde	|böra|	VB	_	VB.PRT.AKT	0	ROOT	|böra..vb.1|
+3	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|han..pn.1|
+4	vilja	|vilja|	VB	_	VB.INF.AKT	2	VG	|vilja..vb.1|
+5	visa	|visa|visa sig|	VB	_	VB.INF.AKT	4	VG	|visa..vb.1|visa_sig..vbm.1|
+6	sin	|sig|	PS	_	PS.UTR.SIN.DEF	7	DT	|sig..pn.1|
+7	son	|son|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|son..nn.1|
+8	för	|för|	PP	_	PP	5	OA	|för..pp.1|
+9	dig	|du|visa sig:5|	PN	_	PN.UTR.SIN.DEF.OBJ	8	PA	|du..pn.1|visa_sig..vbm.1:5|
+10	om	|om|	SN	_	SN	5	AA	|om..sn.1|
+11	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|han..pn.1|
+12	tänker	|tänka|tänka sig|	VB	_	VB.PRS.AKT	10	UA	|tänka..vb.1|tänka_sig..vbm.1|
+13	sig	|sig|tänka sig:12|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	12	IO	|sig..pn.1|tänka_sig..vbm.1:12|
+14	en	|en|	DT	_	DT.UTR.SIN.IND	15	DT	|en..al.1|
+15	framtid	|framtid|	NN	_	NN.UTR.SIN.IND.NOM	12	OO	|framtid..nn.1|
+16	med	|med|	PP	_	PP	12	OA	|med..pp.1|
+17	dig	|du|tänka sig:12|	PN	_	PN.UTR.SIN.DEF.OBJ	16	PA	|du..pn.1|tänka_sig..vbm.1:12|
+18	!	|	MAD	_	MAD	2	IU	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 428493ef9
+1	Borde	|böra|	VB	_	VB.PRT.AKT	0	ROOT	|böra..vb.1|
+2	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|han..pn.1|
+3	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
+4	vilja	|vilja|	VB	_	VB.INF.AKT	1	VG	|vilja..vb.1|
+5	att	|att|	SN	_	SN	4	OO	|att..sn.1|
+6	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|ni..pn.1|
+7	har	|ha|	VB	_	VB.PRS.AKT	5	UA	|ha..vb.1|
+8	gemensamma	|gemensam|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	9	AT	|gemensam..av.1|
+9	minnen	|minne|	NN	_	NN.NEU.PLU.IND.NOM	7	OO	|minne..nn.1|
+10	av	|av|	PP	_	PP	9	ET	|av..pp.1|
+11	sonens	|son|	NN	_	NN.UTR.SIN.DEF.GEN	13	DT	|son..nn.1|
+12	första	|	RO	_	RO.NOM	13	DT	|
+13	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	10	PA	|tid..nn.1|
+14	?	|	MAD	_	MAD	1	I?	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 4284026ea
+1	Han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|han..pn.1|
+2	borde	|böra|	VB	_	VB.PRT.AKT	0	ROOT	|böra..vb.1|
+3	förstå	|förstå|	VB	_	VB.INF.AKT	2	VG	|förstå..vb.1|
+4	att	|att|	SN	_	SN	3	OO	|att..sn.1|
+5	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|den_här..pnm.1|
+6	här	|här|den här:5|	AB	_	AB	7	RA	|här..ab.1|den_här..pnm.1:5|
+7	är	|vara|	VB	_	VB.PRS.AKT	13	MS	|vara..vb.1|
+8	en	|en|	DT	_	DT.UTR.SIN.IND	10	DT	|en..al.1|
+9	jobbig	|jobbig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	10	AT	|jobbig..av.1|
+10	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	7	SP	|tid..nn.1|
+11	för	|för|	PP	_	PP	7	OA	|för..pp.1|
+12	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	11	PA	|du..pn.1|
+13	och	|och|	KN	_	KN	4	UA	|och..kn.1|
+14	verkligen	|verkligen|	AB	_	AB	15	MA	|verkligen..ab.1|
+15	vara	|vara|	VB	_	VB.INF.AKT	13	+F	|vara..vb.1|vara..vb.2|
+16	mån	|mån|	NN	_	NN.UTR.SIN.IND.NOM	15	SP	|mån..nn.1|mån..nna.1|
+17	om	|om|	PP	_	PP	15	OA	|om..pp.1|
+18	att	|att|	IE	_	IE	17	PA	|att..sn.1|
+19	finnas	|finna|finnas|finnas till|	VB	_	VB.INF.SFO	18	IF	|finna..vb.1|finnas..vb.1|finnas_till..vbm.1|
+20	till	|till|finnas till:19|	PL	_	PL	19	PL	|till..ab.1|finnas_till..vbm.1:19|
+21	för	|för|	PP	_	PP	19	OA	|för..pp.1|
+22	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	21	PA	|du..pn.1|
+23	också	|också|	AB	_	AB	19	+A	|också..ab.1|
+24	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 4284cc3ab
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	tror	|tro|	VB	_	VB.PRS.AKT	0	ROOT	|tro..vb.1|
+3	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|du..pn.1|
+4	måste	|måste|	VB	_	VB.PRS.AKT	2	OO	|måste..vb.1|
+5	fråga	|fråga|fråga sig|	VB	_	VB.INF.AKT	4	VG	|fråga..vb.1|fråga..vb.2|fråga_sig..vbm.1|
+6	dig	|du|fråga sig:5|	PN	_	PN.UTR.SIN.DEF.OBJ	5	IO	|du..pn.1|fråga_sig..vbm.1:5|
+7	själv	|själv|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	6	PT	|själv..pn.1|
+8	hur	|hur|	HA	_	HA	9	AA	|hur..ab.1|
+9	gärna	|gärna|	AB	_	AB.POS	11	MA	|gärna..ab.1|
+10	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|du..pn.1|
+11	vill	|vilja|	VB	_	VB.PRS.AKT	5	OO	|vilja..vb.1|
+12	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	OO	|den..pn.1|den_här..pnm.1|
+13	här	|här|den här:12|	AB	_	AB	11	RA	|här..ab.1|den_här..pnm.1:12|
+14	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 42844341f
+1	Fundera	|fundera|	VB	_	VB.IMP.AKT	0	ROOT	|fundera..vb.1|
+2	på	|på|	PP	_	PP	1	OA	|på..pp.1|
+3	hur	|hur|	HA	_	HA	5	AA	|hur..ab.1|
+4	DU	|du|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|du..pn.1|
+5	vill	|vilja|	VB	_	VB.PRS.AKT	2	PA	|vilja..vb.1|
+6	att	|att|	SN	_	SN	5	OO	|att..sn.1|
+7	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|den_här..pnm.1|
+8	här	|här|den här:7|	AB	_	AB	9	RA	|här..ab.1|den_här..pnm.1:7|
+9	ska	|skola|	VB	_	VB.PRS.AKT	12	CJ	|skola..vb.2|
+10	gå	|gå|gå till|	VB	_	VB.INF.AKT	9	VG	|gå..vb.1|gå_till..vbm.1|
+11	till	|till|gå till:10|	PL	_	PL	10	PL	|till..ab.1|gå_till..vbm.1:10|
+12	och	|och|	KN	_	KN	1	OO	|och..kn.1|
+13	vart	|vart|	HA	_	HA	15	RA	|vart..ab.1|
+14	gränsen	|gräns|	NN	_	NN.UTR.SIN.DEF.NOM	15	SS	|gräns..nn.1|
+15	går	|gå|	VB	_	VB.PRS.AKT	12	CJ	|gå..vb.1|
+16	.	|	MAD	_	MAD	1	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 4284e6136
+1	Med	|med|	PP	_	PP	9	AA	|med..pp.1|
+2	risk	|risk|	NN	_	NN.UTR.SIN.IND.NOM	1	HD	|risk..nn.1|
+3	för	|för|	PP	_	PP	1	HD	|för..pp.1|
+4	att	|att|	IE	_	IE	1	PA	|att..sn.1|
+5	låta	|låta|	VB	_	VB.INF.AKT	4	IF	|låta..vb.1|
+6	lite	|lite|	AB	_	AB.POS	7	AA	|lite..ab.1|
+7	paranoid	|paranoid|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	5	OP	|paranoid..av.1|
+8	så	|så|	AB	_	AB	9	DB	|så..ab.1|
+9	skulle	|skola|	VB	_	VB.PRT.AKT	0	ROOT	|skola..vb.2|
+10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|jag..pn.1|
+11	nog	|nog|	AB	_	AB	9	MA	|nog..ab.1|
+12	kolla	|kolla|kolla upp|	VB	_	VB.INF.AKT	9	VG	|kolla..vb.1|kolla..vb.2|kolla_upp..vbm.1|
+13	upp	|upp|kolla upp:12|	PL	_	PL	12	PL	|upp..ab.1|kolla_upp..vbm.1:12|
+14	om	|om|	SN	_	SN	12	OO	|om..sn.1|
+15	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	17	SS	|han..pn.1|
+16	verkligen	|verkligen|	AB	_	AB	17	MA	|verkligen..ab.1|
+17	åker	|åka|	VB	_	VB.PRS.AKT	14	UA	|åka..vb.1|
+18	till	|till|	PP	_	PP	17	OA	|till..pp.1|
+19	sina	|sig|	PS	_	PS.UTR+NEU.PLU.DEF	20	DT	|sig..pn.1|
+20	föräldrar	|förälder|	NN	_	NN.UTR.PLU.IND.NOM	18	PA	|förälder..nn.1|
+21	när	|när|	HA	_	HA	23	TA	|när..ab.1|
+22	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	23	SS	|han..pn.1|
+23	säger	|säga|	VB	_	VB.PRS.AKT	17	TA	|säga..vb.1|
+24	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	23	OO	|den..pn.1|
+25	.	|	MAD	_	MAD	9	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 4284f0032
+1	Skulle	|skola|	VB	_	VB.PRT.AKT	19	MS	|skola..vb.2|
+2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	FS	|den..pn.1|
+3	vara	|vara|vara sig|	VB	_	VB.INF.AKT	1	VG	|vara..vb.1|vara..vb.2|vara_sig..vbm.1|
+4	helt	|hel|helt|	AB	_	AB.POS	5	AA	|hel..av.1|helt..ab.1|
+5	omöjligt	|omöjlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	3	SP	|omöjlig..av.1|
+6	för	|för|	PP	_	PP	3	OA	|för..pp.1|
+7	dig	|du|vara sig:3|	PN	_	PN.UTR.SIN.DEF.OBJ	6	PA	|du..pn.1|vara_sig..vbm.1:3|
+8	att	|att|	IE	_	IE	3	ES	|att..sn.1|
+9	ringa	|ringa|	VB	_	VB.INF.AKT	10	CJ	|ringa..vb.1|ringa..vb.2|ringa..vb.3|
+10	och	|och|	KN	_	KN	8	IF	|och..kn.1|
+11	prata	|prata|	VB	_	VB.INF.AKT	10	CJ	|prata..vb.1|
+12	med	|med|	PP	_	PP	10	OA	|med..pp.1|
+13	hans	|han|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	14	DT	|han..pn.1|
+14	ex	|ex|	NN	_	NN.AN	12	PA	|ex..nna.1|
+15	och	|och|	KN	_	KN	10	++	|och..kn.1|
+16	gratulera	|gratulera|	VB	_	VB.INF.AKT	15	+F	|gratulera..vb.1|
+17	till	|till|	PP	_	PP	16	OA	|till..pp.1|
+18	sonen	|son|	NN	_	NN.UTR.SIN.DEF.NOM	17	PA	|son..nn.1|
+19	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+20	säga	|säga|	VB	_	VB.INF.AKT	19	+F	|säga..vb.1|
+21	att	|att|	SN	_	SN	20	OO	|att..sn.1|
+22	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	24	FS	|den..pn.1|
+23	kanske	|kanske|	AB	_	AB	24	MA	|kanske..ab.1|
+24	är	|vara|	VB	_	VB.PRS.AKT	21	UA	|vara..vb.1|
+25	dags	|dag|dags|	NN	_	NN.UTR.-.-.-	24	TA	|dag..nn.1|dags..nn.1|
+26	för	|för|	PP	_	PP	24	OA	|för..pp.1|
+27	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	26	PA	|ni..pn.1|
+28	att	|att|	IE	_	IE	24	ES	|att..sn.1|
+29	prata	|prata|	VB	_	VB.INF.AKT	28	IF	|prata..vb.1|
+30	som	|	KN	_	KN	29	OP	|
+31	vuxna	|vuxen|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	32	AT	|vuxen..av.1|
+32	människor	|människa|	NN	_	NN.UTR.PLU.IND.NOM	30	UA	|människa..nn.1|
+33	och	|och|	KN	_	KN	20	OO	|och..kn.1|
+34	att	|att|	SN	_	SN	33	CJ	|att..sn.1|
+35	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	36	SS	|du..pn.1|
+36	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	34	UA	|hoppa..vb.1|hoppas..vb.1|
+37	att	|att|	SN	_	SN	36	OO	|att..sn.1|
+38	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	39	SS	|hon..pn.1|
+39	kan	|kunna|	VB	_	VB.PRS.AKT	37	UA	|kunna..vb.1|
+40	respektera	|respektera|	VB	_	VB.INF.AKT	39	VG	|respektera..vb.1|
+41	att	|att|	SN	_	SN	40	OO	|att..sn.1|
+42	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	43	SS	|du..pn.1|
+43	är	|vara|	VB	_	VB.PRS.AKT	41	UA	|vara..vb.1|
+44	en	|en|en del|	DT	_	DT.UTR.SIN.IND	45	DT	|en..al.1|en_del..pnm.1|
+45	del	|del|en del:44|	NN	_	NN.UTR.SIN.IND.NOM	43	SP	|del..nn.1|en_del..pnm.1:44|
+46	i	|i|	PP	_	PP	43	RA	|i..pp.1|
+47	bäbisens	|bäbis|	NN	_	NN.UTR.SIN.DEF.GEN	48	DT	|bäbis..nn.1|
+48	liv	|liv|	NN	_	NN.NEU.SIN.IND.NOM	46	PA	|liv..nn.1|
+49	också	|också|	AB	_	AB	43	+A	|också..ab.1|
+50	.	|	MAD	_	MAD	19	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 428460f83
+1	Ställ	|ställa|	VB	_	VB.IMP.AKT	7	MS	|ställa..vb.1|
+2	lite	|lite|	AB	_	AB.POS	3	AT	|lite..ab.1|
+3	krav	|krav|	NN	_	NN.NEU.SIN.IND.NOM	1	OO	|krav..nn.1|
+4	på	|på|	PP	_	PP	1	OA	|på..pp.1|
+5	din	|du|	PS	_	PS.UTR.SIN.DEF	6	DT	|du..pn.1|
+6	kille	|kille|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|kille..nn.1|kille..nn.2|
+7	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+8	är	|vara|	VB	_	VB.PRS.AKT	7	+F	|vara..vb.1|
+9	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|han..pn.1|
+10	inte	|inte|	AB	_	AB	8	NA	|inte..ab.1|
+11	beredd	|bereda|beredd|	PC	_	PC.PRF.UTR.SIN.IND.NOM	8	SP	|bereda..vb.1|beredd..av.1|
+12	att	|att|	IE	_	IE	8	OA	|att..sn.1|
+13	tillmötesgå	|tillmötesgå|	VB	_	VB.INF.AKT	12	IF	|tillmötesgå..vb.1|
+14	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	13	OO	|du..pn.1|
+15	så	|så|	AB	_	AB	16	DB	|så..ab.1|
+16	tycker	|tycka|	VB	_	VB.PRS.AKT	7	MS	|tycka..vb.1|
+17	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	16	SS	|jag..pn.1|
+18	inte	|inte|	AB	_	AB	16	NA	|inte..ab.1|
+19	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|han..pn.1|
+20	förtjänar	|förtjäna|	VB	_	VB.PRS.AKT	16	OO	|förtjäna..vb.1|
+21	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	20	OO	|du..pn.1|
+22	.	|	MAD	_	MAD	7	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9259195
+# post_date = 2006-05-11 10:03:10
+# username = loveisintheair
+# sent_id = 42849444b
+1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+3	!	|	MAD	_	MAD	2	PA	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Styvförälder
+# subsubforum_id = Styvförälder
+# thread_id = 9108822
+# thread_title = Min pojkvän fick barn med sitt ex
+# post_id = 9286500
+# post_date = 2006-05-12 09:32:29
+# username = loveisintheair
+# sent_id = 428420657
+1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+3	TS	|	PM	_	PM.NOM	2	PA	|
+4	,	|	MID	_	MID	1	IK	|
+5	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	1	MS	|hoppa..vb.1|hoppas..vb.1|
+6	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	5	SS	|all..pn.1|
+7	blir	|bli|	VB	_	VB.PRS.AKT	5	MS	|bli..vb.1|
+8	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	7	SP	|bra..av.2|
+9	för	|för|	PP	_	PP	7	OA	|för..pp.1|
+10	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	9	PA	|ni..pn.1|
+11	nu	|nu|	AB	_	AB	7	TA	|nu..ab.1|
+12	!	|	MAD	_	MAD	1	IU	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 9830707
+# thread_title = Opereras för cellförändringar..
+# post_id = 9833602
+# post_date = 2006-06-02 13:17:27
+# username = loveisintheair
+# sent_id = 3380e79e2
+1	Halloj	|	IN	_	IN	0	ROOT	|
+2	!	|	MAD	_	MAD	1	IU	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 9830707
+# thread_title = Opereras för cellförändringar..
+# post_id = 9833602
+# post_date = 2006-06-02 13:17:27
+# username = loveisintheair
+# sent_id = 3380d29a7
+1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+2	också	|också|	AB	_	AB	1	+A	|också..ab.1|
+3	tagit	|ta|ta bort|	VB	_	VB.SUP.AKT	1	VG	|ta..vb.1|ta_bort..vbm.1|
+4	bort	|bort|ta bort:3|	PL	_	PL	3	PL	|bort..ab.1|ta_bort..vbm.1:3|
+5	cellförädringar	|	NN	_	NN.UTR.PLU.IND.NOM	3	OO	|
+6	.	|	MAD	_	MAD	1	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 9830707
+# thread_title = Opereras för cellförändringar..
+# post_id = 9833602
+# post_date = 2006-06-02 13:17:27
+# username = loveisintheair
+# sent_id = 33807a2b3
+1	INGET	|ingen|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	0	ROOT	|ingen..pn.1|
+2	ATT	|att|	IE	_	IE	1	ET	|att..sn.1|
+3	OROA	|oroa|oroa sig|	VB	_	VB.INF.AKT	2	IF	|oroa..vb.1|oroa_sig..vbm.1|
+4	SIG	|sig|oroa sig:3|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	3	OO	|sig..pn.1|oroa_sig..vbm.1:3|
+5	FÖR	|för|	PP	_	PP	3	OA	|för..pp.1|
+6	,	|	MID	_	MID	1	IK	|
+7	JAG	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
+8	LOVAR	|lova|	VB	_	VB.PRS.AKT	1	MS	|lova..vb.1|lova..vb.2|
+9	!	|	MAD	_	MAD	8	IU	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 9830707
+# thread_title = Opereras för cellförändringar..
+# post_id = 9833602
+# post_date = 2006-06-02 13:17:27
+# username = loveisintheair
+# sent_id = 3380d589d
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	fick	|få|	VB	_	VB.PRT.AKT	7	MS	|få..vb.1|
+3	ingreppet	|ingrepp|	NN	_	NN.NEU.SIN.DEF.NOM	2	SS	|ingrepp..nn.1|
+4	gjort	|göra|	VB	_	VB.SUP.AKT	2	VG	|göra..vb.1|
+5	under	|under|	PP	_	PP	4	RA	|under..pp.1|
+6	lokalbedövning	|lokalbedövning|	NN	_	NN.UTR.SIN.IND.NOM	5	PA	|lokalbedövning..nn.1|
+7	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+8	kände	|känna|	VB	_	VB.PRT.AKT	7	+F	|känna..vb.1|
+9	inte	|inte|	AB	_	AB	8	NA	|inte..ab.1|
+10	ett	|en|ett dugg|	DT	_	DT.NEU.SIN.IND	8	OO	|en..al.1|ett_dugg..pnm.1|
+11	dugg	|ett dugg:10|	NN	_	NN.NEU.SIN.IND.NOM	8	OO	|ett_dugg..pnm.1:10|
+12	!	|	MAD	_	MAD	7	IU	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 9830707
+# thread_title = Opereras för cellförändringar..
+# post_id = 9833602
+# post_date = 2006-06-02 13:17:27
+# username = loveisintheair
+# sent_id = 338022558
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	tog	|ta|	VB	_	VB.PRT.AKT	11	MS	|ta..vb.1|
+3	väl	|väl|	AB	_	AB	2	MA	|väl..ab.1|väl_2..ab.1|
+4	knappt	|knapp|knappt|	AB	_	AB.POS	2	TA	|knapp..av.1|knappt..ab.1|
+5	en	|en|	DT	_	DT.UTR.SIN.IND	6	DT	|en..al.1|
+6	halvtimme	|halvtimme|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|halvtimme..nn.1|
+7	så	|så|	AB	_	AB	8	DB	|så..ab.1|
+8	var	|vara|	VB	_	VB.PRT.AKT	11	MS	|vara..vb.1|
+9	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	10	AA	|all..pn.1|
+10	klart	|klar|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	8	SP	|klar..av.1|
+11	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+12	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|jag..pn.1|
+13	gav	|ge|ge sig|ge sig ut|ge ut|	VB	_	VB.PRT.AKT	11	MS	|ge..vb.1|ge_sig..vbm.1|ge_sig_ut..vbm.1|ge_ut..vbm.1|
+14	mig	|jag|ge sig:13|ge sig ut:13|	PN	_	PN.UTR.SIN.DEF.OBJ	13	OO	|jag..pn.1|ge_sig..vbm.1:13|ge_sig_ut..vbm.1:13|
+15	ut	|ut|ge sig ut:13|ge ut:13|	PL	_	PL	13	PL	|ut..ab.1|ge_sig_ut..vbm.1:13|ge_ut..vbm.1:13|
+16	på	|på|	PP	_	PP	13	RA	|på..pp.1|
+17	stan	|stad|	NN	_	NN.UTR.SIN.DEF.NOM	16	PA	|stad..nn.1|
+18	och	|och|	KN	_	KN	11	++	|och..kn.1|
+19	shoppade	|shoppa|	VB	_	VB.PRT.AKT	18	+F	|shoppa..vb.1|
+20	.	|	MAD	_	MAD	11	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Förlorat barn
+# subsubforum_id = Förlorat barn
+# thread_id = 9343554
+# thread_title = 2 mánader sedan nu 8((((
+# post_id = 9352661
+# post_date = 2006-05-15 11:12:12
+# username = loveisintheair
+# sent_id = 958310e1b
+1	Åh	|åh|	IN	_	IN	0	ROOT	|åh..in.1|
+2	beklagar	|beklaga|beklaga sig|	VB	_	VB.PRS.AKT	1	MS	|beklaga..vb.1|beklaga_sig..vbm.1|
+3	verkligen	|verkligen|	AB	_	AB	2	MA	|verkligen..ab.1|
+4	att	|att|	SN	_	SN	2	OO	|att..sn.1|
+5	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	4	UA	|ni..pn.1|
+6	miste	|miste|	PL	_	PL	2	PL	|miste..ab.1|
+7	er	|ni|beklaga sig:2|	PS	_	PS.UTR.SIN.DEF	9	DT	|ni..pn.1|beklaga_sig..vbm.1:2|
+8	lilla	|liten|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	9	AT	|liten..av.1|
+9	Romeo	|Romeo|	PM	_	PM.NOM	4	UA	|Romeo..pm.1|
+10	.	|	MAD	_	MAD	2	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Förlorat barn
+# subsubforum_id = Förlorat barn
+# thread_id = 9343554
+# thread_title = 2 mánader sedan nu 8((((
+# post_id = 9352661
+# post_date = 2006-05-15 11:12:12
+# username = loveisintheair
+# sent_id = 9583474cc
+1	Vet	|veta|	VB	_	VB.PRS.AKT	11	AA	|veta..vb.1|
+2	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
+3	vad	|vad|vad för|	HP	_	HP.NEU.SIN.IND	1	OO	|vad..pn.1|vad_för..pnm.1|
+4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
+5	ska	|skola|	VB	_	VB.PRS.AKT	1	OO	|skola..vb.2|
+6	skriva	|skriva|	VB	_	VB.INF.AKT	5	VG	|skriva..vb.1|
+7	riktigt	|riktig|	AB	_	AB	6	AA	|riktig..av.1|
+8	,	|	MID	_	MID	1	IK	|
+9	alla	|all|	DT	_	DT.UTR+NEU.PLU.IND+DEF	10	DT	|all..pn.1|
+10	ord	|ord|	NN	_	NN.NEU.PLU.IND.NOM	11	SS	|ord..nn.1|
+11	känns	|känna|kännas|	VB	_	VB.PRS.SFO	0	ROOT	|känna..vb.1|känna..vb.2|kännas..vb.1|
+12	för	|för|vad för:3|	AB	_	AB	13	AA	|för..ab.1|vad_för..pnm.1:3|
+13	ynkliga	|ynklig|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	11	SP	|ynklig..av.1|
+14	.	|	MAD	_	MAD	11	IP	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Förlorat barn
+# subsubforum_id = Förlorat barn
+# thread_id = 9343554
+# thread_title = 2 mánader sedan nu 8((((
+# post_id = 9352661
+# post_date = 2006-05-15 11:12:12
+# username = loveisintheair
+# sent_id = 9583f0e58
+1	Önskar	|önska|	VB	_	VB.PRS.AKT	0	ROOT	|önska..vb.1|
+2	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	1	SS	|ni..pn.1|
+3	all	|all|	DT	_	DT.UTR.SIN.IND+DEF	4	DT	|all..pn.1|
+4	lycka	|lycka|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|lycka..nn.1|lycka..nn.2|
+5	i	|i|i fortsättningen|	PP	_	PP	1	TA	|i..pp.1|i_fortsättningen..abm.1|
+6	fortsättningen	|fortsättning|i fortsättningen:5|	NN	_	NN.UTR.SIN.DEF.NOM	5	PA	|fortsättning..nn.1|i_fortsättningen..abm.1:5|
+7	.	|	MAD	_	MAD	1	IP	|
+

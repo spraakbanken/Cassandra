@@ -1,0 +1,35 @@
+# age = 19
+# agebin = <20
+# subforum_id = Kroppsligt
+# subsubforum_id = Kroppsligt
+# thread_id = 28775531
+# thread_title = villll du också sova?
+# post_id = 28775569
+# post_date = 2008-01-14 04:24:11
+# username = Reebok
+# sent_id = 9c56d14bc
+1	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
+3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
+4	heller	|heller|	AB	_	AB	2	+A	|heller..ab.1|
+5	sova	|sova|	VB	_	VB.INF.AKT	2	VG	|sova..vb.1|
+6	.	|	MAD	_	MAD	2	IP	|
+7	,	|	MID	_	MID	2	IK	|
+8	är	|vara|	VB	_	VB.PRS.AKT	11	MS	|vara..vb.1|
+9	i	|i|	PP	_	PP	8	RA	|i..pp.1|
+10	v13	|	PM	_	PM.NOM	9	PA	|
+11	och	|och|	KN	_	KN	2	MS	|och..kn.1|
+12	har	|ha|ha ont|	VB	_	VB.PRS.AKT	11	+F	|ha..vb.1|ha_ont..vbm.1|
+13	ont	|ond|ha ont:12|	AB	_	AB.POS	12	OO	|ond..av.1|ha_ont..vbm.1:12|
+14	i	|i|	PP	_	PP	12	RA	|i..pp.1|
+15	magen	|mage|	NN	_	NN.UTR.SIN.DEF.NOM	14	PA	|mage..nn.1|
+16	plus	|	AB	_	AB	12	AA	|
+17	lite	|lite|	AB	_	AB.POS	18	AA	|lite..ab.1|
+18	små	|liten|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	19	AT	|liten..av.1|
+19	blödning	|blödning|	NN	_	NN.UTR.SIN.IND.NOM	16	PA	|blödning..nn.1|
+20	..	|	MID	_	MID	22	IK	|
+21	=(	|	IN	_	IN	22	MA	|
+22	känns	|känna|kännas|	VB	_	VB.PRS.SFO	2	MS	|känna..vb.1|känna..vb.2|kännas..vb.1|
+23	inge	|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	22	SS	|
+24	vidare	|vid|vidare|	AB	_	AB.KOM	22	+A	|vid..av.1|vidare..ab.1|
+

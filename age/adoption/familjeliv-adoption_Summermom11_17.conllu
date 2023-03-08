@@ -1,0 +1,64 @@
+# age = 17
+# agebin = <20
+# subforum_id = Förälder
+# subsubforum_id = Förälder
+# thread_id = 30671242
+# thread_title = Gravid efter adoption -är jag undantaget som bekräftar "myten"?
+# post_id = 30672672
+# post_date = 2008-03-13 21:11:22
+# username = Summermom11
+# sent_id = 95a899ee
+1	åh	|åh|	IN	_	IN	0	ROOT	|åh..in.1|
+2	vad	|vad|	HP	_	HP.NEU.SIN.IND	10	PA	|vad..pn.1|
+3	kul	|kul|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	5	AA	|kul..av.1|
+4	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	5	SS	|de..pn.1|
+5	kmr	|	VB	_	VB.PRS.AKT	1	MS	|
+6	säkert	|säker|	AB	_	AB.POS	5	MA	|säker..av.1|
+7	gå	|gå|gå bra|	VB	_	VB.INF.AKT	5	VG	|gå..vb.1|gå_bra..vbm.1|
+8	bra	|bra|gå bra:7|	AB	_	AB.POS	7	AA	|bra..ab.1|bra..ab.2|bra..av.1|gå_bra..vbm.1:7|
+9	lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	7	OO	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+10	till	|till|lycka till:9|	PP	_	PP	7	OA	|till..pp.1|lycka_till..inm.1:9|
+11	!	|	MAD	_	MAD	1	IU	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 29964186
+# thread_title = Nu är han vår på pappret
+# post_id = 29972102
+# post_date = 2008-02-21 18:48:50
+# username = Summermom11
+# sent_id = e4e87029
+1	stort	|stor|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	3	AT	|stor..av.1|
+2	grattis	|gratti|grattis|	NN	_	NN.NEU.SIN.IND.NOM	3	CJ	|
+3	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+4	lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	3	CJ	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
+5	till	|till|lycka till:4|	PP	_	PP	3	ET	|till..pp.1|lycka_till..inm.1:4|
+6	!	|	MAD	_	MAD	5	PA	|
+
+# age = 17
+# agebin = <20
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 29964186
+# thread_title = Nu är han vår på pappret
+# post_id = 29972102
+# post_date = 2008-02-21 18:48:50
+# username = Summermom11
+# sent_id = e4eaf68b
+1	!	|	MAD	_	MAD	0	ROOT	|
+
+# age = 20
+# agebin = 20--29
+# subforum_id = Övrigt
+# subsubforum_id = Övrigt
+# thread_id = 56722835
+# thread_title = Galet, jag är gravid!
+# post_id = 56723908
+# post_date = 2011-01-15 21:39:45
+# username = Summermom11
+# sent_id = 19cd44c9
+1	Grattis	|grattis|	IN	_	IN	0	ROOT	|grattis..in.1|
+2	!	|	MAD	_	MAD	1	IU	|
+
