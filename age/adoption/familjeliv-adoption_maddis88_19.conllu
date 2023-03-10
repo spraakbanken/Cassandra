@@ -6,16 +6,7 @@
 # thread_title = Barnbeskedet- hur reagerade ni?
 # post_id = 24366916
 # post_date = 2007-08-30 11:16:54
-# username = maddis88
-# sent_id = c6f6935
-1	Åh	|åh|	IN	_	IN	3	AA	|åh..in.1|
-2	snälla	|snäll|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	3	AT	|snäll..av.1|
-3	mera	|mera|mycket|	AB	_	AB.KOM	4	SP	|mera..ab.1|mycket..ab.1|
-4	Är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-5	så	|så|	AB	_	AB	6	AA	|så..ab.1|
-6	fint	|fin|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	SP	|fin..av.1|
-7	att	|att|	IE	_	IE	4	OA	|att..sn.1|
-8	läsa	|läsa|	VB	_	VB.INF.AKT	7	IF	|läsa..vb.1|
+Åh snälla mera Är så fint att läsa
 
 # age = 21
 # agebin = 20--29
@@ -25,12 +16,7 @@
 # thread_title = Vi har blivit föräldrar !!!!
 # post_id = 31991396
 # post_date = 2008-04-20 22:36:29
-# username = maddis88
-# sent_id = 858b9920
-1	grattis	|grattis|	IN	_	IN	0	ROOT	|grattis..in.1|
-2	!	|	MID	_	MID	1	IG	|
-3	!	|	MAD	_	MAD	1	IU	|
-4	!	|	MAD	_	MAD	1	IU	|
+grattis ! ! !
 
 # age = 21
 # agebin = 20--29
@@ -40,9 +26,7 @@
 # thread_title = Vi har blivit föräldrar !!!!
 # post_id = 31991396
 # post_date = 2008-04-20 22:36:29
-# username = maddis88
-# sent_id = 858777a5
-1	:-d	|	IN	_	IN	0	ROOT	|
+:-d
 
 # age = 19
 # agebin = <20
@@ -52,15 +36,5 @@
 # thread_title = Du med namn ringu på FL se hit...
 # post_id = 10080427
 # post_date = 2006-06-12 23:26:06
-# username = maddis88
-# sent_id = 65016d7a
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-4	heller	|heller|	AB	_	AB	2	+A	|heller..ab.1|
-5	gå	|gå|gå in|	VB	_	VB.INF.AKT	2	VG	|gå..vb.1|gå_in..vbm.1|gå_in..vbm.2|
-6	in	|in|gå in:5|	PL	_	PL	5	PL	|in..ab.1|gå_in..vbm.1:5|gå_in..vbm.2:5|
-7	på	|på|	PP	_	PP	5	RA	|på..pp.1|
-8	hennes	|hon|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	9	DT	|hon..pn.1|
-9	sida	|sida|	NN	_	NN.UTR.SIN.IND.NOM	7	PA	|sida..nn.1|
+Jag kan inte heller gå in på hennes sida
 

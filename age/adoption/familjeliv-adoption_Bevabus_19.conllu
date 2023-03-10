@@ -6,37 +6,7 @@
 # thread_title = Nu har våra handlingar skickats till Filippinerna!!!
 # post_id = 29096655
 # post_date = 2008-01-24 06:06:45
-# username = Bevabus
-# sent_id = 40fee91
-1	Hej	|hej|	IN	_	IN	11	MS	|hej..in.1|
-2	hej	|hej|	IN	_	IN	1	HD	|hej..in.1|
-3	brukar	|bruka|	VB	_	VB.PRS.AKT	11	MS	|bruka..vb.1|
-4	oftast	|ofta|	AB	_	AB.SUV	3	TA	|ofta..ab.1|
-5	inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
-6	hänga	|hänga|	VB	_	VB.INF.AKT	3	OO	|hänga..vb.1|hänga..vb.2|
-7	i	|i|	PP	_	PP	6	RA	|i..pp.1|
-8	det	|den|en|den här|	DT	_	DT.NEU.SIN.DEF	10	DT	|den..pn.1|en..al.1|den_här..pnm.1|
-9	här	|här|den här:8|	AB	_	AB	8	HD	|här..ab.1|den_här..pnm.1:8|
-10	forumet	|forum|	NN	_	NN.NEU.SIN.DEF.NOM	7	PA	|forum..nn.1|
-11	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-12	när	|när|	HA	_	HA	14	TA	|när..ab.1|
-13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	14	SS	|jag..pn.1|
-14	läste	|läsa|	VB	_	VB.PRT.AKT	11	CJ	|läsa..vb.1|
-15	att	|att|	SN	_	SN	14	OO	|att..sn.1|
-16	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	17	SS	|du..pn.1|
-17	skulle	|skola|	VB	_	VB.PRT.AKT	15	UA	|skola..vb.2|
-18	adoptera	|adoptera|	VB	_	VB.INF.AKT	17	VG	|adoptera..vb.1|
-19	från	|från|	PP	_	PP	18	OA	|från..pp.1|
-20	Fillippinerna	|	NN	_	NN.UTR.PLU.DEF.NOM	19	PA	|
-21	så	|så|	AB	_	AB	22	DB	|så..ab.1|
-22	var	|vara|	VB	_	VB.PRT.AKT	11	MS	|vara..vb.1|
-23	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	22	SS	|jag..pn.1|
-24	bara	|bara|	AB	_	AB	22	CA	|bara..ab.1|
-25	tvungen	|tvinga|tvungen|	PC	_	PC.PRF.UTR.SIN.IND.NOM	22	SP	|tvinga..vb.1|tvungen..av.1|
-26	att	|att|	IE	_	IE	22	OO	|att..sn.1|
-27	skriva	|skriva|	VB	_	VB.INF.AKT	26	IF	|skriva..vb.1|
-28	nåt	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	27	OO	|någon..pn.1|
-29	!	|	MAD	_	MAD	22	IU	|
+Hej hej brukar oftast inte hänga i det här forumet men när jag läste att du skulle adoptera från Fillippinerna så var jag bara tvungen att skriva nåt !
 
 # age = 19
 # agebin = <20
@@ -46,32 +16,5 @@
 # thread_title = Nu har våra handlingar skickats till Filippinerna!!!
 # post_id = 29096655
 # post_date = 2008-01-24 06:06:45
-# username = Bevabus
-# sent_id = 40fd6d8
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	känner	|känna|	VB	_	VB.PRS.AKT	6	MS	|känna..vb.1|känna..vb.2|
-3	en	|en|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|
-4	fillippinsk	|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	5	AT	|
-5	familj	|familj|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|familj..nn.1|
-6	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-7	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	8	SS	|de..pn.1|
-8	är	|vara|	VB	_	VB.PRS.AKT	6	MS	|vara..vb.1|
-9	det	|den|en|	DT	_	DT.NEU.SIN.DEF	12	DT	|den..pn.1|en..al.1|
-10	mest	|mycket|	AB	_	AB.SUV	11	AA	|mycket..ab.1|
-11	underbara	|underbar|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	12	AT	|underbar..av.1|
-12	folkslag	|folkslag|	NN	_	NN.NEU.SIN.IND.NOM	8	SP	|folkslag..nn.1|
-13	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	14	SS	|man..pn.1|
-14	kan	|kunna|	VB	_	VB.PRS.AKT	12	ET	|kunna..vb.1|
-15	träffa	|träffa|	VB	_	VB.INF.AKT	14	VG	|träffa..vb.1|
-16	på	|på|	PP	_	PP	15	OA	|på..pp.1|
-17	och	|och|	KN	_	KN	6	++	|och..kn.1|
-18	dessutom	|dessutom|	AB	_	AB	19	+A	|dessutom..ab.1|
-19	så	|så|	AB	_	AB	20	AA	|så..ab.1|
-20	är	|vara|	VB	_	VB.PRS.AKT	17	MS	|vara..vb.1|
-21	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	25	DT	|en..al.1|
-22	väldigt	|väldig|	AB	_	AB.POS	23	AA	|väldig..av.1|
-23	vackra	|vacker|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	20	SP	|vacker..av.1|
-24	^^	|	IN	_	IN	20	SP	|
-25	GRATTIS	|grattis|	IN	_	IN	20	SP	|grattis..in.1|
-26	!	|	MAD	_	MAD	17	IU	|
+Jag känner en fillippinsk familj och dom är det mest underbara folkslag man kan träffa på och dessutom så är de väldigt vackra ^^ GRATTIS !
 

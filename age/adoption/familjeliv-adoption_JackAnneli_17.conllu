@@ -6,20 +6,7 @@
 # thread_title = Svensk adopterad!
 # post_id = 45968013
 # post_date = 2009-07-30 10:54:01
-# username = JackAnneli
-# sent_id = 1825bb22
-1	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	5	MS	|kunna..vb.1|
-3	tänka	|tänka|tänka sig|	VB	_	VB.INF.AKT	2	VG	|tänka..vb.1|tänka_sig..vbm.1|
-4	mig	|jag|tänka sig:3|	PN	_	PN.UTR.SIN.DEF.OBJ	3	OO	|jag..pn.1|tänka_sig..vbm.1:3|
-5	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-6	i	|i|	PP	_	PP	9	AA	|i..pp.1|
-7	alle	|alle|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	8	DT	|
-8	fall	|fall|	NN	_	NN.NEU.SIN.IND.NOM	6	PA	|fall..nn.1|
-9	försöka	|försöka|	VB	_	VB.INF.AKT	5	+F	|försöka..vb.1|
-10	förstå	|förstå|	VB	_	VB.INF.AKT	9	OO	|förstå..vb.1|
-11	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	10	OO	|du..pn.1|
-12	.	|	MAD	_	MAD	2	IP	|
+jag kan tänka mig eller i alle fall försöka förstå dig .
 
 # age = 17
 # agebin = <20
@@ -29,14 +16,7 @@
 # thread_title = Svensk adopterad!
 # post_id = 45968013
 # post_date = 2009-07-30 10:54:01
-# username = JackAnneli
-# sent_id = 182529bd
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	varför	|varför|	HA	_	HA	3	AA	|varför..ab.1|
-3	blev	|bli|	VB	_	VB.PRT.AKT	1	MS	|bli..vb.1|
-4	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|du..pn.1|
-5	adopterad	|adoptera|	PC	_	PC.PRF.UTR.SIN.IND.NOM	3	SP	|adoptera..vb.1|
-6	?	|	MAD	_	MAD	3	I?	|
+Men varför blev du adopterad ?
 
 # age = 17
 # agebin = <20
@@ -46,31 +26,7 @@
 # thread_title = Svensk adopterad!
 # post_id = 45968013
 # post_date = 2009-07-30 10:54:01
-# username = JackAnneli
-# sent_id = 1824292b
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	finns	|finna|finnas|	VB	_	VB.PRS.SFO	6	MS	|finna..vb.1|finnas..vb.1|
-3	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
-4	en	|en|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|
-5	anledning	|anledning|	NN	_	NN.UTR.SIN.IND.NOM	2	ES	|anledning..nn.1|
-6	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-7	där	|där|	AB	_	AB	9	RA	|där..ab.1|
-8	med	|med|	PP	_	PP	9	AA	|med..pp.1|
-9	har	|ha|	VB	_	VB.PRS.AKT	6	MS	|ha..vb.1|
-10	dina	|du|	PS	_	PS.UTR+NEU.PLU.DEF	11	DT	|du..pn.1|
-11	bio	|bio|	NN	_	NN.UTR.SIN.IND.NOM	12	DT	|bio..nn.1|
-12	föräldrar	|förälder|	NN	_	NN.UTR.PLU.IND.NOM	9	SS	|förälder..nn.1|
-13	en	|en|en gång|	DT	_	DT.UTR.SIN.IND	14	DT	|en..al.1|en_gång..abm.1|
-14	gång	|gång|en gång:13|	NN	_	NN.UTR.SIN.IND.NOM	9	TA	|gång..nn.1|gång..nn.2|gång..nn.3|en_gång..abm.1:13|
-15	avsagt	|avsäga|avsäga sig|	VB	_	VB.SUP.AKT	9	VG	|avsäga..vb.1|avsäga_sig..vbm.1|
-16	sig	|sig|avsäga sig:15|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	15	IO	|sig..pn.1|avsäga_sig..vbm.1:15|
-17	att	|att|	SN	_	SN	15	OO	|att..sn.1|
-18	va	|	VB	_	VB.INF.AKT	17	IF	|
-19	tex	|	PP	_	PP	18	AA	|
-20	pappa	|pappa|	NN	_	NN.UTR.SIN.IND.NOM	19	PA	|pappa..nn.1|
-21	till	|till|	PP	_	PP	18	OA	|till..pp.1|
-22	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	21	PA	|du..pn.1|
-23	.	|	MAD	_	MAD	6	IP	|
+Det finns ju en anledning och där med har dina bio föräldrar en gång avsagt sig att va tex pappa till dig .
 
 # age = 17
 # agebin = <20
@@ -80,18 +36,7 @@
 # thread_title = Svensk adopterad!
 # post_id = 45968013
 # post_date = 2009-07-30 10:54:01
-# username = JackAnneli
-# sent_id = 1826c21a
-1	Du	|Du|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|Du..pn.1|du..pn.1|
-2	vällväll	|	VB	_	VB.PRS.AKT	0	ROOT	|
-3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-4	ha	|ha|	VB	_	VB.INF.AKT	2	VG	|ha..vb.1|
-5	en	|en|	DT	_	DT.UTR.SIN.IND	7	DT	|en..al.1|
-6	påtvingad	|påtvinga|	PC	_	PC.PRF.UTR.SIN.IND.NOM	7	AT	|påtvinga..vb.1|
-7	relatoin	|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|
-8	med	|med|	PP	_	PP	4	OA	|med..pp.1|
-9	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	8	PA	|han..pn.1|
-10	?	|	MAD	_	MAD	2	I?	|
+Du vällväll inte ha en påtvingad relatoin med han ?
 
 # age = 17
 # agebin = <20
@@ -101,15 +46,5 @@
 # thread_title = Svensk adopterad!
 # post_id = 45968013
 # post_date = 2009-07-30 10:54:01
-# username = JackAnneli
-# sent_id = 182a51c0
-1	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
-3	verkar	|verka|	VB	_	VB.PRS.AKT	1	MS	|verka..vb.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
-5	bli	|bli|	VB	_	VB.INF.AKT	3	VS	|bli..vb.1|
-6	i	|i|i så fall|	PP	_	PP	5	AA	|i..pp.1|i_så_fall..abm.1|
-7	så	|så|i så fall:6|	AB	_	AB	6	HD	|så..ab.1|i_så_fall..abm.1:6|
-8	fall	|fall|i så fall:6|	NN	_	NN.NEU.SIN.IND.NOM	6	HD	|fall..nn.1|i_så_fall..abm.1:6|
-9	.	|	MAD	_	MAD	3	IP	|
+för det verkar det bli i så fall .
 

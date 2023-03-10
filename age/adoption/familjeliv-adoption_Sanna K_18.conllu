@@ -6,12 +6,7 @@
 # thread_title = Jaha.....
 # post_id = 10884324
 # post_date = 2006-07-18 10:26:51
-# username = Sanna K
-# sent_id = 496f3e35
-1	Gud	|Gud|	PM	_	PM.NOM	0	ROOT	|Gud..pm.1|
-2	vad	|vad|	HP	_	HP.NEU.SIN.IND	3	SS	|vad..pn.1|
-3	kul	|kul|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	1	SP	|kul..av.1|
-4	.	|	MAD	_	MAD	1	IP	|
+Gud vad kul .
 
 # age = 19
 # agebin = <20
@@ -21,20 +16,7 @@
 # thread_title = Jaha.....
 # post_id = 10884324
 # post_date = 2006-07-18 10:26:51
-# username = Sanna K
-# sent_id = 49616305
-1	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	5	MS	|hoppa..vb.1|hoppas..vb.1|
-2	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	1	SS	|all..pn.1|
-3	går	|gå|gå bra|	VB	_	VB.PRS.AKT	1	OO	|gå..vb.1|gå_bra..vbm.1|
-4	bra	|bra|gå bra:3|	AB	_	AB.POS	3	AA	|bra..ab.1|bra..ab.2|bra..av.1|gå_bra..vbm.1:3|
-5	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-6	att	|att|	SN	_	SN	5	CJ	|att..sn.1|
-7	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|ni..pn.1|
-8	får	|få|	VB	_	VB.PRS.AKT	6	UA	|få..vb.1|
-9	er	|ni|	PS	_	PS.UTR.SIN.DEF	10	DT	|ni..pn.1|
-10	bebbe	|	NN	_	NN.UTR.SIN.IND.NOM	8	OO	|
-11	snart	|snar|snart|	AB	_	AB.POS	8	TA	|snar..av.1|snart..ab.1|
-12	....	|	MAD	_	MAD	5	IP	|
+hoppas allt går bra och att ni får er bebbe snart ....
 
 # age = 18
 # agebin = <20
@@ -44,17 +26,7 @@
 # thread_title = Mamma i en månad...
 # post_id = 5488088
 # post_date = 2005-11-10 23:19:46
-# username = Sanna K
-# sent_id = d89c9e4f
-1	Är	|vara|	VB	_	VB.PRS.AKT	5	MS	|vara..vb.1|
-2	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|hon..pn.1|
-3	en	|en|	DT	_	DT.UTR.SIN.IND	4	DT	|en..al.1|
-4	månad	|månad|	NN	_	NN.UTR.SIN.IND.NOM	1	SP	|månad..nn.1|
-5	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-6	kan	|kunna|	VB	_	VB.PRS.AKT	5	+F	|kunna..vb.1|
-7	säga	|säga|	VB	_	VB.INF.AKT	6	VG	|säga..vb.1|
-8	tack	|tack|	IN	_	IN	7	OO	|tack..in.1|
-9	?	|	MAD	_	MAD	5	I?	|
+Är hon en månad och kan säga tack ?
 
 # age = 18
 # agebin = <20
@@ -64,27 +36,7 @@
 # thread_title = Mamma i en månad...
 # post_id = 5488388
 # post_date = 2005-11-10 23:46:13
-# username = Sanna K
-# sent_id = d89edc58
-1	Aha	|aha|	IN	_	IN	0	ROOT	|aha..in.1|
-2	...	|	MID	_	MID	1	IG	|
-3	Upps	|	PM	_	PM.NOM	2	SP	|
-4	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-5	tyckte	|tycka|	VB	_	VB.PRT.AKT	1	MS	|tycka..vb.1|
-6	väl	|väl|	AB	_	AB	5	MA	|väl..ab.1|väl_2..ab.1|
-7	att	|att|	SN	_	SN	5	OO	|att..sn.1|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	FS	|den..pn.1|
-9	lät	|låta|	VB	_	VB.PRT.AKT	7	UA	|låta..vb.1|
-10	lite	|lite|	AB	_	AB.POS	11	AA	|lite..ab.1|
-11	konstigt	|konstig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	9	SP	|konstig..av.1|
-12	att	|att|	SN	_	SN	9	ES	|att..sn.1|
-13	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	14	SS	|hon..pn.1|
-14	var	|vara|	VB	_	VB.PRT.AKT	17	MS	|vara..vb.1|
-15	en	|en|	DT	_	DT.UTR.SIN.IND	16	DT	|en..al.1|
-16	månad	|månad|	NN	_	NN.UTR.SIN.IND.NOM	14	SP	|månad..nn.1|
-17	och	|och|	KN	_	KN	12	UA	|och..kn.1|
-18	pratade	|prata|	VB	_	VB.PRT.AKT	17	+F	|prata..vb.1|
-19	.	|	MAD	_	MAD	1	IP	|
+Aha ... Upps Jag tyckte väl att det lät lite konstigt att hon var en månad och pratade .
 
 # age = 18
 # agebin = <20
@@ -94,24 +46,7 @@
 # thread_title = Mamma i en månad...
 # post_id = 5488388
 # post_date = 2005-11-10 23:46:13
-# username = Sanna K
-# sent_id = d89fa089
-1	Förlåt	|förlåta|	VB	_	VB.IMP.AKT	0	ROOT	|förlåta..vb.1|
-2	,	|	MID	_	MID	1	IK	|
-3	ja	|ja|ja ja|	IN	_	IN	1	MS	|ja..in.1|ja_ja..inm.1|
-4	ja	|ja|ja ja:3|	IN	_	IN	3	HD	|ja..in.1|ja_ja..inm.1:3|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|jag..pn.1|
-6	skyller	|skylla|	VB	_	VB.PRS.AKT	1	MS	|skylla..vb.1|
-7	på	|på|	PP	_	PP	6	OA	|på..pp.1|
-8	att	|att|	SN	_	SN	7	PA	|att..sn.1|
-9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|jag..pn.1|
-10	inte	|inte|	AB	_	AB	11	NA	|inte..ab.1|
-11	har	|ha|	VB	_	VB.PRS.AKT	8	UA	|ha..vb.1|
-12	sovit	|sova|	VB	_	VB.SUP.AKT	11	VG	|sova..vb.1|
-13	på	|på|	PP	_	PP	12	TA	|på..pp.1|
-14	36	|	RG	_	RG.NOM	15	DT	|
-15	timmar	|timme|	NN	_	NN.UTR.PLU.IND.NOM	13	PA	|timme..nn.1|
-16	.	|	MAD	_	MAD	1	IP	|
+Förlåt , ja ja jag skyller på att jag inte har sovit på 36 timmar .
 
 # age = 18
 # agebin = <20
@@ -121,18 +56,7 @@
 # thread_title = Mamma i en månad...
 # post_id = 5488401
 # post_date = 2005-11-10 23:48:28
-# username = Sanna K
-# sent_id = d899cf2f
-1	Hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|hon..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	jätte	|jätte|	AB	_	AB	4	AA	|jätte..ab.1|
-4	söt	|söt|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	2	SP	|söt..av.1|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|jag..pn.1|
-6	kollade	|kolla|	VB	_	VB.PRT.AKT	2	TA	|kolla..vb.1|kolla..vb.2|
-7	i	|i|	PP	_	PP	6	RA	|i..pp.1|
-8	ditt	|du|	PS	_	PS.NEU.SIN.DEF	9	DT	|du..pn.1|
-9	galleri	|galleri|	NN	_	NN.NEU.SIN.IND.NOM	7	PA	|galleri..nn.1|
-10	.	|	MAD	_	MAD	2	IP	|
+Hon är jätte söt jag kollade i ditt galleri .
 
 # age = 18
 # agebin = <20
@@ -142,13 +66,7 @@
 # thread_title = Mamma i en månad...
 # post_id = 5488401
 # post_date = 2005-11-10 23:48:28
-# username = Sanna K
-# sent_id = d89e3b8f
-1	Där	|där|	AB	_	AB	2	RA	|där..ab.1|
-2	hade	|ha|	VB	_	VB.PRT.AKT	0	ROOT	|ha..vb.1|
-3	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|ni..pn.1|
-4	tur	|tur|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|tur..nn.1|tur..nn.2|
-5	.	|	MAD	_	MAD	2	IP	|
+Där hade ni tur .
 
 # age = 18
 # agebin = <20
@@ -158,24 +76,7 @@
 # thread_title = Mamma i en månad...
 # post_id = 5488401
 # post_date = 2005-11-10 23:48:28
-# username = Sanna K
-# sent_id = d89c31f4
-1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-2	att	|att|	SN	_	SN	8	CJ	|att..sn.1|
-3	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	4	SS	|all..pn.1|
-4	är	|vara|	VB	_	VB.PRS.AKT	2	UA	|vara..vb.1|
-5	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	SP	|bra..av.2|
-6	med	|med|	PP	_	PP	4	OA	|med..pp.1|
-7	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	6	PA	|ni..pn.1|
-8	och	|och|	KN	_	KN	1	OO	|och..kn.1|
-9	att	|att|	SN	_	SN	8	CJ	|att..sn.1|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	FS	|den..pn.1|
-11	är	|vara|	VB	_	VB.PRS.AKT	9	UA	|vara..vb.1|
-12	kul	|kul|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	11	SP	|kul..av.1|
-13	att	|att|	IE	_	IE	11	ES	|att..sn.1|
-14	vara	|vara|	VB	_	VB.INF.AKT	13	IF	|vara..vb.1|vara..vb.2|
-15	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	14	SP	|mamma..nn.1|
-16	.	|	MAD	_	MAD	1	IP	|
+Hoppas att allt är bra med er och att det är kul att vara mamma .
 
 # age = 19
 # agebin = <20
@@ -185,12 +86,7 @@
 # thread_title = Föräldrautbildning...
 # post_id = 7229570
 # post_date = 2006-02-08 02:07:56
-# username = Sanna K
-# sent_id = 5f0a4f13
-1	Åhh	|	IN	_	IN	0	ROOT	|
-2	vad	|vad|	HP	_	HP.NEU.SIN.IND	1	HD	|vad..pn.1|
-3	kul	|kul|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	1	SP	|kul..av.1|
-4	.	|	MAD	_	MAD	1	IP	|
+Åhh vad kul .
 
 # age = 19
 # agebin = <20
@@ -200,10 +96,7 @@
 # thread_title = Föräldrautbildning...
 # post_id = 7229570
 # post_date = 2006-02-08 02:07:56
-# username = Sanna K
-# sent_id = 5f026a60
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
+Lycka till
 
 # age = 19
 # agebin = <20
@@ -213,32 +106,7 @@
 # thread_title = Föräldrautbildning...
 # post_id = 7229570
 # post_date = 2006-02-08 02:07:56
-# username = Sanna K
-# sent_id = 5f092e64
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	tycker	|tycka|	VB	_	VB.PRS.AKT	0	ROOT	|tycka..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	FS	|den..pn.1|
-5	borde	|böra|	VB	_	VB.PRT.AKT	3	UA	|böra..vb.1|
-6	vara	|vara|	VB	_	VB.INF.AKT	5	VG	|vara..vb.1|vara..vb.2|
-7	obligatoriskt	|obligatorisk|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	6	SP	|obligatorisk..av.1|
-8	att	|att|	SN	_	SN	6	ES	|att..sn.1|
-9	ALLA	|all|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	14	SS	|all..pn.1|
-10	som	|	HP	_	HP.-.-.-	11	SS	|
-11	ska	|skola|	VB	_	VB.PRS.AKT	9	ET	|skola..vb.2|
-12	bli	|bli|	VB	_	VB.INF.AKT	11	VG	|bli..vb.1|
-13	föräldrar	|förälder|	NN	_	NN.UTR.PLU.IND.NOM	12	SP	|förälder..nn.1|
-14	ska	|skola|	VB	_	VB.PRS.AKT	8	UA	|skola..vb.2|
-15	gå	|gå|	VB	_	VB.INF.AKT	14	VG	|gå..vb.1|
-16	utbildning	|utbildning|	NN	_	NN.UTR.SIN.IND.NOM	15	OO	|utbildning..nn.1|
-17	,	|	MID	_	MID	15	IK	|
-18	även	|även|även om|	AB	_	AB	15	AA	|även..ab.1|även_om..snm.1|
-19	om	|om|även om:18|	SN	_	SN	18	HD	|om..sn.1|även_om..snm.1:18|
-20	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	21	SS	|man..pn.1|
-21	föder	|föda|	VB	_	VB.PRS.AKT	18	UA	|föda..vb.1|
-22	sitt	|sig|	PS	_	PS.NEU.SIN.DEF	23	DT	|sig..pn.1|
-23	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	21	OO	|barn..nn.1|
-24	.	|	MAD	_	MAD	2	IP	|
+Jag tycker att det borde vara obligatoriskt att ALLA som ska bli föräldrar ska gå utbildning , även om man föder sitt barn .
 
 # age = 19
 # agebin = <20
@@ -248,12 +116,5 @@
 # thread_title = Föräldrautbildning...
 # post_id = 7229570
 # post_date = 2006-02-08 02:07:56
-# username = Sanna K
-# sent_id = 5f06a0c2
-1	(	|	PAD	_	PAD	5	IR	|
-2	Bara	|bara|	AB	_	AB	5	CA	|bara..ab.1|
-3	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
-4	litet	|liten|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	AT	|liten..av.1|
-5	tillägg	|tillägg|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|tillägg..nn.1|
-6	)	|	PAD	_	PAD	5	JR	|
+( Bara ett litet tillägg )
 

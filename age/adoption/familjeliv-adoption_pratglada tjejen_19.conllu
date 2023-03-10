@@ -6,10 +6,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c54af76
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 20
 # agebin = 20--29
@@ -19,17 +16,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c544afd
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	varit	|vara|	VB	_	VB.SUP.AKT	2	VG	|vara..vb.1|
-4	familjehem	|familjehem|	NN	_	NN.NEU.PLU.IND.NOM	3	SP	|familjehem..nn.1|
-5	till	|till|	PP	_	PP	3	OA	|till..pp.1|
-6	en	|en|	DT	_	DT.UTR.SIN.IND	8	DT	|en..al.1|
-7	liten	|liten|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	8	AT	|liten..av.1|
-8	flicka	|flicka|	NN	_	NN.UTR.SIN.IND.NOM	5	PA	|flicka..nn.1|
-9	.	|	MAD	_	MAD	2	IP	|
+Vi har varit familjehem till en liten flicka .
 
 # age = 20
 # agebin = 20--29
@@ -39,22 +26,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c54b641
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	avslutades	|avsluta|	VB	_	VB.PRT.SFO	0	ROOT	|avsluta..vb.1|
-3	för	|för|	PP	_	PP	2	TA	|för..pp.1|
-4	ett	|en|ett par|	DT	_	DT.NEU.SIN.IND	6	DT	|en..al.1|ett_par..pnm.1|
-5	par	|par|ett par:4|	NN	_	NN.NEU.SIN.IND.NOM	4	HD	|par..nn.1|ett_par..pnm.1:4|
-6	månader	|månad|	NN	_	NN.UTR.PLU.IND.NOM	3	PA	|månad..nn.1|
-7	sen	|sen|	AB	_	AB	3	HD	|sen..ab.1|
-8	..	|	MID	_	MID	2	TA	|
-9	(	|	PAD	_	PAD	2	IR	|
-10	träffar	|träffa|	VB	_	VB.PRS.AKT	2	MS	|träffa..vb.1|
-11	familjen	|familj|	NN	_	NN.UTR.SIN.DEF.NOM	10	OO	|familj..nn.1|
-12	fortfarande	|fortfarande|	AB	_	AB	10	TA	|fortfarande..ab.1|
-13	)	|	PAD	_	PAD	2	JR	|
-14	.	|	MAD	_	MAD	2	IP	|
+Det avslutades för ett par månader sen .. ( träffar familjen fortfarande ) .
 
 # age = 20
 # agebin = 20--29
@@ -64,16 +36,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c54637a
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	skulle	|skola|	VB	_	VB.PRT.AKT	0	ROOT	|skola..vb.2|
-3	absolut	|absolut|	AB	_	AB.POS	2	AA	|absolut..ab.1|absolut..av.1|
-4	vilja	|vilja|	VB	_	VB.INF.AKT	2	VG	|vilja..vb.1|
-5	vara	|vara|	VB	_	VB.INF.AKT	4	VG	|vara..vb.1|vara..vb.2|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	SP	|den..pn.1|
-7	igen	|igen|	AB	_	AB	5	AA	|igen..ab.1|igen..ab.2|
-8	.	|	MAD	_	MAD	2	IP	|
+Jag skulle absolut vilja vara det igen .
 
 # age = 20
 # agebin = 20--29
@@ -83,14 +46,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c54a647
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	så	|så|så klart|	AB	_	AB	4	AA	|så..ab.1|så_klart..abm.1|
-4	klart	|klar|så klart:3|	AB	_	AB.POS	5	AA	|klar..av.1|så_klart..abm.1:3|
-5	utredda	|reda ut|utreda|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	2	SP	|reda_ut..vbm.1|utreda..vb.1|
-6	.	|	MAD	_	MAD	2	IP	|
+Vi är så klart utredda .
 
 # age = 20
 # agebin = 20--29
@@ -100,21 +56,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c549054
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	tanken	|tank|tanke|	NN	_	NN.UTR.SIN.DEF.NOM	3	SP	|tank..nn.1|tank..nn.2|tanke..nn.1|
-3	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-4	att	|att|	SN	_	SN	3	SS	|att..sn.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	SS	|den..pn.1|
-6	ska	|skola|	VB	_	VB.PRS.AKT	4	UA	|skola..vb.2|
-7	vara	|vara|	VB	_	VB.INF.AKT	6	VG	|vara..vb.1|vara..vb.2|
-8	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	XX	|jag..pn.1|
-9	som	|	HP	_	HP.-.-.-	10	SS	|
-10	står	|stå|	VB	_	VB.PRS.AKT	8	EF	|stå..vb.1|
-11	som	|	KN	_	KN	10	OP	|
-12	kontaktperson	|kontaktperson|	NN	_	NN.UTR.SIN.IND.NOM	11	UA	|kontaktperson..nn.1|
-13	.	|	MAD	_	MAD	3	IP	|
+Men tanken är att det ska vara jag som står som kontaktperson .
 
 # age = 20
 # agebin = 20--29
@@ -124,38 +66,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c54ac03
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	FS	|den..pn.1|
-5	går	|gå|	VB	_	VB.PRS.AKT	3	UA	|gå..vb.1|
-6	,	|	MID	_	MID	2	IK	|
-7	troligen	|troligen|	AB	_	AB	8	MA	|troligen..ab.1|
-8	anses	|anse|	VB	_	VB.PRS.SFO	2	MS	|anse..vb.1|
-9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
-10	vara	|vara|	VB	_	VB.INF.AKT	8	VS	|vara..vb.1|vara..vb.2|
-11	för	|för|	AB	_	AB	12	AA	|för..ab.1|
-12	ung	|ung|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	10	SP	|ung..av.1|
-13	(	|	PAD	_	PAD	10	IR	|
-14	19	|	RG	_	RG.NOM	15	CJ	|
-15	,	|	MID	_	MID	10	SP	|
-16	5år	|	RG	_	RG.NOM	15	CJ	|
-17	)	|	PAD	_	PAD	18	JR	|
-18	.Svårt	|	AB	_	AB.POS	10	AA	|
-19	att	|att|	IE	_	IE	18	PA	|att..sn.1|
-20	vara	|vara|	VB	_	VB.INF.AKT	19	IF	|vara..vb.1|vara..vb.2|
-21	en	|en|	DT	_	DT.UTR.SIN.IND	23	DT	|en..al.1|
-22	äldre	|gammal|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	23	AT	|gammal..av.1|
-23	kvinna	|kvinna|	NN	_	NN.UTR.SIN.IND.NOM	20	SP	|kvinna..nn.1|
-24	i	|i|	PP	_	PP	20	RA	|i..pp.1|
-25	en	|en|	DT	_	DT.UTR.SIN.IND	27	DT	|en..al.1|
-26	ung	|ung|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	27	AT	|ung..av.1|
-27	kropp	|kropp|	NN	_	NN.UTR.SIN.IND.NOM	24	PA	|kropp..nn.1|
-28	;	|	MID	_	MID	2	IQ	|
-29	)	|	PAD	_	PAD	2	JR	|
-30	.	|	MAD	_	MAD	2	IP	|
+Jag hoppas att det går , troligen anses jag vara för ung ( 19 , 5år ) .Svårt att vara en äldre kvinna i en ung kropp ; ) .
 
 # age = 20
 # agebin = 20--29
@@ -165,12 +76,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c5485b2
-1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-2	skickat	|skicka|	VB	_	VB.SUP.AKT	1	VG	|skicka..vb.1|
-3	intresseansökan	|intresseansökan|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|
-4	.	|	MAD	_	MAD	1	IP	|
+Har skickat intresseansökan .
 
 # age = 20
 # agebin = 20--29
@@ -180,13 +86,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c5418c5
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	gäller	|gälla|	VB	_	VB.PRS.AKT	0	ROOT	|gälla..vb.1|gälla..vb.2|
-3	ett	|en|	DT	_	DT.NEU.SIN.IND	4	DT	|en..al.1|
-4	spädbarn	|spädbarn|	NN	_	NN.NEU.SIN.IND.NOM	2	OO	|spädbarn..nn.1|
-5	.	|	MAD	_	MAD	2	IP	|
+Det gäller ett spädbarn .
 
 # age = 20
 # agebin = 20--29
@@ -196,18 +96,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c547611
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	skulle	|skola|	VB	_	VB.PRT.AKT	0	ROOT	|skola..vb.2|
-3	vara	|vara|	VB	_	VB.INF.AKT	2	VG	|vara..vb.1|vara..vb.2|
-4	så	|så|	AB	_	AB	5	AA	|så..ab.1|
-5	roligt	|rolig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	3	SP	|rolig..av.1|
-6	att	|att|	IE	_	IE	3	ES	|att..sn.1|
-7	vara	|vara|	VB	_	VB.INF.AKT	6	IF	|vara..vb.1|vara..vb.2|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SP	|den..pn.1|
-9	igen	|igen|	AB	_	AB	7	AA	|igen..ab.1|igen..ab.2|
-10	.	|	MAD	_	MAD	2	IP	|
+Det skulle vara så roligt att vara det igen .
 
 # age = 20
 # agebin = 20--29
@@ -217,31 +106,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c54438f
-1	(	|	PAD	_	PAD	4	IR	|
-2	Förra	|förra|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	3	DT	|förra..av.1|
-3	gången	|gång|	NN	_	NN.UTR.SIN.DEF.NOM	4	TA	|gång..nn.1|gång..nn.2|gång..nn.3|
-4	var	|vara|	VB	_	VB.PRT.AKT	8	MS	|vara..vb.1|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
-6	17	|	RG	_	RG.NOM	7	DT	|
-7	år	|år|	NN	_	NN.NEU.PLU.IND.NOM	4	SP	|år..nn.1|
-8	och	|och|	KN	_	KN	16	MS	|och..kn.1|
-9	kunde	|kunna|	VB	_	VB.PRT.AKT	8	+F	|kunna..vb.1|
-10	därför	|därför|	AB	_	AB	9	AA	|därför..ab.1|
-11	inte	|inte|	AB	_	AB	9	NA	|inte..ab.1|
-12	stå	|stå|	VB	_	VB.INF.AKT	9	VG	|stå..vb.1|
-13	som	|	KN	_	KN	12	SP	|
-14	kontaktperson	|kontaktperson|	NN	_	NN.UTR.SIN.IND.NOM	13	UA	|kontaktperson..nn.1|
-15	,	|	MID	_	MID	16	IK	|
-16	utan	|utan|	KN	_	KN	0	ROOT	|utan..kn.1|
-17	då	|då|	AB	_	AB	18	TA	|då..ab.1|då..ab.2|
-18	fick	|få|	VB	_	VB.PRT.AKT	16	MS	|få..vb.1|
-19	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	18	SS	|mamma..nn.1|
-20	göra	|göra|	VB	_	VB.INF.AKT	18	VG	|göra..vb.1|
-21	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	20	OO	|den..pn.1|
-22	)	|	PAD	_	PAD	16	JR	|
-23	.	|	MAD	_	MAD	16	IP	|
+( Förra gången var jag 17 år och kunde därför inte stå som kontaktperson , utan då fick mamma göra det ) .
 
 # age = 20
 # agebin = 20--29
@@ -251,22 +116,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c54eba8
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	vet	|veta|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-5	kan	|kunna|	VB	_	VB.PRS.AKT	3	UA	|kunna..vb.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	OO	|den..pn.1|
-7	,	|	MID	_	MID	5	IK	|
-8	måste	|måste|	VB	_	VB.PRS.AKT	2	MS	|måste..vb.1|
-9	bara	|bara|	AB	_	AB	8	CA	|bara..ab.1|
-10	bevisa	|bevisa|	VB	_	VB.INF.AKT	8	VG	|bevisa..vb.1|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	OO	|den..pn.1|
-12	för	|för|	PP	_	PP	10	OA	|för..pp.1|
-13	dem	|de|	PN	_	PN.UTR+NEU.PLU.DEF.OBJ	12	PA	|de..pn.1|
-14	..	|	MAD	_	MAD	2	IP	|
+Jag vet att jag kan det , måste bara bevisa det för dem ..
 
 # age = 20
 # agebin = 20--29
@@ -276,10 +126,7 @@
 # thread_title = skulle ni kunna vara familjehem?
 # post_id = 15301083
 # post_date = 2006-12-13 23:15:56
-# username = pratglada tjejen
-# sent_id = c54f697
-1	Åsikter	|åsikt|	NN	_	NN.UTR.PLU.IND.NOM	0	ROOT	|åsikt..nn.1|
-2	?	|	MAD	_	MAD	1	I?	|
+Åsikter ?
 
 # age = 20
 # agebin = 20--29
@@ -289,22 +136,7 @@
 # thread_title = Ni som söker/har sökt sina rötter som vuxna.. hur har det gått?
 # post_id = 15301213
 # post_date = 2006-12-13 23:20:16
-# username = pratglada tjejen
-# sent_id = c544b7b
-1	Ni	|Ni|ni|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|Ni..pn.1|ni..pn.1|
-2	som	|	HP	_	HP.-.-.-	3	SS	|
-3	hittat	|hitta|	VB	_	VB.SUP.AKT	1	ET	|hitta..vb.1|
-4	era	|ni|	PS	_	PS.UTR+NEU.PLU.DEF	5	DT	|ni..pn.1|
-5	föräldrar	|förälder|	NN	_	NN.UTR.PLU.IND.NOM	3	OO	|förälder..nn.1|
-6	,	|	MID	_	MID	8	IK	|
-7	vad	|vad|	HP	_	HP.NEU.SIN.IND	8	OO	|vad..pn.1|
-8	tänker	|tänka|	VB	_	VB.PRS.AKT	0	ROOT	|tänka..vb.1|
-9	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|ni..pn.1|
-10	när	|när|	HA	_	HA	12	TA	|när..ab.1|
-11	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	12	SS	|de..pn.1|
-12	behållt	|	VB	_	VB.SUP.AKT	8	TA	|
-13	syskonen	|syskon|	NN	_	NN.NEU.PLU.DEF.NOM	12	OO	|syskon..nn.1|
-14	?	|	MAD	_	MAD	8	I?	|
+Ni som hittat era föräldrar , vad tänker ni när de behållt syskonen ?
 
 # age = 20
 # agebin = 20--29
@@ -314,14 +146,7 @@
 # thread_title = Ni som söker/har sökt sina rötter som vuxna.. hur har det gått?
 # post_id = 15301213
 # post_date = 2006-12-13 23:20:16
-# username = pratglada tjejen
-# sent_id = c54d7f5
-1	Var	|vara|	VB	_	VB.PRT.AKT	0	ROOT	|vara..vb.1|
-2	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	4	CJ	|en..al.1|
-3	äldre	|gammal|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	CJ	|gammal..av.1|
-4	,	|	MID	_	MID	1	SP	|
-5	yngre	|ung|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	CJ	|ung..av.1|
-6	?	|	MAD	_	MAD	1	I?	|
+Var de äldre , yngre ?
 
 # age = 20
 # agebin = 20--29
@@ -331,29 +156,7 @@
 # thread_title = Ni som söker/har sökt sina rötter som vuxna.. hur har det gått?
 # post_id = 15301213
 # post_date = 2006-12-13 23:20:16
-# username = pratglada tjejen
-# sent_id = c54f95e
-1	Undrar	|undra|	VB	_	VB.PRS.AKT	0	ROOT	|undra..vb.1|
-2	,	|	MID	_	MID	1	IK	|
-3	däför	|	AB	_	AB	1	AA	|
-4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-5	funderar	|fundera|	VB	_	VB.PRS.AKT	3	UA	|fundera..vb.1|
-6	på	|på|	PP	_	PP	5	OA	|på..pp.1|
-7	sånt	|sån|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	6	PA	|sån..pn.1|
-8	ibland	|ibland|	AB	_	AB	5	TA	|ibland..ab.1|
-9	då	|då|	HA	_	HA	12	TA	|då..ab.1|då..ab.2|
-10	min	|jag|	PS	_	PS.UTR.SIN.DEF	11	DT	|jag..pn.1|
-11	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	12	SS	|mamma..nn.1|
-12	är	|vara|	VB	_	VB.PRS.AKT	8	UA	|vara..vb.1|
-13	adopterad	|adoptera|	PC	_	PC.PRF.UTR.SIN.IND.NOM	12	SP	|adoptera..vb.1|
-14	,	|	MID	_	MID	12	IK	|
-15	(	|	PAD	_	PAD	1	IR	|
-16	från	|från|	PP	_	PP	12	TA	|från..pp.1|
-17	3	|	RG	_	RG.NOM	18	DT	|
-18	månaders	|månad|	NN	_	NN.UTR.PLU.IND.GEN	19	DT	|månad..nn.1|
-19	ålder	|ålder|	NN	_	NN.UTR.SIN.IND.NOM	16	PA	|ålder..nn.1|
-20	)	|	PAD	_	PAD	1	JR	|
-21	.	|	MAD	_	MAD	1	IP	|
+Undrar , däför jag funderar på sånt ibland då min mamma är adopterad , ( från 3 månaders ålder ) .
 
 # age = 19
 # agebin = <20
@@ -363,10 +166,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = cedcf013
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 19
 # agebin = <20
@@ -376,35 +176,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = ced6d193
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	full	|full|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	4	AT	|full..av.1|
-4	förståelse	|förståelse|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|förståelse..nn.1|
-5	för	|för|	PP	_	PP	2	OA	|för..pp.1|
-6	varför	|varför|	HA	_	HA	8	AA	|varför..ab.1|
-7	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	8	SS	|man..pn.1|
-8	adopterar	|adoptera|	VB	_	VB.PRS.AKT	9	CJ	|adoptera..vb.1|
-9	och	|och|	KN	_	KN	5	PA	|och..kn.1|
-10	skulle	|skola|	VB	_	VB.PRT.AKT	9	CJ	|skola..vb.2|
-11	aldrig	|aldrig|	AB	_	AB	10	TA	|aldrig..ab.1|
-12	ens	|ens|	AB	_	AB	10	CA	|ens..ab.1|
-13	tänka	|tänka|	VB	_	VB.INF.AKT	10	VG	|tänka..vb.1|
-14	tanken	|tank|tanke|	NN	_	NN.UTR.SIN.DEF.NOM	13	OO	|tank..nn.1|tank..nn.2|tanke..nn.1|
-15	att	|att|	IE	_	IE	14	ET	|att..sn.1|
-16	ifrågasätta	|ifrågasätta|	VB	_	VB.INF.AKT	15	IF	|ifrågasätta..vb.1|
-17	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	16	OO	|de..pn.1|
-18	som	|	HP	_	HP.-.-.-	19	SS	|
-19	gör	|göra|	VB	_	VB.PRS.AKT	17	ET	|göra..vb.1|
-20	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	19	OO	|den..pn.1|
-21	,	|	MID	_	MID	2	IK	|
-22	min	|jag|	PS	_	PS.UTR.SIN.DEF	23	DT	|jag..pn.1|
-23	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	24	SS	|mamma..nn.1|
-24	är	|vara|	VB	_	VB.PRS.AKT	2	MS	|vara..vb.1|
-25	dessutom	|dessutom|	AB	_	AB	24	+A	|dessutom..ab.1|
-26	adopterad	|adoptera|	PC	_	PC.PRF.UTR.SIN.IND.NOM	24	SP	|adoptera..vb.1|
-27	.	|	MAD	_	MAD	2	IP	|
+Jag har full förståelse för varför man adopterar och skulle aldrig ens tänka tanken att ifrågasätta de som gör det , min mamma är dessutom adopterad .
 
 # age = 19
 # agebin = <20
@@ -414,20 +186,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = cedfeba9
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	undrar	|undra|	VB	_	VB.PRS.AKT	1	MS	|undra..vb.1|
-4	lite	|lite|	AB	_	AB.POS	3	AA	|lite..ab.1|
-5	ändå	|ändå|	AB	_	AB	3	+A	|ändå..ab.1|
-6	,	|	MID	_	MID	3	IK	|
-7	nu	|nu|	AB	_	AB	3	TA	|nu..ab.1|
-8	när	|när|	HA	_	HA	10	TA	|när..ab.1|
-9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
-10	läser	|läsa|	VB	_	VB.PRS.AKT	3	TA	|läsa..vb.1|
-11	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	OO	|denna..pn.1|
-12	.	|	MAD	_	MAD	3	IP	|
+Men jag undrar lite ändå , nu när jag läser detta .
 
 # age = 19
 # agebin = <20
@@ -437,34 +196,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = ced22b9c
-1	Om	|om|	SN	_	SN	9	AA	|om..sn.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	3	SS	|man..pn.1|
-3	har	|ha|	VB	_	VB.PRS.AKT	1	UA	|ha..vb.1|
-4	både	|både och|	KN	_	KN	6	VA	|både_och..knm.1|
-5	adopterade	|adoptera|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	6	CJ	|adoptera..vb.1|
-6	och	|och|både och:4|	KN	_	KN	3	OO	|och..kn.1|både_och..knm.1:4|
-7	biobarn	|biobarn|	NN	_	NN.NEU.PLU.IND.NOM	6	CJ	|
-8	,	|	MID	_	MID	9	IK	|
-9	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
-11	inte	|inte|	AB	_	AB	9	NA	|inte..ab.1|
-12	kännas	|känna|kännas|	VB	_	VB.INF.SFO	9	VG	|känna..vb.1|känna..vb.2|kännas..vb.1|
-13	lite	|lite|	AB	_	AB.POS	12	AA	|lite..ab.1|
-14	;	|	MID	_	MID	9	IQ	|
-15	ja	|ja|	IN	_	IN	9	MS	|ja..in.1|
-16	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	17	SS	|jag..pn.1|
-17	vet	|veta|	VB	_	VB.PRS.AKT	9	MS	|veta..vb.1|
-18	inte	|inte|	AB	_	AB	17	NA	|inte..ab.1|
-19	annorlunda	|annorlunda|	AB	_	AB	20	CJ	|annorlunda..ab.1|
-20	eller	|eller|	KN	_	KN	17	AA	|eller..kn.1|
-21	konstigt	|konstig|	AB	_	AB.POS	20	CJ	|konstig..av.1|
-22	,	|	MID	_	MID	17	IK	|
-23	iallafall	|iallafall|	AB	_	AB	17	MA	|iallafall..ab.1|
-24	i	|i|	PP	_	PP	17	TA	|i..pp.1|
-25	början	|början|	NN	_	NN.UTR.SIN.DEF.NOM	24	PA	|början..nn.1|
-26	?	|	MAD	_	MAD	9	I?	|
+Om man har både adopterade och biobarn , kan det inte kännas lite ; ja jag vet inte annorlunda eller konstigt , iallafall i början ?
 
 # age = 19
 # agebin = <20
@@ -474,22 +206,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = ced29b17
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
-4	ändå	|ändå|	AB	_	AB	2	+A	|ändå..ab.1|
-5	ngn	|	DT	_	DT.UTR.SIN.IND	7	DT	|
-6	annans	|annan|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	7	DT	|annan..pn.1|
-7	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	2	SS	|barn..nn.1|
-8	den	|den|en|	DT	_	DT.UTR.SIN.DEF	9	DT	|den..pn.1|en..al.1|
-9	ena	|ena|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	10	CJ	|ena..pn.1|
-10	och	|och|	KN	_	KN	2	SS	|och..kn.1|
-11	din	|du|	PS	_	PS.UTR.SIN.DEF	13	DT	|du..pn.1|
-12	den	|den|en|	DT	_	DT.UTR.SIN.DEF	13	DT	|den..pn.1|en..al.1|
-13	andra	|andra|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	10	CJ	|andra..av.1|
-14	?	|	MAD	_	MAD	2	I?	|
+Det är ju ändå ngn annans barn den ena och din den andra ?
 
 # age = 19
 # agebin = <20
@@ -499,24 +216,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = cedbcbb4
-1	Ni	|Ni|ni|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|Ni..pn.1|ni..pn.1|
-2	som	|	HP	_	HP.-.-.-	4	SS	|
-3	kanske	|kanske|	AB	_	AB	4	MA	|kanske..ab.1|
-4	har	|ha|	VB	_	VB.PRS.AKT	6	MS	|ha..vb.1|
-5	så	|så|	AB	_	AB	4	AA	|så..ab.1|
-6	eller	|eller|	KN	_	KN	1	ET	|eller..kn.1|
-7	har	|ha|	VB	_	VB.PRS.AKT	6	+F	|ha..vb.1|
-8	ifrågasatt	|ifrågasätta|	VB	_	VB.SUP.AKT	7	VG	|ifrågasätta..vb.1|
-9	era	|ni|	PS	_	PS.UTR+NEU.PLU.DEF	10	DT	|ni..pn.1|
-10	föräldrar	|förälder|	NN	_	NN.UTR.PLU.IND.NOM	8	OO	|förälder..nn.1|
-11	hur	|hur|	HA	_	HA	12	AA	|hur..ab.1|
-12	tänker	|tänka|	VB	_	VB.PRS.AKT	0	ROOT	|tänka..vb.1|
-13	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	14	CJ	|ni..pn.1|
-14	/	|	MID	_	MID	12	SS	|
-15	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	14	CJ	|de..pn.1|
-16	?	|	MAD	_	MAD	12	I?	|
+Ni som kanske har så eller har ifrågasatt era föräldrar hur tänker ni / de ?
 
 # age = 19
 # agebin = <20
@@ -526,60 +226,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = cedd7683
-1	Spännande	|spännande|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	17	AA	|spännande..av.1|
-2	att	|att|	IE	_	IE	1	OA	|att..sn.1|
-3	blanda	|blanda|	VB	_	VB.INF.AKT	2	IF	|blanda..vb.1|
-4	ändå	|ändå|	AB	_	AB	3	+A	|ändå..ab.1|
-5	,	|	MID	_	MID	1	IK	|
-6	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	3	OO	|ni..pn.1|
-7	som	|	HP	_	HP.-.-.-	8	SS	|
-8	bestämmer	|bestämma|bestämma sig|	VB	_	VB.PRS.AKT	10	CJ	|bestämma..vb.1|bestämma_sig..vbm.1|
-9	er	|ni|bestämma sig:8|	PN	_	PN.UTR.PLU.DEF.OBJ	8	OO	|ni..pn.1|bestämma_sig..vbm.1:8|
-10	för	|för|	KN	_	KN	1	TA	|för..kn.1|
-11	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	12	SS	|vi..pn.1|
-12	ska	|skola|	VB	_	VB.PRS.AKT	10	+F	|skola..vb.2|
-13	ha	|ha|	VB	_	VB.INF.AKT	12	VG	|ha..vb.1|
-14	två	|två|	RG	_	RG.NOM	15	DT	|två..nl.1|
-15	bio	|bio|	NN	_	NN.UTR.SIN.IND.NOM	13	OO	|bio..nn.1|
-16	sedan	|sedan|	AB	_	AB	13	TA	|sedan..ab.1|
-17	vill	|vilja|	VB	_	VB.PRS.AKT	20	MS	|vilja..vb.1|
-18	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	17	SS	|vi..pn.1|
-19	adoptera	|adoptera|	VB	_	VB.INF.AKT	17	VG	|adoptera..vb.1|
-20	gör	|göra|	VB	_	VB.PRS.AKT	0	ROOT	|göra..vb.1|
-21	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|ni..pn.1|
-22	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	20	OO	|den..pn.1|
-23	för	|för|	PP	_	PP	20	AA	|för..pp.1|
-24	att	|att|	IE	_	IE	23	PA	|att..sn.1|
-25	kunna	|kunna|	VB	_	VB.INF.AKT	24	IF	|kunna..vb.1|
-26	ha	|ha|	VB	_	VB.INF.AKT	25	VG	|ha..vb.1|
-27	ett	|en|	DT	_	DT.NEU.SIN.IND	28	DT	|en..al.1|
-28	abrn	|	NN	_	NN.NEU.SIN.IND.NOM	26	OO	|
-29	när	|när|	HA	_	HA	31	TA	|när..ab.1|
-30	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	31	SS	|ni..pn.1|
-31	är	|vara|	VB	_	VB.PRS.AKT	48	MS	|vara..vb.1|
-32	lite	|lite|	AB	_	AB.POS	33	AA	|lite..ab.1|
-33	äldre	|gammal|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	31	SP	|gammal..av.1|
-34	då	|då|	HA	_	HA	40	TA	|då..ab.1|då..ab.2|
-35	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	40	SS	|du..pn.1|
-36	(	|	PAD	_	PAD	37	IR	|
-37	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	40	SS	|mamma..nn.1|
-38	)	|	PAD	_	PAD	37	JR	|
-39	kanske	|kanske|	AB	_	AB	40	MA	|kanske..ab.1|
-40	kommer	|komma|	VB	_	VB.PRS.AKT	48	MS	|komma..vb.1|
-41	att	|att|	IE	_	IE	40	VG	|att..sn.1|
-42	ha	|ha|	VB	_	VB.INF.AKT	41	IF	|ha..vb.1|
-43	svårt	|svår|	AB	_	AB.POS	42	OO	|svår..av.1|
-44	att	|att|	IE	_	IE	42	OA	|att..sn.1|
-45	vara	|vara|	VB	_	VB.INF.AKT	44	IF	|vara..vb.1|vara..vb.2|
-46	gravid	|gravid|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	45	SP	|gravid..av.1|
-47	,	|	MID	_	MID	45	IK	|
-48	eller	|eller|	KN	_	KN	28	ET	|eller..kn.1|
-49	kanke	|	PN	_	PN.UTR.SIN.DEF.SUB	51	SS	|
-50	inte	|inte|	AB	_	AB	51	NA	|inte..ab.1|
-51	orkar	|orka|	VB	_	VB.PRS.AKT	48	CJ	|orka..vb.1|
-52	?	|	MAD	_	MAD	1	I?	|
+Spännande att blanda ändå , ni som bestämmer er för vi ska ha två bio sedan vill vi adoptera gör ni det för att kunna ha ett abrn när ni är lite äldre då du ( mamma ) kanske kommer att ha svårt att vara gravid , eller kanke inte orkar ?
 
 # age = 19
 # agebin = <20
@@ -589,36 +236,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = cedf1872
-1	Eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-2	bara	|bara|	AB	_	AB	3	CA	|bara..ab.1|
-3	vill	|vilja|	VB	_	VB.PRS.AKT	1	MS	|vilja..vb.1|
-4	gå	|gå|gå igenom|	VB	_	VB.INF.AKT	3	VG	|gå..vb.1|gå_igenom..vbm.1|gå_igenom..vbm.2|
-5	igenom	|gå igenom:4|	PL	_	PL	4	PL	|gå_igenom..vbm.1:4|gå_igenom..vbm.2:4|
-6	två	|två|	RG	_	RG.NOM	4	OO	|två..nl.1|
-7	för	|för|	PP	_	PP	4	OA	|för..pp.1|
-8	att	|att|	SN	_	SN	7	PA	|att..sn.1|
-9	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	11	DT	|en..al.1|
-10	andra	|andra|annan|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	11	DT	|andra..av.1|annan..pn.1|
-11	graviditeterna	|graviditet|	NN	_	NN.UTR.PLU.DEF.NOM	12	SS	|graviditet..nn.1|
-12	var	|vara|	VB	_	VB.PRT.AKT	8	UA	|vara..vb.1|
-13	så	|så|	AB	_	AB	14	AA	|så..ab.1|
-14	svåra	|svår|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	12	SP	|svår..av.1|
-15	,	|	MID	_	MID	16	IK	|
-16	eller	|eller|	KN	_	KN	8	UA	|eller..kn.1|
-17	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	16	CJ	|ni..pn.1|
-18	som	|	HP	_	HP.-.-.-	19	SS	|
-19	bestämmer	|bestämma|	VB	_	VB.PRS.AKT	17	ET	|bestämma..vb.1|
-20	innan	|innan|	SN	_	SN	19	TA	|innan..sn.1|
-21	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	23	SS	|ni..pn.1|
-22	ens	|ens|	AB	_	AB	23	CA	|ens..ab.1|
-23	fått	|få|	VB	_	VB.SUP.AKT	20	UA	|få..vb.1|
-24	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	23	OO	|barn..nn.1|
-25	hur	|hur|	HA	_	HA	26	AA	|hur..ab.1|
-26	tänker	|tänka|	VB	_	VB.PRS.AKT	20	UA	|tänka..vb.1|
-27	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	26	SS	|ni..pn.1|
-28	?	|	MAD	_	MAD	3	I?	|
+Eller bara vill gå igenom två för att de andra graviditeterna var så svåra , eller ni som bestämmer innan ni ens fått barn hur tänker ni ?
 
 # age = 19
 # agebin = <20
@@ -628,11 +246,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3505433
 # post_date = 2005-06-20 22:32:33
-# username = pratglada tjejen
-# sent_id = ced57cc7
-1	Kramis	|	PM	_	PM.NOM	2	CJ	|
-2	/	|	MID	_	MID	0	ROOT	|
-3	Alexandra	|Alexandra|	PM	_	PM.NOM	2	CJ	|Alexandra..pm.1|
+Kramis / Alexandra
 
 # age = 19
 # agebin = <20
@@ -642,10 +256,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3557195
 # post_date = 2005-06-26 00:08:54
-# username = pratglada tjejen
-# sent_id = ced13212
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 19
 # agebin = <20
@@ -655,25 +266,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3557195
 # post_date = 2005-06-26 00:08:54
-# username = pratglada tjejen
-# sent_id = ced68803
-1	Tack	|tack|	IN	_	IN	5	MS	|tack..in.1|
-2	för	|för|	PP	_	PP	1	OA	|för..pp.1|
-3	svaren	|svar|	NN	_	NN.NEU.PLU.DEF.NOM	2	PA	|svar..nn.1|
-4	,	|	MID	_	MID	5	IK	|
-5	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
-7	förstår	|förstå|	VB	_	VB.PRS.AKT	5	MS	|förstå..vb.1|
-8	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	OO	|denna..pn.1|
-9	,	|	MID	_	MID	7	IK	|
-10	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	11	DT	|ingen..pn.1|
-11	annan	|annan|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	7	AN	|annan..pn.1|
-12	som	|	HP	_	HP.-.-.-	13	SS	|
-13	har	|ha|	VB	_	VB.PRS.AKT	11	ET	|ha..vb.1|
-14	lite	|lite|	AB	_	AB.POS	15	AA	|lite..ab.1|
-15	andra	|andra|annan|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	16	DT	|andra..av.1|annan..pn.1|
-16	svar	|svar|	NN	_	NN.NEU.PLU.IND.NOM	13	OO	|svar..nn.1|
-17	?	|	MAD	_	MAD	1	I?	|
+Tack för svaren , men jag förstår detta , ingen annan som har lite andra svar ?
 
 # age = 19
 # agebin = <20
@@ -683,29 +276,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3557195
 # post_date = 2005-06-26 00:08:54
-# username = pratglada tjejen
-# sent_id = ced9e469
-1	Vombell	|	IN	_	IN	13	MS	|
-2	:	|	MID	_	MID	1	IQ	|
-3	jadu	|	IN	_	IN	1	MS	|
-4	,	|	MID	_	MID	1	IK	|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|jag..pn.1|
-6	kan	|kunna|	VB	_	VB.PRS.AKT	1	MS	|kunna..vb.1|
-7	nog	|nog|	AB	_	AB	6	MA	|nog..ab.1|
-8	förstå	|förstå|	VB	_	VB.INF.AKT	6	VG	|förstå..vb.1|
-9	hur	|hur|	HA	_	HA	11	AA	|hur..ab.1|
-10	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|hon..pn.1|
-11	menar	|mena|	VB	_	VB.PRS.AKT	8	OO	|mena..vb.1|
-12	,	|	MID	_	MID	13	IK	|
-13	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-14	hur	|hur|	HA	_	HA	15	AA	|hur..ab.1|
-15	kan	|kunna|	VB	_	VB.PRS.AKT	13	MS	|kunna..vb.1|
-16	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	15	SS	|man..pn.1|
-17	säga	|säga|	VB	_	VB.INF.AKT	15	VG	|säga..vb.1|
-18	så	|så|	AB	_	AB	17	AA	|så..ab.1|
-19	ändå	|ändå|	AB	_	AB	17	+A	|ändå..ab.1|
-20	...	|	MID	_	MID	17	IG	|
-21	?	|	MAD	_	MAD	13	I?	|
+Vombell : jadu , jag kan nog förstå hur hon menar , men hur kan man säga så ändå ... ?
 
 # age = 19
 # agebin = <20
@@ -715,25 +286,7 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3557195
 # post_date = 2005-06-26 00:08:54
-# username = pratglada tjejen
-# sent_id = ced38a7c
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	tror	|tro|	VB	_	VB.PRS.AKT	1	MS	|tro..vb.1|
-4	inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
-5	att	|att|	SN	_	SN	3	OO	|att..sn.1|
-6	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|hon..pn.1|
-7	menar	|mena|	VB	_	VB.PRS.AKT	5	UA	|mena..vb.1|
-8	ngt	|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	7	OO	|
-9	illa	|	AB	_	AB	7	AA	|
-10	,	|	MID	_	MID	3	IK	|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	SS	|den..pn.1|
-12	blev	|bli|	VB	_	VB.PRT.AKT	3	MS	|bli..vb.1|
-13	nog	|nog|	AB	_	AB	12	MA	|nog..ab.1|
-14	bara	|bara|	AB	_	AB	12	CA	|bara..ab.1|
-15	fel	|fel|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	16	AT	|fel..av.1|
-16	ord	|ord|	NN	_	NN.NEU.SIN.IND.NOM	12	SP	|ord..nn.1|
-17	.	|	MAD	_	MAD	3	IP	|
+Men jag tror inte att hon menar ngt illa , det blev nog bara fel ord .
 
 # age = 19
 # agebin = <20
@@ -743,9 +296,5 @@
 # thread_title = *Det är en sak jag har undrat länge.
 # post_id = 3557195
 # post_date = 2005-06-26 00:08:54
-# username = pratglada tjejen
-# sent_id = cede155f
-1	Kram	|kram|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|kram..nn.1|
-2	/	|	MID	_	MID	0	ROOT	|
-3	alexandra	|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|
+Kram / alexandra
 

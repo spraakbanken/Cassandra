@@ -6,39 +6,7 @@
 # thread_title = svårare??
 # post_id = 5571387
 # post_date = 2005-11-15 21:58:52
-# username = SolochMåne
-# sent_id = d899d482
-1	Helt	|hel|helt|	AB	_	AB.POS	3	AA	|hel..av.1|helt..ab.1|
-2	rätt	|rätt|	NN	_	NN.UTR.SIN.IND.NOM	3	CJ	|rätt..nn.1|rätt..nn.2|rätt..nn.3|
-3	,	|	MID	_	MID	9	SP	|
-4	jennie	|	NN	_	NN.UTR.SIN.IND.NOM	3	CJ	|
-5	med	|med|	PP	_	PP	4	OA	|med..pp.1|
-6	ie	|	NN	_	NN.AN	5	PA	|
-7	,	|	MID	_	MID	3	IK	|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
-9	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-10	alltid	|alltid|	AB	_	AB	9	TA	|alltid..ab.1|
-11	barnets	|barn|	NN	_	NN.NEU.SIN.DEF.GEN	12	DT	|barn..nn.1|
-12	bästa	|bra|bäst|god|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM	9	SP	|bra..av.1|bäst..av.1|god..av.1|
-13	som	|	HP	_	HP.-.-.-	14	SS	|
-14	är	|vara|	VB	_	VB.PRS.AKT	12	EF	|vara..vb.1|
-15	í	|	NN	_	NN.UTR.SIN.IND.NOM	17	DT	|
-16	första	|	RO	_	RO.NOM	17	DT	|
-17	rummet	|rum|	NN	_	NN.NEU.SIN.DEF.NOM	14	SP	|rum..nn.1|
-18	,	|	MID	_	MID	9	IK	|
-19	att	|att|	SN	_	SN	9	KA	|att..sn.1|
-20	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	22	SS	|barn..nn.1|
-21	verkligen	|verkligen|	AB	_	AB	22	MA	|verkligen..ab.1|
-22	skulle	|skola|	VB	_	VB.PRT.AKT	19	UA	|skola..vb.2|
-23	få	|få|	VB	_	VB.INF.AKT	22	VG	|få..vb.1|
-24	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	23	OO	|den..pn.1|
-25	bättre	|bra|god|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	23	OP	|bra..av.1|god..av.1|
-26	här	|här|	AB	_	AB	23	RA	|här..ab.1|
-27	än	|	KN	_	KN	23	KA	|
-28	i	|i|	PP	_	PP	27	UA	|i..pp.1|
-29	sitt	|sig|	PS	_	PS.NEU.SIN.DEF	30	DT	|sig..pn.1|
-30	ursprungsland	|ursprungsland|	NN	_	NN.NEU.SIN.IND.NOM	28	PA	|ursprungsland..nn.1|
-31	.	|	MAD	_	MAD	9	IP	|
+Helt rätt , jennie med ie , det är alltid barnets bästa som är í första rummet , att barnet verkligen skulle få det bättre här än i sitt ursprungsland .
 
 # age = 20
 # agebin = 20--29
@@ -48,34 +16,5 @@
 # thread_title = svårare??
 # post_id = 5571387
 # post_date = 2005-11-15 21:58:52
-# username = SolochMåne
-# sent_id = d89ae992
-1	Att	|att|	SN	_	SN	11	SS	|att..sn.1|
-2	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	3	SS	|barn..nn.1|
-3	har	|ha|	VB	_	VB.PRS.AKT	1	UA	|ha..vb.1|
-4	adopterats	|adoptera|	VB	_	VB.SUP.SFO	3	VG	|adoptera..vb.1|
-5	som	|	KN	_	KN	4	SP	|
-6	välgärenhet	|	NN	_	NN.UTR.SIN.IND.NOM	5	UA	|
-7	,	|	MID	_	MID	4	IK	|
-8	särskilt	|särskild|särskilt|	AB	_	AB	9	CA	|särskild..av.1|särskilt..ab.1|
-9	på	|på|	PP	_	PP	11	TA	|på..pp.1|
-10	70-talet	|70-tal|	NN	_	NN.NEU.SIN.DEF.NOM	9	PA	|_70-tal..nn.1|
-11	är	|vara|	VB	_	VB.PRS.AKT	15	MS	|vara..vb.1|
-12	bara	|bara|	AB	_	AB	11	CA	|bara..ab.1|
-13	sorgligt	|sorglig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	11	SP	|sorglig..av.1|
-14	,	|	MID	_	MID	11	IK	|
-15	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-16	inte	|inte|	AB	_	AB	17	NA	|inte..ab.1|
-17	ur	|ur|	PP	_	PP	15	+F	|ur..pp.1|
-18	barnets	|barn|	NN	_	NN.NEU.SIN.DEF.GEN	19	DT	|barn..nn.1|
-19	bästas-synpunkt	|bästas-synpunkt|	NN	_	NN.UTR.SIN.IND.NOM	17	PA	|
-20	,	|	MID	_	MID	15	IK	|
-21	eftersom	|eftersom|	SN	_	SN	15	AA	|eftersom..sn.1|
-22	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	23	SS	|den..pn.1|
-23	är	|vara|	VB	_	VB.PRS.AKT	21	UA	|vara..vb.1|
-24	ett	|en|	DT	_	DT.NEU.SIN.IND	27	DT	|en..al.1|
-25	väldigt	|väldig|	AB	_	AB.POS	26	AA	|väldig..av.1|
-26	etnocentriskt	|etnocentrisk|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	27	AT	|etnocentrisk..av.1|
-27	synsätt	|synsätt|	NN	_	NN.NEU.SIN.IND.NOM	23	SP	|synsätt..nn.1|
-28	.	|	MAD	_	MAD	15	IP	|
+Att barn har adopterats som välgärenhet , särskilt på 70-talet är bara sorgligt , och inte ur barnets bästas-synpunkt , eftersom det är ett väldigt etnocentriskt synsätt .
 

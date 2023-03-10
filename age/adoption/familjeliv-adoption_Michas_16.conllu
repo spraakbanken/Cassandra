@@ -6,31 +6,7 @@
 # thread_title = Angla är mamma
 # post_id = 41547239
 # post_date = 2009-02-17 18:36:22
-# username = Michas
-# sent_id = 4967d963
-1	Minns	|minna|minnas|	VB	_	VB.PRS.SFO	0	ROOT	|minna..vb.1|minnas..vb.1|
-2	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	1	OO	|du..pn.1|
-3	också	|också|	AB	_	AB	1	+A	|också..ab.1|
-4	från	|från|	PP	_	PP	1	OA	|från..pp.1|
-5	IVF-svängen	|ivf-sväng|	NN	_	NN.UTR.SIN.DEF.NOM	4	PA	|
-6	-	|	MID	_	MID	1	IT	|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	OO	|den..pn.1|
-8	glädjer	|glädja|glädja sig|	VB	_	VB.PRS.AKT	1	MS	|glädja..vb.1|glädja_sig..vbm.1|
-9	mig	|jag|glädja sig:8|	PN	_	PN.UTR.SIN.DEF.OBJ	8	OO	|jag..pn.1|glädja_sig..vbm.1:8|
-10	verkligen	|verkligen|	AB	_	AB	8	MA	|verkligen..ab.1|
-11	att	|att|	IE	_	IE	8	OA	|att..sn.1|
-12	läsa	|läsa|	VB	_	VB.INF.AKT	11	IF	|läsa..vb.1|
-13	att	|att|	SN	_	SN	12	OO	|att..sn.1|
-14	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|du..pn.1|
-15	blivit	|bli|	VB	_	VB.SUP.AKT	17	MS	|bli..vb.1|
-16	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	15	SP	|mamma..nn.1|
-17	och	|och|	KN	_	KN	13	UA	|och..kn.1|
-18	snart	|snar|snart|	AB	_	AB.POS	19	TA	|snar..av.1|snart..ab.1|
-19	får	|få|	VB	_	VB.PRS.AKT	17	+F	|få..vb.1|
-20	snusa	|snusa|	VB	_	VB.INF.AKT	19	VG	|snusa..vb.1|
-21	på	|på|	PP	_	PP	20	RA	|på..pp.1|
-22	ert	|ni|	PS	_	PS.NEU.SIN.DEF	23	DT	|ni..pn.1|
-23	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	21	PA	|barn..nn.1|
+Minns dig också från IVF-svängen - det glädjer mig verkligen att läsa att du blivit mamma och snart får snusa på ert barn
 
 # age = 17
 # agebin = <20
@@ -40,18 +16,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16315727
 # post_date = 2007-01-16 11:53:37
-# username = Michas
-# sent_id = 49680b3e
-1	GRATTIS	|	VB	_	VB.IMP.AKT	0	ROOT	|
-2	TILL	|till|	PP	_	PP	1	OA	|till..pp.1|
-3	ER	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	2	PA	|ni..pn.1|
-4	BÅDA	|båda|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	5	CJ	|båda..pn.1|
-5	och	|och|	KN	_	KN	1	OO	|och..kn.1|
-6	till	|till|	PP	_	PP	5	CJ	|till..pp.1|
-7	det	|den|en|	DT	_	DT.NEU.SIN.DEF	8	DT	|den..pn.1|en..al.1|
-8	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	6	PA	|barn..nn.1|
-9	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|ni..pn.1|
-10	väntar	|vänta|	VB	_	VB.PRS.AKT	8	ET	|vänta..vb.1|
+GRATTIS TILL ER BÅDA och till det barn ni väntar
 
 # age = 17
 # agebin = <20
@@ -61,26 +26,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16315727
 # post_date = 2007-01-16 11:53:37
-# username = Michas
-# sent_id = 496c957d
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	värmer	|värma|	VB	_	VB.PRS.AKT	0	ROOT	|värma..vb.1|
-3	inuti	|inuti|	PP	_	PP	2	OA	|inuti..pp.1|
-4	att	|att|	IE	_	IE	3	PA	|att..sn.1|
-5	läsa	|läsa|	VB	_	VB.INF.AKT	4	IF	|läsa..vb.1|
-6	efter	|efter|	PP	_	PP	5	OA	|efter..pp.1|
-7	att	|att|	IE	_	IE	6	PA	|att..sn.1|
-8	på	|på|på avstånd|	PP	_	PP	13	AA	|på..pp.1|på_avstånd..abm.1|
-9	avstånd	|avstånd|på avstånd:8|	NN	_	NN.NEU.SIN.IND.NOM	8	PA	|avstånd..nn.1|på_avstånd..abm.1:8|
-10	här	|här|	AB	_	AB	9	ET	|här..ab.1|
-11	på	|på|	PP	_	PP	10	RA	|på..pp.1|
-12	nätet	|nät|	NN	_	NN.NEU.SIN.DEF.NOM	11	PA	|nät..nn.1|
-13	ha	|ha|	VB	_	VB.INF.AKT	7	IF	|ha..vb.1|
-14	följt	|följa|	VB	_	VB.SUP.AKT	13	VG	|följa..vb.1|
-15	er	|ni|	PS	_	PS.UTR.SIN.DEF	17	DT	|ni..pn.1|
-16	långa	|lång|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	17	AT	|lång..av.1|
-17	kamp	|kamp|	NN	_	NN.UTR.SIN.IND.NOM	14	OO	|kamp..nn.1|kamp..nn.2|
-18	.	|	MAD	_	MAD	2	IP	|
+Det värmer inuti att läsa efter att på avstånd här på nätet ha följt er långa kamp .
 
 # age = 17
 # agebin = <20
@@ -90,13 +36,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16315727
 # post_date = 2007-01-16 11:53:37
-# username = Michas
-# sent_id = 496214e7
-1	Värme	|värme|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|värme..nn.1|värme..nn.2|
-2	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-3	tusen	|tusen|	RG	_	RG.NOM	2	CJ	|tusen..nl.1|
-4	kramar	|kram|	NN	_	NN.UTR.PLU.IND.NOM	2	CJ	|kram..nn.1|
-5	!	|	MAD	_	MAD	4	IU	|
+Värme och tusen kramar !
 
 # age = 17
 # agebin = <20
@@ -106,10 +46,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16315727
 # post_date = 2007-01-16 11:53:37
-# username = Michas
-# sent_id = 4969b521
-1	/	|	MID	_	MID	0	ROOT	|
-2	Micha	|	PM	_	PM.NOM	1	PA	|
+/ Micha
 
 # age = 17
 # agebin = <20
@@ -119,16 +56,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16365770
 # post_date = 2007-01-17 14:45:24
-# username = Michas
-# sent_id = 496475ef
-1	Favorit	|favorit|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|favorit..nn.1|
-2	i	|i|	PP	_	PP	1	TA	|i..pp.1|
-3	repris	|repris|	NN	_	NN.UTR.SIN.IND.NOM	2	PA	|repris..nn.1|
-4	:	|	MID	_	MID	3	IQ	|
-5	Njuuut	|	PM	_	PM.NOM	4	PA	|
-6	,	|	MID	_	MID	5	IK	|
-7	Angla	|	PM	_	PM.NOM	5	HD	|
-8	!	|	MAD	_	MAD	1	IU	|
+Favorit i repris : Njuuut , Angla !
 
 # age = 17
 # agebin = <20
@@ -138,40 +66,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16416619
 # post_date = 2007-01-18 17:47:46
-# username = Michas
-# sent_id = 496c5b50
-1	Och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	19	SS	|jag..pn.1|
-3	som	|	HP	_	HP.-.-.-	4	SS	|
-4	hade	|ha|	VB	_	VB.PRT.AKT	2	ET	|ha..vb.1|
-5	förberett	|förbereda|	VB	_	VB.SUP.AKT	4	VG	|förbereda..vb.1|
-6	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	5	OO	|jag..pn.1|
-7	på	|på|	PP	_	PP	5	OA	|på..pp.1|
-8	att	|att|	SN	_	SN	7	PA	|att..sn.1|
-9	Angla	|	PM	_	PM.NOM	14	SS	|
-10	med	|med|	PP	_	PP	9	ET	|med..pp.1|
-11	man	|man|	NN	_	NN.UTR.SIN.IND.NOM	12	CJ	|man..nn.1|man..nn.2|
-12	och	|och|	KN	_	KN	10	PA	|och..kn.1|
-13	bustrollet	|bustroll|	NN	_	NN.NEU.SIN.DEF.NOM	12	CJ	|
-14	skulle	|skola|	VB	_	VB.PRT.AKT	8	UA	|skola..vb.2|
-15	mellanlanda	|mellanlanda|	VB	_	VB.INF.AKT	14	VG	|mellanlanda..vb.1|
-16	här	|här|	AB	_	AB	15	RA	|här..ab.1|
-17	först	|först|	AB	_	AB	16	CA	|först..ab.1|
-18	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	19	SS	|jag..pn.1|
-19	bor	|bo|	VB	_	VB.PRS.AKT	1	MS	|bo..vb.1|
-20	ju	|ju|	AB	_	AB	19	MA	|ju..ab.1|
-21	faktiskt	|faktisk|	AB	_	AB.POS	22	AA	|faktisk..av.1|
-22	lagom	|lagom|	AB	_	AB	19	AA	|lagom..ab.1|
-23	för	|för|	PP	_	PP	19	TA	|för..pp.1|
-24	en	|en|	DT	_	DT.UTR.SIN.IND	25	DT	|en..al.1|
-25	mellanlandning	|mellanlandning|	NN	_	NN.UTR.SIN.IND.NOM	23	PA	|mellanlandning..nn.1|
-26	praktiskt	|praktisk|praktiskt taget|	AB	_	AB.POS	19	AA	|praktisk..av.1|praktiskt_taget..abm.1|
-27	taget	|ta|tagen|praktiskt taget:26|	PC	_	PC.PRF.NEU.SIN.IND.NOM	26	HD	|ta..vb.1|tagen..av.1|praktiskt_taget..abm.1:26|
-28	var	|var|var än|	HA	_	HA	31	RA	|var..ab.1|var_än..abm.1|
-29	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	31	SS	|man..pn.1|
-30	än	|än|var än:28|	AB	_	AB	31	+A	|än..ab.1|var_än..abm.1:28|
-31	kommer	|komma|komma ifrån|	VB	_	VB.PRS.AKT	19	TA	|komma..vb.1|komma_ifrån..vbm.1|
-32	ifrån	|komma ifrån:31|	PL	_	PL	31	PL	|komma_ifrån..vbm.1:31|
+Och jag som hade förberett mig på att Angla med man och bustrollet skulle mellanlanda här först Jag bor ju faktiskt lagom för en mellanlandning praktiskt taget var man än kommer ifrån
 
 # age = 17
 # agebin = <20
@@ -181,32 +76,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16416619
 # post_date = 2007-01-18 17:47:46
-# username = Michas
-# sent_id = 496bbef9
-1	Angla	|	PM	_	PM.NOM	6	SS	|
-2	:	|	MID	_	MID	1	IQ	|
-3	Ang	|	VB	_	VB.IMP.AKT	2	MA	|
-4	barnvakt	|barnvakt|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|barnvakt..nn.1|
-5	så	|så|	AB	_	AB	6	DB	|så..ab.1|
-6	behöver	|behöva|	VB	_	VB.PRS.AKT	0	ROOT	|behöva..vb.1|
-7	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|du..pn.1|
-8	ju	|ju|	AB	_	AB	6	MA	|ju..ab.1|
-9	inte	|inte|	AB	_	AB	6	NA	|inte..ab.1|
-10	tänka	|tänka|tänka högt|tänka om|	VB	_	VB.INF.AKT	6	VG	|tänka..vb.1|tänka_högt..vbm.1|tänka_om..vbm.1|
-11	högt	|hög|tänka högt:10|	AB	_	AB.POS	10	AA	|hög..av.1|tänka_högt..vbm.1:10|
-12	*	|	MID	_	MID	10	AA	|
-13	blink	|	IN	_	IN	10	AA	|
-14	,	|	MID	_	MID	10	IK	|
-15	blink	|	IN	_	IN	17	OA	|
-16	*	|	MID	_	MID	17	AA	|
-17	Trist	|trist|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	10	AA	|trist..av.1|
-18	om	|om|tänka om:10|	SN	_	SN	17	KA	|om..sn.1|tänka_om..vbm.1:10|
-19	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|du..pn.1|
-20	skulle	|skola|	VB	_	VB.PRT.AKT	18	UA	|skola..vb.2|
-21	bli	|bli|	VB	_	VB.INF.AKT	20	VG	|bli..vb.1|
-22	lynchad	|lyncha|	PC	_	PC.PRF.UTR.SIN.IND.NOM	21	SP	|lyncha..vb.1|
-23	ju	|ju|	AB	_	AB	21	AA	|ju..ab.1|
-24	!	|	MAD	_	MAD	6	IU	|
+Angla : Ang barnvakt så behöver du ju inte tänka högt * blink , blink * Trist om du skulle bli lynchad ju !
 
 # age = 17
 # agebin = <20
@@ -216,13 +86,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16416824
 # post_date = 2007-01-18 17:54:23
-# username = Michas
-# sent_id = 496bb520
-1	Hehe	|	IN	_	IN	0	ROOT	|
-2	,	|	MID	_	MID	1	IK	|
-3	kika	|kika|	VB	_	VB.IMP.AKT	1	MS	|kika..vb.1|
-4	på	|på|	PP	_	PP	3	OA	|på..pp.1|
-5	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	4	PA	|du..pn.1|
+Hehe , kika på du
 
 # age = 17
 # agebin = <20
@@ -232,9 +96,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16422584
 # post_date = 2007-01-18 20:15:04
-# username = Michas
-# sent_id = 496b3e76
-1	Frankrike	|Frankrike|	PM	_	PM.NOM	0	ROOT	|Frankrike..pm.1|
+Frankrike
 
 # age = 17
 # agebin = <20
@@ -244,23 +106,7 @@
 # thread_title = Angla väntar Barn
 # post_id = 16422584
 # post_date = 2007-01-18 20:15:04
-# username = Michas
-# sent_id = 49642769
-1	Ni	|Ni|ni|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|Ni..pn.1|ni..pn.1|
-2	måste	|måste|	VB	_	VB.PRS.AKT	0	ROOT	|måste..vb.1|
-3	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
-4	bara	|bara|	AB	_	AB	2	CA	|bara..ab.1|
-5	flyga	|flyga|	VB	_	VB.INF.AKT	2	VG	|flyga..vb.1|
-6	över	|över|	PP	_	PP	5	OA	|över..pp.1|
-7	oss	|vi|	PN	_	PN.UTR.PLU.DEF.OBJ	6	PA	|vi..pn.1|
-8	om	|om|	SN	_	SN	5	AA	|om..sn.1|
-9	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|ni..pn.1|
-10	inte	|inte|	AB	_	AB	11	NA	|inte..ab.1|
-11	åker	|åka|	VB	_	VB.PRS.AKT	8	UA	|åka..vb.1|
-12	via	|via|	PP	_	PP	11	RA	|via..pp.1|
-13	Grönland	|Grönland|	PM	_	PM.NOM	12	PA	|Grönland..pm.1|Grönland..pm.2|
-14	eller	|eller|	KN	_	KN	8	UA	|eller..kn.1|
-15	så	|så|	AB	_	AB	14	CJ	|så..ab.1|
+Ni måste ju bara flyga över oss om ni inte åker via Grönland eller så
 
 # age = 18
 # agebin = <20
@@ -270,50 +116,7 @@
 # thread_title = "köpebarn"
 # post_id = 35912422
 # post_date = 2008-09-04 13:37:49
-# username = Michas
-# sent_id = 84c1399d
-1	Helt	|hel|helt|	AB	_	AB.POS	2	AA	|hel..av.1|helt..ab.1|
-2	OT	|	IN	_	IN	11	MS	|
-3	,	|	MID	_	MID	11	IK	|
-4	men	|men|	KN	_	KN	24	++	|men..kn.1|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|jag..pn.1|
-6	är	|vara|	VB	_	VB.PRS.AKT	11	MS	|vara..vb.1|
-7	bara	|bara|	AB	_	AB	6	CA	|bara..ab.1|
-8	tvungen	|tvinga|tvungen|	PC	_	PC.PRF.UTR.SIN.IND.NOM	6	SP	|tvinga..vb.1|tvungen..av.1|
-9	att	|att|	IE	_	IE	6	OA	|att..sn.1|
-10	instämma	|instämma|	VB	_	VB.INF.AKT	9	IF	|instämma..vb.1|instämma..vb.2|
-11	och	|och|	KN	_	KN	24	AA	|och..kn.1|
-12	dessutom	|dessutom|	AB	_	AB	13	+A	|dessutom..ab.1|
-13	...	|	MID	_	MID	14	IG	|
-14	vore	|vara|	VB	_	VB.KON.PRT.AKT	11	MS	|vara..vb.1|
-15	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	14	SS	|man..pn.1|
-16	tvungen	|tvinga|tvungen|	PC	_	PC.PRF.UTR.SIN.IND.NOM	14	SP	|tvinga..vb.1|tvungen..av.1|
-17	att	|att|	IE	_	IE	14	ES	|att..sn.1|
-18	betala	|betala|	VB	_	VB.INF.AKT	17	IF	|betala..vb.1|
-19	patientavgifter	|patientavgift|	NN	_	NN.UTR.PLU.IND.NOM	20	CJ	|
-20	,	|	MID	_	MID	18	OO	|
-21	förlossning	|förlossning|	NN	_	NN.UTR.SIN.IND.NOM	20	CJ	|förlossning..nn.1|
-22	m.m.	|m.m.|	AB	_	AB.AN	20	CJ	|m.m...aba.1|
-23	så	|så|	AB	_	AB	24	DB	|så..ab.1|
-24	skulle	|skola|	VB	_	VB.PRT.AKT	0	ROOT	|skola..vb.2|
-25	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	24	SS	|man..pn.1|
-26	kanske	|kanske|	AB	_	AB	24	MA	|kanske..ab.1|
-27	se	|se|	VB	_	VB.INF.AKT	24	VG	|se..vb.1|
-28	lite	|lite|	AB	_	AB.POS	29	AA	|lite..ab.1|
-29	mindre	|liten|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	30	AT	|liten..av.1|
-30	familjer	|familj|	NN	_	NN.UTR.PLU.IND.NOM	27	IO	|familj..nn.1|
-31	PLANERA	|planera|	VB	_	VB.INF.AKT	27	VO	|planera..vb.1|
-32	bebisverkstad	|bebisverkstad|	NN	_	NN.UTR.SIN.IND.NOM	31	OO	|
-33	när	|när|	HA	_	HA	36	TA	|när..ab.1|
-34	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	36	SS	|de..pn.1|
-35	inte	|inte|	AB	_	AB	36	NA	|inte..ab.1|
-36	har	|ha|	VB	_	VB.PRS.AKT	27	TA	|ha..vb.1|
-37	inkomst	|inkomst|	NN	_	NN.UTR.SIN.IND.NOM	36	OO	|inkomst..nn.1|
-38	att	|att|	IE	_	IE	37	ET	|att..sn.1|
-39	försörja	|försörja|försörja sig|	VB	_	VB.INF.AKT	38	IF	|försörja..vb.1|försörja_sig..vbm.1|
-40	sig	|sig|försörja sig:39|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	39	OO	|sig..pn.1|försörja_sig..vbm.1:39|
-41	själva	|själv|själva|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	40	PT	|själv..pn.1|själva..pn.1|
-42	.	|	MAD	_	MAD	24	IP	|
+Helt OT , men jag är bara tvungen att instämma och dessutom ... vore man tvungen att betala patientavgifter , förlossning m.m. så skulle man kanske se lite mindre familjer PLANERA bebisverkstad när de inte har inkomst att försörja sig själva .
 
 # age = 18
 # agebin = <20
@@ -323,20 +126,7 @@
 # thread_title = "köpebarn"
 # post_id = 35912422
 # post_date = 2008-09-04 13:37:49
-# username = Michas
-# sent_id = 84c2a3e4
-1	Sjukt	|sjuk|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	AT	|sjuk..av.1|
-2	många	|mången|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	3	SS	|mången..pn.1|
-3	verkar	|verka|	VB	_	VB.PRS.AKT	0	ROOT	|verka..vb.1|
-4	nämligen	|nämligen|	AB	_	AB	3	+A	|nämligen..ab.1|
-5	sätta	|sätta|	VB	_	VB.INF.AKT	3	VS	|sätta..vb.1|
-6	likhetstecken	|likhetstecken|	NN	_	NN.NEU.SIN.IND.NOM	5	OO	|likhetstecken..nn.1|
-7	mellan	|mellan|	PP	_	PP	5	OA	|mellan..pp.1|
-8	statligt	|statlig|	AB	_	AB.POS	9	AA	|statlig..av.1|
-9	finansierat	|finansiera|	PC	_	PC.PRF.NEU.SIN.IND.NOM	10	CJ	|finansiera..vb.1|
-10	och	|och|	KN	_	KN	7	PA	|och..kn.1|
-11	gratis	|gratis|	AB	_	AB	10	CJ	|gratis..ab.1|gratis..av.1|
-12	.	|	MAD	_	MAD	3	IP	|
+Sjukt många verkar nämligen sätta likhetstecken mellan statligt finansierat och gratis .
 
 # age = 18
 # agebin = <20
@@ -346,12 +136,7 @@
 # thread_title = "köpebarn"
 # post_id = 35912422
 # post_date = 2008-09-04 13:37:49
-# username = Michas
-# sent_id = 84c8904e
-1	Tillbaka	|tillbaka|	AB	_	AB	0	ROOT	|tillbaka..ab.1|
-2	till	|till|	PP	_	PP	1	RA	|till..pp.1|
-3	topic	|	NN	_	NN.UTR.SIN.IND.NOM	2	PA	|
-4	..	|	MAD	_	MAD	1	IP	|
+Tillbaka till topic ..
 
 # age = 18
 # agebin = <20
@@ -361,28 +146,7 @@
 # thread_title = "köpebarn"
 # post_id = 35912422
 # post_date = 2008-09-04 13:37:49
-# username = Michas
-# sent_id = 84ccfcfe
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	förstår	|förstå|	VB	_	VB.PRS.AKT	0	ROOT	|förstå..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	FS	|den..pn.1|
-5	måste	|måste|	VB	_	VB.PRS.AKT	3	UA	|måste..vb.1|
-6	kännas	|känna|kännas|	VB	_	VB.INF.SFO	5	VG	|känna..vb.1|känna..vb.2|kännas..vb.1|
-7	oerhört	|oerhörd|	AB	_	AB.POS	8	AA	|oerhörd..av.1|
-8	kränkande	|kränka|kränkande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	6	SP	|kränka..vb.1|kränkande..av.1|
-9	att	|att|	IE	_	IE	6	ES	|att..sn.1|
-10	få	|få|	VB	_	VB.INF.AKT	9	IF	|få..vb.1|
-11	höra	|höra|	VB	_	VB.INF.AKT	10	VG	|höra..vb.1|
-12	sådana	|sån|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	14	DT	|sån..pn.1|
-13	här	|här|	AB	_	AB	12	HD	|här..ab.1|
-14	dumheter	|dumhet|	NN	_	NN.UTR.PLU.IND.NOM	11	OO	|dumhet..nn.1|
-15	som	|	HP	_	HP.-.-.-	19	PA	|
-16	vissa	|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	17	SS	|
-17	slänger	|slänga|slänga sig|	VB	_	VB.PRS.AKT	14	ET	|slänga..vb.1|slänga_sig..vbm.1|
-18	sig	|sig|slänga sig:17|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	17	OO	|sig..pn.1|slänga_sig..vbm.1:17|
-19	med	|med|	PP	_	PP	17	OA	|med..pp.1|
-20	.	|	MAD	_	MAD	2	IP	|
+Jag förstår att det måste kännas oerhört kränkande att få höra sådana här dumheter som vissa slänger sig med .
 
 # age = 18
 # agebin = <20
@@ -392,28 +156,7 @@
 # thread_title = "köpebarn"
 # post_id = 35912422
 # post_date = 2008-09-04 13:37:49
-# username = Michas
-# sent_id = 84ce45d7
-1	När	|när|	HA	_	HA	3	TA	|när..ab.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	var	|vara|	VB	_	VB.PRT.AKT	5	TA	|vara..vb.1|
-4	liten	|liten|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	SP	|liten..av.1|
-5	fick	|få|	VB	_	VB.PRT.AKT	0	ROOT	|få..vb.1|
-6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-7	höra	|höra|	VB	_	VB.INF.AKT	5	VG	|höra..vb.1|
-8	ett	|en|	DT	_	DT.NEU.SIN.IND	11	DT	|en..al.1|
-9	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	11	DT	|annan..pn.1|
-10	liknande	|likna|liknande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	11	AT	|likna..vb.1|liknande..av.1|
-11	ord	|ord|	NN	_	NN.NEU.SIN.IND.NOM	7	OO	|ord..nn.1|
-12	som	|	HP	_	HP.-.-.-	14	SS	|
-13	verkligen	|verkligen|	AB	_	AB	14	MA	|verkligen..ab.1|
-14	satte	|sätta|sätta sig|	VB	_	VB.PRT.AKT	11	ET	|sätta..vb.1|sätta_sig..vbm.1|
-15	griller	|griller|	NN	_	NN.UTR.PLU.IND.NOM	14	OO	|griller..nn.1|griller..nn.2|
-16	i	|i|	PP	_	PP	14	RA	|i..pp.1|
-17	huvudet	|huvud|	NN	_	NN.NEU.SIN.DEF.NOM	16	PA	|huvud..nn.1|
-18	på	|på|	PP	_	PP	14	RA	|på..pp.1|
-19	mig	|jag|sätta sig:14|	PN	_	PN.UTR.SIN.DEF.OBJ	18	PA	|jag..pn.1|sätta_sig..vbm.1:14|
-20	.	|	MAD	_	MAD	5	IP	|
+När jag var liten fick jag höra ett annat liknande ord som verkligen satte griller i huvudet på mig .
 
 # age = 18
 # agebin = <20
@@ -423,36 +166,7 @@
 # thread_title = "köpebarn"
 # post_id = 35912422
 # post_date = 2008-09-04 13:37:49
-# username = Michas
-# sent_id = 84cabf91
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	förstod	|förstå|	VB	_	VB.PRT.AKT	20	MS	|förstå..vb.1|
-3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-4	alls	|alls|	AB	_	AB	2	AA	|alls..ab.1|
-5	vad	|vad|	HP	_	HP.NEU.SIN.IND	7	OO	|vad..pn.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
-7	betydde	|betyda|	VB	_	VB.PRT.AKT	2	OO	|betyda..vb.1|
-8	då	|då|	AB	_	AB	7	TA	|då..ab.1|då..ab.2|
-9	,	|	MID	_	MID	20	IK	|
-10	men	|men|	KN	_	KN	12	++	|men..kn.1|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	SS	|den..pn.1|
-12	gjorde	|göra|göra sig|	VB	_	VB.PRT.AKT	20	MS	|göra..vb.1|göra_sig..vbm.1|
-13	mig	|jag|göra sig:12|	PN	_	PN.UTR.SIN.DEF.OBJ	12	OO	|jag..pn.1|göra_sig..vbm.1:12|
-14	ledsen	|ledsen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	17	CJ	|ledsen..av.1|
-15	,	|	MID	_	MID	17	IK	|
-16	skamsen	|skamsen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	17	CJ	|skamsen..av.1|
-17	och	|och|	KN	_	KN	12	OP	|och..kn.1|
-18	orolig	|orolig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	17	CJ	|orolig..av.1|
-19	,	|	MID	_	MID	20	IK	|
-20	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-21	då	|då|	AB	_	AB	22	TA	|då..ab.1|då..ab.2|
-22	var	|vara|	VB	_	VB.PRT.AKT	20	MS	|vara..vb.1|
-23	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	22	SS	|jag..pn.1|
-24	ändå	|ändå|	AB	_	AB	22	+A	|ändå..ab.1|
-25	inte	|inte|	AB	_	AB	22	NA	|inte..ab.1|
-26	personligen	|personligen|	AB	_	AB	27	AA	|personligen..ab.1|
-27	berörd	|beröra|berörd|	PC	_	PC.PRF.UTR.SIN.IND.NOM	22	SP	|beröra..vb.1|berörd..av.1|
-28	.	|	MAD	_	MAD	20	IP	|
+Jag förstod inte alls vad det betydde då , men det gjorde mig ledsen , skamsen och orolig , och då var jag ändå inte personligen berörd .
 
 # age = 16
 # agebin = <20
@@ -462,25 +176,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4e572e0
-1	Vill	|vilja|	VB	_	VB.PRS.AKT	0	ROOT	|vilja..vb.1|
-2	bara	|bara|	AB	_	AB	1	CA	|bara..ab.1|
-3	säga	|säga|säga sig|	VB	_	VB.INF.AKT	1	VG	|säga..vb.1|säga_sig..vbm.1|
-4	GRATTIS	|gratti|grattis|	NN	_	NN.NEU.SIN.IND.NOM	3	OO	|
-5	till	|till|	PP	_	PP	3	OA	|till..pp.1|
-6	er	|ni|säga sig:3|	PN	_	PN.UTR.PLU.DEF.OBJ	5	PA	|ni..pn.1|säga_sig..vbm.1:3|
-7	som	|	HP	_	HP.-.-.-	9	SS	|
-8	nyss	|nyss|	AB	_	AB	9	TA	|nyss..ab.1|
-9	fått	|få|	VB	_	VB.SUP.AKT	10	MS	|få..vb.1|
-10	eller	|eller|	KN	_	KN	6	ET	|eller..kn.1|
-11	snart	|snar|snart|	AB	_	AB.POS	12	TA	|snar..av.1|snart..ab.1|
-12	kommer	|komma|	VB	_	VB.PRS.AKT	10	+F	|komma..vb.1|
-13	att	|att|	IE	_	IE	12	VG	|att..sn.1|
-14	få	|få|	VB	_	VB.INF.AKT	13	IF	|få..vb.1|
-15	era	|ni|	PS	_	PS.UTR+NEU.PLU.DEF	16	DT	|ni..pn.1|
-16	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	14	OO	|barn..nn.1|
-17	!	|	MAD	_	MAD	1	IU	|
+Vill bara säga GRATTIS till er som nyss fått eller snart kommer att få era barn !
 
 # age = 16
 # agebin = <20
@@ -490,47 +186,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4ec191a
-1	och	|och|	KN	_	KN	14	MS	|och..kn.1|
-2	tillägga	|tillägga|	VB	_	VB.INF.AKT	14	MS	|tillägga..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	FS	|den..pn.1|
-5	är	|vara|	VB	_	VB.PRS.AKT	3	UA	|vara..vb.1|
-6	jättebra	|jättebra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	5	SP	|jättebra..av.1|
-7	att	|att|	SN	_	SN	5	ES	|att..sn.1|
-8	tråden	|tråd|	NN	_	NN.UTR.SIN.DEF.NOM	9	SS	|tråd..nn.1|
-9	är	|vara|	VB	_	VB.PRS.AKT	7	UA	|vara..vb.1|
-10	på	|på|på tapeten|	PP	_	PP	9	RA	|på..pp.1|på_tapeten..avm.1|
-11	tapeten	|tapet|på tapeten:10|	NN	_	NN.UTR.SIN.DEF.NOM	10	PA	|tapet..nn.1|på_tapeten..avm.1:10|
-12	igen	|igen|	AB	_	AB	9	AA	|igen..ab.1|igen..ab.2|
-13	,	|	MID	_	MID	14	IK	|
-14	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
-15	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	16	FS	|den..pn.1|
-16	finns	|finna|finnas|	VB	_	VB.PRS.SFO	14	MS	|finna..vb.1|finnas..vb.1|
-17	alldeles	|alldeles|	AB	_	AB	16	AA	|alldeles..ab.1|
-18	för	|för|	PP	_	PP	16	OA	|för..pp.1|
-19	många	|mången|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	18	PA	|mången..pn.1|
-20	som	|	HP	_	HP.-.-.-	21	SS	|
-21	kläcker	|kläcka|kläcka fram|	VB	_	VB.PRS.AKT	19	ET	|kläcka..vb.1|kläcka_fram..vbm.1|
-22	fram	|fram|kläcka fram:21|	PL	_	PL	21	PL	|fram..ab.1|kläcka_fram..vbm.1:21|
-23	än	|	KN	_	KN	21	KA	|
-24	det	|den|en|	DT	_	DT.NEU.SIN.DEF	25	DT	|den..pn.1|en..al.1|
-25	ena	|ena|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	23	UA	|ena..pn.1|
-26	än	|	KN	_	KN	25	ET	|
-27	det	|den|en|	DT	_	DT.NEU.SIN.DEF	30	DT	|den..pn.1|en..al.1|
-28	andra	|andra|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	30	DT	|andra..av.1|
-29	sårande	|såra|sårande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	30	CJ	|såra..vb.1|sårande..av.1|
-30	och	|och|	KN	_	KN	26	UA	|och..kn.1|
-31	kränkande	|kränka|kränkande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	30	CJ	|kränka..vb.1|kränkande..av.1|
-32	både	|	KN	_	KN	30	VA	|
-33	vad	|vad|	HP	_	HP.NEU.SIN.IND	32	UA	|vad..pn.1|
-34	gäller	|gälla|	VB	_	VB.PRS.AKT	33	HD	|gälla..vb.1|gälla..vb.2|
-35	IVF	|	PM	_	PM.NOM	36	CJ	|
-36	,	|	MID	_	MID	33	IK	|
-37	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	38	DT	|adoption..nn.1|
-38	mm	|mm|	NN	_	NN.AN	36	CJ	|mm..nna.1|
-39	.	|	MAD	_	MAD	14	IP	|
+och tillägga att det är jättebra att tråden är på tapeten igen , för det finns alldeles för många som kläcker fram än det ena än det andra sårande och kränkande både vad gäller IVF , adoption mm .
 
 # age = 16
 # agebin = <20
@@ -540,46 +196,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4e5229b
-1	Både	|både och|	KN	_	KN	3	VA	|både_och..knm.1|
-2	IVF	|	NN	_	NN.AN	3	CJ	|
-3	och	|och|både och:1|	KN	_	KN	5	SS	|och..kn.1|både_och..knm.1:1|
-4	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	3	CJ	|adoption..nn.1|
-5	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-6	ju	|ju|	AB	_	AB	5	MA	|ju..ab.1|
-7	en	|en|	DT	_	DT.UTR.SIN.IND	8	DT	|en..al.1|
-8	PROCESS	|process|	NN	_	NN.UTR.SIN.IND.NOM	5	SP	|process..nn.1|
-9	precis	|precis|	AB	_	AB	5	TA	|precis..ab.1|
-10	som	|	KN	_	KN	5	KA	|
-11	vilken	|	HD	_	HD.UTR.SIN.IND	12	DT	|
-12	graviditet	|graviditet|	NN	_	NN.UTR.SIN.IND.NOM	10	UA	|graviditet..nn.1|
-13	som	|	KN	_	KN	12	ET	|
-14	helst	|gärna|	AB	_	AB.SUV	11	HD	|gärna..ab.1|
-15	,	|	MID	_	MID	5	IK	|
-16	med	|med|	PP	_	PP	5	AA	|med..pp.1|
-17	det	|den|en|	DT	_	DT.NEU.SIN.DEF	19	DT	|den..pn.1|en..al.1|
-18	enda	|enda|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	19	DT	|enda..av.1|
-19	undantaget	|undantag|	NN	_	NN.NEU.SIN.DEF.NOM	16	PA	|undantag..nn.1|
-20	att	|att|	SN	_	SN	19	ET	|att..sn.1|
-21	vid	|vid|	PP	_	PP	24	RA	|vid..pp.1|
-22	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	21	PA	|adoption..nn.1|
-23	så	|så|	AB	_	AB	24	DB	|så..ab.1|
-24	är	|vara|	VB	_	VB.PRS.AKT	20	UA	|vara..vb.1|
-25	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	24	SS	|den..pn.1|
-26	inte	|inte|	AB	_	AB	24	NA	|inte..ab.1|
-27	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	24	XX	|man..pn.1|
-28	själv	|själv|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	27	PT	|själv..pn.1|
-29	som	|	HP	_	HP.-.-.-	31	SS	|
-30	"	|	PAD	_	PAD	31	AA	|
-31	producerat	|producera|	VB	_	VB.SUP.AKT	34	MS	|producera..vb.1|
-32	"	|	PAD	_	PAD	31	JC	|
-33	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	31	OO	|barn..nn.1|
-34	och	|och|	KN	_	KN	19	ET	|och..kn.1|
-35	fött	|föda|	VB	_	VB.SUP.AKT	34	+F	|föda..vb.1|
-36	fram	|fram|	PL	_	PL	35	PL	|fram..ab.1|
-37	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	35	OO	|den..pn.1|
-38	.	|	MAD	_	MAD	5	IP	|
+Både IVF och adoption är ju en PROCESS precis som vilken graviditet som helst , med det enda undantaget att vid adoption så är det inte man själv som " producerat " barnet och fött fram det .
 
 # age = 16
 # agebin = <20
@@ -589,34 +206,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4ec8455
-1	Väntan	|väntan|	NN	_	NN.UTR.SIN.DEF.NOM	4	CJ	|väntan..nn.1|
-2	och	|och|	KN	_	KN	4	CJ	|och..kn.1|
-3	längtan	|längtan|	NN	_	NN.UTR.SIN.DEF.NOM	4	CJ	|längtan..nn.1|
-4	och	|och|	KN	_	KN	10	SS	|och..kn.1|
-5	förberedelserna	|förberedelse|	NN	_	NN.UTR.PLU.DEF.NOM	4	CJ	|förberedelse..nn.1|
-6	inför	|inför|	PP	_	PP	5	ET	|inför..pp.1|
-7	ankomsten	|ankomst|	NN	_	NN.UTR.SIN.DEF.NOM	6	PA	|ankomst..nn.1|
-8	av	|av|	PP	_	PP	7	ET	|av..pp.1|
-9	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	8	PA	|barn..nn.1|
-10	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-11	ju	|ju|	AB	_	AB	10	MA	|ju..ab.1|
-12	samma	|samma|	DT	_	DT.UTR+NEU.SIN+PLU.IND	10	CA	|samma..pn.1|
-13	,	|	MID	_	MID	10	IK	|
-14	om	|om|	SN	_	SN	10	AA	|om..sn.1|
-15	inte	|inte|	AB	_	AB	17	NA	|inte..ab.1|
-16	än	|än|	AB	_	AB	17	+A	|än..ab.1|
-17	större	|stor|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	21	SP	|stor..av.1|
-18	när	|när|	HA	_	HA	20	TA	|när..ab.1|
-19	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	20	SS	|man..pn.1|
-20	adopterar	|adoptera|	VB	_	VB.PRS.AKT	21	MS	|adoptera..vb.1|
-21	eller	|eller|	KN	_	KN	14	UA	|eller..kn.1|
-22	går	|gå|gå vägen|	VB	_	VB.PRS.AKT	21	+F	|gå..vb.1|gå_vägen..vbm.1|
-23	den	|den|en|	DT	_	DT.UTR.SIN.DEF	25	DT	|den..pn.1|en..al.1|
-24	medicinska	|medicinsk|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	25	AT	|medicinsk..av.1|
-25	vägen	|väg|gå vägen:22|	NN	_	NN.UTR.SIN.DEF.NOM	22	OO	|väg..nn.1|gå_vägen..vbm.1:22|
-26	.	|	MAD	_	MAD	10	IP	|
+Väntan och längtan och förberedelserna inför ankomsten av barnet är ju samma , om inte än större när man adopterar eller går den medicinska vägen .
 
 # age = 16
 # agebin = <20
@@ -626,41 +216,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4e189d5
-1	Vad	|vad|vad för|	HP	_	HP.NEU.SIN.IND	2	SS	|vad..pn.1|vad_för..pnm.1|
-2	gäller	|gälla|	VB	_	VB.PRS.AKT	10	MS	|gälla..vb.1|gälla..vb.2|
-3	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|denna..pn.1|
-4	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-5	att	|att|	IE	_	IE	4	PA	|att..sn.1|
-6	vara	|vara|	VB	_	VB.INF.AKT	5	IF	|vara..vb.1|vara..vb.2|
-7	"	|	PAD	_	PAD	8	IC	|
-8	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	6	SP	|bra..av.2|
-9	"	|	PAD	_	PAD	6	JR	|
-10	pga	|	AB	_	AB.AN	15	CA	|
-11	att	|att|	SN	_	SN	1	PA	|att..sn.1|
-12	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	13	SS	|man..pn.1|
-13	adopterat	|adoptera|	VB	_	VB.SUP.AKT	11	UA	|adoptera..vb.1|
-14	så	|så|	AB	_	AB	15	DB	|så..ab.1|
-15	tycker	|tycka|	VB	_	VB.PRS.AKT	0	ROOT	|tycka..vb.1|
-16	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|jag..pn.1|
-17	inte	|inte|	AB	_	AB	15	NA	|inte..ab.1|
-18	att	|att|	SN	_	SN	15	OO	|att..sn.1|
-19	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	20	SS	|man..pn.1|
-20	är	|vara|	VB	_	VB.PRS.AKT	18	UA	|vara..vb.1|
-21	en	|en|	DT	_	DT.UTR.SIN.IND	23	DT	|en..al.1|
-22	bättre	|bra|god|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	23	AT	|bra..av.1|god..av.1|
-23	människa	|människa|	NN	_	NN.UTR.SIN.IND.NOM	20	SP	|människa..nn.1|
-24	för	|för|vad för:1|	PP	_	PP	20	OA	|för..pp.1|vad_för..pnm.1:1|
-25	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	24	PA	|den..pn.1|
-26	...	|	MID	_	MID	20	IG	|
-27	ur	|ur|	PP	_	PP	20	RA	|ur..pp.1|
-28	ett	|en|	DT	_	DT.NEU.SIN.IND	30	DT	|en..al.1|
-29	"	|	PAD	_	PAD	30	IC	|
-30	rädda-världen-perspektiv	|	NN	_	NN.NEU.SIN.IND.NOM	27	PA	|
-31	"	|	PAD	_	PAD	30	JC	|
-32	alltså	|alltså|	AB	_	AB	30	+A	|alltså..ab.1|
-33	.	|	MAD	_	MAD	15	IP	|
+Vad gäller detta med att vara " bra " pga att man adopterat så tycker jag inte att man är en bättre människa för det ... ur ett " rädda-världen-perspektiv " alltså .
 
 # age = 16
 # agebin = <20
@@ -670,46 +226,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4e7144f
-1	Däremot	|däremot|	AB	_	AB	3	+A	|däremot..ab.1|
-2	så	|så|	AB	_	AB	3	AA	|så..ab.1|
-3	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-5	övertygad	|övertyga|övertygad|	PC	_	PC.PRF.UTR.SIN.IND.NOM	3	SP	|övertyga..vb.1|övertygad..av.1|
-6	om	|om|	PP	_	PP	3	OA	|om..pp.1|
-7	att	|att|	SN	_	SN	6	PA	|att..sn.1|
-8	adoptiv-föräldrar	|adoptiv-förälder|	NN	_	NN.UTR.PLU.IND.NOM	9	SS	|
-9	är	|vara|	VB	_	VB.PRS.AKT	7	UA	|vara..vb.1|
-10	bra	|bra|	AB	_	AB.POS	11	AA	|bra..ab.1|bra..ab.2|bra..av.1|
-11	mycket	|mycket|	AB	_	AB.POS	13	AA	|mycket..ab.1|
-12	mer	|mer|mycket|	AB	_	AB.KOM	13	CJ	|mer..ab.1|mycket..ab.1|
-13	och	|och|	KN	_	KN	16	CJ	|och..kn.1|
-14	bättre	|bra|god|	AB	_	AB.KOM	13	CJ	|bra..ab.1|bra..av.1|god..av.1|
-15	utbildade	|utbilda|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	16	CJ	|utbilda..vb.1|
-16	och	|och|	KN	_	KN	9	SP	|och..kn.1|
-17	förberedda	|förbereda|förberedd|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	16	CJ	|förbereda..vb.1|förberedd..av.1|
-18	på	|på|	PP	_	PP	17	AA	|på..pp.1|
-19	barnets	|barn|	NN	_	NN.NEU.SIN.DEF.GEN	20	DT	|barn..nn.1|
-20	ankomst	|ankomst|	NN	_	NN.UTR.SIN.IND.NOM	18	PA	|ankomst..nn.1|
-21	än	|	KN	_	KN	20	ET	|
-22	vanliga	|vanlig|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	23	AT	|vanlig..av.1|
-23	dödliga	|dödlig|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	21	UA	|dödlig..av.1|
-24	så	|så|så att säga|	AB	_	AB	9	AA	|så..ab.1|så_att_säga..abm.1|
-25	att	|att|så att säga:24|	IE	_	IE	24	HD	|att..sn.1|så_att_säga..abm.1:24|
-26	säga	|säga|så att säga:24|	VB	_	VB.INF.AKT	24	HD	|säga..vb.1|så_att_säga..abm.1:24|
-27	...	|	MID	_	MID	28	IG	|
-28	Tycker	|tycka|	VB	_	VB.PRS.AKT	24	UA	|tycka..vb.1|
-29	att	|att|	SN	_	SN	28	OO	|att..sn.1|
-30	ALLA	|all|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	34	SS	|all..pn.1|
-31	som	|	HP	_	HP.-.-.-	32	SS	|
-32	skaffar	|skaffa|	VB	_	VB.PRS.AKT	30	ET	|skaffa..vb.1|
-33	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	32	OO	|barn..nn.1|
-34	borde	|böra|	VB	_	VB.PRT.AKT	29	UA	|böra..vb.1|
-35	få	|få|	VB	_	VB.INF.AKT	34	VG	|få..vb.1|
-36	liknande	|likna|liknande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	37	AT	|likna..vb.1|liknande..av.1|
-37	utbildning	|utbildning|	NN	_	NN.UTR.SIN.IND.NOM	35	OO	|utbildning..nn.1|
-38	.	|	MAD	_	MAD	3	IP	|
+Däremot så är jag övertygad om att adoptiv-föräldrar är bra mycket mer och bättre utbildade och förberedda på barnets ankomst än vanliga dödliga så att säga ... Tycker att ALLA som skaffar barn borde få liknande utbildning .
 
 # age = 16
 # agebin = <20
@@ -719,38 +236,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4e6783b
-1	Mina	|jag|	PS	_	PS.UTR+NEU.PLU.DEF	2	DT	|jag..pn.1|
-2	tummar	|tumme|	NN	_	NN.UTR.PLU.IND.NOM	4	SS	|tumme..nn.1|
-3	upp	|upp|	PL	_	PL	4	PL	|upp..ab.1|
-4	går	|gå|	VB	_	VB.PRS.AKT	0	ROOT	|gå..vb.1|
-5	till	|till|	PP	_	PP	4	OA	|till..pp.1|
-6	familjehem	|familjehem|	NN	_	NN.NEU.SIN.IND.NOM	5	PA	|familjehem..nn.1|
-7	där	|där|	HA	_	HA	9	RA	|där..ab.1|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
-9	handlar	|handla|	VB	_	VB.PRS.AKT	6	ET	|handla..vb.1|handla..vb.2|
-10	om	|om|	PP	_	PP	9	OA	|om..pp.1|
-11	ett	|en|	DT	_	DT.NEU.SIN.IND	13	DT	|en..al.1|
-12	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	13	DT	|annan..pn.1|
-13	perspektiv	|perspektiv|	NN	_	NN.NEU.SIN.IND.NOM	10	PA	|perspektiv..nn.1|
-14	och	|och|	KN	_	KN	6	ET	|och..kn.1|
-15	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	14	CJ	|man..pn.1|
-16	som	|	HP	_	HP.-.-.-	19	SS	|
-17	fosterförälder	|fosterförälder|	NN	_	NN.UTR.PLU.IND.NOM	19	SS	|fosterförälder..nn.1|
-18	verkligen	|verkligen|	AB	_	AB	19	MA	|verkligen..ab.1|
-19	kan	|kunna|	VB	_	VB.PRS.AKT	15	ET	|kunna..vb.1|
-20	göra	|göra|	VB	_	VB.INF.AKT	19	VG	|göra..vb.1|
-21	en	|en|	DT	_	DT.UTR.SIN.IND	22	DT	|en..al.1|
-22	insats	|insats|	NN	_	NN.UTR.SIN.IND.NOM	20	OO	|insats..nn.1|
-23	för	|för|	PP	_	PP	20	OA	|för..pp.1|
-24	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	25	DT	|barn..nn.1|
-25	m	|m|	NN	_	NN.AN	23	PA	|m..nna.1|m..nna.2|
-26	.	|	MAD	_	MAD	25	ET	|
-27	fam	|	NN	_	NN.UTR.SIN.IND.NOM	26	PA	|
-28	i	|i|	PP	_	PP	27	ET	|i..pp.1|
-29	svårighet	|svårighet|	NN	_	NN.UTR.SIN.IND.NOM	28	PA	|svårighet..nn.1|
-30	.	|	MAD	_	MAD	4	IP	|
+Mina tummar upp går till familjehem där det handlar om ett annat perspektiv och man som fosterförälder verkligen kan göra en insats för barn m . fam i svårighet .
 
 # age = 16
 # agebin = <20
@@ -760,12 +246,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4eb2c13
-1	Lite	|lite|	AB	_	AB.POS	2	AA	|lite..ab.1|
-2	OT	|	UO	_	UO	0	ROOT	|
-3	ifs	|	UO	_	UO	2	HD	|
-4	..	|	MAD	_	MAD	2	JC	|
+Lite OT ifs ..
 
 # age = 16
 # agebin = <20
@@ -775,17 +256,7 @@
 # thread_title = Tänk efter lite!
 # post_id = 8907007
 # post_date = 2006-04-25 15:30:58
-# username = Michas
-# sent_id = e4e7e556
-1	I	|i|i alla fall|	PP	_	PP	0	ROOT	|i..pp.1|i_alla_fall..abm.1|
-2	alla	|all|i alla fall:1|	DT	_	DT.UTR+NEU.PLU.IND+DEF	3	DT	|all..pn.1|i_alla_fall..abm.1:1|
-3	fall	|fall|i alla fall:1|	NN	_	NN.NEU.PLU.IND.NOM	1	PA	|fall..nn.1|i_alla_fall..abm.1:1|
-4	:	|	MID	_	MID	1	IQ	|
-5	Grattis	|	VB	_	VB.PRS.SFO	1	MS	|
-6	till	|till|	PP	_	PP	5	OA	|till..pp.1|
-7	era	|ni|	PS	_	PS.UTR+NEU.PLU.DEF	8	DT	|ni..pn.1|
-8	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	6	PA	|barn..nn.1|
-9	!	|	MAD	_	MAD	5	IU	|
+I alla fall : Grattis till era barn !
 
 # age = 16
 # agebin = <20
@@ -795,11 +266,7 @@
 # thread_title = Adoptera barn med Downs
 # post_id = 7584456
 # post_date = 2006-02-24 22:34:10
-# username = Michas
-# sent_id = 19c54ac4
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	MammaMuuu	|	PM	_	PM.NOM	1	HD	|
-3	,	|	MID	_	MID	1	IK	|
+Hej MammaMuuu ,
 
 # age = 16
 # agebin = <20
@@ -809,24 +276,7 @@
 # thread_title = Adoptera barn med Downs
 # post_id = 7584456
 # post_date = 2006-02-24 22:34:10
-# username = Michas
-# sent_id = 19c13256
-1	Ni	|Ni|ni|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|Ni..pn.1|ni..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-4	funderat	|fundera|	VB	_	VB.SUP.AKT	2	VG	|fundera..vb.1|
-5	på	|på|	PP	_	PP	4	OA	|på..pp.1|
-6	att	|att|	IE	_	IE	5	PA	|att..sn.1|
-7	bli	|bli|	VB	_	VB.INF.AKT	6	IF	|bli..vb.1|
-8	familjehem	|familjehem|	NN	_	NN.NEU.SIN.IND.NOM	9	CJ	|familjehem..nn.1|
-9	alt	|	MID	_	MID	7	RA	|
-10	kontaktfamilj	|kontaktfamilj|	NN	_	NN.UTR.SIN.IND.NOM	9	PA	|
-11	i	|i|i stället|i stället för|	PP	_	PP	7	AA	|i..pp.1|i_stället..abm.1|i_stället_för..ppm.1|
-12	stället	|ställ|ställe|i stället:11|i stället för:11|	NN	_	NN.NEU.SIN.DEF.NOM	11	HD	|ställ..nn.1|ställe..nn.1|i_stället..abm.1:11|i_stället_för..ppm.1:11|
-13	för	|för|i stället för:11|	PP	_	PP	11	HD	|för..pp.1|i_stället_för..ppm.1:11|
-14	att	|att|	IE	_	IE	11	PA	|att..sn.1|
-15	adoptera	|adoptera|	VB	_	VB.INF.AKT	14	IF	|adoptera..vb.1|
-16	?	|	MAD	_	MAD	2	I?	|
+Ni har inte funderat på att bli familjehem alt kontaktfamilj i stället för att adoptera ?
 
 # age = 16
 # agebin = <20
@@ -836,56 +286,7 @@
 # thread_title = Adoptera barn med Downs
 # post_id = 7584456
 # post_date = 2006-02-24 22:34:10
-# username = Michas
-# sent_id = 19cf581c
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	finns	|finna|finnas|	VB	_	VB.PRS.SFO	0	ROOT	|finna..vb.1|finnas..vb.1|
-3	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
-4	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	5	DT	|
-5	familjer	|familj|	NN	_	NN.UTR.PLU.IND.NOM	2	ES	|familj..nn.1|
-6	,	|	MID	_	MID	5	IK	|
-7	däribland	|däribland|	AB	_	AB	8	CA	|däribland..ab.1|
-8	familjer	|familj|	NN	_	NN.UTR.PLU.IND.NOM	5	AN	|familj..nn.1|
-9	med	|med|	PP	_	PP	8	ET	|med..pp.1|
-10	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	13	CJ	|barn..nn.1|
-11	/	|	MID	_	MID	13	IK	|
-12	ungdomar	|ungdom|	NN	_	NN.UTR.PLU.IND.NOM	13	CJ	|ungdom..nn.1|
-13	/	|	MID	_	MID	9	PA	|
-14	vuxna	|vuxen|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	13	CJ	|vuxen..av.1|
-15	med	|med|	PP	_	PP	8	ET	|med..pp.1|
-16	DS	|	PM	_	PM.NOM	15	PA	|
-17	,	|	MID	_	MID	15	PA	|
-18	andra	|andra|annan|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	19	DT	|andra..av.1|annan..pn.1|
-19	funktionshinder	|funktionshinder|	NN	_	NN.NEU.PLU.IND.NOM	17	CJ	|funktionshinder..nn.1|
-20	osv	|osv|	AB	_	AB.AN	17	CJ	|osv..aba.1|
-21	,	|	MID	_	MID	5	IK	|
-22	som	|	HP	_	HP.-.-.-	23	SS	|
-23	behöver	|behöva|	VB	_	VB.PRS.AKT	27	CJ	|behöva..vb.1|
-24	avlastning	|avlastning|	NN	_	NN.UTR.SIN.IND.NOM	25	CJ	|avlastning..nn.1|
-25	och	|och|	KN	_	KN	23	OO	|och..kn.1|
-26	stöd	|stöd|	NN	_	NN.NEU.SIN.IND.NOM	25	CJ	|stöd..nn.1|
-27	och	|och|	KN	_	KN	5	ET	|och..kn.1|
-28	där	|där|	HA	_	HA	31	RA	|där..ab.1|
-29	den	|den|en|	DT	_	DT.UTR.SIN.DEF	30	DT	|den..pn.1|en..al.1|
-30	placerade	|placera|	PC	_	PC.PRF.UTR+NEU.SIN.DEF.NOM	31	SS	|placera..vb.1|
-31	skulle	|skola|	VB	_	VB.PRT.AKT	27	CJ	|skola..vb.2|
-32	få	|få|	VB	_	VB.INF.AKT	31	VG	|få..vb.1|
-33	jättebra	|jättebra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	34	AT	|jättebra..av.1|
-34	utbyte	|utbyte|	NN	_	NN.NEU.SIN.IND.NOM	35	CJ	|utbyte..nn.1|
-35	och	|och|	KN	_	KN	32	OO	|och..kn.1|
-36	glädje	|glädje|	NN	_	NN.UTR.SIN.IND.NOM	35	CJ	|glädje..nn.1|
-37	av	|av|	PP	_	PP	35	ET	|av..pp.1|
-38	lite	|lite|	AB	_	AB.POS	39	AA	|lite..ab.1|
-39	extra	|extra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	40	AT	|extra..av.1|
-40	värme	|värme|	NN	_	NN.UTR.SIN.IND.NOM	41	CJ	|värme..nn.1|värme..nn.2|
-41	,	|	MID	_	MID	37	PA	|
-42	omtanke	|omtanke|	NN	_	NN.UTR.SIN.IND.NOM	41	CJ	|omtanke..nn.1|
-43	och	|och|	KN	_	KN	35	ET	|och..kn.1|
-44	så	|så|	AB	_	AB	43	HD	|så..ab.1|
-45	av	|av|	PP	_	PP	44	HD	|av..pp.1|
-46	en	|en|	DT	_	DT.UTR.SIN.IND	47	DT	|en..al.1|
-47	stödfamilj	|stödfamilj|	NN	_	NN.UTR.SIN.IND.NOM	45	PA	|
-48	.	|	MAD	_	MAD	2	IP	|
+Det finns ju många familjer , däribland familjer med barn / ungdomar / vuxna med DS , andra funktionshinder osv , som behöver avlastning och stöd och där den placerade skulle få jättebra utbyte och glädje av lite extra värme , omtanke och så av en stödfamilj .
 
 # age = 16
 # agebin = <20
@@ -895,12 +296,7 @@
 # thread_title = Adoptera barn med Downs
 # post_id = 7584456
 # post_date = 2006-02-24 22:34:10
-# username = Michas
-# sent_id = 19cb0c30
-1	Bara	|bara|	AB	_	AB	3	CA	|bara..ab.1|
-2	en	|en|	DT	_	DT.UTR.SIN.IND	3	DT	|en..al.1|
-3	tanke	|tanke|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|tanke..nn.1|
-4	..	|	MAD	_	MAD	3	IP	|
+Bara en tanke ..
 
 # age = 16
 # agebin = <20
@@ -910,14 +306,5 @@
 # thread_title = Adoptera barn med Downs
 # post_id = 7584456
 # post_date = 2006-02-24 22:34:10
-# username = Michas
-# sent_id = 19cbd462
-1	All	|all|	DT	_	DT.UTR.SIN.IND+DEF	2	DT	|all..pn.1|
-2	värme	|värme|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|värme..nn.1|värme..nn.2|
-3	till	|till|	PP	_	PP	2	ET	|till..pp.1|
-4	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	7	CJ	|du..pn.1|
-5	/	|	MID	_	MID	7	++	|
-6	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	7	CJ	|ni..pn.1|
-7	/	|	MID	_	MID	3	PA	|
-8	Micha	|	PM	_	PM.NOM	7	CJ	|
+All värme till dig / er / Micha
 

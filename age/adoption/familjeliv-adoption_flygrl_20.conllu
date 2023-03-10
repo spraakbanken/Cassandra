@@ -6,28 +6,7 @@
 # thread_title = Hudkräm för mörk hy?
 # post_id = 76472062
 # post_date = 2016-03-24 22:49:19
-# username = flygrl
-# sent_id = 22b17618
-1	Känner	|känna|	VB	_	VB.PRS.AKT	0	ROOT	|känna..vb.1|känna..vb.2|
-2	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
-3	till	|till|	PP	_	PP	1	OA	|till..pp.1|
-4	ditt	|du|	PS	_	PS.NEU.SIN.DEF	5	DT	|du..pn.1|
-5	ursprung	|ursprung|	NN	_	NN.NEU.SIN.IND.NOM	3	PA	|ursprung..nn.1|
-6	men	|men|	KN	_	KN	1	SS	|men..kn.1|
-7	en	|en|	DT	_	DT.UTR.SIN.IND	9	DT	|en..al.1|
-8	traditionell	|traditionell|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	9	AT	|traditionell..av.1|
-9	variant	|variant|	NN	_	NN.UTR.SIN.IND.NOM	6	CJ	|variant..nn.1|
-10	bland	|bland|	PP	_	PP	9	ET	|bland..pp.1|
-11	svarta	|svart|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	10	PA	|svart..av.1|
-12	(	|	PAD	_	PAD	13	IR	|
-13	as	|	UO	_	UO	11	AN	|
-14	myself	|	UO	_	UO	13	HD	|
-15	)	|	PAD	_	PAD	13	JR	|
-16	e	|	UO	_	UO	10	PA	|
-17	ju	|ju|	AB	_	AB	18	MA	|ju..ab.1|
-18	shea	|	UO	_	UO	16	CJ	|
-19	butter	|	UO	_	UO	18	HD	|
-20	.	|	MAD	_	MAD	1	IP	|
+Känner inte till ditt ursprung men en traditionell variant bland svarta ( as myself ) e ju shea butter .
 
 # age = 20
 # agebin = 20--29
@@ -37,17 +16,7 @@
 # thread_title = Hudkräm för mörk hy?
 # post_id = 76472062
 # post_date = 2016-03-24 22:49:19
-# username = flygrl
-# sent_id = 22bf7295
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	e	|	VB	_	VB.PRS.AKT	6	MS	|
-3	uppvuxen	|uppvuxen|uppväxa|växa upp|	PC	_	PC.PRF.UTR.SIN.IND.NOM	2	SP	|uppvuxen..av.1|uppväxa..vb.1|växa_upp..vbm.1|
-4	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	PA	|den..pn.1|
-6	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-7	lär	|lär|lära|	VB	_	VB.PRS.AKT	6	+F	|lär..vb.1|lära..vb.1|
-8	fortsätta	|fortsätta|	VB	_	VB.INF.AKT	7	VG	|fortsätta..vb.1|
-9	.	|	MAD	_	MAD	6	IP	|
+Jag e uppvuxen med det och lär fortsätta .
 
 # age = 20
 # agebin = 20--29
@@ -57,30 +26,7 @@
 # thread_title = Hudkräm för mörk hy?
 # post_id = 76472062
 # post_date = 2016-03-24 22:49:19
-# username = flygrl
-# sent_id = 22ba043e
-1	Viktigt	|viktig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	0	ROOT	|viktig..av.1|
-2	att	|att|	IE	_	IE	1	OA	|att..sn.1|
-3	tänka	|tänka|	VB	_	VB.INF.AKT	2	IF	|tänka..vb.1|
-4	på	|på|	PP	_	PP	3	OA	|på..pp.1|
-5	e	|e|	NN	_	NN.NEU.SIN.IND.NOM	4	PA	|e..nn.1|e..nna.1|
-6	att	|att|	SN	_	SN	5	ET	|att..sn.1|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	SS	|den..pn.1|
-8	ska	|skola|	VB	_	VB.PRS.AKT	6	UA	|skola..vb.2|
-9	va	|	VB	_	VB.INF.AKT	8	VG	|
-10	oraffinerad	|oraffinerad|	PC	_	PC.PRF.UTR.SIN.IND.NOM	11	AT	|oraffinerad..av.1|
-11	shea	|	UO	_	UO	9	SP	|
-12	butter	|	UO	_	UO	11	HD	|
-13	då	|då|	HA	_	HA	16	TA	|då..ab.1|då..ab.2|
-14	den	|den|en|	DT	_	DT.UTR.SIN.DEF	15	DT	|den..pn.1|en..al.1|
-15	raffinerade	|raffinera|raffinerad|	PC	_	PC.PRF.UTR+NEU.SIN.DEF.NOM	16	SS	|raffinera..vb.1|raffinerad..av.1|
-16	saknar	|sakna|	VB	_	VB.PRS.AKT	11	ET	|sakna..vb.1|sakna..vb.2|
-17	mycket	|mycket|	AB	_	AB.POS	16	AA	|mycket..ab.1|
-18	av	|av|	PP	_	PP	16	OA	|av..pp.1|
-19	dom	|en|	DT	_	DT.UTR+NEU.PLU.DEF	21	DT	|en..al.1|
-20	fina	|fin|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	21	AT	|fin..av.1|
-21	egenskaperna	|egenskap|	NN	_	NN.UTR.PLU.DEF.NOM	18	PA	|egenskap..nn.1|
-22	.	|	MAD	_	MAD	1	IP	|
+Viktigt att tänka på e att det ska va oraffinerad shea butter då den raffinerade saknar mycket av dom fina egenskaperna .
 
 # age = 20
 # agebin = 20--29
@@ -90,22 +36,7 @@
 # thread_title = Hudkräm för mörk hy?
 # post_id = 76472062
 # post_date = 2016-03-24 22:49:19
-# username = flygrl
-# sent_id = 22b1223d
-1	Smörjer	|smörja|	VB	_	VB.PRS.AKT	0	ROOT	|smörja..vb.1|
-2	också	|också|	AB	_	AB	1	+A	|också..ab.1|
-3	kroppen	|kropp|	NN	_	NN.UTR.SIN.DEF.NOM	1	OO	|kropp..nn.1|
-4	med	|med|	PP	_	PP	1	OA	|med..pp.1|
-5	en	|en|	DT	_	DT.UTR.SIN.IND	6	DT	|en..al.1|
-6	body	|	UO	_	UO	4	PA	|
-7	butter	|	UO	_	UO	6	HD	|
-8	min	|jag|	PS	_	PS.UTR.SIN.DEF	9	DT	|jag..pn.1|
-9	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	10	SS	|mamma..nn.1|
-10	blandar	|blanda|	VB	_	VB.PRS.AKT	6	ET	|blanda..vb.1|
-11	själv	|själv|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	10	FP	|själv..pn.1|
-12	av	|av|	PP	_	PP	10	OA	|av..pp.1|
-13	bla	|	IN	_	IN	12	PA	|
-14	.	|	MAD	_	MAD	1	IP	|
+Smörjer också kroppen med en body butter min mamma blandar själv av bla .
 
 # age = 20
 # agebin = 20--29
@@ -115,13 +46,7 @@
 # thread_title = Hudkräm för mörk hy?
 # post_id = 76472062
 # post_date = 2016-03-24 22:49:19
-# username = flygrl
-# sent_id = 22b9b3c9
-1	shea	|	UO	_	UO	0	ROOT	|
-2	butter	|	UO	_	UO	1	HD	|
-3	och	|och|	KN	_	KN	1	HD	|och..kn.1|
-4	kokosolja	|kokosolja|	NN	_	NN.UTR.SIN.IND.NOM	3	CJ	|
-5	.	|	MAD	_	MAD	1	IP	|
+shea butter och kokosolja .
 
 # age = 20
 # agebin = 20--29
@@ -131,15 +56,7 @@
 # thread_title = Hudkräm för mörk hy?
 # post_id = 76472062
 # post_date = 2016-03-24 22:49:19
-# username = flygrl
-# sent_id = 22b0977d
-1	Även	|även|	AB	_	AB	2	+A	|även..ab.1|
-2	olivolja	|olivolja|	NN	_	NN.UTR.SIN.IND.NOM	3	SS	|olivolja..nn.1|
-3	e	|e|	NN	_	NN.NEU.SIN.IND.NOM	5	SS	|e..nn.1|e..nna.1|
-4	bra	|bra|	AB	_	AB.POS	5	AA	|bra..ab.1|bra..ab.2|bra..av.1|
-5	smörja	|smörja|	VB	_	VB.INF.AKT	0	ROOT	|smörja..vb.1|
-6	med	|med|	PL	_	PL	5	PL	|med..ab.1|
-7	.	|	MAD	_	MAD	5	IP	|
+Även olivolja e bra smörja med .
 
 # age = 20
 # agebin = 20--29
@@ -149,29 +66,7 @@
 # thread_title = Hudkräm för mörk hy?
 # post_id = 76472062
 # post_date = 2016-03-24 22:49:19
-# username = flygrl
-# sent_id = 22befcc4
-1	Om	|om|	SN	_	SN	7	AA	|om..sn.1|
-2	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	3	SS	|vi..pn.1|
-3	snackar	|snacka|	VB	_	VB.PRS.AKT	1	UA	|snacka..vb.1|
-4	mer	|mer|mycket|	AB	_	AB.KOM	5	AA	|mer..ab.1|mycket..ab.1|
-5	konventionella	|konventionell|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	6	AT	|konventionell..av.1|
-6	hudkrämer	|hudkräm|	NN	_	NN.UTR.PLU.IND.NOM	3	OO	|hudkräm..nn.1|
-7	gillar	|gilla|	VB	_	VB.PRS.AKT	0	ROOT	|gilla..vb.1|
-8	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
-9	Nivea	|	PM	_	PM.NOM	7	OO	|
-10	och	|och|	KN	_	KN	9	HD	|och..kn.1|
-11	då	|då|	AB	_	AB	9	HD	|då..ab.1|då..ab.2|
-12	den	|den|en|	DT	_	DT.UTR.SIN.DEF	13	DT	|den..pn.1|en..al.1|
-13	klassiska	|klassisk|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	7	OO	|klassisk..av.1|
-14	,	|	MID	_	MID	7	IK	|
-15	rätt	|rätt|	AB	_	AB	16	AA	|rätt..ab.1|rätt..av.1|
-16	feta	|fet|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	7	OP	|fet..av.1|
-17	i	|i|	PP	_	PP	7	RA	|i..pp.1|
-18	blåa	|blå|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	19	AT	|blå..av.1|
-19	metall	|metall|	NN	_	NN.UTR.SIN.IND.NOM	17	PA	|metall..nn.1|
-20	burken	|burk|	NN	_	NN.UTR.SIN.DEF.NOM	17	PA	|burk..nn.1|
-21	.	|	MAD	_	MAD	7	IP	|
+Om vi snackar mer konventionella hudkrämer gillar jag Nivea och då den klassiska , rätt feta i blåa metall burken .
 
 # age = 20
 # agebin = 20--29
@@ -181,11 +76,5 @@
 # thread_title = Hudkräm för mörk hy?
 # post_id = 76472062
 # post_date = 2016-03-24 22:49:19
-# username = flygrl
-# sent_id = 22b1b22b
-1	Helosan	|	NN	_	NN.UTR.SIN.DEF.NOM	2	SS	|
-2	e	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
-3	också	|också|	AB	_	AB	2	+A	|också..ab.1|
-4	bra	|bra|	AB	_	AB.POS	2	AA	|bra..ab.1|bra..ab.2|bra..av.1|
-5	:)	|	IN	_	IN	2	IG	|
+Helosan e också bra :)
 

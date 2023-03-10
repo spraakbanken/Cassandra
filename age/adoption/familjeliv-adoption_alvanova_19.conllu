@@ -6,68 +6,7 @@
 # thread_title = Krakel spektakel köper negerbollar
 # post_id = 46343071
 # post_date = 2009-08-13 11:20:49
-# username = alvanova
-# sent_id = 84c8abe1
-1	Problemet	|problem|	NN	_	NN.NEU.SIN.DEF.NOM	4	SS	|problem..nn.1|
-2	för	|för|	PP	_	PP	1	ET	|för..pp.1|
-3	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	2	PA	|jag..pn.1|
-4	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-5	att	|att|	SN	_	SN	4	SP	|att..sn.1|
-6	ordet	|ord|	NN	_	NN.NEU.SIN.DEF.NOM	7	DT	|ord..nn.1|
-7	chokladboll	|chokladboll|	NN	_	NN.UTR.SIN.IND.NOM	8	SS	|chokladboll..nn.1|
-8	är	|vara|	VB	_	VB.PRS.AKT	5	UA	|vara..vb.1|
-9	ett	|en|	DT	_	DT.NEU.SIN.IND	12	DT	|en..al.1|
-10	helt	|hel|helt|	AB	_	AB.POS	11	AA	|hel..av.1|helt..ab.1|
-11	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	12	DT	|annan..pn.1|
-12	slags	|slag|	NN	_	NN.NEU.SIN.IND.GEN	13	DT	|slag..nn.1|
-13	bakverk	|bakverk|	NN	_	NN.NEU.SIN.IND.NOM	8	SP	|bakverk..nn.1|
-14	nämligen	|nämligen|	AB	_	AB	15	+A	|nämligen..ab.1|
-15	sådana	|sån|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	8	+F	|sån..pn.1|
-16	där	|där|	AB	_	AB	15	ET	|där..ab.1|
-17	med	|med|	PP	_	PP	15	ET	|med..pp.1|
-18	skumfyllning	|skumfyllning|	NN	_	NN.UTR.SIN.IND.NOM	17	PA	|
-19	på	|på|	PP	_	PP	18	ET	|på..pp.1|
-20	ett	|en|	DT	_	DT.NEU.SIN.IND	22	DT	|en..al.1|
-21	litet	|liten|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	22	AT	|liten..av.1|
-22	rån	|rån|	NN	_	NN.NEU.SIN.IND.NOM	19	PA	|rån..nn.1|
-23	som	|	HP	_	HP.-.-.-	25	SS	|
-24	sedan	|sedan|	AB	_	AB	25	TA	|sedan..ab.1|
-25	doppats	|doppa|	VB	_	VB.SUP.SFO	22	ET	|doppa..vb.1|
-26	i	|i|	PP	_	PP	25	OA	|i..pp.1|
-27	choklad	|choklad|	NN	_	NN.UTR.SIN.IND.NOM	26	PA	|choklad..nn.1|choklad..nn.2|
-28	,	|	MID	_	MID	25	IK	|
-29	med	|med|	PP	_	PP	28	CJ	|med..pp.1|
-30	kokos	|kokos|	NN	_	NN.UTR.SIN.IND.NOM	29	PA	|kokos..nn.1|
-31	på	|på|	PP	_	PP	32	AA	|på..pp.1|
-32	blir	|bli|	VB	_	VB.PRS.AKT	4	MS	|bli..vb.1|
-33	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	32	SS	|den..pn.1|
-34	då	|då|	AB	_	AB	32	TA	|då..ab.1|då..ab.2|
-35	en	|en|	DT	_	DT.UTR.SIN.IND	36	DT	|en..al.1|
-36	kokosboll	|kokosboll|	NN	_	NN.UTR.SIN.IND.NOM	32	SP	|kokosboll..nn.1|
-37	...	|	MID	_	MID	32	IG	|
-38	så	|så|	AB	_	AB	39	HD	|så..ab.1|
-39	vad	|vad|	HP	_	HP.NEU.SIN.IND	40	SS	|vad..pn.1|
-40	ska	|skola|	VB	_	VB.PRS.AKT	32	MS	|skola..vb.2|
-41	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	40	SS	|jag..pn.1|
-42	kalla	|kalla|	VB	_	VB.INF.AKT	40	VG	|kalla..vb.1|
-43	mina	|jag|	PS	_	PS.UTR+NEU.PLU.DEF	44	DT	|jag..pn.1|
-44	bollar	|boll|	NN	_	NN.UTR.PLU.IND.NOM	42	OO	|boll..nn.1|
-45	med	|med|	PP	_	PP	44	ET	|med..pp.1|
-46	havregryn	|havregryn|	NN	_	NN.UTR.SIN.IND.NOM	55	CJ	|havregryn..nn.1|
-47	,	|	MID	_	MID	55	IK	|
-48	smör	|smör|	NN	_	NN.NEU.SIN.IND.NOM	55	CJ	|smör..nn.1|
-49	,	|	MID	_	MID	55	IK	|
-50	socker	|socker|	NN	_	NN.NEU.SIN.IND.NOM	55	CJ	|socker..nn.1|
-51	,	|	MID	_	MID	55	IK	|
-52	kaffe	|kaffe|	NN	_	NN.NEU.SIN.IND.NOM	55	CJ	|kaffe..nn.1|
-53	,	|	MID	_	MID	55	IK	|
-54	kakao	|kakao|	NN	_	NN.UTR.SIN.IND.NOM	55	CJ	|kakao..nn.1|
-55	och	|och|	KN	_	KN	45	PA	|och..kn.1|
-56	en	|en|	DT	_	DT.UTR.SIN.IND	57	DT	|en..al.1|
-57	massa	|massa|	NN	_	NN.UTR.SIN.IND.NOM	55	CJ	|massa..nn.1|massa..nn.2|
-58	annat	|annan|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	59	DT	|annan..pn.1|
-59	gott	|god|gott|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	55	AT	|god..av.1|gott..av.1|
-60	?	|	MAD	_	MAD	40	I?	|
+Problemet för mig är att ordet chokladboll är ett helt annat slags bakverk nämligen sådana där med skumfyllning på ett litet rån som sedan doppats i choklad , med kokos på blir det då en kokosboll ... så vad ska jag kalla mina bollar med havregryn , smör , socker , kaffe , kakao och en massa annat gott ?
 
 # age = 19
 # agebin = <20
@@ -77,27 +16,5 @@
 # thread_title = Krakel spektakel köper negerbollar
 # post_id = 46343071
 # post_date = 2009-08-13 11:20:49
-# username = alvanova
-# sent_id = 84c610c5
-1	Till	|till|till och med|	AB	_	AB	7	AA	|till..ab.1|till_och_med..abm.1|till_och_med..ppm.1|
-2	och	|och|till och med:1|	KN	_	KN	1	HD	|och..kn.1|till_och_med..abm.1:1|till_och_med..ppm.1:1|
-3	med	|med|till och med:1|	PP	_	PP	1	HD	|med..pp.1|till_och_med..abm.1:1|till_och_med..ppm.1:1|
-4	mina	|jag|	PS	_	PS.UTR+NEU.PLU.DEF	6	DT	|jag..pn.1|
-5	färgade	|färga|färgad|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	6	AT	|färga..vb.1|färgad..av.1|
-6	kompisar	|kompis|	NN	_	NN.UTR.PLU.IND.NOM	1	PA	|kompis..nn.1|
-7	säger	|säga|	VB	_	VB.PRS.AKT	0	ROOT	|säga..vb.1|
-8	negerbollar	|negerboll|	NN	_	NN.UTR.PLU.IND.NOM	7	SS	|negerboll..nn.1|
-9	,	|	MID	_	MID	7	IK	|
-10	så	|så|	AB	_	AB	12	DB	|så..ab.1|
-11	varför	|varför|	HA	_	HA	12	AA	|varför..ab.1|
-12	ska	|skola|	VB	_	VB.PRS.AKT	7	MS	|skola..vb.2|
-13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|jag..pn.1|
-14	krångla	|krångla|krångla till|	VB	_	VB.INF.AKT	12	VG	|krångla..vb.1|krångla_till..vbm.1|
-15	till	|till|krångla till:14|	PL	_	PL	14	PL	|till..ab.1|krångla_till..vbm.1:14|
-16	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	14	OO	|den..pn.1|
-17	och	|och|	KN	_	KN	7	OO	|och..kn.1|
-18	säga	|säga|	VB	_	VB.INF.AKT	17	+F	|säga..vb.1|
-19	något	|någon|	DT	_	DT.NEU.SIN.IND	20	DT	|någon..pn.1|
-20	annat	|annan|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	18	OO	|annan..pn.1|
-21	?	|	MAD	_	MAD	12	I?	|
+Till och med mina färgade kompisar säger negerbollar , så varför ska jag krångla till det och säga något annat ?
 

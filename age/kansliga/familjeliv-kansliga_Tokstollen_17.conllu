@@ -6,15 +6,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e1416588
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	samma	|samma|	DT	_	DT.UTR+NEU.SIN+PLU.IND	4	DT	|samma..pn.1|
-4	problem	|problem|	NN	_	NN.NEU.SIN.IND.NOM	2	OO	|problem..nn.1|
-5	som	|	KN	_	KN	4	ET	|
-6	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	5	UA	|du..pn.1|
-7	.	|	MAD	_	MAD	2	IP	|
+Jag har samma problem som du .
 
 # age = 25
 # agebin = 20--29
@@ -24,16 +16,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e1440e21
-1	I	|i|	PP	_	PP	4	TA	|i..pp.1|
-2	vecka	|vecka|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|vecka..nn.1|
-3	20	|	RG	_	RG.NOM	1	PA	|
-4	började	|börja|	VB	_	VB.PRT.AKT	0	ROOT	|börja..vb.1|börja..vb.2|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
-6	hos	|hos|	PP	_	PP	4	RA	|hos..pp.1|
-7	sjukgymnasten	|sjukgymnast|	NN	_	NN.UTR.SIN.DEF.NOM	6	PA	|sjukgymnast..nn.1|
-8	.	|	MAD	_	MAD	4	IP	|
+I vecka 20 började jag hos sjukgymnasten .
 
 # age = 25
 # agebin = 20--29
@@ -43,18 +26,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e14af989
-1	Var	|vara|	VB	_	VB.IMP.AKT	0	ROOT	|vara..vb.1|
-2	där	|där|	AB	_	AB	1	RA	|där..ab.1|
-3	45	|	RG	_	RG.NOM	4	DT	|
-4	min	|min|	NN	_	NN.AN	1	SP	|min..nn.1|
-5	,	|	MID	_	MID	4	IK	|
-6	tre	|tre|	RG	_	RG.NOM	7	DT	|tre..nl.1|
-7	ggr	|	NN	_	NN.AN	4	AN	|
-8	i	|i|	PP	_	PP	7	ET	|i..pp.1|
-9	veckan	|vecka|	NN	_	NN.UTR.SIN.DEF.NOM	8	PA	|vecka..nn.1|
-10	.	|	MAD	_	MAD	1	IP	|
+Var där 45 min , tre ggr i veckan .
 
 # age = 25
 # agebin = 20--29
@@ -64,22 +36,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e1479a53
-1	Sen	|sen|	AB	_	AB	2	TA	|sen..ab.1|
-2	kunde	|kunna|	VB	_	VB.PRT.AKT	0	ROOT	|kunna..vb.1|
-3	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-4	trappa	|trappa ner|	VB	_	VB.INF.AKT	2	VG	|trappa_ner..vbm.1|
-5	ner	|ner|trappa ner:4|	PL	_	PL	4	PL	|ner..ab.1|trappa_ner..vbm.1:4|
-6	till	|till|	PP	_	PP	4	OA	|till..pp.1|
-7	två	|två|	RG	_	RG.NOM	8	CJ	|två..nl.1|
-8	och	|och|	KN	_	KN	11	DT	|och..kn.1|
-9	nu	|nu|	AB	_	AB	11	TA	|nu..ab.1|
-10	en	|en|en gång|en gång i veckan|	DT	_	DT.UTR.SIN.IND	11	DT	|en..al.1|en_gång..abm.1|en_gång_i_veckan..abm.1|
-11	gång	|gång|en gång:10|en gång i veckan:10|	NN	_	NN.UTR.SIN.IND.NOM	4	TA	|gång..nn.1|gång..nn.2|gång..nn.3|en_gång..abm.1:10|en_gång_i_veckan..abm.1:10|
-12	i	|i|en gång i veckan:10|	PP	_	PP	11	ET	|i..pp.1|en_gång_i_veckan..abm.1:10|
-13	veckan	|vecka|en gång i veckan:10|	NN	_	NN.UTR.SIN.DEF.NOM	12	PA	|vecka..nn.1|en_gång_i_veckan..abm.1:10|
-14	.	|	MAD	_	MAD	2	IP	|
+Sen kunde vi trappa ner till två och nu en gång i veckan .
 
 # age = 25
 # agebin = 20--29
@@ -89,26 +46,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e1455ea0
-1	Hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|hon..pn.1|
-2	hjälper	|hjälpa|	VB	_	VB.PRS.AKT	0	ROOT	|hjälpa..vb.1|
-3	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	2	OO	|jag..pn.1|
-4	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-5	att	|att|	IE	_	IE	4	PA	|att..sn.1|
-6	ta	|ta|ta bort|	VB	_	VB.INF.AKT	5	IF	|ta..vb.1|ta_bort..vbm.1|
-7	bort	|bort|ta bort:6|	PL	_	PL	6	PL	|bort..ab.1|ta_bort..vbm.1:6|
-8	och	|och|	KN	_	KN	2	OA	|och..kn.1|
-9	lätta	|lätta|	VB	_	VB.INF.AKT	8	+F	|lätta..vb.1|lätta..vb.2|
-10	på	|på|	PP	_	PP	9	OA	|på..pp.1|
-11	belastningen	|belastning|	NN	_	NN.UTR.SIN.DEF.NOM	10	PA	|belastning..nn.1|
-12	på	|på|	PP	_	PP	11	ET	|på..pp.1|
-13	ryggen	|rygg|	NN	_	NN.UTR.SIN.DEF.NOM	12	PA	|rygg..nn.1|
-14	vilket	|	HP	_	HP.NEU.SIN.IND	15	SS	|
-15	hjälper	|hjälpa|	VB	_	VB.PRS.AKT	11	ET	|hjälpa..vb.1|
-16	enormt	|enorm|	AB	_	AB.POS	17	AA	|enorm..av.1|
-17	mycket	|mycket|	AB	_	AB.POS	15	AA	|mycket..ab.1|
-18	.	|	MAD	_	MAD	2	IP	|
+Hon hjälper mig med att ta bort och lätta på belastningen på ryggen vilket hjälper enormt mycket .
 
 # age = 25
 # agebin = 20--29
@@ -118,28 +56,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e1494efb
-1	Har	|ha|ha ont|	VB	_	VB.PRS.AKT	9	MS	|ha..vb.1|ha_ont..vbm.1|
-2	alltid	|alltid|	AB	_	AB	1	TA	|alltid..ab.1|
-3	sjukt	|sjuk|sjukt|	AB	_	AB	4	AA	|sjuk..av.1|sjukt..ab.1|
-4	ont	|ond|ha ont:1|	AB	_	AB.POS	1	AA	|ond..av.1|ha_ont..vbm.1:1|
-5	när	|när|	HA	_	HA	7	TA	|när..ab.1|
-6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
-7	går	|gå|	VB	_	VB.PRS.AKT	9	MS	|gå..vb.1|
-8	därifrån	|därifrån|	AB	_	AB	7	RA	|därifrån..ab.1|
-9	och	|och|	KN	_	KN	13	MS	|och..kn.1|
-10	belastningen	|belastning|	NN	_	NN.UTR.SIN.DEF.NOM	11	SS	|belastning..nn.1|
-11	kommer	|komma|komma tillbaka|	VB	_	VB.PRS.AKT	9	+F	|komma..vb.1|komma_tillbaka..vbm.1|
-12	tillbaka	|tillbaka|komma tillbaka:11|	PL	_	PL	11	PL	|tillbaka..ab.1|komma_tillbaka..vbm.1:11|
-13	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-14	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	15	DT	|någon..pn.1|
-15	timmar	|timme|	NN	_	NN.UTR.PLU.IND.NOM	17	TA	|timme..nn.1|
-16	senare	|sen|senare|	AB	_	AB.KOM	17	TA	|sen..av.1|senare..ab.1|
-17	är	|vara|	VB	_	VB.PRS.AKT	13	MS	|vara..vb.1|
-18	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	17	SS	|den..pn.1|
-19	bättre	|bra|god|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	17	SP	|bra..av.1|god..av.1|
-20	.	|	MAD	_	MAD	13	IP	|
+Har alltid sjukt ont när jag går därifrån och belastningen kommer tillbaka men några timmar senare är det bättre .
 
 # age = 25
 # agebin = 20--29
@@ -149,68 +66,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e14186a1
-1	Räcker	|räcka|	VB	_	VB.PRS.AKT	24	AA	|räcka..vb.1|räcka..vb.2|
-2	med	|med|	PP	_	PP	1	OA	|med..pp.1|
-3	att	|att|	IE	_	IE	2	PA	|att..sn.1|
-4	gå	|gå|	VB	_	VB.INF.AKT	3	IF	|gå..vb.1|
-5	en	|en|en gång|en gång i veckan|	DT	_	DT.UTR.SIN.IND	6	DT	|en..al.1|en_gång..abm.1|en_gång_i_veckan..abm.1|
-6	gång	|gång|en gång:5|en gång i veckan:5|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|gång..nn.1|gång..nn.2|gång..nn.3|en_gång..abm.1:5|en_gång_i_veckan..abm.1:5|
-7	i	|i|en gång i veckan:5|	PP	_	PP	4	TA	|i..pp.1|en_gång_i_veckan..abm.1:5|
-8	veckan	|vecka|en gång i veckan:5|	NN	_	NN.UTR.SIN.DEF.NOM	7	PA	|vecka..nn.1|en_gång_i_veckan..abm.1:5|
-9	för	|för|	PP	_	PP	4	AA	|för..pp.1|
-10	att	|att|	IE	_	IE	9	PA	|att..sn.1|
-11	inte	|inte|	AB	_	AB	12	NA	|inte..ab.1|
-12	få	|få|	VB	_	VB.INF.AKT	10	IF	|få..vb.1|
-13	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	OO	|den..pn.1|
-14	värre	|ond|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	12	AA	|ond..av.1|
-15	nu	|nu|	AB	_	AB	12	TA	|nu..ab.1|
-16	trots	|trots|	PP	_	PP	12	AA	|trots..pp.1|
-17	att	|att|	SN	_	SN	16	HD	|att..sn.1|
-18	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	19	SS	|jag..pn.1|
-19	är	|vara|	VB	_	VB.PRS.AKT	16	UA	|vara..vb.1|
-20	i	|i|	PP	_	PP	19	SP	|i..pp.1|
-21	vecka	|vecka|	NN	_	NN.UTR.SIN.IND.NOM	20	HD	|vecka..nn.1|
-22	35+	|	RG	_	RG.NOM	20	HD	|
-23	så	|så|	AB	_	AB	24	DB	|så..ab.1|
-24	mår	|må|	VB	_	VB.PRS.AKT	32	MS	|må..vb.1|
-25	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	24	SS	|jag..pn.1|
-26	inte	|inte|	AB	_	AB	24	NA	|inte..ab.1|
-27	sämre	|dålig|illa|	AB	_	AB.KOM	24	AA	|dålig..av.1|illa..ab.1|
-28	än	|	KN	_	KN	24	KA	|
-29	i	|i|	PP	_	PP	28	UA	|i..pp.1|
-30	vecka	|vecka|	NN	_	NN.UTR.SIN.IND.NOM	31	DT	|vecka..nn.1|
-31	20	|	RG	_	RG.NOM	29	PA	|
-32	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-33	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	34	SS	|jag..pn.1|
-34	är	|vara|	VB	_	VB.PRS.AKT	32	MS	|vara..vb.1|
-35	avsevärt	|avsevärd|	AB	_	AB.POS	36	AA	|avsevärd..av.1|
-36	mycket	|mycket|	AB	_	AB.POS	37	AA	|mycket..ab.1|
-37	tyngre	|tung|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	34	SP	|tung..av.1|
-38	nu	|nu|	AB	_	AB	34	TA	|nu..ab.1|
-39	..	|	MID	_	MID	34	TA	|
-40	(	|	PAD	_	PAD	34	IR	|
-41	nåväl	|nåväl|	IN	_	IN	34	+F	|nåväl..in.1|
-42	,	|	MID	_	MID	34	IK	|
-43	10	|	RG	_	RG.NOM	44	DT	|
-44	kg	|kg|	NN	_	NN.AN	41	OO	|kg..nna.1|
-45	iaf	|	IN	_	IN	34	JR	|
-46	men	|men|	KN	_	KN	34	MS	|men..kn.1|
-47	hade	|ha|	VB	_	VB.PRT.AKT	46	MS	|ha..vb.1|
-48	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	47	SS	|jag..pn.1|
-49	inte	|inte|	AB	_	AB	47	NA	|inte..ab.1|
-50	gått	|gå|	VB	_	VB.SUP.AKT	47	VG	|gå..vb.1|
-51	dit	|dit|	AB	_	AB	50	RA	|dit..ab.1|
-52	hade	|ha|	VB	_	VB.PRT.AKT	46	MS	|ha..vb.1|
-53	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	52	SS	|jag..pn.1|
-54	nog	|nog|	AB	_	AB	52	MA	|nog..ab.1|
-55	knappt	|knapp|knappt|	AB	_	AB.POS	52	AA	|knapp..av.1|knappt..ab.1|
-56	kunnat	|kunna|	VB	_	VB.SUP.AKT	52	VG	|kunna..vb.1|
-57	gå	|gå|	VB	_	VB.INF.AKT	56	VG	|gå..vb.1|
-58	idag	|idag|	AB	_	AB	57	TA	|idag..ab.1|
-59	)	|	PAD	_	PAD	52	JR	|
-60	.	|	MAD	_	MAD	52	IP	|
+Räcker med att gå en gång i veckan för att inte få det värre nu trots att jag är i vecka 35+ så mår jag inte sämre än i vecka 20 och jag är avsevärt mycket tyngre nu .. ( nåväl , 10 kg iaf men hade jag inte gått dit hade jag nog knappt kunnat gå idag ) .
 
 # age = 25
 # agebin = 20--29
@@ -220,15 +76,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e1453170
-1	Så	|så|	AB	_	AB	3	AA	|så..ab.1|
-2	ta	|ta|	VB	_	VB.IMP.AKT	3	MS	|ta..vb.1|
-3	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-4	ring	|ringa|	VB	_	VB.IMP.AKT	3	MS	|ringa..vb.1|ringa..vb.3|
-5	sjukgymnasten	|sjukgymnast|	NN	_	NN.UTR.SIN.DEF.NOM	4	OO	|sjukgymnast..nn.1|
-6	imorgon	|imorgon|	AB	_	AB	4	TA	|imorgon..ab.1|
-7	!	|	MAD	_	MAD	3	IU	|
+Så ta och ring sjukgymnasten imorgon !
 
 # age = 25
 # agebin = 20--29
@@ -238,24 +86,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e146edb4
-1	Lätt	|lätt|	AB	_	AB.POS	2	AA	|lätt..av.1|
-2	värt	|värd|värt|	AB	_	AB.POS	4	AT	|värd..av.1|värt..av.1|
-3	den	|den|en|	DT	_	DT.UTR.SIN.DEF	4	DT	|den..pn.1|en..al.1|
-4	tiden	|tid|	NN	_	NN.UTR.SIN.DEF.NOM	0	ROOT	|tid..nn.1|
-5	som	|	HP	_	HP.-.-.-	7	OO	|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
-7	kräver	|kräva|	VB	_	VB.PRS.AKT	4	ET	|kräva..vb.1|
-8	att	|att|	SN	_	SN	7	OO	|att..sn.1|
-9	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	10	SS	|man..pn.1|
-10	springer	|springa|	VB	_	VB.PRS.AKT	8	UA	|springa..vb.1|
-11	där	|där|	AB	_	AB	10	RA	|där..ab.1|
-12	i	|i|i tid|i tid och otid|	PP	_	PP	11	TA	|i..pp.1|i_tid..abm.1|i_tid_och_otid..abm.1|
-13	tid	|tid|i tid:12|i tid och otid:12|	NN	_	NN.UTR.SIN.IND.NOM	14	CJ	|tid..nn.1|i_tid..abm.1:12|i_tid_och_otid..abm.1:12|
-14	och	|och|i tid och otid:12|	KN	_	KN	12	PA	|och..kn.1|i_tid_och_otid..abm.1:12|
-15	otid	|otid|i tid och otid:12|	NN	_	NN.UTR.SIN.IND.NOM	14	CJ	|otid..nn.1|i_tid_och_otid..abm.1:12|
-16	.	|	MAD	_	MAD	2	IP	|
+Lätt värt den tiden som det kräver att man springer där i tid och otid .
 
 # age = 25
 # agebin = 20--29
@@ -265,23 +96,7 @@
 # thread_title = Ischias o ryggont, gravid
 # post_id = 75977899
 # post_date = 2015-11-08 21:54:52
-# username = Tokstollen
-# sent_id = 4e14c1bb9
-1	Den	|den|en|	DT	_	DT.UTR.SIN.DEF	3	DT	|den..pn.1|en..al.1|
-2	korta	|kort|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	3	AT	|kort..av.1|
-3	stundens	|stund|	NN	_	NN.UTR.SIN.DEF.GEN	15	SS	|stund..nn.1|
-4	så	|så|	AB	_	AB	5	AA	|så..ab.1|
-5	värd	|värd|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	PT	|värd..av.1|
-6	att	|att|	IE	_	IE	5	OA	|att..sn.1|
-7	unna	|unna|	VB	_	VB.INF.AKT	6	IF	|unna..vb.1|
-8	sig	|sig|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	7	OO	|sig..pn.1|
-9	när	|när|	HA	_	HA	12	TA	|när..ab.1|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	SS	|den..pn.1|
-11	väl	|väl|	AB	_	AB	12	MA	|väl..ab.1|väl_2..ab.1|
-12	kommer	|komma|komma till kritan|	VB	_	VB.PRS.AKT	7	TA	|komma..vb.1|komma_till_kritan..vbm.1|
-13	till	|till|komma till kritan:12|	PP	_	PP	12	PL	|till..pp.1|komma_till_kritan..vbm.1:12|
-14	kritan	|krita|komma till kritan:12|	NN	_	NN.UTR.SIN.DEF.NOM	13	HD	|krita..nn.1|komma_till_kritan..vbm.1:12|
-15	.	|	MAD	_	MAD	0	ROOT	|
+Den korta stundens så värd att unna sig när det väl kommer till kritan .
 
 # age = 25
 # agebin = 20--29
@@ -291,14 +106,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b78461c
-1	Du	|Du|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|Du..pn.1|du..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	beskrivit	|beskriva|	VB	_	VB.SUP.AKT	2	VG	|beskriva..vb.1|
-4	min	|jag|	PS	_	PS.UTR.SIN.DEF	5	DT	|jag..pn.1|
-5	mellangrabb	|mellangrabb|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|
-6	.	|	MAD	_	MAD	2	IP	|
+Du har beskrivit min mellangrabb .
 
 # age = 25
 # agebin = 20--29
@@ -308,14 +116,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b78c862
-1	Han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|han..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	överallt	|överallt|	AB	_	AB	4	CJ	|överallt..ab.1|
-4	och	|och|	KN	_	KN	2	AA	|och..kn.1|
-5	ingenstans	|ingenstans|	AB	_	AB	4	CJ	|ingenstans..ab.1|
-6	.	|	MAD	_	MAD	2	IP	|
+Han är överallt och ingenstans .
 
 # age = 25
 # agebin = 20--29
@@ -325,35 +126,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b786ca3
-1	Och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
-3	beror	|bero|	VB	_	VB.PRS.AKT	1	MS	|bero..vb.1|
-4	sannerligen	|sannerligen|	AB	_	AB	3	MA	|sannerligen..ab.1|
-5	inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
-6	på	|på|	PP	_	PP	3	OA	|på..pp.1|
-7	att	|att|	SN	_	SN	6	PA	|att..sn.1|
-8	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|han..pn.1|
-9	inte	|inte|	AB	_	AB	10	NA	|inte..ab.1|
-10	har	|ha|ha att göra|	VB	_	VB.PRS.AKT	7	UA	|ha..vb.1|ha_att_göra..vbm.1|
-11	saker	|sak|	NN	_	NN.UTR.PLU.IND.NOM	10	OO	|sak..nn.1|
-12	att	|att|ha att göra:10|	IE	_	IE	11	ET	|att..sn.1|ha_att_göra..vbm.1:10|
-13	göra	|göra|ha att göra:10|	VB	_	VB.INF.AKT	12	IF	|göra..vb.1|ha_att_göra..vbm.1:10|
-14	för	|för|	KN	_	KN	20	MS	|för..kn.1|
-15	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	16	SS	|vi..pn.1|
-16	har	|ha|	VB	_	VB.PRS.AKT	20	MS	|ha..vb.1|
-17	mängder	|mängd|	NN	_	NN.UTR.PLU.IND.NOM	16	OO	|mängd..nn.1|
-18	med	|med|	PP	_	PP	16	OA	|med..pp.1|
-19	leksaker	|leksak|	NN	_	NN.UTR.PLU.IND.NOM	18	PA	|leksak..nn.1|
-20	och	|och|	KN	_	KN	1	++	|och..kn.1|
-21	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	22	SS	|jag..pn.1|
-22	erbjuder	|erbjuda|	VB	_	VB.PRS.AKT	20	MS	|erbjuda..vb.1|
-23	allt	|all|allt möjligt|	DT	_	DT.NEU.SIN.IND+DEF	24	DT	|all..pn.1|allt_möjligt..pnm.1|
-24	möjligt	|möjlig|allt möjligt:23|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	22	OP	|möjlig..av.1|allt_möjligt..pnm.1:23|
-25	till	|till|	PP	_	PP	22	OA	|till..pp.1|
-26	honom	|han|	PN	_	PN.UTR.SIN.DEF.OBJ	25	PA	|han..pn.1|
-27	.	|	MAD	_	MAD	20	IP	|
+Och det beror sannerligen inte på att han inte har saker att göra för vi har mängder med leksaker och jag erbjuder allt möjligt till honom .
 
 # age = 25
 # agebin = 20--29
@@ -363,29 +136,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b78971e
-1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-2	tom	|tom|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	1	SS	|tom..av.1|
-3	provat	|prova|	VB	_	VB.SUP.AKT	1	VG	|prova..vb.1|
-4	att	|att|	IE	_	IE	10	MS	|att..sn.1|
-5	plocka	|plocka|plocka undan|	VB	_	VB.INF.AKT	4	IF	|plocka..vb.1|plocka_undan..vbm.1|
-6	undan	|undan|plocka undan:5|	PL	_	PL	5	PL	|undan..ab.1|plocka_undan..vbm.1:5|
-7	nästan	|nästan|	AB	_	AB	8	AA	|nästan..ab.1|
-8	alla	|all|	DT	_	DT.UTR+NEU.PLU.IND+DEF	9	DT	|all..pn.1|
-9	leksaker	|leksak|	NN	_	NN.UTR.PLU.IND.NOM	5	OO	|leksak..nn.1|
-10	och	|och|	KN	_	KN	3	OO	|och..kn.1|
-11	ha	|ha|ha att göra|	VB	_	VB.INF.AKT	10	+F	|ha..vb.1|ha_att_göra..vbm.1|
-12	bara	|bara|	AB	_	AB	11	CA	|bara..ab.1|
-13	lite	|lite|	AB	_	AB.POS	14	AA	|lite..ab.1|
-14	framme	|framme|	AB	_	AB	11	AA	|framme..ab.1|
-15	för	|för|	PP	_	PP	11	AA	|för..pp.1|
-16	att	|att|ha att göra:11|	IE	_	IE	15	PA	|att..sn.1|ha_att_göra..vbm.1:11|
-17	göra	|göra|ha att göra:11|	VB	_	VB.INF.AKT	16	IF	|göra..vb.1|ha_att_göra..vbm.1:11|
-18	dom	|en|	DT	_	DT.UTR+NEU.PLU.DEF	20	DT	|en..al.1|
-19	mer	|mer|mycket|	AB	_	AB.KOM	20	AA	|mer..ab.1|mycket..ab.1|
-20	intressanta	|intressant|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	17	OP	|intressant..av.1|
-21	.	|	MAD	_	MAD	1	IP	|
+Har tom provat att plocka undan nästan alla leksaker och ha bara lite framme för att göra dom mer intressanta .
 
 # age = 25
 # agebin = 20--29
@@ -395,15 +146,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b78c9ad
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|han..pn.1|
-3	klättrar	|klättra|klättra upp|	VB	_	VB.PRS.AKT	1	MS	|klättra..vb.1|klättra_upp..vbm.1|
-4	upp	|upp|klättra upp:3|	PL	_	PL	3	PL	|upp..ab.1|klättra_upp..vbm.1:3|
-5	överallt	|överallt|	AB	_	AB	3	RA	|överallt..ab.1|
-6	ändå	|ändå|	AB	_	AB	3	+A	|ändå..ab.1|
-7	.	|	MAD	_	MAD	3	IP	|
+Men han klättrar upp överallt ändå .
 
 # age = 25
 # agebin = 20--29
@@ -413,24 +156,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b78a0bb
-1	senaste	|sen|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM	2	SS	|sen..av.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	att	|att|	SN	_	SN	2	SS	|att..sn.1|
-4	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|han..pn.1|
-5	har	|ha|	VB	_	VB.PRS.AKT	3	UA	|ha..vb.1|
-6	kommit	|komma|	VB	_	VB.SUP.AKT	5	VG	|komma..vb.1|
-7	på	|på|	PP	_	PP	6	OA	|på..pp.1|
-8	hur	|hur|	HA	_	HA	10	AA	|hur..ab.1|
-9	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|han..pn.1|
-10	tar	|ta|ta sig|	VB	_	VB.PRS.AKT	7	PA	|ta..vb.1|ta_sig..vbm.1|
-11	sig	|sig|ta sig:10|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	10	OO	|sig..pn.1|ta_sig..vbm.1:10|
-12	över	|över|	PP	_	PP	10	RA	|över..pp.1|
-13	grinden	|grind|	NN	_	NN.UTR.SIN.DEF.NOM	12	PA	|grind..nn.1|
-14	till	|till|	PP	_	PP	10	RA	|till..pp.1|
-15	trappan	|trappa|	NN	_	NN.UTR.SIN.DEF.NOM	14	PA	|trappa..nn.1|
-16	.	|	MAD	_	MAD	2	IP	|
+senaste är att han har kommit på hur han tar sig över grinden till trappan .
 
 # age = 25
 # agebin = 20--29
@@ -440,21 +166,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b789282
-1	Man	|man|	PN	_	PN.UTR.SIN.IND.SUB	2	SS	|man..pn.1|
-2	får	|få|	VB	_	VB.PRS.AKT	0	ROOT	|få..vb.1|
-3	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
-4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-5	en	|en|	DT	_	DT.UTR.SIN.IND	7	DT	|en..al.1|
-6	lugn	|lugn|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	7	AT	|lugn..av.1|
-7	stund	|stund|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|stund..nn.1|
-8	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-9	ett	|en|	DT	_	DT.NEU.SIN.IND	12	DT	|en..al.1|
-10	så	|så|	AB	_	AB	11	AA	|så..ab.1|
-11	aktivt	|aktiv|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	12	AT	|aktiv..av.1|
-12	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	8	PA	|barn..nn.1|
-13	.	|	MAD	_	MAD	2	IP	|
+Man får ju inte en lugn stund med ett så aktivt barn .
 
 # age = 25
 # agebin = 20--29
@@ -464,23 +176,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b78ecef
-1	Som	|	KN	_	KN	5	AA	|
-2	tur	|tur|	NN	_	NN.UTR.SIN.IND.NOM	1	UA	|tur..nn.1|tur..nn.2|
-3	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-4	så	|så|	AB	_	AB	5	DB	|så..ab.1|
-5	är	|vara|	VB	_	VB.PRS.AKT	3	MS	|vara..vb.1|
-6	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|han..pn.1|
-7	alltid	|alltid|	AB	_	AB	5	TA	|alltid..ab.1|
-8	glad	|glad|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	5	SP	|glad..av.1|
-9	och	|och|	KN	_	KN	5	AA	|och..kn.1|
-10	inte	|inte|	AB	_	AB	12	NA	|inte..ab.1|
-11	alls	|alls|	AB	_	AB	12	AA	|alls..ab.1|
-12	bråkig	|bråkig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	9	+F	|bråkig..av.1|
-13	av	|av|	PP	_	PP	12	AG	|av..pp.1|
-14	sig	|sig|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	13	PA	|sig..pn.1|
-15	.	|	MAD	_	MAD	5	IP	|
+Som tur är så är han alltid glad och inte alls bråkig av sig .
 
 # age = 25
 # agebin = 20--29
@@ -490,18 +186,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b78421b
-1	Annars	|annars|	AB	_	AB	2	AA	|annars..ab.1|
-2	hade	|ha|	VB	_	VB.PRT.AKT	0	ROOT	|ha..vb.1|
-3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-4	nog	|nog|	AB	_	AB	2	MA	|nog..ab.1|
-5	brutit	|bryta|bryta ihop|	VB	_	VB.SUP.AKT	2	VG	|bryta..vb.1|bryta_ihop..vbm.1|
-6	ihop	|ihop|bryta ihop:5|	PL	_	PL	5	PL	|ihop..ab.1|bryta_ihop..vbm.1:5|
-7	för	|för|för länge sen|	PP	_	PP	5	TA	|för..pp.1|för_länge_sen..abm.1|
-8	länge	|länge|för länge sen:7|länge sen|	AB	_	AB.POS	7	PA	|länge..ab.1|för_länge_sen..abm.1:7|länge_sen..abm.1|
-9	sen	|sen|för länge sen:7|länge sen:8|	AB	_	AB	7	HD	|sen..ab.1|för_länge_sen..abm.1:7|länge_sen..abm.1:8|
-10	.	|	MAD	_	MAD	2	IP	|
+Annars hade jag nog brutit ihop för länge sen .
 
 # age = 25
 # agebin = 20--29
@@ -511,31 +196,7 @@
 # thread_title = Min 1,5åring river allt
 # post_id = 76089156
 # post_date = 2015-12-07 08:47:51
-# username = Tokstollen
-# sent_id = 8b78d5a5
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	hur	|hur|hur än|	HA	_	HA	4	AA	|hur..ab.1|hur_än..abm.1|
-3	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	4	SS	|man..pn.1|
-4	ska	|skola|	VB	_	VB.PRS.AKT	18	AA	|skola..vb.2|
-5	göra	|göra|	VB	_	VB.INF.AKT	4	VG	|göra..vb.1|
-6	annat	|annan|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	5	AA	|annan..pn.1|
-7	än	|hur än:2|	KN	_	KN	6	HD	|hur_än..abm.1:2|
-8	att	|att|	IE	_	IE	11	MS	|att..sn.1|
-9	bita	|bita|bita ihop|	VB	_	VB.INF.AKT	8	IF	|bita..vb.1|bita..vb.2|bita_ihop..vbm.1|bita_ihop..vbm.2|
-10	ihop	|ihop|bita ihop:9|	PL	_	PL	9	PL	|ihop..ab.1|bita_ihop..vbm.1:9|bita_ihop..vbm.2:9|
-11	och	|och|	KN	_	KN	6	UA	|och..kn.1|
-12	fortsätta	|fortsätta|	VB	_	VB.INF.AKT	11	+F	|fortsätta..vb.1|
-13	avleda	|avleda|	VB	_	VB.INF.AKT	14	CJ	|avleda..vb.1|
-14	och	|och|	KN	_	KN	12	VS	|och..kn.1|
-15	säga	|säga|	VB	_	VB.INF.AKT	14	CJ	|säga..vb.1|
-16	nej	|nej|	IN	_	IN	14	OO	|nej..in.1|
-17	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	22	PA	|den..pn.1|
-18	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
-19	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	18	SS	|jag..pn.1|
-20	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	21	DT	|ingen..pn.1|
-21	aning	|aning|	NN	_	NN.UTR.SIN.IND.NOM	18	OO	|aning..nn.1|
-22	om	|om|	PP	_	PP	18	OA	|om..pp.1|
-23	.	|	MAD	_	MAD	18	IP	|
+Men hur man ska göra annat än att bita ihop och fortsätta avleda och säga nej det har jag ingen aning om .
 
 # age = 25
 # agebin = 20--29
@@ -545,18 +206,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 5057372d8
-1	TS	|	PM	_	PM.NOM	0	ROOT	|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	känner	|känna|känna igen|känna sig|	VB	_	VB.PRS.AKT	1	ET	|känna..vb.1|känna..vb.2|känna_igen..vbm.1|känna_sig..vbm.1|
-4	igen	|igen|känna igen:3|	PL	_	PL	3	PL	|igen..ab.1|igen..ab.2|känna_igen..vbm.1:3|
-5	mig	|jag|känna sig:3|	PN	_	PN.UTR.SIN.DEF.OBJ	3	OO	|jag..pn.1|känna_sig..vbm.1:3|
-6	i	|i|	PP	_	PP	3	TA	|i..pp.1|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	PA	|den..pn.1|
-8	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|du..pn.1|
-9	skriver	|skriva|	VB	_	VB.PRS.AKT	7	ET	|skriva..vb.1|
-10	.	|	MAD	_	MAD	3	IP	|
+TS jag känner igen mig i det du skriver .
 
 # age = 25
 # agebin = 20--29
@@ -566,21 +216,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 505734f1a
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	8	MS	|ha..vb.1|
-3	två	|två|	RG	_	RG.NOM	4	DT	|två..nl.1|
-4	pojkar	|pojke|	NN	_	NN.UTR.PLU.IND.NOM	2	OO	|pojke..nn.1|
-5	nära	|nära|	AB	_	AB.POS	6	AA	|nära..ab.1|nära..av.1|
-6	i	|i|	PP	_	PP	2	TA	|i..pp.1|
-7	ålder	|ålder|	NN	_	NN.UTR.SIN.IND.NOM	6	PA	|ålder..nn.1|
-8	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-9	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	10	SS	|de..pn.1|
-10	är	|vara|	VB	_	VB.PRS.AKT	8	MS	|vara..vb.1|
-11	helt	|hel|helt|	AB	_	AB.POS	12	AA	|hel..av.1|helt..ab.1|
-12	fantastiska	|fantastisk|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	10	SP	|fantastisk..av.1|
-13	.	|	MAD	_	MAD	8	IP	|
+Jag har två pojkar nära i ålder och dom är helt fantastiska .
 
 # age = 25
 # agebin = 20--29
@@ -590,35 +226,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 50574f127
-1	Har	|ha|	VB	_	VB.PRS.AKT	7	MS	|ha..vb.1|
-2	så	|så|	AB	_	AB	3	AA	|så..ab.1|
-3	nära	|nära|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	AT	|nära..av.1|
-4	relation	|relation|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|relation..nn.1|
-5	med	|med|	PP	_	PP	1	OA	|med..pp.1|
-6	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	5	PA	|de..pn.1|
-7	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-8	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|jag..pn.1|
-9	är	|vara|	VB	_	VB.PRS.AKT	7	MS	|vara..vb.1|
-10	rädd	|rädd|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	9	SP	|rädd..av.1|
-11	att	|att|	SN	_	SN	16	CJ	|att..sn.1|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
-13	skulle	|skola|	VB	_	VB.PRT.AKT	11	UA	|skola..vb.2|
-14	bytas	|byta|byta ut|	VB	_	VB.INF.SFO	13	VG	|byta..vb.1|byta_ut..vbm.1|
-15	ut	|ut|byta ut:14|	PL	_	PL	14	PL	|ut..ab.1|byta_ut..vbm.1:14|
-16	eller	|eller|	KN	_	KN	9	ES	|eller..kn.1|
-17	att	|att|	SN	_	SN	16	CJ	|att..sn.1|
-18	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|jag..pn.1|
-19	inte	|inte|	AB	_	AB	20	NA	|inte..ab.1|
-20	kommer	|komma|	VB	_	VB.PRS.AKT	17	UA	|komma..vb.1|
-21	kunna	|kunna|	VB	_	VB.INF.AKT	20	VG	|kunna..vb.1|
-22	ta	|ta|ta till|ta sig|	VB	_	VB.INF.AKT	21	VG	|ta..vb.1|ta_till..vbm.1|ta_sig..vbm.1|
-23	till	|till|ta till:22|	PL	_	PL	22	PL	|till..ab.1|ta_till..vbm.1:22|
-24	mig	|jag|ta sig:22|	PN	_	PN.UTR.SIN.DEF.OBJ	22	IO	|jag..pn.1|ta_sig..vbm.1:22|
-25	en	|en|	DT	_	DT.UTR.SIN.IND	26	DT	|en..al.1|
-26	flicka	|flicka|	NN	_	NN.UTR.SIN.IND.NOM	22	OO	|flicka..nn.1|
-27	.	|	MAD	_	MAD	7	IP	|
+Har så nära relation med dom och jag är rädd att det skulle bytas ut eller att jag inte kommer kunna ta till mig en flicka .
 
 # age = 25
 # agebin = 20--29
@@ -628,35 +236,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 5057a4009
-1	Tror	|tro|	VB	_	VB.PRS.AKT	10	AA	|tro..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	som	|	HP	_	HP.-.-.-	4	SS	|
-4	satt	|sitta|sätta sig|	VB	_	VB.PRT.AKT	2	ET	|sitta..vb.1|sätta_sig..vbm.1|
-5	griller	|griller|	NN	_	NN.UTR.PLU.IND.NOM	4	OO	|griller..nn.1|griller..nn.2|
-6	i	|i|	PP	_	PP	4	RA	|i..pp.1|
-7	huvudet	|huvud|	NN	_	NN.NEU.SIN.DEF.NOM	6	PA	|huvud..nn.1|
-8	på	|på|	PP	_	PP	4	RA	|på..pp.1|
-9	mig	|jag|sätta sig:4|	PN	_	PN.UTR.SIN.DEF.OBJ	8	PA	|jag..pn.1|sätta_sig..vbm.1:4|
-10	är	|vara|	VB	_	VB.PRS.AKT	20	MS	|vara..vb.1|
-11	alla	|all|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	10	SS	|all..pn.1|
-12	som	|	HP	_	HP.-.-.-	13	SS	|
-13	säger	|säga|	VB	_	VB.PRS.AKT	11	ET	|säga..vb.1|
-14	"	|	PAD	_	PAD	13	OO	|
-15	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	16	SS	|man..pn.1|
-16	står	|stå|	VB	_	VB.PRS.AKT	13	OO	|stå..vb.1|
-17	döttrar	|dotter|	NN	_	NN.UTR.PLU.IND.NOM	16	OO	|dotter..nn.1|
-18	närmast	|nära|	AB	_	AB.SUV	16	RA	|nära..ab.1|nära..av.1|
-19	"	|	PAD	_	PAD	20	IK	|
-20	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-21	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	22	SS	|den..pn.1|
-22	behöver	|behöva|	VB	_	VB.PRS.AKT	20	MS	|behöva..vb.1|
-23	ju	|ju|	AB	_	AB	22	MA	|ju..ab.1|
-24	faktiskt	|faktisk|	AB	_	AB.POS	22	MA	|faktisk..av.1|
-25	inte	|inte|	AB	_	AB	22	NA	|inte..ab.1|
-26	stämma	|stämma|	VB	_	VB.INF.AKT	22	VG	|stämma..vb.1|
-27	.	|	MAD	_	MAD	20	IP	|
+Tror det som satt griller i huvudet på mig är alla som säger " man står döttrar närmast " och det behöver ju faktiskt inte stämma .
 
 # age = 25
 # agebin = 20--29
@@ -666,26 +246,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 50575f76d
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	tror	|tro|	VB	_	VB.PRS.AKT	0	ROOT	|tro..vb.1|
-3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-5	kommer	|komma|	VB	_	VB.PRS.AKT	2	OO	|komma..vb.1|
-6	kunna	|kunna|	VB	_	VB.INF.AKT	5	VG	|kunna..vb.1|
-7	stå	|stå|	VB	_	VB.INF.AKT	6	VG	|stå..vb.1|
-8	någon	|någon|	DT	_	DT.UTR.SIN.IND	9	DT	|någon..pn.1|
-9	närmare	|nära|	AB	_	AB.KOM	7	AA	|nära..ab.1|nära..av.1|
-10	än	|	KN	_	KN	7	KA	|
-11	vad	|vad|	HP	_	HP.NEU.SIN.IND	10	UA	|vad..pn.1|
-12	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	14	SS	|jag..pn.1|
-13	redan	|redan|	AB	_	AB	14	TA	|redan..ab.1|
-14	gör	|göra|	VB	_	VB.PRS.AKT	10	UA	|göra..vb.1|
-15	med	|med|	PP	_	PP	14	OA	|med..pp.1|
-16	mina	|jag|	PS	_	PS.UTR+NEU.PLU.DEF	17	DT	|jag..pn.1|
-17	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	15	PA	|barn..nn.1|
-18	.	|	MAD	_	MAD	2	IP	|
+Jag tror inte jag kommer kunna stå någon närmare än vad jag redan gör med mina barn .
 
 # age = 25
 # agebin = 20--29
@@ -695,22 +256,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 505789285
-1	Och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	FS	|den..pn.1|
-3	finns	|finna|finnas|	VB	_	VB.PRS.SFO	1	MS	|finna..vb.1|finnas..vb.1|
-4	ju	|ju|	AB	_	AB	3	MA	|ju..ab.1|
-5	faktiskt	|faktisk|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	6	AT	|faktisk..av.1|
-6	utrymme	|utrymme|	NN	_	NN.NEU.SIN.IND.NOM	3	ES	|utrymme..nn.1|
-7	för	|för|	PP	_	PP	3	AA	|för..pp.1|
-8	att	|att|	IE	_	IE	7	PA	|att..sn.1|
-9	stå	|stå|	VB	_	VB.INF.AKT	8	IF	|stå..vb.1|
-10	fler	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	11	DT	|
-11	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	9	OO	|barn..nn.1|
-12	så	|så|	AB	_	AB	13	AA	|så..ab.1|
-13	nära	|nära|	AB	_	AB.POS	9	AA	|nära..ab.1|nära..av.1|
-14	.	|	MAD	_	MAD	3	IP	|
+Och det finns ju faktiskt utrymme för att stå fler barn så nära .
 
 # age = 25
 # agebin = 20--29
@@ -720,20 +266,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 505756712
-1	Kärleken	|kärlek|	NN	_	NN.UTR.SIN.DEF.NOM	2	SS	|kärlek..nn.1|
-2	utökas	|utöka|	VB	_	VB.PRS.SFO	5	MS	|utöka..vb.1|
-3	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
-4	alltid	|alltid|	AB	_	AB	2	TA	|alltid..ab.1|
-5	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	+F	|den..pn.1|
-7	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	9	SS	|man..pn.1|
-8	redan	|redan|	AB	_	AB	9	TA	|redan..ab.1|
-9	har	|ha|	VB	_	VB.PRS.AKT	6	ET	|ha..vb.1|
-10	fördelas	|fördela|	VB	_	VB.INF.SFO	9	VG	|fördela..vb.1|
-11	inte	|inte|	AB	_	AB	10	NA	|inte..ab.1|
-12	.	|	MAD	_	MAD	5	IP	|
+Kärleken utökas ju alltid och det man redan har fördelas inte .
 
 # age = 25
 # agebin = 20--29
@@ -743,29 +276,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 5057723a0
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	helt	|hel|helt|	AB	_	AB.POS	4	AA	|hel..av.1|helt..ab.1|
-4	övertygad	|övertyga|övertygad|	PC	_	PC.PRF.UTR.SIN.IND.NOM	2	SP	|övertyga..vb.1|övertygad..av.1|
-5	om	|om|	PP	_	PP	2	OA	|om..pp.1|
-6	att	|att|	SN	_	SN	5	PA	|att..sn.1|
-7	både	|både och|	KN	_	KN	9	VA	|både_och..knm.1|
-8	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	9	CJ	|du..pn.1|
-9	och	|och|både och:7|	KN	_	KN	11	SS	|och..kn.1|både_och..knm.1:7|
-10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	CJ	|jag..pn.1|
-11	kommer	|komma|	VB	_	VB.PRS.AKT	6	UA	|komma..vb.1|
-12	älska	|älska|	VB	_	VB.INF.AKT	11	VG	|älska..vb.1|älska..vb.2|
-13	en	|en|	DT	_	DT.UTR.SIN.IND	14	DT	|en..al.1|
-14	dotter	|dotter|	NN	_	NN.UTR.SIN.IND.NOM	12	OO	|dotter..nn.1|
-15	precis	|precis|	AB	_	AB	17	AA	|precis..ab.1|
-16	lika	|lika|	AB	_	AB	17	AA	|lika..ab.1|
-17	mycket	|mycket|	AB	_	AB.POS	12	AA	|mycket..ab.1|
-18	som	|	KN	_	KN	12	KA	|
-19	en	|en|	DT	_	DT.UTR.SIN.IND	20	DT	|en..al.1|
-20	son	|son|	NN	_	NN.UTR.SIN.IND.NOM	18	UA	|son..nn.1|
-21	.	|	MAD	_	MAD	2	IP	|
+Jag är helt övertygad om att både du och jag kommer älska en dotter precis lika mycket som en son .
 
 # age = 25
 # agebin = 20--29
@@ -775,26 +286,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 50579ef07
-1	Och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
-3	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-4	ju	|ju|	AB	_	AB	3	MA	|ju..ab.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	XX	|den..pn.1|
-6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	7	SS	|man..pn.1|
-7	känner	|känna|	VB	_	VB.PRS.AKT	5	EF	|känna..vb.1|känna..vb.2|
-8	för	|för|för stunden|	PP	_	PP	7	OA	|för..pp.1|för_stunden..abm.1|
-9	stunden	|stund|för stunden:8|	NN	_	NN.UTR.SIN.DEF.NOM	8	PA	|stund..nn.1|för_stunden..abm.1:8|
-10	som	|	HP	_	HP.-.-.-	11	SS	|
-11	ligger	|ligga|	VB	_	VB.PRS.AKT	9	ET	|ligga..vb.1|
-12	till	|till|	PP	_	PP	11	AA	|till..pp.1|
-13	grund	|grund|	NN	_	NN.UTR.SIN.IND.NOM	12	HD	|grund..nn.1|
-14	för	|för|	PP	_	PP	12	HD	|för..pp.1|
-15	hur	|hur|	HA	_	HA	17	AA	|hur..ab.1|
-16	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	17	SS	|man..pn.1|
-17	tänker	|tänka|	VB	_	VB.PRS.AKT	12	PA	|tänka..vb.1|
-18	.	|	MAD	_	MAD	3	IP	|
+Och det är ju det man känner för stunden som ligger till grund för hur man tänker .
 
 # age = 25
 # agebin = 20--29
@@ -804,26 +296,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 50579a433
-1	Relationer	|relation|	NN	_	NN.UTR.PLU.IND.NOM	2	SS	|relation..nn.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	6	MS	|kunna..vb.1|
-3	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
-4	också	|också|	AB	_	AB	2	+A	|också..ab.1|
-5	förändras	|förändra|	VB	_	VB.INF.SFO	2	VG	|förändra..vb.1|
-6	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-7	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
-8	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	9	SS	|man..pn.1|
-9	stått	|stå|	VB	_	VB.SUP.AKT	7	ET	|stå..vb.1|
-10	närmast	|nära|	AB	_	AB.SUV	9	TA	|nära..ab.1|nära..av.1|
-11	en	|en|	DT	_	DT.UTR.SIN.IND	12	DT	|en..al.1|
-12	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	10	PA	|tid..nn.1|
-13	kan	|kunna|	VB	_	VB.PRS.AKT	6	MS	|kunna..vb.1|
-14	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	13	SS	|man..pn.1|
-15	glida	|glida|	VB	_	VB.INF.AKT	13	VG	|glida..vb.1|
-16	ifrån	|	PL	_	PL	15	PL	|
-17	osv	|osv|	AB	_	AB.AN	15	JC	|osv..aba.1|
-18	.	|	MAD	_	MAD	6	IP	|
+Relationer kan ju också förändras och den man stått närmast en tid kan man glida ifrån osv .
 
 # age = 25
 # agebin = 20--29
@@ -833,28 +306,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 505746305
-1	När	|när|	HA	_	HA	3	TA	|när..ab.1|
-2	barnen	|barn|	NN	_	NN.NEU.PLU.DEF.NOM	3	SS	|barn..nn.1|
-3	blir	|bli|	VB	_	VB.PRS.AKT	6	TA	|bli..vb.1|
-4	äldre	|gammal|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	3	SP	|gammal..av.1|
-5	så	|så|	AB	_	AB	6	DB	|så..ab.1|
-6	finns	|finna|finnas|	VB	_	VB.PRS.SFO	12	MS	|finna..vb.1|finnas..vb.1|
-7	ju	|ju|ju ju|	AB	_	AB	6	MA	|ju..ab.1|ju_ju..knm.1|
-8	inga	|ingen|	DT	_	DT.UTR+NEU.PLU.IND	9	DT	|ingen..pn.1|
-9	garantier	|garanti|	NN	_	NN.UTR.PLU.IND.NOM	6	SS	|garanti..nn.1|
-10	för	|för|	PP	_	PP	6	OA	|för..pp.1|
-11	någonting	|någonting|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	10	PA	|någonting..pn.1|
-12	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
-13	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	14	SS	|de..pn.1|
-14	är	|vara|	VB	_	VB.PRS.AKT	12	MS	|vara..vb.1|
-15	ju	|ju|ju ju:7|	AB	_	AB	14	MA	|ju..ab.1|ju_ju..knm.1:7|
-16	egna	|egen|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	17	DT	|egen..av.1|
-17	personer	|person|	NN	_	NN.UTR.PLU.IND.NOM	14	SP	|person..nn.1|
-18	oavsett	|oavsett|	PP	_	PP	14	AA	|oavsett..pp.1|
-19	kön	|kön|	NN	_	NN.NEU.SIN.IND.NOM	18	PA	|kön..nn.1|
-20	.	|	MAD	_	MAD	12	IP	|
+När barnen blir äldre så finns ju inga garantier för någonting för de är ju egna personer oavsett kön .
 
 # age = 25
 # agebin = 20--29
@@ -864,19 +316,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 50578841e
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	5	MS	|ha..vb.1|
-3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-4	kollat	|kolla|	VB	_	VB.SUP.AKT	2	VG	|kolla..vb.1|kolla..vb.2|
-5	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
-6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
-7	vågar	|våga|	VB	_	VB.PRS.AKT	5	MS	|våga..vb.1|
-8	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
-9	veta	|veta|	VB	_	VB.INF.AKT	7	OO	|veta..vb.1|
-10	innan	|innan|	AB	_	AB	9	TA	|innan..ab.1|
-11	.	|	MAD	_	MAD	5	IP	|
+Vi har inte kollat för jag vågar inte veta innan .
 
 # age = 25
 # agebin = 20--29
@@ -886,32 +326,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 505793ef0
-1	Har	|ha|	VB	_	VB.PRS.AKT	8	MS	|ha..vb.1|
-2	knutit	|knyta|	VB	_	VB.SUP.AKT	1	VG	|knyta..vb.1|
-3	an	|an|	PL	_	PL	2	PL	|an..ab.1|
-4	till	|till|	PP	_	PP	2	OA	|till..pp.1|
-5	bebisen	|bebis|	NN	_	NN.UTR.SIN.DEF.NOM	4	PA	|bebis..nn.1|
-6	i	|i|	PP	_	PP	2	RA	|i..pp.1|
-7	magen	|mage|	NN	_	NN.UTR.SIN.DEF.NOM	6	PA	|mage..nn.1|
-8	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-9	vill	|vilja|	VB	_	VB.PRS.AKT	8	+F	|vilja..vb.1|
-10	inte	|inte|	AB	_	AB	9	NA	|inte..ab.1|
-11	ha	|ha|	VB	_	VB.INF.AKT	9	VG	|ha..vb.1|
-12	något	|någon|	DT	_	DT.NEU.SIN.IND	14	DT	|någon..pn.1|
-13	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	14	DT	|annan..pn.1|
-14	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	11	OO	|barn..nn.1|
-15	än	|	KN	_	KN	14	ET	|
-16	den	|den|en|	DT	_	DT.UTR.SIN.DEF	17	DT	|den..pn.1|en..al.1|
-17	lilla	|liten|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	15	UA	|liten..av.1|
-18	som	|	HP	_	HP.-.-.-	20	SS	|
-19	snart	|snar|snart|	AB	_	AB.POS	20	TA	|snar..av.1|snart..ab.1|
-20	legat	|ligga|	VB	_	VB.SUP.AKT	17	ET	|ligga..vb.1|
-21	där	|där|	AB	_	AB	20	RA	|där..ab.1|
-22	tiden	|tid|	NN	_	NN.UTR.SIN.DEF.NOM	20	TA	|tid..nn.1|
-23	ut	|ut|	AB	_	AB	20	RA	|ut..ab.1|
-24	.	|	MAD	_	MAD	8	IP	|
+Har knutit an till bebisen i magen och vill inte ha något annat barn än den lilla som snart legat där tiden ut .
 
 # age = 25
 # agebin = 20--29
@@ -921,20 +336,7 @@
 # thread_title = Varit på RUL, men vågar inte öppna kuvert med besked om kön
 # post_id = 75983905
 # post_date = 2015-11-10 08:29:37
-# username = Tokstollen
-# sent_id = 505706ebb
-1	Inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
-2	alls	|alls|	AB	_	AB	3	AA	|alls..ab.1|
-3	långt	|lång|långt|	AB	_	AB.POS	4	AA	|lång..av.1|långt..ab.1|
-4	kvar	|kvar|	AB	_	AB	12	HD	|kvar..ab.1|
-5	nu	|nu|	AB	_	AB	4	TA	|nu..ab.1|
-6	tills	|tills|	SN	_	SN	4	TA	|tills..sn.1|
-7	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	8	SS	|vi..pn.1|
-8	får	|få|	VB	_	VB.PRS.AKT	6	UA	|få..vb.1|
-9	träffa	|träffa|	VB	_	VB.INF.AKT	8	VG	|träffa..vb.1|
-10	vår	|vi|	PS	_	PS.UTR.SIN.DEF	11	DT	|vi..pn.1|
-11	bebis	|bebis|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|bebis..nn.1|
-12	.	|	MAD	_	MAD	0	ROOT	|
+Inte alls långt kvar nu tills vi får träffa vår bebis .
 
 # age = 17
 # agebin = <20
@@ -944,26 +346,7 @@
 # thread_title = Jag är vuxen och kan inte simma! är så deprimerad speciellt nu inför sommaren!
 # post_id = 18638975
 # post_date = 2007-03-20 02:07:55
-# username = Tokstollen
-# sent_id = 688697955
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	bara	|bara|	AB	_	AB	2	CA	|bara..ab.1|
-4	att	|att|	IE	_	IE	9	MS	|att..sn.1|
-5	ta	|ta|ta tjuren vid hornen|	VB	_	VB.INF.AKT	4	IF	|ta..vb.1|ta_tjuren_vid_hornen..vbm.1|
-6	tjuren	|tjur|ta tjuren vid hornen:5|	NN	_	NN.UTR.SIN.DEF.NOM	5	OO	|tjur..nn.1|ta_tjuren_vid_hornen..vbm.1:5|
-7	vid	|vid|ta tjuren vid hornen:5|	PP	_	PP	5	RA	|vid..pp.1|ta_tjuren_vid_hornen..vbm.1:5|
-8	hornen	|horn|ta tjuren vid hornen:5|	NN	_	NN.NEU.PLU.DEF.NOM	7	PA	|horn..nn.1|ta_tjuren_vid_hornen..vbm.1:5|
-9	och	|och|	KN	_	KN	2	MS	|och..kn.1|
-10	besöka	|besöka|	VB	_	VB.INF.AKT	9	+F	|besöka..vb.1|
-11	den	|den|en|	DT	_	DT.UTR.SIN.DEF	13	DT	|den..pn.1|en..al.1|
-12	lokala	|lokal|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	13	AT	|lokal..av.1|
-13	simhallen	|simhall|	NN	_	NN.UTR.SIN.DEF.NOM	10	OO	|simhall..nn.1|
-14	och	|och|	KN	_	KN	9	++	|och..kn.1|
-15	kolla	|kolla|	VB	_	VB.INF.AKT	14	+F	|kolla..vb.1|kolla..vb.2|
-16	med	|med|	PP	_	PP	15	OA	|med..pp.1|
-17	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	16	PA	|de..pn.1|
-18	.	|	MAD	_	MAD	2	IP	|
+Det är bara att ta tjuren vid hornen och besöka den lokala simhallen och kolla med dom .
 
 # age = 17
 # agebin = <20
@@ -973,26 +356,7 @@
 # thread_title = Jag är vuxen och kan inte simma! är så deprimerad speciellt nu inför sommaren!
 # post_id = 18638975
 # post_date = 2007-03-20 02:07:55
-# username = Tokstollen
-# sent_id = 6886cb24b
-1	Har	|ha|	VB	_	VB.PRS.AKT	8	AA	|ha..vb.1|
-2	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	1	SS	|de..pn.1|
-3	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	4	DT	|ingen..pn.1|
-4	simskola	|simskola|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|simskola..nn.1|
-5	för	|för|	PP	_	PP	1	OA	|för..pp.1|
-6	vuxna	|vuxen|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	5	PA	|vuxen..av.1|
-7	så	|så|	AB	_	AB	8	DB	|så..ab.1|
-8	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-9	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	8	SS	|de..pn.1|
-10	säkert	|säker|	AB	_	AB.POS	8	MA	|säker..av.1|
-11	hänvisa	|hänvisa|	VB	_	VB.INF.AKT	8	VG	|hänvisa..vb.1|
-12	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	11	OO	|du..pn.1|
-13	till	|till|	PP	_	PP	11	OA	|till..pp.1|
-14	en	|man|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	13	PA	|man..pn.1|
-15	som	|	HP	_	HP.-.-.-	16	SS	|
-16	har	|ha|	VB	_	VB.PRS.AKT	14	ET	|ha..vb.1|
-17	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	16	OO	|den..pn.1|
-18	.	|	MAD	_	MAD	8	IP	|
+Har dom ingen simskola för vuxna så kan dom säkert hänvisa dig till en som har det .
 
 # age = 17
 # agebin = <20
@@ -1002,21 +366,7 @@
 # thread_title = Jag är vuxen och kan inte simma! är så deprimerad speciellt nu inför sommaren!
 # post_id = 18638975
 # post_date = 2007-03-20 02:07:55
-# username = Tokstollen
-# sent_id = 688628e84
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	absolut	|absolut|	AB	_	AB.POS	2	MA	|absolut..ab.1|absolut..av.1|
-4	inget	|ingen|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	2	SP	|ingen..pn.1|
-5	att	|att|	IE	_	IE	2	ES	|att..sn.1|
-6	skämmas	|skämma|skämmas|	VB	_	VB.INF.SFO	5	IF	|skämma..vb.1|skämmas..vb.1|
-7	för	|för|	PP	_	PP	6	OA	|för..pp.1|
-8	att	|att|	SN	_	SN	7	PA	|att..sn.1|
-9	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-10	inte	|inte|	AB	_	AB	11	NA	|inte..ab.1|
-11	kan	|kunna|	VB	_	VB.PRS.AKT	8	UA	|kunna..vb.1|
-12	simma	|simma|	VB	_	VB.INF.AKT	11	VG	|simma..vb.1|
-13	.	|	MAD	_	MAD	2	IP	|
+Det är absolut inget att skämmas för att man inte kan simma .
 
 # age = 17
 # agebin = <20
@@ -1026,9 +376,5 @@
 # thread_title = Jag är vuxen och kan inte simma! är så deprimerad speciellt nu inför sommaren!
 # post_id = 18638975
 # post_date = 2007-03-20 02:07:55
-# username = Tokstollen
-# sent_id = 6886177d1
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
-3	.	|	MAD	_	MAD	2	IP	|
+Lycka till .
 

@@ -6,10 +6,7 @@
 # thread_title = Hon sa "hej äcklin"
 # post_id = 33797048
 # post_date = 2008-06-20 10:17:09
-# username = ElinOlsson
-# sent_id = 85861574
-1	Gulligt	|gullig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	0	ROOT	|gullig..av.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Gulligt !
 
 # age = 16
 # agebin = <20
@@ -19,18 +16,7 @@
 # thread_title = Hon sa "hej äcklin"
 # post_id = 33797048
 # post_date = 2008-06-20 10:17:09
-# username = ElinOlsson
-# sent_id = 85849afd
-1	Min	|jag|	PS	_	PS.UTR.SIN.DEF	2	DT	|jag..pn.1|
-2	son	|son|	NN	_	NN.UTR.SIN.IND.NOM	3	SS	|son..nn.1|
-3	sa	|säga|	VB	_	VB.PRT.AKT	0	ROOT	|säga..vb.1|
-4	"	|	PAD	_	PAD	5	IC	|
-5	tia-jaan	|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|
-6	"	|	PAD	_	PAD	5	JC	|
-7	=	|	MID	_	MID	3	IG	|
-8	puss	|puss|	NN	_	NN.UTR.SIN.IND.NOM	9	CJ	|puss..nn.1|
-9	och	|och|	KN	_	KN	5	AN	|och..kn.1|
-10	kram	|kram|	NN	_	NN.UTR.SIN.IND.NOM	9	CJ	|kram..nn.1|
+Min son sa " tia-jaan " = puss och kram
 
 # age = 16
 # agebin = <20
@@ -40,30 +26,7 @@
 # thread_title = Hon sa "hej äcklin"
 # post_id = 33797048
 # post_date = 2008-06-20 10:17:09
-# username = ElinOlsson
-# sent_id = 8587e507
-1	Sen	|sen|	AB	_	AB	2	TA	|sen..ab.1|
-2	finns	|finna|finnas|	VB	_	VB.PRS.SFO	0	ROOT	|finna..vb.1|finnas..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-4	ju	|ju|	AB	_	AB	2	MA	|ju..ab.1|
-5	inget	|ingen|	DT	_	DT.NEU.SIN.IND	6	DT	|ingen..pn.1|
-6	härligare	|härlig|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	2	SP	|härlig..av.1|
-7	än	|	KN	_	KN	2	KA	|
-8	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	11	DT	|en..al.1|
-9	små	|liten|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	11	AT	|liten..av.1|
-10	knubbiga	|knubbig|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	11	AT	|knubbig..av.1|
-11	armarna	|arm|	NN	_	NN.UTR.PLU.DEF.NOM	7	UA	|arm..nn.1|
-12	om	|om|	PP	_	PP	11	ET	|om..pp.1|
-13	halsen	|hals|	NN	_	NN.UTR.SIN.DEF.NOM	12	PA	|hals..nn.1|
-14	och	|och|	KN	_	KN	12	PA	|och..kn.1|
-15	ett	|en|	DT	_	DT.NEU.SIN.IND	14	CJ	|en..al.1|
-16	"	|	PAD	_	PAD	18	SS	|
-17	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	18	SS	|jag..pn.1|
-18	ääälskar	|	VB	_	VB.PRS.AKT	2	MS	|
-19	dej	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	18	OO	|du..pn.1|
-20	mamma	|mamma|	NN	_	NN.UTR.SIN.IND.NOM	18	OO	|mamma..nn.1|
-21	!	|	MAD	_	MAD	2	IU	|
-22	"	|	PAD	_	PAD	2	JR	|
+Sen finns det ju inget härligare än de små knubbiga armarna om halsen och ett " Jag ääälskar dej mamma ! "
 
 # age = 16
 # agebin = <20
@@ -73,13 +36,5 @@
 # thread_title = Hon sa "hej äcklin"
 # post_id = 33797048
 # post_date = 2008-06-20 10:17:09
-# username = ElinOlsson
-# sent_id = 858d817e
-1	/	|	MID	_	MID	0	ROOT	|
-2	Från	|från|	PP	_	PP	1	AA	|från..pp.1|
-3	ett	|en|	DT	_	DT.NEU.SIN.IND	6	DT	|en..al.1|
-4	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	6	DT	|annan..pn.1|
-5	varmt	|varm|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	6	AT	|varm..av.1|
-6	mammahjärta	|mammahjärta|	NN	_	NN.NEU.SIN.IND.NOM	2	PA	|
-7	!	|	MAD	_	MAD	1	IU	|
+/ Från ett annat varmt mammahjärta !
 

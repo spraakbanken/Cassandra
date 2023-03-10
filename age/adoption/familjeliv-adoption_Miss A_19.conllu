@@ -6,37 +6,7 @@
 # thread_title = Att aldrig få uppleva lyckan att bli mamma...
 # post_id = 17763388
 # post_date = 2007-02-23 15:19:01
-# username = Miss A
-# sent_id = a58cb59e
-1	Hej	|hej|	IN	_	IN	19	MS	|hej..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	Min	|jag|	PS	_	PS.UTR.SIN.DEF	4	DT	|jag..pn.1|
-4	man	|man|	NN	_	NN.UTR.SIN.IND.NOM	5	SS	|man..nn.1|man..nn.2|
-5	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
-6	haft	|ha|	VB	_	VB.SUP.AKT	5	VG	|ha..vb.1|
-7	testikelcancer	|testikelcancer|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|testikelcancer..nn.1|
-8	för	|för|	PP	_	PP	6	TA	|för..pp.1|
-9	3	|	RG	_	RG.NOM	10	DT	|
-10	år	|år|	NN	_	NN.NEU.PLU.IND.NOM	8	PA	|år..nn.1|
-11	sedan	|sedan|	AB	_	AB	8	HD	|sedan..ab.1|
-12	,	|	MID	_	MID	13	IK	|
-13	men	|men|	KN	_	KN	19	MS	|men..kn.1|
-14	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	15	SS	|vi..pn.1|
-15	fick	|få|	VB	_	VB.PRT.AKT	19	MS	|få..vb.1|
-16	ett	|en|	DT	_	DT.NEU.SIN.IND	18	DT	|en..al.1|
-17	positivt	|positiv|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	18	AT	|positiv..av.1|
-18	specialistläkarutlåtande	|specialistläkarutlåtande|	NN	_	NN.NEU.SIN.IND.NOM	15	OO	|
-19	så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
-20	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	21	FS	|den..pn.1|
-21	var	|vara|	VB	_	VB.PRT.AKT	19	MS	|vara..vb.1|
-22	inga	|ingen|inga problem|	DT	_	DT.UTR+NEU.PLU.IND	23	DT	|ingen..pn.1|inga_problem..inm.1|
-23	problem	|problem|inga problem:22|	NN	_	NN.NEU.PLU.IND.NOM	21	SP	|problem..nn.1|inga_problem..inm.1:22|
-24	för	|för|	PP	_	PP	21	OA	|för..pp.1|
-25	oss	|vi|	PN	_	PN.UTR.PLU.DEF.OBJ	24	PA	|vi..pn.1|
-26	att	|att|	IE	_	IE	21	ES	|att..sn.1|
-27	få	|få|	VB	_	VB.INF.AKT	26	IF	|få..vb.1|
-28	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	27	OO	|medgivande..nn.1|
-29	.	|	MAD	_	MAD	1	IP	|
+Hej , Min man har haft testikelcancer för 3 år sedan , men vi fick ett positivt specialistläkarutlåtande så det var inga problem för oss att få medgivande .
 
 # age = 19
 # agebin = <20
@@ -46,11 +16,7 @@
 # thread_title = Att aldrig få uppleva lyckan att bli mamma...
 # post_id = 17763388
 # post_date = 2007-02-23 15:19:01
-# username = Miss A
-# sent_id = a58019f9
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
-3	.	|	MAD	_	MAD	2	IP	|
+Lycka till .
 
 # age = 19
 # agebin = <20
@@ -60,24 +26,7 @@
 # thread_title = Att aldrig få uppleva lyckan att bli mamma...
 # post_id = 17763388
 # post_date = 2007-02-23 15:19:01
-# username = Miss A
-# sent_id = a581ecfb
-1	Du	|Du|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|Du..pn.1|du..pn.1|
-2	ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
-3	veta	|veta|	VB	_	VB.INF.AKT	2	VG	|veta..vb.1|
-4	att	|att|	SN	_	SN	3	OO	|att..sn.1|
-5	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	6	SS	|man..pn.1|
-6	kan	|kunna|	VB	_	VB.PRS.AKT	4	UA	|kunna..vb.1|
-7	byta	|byta|byta om|	VB	_	VB.INF.AKT	6	VG	|byta..vb.1|byta_om..vbm.1|
-8	handläggare	|handläggare|	NN	_	NN.UTR.PLU.IND.NOM	7	OO	|handläggare..nn.1|
-9	om	|om|byta om:7|	SN	_	SN	7	AA	|om..sn.1|byta_om..vbm.1:7|
-10	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	12	SS	|man..pn.1|
-11	inte	|inte|	AB	_	AB	12	NA	|inte..ab.1|
-12	är	|vara|	VB	_	VB.PRS.AKT	13	MS	|vara..vb.1|
-13	/	|	MID	_	MID	9	UA	|
-14	blir	|bli|	VB	_	VB.PRS.AKT	13	+F	|bli..vb.1|
-15	nöjd	|nöjd|	PC	_	PC.PRF.UTR.SIN.IND.NOM	14	SP	|nöjd..av.1|
-16	.	|	MAD	_	MAD	2	IP	|
+Du ska veta att man kan byta handläggare om man inte är / blir nöjd .
 
 # age = 19
 # agebin = <20
@@ -87,14 +36,7 @@
 # thread_title = Att aldrig få uppleva lyckan att bli mamma...
 # post_id = 17763388
 # post_date = 2007-02-23 15:19:01
-# username = Miss A
-# sent_id = a5897870
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	rättigheter	|rättighet|	NN	_	NN.UTR.PLU.IND.NOM	2	OO	|rättighet..nn.1|
-4	också	|också|	AB	_	AB	2	+A	|också..ab.1|
-5	!	|	MAD	_	MAD	2	IU	|
-6	!	|	MAD	_	MAD	2	IU	|
+Vi har rättigheter också ! !
 
 # age = 19
 # agebin = <20
@@ -104,9 +46,5 @@
 # thread_title = Att aldrig få uppleva lyckan att bli mamma...
 # post_id = 17763388
 # post_date = 2007-02-23 15:19:01
-# username = Miss A
-# sent_id = a58746f6
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
-3	=)	|	NN	_	NN.NEU.SIN.IND.NOM	2	PA	|
+Lycka till =)
 

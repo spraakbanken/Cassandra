@@ -6,22 +6,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed565b00
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	8	MS	|vara..vb.1|
-3	just	|just|just nu|	AB	_	AB	2	CA	|just..ab.1|just..av.1|just_nu..abm.1|
-4	nu	|nu|just nu:3|	AB	_	AB	2	TA	|nu..ab.1|just_nu..abm.1:3|
-5	bara	|bara|	AB	_	AB	2	CA	|bara..ab.1|
-6	18	|	RG	_	RG.NOM	2	SP	|
-7	,	|	MID	_	MID	8	IK	|
-8	så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
-9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
-10	kan	|kunna|	VB	_	VB.PRS.AKT	8	MS	|kunna..vb.1|
-11	givetvis	|givetvis|	AB	_	AB	10	MA	|givetvis..ab.1|
-12	inte	|inte|	AB	_	AB	10	NA	|inte..ab.1|
-13	adoptera	|adoptera|	VB	_	VB.INF.AKT	10	VG	|adoptera..vb.1|
-14	.	|	MAD	_	MAD	8	IP	|
+Jag är just nu bara 18 , så jag kan givetvis inte adoptera .
 
 # age = 18
 # agebin = <20
@@ -31,36 +16,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed58e8bc
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	1	MS	|kunna..vb.1|
-3	absolut	|absolut|	AB	_	AB.POS	2	MA	|absolut..ab.1|absolut..av.1|
-4	tänka	|tänka|tänka sig|	VB	_	VB.INF.AKT	2	VG	|tänka..vb.1|tänka_sig..vbm.1|
-5	mig	|jag|tänka sig:4|	PN	_	PN.UTR.SIN.DEF.OBJ	4	OO	|jag..pn.1|tänka_sig..vbm.1:4|
-6	att	|att|	IE	_	IE	4	OA	|att..sn.1|
-7	göra	|göra|	VB	_	VB.INF.AKT	6	IF	|göra..vb.1|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	OO	|den..pn.1|
-9	när	|när|	HA	_	HA	11	TA	|när..ab.1|
-10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|jag..pn.1|
-11	har	|ha|	VB	_	VB.PRS.AKT	15	MS	|ha..vb.1|
-12	åldern	|ålder|	NN	_	NN.UTR.SIN.DEF.NOM	11	OO	|ålder..nn.1|
-13	inne	|inne|	AB	_	AB	11	RA	|inne..ab.1|
-14	,	|	MID	_	MID	15	IK	|
-15	och	|och|	KN	_	KN	1	++	|och..kn.1|
-16	tycker	|tycka|	VB	_	VB.PRS.AKT	15	+F	|tycka..vb.1|
-17	att	|att|	SN	_	SN	16	OO	|att..sn.1|
-18	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	19	SS	|den..pn.1|
-19	känns	|känna|kännas|	VB	_	VB.PRS.SFO	17	UA	|känna..vb.1|känna..vb.2|kännas..vb.1|
-20	"	|	PAD	_	PAD	21	IC	|
-21	rätt	|rätt|	NN	_	NN.UTR.SIN.IND.NOM	19	SP	|rätt..nn.1|rätt..nn.2|rätt..nn.3|
-22	i	|i|	PP	_	PP	21	ET	|i..pp.1|
-23	tiden	|tid|	NN	_	NN.UTR.SIN.DEF.NOM	22	PA	|tid..nn.1|
-24	"	|	PAD	_	PAD	21	JC	|
-25	så	|så|så att säga|	AB	_	AB	19	AA	|så..ab.1|så_att_säga..abm.1|
-26	att	|att|så att säga:25|	IE	_	IE	25	HD	|att..sn.1|så_att_säga..abm.1:25|
-27	säga	|säga|så att säga:25|	VB	_	VB.INF.AKT	25	HD	|säga..vb.1|så_att_säga..abm.1:25|
-28	.	|	MAD	_	MAD	2	IP	|
+Men kan absolut tänka mig att göra det när jag har åldern inne , och tycker att det känns " rätt i tiden " så att säga .
 
 # age = 18
 # agebin = <20
@@ -70,51 +26,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed5501b9
-1	Men	|men|	KN	_	KN	5	++	|men..kn.1|
-2	ja	|ja|	IN	_	IN	38	MS	|ja..in.1|
-3	,	|	MID	_	MID	38	IK	|
-4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-5	tänkte	|tänka|	VB	_	VB.PRT.AKT	38	MS	|tänka..vb.1|
-6	bara	|bara|	AB	_	AB	5	CA	|bara..ab.1|
-7	fråga	|fråga|	VB	_	VB.INF.AKT	5	VG	|fråga..vb.1|fråga..vb.2|
-8	lite	|lite|	AB	_	AB.POS	7	AA	|lite..ab.1|
-9	på	|på|	PP	_	PP	7	OA	|på..pp.1|
-10	kul	|kul|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	9	PA	|kul..av.1|
-11	...	|	MID	_	MID	13	IG	|
-12	Vietnam	|Vietnam|	PM	_	PM.NOM	13	SS	|Vietnam..pm.1|
-13	är	|vara|	VB	_	VB.PRS.AKT	5	MS	|vara..vb.1|
-14	mitt	|jag|	PS	_	PS.NEU.SIN.DEF	15	DT	|jag..pn.1|
-15	favoritland	|favoritland|	NN	_	NN.NEU.SIN.IND.NOM	13	SS	|
-16	just	|just|just nu|	AB	_	AB	17	CA	|just..ab.1|just..av.1|just_nu..abm.1|
-17	nu	|nu|just nu:16|	AB	_	AB	13	TA	|nu..ab.1|just_nu..abm.1:16|
-18	,	|	MID	_	MID	19	IK	|
-19	brukar	|bruka|	VB	_	VB.PRS.AKT	13	+F	|bruka..vb.1|
-20	läsa	|läsa|	VB	_	VB.INF.AKT	19	OO	|läsa..vb.1|
-21	lite	|lite|	AB	_	AB.POS	20	AA	|lite..ab.1|
-22	om	|om|	PP	_	PP	20	OA	|om..pp.1|
-23	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	25	DT	|en..al.1|
-24	olika	|olik|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	25	AT	|olik..av.1|
-25	länderna	|land|	NN	_	NN.NEU.PLU.DEF.NOM	26	CJ	|land..nn.1|
-26	och	|och|	KN	_	KN	22	PA	|och..kn.1|
-27	dess	|den|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	28	DT	|den..pn.1|
-28	krav	|krav|	NN	_	NN.NEU.PLU.IND.NOM	26	CJ	|krav..nn.1|
-29	-	|	MID	_	MID	38	IT	|
-30	mycket	|mycket|	AB	_	AB.POS	31	AA	|mycket..ab.1|
-31	mer	|mer|mycket|	AB	_	AB.KOM	32	AA	|mer..ab.1|mycket..ab.1|
-32	kan	|kunna|	VB	_	VB.PRS.AKT	38	MS	|kunna..vb.1|
-33	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	32	SS	|jag..pn.1|
-34	inte	|inte|	AB	_	AB	32	NA	|inte..ab.1|
-35	göra	|göra|	VB	_	VB.INF.AKT	32	VG	|göra..vb.1|
-36	nu	|nu|	AB	_	AB	35	TA	|nu..ab.1|
-37	,	|	MID	_	MID	38	IK	|
-38	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-39	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	40	SS	|den..pn.1|
-40	är	|vara|	VB	_	VB.PRS.AKT	38	MS	|vara..vb.1|
-41	intressant	|intressant|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	40	SP	|intressant..av.1|
-42	iallafall	|iallafall|	AB	_	AB	40	AA	|iallafall..ab.1|
-43	.	|	MAD	_	MAD	38	IP	|
+Men ja , jag tänkte bara fråga lite på kul ... Vietnam är mitt favoritland just nu , brukar läsa lite om de olika länderna och dess krav - mycket mer kan jag inte göra nu , men det är intressant iallafall .
 
 # age = 18
 # agebin = <20
@@ -124,15 +36,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed507ea0
-1	Och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-2	Vietnam	|Vietnam|	PM	_	PM.NOM	3	SS	|Vietnam..pm.1|
-3	låter	|låta|	VB	_	VB.PRS.AKT	1	MS	|låta..vb.1|
-4	som	|	KN	_	KN	3	KA	|
-5	ett	|en|	DT	_	DT.NEU.SIN.IND	6	DT	|en..al.1|
-6	toppenland	|toppenland|	NN	_	NN.NEU.SIN.IND.NOM	4	UA	|
-7	!	|	MAD	_	MAD	3	IU	|
+Och Vietnam låter som ett toppenland !
 
 # age = 18
 # agebin = <20
@@ -142,13 +46,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed5fccd7
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SP	|den..pn.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	undrar	|undra|	VB	_	VB.PRS.AKT	1	ET	|undra..vb.1|
-4	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-5	.	|	MAD	_	MAD	4	IP	|
+Det jag undrar är .
 
 # age = 18
 # agebin = <20
@@ -158,15 +56,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed5c2ebb
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	står	|stå|	VB	_	VB.PRS.AKT	0	ROOT	|stå..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	ensamstående	|ensamstående|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	5	SS	|ensamstående..av.1|
-5	kan	|kunna|	VB	_	VB.PRS.AKT	3	UA	|kunna..vb.1|
-6	adoptera	|adoptera|	VB	_	VB.INF.AKT	5	VG	|adoptera..vb.1|
-7	!	|	MAD	_	MAD	2	IU	|
+Det står att ensamstående kan adoptera !
 
 # age = 18
 # agebin = <20
@@ -176,11 +66,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed55d9e8
-1	Stämmer	|stämma|	VB	_	VB.PRS.AKT	0	ROOT	|stämma..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	?	|	MAD	_	MAD	1	I?	|
+Stämmer det ?
 
 # age = 18
 # agebin = <20
@@ -190,29 +76,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed5db7c7
-1	Finns	|finna|finnas|	VB	_	VB.PRS.SFO	9	MS	|finna..vb.1|finnas..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	FS	|den..pn.1|
-3	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	5	DT	|någon..pn.1|
-4	negativa	|negativ|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	5	AT	|negativ..av.1|
-5	aspekter	|aspekt|	NN	_	NN.UTR.PLU.IND.NOM	1	ES	|aspekt..nn.1|
-6	med	|med|	PP	_	PP	1	OA	|med..pp.1|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	PA	|den..pn.1|
-8	,	|	MID	_	MID	1	IK	|
-9	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-10	har	|ha|	VB	_	VB.PRS.AKT	9	MS	|ha..vb.1|
-11	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	10	SS	|man..pn.1|
-12	samma	|samma|	DT	_	DT.UTR+NEU.SIN+PLU.IND	13	DT	|samma..pn.1|
-13	fördelar	|fördel|	NN	_	NN.UTR.PLU.IND.NOM	10	OO	|fördel..nn.1|
-14	vid	|vid|	PP	_	PP	13	ET	|vid..pp.1|
-15	adoptionen	|adoption|	NN	_	NN.UTR.SIN.DEF.NOM	14	PA	|adoption..nn.1|
-16	som	|	HP	_	HP.-.-.-	20	OO	|
-17	ett	|en|ett par|	DT	_	DT.NEU.SIN.IND	18	DT	|en..al.1|ett_par..pnm.1|
-18	par	|par|ett par:17|	NN	_	NN.NEU.SIN.IND.NOM	19	SS	|par..nn.1|ett_par..pnm.1:17|
-19	skulle	|skola|	VB	_	VB.PRT.AKT	15	ET	|skola..vb.2|
-20	haft	|ha|	VB	_	VB.SUP.AKT	19	VG	|ha..vb.1|
-21	?	|	MAD	_	MAD	9	I?	|
+Finns det några negativa aspekter med det , eller har man samma fördelar vid adoptionen som ett par skulle haft ?
 
 # age = 18
 # agebin = <20
@@ -222,24 +86,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed551ee5
-1	Kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	fortfarande	|fortfarande|	AB	_	AB	1	TA	|fortfarande..ab.1|
-4	fylla	|fylla|	VB	_	VB.INF.AKT	1	VG	|fylla..vb.1|
-5	i	|i|	PP	_	PP	4	OA	|i..pp.1|
-6	att	|att|	SN	_	SN	5	PA	|att..sn.1|
-7	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	8	SS	|man..pn.1|
-8	vill	|vilja|	VB	_	VB.PRS.AKT	6	UA	|vilja..vb.1|
-9	ha	|ha|	VB	_	VB.INF.AKT	8	VG	|ha..vb.1|
-10	så	|så|	AB	_	AB	11	AA	|så..ab.1|
-11	små	|liten|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	12	AT	|liten..av.1|
-12	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	9	OO	|barn..nn.1|
-13	som	|	KN	_	KN	12	ET	|
-14	möjligt	|möjlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	13	UA	|möjlig..av.1|
-15	då	|då|	AB	_	AB	9	TA	|då..ab.1|då..ab.2|
-16	?	|	MAD	_	MAD	1	I?	|
+Kan man fortfarande fylla i att man vill ha så små barn som möjligt då ?
 
 # age = 18
 # agebin = <20
@@ -249,29 +96,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed5d8334
-1	Brukar	|bruka|	VB	_	VB.PRS.AKT	5	AA	|bruka..vb.1|
-2	oftast	|ofta|	AB	_	AB.SUV	1	TA	|ofta..ab.1|
-3	vara	|vara|	VB	_	VB.INF.AKT	1	VG	|vara..vb.1|vara..vb.2|
-4	så	|så|	AB	_	AB	5	DB	|så..ab.1|
-5	har	|ha|	VB	_	VB.PRS.AKT	9	MS	|ha..vb.1|
-6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-7	märkt	|märka|	VB	_	VB.SUP.AKT	5	VG	|märka..vb.1|
-8	,	|	MID	_	MID	9	IK	|
-9	så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
-10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|jag..pn.1|
-11	blev	|bli|	VB	_	VB.PRT.AKT	9	MS	|bli..vb.1|
-12	lite	|lite|	AB	_	AB.POS	13	AA	|lite..ab.1|
-13	nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	11	SP	|nyfiken..av.1|
-14	på	|på|	PP	_	PP	11	OA	|på..pp.1|
-15	hur	|hur|	HA	_	HA	17	AA	|hur..ab.1|
-16	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	17	SS	|den..pn.1|
-17	låg	|ligga|ligga till|	VB	_	VB.PRT.AKT	14	PA	|ligga..vb.1|ligga_till..vbm.1|
-18	till	|till|ligga till:17|	PL	_	PL	17	PL	|till..ab.1|ligga_till..vbm.1:17|
-19	med	|med|	PP	_	PP	17	OA	|med..pp.1|
-20	Vietnam	|Vietnam|	PM	_	PM.NOM	19	PA	|Vietnam..pm.1|
-21	.	|	MAD	_	MAD	9	IP	|
+Brukar oftast vara så har jag märkt , så jag blev lite nyfiken på hur det låg till med Vietnam .
 
 # age = 18
 # agebin = <20
@@ -281,15 +106,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed5b511d
-1	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	0	ROOT	|någon..pn.1|
-2	som	|	HP	_	HP.-.-.-	3	SS	|
-3	adopterat	|adoptera|	VB	_	VB.SUP.AKT	1	ET	|adoptera..vb.1|
-4	därifrån	|därifrån|	AB	_	AB	3	RA	|därifrån..ab.1|
-5	annars	|annars|	AB	_	AB	4	AA	|annars..ab.1|
-6	då	|då|	AB	_	AB	5	HD	|då..ab.1|då..ab.2|
-7	?	|	MAD	_	MAD	1	I?	|
+Någon som adopterat därifrån annars då ?
 
 # age = 18
 # agebin = <20
@@ -299,10 +116,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48239024
 # post_date = 2009-10-24 18:15:07
-# username = Amandass
-# sent_id = ed537087
-1	Berätta	|berätta|	VB	_	VB.IMP.AKT	0	ROOT	|berätta..vb.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Berätta !
 
 # age = 18
 # agebin = <20
@@ -312,25 +126,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed5ffdd9
-1	Okej	|	IN	_	IN	0	ROOT	|
-2	,	|	MID	_	MID	1	IK	|
-3	där	|där|	AB	_	AB	4	RA	|där..ab.1|
-4	ser	|se|	VB	_	VB.PRS.AKT	1	MS	|se..vb.1|
-5	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	4	SS	|man..pn.1|
-6	..	|	MID	_	MID	4	OO	|
-7	tyckte	|tycka|	VB	_	VB.PRT.AKT	1	MS	|tycka..vb.1|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	OO	|den..pn.1|
-9	stod	|stå|	VB	_	VB.PRT.AKT	1	MS	|stå..vb.1|
-10	på	|på|	PP	_	PP	9	RA	|på..pp.1|
-11	iaf	|	NN	_	NN.UTR.SIN.IND.NOM	12	DT	|
-12	BFA	|	PM	_	PM.NOM	10	PA	|
-13	att	|att|	SN	_	SN	9	KA	|att..sn.1|
-14	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	15	SS	|de..pn.1|
-15	accepterade	|acceptera|	VB	_	VB.PRT.AKT	13	UA	|acceptera..vb.1|
-16	ensamstående	|ensamstående|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	15	SP	|ensamstående..av.1|
-17	.	|	MAD	_	MAD	1	IP	|
+Okej , där ser man .. tyckte det stod på iaf BFA att de accepterade ensamstående .
 
 # age = 18
 # agebin = <20
@@ -340,15 +136,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed595c89
-1	Tråkigt	|tråkig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	0	ROOT	|tråkig..av.1|
-2	att	|att|	SN	_	SN	1	KA	|att..sn.1|
-3	möjligheterna	|möjlighet|	NN	_	NN.UTR.PLU.DEF.NOM	4	SS	|möjlighet..nn.1|
-4	minskar	|minska|	VB	_	VB.PRS.AKT	2	UA	|minska..vb.1|
-5	för	|för|	PP	_	PP	4	OA	|för..pp.1|
-6	singlar	|singel|	NN	_	NN.UTR.PLU.IND.NOM	5	PA	|singel..nn.1|
-7	!	|	MAD	_	MAD	1	IU	|
+Tråkigt att möjligheterna minskar för singlar !
 
 # age = 18
 # agebin = <20
@@ -358,16 +146,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed520a8b
-1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	ändrar	|ändra|ändra sig|	VB	_	VB.PRS.AKT	1	OO	|ändra..vb.1|ändra_sig..vbm.1|
-4	sig	|sig|ändra sig:3|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	3	OO	|sig..pn.1|ändra_sig..vbm.1:3|
-5	med	|med|med tiden|	PP	_	PP	3	AA	|med..pp.1|med_tiden..abm.1|
-6	tiden	|tid|med tiden:5|	NN	_	NN.UTR.SIN.DEF.NOM	5	PA	|tid..nn.1|med_tiden..abm.1:5|
-7	iallafall	|iallafall|	AB	_	AB	3	AA	|iallafall..ab.1|
-8	:/	|	MAD	_	MAD	3	IG	|
+Hoppas det ändrar sig med tiden iallafall :/
 
 # age = 18
 # agebin = <20
@@ -377,22 +156,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed5425ef
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	vet	|veta|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|
-3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-4	på	|på|	PP	_	PP	8	OA	|på..pp.1|
-5	vilket	|	HP	_	HP.NEU.SIN.IND	4	PA	|
-6	sett	|se|	PC	_	PC.PRF.NEU.SIN.IND.NOM	8	AA	|se..vb.1|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	SS	|den..pn.1|
-8	lät	|låta|	VB	_	VB.PRT.AKT	2	OO	|låta..vb.1|
-9	fel	|	PL	_	PL	8	PL	|
-10	med	|med|	PP	_	PP	8	OA	|med..pp.1|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	PA	|den..pn.1|
-12	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|jag..pn.1|
-13	skrev	|skriva|	VB	_	VB.PRT.AKT	11	ET	|skriva..vb.1|
-14	.	|	MAD	_	MAD	2	IP	|
+Jag vet inte på vilket sett det lät fel med det jag skrev .
 
 # age = 18
 # agebin = <20
@@ -402,16 +166,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed52a6f1
-1	Kanske	|kanske|	AB	_	AB	2	MA	|kanske..ab.1|
-2	gjorde	|göra|	VB	_	VB.PRT.AKT	0	ROOT	|göra..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	,	|	MID	_	MID	2	IK	|
-5	vad	|vad|	HP	_	HP.NEU.SIN.IND	2	OO	|vad..pn.1|
-6	vet	|veta|	VB	_	VB.PRS.AKT	2	MS	|veta..vb.1|
-7	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|jag..pn.1|
-8	?	|	MAD	_	MAD	2	I?	|
+Kanske gjorde det , vad vet jag ?
 
 # age = 18
 # agebin = <20
@@ -421,16 +176,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed585a6c
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	menade	|mena|	VB	_	VB.PRT.AKT	0	ROOT	|mena..vb.1|
-3	väl	|väl|	AB	_	AB	2	MA	|väl..ab.1|väl_2..ab.1|
-4	inget	|ingen|	DT	_	DT.NEU.SIN.IND	5	DT	|ingen..pn.1|
-5	speciellt	|speciell|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	OO	|speciell..av.1|
-6	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	PA	|den..pn.1|
-8	.	|	MAD	_	MAD	2	IP	|
+Jag menade väl inget speciellt med det .
 
 # age = 18
 # agebin = <20
@@ -440,17 +186,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed5561b5
-1	Utan	|utan|	PP	_	PP	5	AA	|utan..pp.1|
-2	ja	|ja|	IN	_	IN	1	HD	|ja..in.1|
-3	..	|	MID	_	MID	5	IK	|
-4	hur	|hur|	HA	_	HA	5	AA	|hur..ab.1|
-5	ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
-6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	5	SS	|man..pn.1|
-7	förklara	|förklara|	VB	_	VB.INF.AKT	5	VG	|förklara..vb.1|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	OO	|den..pn.1|
-9	.	|	MAD	_	MAD	5	IP	|
+Utan ja .. hur ska man förklara det .
 
 # age = 18
 # agebin = <20
@@ -460,32 +196,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed505cdc
-1	Rätt	|rätt|	NN	_	NN.UTR.SIN.IND.NOM	4	SS	|rätt..nn.1|rätt..nn.2|rätt..nn.3|
-2	i	|i|	PP	_	PP	1	ET	|i..pp.1|
-3	tiden	|tid|	NN	_	NN.UTR.SIN.DEF.NOM	2	PA	|tid..nn.1|
-4	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-5	ju	|ju|	AB	_	AB	4	MA	|ju..ab.1|
-6	givetvis	|givetvis|	AB	_	AB	4	MA	|givetvis..ab.1|
-7	inte	|inte|	AB	_	AB	4	NA	|inte..ab.1|
-8	nu	|nu|	AB	_	AB	4	TA	|nu..ab.1|
-9	eftersom	|eftersom|	SN	_	SN	4	AA	|eftersom..sn.1|
-10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|jag..pn.1|
-11	är	|vara|	VB	_	VB.PRS.AKT	15	MS	|vara..vb.1|
-12	18	|	RG	_	RG.NOM	13	CJ	|
-13	,	|	MID	_	MID	11	SP	|
-14	student	|student|	NN	_	NN.UTR.SIN.IND.NOM	13	CJ	|student..nn.1|
-15	och	|och|	KN	_	KN	9	UA	|och..kn.1|
-16	inte	|inte|	AB	_	AB	17	NA	|inte..ab.1|
-17	får	|få|	VB	_	VB.PRS.AKT	15	+F	|få..vb.1|
-18	adoptera	|adoptera|	VB	_	VB.INF.AKT	17	VG	|adoptera..vb.1|
-19	än	|	KN	_	KN	18	KA	|
-20	om	|om|	SN	_	SN	19	UA	|om..sn.1|
-21	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	22	SS	|man..pn.1|
-22	säger	|säga|	VB	_	VB.PRS.AKT	20	UA	|säga..vb.1|
-23	så	|så|	AB	_	AB	22	AA	|så..ab.1|
-24	.	|	MAD	_	MAD	4	IP	|
+Rätt i tiden är ju givetvis inte nu eftersom jag är 18 , student och inte får adoptera än om man säger så .
 
 # age = 18
 # agebin = <20
@@ -495,30 +206,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed5a055e
-1	Utan	|utan|	KN	_	KN	0	ROOT	|utan..kn.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	menade	|mena|	VB	_	VB.PRT.AKT	1	MS	|mena..vb.1|
-4	mer	|mer|mycket|	AB	_	AB.KOM	3	AA	|mer..ab.1|mycket..ab.1|
-5	att	|att|	SN	_	SN	3	OO	|att..sn.1|
-6	när	|när|	HA	_	HA	8	TA	|när..ab.1|
-7	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
-8	är	|vara|	VB	_	VB.PRS.AKT	18	MS	|vara..vb.1|
-9	vuxen	|vuxen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	8	SP	|vuxen..av.1|
-10	,	|	MID	_	MID	8	IK	|
-11	har	|ha|	VB	_	VB.PRS.AKT	13	MS	|ha..vb.1|
-12	jobb	|jobb|	NN	_	NN.NEU.SIN.IND.NOM	11	OO	|jobb..nn.1|
-13	och	|och|	KN	_	KN	5	UA	|och..kn.1|
-14	allt	|all|	DT	_	DT.NEU.SIN.IND+DEF	15	DT	|all..pn.1|
-15	det	|den|den där|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	+F	|den..pn.1|den_där..pnm.1|
-16	där	|där|den där:15|	AB	_	AB	15	RA	|där..ab.1|den_där..pnm.1:15|
-17	-	|	MID	_	MID	18	IT	|
-18	och	|och|	KN	_	KN	5	UA	|och..kn.1|
-19	vill	|vilja|	VB	_	VB.PRS.AKT	18	+F	|vilja..vb.1|
-20	ha	|ha|	VB	_	VB.INF.AKT	19	VG	|ha..vb.1|
-21	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	20	OO	|barn..nn.1|
-22	.	|	MAD	_	MAD	3	IP	|
+Utan jag menade mer att när jag är vuxen , har jobb och allt det där - och vill ha barn .
 
 # age = 18
 # agebin = <20
@@ -528,19 +216,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed5cfa80
-1	Så	|så|	AB	_	AB	2	AA	|så..ab.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-4	mycket	|mycket|	AB	_	AB.POS	5	AA	|mycket..ab.1|
-5	möjligt	|möjlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	SP	|möjlig..av.1|
-6	att	|att|	SN	_	SN	2	ES	|att..sn.1|
-7	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
-8	väljer	|välja|	VB	_	VB.PRS.AKT	6	UA	|välja..vb.1|
-9	att	|att|	IE	_	IE	8	OO	|att..sn.1|
-10	adoptera	|adoptera|	VB	_	VB.INF.AKT	9	IF	|adoptera..vb.1|
-11	!	|	MAD	_	MAD	2	IU	|
+Så är det mycket möjligt att jag väljer att adoptera !
 
 # age = 18
 # agebin = <20
@@ -550,14 +226,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed59808c
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	OO	|den..pn.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-3	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	2	SS	|man..pn.1|
-4	väl	|väl|	AB	_	AB	2	MA	|väl..ab.1|väl_2..ab.1|
-5	göra	|göra|	VB	_	VB.INF.AKT	2	VG	|göra..vb.1|
-6	?	|	MAD	_	MAD	2	I?	|
+Det kan man väl göra ?
 
 # age = 18
 # agebin = <20
@@ -567,28 +236,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed5a4137
-1	Vissa	|viss|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	2	DT	|viss..av.1|
-2	länder	|land|	NN	_	NN.NEU.PLU.IND.NOM	3	SS	|land..nn.1|
-3	verkar	|verka|	VB	_	VB.PRS.AKT	0	ROOT	|verka..vb.1|
-4	ha	|ha|	VB	_	VB.INF.AKT	3	VG	|ha..vb.1|
-5	krav	|krav|	NN	_	NN.NEU.PLU.IND.NOM	4	OO	|krav..nn.1|
-6	på	|på|	PP	_	PP	4	OA	|på..pp.1|
-7	att	|att|	SN	_	SN	6	PA	|att..sn.1|
-8	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	9	SS	|man..pn.1|
-9	ska	|skola|	VB	_	VB.PRS.AKT	7	UA	|skola..vb.2|
-10	ha	|ha|	VB	_	VB.INF.AKT	9	VG	|ha..vb.1|
-11	intyg	|intyg|	NN	_	NN.NEU.SIN.IND.NOM	10	OO	|intyg..nn.1|
-12	på	|på|	PP	_	PP	10	OA	|på..pp.1|
-13	att	|att|	SN	_	SN	12	PA	|att..sn.1|
-14	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	15	SS	|man..pn.1|
-15	har	|ha|	VB	_	VB.PRS.AKT	13	UA	|ha..vb.1|
-16	svårt	|svår|	AB	_	AB.POS	15	OO	|svår..av.1|
-17	att	|att|	IE	_	IE	15	OO	|att..sn.1|
-18	få	|få|	VB	_	VB.INF.AKT	17	IF	|få..vb.1|
-19	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	18	OO	|barn..nn.1|
-20	?	|	MAD	_	MAD	3	I?	|
+Vissa länder verkar ha krav på att man ska ha intyg på att man har svårt att få barn ?
 
 # age = 18
 # agebin = <20
@@ -598,26 +246,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed505b82
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	FS	|den..pn.1|
-3	borde	|böra|	VB	_	VB.PRT.AKT	1	MS	|böra..vb.1|
-4	väl	|väl|	AB	_	AB	3	MA	|väl..ab.1|väl_2..ab.1|
-5	gå	|gå|	VB	_	VB.INF.AKT	3	VG	|gå..vb.1|
-6	att	|att|	IE	_	IE	5	ES	|att..sn.1|
-7	från	|från|	PP	_	PP	10	RA	|från..pp.1|
-8	något	|någon|	DT	_	DT.NEU.SIN.IND	9	DT	|någon..pn.1|
-9	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	7	PA	|land..nn.1|land..nn.2|land..nn.3|
-10	adoptera	|adoptera|	VB	_	VB.INF.AKT	6	IF	|adoptera..vb.1|
-11	,	|	MID	_	MID	10	IK	|
-12	även	|även|även om|	AB	_	AB	5	AA	|även..ab.1|även_om..snm.1|
-13	om	|om|även om:12|	SN	_	SN	12	HD	|om..sn.1|även_om..snm.1:12|
-14	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	15	SS	|man..pn.1|
-15	KAN	|kunna|	VB	_	VB.PRS.AKT	12	UA	|kunna..vb.1|
-16	få	|få|	VB	_	VB.INF.AKT	15	VG	|få..vb.1|
-17	biologiska	|biologisk|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	16	OO	|biologisk..av.1|
-18	?	|	MAD	_	MAD	3	I?	|
+Men det borde väl gå att från något land adoptera , även om man KAN få biologiska ?
 
 # age = 18
 # agebin = <20
@@ -627,23 +256,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed57b896
-1	Vet	|veta|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|
-2	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
-3	riktigt	|riktig|	AB	_	AB	1	AA	|riktig..av.1|
-4	vad	|vad|	HP	_	HP.NEU.SIN.IND	6	OO	|vad..pn.1|
-5	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|du..pn.1|
-6	menade	|mena|	VB	_	VB.PRT.AKT	1	OO	|mena..vb.1|
-7	med	|med|	PP	_	PP	6	OA	|med..pp.1|
-8	att	|att|	SN	_	SN	7	PA	|att..sn.1|
-9	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	SS	|den..pn.1|
-10	lät	|låta|	VB	_	VB.PRT.AKT	8	UA	|låta..vb.1|
-11	fel	|	PL	_	PL	10	PL	|
-12	,	|	MID	_	MID	10	IK	|
-13	och	|och|	KN	_	KN	1	OO	|och..kn.1|
-14	så	|så|	AB	_	AB	13	HD	|så..ab.1|
-15	.	|	MAD	_	MAD	1	IP	|
+Vet inte riktigt vad du menade med att det lät fel , och så .
 
 # age = 18
 # agebin = <20
@@ -653,21 +266,7 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246335
 # post_date = 2009-10-25 00:39:43
-# username = Amandass
-# sent_id = ed5e836a
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	menade	|mena|	VB	_	VB.PRT.AKT	1	MS	|mena..vb.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	OO	|den..pn.1|
-5	inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
-6	som	|	KN	_	KN	3	OP	|
-7	något	|någon|	DT	_	DT.NEU.SIN.IND	9	DT	|någon..pn.1|
-8	dumt	|dum|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	9	CJ	|dum..av.1|
-9	eller	|eller|	KN	_	KN	6	UA	|eller..kn.1|
-10	konstigt	|konstig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	9	CJ	|konstig..av.1|
-11	,	|	MID	_	MID	3	IK	|
-12	iallafall	|iallafall|	AB	_	AB	11	CJ	|iallafall..ab.1|
-13	!	|	MAD	_	MAD	3	IU	|
+Men jag menade det inte som något dumt eller konstigt , iallafall !
 
 # age = 18
 # agebin = <20
@@ -677,27 +276,5 @@
 # thread_title = ~ Vietnam ~
 # post_id = 48246363
 # post_date = 2009-10-25 00:41:59
-# username = Amandass
-# sent_id = ed5c46a4
-1	(	|	PAD	_	PAD	2	IR	|
-2	menade	|mena|	VB	_	VB.PRT.AKT	0	ROOT	|mena..vb.1|
-3	alltså	|alltså|	AB	_	AB	2	+A	|alltså..ab.1|
-4	vietnam	|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|
-5	när	|när|	HA	_	HA	7	TA	|när..ab.1|
-6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
-7	skrev	|skriva|	VB	_	VB.PRT.AKT	2	TA	|skriva..vb.1|
-8	;	|	MID	_	MID	2	IS	|
-9	"	|	PAD	_	PAD	10	IC	|
-10	tyckte	|tycka|	VB	_	VB.PRT.AKT	2	MS	|tycka..vb.1|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	OO	|den..pn.1|
-12	stod	|stå|	VB	_	VB.PRT.AKT	10	OO	|stå..vb.1|
-13	på	|på|	PP	_	PP	12	AA	|på..pp.1|
-14	bfa	|	NN	_	NN.UTR.SIN.IND.NOM	13	PA	|
-15	att	|att|	SN	_	SN	12	KA	|att..sn.1|
-16	DE	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	17	SS	|de..pn.1|
-17	accepterade	|acceptera|	VB	_	VB.PRT.AKT	15	UA	|acceptera..vb.1|
-18	ensamstående	|ensamstående|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	19	AT	|ensamstående..av.1|
-19	....	|	MAD	_	MAD	17	OO	|
-20	"	|	PAD	_	PAD	2	JR	|
-21	)	|	PAD	_	PAD	2	JR	|
+( menade alltså vietnam när jag skrev ; " tyckte det stod på bfa att DE accepterade ensamstående .... " )
 

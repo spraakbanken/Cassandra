@@ -6,27 +6,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b4c79a3
-1	Vad	|vad|vad för|	HP	_	HP.NEU.SIN.IND	2	SP	|vad..pn.1|vad_för..pnm.1|
-2	var	|vara|	VB	_	VB.PRT.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	som	|	HP	_	HP.-.-.-	5	SS	|
-5	fick	|få|	VB	_	VB.PRT.AKT	3	EF	|få..vb.1|
-6	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	5	OO	|ni..pn.1|
-7	att	|att|	IE	_	IE	5	OA	|att..sn.1|
-8	bestämma	|bestämma|bestämma sig|	VB	_	VB.INF.AKT	7	IF	|bestämma..vb.1|bestämma_sig..vbm.1|
-9	er	|ni|bestämma sig:8|	PN	_	PN.UTR.PLU.DEF.OBJ	8	OO	|ni..pn.1|bestämma_sig..vbm.1:8|
-10	för	|för|vad för:1|	PP	_	PP	8	AA	|för..pp.1|vad_för..pnm.1:1|
-11	att	|att|	IE	_	IE	10	PA	|att..sn.1|
-12	adoptera	|adoptera|	VB	_	VB.INF.AKT	11	IF	|adoptera..vb.1|
-13	-	|	MID	_	MID	2	IT	|
-14	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|jag..pn.1|
-15	menar	|mena|	VB	_	VB.PRS.AKT	2	MS	|mena..vb.1|
-16	det	|den|en|	DT	_	DT.NEU.SIN.DEF	17	DT	|den..pn.1|en..al.1|
-17	slutgiltiga	|slutgiltig|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	15	OO	|slutgiltig..av.1|
-18	liksom	|	PP	_	PP	15	KA	|
-19	.	|	MAD	_	MAD	2	IP	|
+Vad var det som fick er att bestämma er för att adoptera - jag menar det slutgiltiga liksom .
 
 # age = 17
 # agebin = <20
@@ -36,26 +16,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b4f2c7b
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	CJ	|jag..pn.1|
-2	och	|och|	KN	_	KN	5	SS	|och..kn.1|
-3	min	|jag|	PS	_	PS.UTR.SIN.DEF	4	DT	|jag..pn.1|
-4	man	|man|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|man..nn.1|man..nn.2|
-5	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-6	försökt	|försöka|	VB	_	VB.SUP.AKT	5	VG	|försöka..vb.1|
-7	i	|i|	PP	_	PP	6	TA	|i..pp.1|
-8	två	|två|	RG	_	RG.NOM	9	DT	|två..nl.1|
-9	år	|år|	NN	_	NN.NEU.PLU.IND.NOM	7	PA	|år..nn.1|
-10	(	|	PAD	_	PAD	5	IR	|
-11	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	12	SS	|vi..pn.1|
-12	fyller	|fylla|fylla år|	VB	_	VB.PRS.AKT	5	MS	|fylla..vb.1|fylla_år..vbm.1|
-13	30	|	RG	_	RG.NOM	14	DT	|
-14	år	|år|fylla år:12|	NN	_	NN.NEU.PLU.IND.NOM	12	OO	|år..nn.1|fylla_år..vbm.1:12|
-15	i	|i|	PP	_	PP	12	TA	|i..pp.1|
-16	år	|år|	NN	_	NN.NEU.SIN.IND.NOM	15	PA	|år..nn.1|
-17	)	|	PAD	_	PAD	6	JR	|
-18	.	|	MAD	_	MAD	5	IP	|
+Jag och min man har försökt i två år ( vi fyller 30 år i år ) .
 
 # age = 17
 # agebin = <20
@@ -65,77 +26,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b4b99cb
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	började	|börja|	VB	_	VB.PRT.AKT	0	ROOT	|börja..vb.1|börja..vb.2|
-3	hos	|hos|	PP	_	PP	2	RA	|hos..pp.1|
-4	en	|en|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|
-5	gynekolog	|gynekolog|	NN	_	NN.UTR.SIN.IND.NOM	3	PA	|gynekolog..nn.1|
-6	men	|men|	KN	_	KN	2	OO	|men..kn.1|
-7	strax	|strax|	AB	_	AB	8	AA	|strax..ab.1|
-8	efter	|	AB	_	AB	2	TA	|
-9	så	|så|	AB	_	AB	10	DB	|så..ab.1|
-10	började	|börja|	VB	_	VB.PRT.AKT	2	MS	|börja..vb.1|börja..vb.2|
-11	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
-12	hos	|hos|	PP	_	PP	10	RA	|hos..pp.1|
-13	en	|en|	DT	_	DT.UTR.SIN.IND	14	DT	|en..al.1|
-14	homeopat	|homeopat|	NN	_	NN.UTR.SIN.IND.NOM	12	PA	|homeopat..nn.1|
-15	(	|	PAD	_	PAD	14	IR	|
-16	som	|	HP	_	HP.-.-.-	17	SS	|
-17	skall	|skola|	VB	_	VB.PRS.AKT	14	ET	|skola..vb.2|
-18	vara	|vara|	VB	_	VB.INF.AKT	17	VG	|vara..vb.1|vara..vb.2|
-19	en	|man|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	18	SP	|man..pn.1|
-20	av	|av|	PP	_	PP	19	ET	|av..pp.1|
-21	Sveriges	|Sverige|	PM	_	PM.GEN	22	DT	|Sverige..pm.1|
-22	duktigast	|duktig|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.IND.NOM	20	PA	|duktig..av.1|
-23	)	|	PAD	_	PAD	14	JR	|
-24	och	|och|	KN	_	KN	10	MS	|och..kn.1|
-25	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	26	SS	|han..pn.1|
-26	sade	|säga|	VB	_	VB.PRT.AKT	24	MS	|säga..vb.1|
-27	att	|att|	SN	_	SN	26	OO	|att..sn.1|
-28	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	30	FS	|den..pn.1|
-29	inte	|inte|	AB	_	AB	30	NA	|inte..ab.1|
-30	var	|vara|	VB	_	VB.PRT.AKT	27	UA	|vara..vb.1|
-31	konstigt	|konstig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	30	SP	|konstig..av.1|
-32	alls	|alls|	AB	_	AB	30	AA	|alls..ab.1|
-33	att	|att|	SN	_	SN	30	ES	|att..sn.1|
-34	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	35	SS	|jag..pn.1|
-35	blev	|bli|	VB	_	VB.PRT.AKT	33	UA	|bli..vb.1|
-36	gravid	|gravid|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	35	SP	|gravid..av.1|
-37	p	|p|	NN	_	NN.NEU.SIN.IND.NOM	35	SP	|p..nn.1|
-38	g	|	PM	_	PM.NOM	37	PA	|
-39	a	|a|	NN	_	NN.NEU.SIN.IND.NOM	35	SP	|a..nn.1|
-40	att	|att|	SN	_	SN	39	PA	|att..sn.1|
-41	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	42	SS	|jag..pn.1|
-42	har	|ha|	VB	_	VB.PRS.AKT	40	UA	|ha..vb.1|
-43	för	|för|	AB	_	AB	44	AA	|för..ab.1|
-44	mycket	|mycket|	AB	_	AB.POS	42	OO	|mycket..ab.1|
-45	i	|i|	PP	_	PP	42	RA	|i..pp.1|
-46	mitt	|jag|	PS	_	PS.NEU.SIN.DEF	47	DT	|jag..pn.1|
-47	liv	|liv|	NN	_	NN.NEU.SIN.IND.NOM	45	PA	|liv..nn.1|
-48	som	|	HP	_	HP.-.-.-	50	OO	|
-49	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	50	SS	|jag..pn.1|
-50	funderar	|fundera|	VB	_	VB.PRS.AKT	52	MS	|fundera..vb.1|
-51	över	|över|	PL	_	PL	50	PL	|över..ab.1|
-52	och	|och|	KN	_	KN	47	ET	|och..kn.1|
-53	inte	|inte|	AB	_	AB	54	NA	|inte..ab.1|
-54	trivs	|trivas|	VB	_	VB.PRS.SFO	52	+F	|trivas..vb.1|
-55	med	|med|	PP	_	PP	54	OA	|med..pp.1|
-56	...	|	MID	_	MID	57	HD	|
-57	m	|	PM	_	PM.NOM	55	PA	|
-58	a	|a|	NN	_	NN.NEU.SIN.IND.NOM	57	HD	|a..nn.1|
-59	o	|o|	KN	_	KN	57	HD	|o..kna.1|
-60	min	|jag|	PS	_	PS.UTR.SIN.DEF	61	DT	|jag..pn.1|
-61	kropp	|kropp|	NN	_	NN.UTR.SIN.IND.NOM	59	CJ	|kropp..nn.1|
-62	har	|ha|	VB	_	VB.PRS.AKT	59	MS	|ha..vb.1|
-63	inte	|inte|	AB	_	AB	62	NA	|inte..ab.1|
-64	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	62	OO	|tid..nn.1|
-65	för	|för|	PP	_	PP	62	AA	|för..pp.1|
-66	att	|att|	IE	_	IE	65	PA	|att..sn.1|
-67	bli	|bli|	VB	_	VB.INF.AKT	66	IF	|bli..vb.1|
-68	gravid	|gravid|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	67	SP	|gravid..av.1|
-69	.	|	MAD	_	MAD	24	IP	|
+Vi började hos en gynekolog men strax efter så började jag hos en homeopat ( som skall vara en av Sveriges duktigast ) och han sade att det inte var konstigt alls att jag blev gravid p g a att jag har för mycket i mitt liv som jag funderar över och inte trivs med ... m a o min kropp har inte tid för att bli gravid .
 
 # age = 17
 # agebin = <20
@@ -145,48 +36,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b456993
-1	Eftersom	|eftersom|	SN	_	SN	12	AA	|eftersom..sn.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
-3	inte	|inte|	AB	_	AB	4	NA	|inte..ab.1|
-4	tror	|tro|	VB	_	VB.PRS.AKT	1	UA	|tro..vb.1|
-5	speciellt	|speciell|	AB	_	AB.POS	6	CA	|speciell..av.1|
-6	mycket	|mycket|	AB	_	AB.POS	4	AA	|mycket..ab.1|
-7	på	|på|	PP	_	PP	4	OA	|på..pp.1|
-8	den	|den|en|	DT	_	DT.UTR.SIN.DEF	10	DT	|den..pn.1|en..al.1|
-9	allmänna	|allmän|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	10	AT	|allmän..av.1|
-10	skolmedicinen	|skolmedicin|	NN	_	NN.UTR.SIN.DEF.NOM	7	PA	|
-11	så	|så|	AB	_	AB	12	DB	|så..ab.1|
-12	tror	|tro|	VB	_	VB.PRS.AKT	0	ROOT	|tro..vb.1|
-13	ju	|ju|	AB	_	AB	12	MA	|ju..ab.1|
-14	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|jag..pn.1|
-15	mer	|mer|mycket|	AB	_	AB.KOM	12	AA	|mer..ab.1|mycket..ab.1|
-16	på	|på|	PP	_	PP	12	OA	|på..pp.1|
-17	min	|jag|	PS	_	PS.UTR.SIN.DEF	18	DT	|jag..pn.1|
-18	homeopat	|homeopat|	NN	_	NN.UTR.SIN.IND.NOM	16	PA	|homeopat..nn.1|
-19	(	|	PAD	_	PAD	12	IR	|
-20	även	|även|	AB	_	AB	22	+A	|även..ab.1|
-21	p	|	PM	_	PM.NOM	22	DT	|
-22	g	|g|	NN	_	NN.AN	23	DT	|g..nna.1|
-23	a	|a|	NN	_	NN.NEU.SIN.IND.NOM	12	OO	|a..nn.1|
-24	att	|att|	SN	_	SN	12	OO	|att..sn.1|
-25	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	27	SS	|jag..pn.1|
-26	inte	|inte|	AB	_	AB	27	NA	|inte..ab.1|
-27	vet	|veta|	VB	_	VB.PRS.AKT	24	UA	|veta..vb.1|
-28	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	27	OO	|någon..pn.1|
-29	som	|	HP	_	HP.-.-.-	31	SS	|
-30	inte	|inte|	AB	_	AB	31	NA	|inte..ab.1|
-31	har	|ha|	VB	_	VB.PRS.AKT	28	ET	|ha..vb.1|
-32	blivit	|bli|	VB	_	VB.SUP.AKT	31	VG	|bli..vb.1|
-33	frisk	|frisk|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	32	SP	|frisk..av.1|
-34	efter	|efter|	PP	_	PP	32	OA	|efter..pp.1|
-35	att	|att|	IE	_	IE	34	PA	|att..sn.1|
-36	ha	|ha|	VB	_	VB.INF.AKT	35	IF	|ha..vb.1|
-37	gått	|gå|	VB	_	VB.SUP.AKT	36	VG	|gå..vb.1|
-38	hos	|hos|	PP	_	PP	37	RA	|hos..pp.1|
-39	honom	|han|	PN	_	PN.UTR.SIN.DEF.OBJ	38	PA	|han..pn.1|
-40	!	|	MAD	_	MAD	12	IU	|
+Eftersom jag inte tror speciellt mycket på den allmänna skolmedicinen så tror ju jag mer på min homeopat ( även p g a att jag inte vet någon som inte har blivit frisk efter att ha gått hos honom !
 
 # age = 17
 # agebin = <20
@@ -196,10 +46,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b4015cc
-1	)	|	PAD	_	PAD	0	ROOT	|
-2	.	|	MAD	_	MAD	1	IP	|
+) .
 
 # age = 17
 # agebin = <20
@@ -209,19 +56,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b4a2319
-1	Problemet	|problem|	NN	_	NN.NEU.SIN.DEF.NOM	3	SS	|problem..nn.1|
-2	mitt	|mitt|	AB	_	AB	1	ET	|mitt..ab.1|
-3	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-4	dock	|dock|	AB	_	AB	3	+A	|dock..ab.1|
-5	att	|att|	SN	_	SN	3	SP	|att..sn.1|
-6	min	|jag|	PS	_	PS.UTR.SIN.DEF	7	DT	|jag..pn.1|
-7	man	|man|	NN	_	NN.UTR.SIN.IND.NOM	8	SS	|man..nn.1|man..nn.2|
-8	börjar	|börja|	VB	_	VB.PRS.AKT	5	UA	|börja..vb.1|börja..vb.2|
-9	bli	|bli|	VB	_	VB.INF.AKT	8	OO	|bli..vb.1|
-10	jätteotålig	|jätteotålig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	9	SP	|
-11	.	|	MAD	_	MAD	3	IP	|
+Problemet mitt är dock att min man börjar bli jätteotålig .
 
 # age = 17
 # agebin = <20
@@ -231,23 +66,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b4ba397
-1	I	|i|	PP	_	PP	4	TA	|i..pp.1|
-2	förra	|förra|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	3	DT	|förra..av.1|
-3	veckan	|vecka|	NN	_	NN.UTR.SIN.DEF.NOM	1	PA	|vecka..nn.1|
-4	drog	|dra|dra upp|	VB	_	VB.PRT.AKT	0	ROOT	|dra..vb.1|dra_upp..vbm.1|
-5	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|han..pn.1|
-6	upp	|upp|dra upp:4|	PL	_	PL	4	PL	|upp..ab.1|dra_upp..vbm.1:4|
-7	frågan	|fråga|	NN	_	NN.UTR.SIN.DEF.NOM	4	OO	|fråga..nn.1|
-8	om	|om|	SN	_	SN	7	ET	|om..sn.1|
-9	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	10	SS	|vi..pn.1|
-10	skall	|skola|	VB	_	VB.PRS.AKT	8	UA	|skola..vb.2|
-11	fundera	|fundera|	VB	_	VB.INF.AKT	10	VG	|fundera..vb.1|
-12	på	|på|	PP	_	PP	11	OA	|på..pp.1|
-13	att	|att|	IE	_	IE	12	PA	|att..sn.1|
-14	adoptera	|adoptera|	VB	_	VB.INF.AKT	13	IF	|adoptera..vb.1|
-15	.	|	MAD	_	MAD	4	IP	|
+I förra veckan drog han upp frågan om vi skall fundera på att adoptera .
 
 # age = 17
 # agebin = <20
@@ -257,19 +76,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b453876
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	blev	|bli|	VB	_	VB.PRT.AKT	0	ROOT	|bli..vb.1|
-3	jätteosäker	|jätteosäker|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	4	CJ	|
-4	och	|och|	KN	_	KN	2	SP	|och..kn.1|
-5	rädd	|rädd|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	4	CJ	|rädd..av.1|
-6	när	|när|	HA	_	HA	8	TA	|när..ab.1|
-7	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|han..pn.1|
-8	tog	|ta|ta upp|	VB	_	VB.PRT.AKT	2	TA	|ta..vb.1|ta_upp..vbm.1|
-9	upp	|upp|ta upp:8|	PL	_	PL	8	PL	|upp..ab.1|ta_upp..vbm.1:8|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	OO	|den..pn.1|
-11	.	|	MAD	_	MAD	2	IP	|
+Jag blev jätteosäker och rädd när han tog upp det .
 
 # age = 17
 # agebin = <20
@@ -279,32 +86,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b45f453
-1	Varför	|varför|	HA	_	HA	3	AA	|varför..ab.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	reagerade	|reagera|	VB	_	VB.PRT.AKT	5	AA	|reagera..vb.1|
-4	så	|så|	AB	_	AB	5	DB	|så..ab.1|
-5	vet	|veta|	VB	_	VB.PRS.AKT	8	MS	|veta..vb.1|
-6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-7	inte	|inte|	AB	_	AB	5	NA	|inte..ab.1|
-8	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
-10	känner	|känna|	VB	_	VB.PRS.AKT	8	MS	|känna..vb.1|känna..vb.2|
-11	även	|även|	AB	_	AB	10	+A	|även..ab.1|
-12	nu	|nu|	AB	_	AB	10	TA	|nu..ab.1|
-13	när	|när|	HA	_	HA	15	TA	|när..ab.1|
-14	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|jag..pn.1|
-15	sitter	|sitta|	VB	_	VB.PRS.AKT	16	MS	|sitta..vb.1|
-16	och	|och|	KN	_	KN	10	OO	|och..kn.1|
-17	skriver	|skriva|	VB	_	VB.PRS.AKT	16	+F	|skriva..vb.1|
-18	att	|att|	SN	_	SN	17	OO	|att..sn.1|
-19	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	20	SS	|jag..pn.1|
-20	blir	|bli|	VB	_	VB.PRS.AKT	18	UA	|bli..vb.1|
-21	jätteorolig	|jätteorolig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	20	SP	|
-22	i	|i|	PP	_	PP	20	RA	|i..pp.1|
-23	magen	|mage|	NN	_	NN.UTR.SIN.DEF.NOM	22	PA	|mage..nn.1|
-24	.	|	MAD	_	MAD	8	IP	|
+Varför jag reagerade så vet jag inte men jag känner även nu när jag sitter och skriver att jag blir jätteorolig i magen .
 
 # age = 17
 # agebin = <20
@@ -314,23 +96,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b481a38
-1	Därav	|därav|	AB	_	AB	7	AA	|därav..ab.1|
-2	min	|jag|	PS	_	PS.UTR.SIN.DEF	3	DT	|jag..pn.1|
-3	fråga	|fråga|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|fråga..nn.1|
-4	-	|	MID	_	MID	7	IT	|
-5	hur	|hur|	HA	_	HA	6	AA	|hur..ab.1|
-6	mycket	|mycket|	AB	_	AB.POS	7	AA	|mycket..ab.1|
-7	talade	|tala|	VB	_	VB.PRT.AKT	0	ROOT	|tala..vb.1|
-8	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|ni..pn.1|
-9	om	|om|	PP	_	PP	7	OA	|om..pp.1|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	PA	|den..pn.1|
-11	innan	|innan|	SN	_	SN	7	TA	|innan..sn.1|
-12	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|ni..pn.1|
-13	tog	|ta|	VB	_	VB.PRT.AKT	11	UA	|ta..vb.1|
-14	beslutet	|beslut|	NN	_	NN.NEU.SIN.DEF.NOM	13	OO	|beslut..nn.1|
-15	?	|	MAD	_	MAD	7	I?	|
+Därav min fråga - hur mycket talade ni om det innan ni tog beslutet ?
 
 # age = 17
 # agebin = <20
@@ -340,21 +106,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b48e2e0
-1	Om	|om|	SN	_	SN	5	AA	|om..sn.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	3	SS	|man..pn.1|
-3	börjar	|börja|	VB	_	VB.PRS.AKT	1	UA	|börja..vb.1|börja..vb.2|
-4	processen	|process|	NN	_	NN.UTR.SIN.DEF.NOM	3	OO	|process..nn.1|
-5	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	5	SS	|man..pn.1|
-7	avbryta	|avbryta|	VB	_	VB.INF.AKT	5	VG	|avbryta..vb.1|
-8	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	7	OO	|den..pn.1|
-9	om	|om|	SN	_	SN	7	AA	|om..sn.1|
-10	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-11	blir	|bli|	VB	_	VB.PRS.AKT	9	UA	|bli..vb.1|
-12	gravid	|gravid|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	11	SP	|gravid..av.1|
-13	?	|	MAD	_	MAD	5	I?	|
+Om man börjar processen kan man avbryta den om man blir gravid ?
 
 # age = 17
 # agebin = <20
@@ -364,22 +116,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b400bd6
-1	Om	|om|	SN	_	SN	11	AA	|om..sn.1|
-2	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	3	SS	|någon..pn.1|
-3	har	|ha|	VB	_	VB.PRS.AKT	1	UA	|ha..vb.1|
-4	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	5	DT	|någon..pn.1|
-5	tankar	|tank|tanke|	NN	_	NN.UTR.PLU.IND.NOM	3	OO	|tank..nn.1|tank..nn.2|tanke..nn.1|
-6	att	|att|	IE	_	IE	5	ET	|att..sn.1|
-7	dela	|dela|dela med sig|dela sig|	VB	_	VB.INF.AKT	6	IF	|dela..vb.1|dela_med_sig..vbm.1|dela_sig..vbm.1|
-8	med	|med|dela med sig:7|	PL	_	PL	7	PL	|med..ab.1|dela_med_sig..vbm.1:7|
-9	sig	|sig|dela med sig:7|dela sig:7|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	7	OO	|sig..pn.1|dela_med_sig..vbm.1:7|dela_sig..vbm.1:7|
-10	så	|så|	AB	_	AB	11	DB	|så..ab.1|
-11	vore	|vara|	VB	_	VB.KON.PRT.AKT	0	ROOT	|vara..vb.1|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	SS	|den..pn.1|
-13	jättefint	|jättefin|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	11	SP	|jättefin..av.1|
-14	!	|	MAD	_	MAD	11	IU	|
+Om någon har några tankar att dela med sig så vore det jättefint !
 
 # age = 17
 # agebin = <20
@@ -389,10 +126,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2651819
 # post_date = 2005-04-08 12:20:14
-# username = Anna A
-# sent_id = 7b4caf03
-1	Hälsningar	|hälsning|	NN	_	NN.UTR.PLU.IND.NOM	0	ROOT	|hälsning..nn.1|
-2	Anna	|Anna|	PM	_	PM.NOM	1	HD	|Anna..pm.1|
+Hälsningar Anna
 
 # age = 17
 # agebin = <20
@@ -402,13 +136,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2652548
 # post_date = 2005-04-08 13:11:20
-# username = Anna A
-# sent_id = 7b455629
-1	*	|	MID	_	MID	2	IR	|
-2	*	|	MID	_	MID	0	ROOT	|
-3	puffar	|puff|	NN	_	NN.UTR.PLU.IND.NOM	2	SS	|puff..nn.1|
-4	*	|	MID	_	MID	2	IG	|
-5	*	|	MID	_	MID	2	RA	|
+* * puffar * *
 
 # age = 17
 # agebin = <20
@@ -418,16 +146,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2654547
 # post_date = 2005-04-08 15:28:13
-# username = Anna A
-# sent_id = 7b482288
-1	Tack	|tack|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|tack..nn.1|
-2	Jennie	|Jennie|	PM	_	PM.NOM	1	PA	|Jennie..pm.1|
-3	med	|med|	PP	_	PP	2	ET	|med..pp.1|
-4	ie	|	NN	_	NN.AN	3	PA	|
-5	för	|för|	PP	_	PP	4	ET	|för..pp.1|
-6	ditt	|du|	PS	_	PS.NEU.SIN.DEF	7	DT	|du..pn.1|
-7	inlägg	|inlägg|	NN	_	NN.NEU.SIN.IND.NOM	5	PA	|inlägg..nn.1|
-8	.	|	MAD	_	MAD	1	IP	|
+Tack Jennie med ie för ditt inlägg .
 
 # age = 17
 # agebin = <20
@@ -437,86 +156,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2654547
 # post_date = 2005-04-08 15:28:13
-# username = Anna A
-# sent_id = 7b4bdc03
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	skönt	|skön|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	SP	|skön..av.1|
-4	när	|när|	HA	_	HA	12	TA	|när..ab.1|
-5	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	12	SS	|någon..pn.1|
-6	"	|	PAD	_	PAD	12	SS	|
-7	utifrån	|utifrån|	PP	_	PP	12	TA	|utifrån..pp.1|
-8	"	|	PAD	_	PAD	7	PA	|
-9	med	|med|	PP	_	PP	12	OA	|med..pp.1|
-10	oförstörda	|oförstörd|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	11	AT	|oförstörd..av.1|
-11	ögon	|öga|	NN	_	NN.NEU.PLU.IND.NOM	9	PA	|öga..nn.1|
-12	säger	|säga|	VB	_	VB.PRS.AKT	18	TA	|säga..vb.1|
-13	vad	|vad|	HP	_	HP.NEU.SIN.IND	15	OO	|vad..pn.1|
-14	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	15	SS	|de..pn.1|
-15	tycker	|tycka|	VB	_	VB.PRS.AKT	12	OO	|tycka..vb.1|
-16	...	|	MID	_	MID	15	IG	|
-17	själv	|själv|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	18	FP	|själv..pn.1|
-18	lever	|leva|	VB	_	VB.PRS.AKT	2	MS	|leva..vb.1|
-19	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	18	SS	|jag..pn.1|
-20	mitt	|mitt|mitt i|	AB	_	AB	21	AA	|mitt..ab.1|mitt_i..ppm.1|
-21	i	|i|mitt i:20|	PP	_	PP	18	RA	|i..pp.1|mitt_i..ppm.1:20|
-22	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	21	PA	|all..pn.1|
-23	och	|och|	KN	_	KN	21	PA	|och..kn.1|
-24	har	|ha|	VB	_	VB.PRS.AKT	23	+F	|ha..vb.1|
-25	svårt	|svår|	AB	_	AB.POS	24	OO	|svår..av.1|
-26	att	|att|	IE	_	IE	23	MS	|att..sn.1|
-27	veta	|veta|	VB	_	VB.INF.AKT	26	IF	|veta..vb.1|
-28	vad	|vad|	HP	_	HP.NEU.SIN.IND	30	SS	|vad..pn.1|
-29	som	|	HP	_	HP.-.-.-	30	SS	|
-30	är	|vara|	VB	_	VB.PRS.AKT	27	OO	|vara..vb.1|
-31	"	|	PAD	_	PAD	33	IC	|
-32	rätt	|rätt|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	33	CJ	|rätt..av.1|
-33	och	|och|	KN	_	KN	30	SP	|och..kn.1|
-34	fel	|fel|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	33	CJ	|fel..av.1|
-35	"	|	PAD	_	PAD	28	JC	|
-36	....	|	MID	_	MID	27	AA	|
-37	om	|om|	PP	_	PP	36	OA	|om..pp.1|
-38	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	37	PA	|den..pn.1|
-39	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	40	SS	|jag..pn.1|
-40	känner	|känna|	VB	_	VB.PRS.AKT	43	MS	|känna..vb.1|känna..vb.2|
-41	är	|vara|	VB	_	VB.PRS.AKT	43	MS	|vara..vb.1|
-42	normalt	|normal|	AB	_	AB.POS	41	AA	|normal..av.1|
-43	eller	|eller|	KN	_	KN	38	ET	|eller..kn.1|
-44	inte	|inte|	AB	_	AB	43	+F	|inte..ab.1|
-45	...	|	MID	_	MID	41	IG	|
-46	utifrån	|utifrån|	PP	_	PP	43	+F	|utifrån..pp.1|
-47	ditt	|du|	PS	_	PS.NEU.SIN.DEF	48	DT	|du..pn.1|
-48	inlägg	|inlägg|	NN	_	NN.NEU.SIN.IND.NOM	46	PA	|inlägg..nn.1|
-49	så	|så|	AB	_	AB	50	DB	|så..ab.1|
-50	inser	|inse|	VB	_	VB.PRS.AKT	43	+F	|inse..vb.1|
-51	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	50	SS	|jag..pn.1|
-52	att	|att|	SN	_	SN	50	OO	|att..sn.1|
-53	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	55	SS	|den..pn.1|
-54	inte	|inte|	AB	_	AB	55	NA	|inte..ab.1|
-55	är	|vara|	VB	_	VB.PRS.AKT	52	UA	|vara..vb.1|
-56	en	|en|	DT	_	DT.UTR.SIN.IND	58	DT	|en..al.1|
-57	normal	|normal|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	58	AT	|normal..av.1|
-58	känsla	|känsla|	NN	_	NN.UTR.SIN.IND.NOM	55	XX	|känsla..nn.1|
-59	som	|	HP	_	HP.-.-.-	61	OO	|
-60	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	61	SS	|man..pn.1|
-61	går	|gå|gå med|	VB	_	VB.PRS.AKT	58	EF	|gå..vb.1|gå_med..vbm.1|
-62	med	|med|gå med:61|	PL	_	PL	61	PL	|med..ab.1|gå_med..vbm.1:61|
-63	till	|till|	PP	_	PP	61	OA	|till..pp.1|
-64	"	|	PAD	_	PAD	65	IC	|
-65	utredningen	|utredning|	NN	_	NN.UTR.SIN.DEF.NOM	63	PA	|utredning..nn.1|
-66	"	|	PAD	_	PAD	58	JC	|
-67	och	|och|	KN	_	KN	58	ET	|och..kn.1|
-68	att	|att|	SN	_	SN	67	CJ	|att..sn.1|
-69	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	72	SS	|vi..pn.1|
-70	därför	|därför|	AB	_	AB	72	AA	|därför..ab.1|
-71	inte	|inte|	AB	_	AB	72	NA	|inte..ab.1|
-72	skall	|skola|	VB	_	VB.PRS.AKT	68	UA	|skola..vb.2|
-73	ta	|ta|ta ställning|	VB	_	VB.INF.AKT	72	VG	|ta..vb.1|ta_ställning..vbm.1|
-74	ställning	|ställning|ta ställning:73|	NN	_	NN.UTR.SIN.IND.NOM	73	OO	|ställning..nn.1|ta_ställning..vbm.1:73|
-75	till	|till|	PP	_	PP	73	OA	|till..pp.1|
-76	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	75	PA	|denna..pn.1|
-77	nu	|nu|	AB	_	AB	73	TA	|nu..ab.1|
-78	.	|	MAD	_	MAD	2	IP	|
+Det är skönt när någon " utifrån " med oförstörda ögon säger vad de tycker ... själv lever jag mitt i allt och har svårt att veta vad som är " rätt och fel " .... om det jag känner är normalt eller inte ... utifrån ditt inlägg så inser jag att det inte är en normal känsla som man går med till " utredningen " och att vi därför inte skall ta ställning till detta nu .
 
 # age = 17
 # agebin = <20
@@ -526,14 +166,7 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2654547
 # post_date = 2005-04-08 15:28:13
-# username = Anna A
-# sent_id = 7b4f5916
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PL	_	PL	1	PL	|till..ab.1|lycka_till..inm.1:1|
-3	i	|i|	PP	_	PP	1	AA	|i..pp.1|
-4	er	|ni|	PS	_	PS.UTR.SIN.DEF	5	DT	|ni..pn.1|
-5	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	3	PA	|adoption..nn.1|
-6	!	|	MAD	_	MAD	1	IU	|
+Lycka till i er adoption !
 
 # age = 17
 # agebin = <20
@@ -543,22 +176,5 @@
 # thread_title = Vad fick er att bestämma er?
 # post_id = 2654547
 # post_date = 2005-04-08 15:28:13
-# username = Anna A
-# sent_id = 7b4f18f4
-1	Vad	|vad|	HP	_	HP.NEU.SIN.IND	2	OO	|vad..pn.1|
-2	vet	|veta|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|
-3	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	2	SS	|man..pn.1|
-4	-	|	MID	_	MID	2	IT	|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|jag..pn.1|
-6	kanske	|kanske|	AB	_	AB	7	MA	|kanske..ab.1|
-7	mognar	|mogna|	VB	_	VB.PRS.AKT	8	MS	|mogna..vb.1|
-8	och	|och|	KN	_	KN	2	OO	|och..kn.1|
-9	hamnar	|hamna|	VB	_	VB.PRS.AKT	8	+F	|hamna..vb.1|
-10	här	|här|	AB	_	AB	9	RA	|här..ab.1|
-11	igen	|igen|	AB	_	AB	12	AA	|igen..ab.1|igen..ab.2|
-12	längre	|länge|längre|lång|längre fram|	AB	_	AB.KOM	13	AA	|länge..ab.1|längre..ab.1|lång..av.1|längre_fram..abm.1|
-13	fram	|fram|längre fram:12|	AB	_	AB	9	RA	|fram..ab.1|längre_fram..abm.1:12|
-14	i	|i|i livet|	PP	_	PP	13	RA	|i..pp.1|i_livet..avm.1|
-15	livet	|liv|i livet:14|	NN	_	NN.NEU.SIN.DEF.NOM	14	PA	|liv..nn.1|i_livet..avm.1:14|
-16	!	|	MAD	_	MAD	2	IU	|
+Vad vet man - jag kanske mognar och hamnar här igen längre fram i livet !
 

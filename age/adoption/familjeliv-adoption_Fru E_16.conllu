@@ -6,10 +6,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 33874102
 # post_date = 2008-06-23 16:54:30
-# username = Fru E
-# sent_id = bac280be
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 21
 # agebin = 20--29
@@ -19,18 +16,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 33874102
 # post_date = 2008-06-23 16:54:30
-# username = Fru E
-# sent_id = bac1eaea
-1	Är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-2	sedan	|sedan|	AB	_	AB	1	AA	|sedan..ab.1|
-3	en	|en|	DT	_	DT.UTR.SIN.IND	4	DT	|en..al.1|
-4	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	1	SS	|tid..nn.1|
-5	passiv	|passiv|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	6	AT	|passiv..av.1|
-6	sökande	|sökande|	NN	_	NN.UTR.SIN.IND.NOM	1	SS	|sökande..nn.1|
-7	medlemi	|	NN	_	NN.UTR.SIN.IND.NOM	1	SP	|
-8	en	|en|	DT	_	DT.UTR.SIN.IND	9	DT	|en..al.1|
-9	adoptionsorganisation	|adoptionsorganisation|	NN	_	NN.UTR.SIN.IND.NOM	7	OO	|
-10	.	|	MAD	_	MAD	1	IP	|
+Är sedan en tid passiv sökande medlemi en adoptionsorganisation .
 
 # age = 21
 # agebin = 20--29
@@ -40,21 +26,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 33874102
 # post_date = 2008-06-23 16:54:30
-# username = Fru E
-# sent_id = bacdc3b1
-1	När	|när|	HA	_	HA	2	TA	|när..ab.1|
-2	aktiveras	|aktivera|	VB	_	VB.PRS.SFO	0	ROOT	|aktivera..vb.1|
-3	köplatsen	|köplats|	NN	_	NN.UTR.SIN.DEF.NOM	2	SS	|
-4	egentligen	|egentligen|	AB	_	AB	2	MA	|egentligen..ab.1|
-5	,	|	MID	_	MID	2	IK	|
-6	är	|vara|	VB	_	VB.PRS.AKT	2	MS	|vara..vb.1|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	SS	|den..pn.1|
-8	när	|när|	HA	_	HA	11	TA	|när..ab.1|
-9	alla	|all|	DT	_	DT.UTR+NEU.PLU.IND+DEF	10	DT	|all..pn.1|
-10	papepr	|	NN	_	NN.UTR.PLU.IND.NOM	11	SS	|
-11	är	|vara|	VB	_	VB.PRS.AKT	6	TA	|vara..vb.1|
-12	klara	|klar|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	11	SP	|klar..av.1|
-13	?	|	MAD	_	MAD	2	I?	|
+När aktiveras köplatsen egentligen , är det när alla papepr är klara ?
 
 # age = 21
 # agebin = 20--29
@@ -64,26 +36,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 33874102
 # post_date = 2008-06-23 16:54:30
-# username = Fru E
-# sent_id = bac03b5d
-1	Eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-2	borde	|böra|	VB	_	VB.PRT.AKT	9	AA	|böra..vb.1|
-3	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-4	bestämma	|bestämma|	VB	_	VB.INF.AKT	2	VG	|bestämma..vb.1|
-5	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	4	OO	|land..nn.1|land..nn.2|land..nn.3|
-6	i	|i|i förväg|	PP	_	PP	4	TA	|i..pp.1|i_förväg..abm.1|
-7	förväg	|i förväg:6|	NN	_	NN.UTR.SIN.IND.NOM	6	HD	|i_förväg..abm.1:6|
-8	...	|	MID	_	MID	9	IG	|
-9	blir	|bli|	VB	_	VB.PRS.AKT	1	MS	|bli..vb.1|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
-11	så	|så|så att säga|	AB	_	AB	9	AA	|så..ab.1|så_att_säga..abm.1|
-12	att	|att|så att säga:11|	IE	_	IE	11	HD	|att..sn.1|så_att_säga..abm.1:11|
-13	säga	|säga|så att säga:11|	VB	_	VB.INF.AKT	11	HD	|säga..vb.1|så_att_säga..abm.1:11|
-14	köl	|köl|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|köl..nn.1|
-15	till	|till|	PP	_	PP	14	ET	|till..pp.1|
-16	respektive	|	AB	_	AB	17	DT	|
-17	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	15	PA	|land..nn.1|land..nn.2|land..nn.3|
-18	?	|	MAD	_	MAD	9	I?	|
+Eller borde vi bestämma land i förväg ... blir det så att säga köl till respektive land ?
 
 # age = 21
 # agebin = 20--29
@@ -93,16 +46,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 33874102
 # post_date = 2008-06-23 16:54:30
-# username = Fru E
-# sent_id = bacc2fce
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	känenr	|	VB	_	VB.PRT.AKT	0	ROOT	|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-5	behöver	|behöva|	VB	_	VB.PRS.AKT	3	UA	|behöva..vb.1|
-6	lite	|lite|	AB	_	AB.POS	7	AT	|lite..ab.1|
-7	coachibg	|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|
-8	här	|här|	AB	_	AB	5	RA	|här..ab.1|
+Jag känenr att jag behöver lite coachibg här
 
 # age = 21
 # agebin = 20--29
@@ -112,16 +56,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 33874102
 # post_date = 2008-06-23 16:54:30
-# username = Fru E
-# sent_id = bac4b3b1
-1	/	|	MID	_	MID	0	ROOT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	1	SS	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	2	HD	|e..nn.1|e..nna.1|
-4	,	|	MID	_	MID	2	IK	|
-5	nybörjare	|nybörjare|	NN	_	NN.UTR.SIN.IND.NOM	2	AN	|nybörjare..nn.1|
-6	på	|på|	PP	_	PP	5	ET	|på..pp.1|
-7	adoptionstankar	|adoptionstankar|	NN	_	NN.UTR.PLU.IND.NOM	6	PA	|
-8	...	|	MAD	_	MAD	1	IG	|
+/ Fru E , nybörjare på adoptionstankar ...
 
 # age = 21
 # agebin = 20--29
@@ -131,21 +66,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 33874119
 # post_date = 2008-06-23 16:55:32
-# username = Fru E
-# sent_id = bac84fdf
-1	Ojdå	|ojdå|	IN	_	IN	0	ROOT	|ojdå..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	som	|som|	HA	_	HA	8	KA	|som..ab.1|
-4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-5	klantade	|klanta sig|	VB	_	VB.PRT.AKT	3	UA	|klanta_sig..vbm.1|
-6	mig	|jag|klanta sig:5|	PN	_	PN.UTR.SIN.DEF.OBJ	5	OO	|jag..pn.1|klanta_sig..vbm.1:5|
-7	...	|	MID	_	MID	5	IG	|
-8	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	1	MS	|hoppa..vb.1|hoppas..vb.1|
-9	att	|att|	SN	_	SN	8	OO	|att..sn.1|
-10	frågan	|fråga|	NN	_	NN.UTR.SIN.DEF.NOM	11	SS	|fråga..nn.1|
-11	framkommer	|framkomma|	VB	_	VB.PRS.AKT	9	UA	|framkomma..vb.1|
-12	ändå	|ändå|	AB	_	AB	11	+A	|ändå..ab.1|
-13	.	|	MAD	_	MAD	1	IP	|
+Ojdå , som jag klantade mig ... Hoppas att frågan framkommer ändå .
 
 # age = 21
 # agebin = 20--29
@@ -155,19 +76,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 33874119
 # post_date = 2008-06-23 16:55:32
-# username = Fru E
-# sent_id = bacded47
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	menar	|mena|	VB	_	VB.PRS.AKT	0	ROOT	|mena..vb.1|
-3	alltså	|alltså|	AB	_	AB	2	+A	|alltså..ab.1|
-4	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|jag..pn.1|
-6	behöver	|behöva|	VB	_	VB.PRS.AKT	4	UA	|behöva..vb.1|
-7	lite	|lite|	AB	_	AB.POS	8	AA	|lite..ab.1|
-8	coaching	|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|
-9	"	|	PAD	_	PAD	10	JC	|
-10	ooops	|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|
-11	"	|	PAD	_	PAD	2	JR	|
+Jag menar alltså att jag behöver lite coaching " ooops "
 
 # age = 21
 # agebin = 20--29
@@ -177,17 +86,7 @@
 # thread_title = Har inte riktigt koll på kösystemet...
 # post_id = 34143447
 # post_date = 2008-07-02 12:15:33
-# username = Fru E
-# sent_id = bac6f6ec
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	nu	|nu|	AB	_	AB	4	TA	|nu..ab.1|
-4	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
-6	lite	|lite|	AB	_	AB.POS	7	AA	|lite..ab.1|
-7	mer	|mer|mycket|	AB	_	AB.KOM	8	AA	|mer..ab.1|mycket..ab.1|
-8	insatt	|insatt|insätta|sätta in|	PC	_	PC.PRF.UTR.SIN.IND.NOM	4	SP	|insatt..av.1|insätta..vb.1|sätta_in..vbm.1|
-9	!	|	MAD	_	MAD	1	IU	|
+Tack , nu är jag lite mer insatt !
 
 # age = 22
 # agebin = 20--29
@@ -197,38 +96,7 @@
 # thread_title = Vilken organisation skall man välja?
 # post_id = 44474546
 # post_date = 2009-06-02 20:55:51
-# username = Fru E
-# sent_id = bac0bb72
-1	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	passar	|passa|passa på|	VB	_	VB.PRS.AKT	0	ROOT	|passa..vb.1|passa..vb.2|passa_på..vbm.1|
-3	på	|på|passa på:2|	PL	_	PL	2	PL	|på..ab.1|passa_på..vbm.1:2|
-4	att	|att|	IE	_	IE	2	OA	|att..sn.1|
-5	slå	|slå|slå ett slag|	VB	_	VB.INF.AKT	4	IF	|slå..vb.1|slå_ett_slag..vbm.1|
-6	ett	|en|slå ett slag:5|	DT	_	DT.NEU.SIN.IND	7	DT	|en..al.1|slå_ett_slag..vbm.1:5|
-7	slag	|slag|slå ett slag:5|	NN	_	NN.NEU.SIN.IND.NOM	5	OO	|slag..nn.1|slå_ett_slag..vbm.1:5|
-8	för	|för|	PP	_	PP	5	OA	|för..pp.1|
-9	Barnens	|barn|	NN	_	NN.NEU.PLU.DEF.GEN	10	DT	|barn..nn.1|
-10	vänner	|vän|	NN	_	NN.UTR.PLU.IND.NOM	8	PA	|vän..nn.1|
-11	,	|	MID	_	MID	2	IK	|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
-13	är	|vara|	VB	_	VB.PRS.AKT	18	MS	|vara..vb.1|
-14	en	|en|	DT	_	DT.UTR.SIN.IND	16	DT	|en..al.1|
-15	liten	|liten|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	16	AT	|liten..av.1|
-16	organisation	|organisation|	NN	_	NN.UTR.SIN.IND.NOM	13	SP	|organisation..nn.1|organisation..nn.2|
-17	,	|	MID	_	MID	18	IK	|
-18	men	|men|	KN	_	KN	2	MS	|men..kn.1|
-19	med	|med|	PP	_	PP	18	+F	|med..pp.1|
-20	enortmt	|	AB	_	AB.POS	21	AA	|
-21	trevlig	|trevlig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	22	AT	|trevlig..av.1|
-22	peronal	|	NN	_	NN.UTR.SIN.IND.NOM	19	PA	|
-23	,	|	MID	_	MID	27	IK	|
-24	ett	|en|	DT	_	DT.NEU.SIN.IND	26	DT	|en..al.1|
-25	personligt	|personlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	26	AT	|personlig..av.1|
-26	bemötande	|bemötande|	NN	_	NN.NEU.SIN.IND.NOM	27	CJ	|bemötande..nn.1|
-27	och	|och|	KN	_	KN	19	PA	|och..kn.1|
-28	effektivt	|effektiv|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	29	AT	|effektiv..av.1|
-29	arbete	|arbete|	NN	_	NN.NEU.SIN.IND.NOM	27	CJ	|arbete..nn.1|
-30	.	|	MAD	_	MAD	2	IP	|
+jag passar på att slå ett slag för Barnens vänner , det är en liten organisation , men med enortmt trevlig peronal , ett personligt bemötande och effektivt arbete .
 
 # age = 22
 # agebin = 20--29
@@ -238,14 +106,7 @@
 # thread_title = Vilken organisation skall man välja?
 # post_id = 44474546
 # post_date = 2009-06-02 20:55:51
-# username = Fru E
-# sent_id = bac6aa64
-1	dessutom	|dessutom|	AB	_	AB	3	+A	|dessutom..ab.1|
-2	lite	|lite|	AB	_	AB.POS	3	AA	|lite..ab.1|
-3	billigare	|billig|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	OO	|billig..av.1|
-4	tror	|tro|	VB	_	VB.PRS.AKT	0	ROOT	|tro..vb.1|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
-6	.	|	MAD	_	MAD	4	IP	|
+dessutom lite billigare tror jag .
 
 # age = 22
 # agebin = 20--29
@@ -255,22 +116,7 @@
 # thread_title = Vilken organisation skall man välja?
 # post_id = 44474546
 # post_date = 2009-06-02 20:55:51
-# username = Fru E
-# sent_id = bacfcb12
-1	Annars	|annars|	AB	_	AB	2	AA	|annars..ab.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-4	råda	|rå|råda|	VB	_	VB.INF.AKT	2	VG	|rå..vb.1|råda..vb.1|
-5	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	4	OO	|du..pn.1|
-6	att	|att|	IE	_	IE	4	OA	|att..sn.1|
-7	gå	|gå|gå med|	VB	_	VB.INF.AKT	6	IF	|gå..vb.1|gå_med..vbm.1|
-8	med	|med|gå med:7|	PL	_	PL	7	PL	|med..ab.1|gå_med..vbm.1:7|
-9	i	|i|	PP	_	PP	7	RA	|i..pp.1|
-10	minst	|föga|lite|liten|minst|	AB	_	AB.SUV	11	AA	|föga..ab.1|lite..ab.1|liten..av.1|minst..ab.1|
-11	två	|två|	RG	_	RG.NOM	13	DT	|två..nl.1|
-12	olika	|olik|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	13	AT	|olik..av.1|
-13	organisationer	|organisation|	NN	_	NN.UTR.PLU.IND.NOM	9	PA	|organisation..nn.1|
-14	...	|	MAD	_	MAD	4	IG	|
+Annars kan jag råda dig att gå med i minst två olika organisationer ...
 
 # age = 22
 # agebin = 20--29
@@ -280,11 +126,7 @@
 # thread_title = Vilken organisation skall man välja?
 # post_id = 44474546
 # post_date = 2009-06-02 20:55:51
-# username = Fru E
-# sent_id = bac9e8af
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
-3	!	|	MAD	_	MAD	2	PA	|
+Lycka till !
 
 # age = 21
 # agebin = 20--29
@@ -294,10 +136,7 @@
 # thread_title = CSS
 # post_id = 38116541
 # post_date = 2008-11-08 19:59:17
-# username = Fru E
-# sent_id = bac3c2bc
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 21
 # agebin = 20--29
@@ -307,19 +146,7 @@
 # thread_title = CSS
 # post_id = 38116541
 # post_date = 2008-11-08 19:59:17
-# username = Fru E
-# sent_id = bace4599
-1	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	11	SS	|någon..pn.1|
-2	som	|	HP	_	HP.-.-.-	3	SS	|
-3	har	|ha|	VB	_	VB.PRS.AKT	5	MS	|ha..vb.1|
-4	adopterat	|adoptera|	VB	_	VB.SUP.AKT	5	MS	|adoptera..vb.1|
-5	eller	|eller|	KN	_	KN	1	ET	|eller..kn.1|
-6	håller	|hålla|hålla på|	VB	_	VB.PRS.AKT	5	+F	|hålla..vb.1|hålla_på..vbm.1|
-7	på	|på|hålla på:6|	PL	_	PL	6	PL	|på..ab.1|hålla_på..vbm.1:6|
-8	från	|från|	PP	_	PP	6	RA	|från..pp.1|
-9	CSS	|	PM	_	PM.NOM	8	PA	|
-10	Taiwan	|Taiwan|	PM	_	PM.NOM	9	HD	|Taiwan..pm.1|Taiwan..pm.2|
-11	.	|	MAD	_	MAD	0	ROOT	|
+Någon som har adopterat eller håller på från CSS Taiwan .
 
 # age = 21
 # agebin = 20--29
@@ -329,17 +156,7 @@
 # thread_title = CSS
 # post_id = 38116541
 # post_date = 2008-11-08 19:59:17
-# username = Fru E
-# sent_id = bac69675
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	funderar	|fundera|	VB	_	VB.PRS.AKT	0	ROOT	|fundera..vb.1|
-3	över	|över|	PP	_	PP	2	OA	|över..pp.1|
-4	kravet	|krav|	NN	_	NN.NEU.SIN.DEF.NOM	3	PA	|krav..nn.1|
-5	att	|att|	IE	_	IE	4	ET	|att..sn.1|
-6	vara	|vara|	VB	_	VB.INF.AKT	5	IF	|vara..vb.1|vara..vb.2|
-7	aktivt	|aktiv|	AB	_	AB.POS	8	AA	|aktiv..av.1|
-8	kristen	|kristen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	6	SP	|kristen..av.1|
-9	.	|	MAD	_	MAD	2	IP	|
+Jag funderar över kravet att vara aktivt kristen .
 
 # age = 21
 # agebin = 20--29
@@ -349,12 +166,7 @@
 # thread_title = CSS
 # post_id = 38116541
 # post_date = 2008-11-08 19:59:17
-# username = Fru E
-# sent_id = bac545f2
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	framkommer	|framkomma|	VB	_	VB.PRS.AKT	0	ROOT	|framkomma..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	?	|	MAD	_	MAD	2	I?	|
+Hur framkommer det ?
 
 # age = 21
 # agebin = 20--29
@@ -364,14 +176,7 @@
 # thread_title = CSS
 # post_id = 38116541
 # post_date = 2008-11-08 19:59:17
-# username = Fru E
-# sent_id = baccf5e0
-1	Via	|via|	PP	_	PP	5	CJ	|via..pp.1|
-2	hemutredningnes	|	NN	_	NN.UTR.SIN.IND.GEN	3	DT	|
-3	intervjuer	|intervju|	NN	_	NN.UTR.PLU.IND.NOM	1	PA	|intervju..nn.1|
-4	,	|	MID	_	MID	5	IK	|
-5	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-6	?	|	MAD	_	MAD	5	I?	|
+Via hemutredningnes intervjuer , eller ?
 
 # age = 21
 # agebin = 20--29
@@ -381,27 +186,7 @@
 # thread_title = CSS
 # post_id = 38116541
 # post_date = 2008-11-08 19:59:17
-# username = Fru E
-# sent_id = bacfe29f
-1	Måste	|måste|	VB	_	VB.PRS.AKT	8	MS	|måste..vb.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	gå	|gå|	VB	_	VB.INF.AKT	1	VG	|gå..vb.1|
-4	regelbundet	|regelbunden|	AB	_	AB	3	TA	|regelbunden..av.1|
-5	i	|i|	PP	_	PP	3	RA	|i..pp.1|
-6	kyrkan	|kyrka|	NN	_	NN.UTR.SIN.DEF.NOM	5	PA	|kyrka..nn.1|
-7	,	|	MID	_	MID	8	IK	|
-8	eller	|eller|eller hur|	KN	_	KN	0	ROOT	|eller..kn.1|eller_hur..inm.1|
-9	hur	|hur|eller hur:8|	HA	_	HA	10	AA	|hur..ab.1|eller_hur..inm.1:8|
-10	ska	|skola|	VB	_	VB.PRS.AKT	8	MS	|skola..vb.2|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	SS	|den..pn.1|
-12	"	|	PAD	_	PAD	10	MA	|
-13	synas	|syna|synas|	VB	_	VB.INF.SFO	10	VG	|syna..vb.1|synas..vb.1|
-14	"	|	PAD	_	PAD	13	PL	|
-15	att	|att|	SN	_	SN	13	KA	|att..sn.1|
-16	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	17	SS	|man..pn.1|
-17	är	|vara|	VB	_	VB.PRS.AKT	15	UA	|vara..vb.1|
-18	kristen	|kristen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	17	SP	|kristen..av.1|
-19	?	|	MAD	_	MAD	10	I?	|
+Måste man gå regelbundet i kyrkan , eller hur ska det " synas " att man är kristen ?
 
 # age = 21
 # agebin = 20--29
@@ -411,24 +196,7 @@
 # thread_title = CSS
 # post_id = 38116541
 # post_date = 2008-11-08 19:59:17
-# username = Fru E
-# sent_id = bac83801
-1	Räcker	|räcka|	VB	_	VB.PRS.AKT	11	AA	|räcka..vb.1|räcka..vb.2|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	med	|med|	PP	_	PP	1	OA	|med..pp.1|
-4	att	|att|	SN	_	SN	3	PA	|att..sn.1|
-5	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	6	SS	|man..pn.1|
-6	berättar	|berätta|	VB	_	VB.PRS.AKT	4	UA	|berätta..vb.1|
-7	om	|om|	PP	_	PP	6	OA	|om..pp.1|
-8	sina	|sig|	PS	_	PS.UTR+NEU.PLU.DEF	9	DT	|sig..pn.1|
-9	värderingar	|värdering|	NN	_	NN.UTR.PLU.IND.NOM	7	PA	|värdering..nn.1|
-10	...	|	MID	_	MID	11	IG	|
-11	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-12	att	|att|	SN	_	SN	11	OO	|att..sn.1|
-13	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	14	SS	|någon..pn.1|
-14	vill	|vilja|	VB	_	VB.PRS.AKT	12	UA	|vilja..vb.1|
-15	berätta	|berätta|	VB	_	VB.INF.AKT	14	VG	|berätta..vb.1|
-16	!	|	MAD	_	MAD	11	IU	|
+Räcker det med att man berättar om sina värderingar ... hoppas att någon vill berätta !
 
 # age = 21
 # agebin = 20--29
@@ -438,11 +206,7 @@
 # thread_title = CSS
 # post_id = 38116541
 # post_date = 2008-11-08 19:59:17
-# username = Fru E
-# sent_id = bac12774
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -452,12 +216,7 @@
 # thread_title = CSS
 # post_id = 38137558
 # post_date = 2008-11-09 17:05:39
-# username = Fru E
-# sent_id = bac1327b
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	Längtanväntan	|längtanväntan|	NN	_	NN.UTR.SIN.DEF.NOM	1	HD	|
-4	!	|	MAD	_	MAD	1	IU	|
+Tack , Längtanväntan !
 
 # age = 21
 # agebin = 20--29
@@ -467,47 +226,7 @@
 # thread_title = CSS
 # post_id = 38137558
 # post_date = 2008-11-09 17:05:39
-# username = Fru E
-# sent_id = bacea9a7
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	får	|få|	VB	_	VB.PRS.AKT	33	MS	|få..vb.1|
-3	fundera	|fundera|	VB	_	VB.INF.AKT	2	VG	|fundera..vb.1|
-4	på	|på|	PP	_	PP	3	OA	|på..pp.1|
-5	det	|den|den där|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	PA	|den..pn.1|den_där..pnm.1|
-6	där	|där|den där:5|	AB	_	AB	9	RA	|där..ab.1|den_där..pnm.1:5|
-7	...	|	MID	_	MID	2	IQ	|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
-9	är	|vara|	VB	_	VB.PRS.AKT	33	MS	|vara..vb.1|
-10	ju	|ju|ju ju|	AB	_	AB	9	MA	|ju..ab.1|ju_ju..knm.1|
-11	viss	|viss|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	12	DT	|viss..av.1|
-12	skillnad	|skillnad|	NN	_	NN.UTR.SIN.IND.NOM	9	SP	|skillnad..nn.1|
-13	på	|på|	PP	_	PP	9	OA	|på..pp.1|
-14	att	|att|	IE	_	IE	13	PA	|att..sn.1|
-15	vara	|vara|	VB	_	VB.INF.AKT	14	IF	|vara..vb.1|vara..vb.2|
-16	aktivt	|aktiv|	AB	_	AB.POS	17	AA	|aktiv..av.1|
-17	kristen	|kristen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	15	SP	|kristen..av.1|
-18	och	|och|	KN	_	KN	9	SP	|och..kn.1|
-19	att	|att|	IE	_	IE	18	CJ	|att..sn.1|
-20	leva	|leva|	VB	_	VB.INF.AKT	19	IF	|leva..vb.1|
-21	efter	|efter|	PP	_	PP	20	OA	|efter..pp.1|
-22	kristna	|kristen|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	23	AT	|kristen..av.1|
-23	värderingar	|värdering|	NN	_	NN.UTR.PLU.IND.NOM	21	PA	|värdering..nn.1|
-24	...	|	MID	_	MID	28	IG	|
-25	Åja	|	PM	_	PM.NOM	28	SS	|
-26	,	|	MID	_	MID	33	IK	|
-27	landet	|land|	NN	_	NN.NEU.SIN.DEF.NOM	28	SS	|land..nn.1|land..nn.2|land..nn.3|
-28	lcokar	|	VB	_	VB.PRS.AKT	33	MS	|
-29	i	|i|i alla fall|	PP	_	PP	28	AA	|i..pp.1|i_alla_fall..abm.1|
-30	alla	|all|i alla fall:29|	DT	_	DT.UTR+NEU.PLU.IND+DEF	31	DT	|all..pn.1|i_alla_fall..abm.1:29|
-31	fall	|fall|i alla fall:29|	NN	_	NN.NEU.PLU.IND.NOM	29	PA	|fall..nn.1|i_alla_fall..abm.1:29|
-32	,	|	MID	_	MID	33	IK	|
-33	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-34	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	35	FS	|den..pn.1|
-35	finnns	|	VB	_	VB.PRS.SFO	33	MS	|
-36	ju	|ju|ju ju:10|	AB	_	AB	35	MA	|ju..ab.1|ju_ju..knm.1:10|
-37	andra	|andra|annan|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	38	DT	|andra..av.1|annan..pn.1|
-38	alternativ	|alternativ|	NN	_	NN.NEU.PLU.IND.NOM	35	ES	|alternativ..nn.1|
-39	...	|	MAD	_	MAD	33	IG	|
+Jag får fundera på det där ... det är ju viss skillnad på att vara aktivt kristen och att leva efter kristna värderingar ... Åja , landet lcokar i alla fall , men det finnns ju andra alternativ ...
 
 # age = 21
 # agebin = 20--29
@@ -517,17 +236,7 @@
 # thread_title = CSS
 # post_id = 38137558
 # post_date = 2008-11-09 17:05:39
-# username = Fru E
-# sent_id = baccf879
-1	8	|	RG	_	RG.NOM	2	DT	|
-2	dagar	|dag|	NN	_	NN.UTR.PLU.IND.NOM	4	CJ	|dag..nn.1|
-3	..	|	MID	_	MID	4	CJ	|
-4	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-5	bara	|bara|	AB	_	AB	6	CA	|bara..ab.1|
-6	7	|	RG	_	RG.NOM	4	CJ	|
-7	nu	|nu|	AB	_	AB	4	CJ	|nu..ab.1|
-8	då	|då|	AB	_	AB	7	AA	|då..ab.1|då..ab.2|
-9	!	|	MAD	_	MAD	4	IU	|
+8 dagar .. eller bara 7 nu då !
 
 # age = 21
 # agebin = 20--29
@@ -537,17 +246,7 @@
 # thread_title = CSS
 # post_id = 38137558
 # post_date = 2008-11-09 17:05:39
-# username = Fru E
-# sent_id = bac78f02
-1	Himmel	|himmel|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|himmel..nn.1|
-2	och	|och|	KN	_	KN	6	SS	|och..kn.1|
-3	pannkaka	|pannkaka|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|pannkaka..nn.1|
-4	,	|	MID	_	MID	2	IK	|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	DB	|den..pn.1|
-6	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-7	ju	|ju|	AB	_	AB	6	MA	|ju..ab.1|
-8	jättespännande	|jättespännande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	6	SP	|jättespännande..av.1|
-9	!	|	MAD	_	MAD	6	IU	|
+Himmel och pannkaka , det är ju jättespännande !
 
 # age = 21
 # agebin = 20--29
@@ -557,13 +256,7 @@
 # thread_title = CSS
 # post_id = 38137558
 # post_date = 2008-11-09 17:05:39
-# username = Fru E
-# sent_id = bac6e0ee
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
-3	,	|	MID	_	MID	1	IK	|
-4	verkligen	|verkligen|	AB	_	AB	1	MA	|verkligen..ab.1|
-5	!	|	MAD	_	MAD	4	IU	|
+Lycka till , verkligen !
 
 # age = 21
 # agebin = 20--29
@@ -573,11 +266,7 @@
 # thread_title = CSS
 # post_id = 38137558
 # post_date = 2008-11-09 17:05:39
-# username = Fru E
-# sent_id = bac076a2
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -587,17 +276,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37813157
 # post_date = 2008-10-30 16:00:39
-# username = Fru E
-# sent_id = bac9192e
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	vet	|veta|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	föräldrautbildningen	|föräldrautbildning|	NN	_	NN.UTR.SIN.DEF.NOM	5	SS	|
-5	kostar	|kosta|	VB	_	VB.PRS.AKT	3	UA	|kosta..vb.1|
-6	en	|en|	DT	_	DT.UTR.SIN.IND	7	DT	|en..al.1|
-7	slant	|slant|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|slant..nn.1|
-8	,	|	MID	_	MID	5	IK	|
-9	.	|	MAD	_	MAD	2	IP	|
+Jag vet att föräldrautbildningen kostar en slant , .
 
 # age = 21
 # agebin = 20--29
@@ -607,17 +286,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37813157
 # post_date = 2008-10-30 16:00:39
-# username = Fru E
-# sent_id = bac6ca33
-1	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	när	|när|	HA	_	HA	3	TA	|när..ab.1|
-3	börjar	|börja|	VB	_	VB.PRS.AKT	1	MS	|börja..vb.1|börja..vb.2|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
-5	kosta	|kosta|	VB	_	VB.INF.AKT	3	OO	|kosta..vb.1|
-6	mera	|mera|mycket|	AB	_	AB.KOM	5	AA	|mera..ab.1|mycket..ab.1|
-7	kring	|kring|	PP	_	PP	5	OA	|kring..pp.1|
-8	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	7	PA	|adoption..nn.1|
-9	.	|	MAD	_	MAD	3	IP	|
+men när börjar det kosta mera kring adoption .
 
 # age = 21
 # agebin = 20--29
@@ -627,12 +296,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37813157
 # post_date = 2008-10-30 16:00:39
-# username = Fru E
-# sent_id = bacd3d6d
-1	Kostar	|kosta|	VB	_	VB.PRS.AKT	0	ROOT	|kosta..vb.1|
-2	hemutredningne	|	NN	_	NN.UTR.SIN.IND.NOM	1	SS	|
-3	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	1	OO	|någon..pn.1|
-4	?	|	MAD	_	MAD	1	I?	|
+Kostar hemutredningne något ?
 
 # age = 21
 # agebin = 20--29
@@ -642,10 +306,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37813157
 # post_date = 2008-10-30 16:00:39
-# username = Fru E
-# sent_id = bacc22e7
-1	Läkasrundersökning	|läkasrundersökning|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|
-2	?	|	MAD	_	MAD	1	I?	|
+Läkasrundersökning ?
 
 # age = 21
 # agebin = 20--29
@@ -655,19 +316,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37813157
 # post_date = 2008-10-30 16:00:39
-# username = Fru E
-# sent_id = bac5b4c3
-1	Ungeföär	|	VB	_	VB.IMP.AKT	0	ROOT	|
-2	hur	|hur|	HA	_	HA	3	AA	|hur..ab.1|
-3	mycket	|mycket|	AB	_	AB.POS	1	AA	|mycket..ab.1|
-4	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
-5	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|ni..pn.1|
-6	kagt	|	VB	_	VB.SUP.AKT	4	VG	|
-7	ut	|ut|	PL	_	PL	6	PL	|ut..ab.1|
-8	fram	|fram|	AB	_	AB	6	RA	|fram..ab.1|
-9	till	|till|	PP	_	PP	8	RA	|till..pp.1|
-10	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	9	PA	|medgivande..nn.1|
-11	?	|	MAD	_	MAD	1	I?	|
+Ungeföär hur mycket har ni kagt ut fram till medgivande ?
 
 # age = 21
 # agebin = 20--29
@@ -677,16 +326,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37813315
 # post_date = 2008-10-30 16:05:45
-# username = Fru E
-# sent_id = baca9209
-1	Så	|så|	AB	_	AB	2	AA	|så..ab.1|
-2	bra	|bra|	AB	_	AB.POS	5	AA	|bra..ab.1|bra..ab.2|bra..av.1|
-3	...	|	MID	_	MID	5	IG	|
-4	vad	|vad|	HP	_	HP.NEU.SIN.IND	5	OO	|vad..pn.1|
-5	kostar	|kosta|	VB	_	VB.PRS.AKT	0	ROOT	|kosta..vb.1|
-6	läkarundersökningen	|läkarundersökning|	NN	_	NN.UTR.SIN.DEF.NOM	5	SS	|läkarundersökning..nn.1|
-7	då	|då|	AB	_	AB	5	DB	|då..ab.1|då..ab.2|
-8	?	|	MAD	_	MAD	5	I?	|
+Så bra ... vad kostar läkarundersökningen då ?
 
 # age = 21
 # agebin = 20--29
@@ -696,13 +336,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37813315
 # post_date = 2008-10-30 16:05:45
-# username = Fru E
-# sent_id = bacc81eb
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	omfattande	|omfatta|omfattande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	3	SP	|omfatta..vb.1|omfattande..av.1|
-3	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-4	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	3	SS	|den..pn.1|
-5	?	|	MAD	_	MAD	3	I?	|
+Hur omfattande är den ?
 
 # age = 21
 # agebin = 20--29
@@ -712,16 +346,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37834864
 # post_date = 2008-10-31 09:39:18
-# username = Fru E
-# sent_id = bac181ea
-1	Osiris75	|	PM	_	PM.NOM	0	ROOT	|
-2	,	|	MID	_	MID	1	IK	|
-3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
-4	kikade	|kika|	VB	_	VB.PRT.AKT	1	MS	|kika..vb.1|
-5	in	|in|	PL	_	PL	4	PL	|in..ab.1|
-6	idin	|	PS	_	PS.UTR.SIN.DEF	7	DT	|
-7	blogg	|blogg|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|blogg..nn.1|
-8	!	|	MAD	_	MAD	1	IU	|
+Osiris75 , jag kikade in idin blogg !
 
 # age = 21
 # agebin = 20--29
@@ -731,19 +356,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37834864
 # post_date = 2008-10-31 09:39:18
-# username = Fru E
-# sent_id = bace064f
-1	Så	|så|	AB	_	AB	2	AA	|så..ab.1|
-2	superbra	|superbra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	11	OO	|
-3	att	|att|	IE	_	IE	2	OA	|att..sn.1|
-4	få	|få|	VB	_	VB.INF.AKT	3	IF	|få..vb.1|
-5	lite	|lite|	AB	_	AB.POS	6	DT	|lite..ab.1|
-6	inblick	|inblick|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|inblick..nn.1|
-7	i	|i|	PP	_	PP	4	RA	|i..pp.1|
-8	någon	|någon|	DT	_	DT.UTR.SIN.IND	9	DT	|någon..pn.1|
-9	annans	|annan|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	10	DT	|annan..pn.1|
-10	adoptionsprocess	|adoptionsprocess|	NN	_	NN.UTR.SIN.IND.NOM	7	PA	|
-11	.	|	MAD	_	MAD	0	ROOT	|
+Så superbra att få lite inblick i någon annans adoptionsprocess .
 
 # age = 21
 # agebin = 20--29
@@ -753,10 +366,7 @@
 # thread_title = Kostar hemutredningen?
 # post_id = 37834864
 # post_date = 2008-10-31 09:39:18
-# username = Fru E
-# sent_id = bac92fc3
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Tack !
 
 # age = 22
 # agebin = 20--29
@@ -766,10 +376,7 @@
 # thread_title = skulle så gärna vilja adoptera...men
 # post_id = 47702923
 # post_date = 2009-10-01 15:49:13
-# username = Fru E
-# sent_id = 2b5bb829
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 22
 # agebin = 20--29
@@ -779,35 +386,7 @@
 # thread_title = skulle så gärna vilja adoptera...men
 # post_id = 47702923
 # post_date = 2009-10-01 15:49:13
-# username = Fru E
-# sent_id = 2b53c0b0
-1	Via	|via|	PP	_	PP	4	RA	|via..pp.1|
-2	Barnens	|barn|	NN	_	NN.NEU.PLU.DEF.GEN	3	DT	|barn..nn.1|
-3	Vänner	|vän|	NN	_	NN.UTR.PLU.IND.NOM	1	PA	|vän..nn.1|
-4	finns	|finna|finnas|	VB	_	VB.PRS.SFO	0	ROOT	|finna..vb.1|finnas..vb.1|
-5	ett	|en|	DT	_	DT.NEU.SIN.IND	6	DT	|en..al.1|
-6	barnhem	|barnhem|	NN	_	NN.NEU.SIN.IND.NOM	4	SS	|barnhem..nn.1|
-7	i	|i|	PP	_	PP	4	RA	|i..pp.1|
-8	Taiwan	|Taiwan|	PM	_	PM.NOM	7	PA	|Taiwan..pm.1|Taiwan..pm.2|
-9	där	|där|	HA	_	HA	11	RA	|där..ab.1|
-10	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-11	får	|få|	VB	_	VB.PRS.AKT	6	ET	|få..vb.1|
-12	välja	|välja|	VB	_	VB.INF.AKT	11	VG	|välja..vb.1|
-13	kön	|kön|	NN	_	NN.NEU.SIN.IND.NOM	12	OO	|kön..nn.1|
-14	,	|	MID	_	MID	4	IK	|
-15	dock	|dock|	AB	_	AB	16	+A	|dock..ab.1|
-16	avråds	|avråda|	VB	_	VB.PRS.SFO	4	MS	|avråda..vb.1|
-17	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	16	SS	|man..pn.1|
-18	eftersom	|eftersom|	SN	_	SN	16	AA	|eftersom..sn.1|
-19	väntetiden	|väntetid|	NN	_	NN.UTR.SIN.DEF.NOM	20	SS	|väntetid..nn.1|
-20	kan	|kunna|	VB	_	VB.PRS.AKT	18	UA	|kunna..vb.1|
-21	vli	|	VB	_	VB.INF.AKT	20	VG	|
-22	längre	|länge|längre|lång|	AB	_	AB.KOM	21	TA	|länge..ab.1|längre..ab.1|lång..av.1|
-23	om	|om|	SN	_	SN	21	AA	|om..sn.1|
-24	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	25	SS	|man..pn.1|
-25	gör	|göra|	VB	_	VB.PRS.AKT	23	UA	|göra..vb.1|
-26	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	25	OO	|den..pn.1|
-27	.	|	MAD	_	MAD	16	IP	|
+Via Barnens Vänner finns ett barnhem i Taiwan där man får välja kön , dock avråds man eftersom väntetiden kan vli längre om man gör det .
 
 # age = 22
 # agebin = 20--29
@@ -817,26 +396,7 @@
 # thread_title = skulle så gärna vilja adoptera...men
 # post_id = 47702923
 # post_date = 2009-10-01 15:49:13
-# username = Fru E
-# sent_id = 2b50a612
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	13	MS	|kunna..vb.1|
-3	säkert	|säker|	AB	_	AB.POS	2	MA	|säker..av.1|
-4	finnas	|finna|finnas|	VB	_	VB.INF.SFO	2	VG	|finna..vb.1|finnas..vb.1|
-5	fle	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	6	AT	|
-6	utlandskontakter	|utlandskontakt|utlandskontakter|	NN	_	NN.UTR.PLU.IND.NOM	4	ES	|
-7	som	|	HP	_	HP.-.-.-	8	SS	|
-8	accepterar	|acceptera|	VB	_	VB.PRS.AKT	6	ET	|acceptera..vb.1|
-9	att	|att|	SN	_	SN	8	OO	|att..sn.1|
-10	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-11	väljer	|välja|	VB	_	VB.PRS.AKT	9	UA	|välja..vb.1|
-12	,	|	MID	_	MID	13	IK	|
-13	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-14	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	15	OO	|den..pn.1|
-15	vet	|veta|	VB	_	VB.PRS.AKT	13	MS	|veta..vb.1|
-16	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|jag..pn.1|
-17	inte	|inte|	AB	_	AB	15	NA	|inte..ab.1|
-18	.	|	MAD	_	MAD	13	IP	|
+Det kan säkert finnas fle utlandskontakter som accepterar att man väljer , men det vet jag inte .
 
 # age = 22
 # agebin = 20--29
@@ -846,11 +406,7 @@
 # thread_title = skulle så gärna vilja adoptera...men
 # post_id = 47702923
 # post_date = 2009-10-01 15:49:13
-# username = Fru E
-# sent_id = 2b58e004
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -860,35 +416,7 @@
 # thread_title = Taiwan
 # post_id = 46431275
 # post_date = 2009-08-16 19:31:12
-# username = Fru E
-# sent_id = 70667ad9
-1	Nimbus	|	PM	_	PM.NOM	9	SS	|
-2	,	|	MID	_	MID	1	IK	|
-3	vilken	|	HP	_	HP.UTR.SIN.IND	4	DT	|
-4	org	|	NN	_	NN.UTR.SIN.IND.NOM	1	AN	|
-5	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-6	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|ni..pn.1|
-7	...	|	MID	_	MID	5	IG	|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
-9	verkar	|verka|	VB	_	VB.PRS.AKT	5	MS	|verka..vb.1|
-10	som	|	KN	_	KN	9	KA	|
-11	att	|att|	SN	_	SN	10	UA	|att..sn.1|
-12	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	13	SS	|vi..pn.1|
-13	har	|ha|	VB	_	VB.PRS.AKT	11	UA	|ha..vb.1|
-14	kommit	|komma|	VB	_	VB.SUP.AKT	13	VG	|komma..vb.1|
-15	ganska	|ganska|	AB	_	AB	16	AA	|ganska..ab.1|
-16	lika	|lika|	AB	_	AB	17	AA	|lika..ab.1|
-17	....	|	MID	_	MID	14	AA	|
-18	Kna	|	VB	_	VB.PRT.AKT	9	MS	|
-19	mna	|	PN	_	PN.UTR.SIN.DEF.SUB	18	SS	|
-20	komma	|komma|komma in|	VB	_	VB.INF.AKT	18	VO	|komma..vb.1|komma_in..vbm.1|
-21	in	|in|komma in:20|	PL	_	PL	20	PL	|in..ab.1|komma_in..vbm.1:20|
-22	till	|till|	PP	_	PP	20	OA	|till..pp.1|
-23	din	|du|	PS	_	PS.UTR.SIN.DEF	25	DT	|du..pn.1|
-24	gästbok	|gästbok|	NN	_	NN.UTR.SIN.IND.NOM	25	CJ	|gästbok..nn.1|
-25	/	|	MID	_	MID	22	PA	|
-26	inbox	|inbox|	NN	_	NN.UTR.SIN.IND.NOM	25	CJ	|
-27	?	|	MAD	_	MAD	18	I?	|
+Nimbus , vilken org har ni ... det verkar som att vi har kommit ganska lika .... Kna mna komma in till din gästbok / inbox ?
 
 # age = 22
 # agebin = 20--29
@@ -898,11 +426,7 @@
 # thread_title = Taiwan
 # post_id = 46431275
 # post_date = 2009-08-16 19:31:12
-# username = Fru E
-# sent_id = 706e952d
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -912,38 +436,7 @@
 # thread_title = Tveksam/säker...
 # post_id = 37813292
 # post_date = 2008-10-30 16:04:52
-# username = Fru E
-# sent_id = ed5c9867
-1	När	|när|	HA	_	HA	3	TA	|när..ab.1|
-2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-3	tänker	|tänka|	VB	_	VB.PRS.AKT	10	TA	|tänka..vb.1|
-4	på	|på|	PP	_	PP	3	OA	|på..pp.1|
-5	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	PA	|den..pn.1|den_här..pnm.1|
-6	här	|här|den här:5|	AB	_	AB	5	HD	|här..ab.1|den_här..pnm.1:5|
-7	med	|med|	PP	_	PP	6	RA	|med..pp.1|
-8	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	7	PA	|adoption..nn.1|
-9	så	|så|	AB	_	AB	10	DB	|så..ab.1|
-10	känner	|känna|känna sig|	VB	_	VB.PRS.AKT	0	ROOT	|känna..vb.1|känna..vb.2|känna_sig..vbm.1|
-11	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
-12	mig	|jag|känna sig:10|	PN	_	PN.UTR.SIN.DEF.OBJ	10	OO	|jag..pn.1|känna_sig..vbm.1:10|
-13	ena	|ena|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	14	DT	|ena..pn.1|
-14	stunden	|stund|	NN	_	NN.UTR.SIN.DEF.NOM	10	OO	|stund..nn.1|
-15	övertygad	|övertyga|övertygad|	PC	_	PC.PRF.UTR.SIN.IND.NOM	18	CJ	|övertyga..vb.1|övertygad..av.1|
-16	,	|	MID	_	MID	18	IK	|
-17	säker	|säker|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	18	CJ	|säker..av.1|
-18	,	|	MID	_	MID	10	IK	|
-19	full	|full|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	18	CJ	|full..av.1|
-20	av	|av|	PP	_	PP	19	AG	|av..pp.1|
-21	längtan	|längtan|	NN	_	NN.UTR.SIN.IND.NOM	20	PA	|längtan..nn.1|
-22	för	|för|	PP	_	PP	10	AA	|för..pp.1|
-23	att	|att|	IE	_	IE	22	PA	|att..sn.1|
-24	nästa	|nästa|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	25	DT	|nästa..av.1|
-25	dag	|dag|	NN	_	NN.UTR.SIN.IND.NOM	26	TA	|dag..nn.1|
-26	känna	|känna|	VB	_	VB.INF.AKT	23	IF	|känna..vb.1|känna..vb.2|
-27	tveksamhet	|tveksamhet|	NN	_	NN.UTR.SIN.IND.NOM	28	CJ	|tveksamhet..nn.1|
-28	och	|och|	KN	_	KN	26	OO	|och..kn.1|
-29	rädsla	|rädsla|	NN	_	NN.UTR.SIN.IND.NOM	28	CJ	|rädsla..nn.1|
-30	...	|	MAD	_	MAD	10	IG	|
+När jag tänker på det här med adoption så känner jag mig ena stunden övertygad , säker , full av längtan för att nästa dag känna tveksamhet och rädsla ...
 
 # age = 21
 # agebin = 20--29
@@ -953,14 +446,7 @@
 # thread_title = Tveksam/säker...
 # post_id = 37813292
 # post_date = 2008-10-30 16:04:52
-# username = Fru E
-# sent_id = ed5b7f79
-1	Ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	vara	|vara|	VB	_	VB.INF.AKT	1	VG	|vara..vb.1|vara..vb.2|
-4	så	|så|så här|	AB	_	AB	3	AA	|så..ab.1|så_här..abm.1|
-5	här	|här|så här:4|	AB	_	AB	4	HD	|här..ab.1|så_här..abm.1:4|
-6	?	|	MAD	_	MAD	1	I?	|
+Ska det vara så här ?
 
 # age = 21
 # agebin = 20--29
@@ -970,49 +456,7 @@
 # thread_title = Tveksam/säker...
 # post_id = 37813292
 # post_date = 2008-10-30 16:04:52
-# username = Fru E
-# sent_id = ed5cdddf
-1	Har	|ha|	VB	_	VB.PRS.AKT	15	MS	|ha..vb.1|
-2	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|ni..pn.1|
-3	våäntat	|	VB	_	VB.SUP.AKT	1	VG	|
-4	med	|med|	PP	_	PP	3	OA	|med..pp.1|
-5	att	|att|	IE	_	IE	4	PA	|att..sn.1|
-6	stara	|	VB	_	VB.INF.AKT	5	IF	|
-7	ádoptionsprocessen	|	NN	_	NN.UTR.SIN.DEF.NOM	6	OO	|
-8	tills	|tills|	SN	_	SN	3	TA	|tills..sn.1|
-9	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|ni..pn.1|
-10	kännt	|	VB	_	VB.SUP.AKT	8	UA	|
-11	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	10	OO	|ni..pn.1|
-12	helt	|hel|helt|	AB	_	AB.POS	13	AA	|hel..av.1|helt..ab.1|
-13	säkra	|säker|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	10	AA	|säker..av.1|
-14	,	|	MID	_	MID	15	IK	|
-15	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-16	kan	|kunna|	VB	_	VB.PRS.AKT	15	MS	|kunna..vb.1|
-17	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	16	SS	|man..pn.1|
-18	resonera	|resonera|	VB	_	VB.INF.AKT	16	VG	|resonera..vb.1|
-19	så	|så|	AB	_	AB	18	AA	|så..ab.1|
-20	att	|att|	SN	_	SN	18	KA	|att..sn.1|
-21	"	|	PAD	_	PAD	23	VA	|
-22	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	23	FS	|den..pn.1|
-23	tar	|ta|ta tid|	VB	_	VB.PRS.AKT	20	UA	|ta..vb.1|ta_tid..vbm.1|
-24	ändå	|ändå|	AB	_	AB	23	+A	|ändå..ab.1|
-25	så	|så|	AB	_	AB	27	AA	|så..ab.1|
-26	himla	|himla|	AB	_	AB	27	AA	|himla..ab.1|
-27	lång	|lång|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	28	AT	|lång..av.1|
-28	tid	|tid|ta tid:23|	NN	_	NN.UTR.SIN.IND.NOM	23	OO	|tid..nn.1|ta_tid..vbm.1:23|
-29	att	|att|	SN	_	SN	28	ET	|att..sn.1|
-30	känslan	|känsla|	NN	_	NN.UTR.SIN.DEF.NOM	31	SS	|känsla..nn.1|
-31	kommer	|komma|	VB	_	VB.PRS.AKT	29	UA	|komma..vb.1|
-32	att	|att|	IE	_	IE	31	VG	|att..sn.1|
-33	mogna	|mogna|	VB	_	VB.INF.AKT	32	IF	|mogna..vb.1|
-34	innan	|innan|	SN	_	SN	33	TA	|innan..sn.1|
-35	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	36	SS	|barn..nn.1|
-36	är	|vara|	VB	_	VB.PRS.AKT	34	UA	|vara..vb.1|
-37	här	|här|	AB	_	AB	36	RA	|här..ab.1|
-38	"	|	PAD	_	PAD	34	UA	|
-39	?	|	MAD	_	MAD	1	I?	|
-40	?	|	MAD	_	MAD	1	I?	|
-41	?	|	MAD	_	MAD	1	I?	|
+Har ni våäntat med att stara ádoptionsprocessen tills ni kännt er helt säkra , eller kan man resonera så att " det tar ändå så himla lång tid att känslan kommer att mogna innan barnet är här " ? ? ?
 
 # age = 21
 # agebin = 20--29
@@ -1022,23 +466,7 @@
 # thread_title = Tveksam/säker...
 # post_id = 37813292
 # post_date = 2008-10-30 16:04:52
-# username = Fru E
-# sent_id = ed5a5127
-1	För	|för|	KN	_	KN	0	ROOT	|för..kn.1|
-2	någonstans	|någonstans|	AB	_	AB	3	AA	|någonstans..ab.1|
-3	inom	|inom|	PP	_	PP	5	RA	|inom..pp.1|
-4	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	3	PA	|jag..pn.1|
-5	vet	|veta|	VB	_	VB.PRS.AKT	1	MS	|veta..vb.1|
-6	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-7	att	|att|	SN	_	SN	5	OO	|att..sn.1|
-8	den	|den|en|	DT	_	DT.UTR.SIN.DEF	10	DT	|den..pn.1|en..al.1|
-9	rätta	|rätt|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	10	DT	|rätt..av.1|
-10	känslan	|känsla|	NN	_	NN.UTR.SIN.DEF.NOM	11	SS	|känsla..nn.1|
-11	kommer	|komma|	VB	_	VB.PRS.AKT	7	UA	|komma..vb.1|
-12	att	|att|	IE	_	IE	11	VG	|att..sn.1|
-13	infinna	|infinna sig|	VB	_	VB.INF.AKT	12	IF	|infinna_sig..vbm.1|
-14	sig	|sig|infinna sig:13|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	13	OO	|sig..pn.1|infinna_sig..vbm.1:13|
-15	...	|	MAD	_	MAD	5	IG	|
+För någonstans inom mig vet jag att den rätta känslan kommer att infinna sig ...
 
 # age = 21
 # agebin = 20--29
@@ -1048,13 +476,7 @@
 # thread_title = Tveksam/säker...
 # post_id = 37835032
 # post_date = 2008-10-31 09:43:51
-# username = Fru E
-# sent_id = ed5f1639
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	för	|för|	PP	_	PP	1	OA	|för..pp.1|
-3	era	|ni|	PS	_	PS.UTR+NEU.PLU.DEF	4	DT	|ni..pn.1|
-4	tankar	|tank|tanke|	NN	_	NN.UTR.PLU.IND.NOM	2	PA	|tank..nn.1|tank..nn.2|tanke..nn.1|
-5	.	|	MAD	_	MAD	1	IP	|
+Tack för era tankar .
 
 # age = 21
 # agebin = 20--29
@@ -1064,38 +486,7 @@
 # thread_title = Tveksam/säker...
 # post_id = 37835032
 # post_date = 2008-10-31 09:43:51
-# username = Fru E
-# sent_id = ed5a14ee
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	går	|gå|	VB	_	VB.PRS.AKT	7	MS	|gå..vb.1|
-3	utbildningen	|utbildning|	NN	_	NN.UTR.SIN.DEF.NOM	2	OO	|utbildning..nn.1|
-4	just	|just|just nu|	AB	_	AB	2	CA	|just..ab.1|just..av.1|just_nu..abm.1|
-5	nu	|nu|just nu:4|	AB	_	AB	2	TA	|nu..ab.1|just_nu..abm.1:4|
-6	,	|	MID	_	MID	7	IK	|
-7	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-8	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|jag..pn.1|
-9	håller	|hålla|hålla med|hålla sig|	VB	_	VB.PRS.AKT	7	MS	|hålla..vb.1|hålla_med..vbm.1|hålla_sig..vbm.1|
-10	med	|med|hålla med:9|	PL	_	PL	9	PL	|med..ab.1|hålla_med..vbm.1:9|
-11	er	|ni|hålla sig:9|	PN	_	PN.UTR.PLU.DEF.OBJ	9	OO	|ni..pn.1|hålla_sig..vbm.1:9|
-12	-	|	MID	_	MID	7	IT	|
-13	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	14	SS	|den..pn.1|
-14	är	|vara|	VB	_	VB.PRS.AKT	16	MS	|vara..vb.1|
-15	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	14	SP	|bra..av.2|
-16	och	|och|	KN	_	KN	2	MS	|och..kn.1|
-17	väcker	|väcka|väcka tankar|	VB	_	VB.PRS.AKT	16	+F	|väcka..vb.1|väcka_tankar..vbm.1|
-18	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	19	DT	|
-19	tankar	|tank|tanke|väcka tankar:17|	NN	_	NN.UTR.PLU.IND.NOM	17	OO	|tank..nn.1|tank..nn.2|tanke..nn.1|väcka_tankar..vbm.1:17|
-20	...	|	MID	_	MID	2	IG	|
-21	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	22	SS	|den..pn.1|
-22	är	|vara|	VB	_	VB.PRS.AKT	2	MS	|vara..vb.1|
-23	kansker	|	NN	_	NN.UTR.PLU.IND.NOM	22	SP	|
-24	just	|just|	AB	_	AB	25	CA	|just..ab.1|just..av.1|
-25	därför	|därför|	AB	_	AB	22	AA	|därför..ab.1|
-26	som	|som|	HA	_	HA	28	TA	|som..ab.1|
-27	känslorna	|känsla|	NN	_	NN.UTR.PLU.DEF.NOM	28	SS	|känsla..nn.1|
-28	börjar	|börja|	VB	_	VB.PRS.AKT	25	UA	|börja..vb.1|börja..vb.2|
-29	svalla	|svalla|	VB	_	VB.INF.AKT	28	OO	|svalla..vb.1|
-30	?	|	MAD	_	MAD	7	I?	|
+Vi går utbildningen just nu , och jag håller med er - den är bra och väcker många tankar ... det är kansker just därför som känslorna börjar svalla ?
 
 # age = 21
 # agebin = 20--29
@@ -1105,33 +496,7 @@
 # thread_title = Tveksam/säker...
 # post_id = 37835032
 # post_date = 2008-10-31 09:43:51
-# username = Fru E
-# sent_id = ed59147d
-1	Iblans	|	NN	_	NN.UTR.SIN.DEF.GEN	2	SS	|
-2	önska	|önska|	VB	_	VB.PRS.AKT	18	MS	|önska..vb.1|
-3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-4	bara	|bara|	AB	_	AB	2	CA	|bara..ab.1|
-5	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	FS	|den..pn.1|
-7	skulle	|skola|	VB	_	VB.PRT.AKT	5	UA	|skola..vb.2|
-8	vara	|vara|	VB	_	VB.INF.AKT	7	VG	|vara..vb.1|vara..vb.2|
-9	enklare	|enkel|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	8	SP	|enkel..av.1|
-10	om	|om|	SN	_	SN	8	AA	|om..sn.1|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	SS	|den..pn.1|
-12	kändes	|känna|kännas|	VB	_	VB.PRT.SFO	10	UA	|känna..vb.1|kännas..vb.1|
-13	helt	|hel|helt|	AB	_	AB.POS	12	AA	|hel..av.1|helt..ab.1|
-14	,	|	MID	_	MID	12	IK	|
-15	helt	|hel|helt|	AB	_	AB.POS	16	AA	|hel..av.1|helt..ab.1|
-16	rätt	|rätt|	AB	_	AB	12	AA	|rätt..ab.1|rätt..av.1|
-17	...	|	MID	_	MID	12	IG	|
-18	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-19	vii	|	RG	_	RG.NOM	20	SS	|
-20	kommer	|komma|	VB	_	VB.PRS.AKT	18	MS	|komma..vb.1|
-21	väl	|väl|	AB	_	AB	20	MA	|väl..ab.1|väl_2..ab.1|
-22	dit	|dit|	AB	_	AB	20	RA	|dit..ab.1|
-23	så	|så|så småningom|	AB	_	AB	22	AA	|så..ab.1|så_småningom..abm.1|
-24	småningom	|småningom|så småningom:23|	AB	_	AB	23	HD	|småningom..ab.1|så_småningom..abm.1:23|
-25	.	|	MAD	_	MAD	18	IP	|
+Iblans önska jag bara att det skulle vara enklare om det kändes helt , helt rätt ... men vii kommer väl dit så småningom .
 
 # age = 21
 # agebin = 20--29
@@ -1141,22 +506,7 @@
 # thread_title = Tveksam/säker...
 # post_id = 37835032
 # post_date = 2008-10-31 09:43:51
-# username = Fru E
-# sent_id = ed5814db
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	nog	|nog|	AB	_	AB	2	MA	|nog..ab.1|
-4	vanligt	|vanlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	SP	|vanlig..av.1|
-5	att	|att|	SN	_	SN	2	ES	|att..sn.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
-7	tar	|ta|ta tid|	VB	_	VB.PRS.AKT	5	UA	|ta..vb.1|ta_tid..vbm.1|
-8	längre	|lång|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	9	AT	|lång..av.1|
-9	tid	|tid|ta tid:7|	NN	_	NN.UTR.SIN.IND.NOM	7	OO	|tid..nn.1|ta_tid..vbm.1:7|
-10	för	|för|	PP	_	PP	7	OA	|för..pp.1|
-11	mannen	|man|	NN	_	NN.UTR.SIN.DEF.NOM	10	PA	|man..nn.1|
-12	tror	|tro|	VB	_	VB.PRS.AKT	2	MA	|tro..vb.1|
-13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	12	SS	|jag..pn.1|
-14	...	|	MAD	_	MAD	2	IG	|
+Det är nog vanligt att det tar längre tid för mannen tror jag ...
 
 # age = 21
 # agebin = 20--29
@@ -1166,15 +516,7 @@
 # thread_title = Flera organisationer?
 # post_id = 38359136
 # post_date = 2008-11-15 17:39:18
-# username = Fru E
-# sent_id = ed5ee28a
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	är	|vara|vara med|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|vara_med..vbm.1|
-3	med	|med|vara med:2|	PL	_	PL	2	PL	|med..ab.1|vara_med..vbm.1:2|
-4	i	|i|	PP	_	PP	2	RA	|i..pp.1|
-5	flera	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	6	DT	|
-6	adoptionsorganisationer	|adoptionsorganisation|	NN	_	NN.UTR.PLU.IND.NOM	4	PA	|
-7	.	|	MAD	_	MAD	2	IP	|
+Vi är med i flera adoptionsorganisationer .
 
 # age = 21
 # agebin = 20--29
@@ -1184,35 +526,7 @@
 # thread_title = Flera organisationer?
 # post_id = 38359136
 # post_date = 2008-11-15 17:39:18
-# username = Fru E
-# sent_id = ed55566f
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	går	|gå|gå till|	VB	_	VB.PRS.AKT	18	MS	|gå..vb.1|gå_till..vbm.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	till	|till|gå till:2|	PL	_	PL	2	PL	|till..ab.1|gå_till..vbm.1:2|
-5	när	|när|	HA	_	HA	8	TA	|när..ab.1|
-6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	8	SS	|man..pn.1|
-7	väl	|väl|	AB	_	AB	8	AA	|väl..ab.1|väl_2..ab.1|
-8	har	|ha|	VB	_	VB.PRS.AKT	2	TA	|ha..vb.1|
-9	fått	|få|	VB	_	VB.SUP.AKT	8	VG	|få..vb.1|
-10	megivandet	|	NN	_	NN.NEU.SIN.DEF.NOM	9	OO	|
-11	,	|	MID	_	MID	2	IK	|
-12	kan	|kunna|	VB	_	VB.PRS.AKT	18	MS	|kunna..vb.1|
-13	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	12	SS	|man..pn.1|
-14	skicka	|skicka|	VB	_	VB.INF.AKT	12	VG	|skicka..vb.1|
-15	till	|till|	PL	_	PL	14	PL	|till..ab.1|
-16	flera	|flera|mången|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	14	OO	|flera..pn.1|mången..pn.1|
-17	,	|	MID	_	MID	18	IK	|
-18	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-19	måsta	|måste|	VB	_	VB.PRS.AKT	18	MS	|måste..vb.1|
-20	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	19	SS	|man..pn.1|
-21	betämma	|	VB	_	VB.INF.AKT	19	VG	|
-22	sig	|sig|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	21	OO	|sig..pn.1|
-23	för	|för|	PP	_	PP	21	OA	|för..pp.1|
-24	en	|en|	DT	_	DT.UTR.SIN.IND	25	DT	|en..al.1|
-25	org	|	NN	_	NN.UTR.SIN.IND.NOM	23	PA	|
-26	då	|då|	AB	_	AB	21	TA	|då..ab.1|då..ab.2|
-27	?	|	MAD	_	MAD	18	I?	|
+Hur går det till när man väl har fått megivandet , kan man skicka till flera , eller måsta man betämma sig för en org då ?
 
 # age = 21
 # agebin = 20--29
@@ -1222,11 +536,7 @@
 # thread_title = Flera organisationer?
 # post_id = 38359136
 # post_date = 2008-11-15 17:39:18
-# username = Fru E
-# sent_id = ed5d1243
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -1236,28 +546,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed545feb
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	visst	|viss|visst|	AB	_	AB	2	MA	|viss..av.1|visst..ab.1|
-4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-5	riktigt	|riktig|	AB	_	AB	2	AA	|riktig..av.1|
-6	förtått	|	VB	_	VB.SUP.AKT	2	VG	|
-7	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	OO	|den..pn.1|den_här..pnm.1|
-8	här	|här|den här:7|	AB	_	AB	7	HD	|här..ab.1|den_här..pnm.1:7|
-9	med	|med|	PP	_	PP	6	OA	|med..pp.1|
-10	medlemskap	|medlemskap|	NN	_	NN.NEU.SIN.IND.NOM	11	CJ	|medlemskap..nn.1|
-11	och	|och|	KN	_	KN	9	PA	|och..kn.1|
-12	kösystem	|kösystem|	NN	_	NN.NEU.SIN.IND.NOM	11	CJ	|
-13	ännu	|ännu|	AB	_	AB	6	TA	|ännu..ab.1|
-14	...	|	MID	_	MID	6	IG	|
-15	fast	|	SN	_	SN	6	AA	|
-16	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	17	SS	|jag..pn.1|
-17	har	|ha|	VB	_	VB.PRS.AKT	15	UA	|ha..vb.1|
-18	frågat	|fråga|	VB	_	VB.SUP.AKT	17	VG	|fråga..vb.1|fråga..vb.2|
-19	förut	|förut|	AB	_	AB	18	TA	|förut..ab.1|förut_2..ab.1|
-20	...	|	MAD	_	MAD	6	IG	|
+Jag har visst inte riktigt förtått det här med medlemskap och kösystem ännu ... fast jag har frågat förut ...
 
 # age = 21
 # agebin = 20--29
@@ -1267,24 +556,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed522a23
-1	Alltså	|alltså|	AB	_	AB	3	+A	|alltså..ab.1|
-2	,	|	MID	_	MID	11	IK	|
-3	om	|om|	SN	_	SN	11	AA	|om..sn.1|
-4	mna	|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|
-5	är	|vara|vara med|	VB	_	VB.PRS.AKT	3	UA	|vara..vb.1|vara_med..vbm.1|
-6	med	|med|vara med:5|	PL	_	PL	5	PL	|med..ab.1|vara_med..vbm.1:5|
-7	i	|i|	PP	_	PP	5	RA	|i..pp.1|
-8	en	|en|	DT	_	DT.UTR.SIN.IND	9	DT	|en..al.1|
-9	organisation	|organisation|	NN	_	NN.UTR.SIN.IND.NOM	7	PA	|organisation..nn.1|organisation..nn.2|
-10	,	|	MID	_	MID	11	IK	|
-11	måste	|måste|	VB	_	VB.PRS.AKT	0	ROOT	|måste..vb.1|
-12	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-13	välja	|välja|	VB	_	VB.INF.AKT	11	VG	|välja..vb.1|
-14	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	13	OO	|land..nn.1|land..nn.2|land..nn.3|
-15	då	|då|	AB	_	AB	13	DB	|då..ab.1|då..ab.2|
-16	?	|	MAD	_	MAD	11	I?	|
+Alltså , om mna är med i en organisation , måste man välja land då ?
 
 # age = 21
 # agebin = 20--29
@@ -1294,25 +566,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed5c7abc
-1	Är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	någon	|någon|	DT	_	DT.UTR.SIN.IND	4	DT	|någon..pn.1|
-4	vits	|vits|	NN	_	NN.UTR.SIN.IND.NOM	1	SP	|vits..nn.1|
-5	med	|med|	PP	_	PP	1	OA	|med..pp.1|
-6	att	|att|	IE	_	IE	5	PA	|att..sn.1|
-7	välja	|välja|	VB	_	VB.INF.AKT	6	IF	|välja..vb.1|
-8	kand	|kand|	NN	_	NN.AN	7	OO	|kand..nna.1|
-9	innan	|innan|	SN	_	SN	7	TA	|innan..sn.1|
-10	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-11	har	|ha|	VB	_	VB.PRS.AKT	13	MS	|ha..vb.1|
-12	midgivande	|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	11	OO	|
-13	/	|	MID	_	MID	9	UA	|
-14	kan	|kunna|	VB	_	VB.PRS.AKT	13	+F	|kunna..vb.1|
-15	mnan	|	VB	_	VB.INF.AKT	14	VG	|
-16	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	15	OO	|den..pn.1|
-17	?	|	MAD	_	MAD	1	I?	|
+Är det någon vits med att välja kand innan man har midgivande / kan mnan det ?
 
 # age = 21
 # agebin = 20--29
@@ -1322,25 +576,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed5c59b4
-1	Är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	någon	|någon|	DT	_	DT.UTR.SIN.IND	4	DT	|någon..pn.1|
-4	vist	|	NN	_	NN.UTR.SIN.IND.NOM	1	SP	|
-5	med	|med|	PP	_	PP	1	OA	|med..pp.1|
-6	at	|	IE	_	IE	5	PA	|
-7	fixa	|fixa|	VB	_	VB.INF.AKT	6	IF	|fixa..vb.1|
-8	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	7	OO	|medgivande..nn.1|
-9	innan	|innan|	SN	_	SN	7	TA	|innan..sn.1|
-10	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-11	är	|vara|	VB	_	VB.PRS.AKT	9	UA	|vara..vb.1|
-12	en	|en|	DT	_	DT.UTR.SIN.IND	13	DT	|en..al.1|
-13	bit	|bit|	NN	_	NN.UTR.SIN.IND.NOM	11	SP	|bit..nn.1|bit..nn.2|
-14	in	|in|	AB	_	AB	11	RA	|in..ab.1|
-15	på	|på|	PP	_	PP	14	RA	|på..pp.1|
-16	kön	|kö|	NN	_	NN.UTR.SIN.DEF.NOM	15	PA	|kö..nn.1|
-17	?	|	MAD	_	MAD	1	I?	|
+Är det någon vist med at fixa medgivande innan man är en bit in på kön ?
 
 # age = 21
 # agebin = 20--29
@@ -1350,20 +586,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed5bd948
-1	Kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	fixa	|fixa|	VB	_	VB.INF.AKT	1	VG	|fixa..vb.1|
-4	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	3	OO	|någon..pn.1|
-5	innan	|innan|	SN	_	SN	3	TA	|innan..sn.1|
-6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	7	SS	|man..pn.1|
-7	är	|vara|	VB	_	VB.PRS.AKT	5	UA	|vara..vb.1|
-8	framme	|framme|	PL	_	PL	7	PL	|framme..ab.1|
-9	ikön	|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|
-10	o	|o|	KN	_	KN	7	SP	|o..kna.1|
-11	Sverige	|Sverige|	PM	_	PM.NOM	10	CJ	|Sverige..pm.1|
-12	?	|	MAD	_	MAD	1	I?	|
+Kan man fixa något innan man är framme ikön o Sverige ?
 
 # age = 21
 # agebin = 20--29
@@ -1373,28 +596,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed5220ac
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	9	MS	|ha..vb.1|
-3	ungefär	|ungefär|	AB	_	AB	4	AA	|ungefär..ab.1|
-4	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
-5	års	|år|	NN	_	NN.NEU.SIN.IND.GEN	6	DT	|år..nn.1|
-6	kötid	|kötid|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|
-7	nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
-8	,	|	MID	_	MID	2	IK	|
-9	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-10	har	|ha|	VB	_	VB.PRS.AKT	9	+F	|ha..vb.1|
-11	inte	|inte|	AB	_	AB	10	NA	|inte..ab.1|
-12	gjort	|göra|	VB	_	VB.SUP.AKT	10	VG	|göra..vb.1|
-13	något	|någon|	DT	_	DT.NEU.SIN.IND	15	DT	|någon..pn.1|
-14	mer	|mer|mycket|	AB	_	AB.KOM	15	AA	|mer..ab.1|mycket..ab.1|
-15	..	|	MID	_	MID	12	KA	|
-16	var	|var|	HA	_	HA	17	RA	|var..ab.1|
-17	ska	|skola|	VB	_	VB.PRS.AKT	9	MS	|skola..vb.2|
-18	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	17	SS	|vi..pn.1|
-19	börja	|börja|	VB	_	VB.INF.AKT	17	VG	|börja..vb.1|börja..vb.2|
-20	?	|	MAD	_	MAD	9	I?	|
+Vi har ungefär ett års kötid nu , men har inte gjort något mer .. var ska vi börja ?
 
 # age = 21
 # agebin = 20--29
@@ -1404,17 +606,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed5d92ca
-1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
-3	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	4	SS	|någon..pn.1|
-4	kan	|kunna|	VB	_	VB.PRS.AKT	2	UA	|kunna..vb.1|
-5	hjälpa	|hjälpa|	VB	_	VB.INF.AKT	4	VG	|hjälpa..vb.1|
-6	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	7	CJ	|jag..pn.1|
-7	/	|	MID	_	MID	5	OO	|
-8	oss	|vi|	PN	_	PN.UTR.PLU.DEF.OBJ	7	CJ	|vi..pn.1|
-9	!	|	MAD	_	MAD	1	IU	|
+Hoppas att någon kan hjälpa mig / oss !
 
 # age = 21
 # agebin = 20--29
@@ -1424,9 +616,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed5573fb
-1	!	|	MAD	_	MAD	0	ROOT	|
+!
 
 # age = 21
 # agebin = 20--29
@@ -1436,11 +626,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35885040
 # post_date = 2008-09-03 18:31:22
-# username = Fru E
-# sent_id = ed50bac4
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -1450,16 +636,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed5c83ad
-1	Hej	|hej|	IN	_	IN	2	MS	|hej..in.1|
-2	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-3	tack	|tack|	IN	_	IN	2	+F	|tack..in.1|
-4	för	|för|	PP	_	PP	2	AA	|för..pp.1|
-5	alla	|all|	DT	_	DT.UTR+NEU.PLU.IND+DEF	7	DT	|all..pn.1|
-6	omtänksamma	|omtänksam|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	7	AT	|omtänksam..av.1|
-7	svar	|svar|	NN	_	NN.NEU.PLU.IND.NOM	4	PA	|svar..nn.1|
-8	!	|	MAD	_	MAD	2	IU	|
+Hej och tack för alla omtänksamma svar !
 
 # age = 21
 # agebin = 20--29
@@ -1469,28 +646,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed519db5
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	verkligen	|verkligen|	AB	_	AB	2	MA	|verkligen..ab.1|
-4	tur	|tur|	NN	_	NN.UTR.SIN.IND.NOM	2	SP	|tur..nn.1|tur..nn.2|
-5	att	|att|	SN	_	SN	2	ES	|att..sn.1|
-6	denna	|denna|	DT	_	DT.UTR.SIN.DEF	7	DT	|denna..pn.1|
-7	sida	|sida|	NN	_	NN.UTR.SIN.IND.NOM	8	SS	|sida..nn.1|
-8	finns	|finna|finnas|	VB	_	VB.PRS.SFO	5	UA	|finna..vb.1|finnas..vb.1|
-9	,	|	MID	_	MID	2	IK	|
-10	vad	|vad|	HP	_	HP.NEU.SIN.IND	11	OO	|vad..pn.1|
-11	skulle	|skola|	VB	_	VB.PRT.AKT	2	MS	|skola..vb.2|
-12	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-13	annsrs	|	VB	_	VB.INF.SFO	11	VG	|
-14	ta	|ta|ta sig|ta sig till|ta till|	VB	_	VB.INF.AKT	13	OA	|ta..vb.1|ta_sig..vbm.1|ta_sig_till..vbm.1|ta_till..vbm.1|
-15	sig	|sig|ta sig:14|ta sig till:14|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	14	OO	|sig..pn.1|ta_sig..vbm.1:14|ta_sig_till..vbm.1:14|
-16	till	|till|ta sig till:14|ta till:14|	PL	_	PL	14	PL	|till..ab.1|ta_sig_till..vbm.1:14|ta_till..vbm.1:14|
-17	med	|med|	PP	_	PP	14	OA	|med..pp.1|
-18	sina	|sig|	PS	_	PS.UTR+NEU.PLU.DEF	19	DT	|sig..pn.1|
-19	funderingar	|fundering|	NN	_	NN.UTR.PLU.IND.NOM	17	PA	|fundering..nn.1|
-20	?	|	MAD	_	MAD	11	I?	|
+Det är verkligen tur att denna sida finns , vad skulle man annsrs ta sig till med sina funderingar ?
 
 # age = 21
 # agebin = 20--29
@@ -1500,9 +656,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed593037
-1	?	|	MAD	_	MAD	0	ROOT	|
+?
 
 # age = 21
 # agebin = 20--29
@@ -1512,27 +666,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed5e636e
-1	Jo	|jo|	IN	_	IN	13	MS	|jo..in.1|
-2	,	|	MID	_	MID	13	IK	|
-3	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	4	SS	|vi..pn.1|
-4	har	|ha|	VB	_	VB.PRS.AKT	13	MS	|ha..vb.1|
-5	tack	|tack|tack och lov|	NN	_	NN.NEU.SIN.IND.NOM	6	CJ	|tack..nn.1|tack_och_lov..inm.1|
-6	och	|och|tack och lov:5|	KN	_	KN	4	VG	|och..kn.1|tack_och_lov..inm.1:5|
-7	lov	|lov|tack och lov:5|	NN	_	NN.NEU.SIN.IND.NOM	8	SS	|lov..nn.2|lov..nn.3|lov..nn.4|tack_och_lov..inm.1:5|
-8	varit	|vara|	VB	_	VB.SUP.AKT	13	MS	|vara..vb.1|
-9	sökandemedlemmar	|sökandemedlem|sökandemedlemmar|	NN	_	NN.UTR.PLU.IND.NOM	8	SP	|
-10	frön	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	11	AT	|
-11	början	|början|	NN	_	NN.UTR.SIN.DEF.NOM	8	SP	|början..nn.1|
-12	,	|	MID	_	MID	13	IK	|
-13	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-14	snart	|snar|snart|	AB	_	AB.POS	15	TA	|snar..av.1|snart..ab.1|
-15	ska	|skola|	VB	_	VB.PRS.AKT	13	MS	|skola..vb.2|
-16	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	15	SS	|vi..pn.1|
-17	börja	|börja|	VB	_	VB.INF.AKT	15	VG	|börja..vb.1|börja..vb.2|
-18	föräldrautbildningen	|föräldrautbildning|	NN	_	NN.UTR.SIN.DEF.NOM	17	OO	|
-19	.	|	MAD	_	MAD	13	IP	|
+Jo , vi har tack och lov varit sökandemedlemmar frön början , och snart ska vi börja föräldrautbildningen .
 
 # age = 21
 # agebin = 20--29
@@ -1542,44 +676,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed56698c
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	verkar	|verka|	VB	_	VB.PRS.AKT	0	ROOT	|verka..vb.1|
-3	alltså	|alltså|	AB	_	AB	2	+A	|alltså..ab.1|
-4	som	|	KN	_	KN	2	KA	|
-5	att	|att|	SN	_	SN	4	UA	|att..sn.1|
-6	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	7	SS	|vi..pn.1|
-7	är	|vara|	VB	_	VB.PRS.AKT	5	UA	|vara..vb.1|
-8	rätt	|rätt|	NN	_	NN.UTR.SIN.IND.NOM	7	SP	|rätt..nn.1|rätt..nn.2|rätt..nn.3|
-9	ute	|ute|	AB	_	AB	7	RA	|ute..ab.1|
-10	:	|	MID	_	MID	2	IQ	|
-11	)	|	PAD	_	PAD	2	JR	|
-12	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	13	SS	|vi..pn.1|
-13	har	|ha|	VB	_	VB.PRS.AKT	2	MS	|ha..vb.1|
-14	inte	|inte|	AB	_	AB	13	NA	|inte..ab.1|
-15	funderat	|fundera|	VB	_	VB.SUP.AKT	13	VG	|fundera..vb.1|
-16	så	|så|	AB	_	AB	17	AA	|så..ab.1|
-17	mycket	|mycket|	AB	_	AB.POS	15	AA	|mycket..ab.1|
-18	på	|på|	PP	_	PP	15	RA	|på..pp.1|
-19	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	18	PA	|land..nn.1|land..nn.2|land..nn.3|
-20	,	|	MID	_	MID	15	IK	|
-21	men	|men|	KN	_	KN	13	VG	|men..kn.1|
-22	sponta	|sponta|	VB	_	VB.INF.AKT	21	+F	|sponta..vb.1|
-23	¨	|	NN	_	NN.UTR.SIN.IND.NOM	24	DT	|
-24	nt	|	NN	_	NN.AN	22	OO	|
-25	så	|så|	AB	_	AB	26	DB	|så..ab.1|
-26	känner	|känna|	VB	_	VB.PRS.AKT	2	MS	|känna..vb.1|känna..vb.2|
-27	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	26	SS	|vi..pn.1|
-28	nog	|nog|	AB	_	AB	26	MA	|nog..ab.1|
-29	mest	|mycket|	AB	_	AB.SUV	26	AA	|mycket..ab.1|
-30	för	|för|	PP	_	PP	26	OA	|för..pp.1|
-31	Asiatiska	|asiatisk|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	32	AT	|asiatisk..av.1|
-32	länder	|land|	NN	_	NN.NEU.PLU.IND.NOM	30	PA	|land..nn.1|
-33	av	|av|	PP	_	PP	32	ET	|av..pp.1|
-34	någon	|någon|	DT	_	DT.UTR.SIN.IND	35	DT	|någon..pn.1|
-35	anledning	|anledning|	NN	_	NN.UTR.SIN.IND.NOM	33	PA	|anledning..nn.1|
-36	.	|	MAD	_	MAD	2	IP	|
+Det verkar alltså som att vi är rätt ute : ) Vi har inte funderat så mycket på land , men sponta ¨ nt så känner vi nog mest för Asiatiska länder av någon anledning .
 
 # age = 21
 # agebin = 20--29
@@ -1589,27 +686,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed5444b8
-1	KJag	|	PM	_	PM.NOM	2	SS	|
-2	har	|ha|	VB	_	VB.PRS.AKT	12	MS	|ha..vb.1|
-3	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-4	kollat	|kolla|	VB	_	VB.SUP.AKT	2	VG	|kolla..vb.1|kolla..vb.2|
-5	om	|om|	SN	_	SN	4	OO	|om..sn.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	SS	|den..pn.1|
-7	är	|vara|	VB	_	VB.PRS.AKT	5	UA	|vara..vb.1|
-8	kö	|kö|	NN	_	NN.UTR.SIN.IND.NOM	7	SP	|kö..nn.1|
-9	till	|till|	PP	_	PP	7	OA	|till..pp.1|
-10	hemutredning	|hemutredning|	NN	_	NN.UTR.SIN.IND.NOM	9	PA	|
-11	,	|	MID	_	MID	12	IK	|
-12	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-13	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	14	SS	|den..pn.1|
-14	blir	|bli|	VB	_	VB.PRS.AKT	12	MS	|bli..vb.1|
-15	kanske	|kanske|	AB	_	AB	14	MA	|kanske..ab.1|
-16	aktuellt	|aktuell|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	14	SP	|aktuell..av.1|
-17	till	|till|	PP	_	PP	14	TA	|till..pp.1|
-18	våren	|vår|	NN	_	NN.UTR.SIN.DEF.NOM	17	PA	|vår..nn.1|
-19	.	|	MAD	_	MAD	12	IP	|
+KJag har inte kollat om det är kö till hemutredning , men det blir kanske aktuellt till våren .
 
 # age = 21
 # agebin = 20--29
@@ -1619,33 +696,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed510be5
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	16	MS	|ha..vb.1|
-3	väl	|väl|	AB	_	AB	2	MA	|väl..ab.1|väl_2..ab.1|
-4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-5	riktigt	|riktig|	AB	_	AB	2	AA	|riktig..av.1|
-6	kommit	|komma|	VB	_	VB.SUP.AKT	2	VG	|komma..vb.1|
-7	100	|	RG	_	RG.NOM	8	DT	|
-8	%överens	|	NN	_	NN.UTR.PLU.IND.NOM	6	OO	|
-9	med	|med|	PP	_	PP	6	OA	|med..pp.1|
-10	tanken	|tank|tanke|	NN	_	NN.UTR.SIN.DEF.NOM	9	PA	|tank..nn.1|tank..nn.2|tanke..nn.1|
-11	på	|på|	PP	_	PP	10	ET	|på..pp.1|
-12	att	|att|	IE	_	IE	11	PA	|att..sn.1|
-13	adoptera	|adoptera|	VB	_	VB.INF.AKT	12	IF	|adoptera..vb.1|
-14	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	13	OO	|barn..nn.1|
-15	,	|	MID	_	MID	16	IK	|
-16	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-17	%-en	|	NN	_	NN.UTR.SIN.DEF.NOM	18	SS	|
-18	ökar	|öka|	VB	_	VB.PRS.AKT	16	MS	|öka..vb.1|öka..vb.2|
-19	stadigt	|stadig|	AB	_	AB.POS	20	AA	|stadig..av.1|
-20	dag	|dag|dag för dag|	NN	_	NN.UTR.SIN.IND.NOM	18	TA	|dag..nn.1|dag_för_dag..abm.1|
-21	för	|för|dag för dag:20|	PP	_	PP	18	TA	|för..pp.1|dag_för_dag..abm.1:20|
-22	dag	|dag|dag för dag:20|	NN	_	NN.UTR.SIN.IND.NOM	21	HD	|dag..nn.1|dag_för_dag..abm.1:20|
-23	tycker	|tycka|	VB	_	VB.PRS.AKT	16	MS	|tycka..vb.1|
-24	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	23	SS	|jag..pn.1|
-25	...	|	MAD	_	MAD	16	IG	|
+Vi har väl inte riktigt kommit 100 %överens med tanken på att adoptera barn , men %-en ökar stadigt dag för dag tycker jag ...
 
 # age = 21
 # agebin = 20--29
@@ -1655,20 +706,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed5e116c
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	menar	|mena|	VB	_	VB.PRS.AKT	0	ROOT	|mena..vb.1|
-3	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|du..pn.1|
-4	,	|	MID	_	MID	2	IK	|
-5	Camarogirl	|	PM	_	PM.NOM	2	SS	|
-6	,	|	MID	_	MID	7	IK	|
-7	får	|få|	VB	_	VB.PRS.AKT	2	MS	|få..vb.1|
-8	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|ni..pn.1|
-9	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
-10	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	7	OO	|medgivande..nn.1|
-11	alls	|alls|	AB	_	AB	7	AA	|alls..ab.1|
-12	?	|	MAD	_	MAD	7	I?	|
+Hur menar du , Camarogirl , får ni inte medgivande alls ?
 
 # age = 21
 # agebin = 20--29
@@ -1678,21 +716,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed503ba3
-1	VAd	|vad|	HP	_	HP.NEU.SIN.IND	2	OO	|vad..pn.1|
-2	beror	|bero|	VB	_	VB.PRS.AKT	0	ROOT	|bero..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	på	|på|	PP	_	PP	2	OA	|på..pp.1|
-5	...	|	MID	_	MID	6	HD	|
-6	om	|om|	SN	_	SN	2	AA	|om..sn.1|
-7	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|du..pn.1|
-8	vill	|vilja|	VB	_	VB.PRS.AKT	6	UA	|vilja..vb.1|
-9	svara	|svara|	VB	_	VB.INF.AKT	8	VG	|svara..vb.1|
-10	på	|på|	PP	_	PP	9	OA	|på..pp.1|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	PA	|den..pn.1|
-12	alltså	|alltså|	AB	_	AB	9	+A	|alltså..ab.1|
-13	?	|	MAD	_	MAD	2	I?	|
+VAd beror det på ... om du vill svara på det alltså ?
 
 # age = 21
 # agebin = 20--29
@@ -1702,11 +726,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed5610f0
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	igen	|igen|	AB	_	AB	1	HD	|igen..ab.1|igen..ab.2|
-3	!	|	MAD	_	MAD	1	IU	|
+Tack igen !
 
 # age = 21
 # agebin = 20--29
@@ -1716,12 +736,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922375
 # post_date = 2008-09-04 18:47:33
-# username = Fru E
-# sent_id = ed55ae60
-1	/	|	MID	_	MID	2	CJ	|
-2	/	|	MID	_	MID	4	DT	|
-3	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|fru..nn.1|
-4	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ / Fru E
 
 # age = 21
 # agebin = 20--29
@@ -1731,18 +746,7 @@
 # thread_title = Jag har inte fattat ännu...?
 # post_id = 35922471
 # post_date = 2008-09-04 18:50:07
-# username = Fru E
-# sent_id = ed5d0798
-1	BFA	|	PM	_	PM.NOM	2	SP	|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	förresten	|förresten|	AB	_	AB	2	MA	|förresten..ab.1|
-5	som	|	HP	_	HP.-.-.-	9	PA	|
-6	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	7	SS	|vi..pn.1|
-7	är	|vara|vara med|	VB	_	VB.PRS.AKT	4	EF	|vara..vb.1|vara_med..vbm.1|
-8	med	|med|vara med:7|	PL	_	PL	7	PL	|med..ab.1|vara_med..vbm.1:7|
-9	i	|i|	PP	_	PP	7	OA	|i..pp.1|
-10	...	|	MAD	_	MAD	2	IG	|
+BFA är det förresten som vi är med i ...
 
 # age = 21
 # agebin = 20--29
@@ -1752,10 +756,7 @@
 # thread_title = Kristen/aktivt kristen?
 # post_id = 34143393
 # post_date = 2008-07-02 12:13:29
-# username = Fru E
-# sent_id = 6932f45
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 21
 # agebin = 20--29
@@ -1765,34 +766,7 @@
 # thread_title = Kristen/aktivt kristen?
 # post_id = 34143393
 # post_date = 2008-07-02 12:13:29
-# username = Fru E
-# sent_id = 693ba69
-1	Funderar	|fundera|	VB	_	VB.PRS.AKT	17	AA	|fundera..vb.1|
-2	över	|över|	PP	_	PP	1	OA	|över..pp.1|
-3	vad	|vad|	HP	_	HP.NEU.SIN.IND	5	OO	|vad..pn.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	SS	|den..pn.1|
-5	innebär	|innebära|	VB	_	VB.PRS.AKT	6	CJ	|innebära..vb.1|
-6	och	|och|	KN	_	KN	2	PA	|och..kn.1|
-7	hur	|hur|	HA	_	HA	9	AA	|hur..ab.1|
-8	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
-9	bör	|böra|	VB	_	VB.PRS.AKT	6	CJ	|böra..vb.1|
-10	framgå	|framgå|	VB	_	VB.INF.AKT	9	VG	|framgå..vb.1|
-11	i	|i|	PP	_	PP	10	OA	|i..pp.1|
-12	ansökan	|ansökan|	NN	_	NN.UTR.SIN.IND.NOM	11	PA	|ansökan..nn.1|
-13	om	|om|	PP	_	PP	12	ET	|om..pp.1|
-14	krav	|krav|	NN	_	NN.NEU.PLU.IND.NOM	13	PA	|krav..nn.1|
-15	på	|på|	PP	_	PP	14	ET	|på..pp.1|
-16	adopterande	|adopterande|	NN	_	NN.NEU.SIN.IND.NOM	15	PA	|adopterande..nn.1|
-17	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-18	kristen	|kristen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	19	CJ	|kristen..av.1|
-19	eller	|eller|	KN	_	KN	17	SP	|eller..kn.1|
-20	aktivt	|aktiv|	AB	_	AB.POS	21	AA	|aktiv..av.1|
-21	kristen	|kristen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	19	CJ	|kristen..av.1|
-22	...	|	MID	_	MID	17	IG	|
-23	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	17	XX	|någon..pn.1|
-24	som	|	HP	_	HP.-.-.-	25	SS	|
-25	vet	|veta|	VB	_	VB.PRS.AKT	23	EF	|veta..vb.1|
-26	?	|	MAD	_	MAD	1	I?	|
+Funderar över vad det innebär och hur det bör framgå i ansökan om krav på adopterande är kristen eller aktivt kristen ... Någon som vet ?
 
 # age = 21
 # agebin = 20--29
@@ -1802,11 +776,7 @@
 # thread_title = Kristen/aktivt kristen?
 # post_id = 34143393
 # post_date = 2008-07-02 12:13:29
-# username = Fru E
-# sent_id = 6932719
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -1816,10 +786,7 @@
 # thread_title = Vi har fått vårt medgivande!
 # post_id = 41211838
 # post_date = 2009-02-08 18:53:46
-# username = Fru E
-# sent_id = 677a6867
-1	Grattis	|grattis|	IN	_	IN	0	ROOT	|grattis..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Grattis !
 
 # age = 22
 # agebin = 20--29
@@ -1829,17 +796,7 @@
 # thread_title = Vi har fått vårt medgivande!
 # post_id = 41211838
 # post_date = 2009-02-08 18:53:46
-# username = Fru E
-# sent_id = 67711b34
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	måste	|måste|	VB	_	VB.PRS.AKT	0	ROOT	|måste..vb.1|
-3	kännas	|känna|kännas|	VB	_	VB.INF.SFO	2	VG	|känna..vb.1|känna..vb.2|kännas..vb.1|
-4	som	|	KN	_	KN	3	SP	|
-5	ett	|en|	DT	_	DT.NEU.SIN.IND	7	DT	|en..al.1|
-6	stort	|stor|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	7	AT	|stor..av.1|
-7	steg	|steg|	NN	_	NN.NEU.SIN.IND.NOM	4	UA	|steg..nn.1|
-8	framåt	|framåt|	AB	_	AB	7	ET	|framåt..ab.1|
-9	!	|	MAD	_	MAD	2	IU	|
+Det måste kännas som ett stort steg framåt !
 
 # age = 22
 # agebin = 20--29
@@ -1849,10 +806,7 @@
 # thread_title = Vi har fått vårt medgivande!
 # post_id = 41211838
 # post_date = 2009-02-08 18:53:46
-# username = Fru E
-# sent_id = 6777d438
-1	Härligt	|härlig|	AB	_	AB.POS	0	ROOT	|härlig..av.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Härligt !
 
 # age = 22
 # agebin = 20--29
@@ -1862,10 +816,7 @@
 # thread_title = Läkarintyg
 # post_id = 40724276
 # post_date = 2009-01-26 11:51:51
-# username = Fru E
-# sent_id = 67722d0a
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 22
 # agebin = 20--29
@@ -1875,21 +826,7 @@
 # thread_title = Läkarintyg
 # post_id = 40724276
 # post_date = 2009-01-26 11:51:51
-# username = Fru E
-# sent_id = 677861b1
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	4	DT	|någon..pn.1|
-4	frågor	|fråga|	NN	_	NN.UTR.PLU.IND.NOM	2	OO	|fråga..nn.1|
-5	kring	|kring|	PP	_	PP	4	ET	|kring..pp.1|
-6	läkarintyget	|läkarintyg|	NN	_	NN.NEU.SIN.DEF.NOM	5	PA	|läkarintyg..nn.1|
-7	som	|	HP	_	HP.-.-.-	8	SS	|
-8	ska	|skola|	VB	_	VB.PRS.AKT	4	ET	|skola..vb.2|
-9	finnas	|finna|finnas|	VB	_	VB.INF.SFO	8	VG	|finna..vb.1|finnas..vb.1|
-10	med	|med|	PL	_	PL	9	PL	|med..ab.1|
-11	inför	|inför|	PP	_	PP	9	RA	|inför..pp.1|
-12	hemutredningen	|hemutredning|	NN	_	NN.UTR.SIN.DEF.NOM	11	PA	|
-13	...	|	MAD	_	MAD	2	IG	|
+Jag har några frågor kring läkarintyget som ska finnas med inför hemutredningen ...
 
 # age = 22
 # agebin = 20--29
@@ -1899,14 +836,7 @@
 # thread_title = Läkarintyg
 # post_id = 40724276
 # post_date = 2009-01-26 11:51:51
-# username = Fru E
-# sent_id = 677605c4
-1	Vad	|vad|vad för|	HP	_	HP.NEU.SIN.IND	2	OO	|vad..pn.1|vad_för..pnm.1|
-2	kostade	|kosta|	VB	_	VB.PRT.AKT	0	ROOT	|kosta..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	för	|för|vad för:1|	PP	_	PP	2	OA	|för..pp.1|vad_för..pnm.1:1|
-5	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	4	PA	|ni..pn.1|
-6	?	|	MAD	_	MAD	2	I?	|
+Vad kostade det för er ?
 
 # age = 22
 # agebin = 20--29
@@ -1916,25 +846,7 @@
 # thread_title = Läkarintyg
 # post_id = 40724276
 # post_date = 2009-01-26 11:51:51
-# username = Fru E
-# sent_id = 67732493
-1	Får	|få|	VB	_	VB.PRS.AKT	0	ROOT	|få..vb.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	intyget	|intyg|	NN	_	NN.NEU.SIN.DEF.NOM	1	OO	|intyg..nn.1|
-4	i	|i|	PP	_	PP	3	ET	|i..pp.1|
-5	handen	|hand|	NN	_	NN.UTR.SIN.DEF.NOM	4	HD	|hand..nn.1|
-6	direkt	|direkt|	AB	_	AB.POS	7	AA	|direkt..ab.1|direkt..av.1|
-7	så	|så|	AB	_	AB	1	AA	|så..ab.1|
-8	att	|att|	SN	_	SN	7	HD	|att..sn.1|
-9	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	10	SS	|man..pn.1|
-10	kan	|kunna|	VB	_	VB.PRS.AKT	7	UA	|kunna..vb.1|
-11	skicka	|skicka|skicka in|	VB	_	VB.INF.AKT	10	VG	|skicka..vb.1|skicka_in..vbm.1|
-12	in	|in|skicka in:11|	PL	_	PL	11	PL	|in..ab.1|skicka_in..vbm.1:11|
-13	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	OO	|den..pn.1|
-14	på	|på|på en gång|	PP	_	PP	11	TA	|på..pp.1|på_en_gång..abm.1|
-15	en	|en|på en gång:14|en gång|	DT	_	DT.UTR.SIN.IND	16	DT	|en..al.1|på_en_gång..abm.1:14|en_gång..abm.1|
-16	gång	|gång|på en gång:14|en gång:15|	NN	_	NN.UTR.SIN.IND.NOM	14	PA	|gång..nn.1|gång..nn.2|gång..nn.3|på_en_gång..abm.1:14|en_gång..abm.1:15|
-17	?	|	MAD	_	MAD	1	I?	|
+Får man intyget i handen direkt så att man kan skicka in det på en gång ?
 
 # age = 22
 # agebin = 20--29
@@ -1944,16 +856,7 @@
 # thread_title = Läkarintyg
 # post_id = 40724276
 # post_date = 2009-01-26 11:51:51
-# username = Fru E
-# sent_id = 677f6a81
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	noggrann	|noggrann|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	AT	|noggrann..av.1|
-3	undersökning	|undersökning|	NN	_	NN.UTR.SIN.IND.NOM	4	XX	|undersökning..nn.1|
-4	var	|vara|	VB	_	VB.PRT.AKT	0	ROOT	|vara..vb.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|den..pn.1|
-6	för	|för|	PP	_	PP	4	OA	|för..pp.1|
-7	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	6	PA	|ni..pn.1|
-8	?	|	MAD	_	MAD	4	I?	|
+Hur noggrann undersökning var det för er ?
 
 # age = 22
 # agebin = 20--29
@@ -1963,11 +866,7 @@
 # thread_title = Läkarintyg
 # post_id = 40724276
 # post_date = 2009-01-26 11:51:51
-# username = Fru E
-# sent_id = 67722bfe
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -1977,15 +876,7 @@
 # thread_title = Läkarintyg
 # post_id = 40724927
 # post_date = 2009-01-26 12:09:02
-# username = Fru E
-# sent_id = 677cd160
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|den..pn.1|
-4	verkar	|verka|	VB	_	VB.PRS.AKT	1	MS	|verka..vb.1|
-5	ju	|ju|	AB	_	AB	4	MA	|ju..ab.1|
-6	lovande	|lova|lovande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	SP	|lova..vb.1|lova..vb.2|lovande..av.1|
-7	!	|	MAD	_	MAD	1	IU	|
+Tack , det verkar ju lovande !
 
 # age = 22
 # agebin = 20--29
@@ -1995,10 +886,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42128696
 # post_date = 2009-03-07 19:10:37
-# username = Fru E
-# sent_id = 9d982957
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 22
 # agebin = 20--29
@@ -2008,22 +896,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42128696
 # post_date = 2009-03-07 19:10:37
-# username = Fru E
-# sent_id = 9d922abd
-1	Var	|var|	HA	_	HA	4	RA	|var..ab.1|
-2	/	|	MID	_	MID	4	++	|
-3	hur	|hur|	HA	_	HA	4	AA	|hur..ab.1|
-4	får	|få|få tag|	VB	_	VB.PRS.AKT	0	ROOT	|få..vb.1|få_tag..vbm.1|
-5	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	4	SS	|vi..pn.1|
-6	tag	|tag|få tag:4|	NN	_	NN.NEU.SIN.IND.NOM	4	PL	|tag..nn.1|tag..nn.2|få_tag..vbm.1:4|
-7	i	|i|	PP	_	PP	4	OA	|i..pp.1|
-8	ett	|en|	DT	_	DT.NEU.SIN.IND	9	DT	|en..al.1|
-9	vigselbevis	|vigselbevis|	NN	_	NN.NEU.SIN.IND.NOM	7	PA	|vigselbevis..nn.1|
-10	...	|	MID	_	MID	4	IG	|
-11	församlingen	|församling|	NN	_	NN.UTR.SIN.DEF.NOM	9	AN	|församling..nn.1|
-12	-	|	MID	_	MID	11	IT	|
-13	nej	|nej|	IN	_	IN	11	HD	|nej..in.1|
-14	.	|	MAD	_	MAD	4	IP	|
+Var / hur får vi tag i ett vigselbevis ... församlingen - nej .
 
 # age = 22
 # agebin = 20--29
@@ -2033,11 +906,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42128696
 # post_date = 2009-03-07 19:10:37
-# username = Fru E
-# sent_id = 9d93b79e
-1	Skatteverket	|skatteverk|	NN	_	NN.NEU.SIN.DEF.NOM	0	ROOT	|skatteverk..nn.1|
-2	kanske	|kanske|	AB	_	AB	1	MA	|kanske..ab.1|
-3	?	|	MAD	_	MAD	1	I?	|
+Skatteverket kanske ?
 
 # age = 22
 # agebin = 20--29
@@ -2047,12 +916,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42128696
 # post_date = 2009-03-07 19:10:37
-# username = Fru E
-# sent_id = 9d9b8f7e
-1	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	0	ROOT	|någon..pn.1|
-2	som	|	HP	_	HP.-.-.-	3	SS	|
-3	vet	|veta|	VB	_	VB.PRS.AKT	1	ET	|veta..vb.1|
-4	?	|	MAD	_	MAD	1	I?	|
+Någon som vet ?
 
 # age = 22
 # agebin = 20--29
@@ -2062,11 +926,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42128696
 # post_date = 2009-03-07 19:10:37
-# username = Fru E
-# sent_id = 9d9a1942
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -2076,16 +936,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42129924
 # post_date = 2009-03-07 20:03:08
-# username = Fru E
-# sent_id = 9d9e0dcb
-1	Jo	|jo|	IN	_	IN	0	ROOT	|jo..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|den..pn.1|
-4	gäller	|gälla|	VB	_	VB.PRS.AKT	1	MS	|gälla..vb.1|gälla..vb.2|
-5	pappaersamlande	|pappaersamlande|	NN	_	NN.NEU.SIN.IND.NOM	4	OO	|
-6	till	|till|	PP	_	PP	5	ET	|till..pp.1|
-7	organisationen	|organisation|	NN	_	NN.UTR.SIN.DEF.NOM	6	PA	|organisation..nn.1|organisation..nn.2|
-8	.	|	MAD	_	MAD	1	IP	|
+Jo , det gäller pappaersamlande till organisationen .
 
 # age = 22
 # agebin = 20--29
@@ -2095,59 +946,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42129924
 # post_date = 2009-03-07 20:03:08
-# username = Fru E
-# sent_id = 9d97ed8c
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	23	MS	|vara..vb.1|
-3	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
-4	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	5	AT	|bra..av.2|
-5	tag	|tag|	NN	_	NN.NEU.SIN.IND.NOM	2	SP	|tag..nn.1|tag..nn.2|
-6	sen	|sen|	SN	_	SN	2	TA	|sen..sn.1|
-7	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	8	SS	|vi..pn.1|
-8	gifte	|gifta sig|	VB	_	VB.PRT.AKT	6	UA	|gifta_sig..vbm.1|
-9	oss	|vi|gifta sig:8|	PN	_	PN.UTR.PLU.DEF.OBJ	8	OO	|vi..pn.1|gifta_sig..vbm.1:8|
-10	,	|	MID	_	MID	2	IK	|
-11	men	|men|	KN	_	KN	13	++	|men..kn.1|
-12	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	13	SS	|vi..pn.1|
-13	har	|ha|	VB	_	VB.PRS.AKT	23	MS	|ha..vb.1|
-14	bara	|bara|	AB	_	AB	13	CA	|bara..ab.1|
-15	ett	|en|	DT	_	DT.NEU.SIN.IND	17	DT	|en..al.1|
-16	"	|	PAD	_	PAD	17	IC	|
-17	minnesblad	|minnesblad|	NN	_	NN.NEU.SIN.IND.NOM	13	OO	|
-18	"	|	PAD	_	PAD	17	JC	|
-19	som	|	HP	_	HP.-.-.-	21	OO	|
-20	vigselförrättaren	|vigselförrättare|	NN	_	NN.UTR.SIN.DEF.NOM	21	SS	|
-21	skrev	|skriva|	VB	_	VB.PRT.AKT	17	ET	|skriva..vb.1|
-22	,	|	MID	_	MID	23	IK	|
-23	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-24	nu	|nu|	AB	_	AB	25	TA	|nu..ab.1|
-25	ska	|skola|	VB	_	VB.PRS.AKT	23	MS	|skola..vb.2|
-26	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	25	SS	|den..pn.1|
-27	ju	|ju|	AB	_	AB	25	MA	|ju..ab.1|
-28	vara	|vara|	VB	_	VB.INF.AKT	25	VG	|vara..vb.1|vara..vb.2|
-29	ett	|en|	DT	_	DT.NEU.SIN.IND	30	DT	|en..al.1|
-30	bevis	|bevis|	NN	_	NN.NEU.SIN.IND.NOM	28	SP	|bevis..nn.1|
-31	som	|	HP	_	HP.-.-.-	33	SS	|
-32	sedan	|sedan|	AB	_	AB	33	TA	|sedan..ab.1|
-33	ska	|skola|	VB	_	VB.PRS.AKT	30	ET	|skola..vb.2|
-34	översättas	|översätta|	VB	_	VB.INF.SFO	33	VG	|översätta..vb.1|
-35	till	|till|	PP	_	PP	34	AA	|till..pp.1|
-36	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	37	DT	|annan..pn.1|
-37	språk	|språk|	NN	_	NN.NEU.SIN.IND.NOM	35	PA	|språk..nn.1|
-38	...	|	MID	_	MID	2	IQ	|
-39	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	40	SS	|jag..pn.1|
-40	tänker	|tänka|tänka sig|	VB	_	VB.PRS.AKT	2	MS	|tänka..vb.1|tänka_sig..vbm.1|
-41	mig	|jag|tänka sig:40|	PN	_	PN.UTR.SIN.DEF.OBJ	40	OO	|jag..pn.1|tänka_sig..vbm.1:40|
-42	att	|att|	SN	_	SN	40	OO	|att..sn.1|
-43	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	44	SS	|den..pn.1|
-44	ska	|skola|	VB	_	VB.PRS.AKT	42	UA	|skola..vb.2|
-45	vara	|vara|	VB	_	VB.INF.AKT	44	VG	|vara..vb.1|vara..vb.2|
-46	typ	|typ|	NN	_	NN.UTR.SIN.IND.NOM	45	SP	|typ..nn.1|
-47	som	|	KN	_	KN	45	SP	|
-48	ett	|en|	DT	_	DT.NEU.SIN.IND	49	DT	|en..al.1|
-49	intyg	|intyg|	NN	_	NN.NEU.SIN.IND.NOM	47	UA	|intyg..nn.1|
-50	...	|	MAD	_	MAD	45	IG	|
-51	?	|	MAD	_	MAD	23	I?	|
+Det är ett bra tag sen vi gifte oss , men vi har bara ett " minnesblad " som vigselförrättaren skrev , men nu ska det ju vara ett bevis som sedan ska översättas till annat språk ... jag tänker mig att det ska vara typ som ett intyg ... ?
 
 # age = 22
 # agebin = 20--29
@@ -2157,23 +956,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42130154
 # post_date = 2009-03-07 20:13:54
-# username = Fru E
-# sent_id = 9d94c033
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	för	|för|	PP	_	PP	1	OA	|för..pp.1|
-3	tipset	|tips|	NN	_	NN.NEU.SIN.DEF.NOM	2	PA	|tips..nn.1|
-4	,	|	MID	_	MID	1	IK	|
-5	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	PA	|denna..pn.1|
-6	ska	|skola|	VB	_	VB.PRS.AKT	1	MS	|skola..vb.2|
-7	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	6	SS	|vi..pn.1|
-8	nog	|nog|	AB	_	AB	6	MA	|nog..ab.1|
-9	också	|också|	AB	_	AB	6	+A	|också..ab.1|
-10	använda	|använda|	VB	_	VB.INF.AKT	6	VG	|använda..vb.1|
-11	oss	|vi|	PN	_	PN.UTR.PLU.DEF.OBJ	10	OO	|vi..pn.1|
-12	av	|av|	PP	_	PP	10	OA	|av..pp.1|
-13	tror	|tro|	VB	_	VB.PRS.AKT	10	MA	|tro..vb.1|
-14	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|jag..pn.1|
-15	.	|	MAD	_	MAD	1	IP	|
+Tack för tipset , detta ska vi nog också använda oss av tror jag .
 
 # age = 22
 # agebin = 20--29
@@ -2183,26 +966,7 @@
 # thread_title = Vem utfärdar vigselbevis?
 # post_id = 42130154
 # post_date = 2009-03-07 20:13:54
-# username = Fru E
-# sent_id = 9d93df14
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	just	|just|	AB	_	AB	4	CA	|just..ab.1|just..av.1|
-3	ett	|en|	DT	_	DT.NEU.SIN.IND	4	DT	|en..al.1|
-4	vigselbevis	|vigselbevis|	NN	_	NN.NEU.SIN.IND.NOM	14	SS	|vigselbevis..nn.1|
-5	där	|där|	HA	_	HA	7	RA	|där..ab.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	7	FS	|den..pn.1|
-7	framgår	|framgå|	VB	_	VB.PRS.AKT	4	ET	|framgå..vb.1|
-8	att	|att|	SN	_	SN	7	ES	|att..sn.1|
-9	/	|	MID	_	MID	12	CA	|
-10	när	|när|	HA	_	HA	12	TA	|när..ab.1|
-11	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	12	SS	|vi..pn.1|
-12	är	|vara|	VB	_	VB.PRS.AKT	8	UA	|vara..vb.1|
-13	vigda	|viga|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	12	SP	|viga..vb.1|
-14	kan	|kunna|	VB	_	VB.PRS.AKT	1	MS	|kunna..vb.1|
-15	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	14	SS	|jag..pn.1|
-16	inte	|inte|	AB	_	AB	14	NA	|inte..ab.1|
-17	hitta	|hitta|	VB	_	VB.INF.AKT	14	VG	|hitta..vb.1|
-18	...	|	MAD	_	MAD	17	IG	|
+Men just ett vigselbevis där det framgår att / när vi är vigda kan jag inte hitta ...
 
 # age = 22
 # agebin = 20--29
@@ -2212,10 +976,7 @@
 # thread_title = NP och översättare. Hur går det till?
 # post_id = 44620185
 # post_date = 2009-06-07 22:23:22
-# username = Fru E
-# sent_id = 79aa8ef
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 22
 # agebin = 20--29
@@ -2225,18 +986,7 @@
 # thread_title = NP och översättare. Hur går det till?
 # post_id = 44620185
 # post_date = 2009-06-07 22:23:22
-# username = Fru E
-# sent_id = 79a2fee
-1	NP	|	PM	_	PM.NOM	2	SS	|
-2	ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
-3	väl	|väl|	AB	_	AB	2	MA	|väl..ab.1|väl_2..ab.1|
-4	ha	|ha|	VB	_	VB.INF.AKT	2	VG	|ha..vb.1|
-5	orginalen	|orginal|	NN	_	NN.UTR.SIN.DEF.NOM	4	OO	|
-6	som	|	HP	_	HP.-.-.-	8	SS	|
-7	stämplas	|stämpla|	VB	_	VB.PRS.SFO	8	CJ	|stämpla..vb.1|
-8	och	|och|	KN	_	KN	5	ET	|och..kn.1|
-9	granskas	|granska|	VB	_	VB.PRS.SFO	8	CJ	|granska..vb.1|
-10	?	|	MAD	_	MAD	2	I?	|
+NP ska väl ha orginalen som stämplas och granskas ?
 
 # age = 22
 # agebin = 20--29
@@ -2246,20 +996,7 @@
 # thread_title = NP och översättare. Hur går det till?
 # post_id = 44620185
 # post_date = 2009-06-07 22:23:22
-# username = Fru E
-# sent_id = 79afd94
-1	Måste	|måste|	VB	_	VB.PRS.AKT	5	MS	|måste..vb.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	åka	|åka|åka dit|	VB	_	VB.INF.AKT	1	VG	|åka..vb.1|åka_dit..vbm.1|
-4	dit	|dit|åka dit:3|	AB	_	AB	3	RA	|dit..ab.1|åka_dit..vbm.1:3|
-5	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-6	kan	|kunna|	VB	_	VB.PRS.AKT	5	MS	|kunna..vb.1|
-7	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	6	SS	|vi..pn.1|
-8	skicka	|skicka|	VB	_	VB.INF.AKT	6	VG	|skicka..vb.1|
-9	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	OO	|den..pn.1|
-10	per	|per|	PP	_	PP	8	AA	|per..pp.1|
-11	post	|post|	NN	_	NN.UTR.SIN.IND.NOM	10	PA	|post..nn.1|post..nn.2|
-12	?	|	MAD	_	MAD	5	I?	|
+Måste man åka dit eller kan vi skicka det per post ?
 
 # age = 22
 # agebin = 20--29
@@ -2269,14 +1006,7 @@
 # thread_title = NP och översättare. Hur går det till?
 # post_id = 44620185
 # post_date = 2009-06-07 22:23:22
-# username = Fru E
-# sent_id = 79a35f8
-1	Översättaren	|översättare|	NN	_	NN.UTR.SIN.DEF.NOM	2	SS	|översättare..nn.1|
-2	behöver	|behöva|	VB	_	VB.PRS.AKT	0	ROOT	|behöva..vb.1|
-3	väl	|väl|	AB	_	AB	2	MA	|väl..ab.1|väl_2..ab.1|
-4	bara	|bara|	AB	_	AB	2	CA	|bara..ab.1|
-5	kopior	|kopia|	NN	_	NN.UTR.PLU.IND.NOM	2	OO	|kopia..nn.1|
-6	?	|	MAD	_	MAD	2	I?	|
+Översättaren behöver väl bara kopior ?
 
 # age = 22
 # agebin = 20--29
@@ -2286,25 +1016,7 @@
 # thread_title = NP och översättare. Hur går det till?
 # post_id = 44620185
 # post_date = 2009-06-07 22:23:22
-# username = Fru E
-# sent_id = 79abbc2
-1	Ojoj	|	IN	_	IN	0	ROOT	|
-2	,	|	MID	_	MID	1	IK	|
-3	snart	|snar|snart|	AB	_	AB.POS	6	TA	|snar..av.1|snart..ab.1|
-4	kanske	|kanske|	AB	_	AB	6	MA	|kanske..ab.1|
-5	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	6	SS	|jag..pn.1|
-6	fattar	|fatta|	VB	_	VB.PRS.AKT	1	MS	|fatta..vb.1|fatta..vb.2|
-7	hur	|hur|	HA	_	HA	9	AA	|hur..ab.1|
-8	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	9	SS	|all..pn.1|
-9	hänger	|hänga|hänga samman|	VB	_	VB.PRS.AKT	6	OO	|hänga..vb.1|hänga..vb.2|hänga_samman..vbm.1|
-10	samman	|samman|hänga samman:9|	PL	_	PL	9	PL	|samman..ab.1|hänga_samman..vbm.1:9|
-11	-	|	MID	_	MID	12	IT	|
-12	behöver	|behöva|	VB	_	VB.PRS.AKT	1	MS	|behöva..vb.1|
-13	lite	|lite|	AB	_	AB.POS	14	AT	|lite..ab.1|
-14	hjälp	|hjälp|hjälp på traven|	NN	_	NN.UTR.SIN.IND.NOM	12	OO	|hjälp..nn.1|hjälp_på_traven..nnm.1|
-15	på	|på|hjälp på traven:14|	PP	_	PP	12	OA	|på..pp.1|hjälp_på_traven..nnm.1:14|
-16	traven	|trav|trave|hjälp på traven:14|	NN	_	NN.UTR.SIN.DEF.NOM	15	PA	|trav..nn.1|trav..nn.2|trave..nn.1|hjälp_på_traven..nnm.1:14|
-17	bara	|bara|	AB	_	AB	12	CA	|bara..ab.1|
+Ojoj , snart kanske jag fattar hur allt hänger samman - behöver lite hjälp på traven bara
 
 # age = 22
 # agebin = 20--29
@@ -2314,11 +1026,7 @@
 # thread_title = NP och översättare. Hur går det till?
 # post_id = 44620185
 # post_date = 2009-06-07 22:23:22
-# username = Fru E
-# sent_id = 79a75f7
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -2328,10 +1036,7 @@
 # thread_title = hemutredning
 # post_id = 40995540
 # post_date = 2009-02-02 19:40:23
-# username = Fru E
-# sent_id = 79a487f
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 22
 # agebin = 20--29
@@ -2341,20 +1046,7 @@
 # thread_title = hemutredning
 # post_id = 40995540
 # post_date = 2009-02-02 19:40:23
-# username = Fru E
-# sent_id = 79a1d53
-1	Ä	|	VB	_	VB.IMP.AKT	0	ROOT	|
-2	nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	1	SP	|nyfiken..av.1|
-3	på	|på|	PP	_	PP	1	OA	|på..pp.1|
-4	i	|i|	PP	_	PP	8	AA	|i..pp.1|
-5	vilken	|	HD	_	HD.UTR.SIN.IND	6	DT	|
-6	ordning	|ordning|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|ordning..nn.1|
-7	allt	|all|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	8	SS	|all..pn.1|
-8	hände	|hända|hända sig|	VB	_	VB.PRT.AKT	3	PA	|hända..vb.1|hända_sig..vbm.1|
-9	under	|under|	PP	_	PP	8	TA	|under..pp.1|
-10	er	|ni|hända sig:8|	PS	_	PS.UTR.SIN.DEF	11	DT	|ni..pn.1|hända_sig..vbm.1:8|
-11	hemtredning	|	NN	_	NN.UTR.SIN.IND.NOM	9	PA	|
-12	.	|	MAD	_	MAD	1	IP	|
+Ä nyfiken på i vilken ordning allt hände under er hemtredning .
 
 # age = 22
 # agebin = 20--29
@@ -2364,13 +1056,7 @@
 # thread_title = hemutredning
 # post_id = 40995540
 # post_date = 2009-02-02 19:40:23
-# username = Fru E
-# sent_id = 79a2c73
-1	Hembesök	|hembesök|	NN	_	NN.NEU.SIN.IND.NOM	2	SS	|hembesök..nn.1|
-2	,	|	MID	_	MID	0	ROOT	|
-3	djupintervju	|djupintervju|	NN	_	NN.UTR.SIN.IND.NOM	4	DT	|djupintervju..nn.1|
-4	mm	|mm|	NN	_	NN.AN	2	SP	|mm..nna.1|
-5	.	|	MAD	_	MAD	2	IP	|
+Hembesök , djupintervju mm .
 
 # age = 22
 # agebin = 20--29
@@ -2380,18 +1066,7 @@
 # thread_title = hemutredning
 # post_id = 40995540
 # post_date = 2009-02-02 19:40:23
-# username = Fru E
-# sent_id = 79a24e5
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	lång	|lång|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	AT	|lång..av.1|
-3	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|tid..nn.1|
-4	tog	|ta|	VB	_	VB.PRT.AKT	0	ROOT	|ta..vb.1|
-5	det	|den|en|	DT	_	DT.NEU.SIN.DEF	7	DT	|den..pn.1|en..al.1|
-6	innna	|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	7	AT	|
-7	medgivandet	|medgivande|	NN	_	NN.NEU.SIN.DEF.NOM	4	SS	|medgivande..nn.1|
-8	var	|vara|	VB	_	VB.PRT.AKT	4	VG	|vara..vb.1|
-9	klart	|klar|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	8	SP	|klar..av.1|
-10	?	|	MAD	_	MAD	4	I?	|
+Hur lång tid tog det innna medgivandet var klart ?
 
 # age = 22
 # agebin = 20--29
@@ -2401,11 +1076,7 @@
 # thread_title = hemutredning
 # post_id = 40995540
 # post_date = 2009-02-02 19:40:23
-# username = Fru E
-# sent_id = 79ae97b
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -2415,27 +1086,7 @@
 # thread_title = hemutredning
 # post_id = 41028448
 # post_date = 2009-02-03 17:13:51
-# username = Fru E
-# sent_id = 79aa4a3
-1	jaha	|jaha|	IN	_	IN	3	MS	|jaha..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	så	|så|	KN	_	KN	0	ROOT	|så..kn.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	FS	|den..pn.1|
-5	kan	|kunna|	VB	_	VB.PRS.AKT	1	MS	|kunna..vb.1|
-6	vara	|vara|	VB	_	VB.INF.AKT	5	VG	|vara..vb.1|vara..vb.2|
-7	väldigt	|väldig|	AB	_	AB.POS	8	AA	|väldig..av.1|
-8	olika	|olik|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	6	SP	|olik..av.1|
-9	förstår	|förstå|	VB	_	VB.PRS.AKT	1	MS	|förstå..vb.1|
-10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	9	SS	|jag..pn.1|
-11	...	|	MID	_	MID	12	IG	|
-12	kul	|kul|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	9	OP	|kul..av.1|
-13	att	|att|	IE	_	IE	12	OA	|att..sn.1|
-14	höra	|höra|	VB	_	VB.INF.AKT	13	IF	|höra..vb.1|
-15	vilka	|	HD	_	HD.UTR+NEU.PLU.IND	16	DT	|
-16	erfarenheter	|erfarenhet|	NN	_	NN.UTR.PLU.IND.NOM	18	OO	|erfarenhet..nn.1|
-17	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	18	SS	|ni..pn.1|
-18	har	|ha|	VB	_	VB.PRS.AKT	14	OO	|ha..vb.1|
-19	!	|	MAD	_	MAD	1	IU	|
+jaha , så det kan vara väldigt olika förstår jag ... kul att höra vilka erfarenheter ni har !
 
 # age = 22
 # agebin = 20--29
@@ -2445,10 +1096,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79a8e0a
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 22
 # agebin = 20--29
@@ -2458,30 +1106,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79a6c51
-1	Är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	1	SP	|någon..pn.1|
-4	här	|här|	AB	_	AB	3	ET	|här..ab.1|
-5	som	|	HP	_	HP.-.-.-	6	SS	|
-6	har	|ha|ha sitt|	VB	_	VB.PRS.AKT	3	EF	|ha..vb.1|ha_sitt..vbm.1|
-7	foton	|foto|	NN	_	NN.NEU.PLU.IND.NOM	6	OO	|foto..nn.1|
-8	i	|i|	PP	_	PP	6	RA	|i..pp.1|
-9	sitt	|sig|ha sitt:6|	PS	_	PS.NEU.SIN.DEF	10	DT	|sig..pn.1|ha_sitt..vbm.1:6|
-10	galleri	|galleri|	NN	_	NN.NEU.SIN.IND.NOM	8	PA	|galleri..nn.1|
-11	som	|	HP	_	HP.-.-.-	14	OO	|
-12	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|ni..pn.1|
-13	har	|ha|	VB	_	VB.PRS.AKT	15	MS	|ha..vb.1|
-14	haft	|ha|	VB	_	VB.SUP.AKT	13	VG	|ha..vb.1|
-15	eller	|eller|	KN	_	KN	3	ET	|eller..kn.1|
-16	har	|ha|	VB	_	VB.PRS.AKT	15	+F	|ha..vb.1|
-17	med	|med|	PL	_	PL	16	PL	|med..ab.1|
-18	i	|i|	PP	_	PP	16	OA	|i..pp.1|
-19	ansökan	|ansökan|	NN	_	NN.UTR.SIN.IND.NOM	18	PA	|ansökan..nn.1|
-20	til	|	PP	_	PP	19	ET	|
-21	adotionslandet	|	NN	_	NN.NEU.SIN.DEF.NOM	20	PA	|
-22	?	|	MAD	_	MAD	1	I?	|
+Är det någon här som har foton i sitt galleri som ni har haft eller har med i ansökan til adotionslandet ?
 
 # age = 22
 # agebin = 20--29
@@ -2491,15 +1116,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79aa8d3
-1	Vad	|vad|vad för|	HP	_	HP.NEU.SIN.IND	4	OO	|vad..pn.1|vad_för..pnm.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|ni..pn.1|
-4	fått	|få|	VB	_	VB.SUP.AKT	2	VG	|få..vb.1|
-5	för	|för|vad för:1|	PP	_	PP	4	OA	|för..pp.1|vad_för..pnm.1:1|
-6	riktlinjer	|riktlinje|	NN	_	NN.UTR.PLU.IND.NOM	5	PA	|riktlinje..nn.1|
-7	?	|	MAD	_	MAD	2	I?	|
+Vad har ni fått för riktlinjer ?
 
 # age = 22
 # agebin = 20--29
@@ -2509,14 +1126,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79a3bdd
-1	Ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	SS	|den..pn.1|
-3	vara	|vara|	VB	_	VB.INF.AKT	1	VG	|vara..vb.1|vara..vb.2|
-4	nya	|ny|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	5	AT	|ny..av.1|
-5	kort	|kort|	NN	_	NN.NEU.PLU.IND.NOM	3	SP	|kort..nn.1|
-6	?	|	MAD	_	MAD	1	I?	|
+Ska det vara nya kort ?
 
 # age = 22
 # agebin = 20--29
@@ -2526,11 +1136,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79ad39e
-1	mycket	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	DT	|
-2	släkt	|släkt|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|släkt..nn.1|
-3	?	|	MAD	_	MAD	2	I?	|
+mycket släkt ?
 
 # age = 22
 # agebin = 20--29
@@ -2540,11 +1146,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79aa7c3
-1	Mycket	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	DT	|
-2	omgivning	|omgivning|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|omgivning..nn.1|
-3	?	|	MAD	_	MAD	2	I?	|
+Mycket omgivning ?
 
 # age = 22
 # agebin = 20--29
@@ -2554,11 +1156,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79a0210
-1	Viss	|viss|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	2	DT	|viss..av.1|
-2	klädsel	|klädsel|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|klädsel..nn.1|
-3	?	|	MAD	_	MAD	2	I?	|
+Viss klädsel ?
 
 # age = 22
 # agebin = 20--29
@@ -2568,22 +1166,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79aa0a3
-1	Ska	|skola|	VB	_	VB.PRS.AKT	7	MS	|skola..vb.2|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	göra	|göra|	VB	_	VB.INF.AKT	1	VG	|göra..vb.1|
-4	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
-5	album	|album|	NN	_	NN.NEU.SIN.IND.NOM	3	OO	|album..nn.1|
-6	,	|	MID	_	MID	3	IK	|
-7	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-8	ska	|skola|	VB	_	VB.PRS.AKT	7	MS	|skola..vb.2|
-9	korten	|kort|	NN	_	NN.NEU.PLU.DEF.NOM	8	SS	|kort..nn.1|
-10	vara	|vara|	VB	_	VB.INF.AKT	8	VG	|vara..vb.1|vara..vb.2|
-11	"	|	PAD	_	PAD	10	SP	|
-12	lösa	|lösa|	VB	_	VB.INF.AKT	10	VS	|lösa..vb.1|
-13	"	|	PAD	_	PAD	12	OO	|
-14	?	|	MAD	_	MAD	7	I?	|
+Ska man göra ett album , eller ska korten vara " lösa " ?
 
 # age = 22
 # agebin = 20--29
@@ -2593,19 +1176,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79a055d
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	5	MS	|vara..vb.1|
-3	i	|i|	PP	_	PP	2	RA	|i..pp.1|
-4	startgorparna	|	NN	_	NN.UTR.PLU.DEF.NOM	3	PA	|
-5	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-6	har	|ha|	VB	_	VB.PRS.AKT	5	+F	|ha..vb.1|
-7	inte	|inte|	AB	_	AB	6	NA	|inte..ab.1|
-8	fått	|få|	VB	_	VB.SUP.AKT	6	VG	|få..vb.1|
-9	instruktionerna	|instruktion|	NN	_	NN.UTR.PLU.DEF.NOM	8	OO	|instruktion..nn.1|
-10	ännu	|ännu|	AB	_	AB	8	TA	|ännu..ab.1|
-11	.	|	MAD	_	MAD	5	IP	|
+Vi är i startgorparna och har inte fått instruktionerna ännu .
 
 # age = 22
 # agebin = 20--29
@@ -2615,17 +1186,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79ae440
-1	Bara	|bara|	AB	_	AB	2	CA	|bara..ab.1|
-2	nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	0	ROOT	|nyfiken..av.1|
-3	på	|på|	PP	_	PP	2	OA	|på..pp.1|
-4	huir	|	SN	_	SN	3	PA	|
-5	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	6	SS	|vi..pn.1|
-6	kan	|kunna|	VB	_	VB.PRS.AKT	4	UA	|kunna..vb.1|
-7	förbereda	|förbereda|	VB	_	VB.INF.AKT	6	VG	|förbereda..vb.1|
-8	oss	|vi|	PN	_	PN.UTR.PLU.DEF.OBJ	7	OO	|vi..pn.1|
-9	.	|	MAD	_	MAD	2	IP	|
+Bara nyfiken på huir vi kan förbereda oss .
 
 # age = 22
 # agebin = 20--29
@@ -2635,11 +1196,7 @@
 # thread_title = Foton i ansökan...
 # post_id = 41211815
 # post_date = 2009-02-08 18:53:07
-# username = Fru E
-# sent_id = 79ad9f1
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -2649,10 +1206,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39886771
 # post_date = 2009-01-04 12:54:12
-# username = Fru E
-# sent_id = 79a8b91
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 22
 # agebin = 20--29
@@ -2662,27 +1216,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39886771
 # post_date = 2009-01-04 12:54:12
-# username = Fru E
-# sent_id = 79a482c
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	funderar	|fundera|	VB	_	VB.PRS.AKT	0	ROOT	|fundera..vb.1|
-3	kring	|kring|	PP	_	PP	2	OA	|kring..pp.1|
-4	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	3	PA	|den..pn.1|den_här..pnm.1|
-5	här	|här|den här:4|	AB	_	AB	3	HD	|här..ab.1|den_här..pnm.1:4|
-6	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-7	att	|att|	IE	_	IE	6	PA	|att..sn.1|
-8	berätta	|berätta|	VB	_	VB.INF.AKT	7	IF	|berätta..vb.1|
-9	för	|för|	PP	_	PP	8	OA	|för..pp.1|
-10	våra	|vi|	PS	_	PS.UTR+NEU.PLU.DEF	12	DT	|vi..pn.1|
-11	syskon	|syskon|	NN	_	NN.NEU.PLU.IND.NOM	12	CJ	|syskon..nn.1|
-12	och	|och|	KN	_	KN	9	PA	|och..kn.1|
-13	föräldrar	|förälder|	NN	_	NN.UTR.PLU.IND.NOM	12	CJ	|förälder..nn.1|
-14	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-15	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	16	SS	|vi..pn.1|
-16	vill	|vilja|	VB	_	VB.PRS.AKT	14	UA	|vilja..vb.1|
-17	adoptera	|adoptera|	VB	_	VB.INF.AKT	16	VG	|adoptera..vb.1|
-18	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	17	OO	|barn..nn.1|
-19	.	|	MAD	_	MAD	2	IP	|
+Vi funderar kring det här med att berätta för våra syskon och föräldrar att vi vill adoptera barn .
 
 # age = 22
 # agebin = 20--29
@@ -2692,16 +1226,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39886771
 # post_date = 2009-01-04 12:54:12
-# username = Fru E
-# sent_id = 79a67f5
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	pratar	|prata|	VB	_	VB.PRS.AKT	0	ROOT	|prata..vb.1|
-3	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	2	SS	|man..pn.1|
-4	om	|om|	PP	_	PP	2	OA	|om..pp.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	PA	|den..pn.1|
-6	i	|i|	PP	_	PP	2	RA	|i..pp.1|
-7	hemutredningen	|hemutredning|	NN	_	NN.UTR.SIN.DEF.NOM	6	PA	|
-8	?	|	MAD	_	MAD	2	I?	|
+Hur pratar man om det i hemutredningen ?
 
 # age = 22
 # agebin = 20--29
@@ -2711,16 +1236,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39886771
 # post_date = 2009-01-04 12:54:12
-# username = Fru E
-# sent_id = 79aa639
-1	Framstår	|framstå|	VB	_	VB.PRS.AKT	0	ROOT	|framstå..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	FS	|den..pn.1|
-3	som	|	KN	_	KN	1	SP	|
-4	knäppt	|knäpp|knäppa|	PC	_	PC.PRF.NEU.SIN.IND.NOM	3	UA	|knäpp..av.1|knäppa..vb.1|
-5	att	|att|	IE	_	IE	1	ES	|att..sn.1|
-6	vilja	|vilja|	VB	_	VB.INF.AKT	5	IF	|vilja..vb.1|
-7	vänta	|vänta|	VB	_	VB.INF.AKT	6	VG	|vänta..vb.1|
-8	?	|	MAD	_	MAD	1	I?	|
+Framstår det som knäppt att vilja vänta ?
 
 # age = 22
 # agebin = 20--29
@@ -2730,21 +1246,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39886771
 # post_date = 2009-01-04 12:54:12
-# username = Fru E
-# sent_id = 79a43a1
-1	Påverkar	|påverka|	VB	_	VB.PRS.AKT	0	ROOT	|påverka..vb.1|
-2	det	|den|en|	DT	_	DT.NEU.SIN.DEF	3	DT	|den..pn.1|en..al.1|
-3	medgivandet	|medgivande|	NN	_	NN.NEU.SIN.DEF.NOM	1	SS	|medgivande..nn.1|
-4	på	|på|	PP	_	PP	1	AA	|på..pp.1|
-5	något	|någon|	DT	_	DT.NEU.SIN.IND	6	DT	|någon..pn.1|
-6	sätt	|sätt|	NN	_	NN.NEU.SIN.IND.NOM	4	PA	|sätt..nn.1|
-7	,	|	MID	_	MID	1	IK	|
-8	hur	|hur|	HA	_	HA	9	AA	|hur..ab.1|
-9	öppen	|öppen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	12	SP	|öppen..av.1|
-10	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-11	har	|ha|	VB	_	VB.PRS.AKT	1	OO	|ha..vb.1|
-12	varit	|vara|	VB	_	VB.SUP.AKT	11	VG	|vara..vb.1|
-13	?	|	MAD	_	MAD	1	I?	|
+Påverkar det medgivandet på något sätt , hur öppen man har varit ?
 
 # age = 22
 # agebin = 20--29
@@ -2754,30 +1256,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39886771
 # post_date = 2009-01-04 12:54:12
-# username = Fru E
-# sent_id = 79a2fb2
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	tycker	|tycka|	VB	_	VB.PRS.AKT	0	ROOT	|tycka..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	5	SS	|vi..pn.1|
-5	vil	|	VB	_	VB.PRS.AKT	3	UA	|
-6	vänta	|vänta|	VB	_	VB.INF.AKT	5	VG	|vänta..vb.1|
-7	och	|och|	KN	_	KN	3	UA	|och..kn.1|
-8	se	|se|se om|	VB	_	VB.INF.AKT	7	+F	|se..vb.1|se_om..vbm.1|
-9	om	|om|se om:8|	SN	_	SN	8	OO	|om..sn.1|se_om..vbm.1:8|
-10	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	12	SS	|vi..pn.1|
-11	alls	|alls|	AB	_	AB	12	AA	|alls..ab.1|
-12	får	|få|	VB	_	VB.PRS.AKT	9	UA	|få..vb.1|
-13	något	|någon|	DT	_	DT.NEU.SIN.IND	14	DT	|någon..pn.1|
-14	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	12	OO	|medgivande..nn.1|
-15	samt	|samt|	KN	_	KN	8	OO	|samt..kn.1|
-16	tills	|tills|	SN	_	SN	15	CJ	|tills..sn.1|
-17	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	18	SS	|vi..pn.1|
-18	kommit	|komma|	VB	_	VB.SUP.AKT	16	UA	|komma..vb.1|
-19	längre	|länge|längre|lång|	AB	_	AB.KOM	18	TA	|länge..ab.1|längre..ab.1|lång..av.1|
-20	i	|i|	PP	_	PP	18	RA	|i..pp.1|
-21	processen	|process|	NN	_	NN.UTR.SIN.DEF.NOM	20	PA	|process..nn.1|
-22	...	|	MAD	_	MAD	2	IG	|
+Vi tycker att vi vil vänta och se om vi alls får något medgivande samt tills vi kommit längre i processen ...
 
 # age = 22
 # agebin = 20--29
@@ -2787,13 +1266,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39886771
 # post_date = 2009-01-04 12:54:12
-# username = Fru E
-# sent_id = 79af4b0
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|ni..pn.1|
-4	gjort	|göra|	VB	_	VB.SUP.AKT	2	VG	|göra..vb.1|
-5	?	|	MAD	_	MAD	2	I?	|
+Hur har ni gjort ?
 
 # age = 22
 # agebin = 20--29
@@ -2803,13 +1276,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39886771
 # post_date = 2009-01-04 12:54:12
-# username = Fru E
-# sent_id = 79a2568
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	2	PT	|e..nn.1|e..nna.1|
-4	med	|med|	PP	_	PP	3	OA	|med..pp.1|
-5	man	|man|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|man..nn.1|man..nn.2|
+/ Fru E med man
 
 # age = 22
 # agebin = 20--29
@@ -2819,20 +1286,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39927623
 # post_date = 2009-01-05 14:51:13
-# username = Fru E
-# sent_id = 79a551d
-1	Oj	|oj|	IN	_	IN	0	ROOT	|oj..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	så	|så|	AB	_	AB	4	AA	|så..ab.1|
-4	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	8	DT	|
-5	kloka	|klok|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	6	CJ	|klok..av.1|
-6	och	|och|	KN	_	KN	8	AT	|och..kn.1|
-7	pålästa	|läsa på|påläst|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	6	CJ	|läsa_på..vbm.1|påläst..av.1|
-8	tankar	|tank|tanke|	NN	_	NN.UTR.PLU.IND.NOM	1	OO	|tank..nn.1|tank..nn.2|tanke..nn.1|
-9	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	SS	|den..pn.1|
-10	finns	|finna|finnas|	VB	_	VB.PRS.SFO	8	ET	|finna..vb.1|finnas..vb.1|
-11	här	|här|	AB	_	AB	10	RA	|här..ab.1|
-12	!	|	MAD	_	MAD	1	IU	|
+Oj , så många kloka och pålästa tankar det finns här !
 
 # age = 22
 # agebin = 20--29
@@ -2842,23 +1296,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39927623
 # post_date = 2009-01-05 14:51:13
-# username = Fru E
-# sent_id = 79a5f44
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	har	|ha|ha kvar|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|ha_kvar..vbm.1|
-3	ett	|en|	DT	_	DT.NEU.SIN.IND	4	DT	|en..al.1|
-4	tag	|tag|	NN	_	NN.NEU.SIN.IND.NOM	2	OO	|tag..nn.1|tag..nn.2|
-5	kvar	|kvar|ha kvar:2|	AB	_	AB	2	RA	|kvar..ab.1|ha_kvar..vbm.1:2|
-6	på	|på|	PP	_	PP	5	RA	|på..pp.1|
-7	oss	|vi|	PN	_	PN.UTR.PLU.DEF.OBJ	6	PA	|vi..pn.1|
-8	att	|att|	IE	_	IE	2	OA	|att..sn.1|
-9	tänka	|tänka|tänka ut|	VB	_	VB.INF.AKT	8	IF	|tänka..vb.1|tänka_ut..vbm.1|
-10	ut	|ut|tänka ut:9|	PL	_	PL	9	PL	|ut..ab.1|tänka_ut..vbm.1:9|
-11	hur	|hur|	HA	_	HA	13	AA	|hur..ab.1|
-12	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	13	SS	|vi..pn.1|
-13	ska	|skola|	VB	_	VB.PRS.AKT	9	OO	|skola..vb.2|
-14	göra	|göra|	VB	_	VB.INF.AKT	13	VG	|göra..vb.1|
-15	.	|	MAD	_	MAD	2	IP	|
+Vi har ett tag kvar på oss att tänka ut hur vi ska göra .
 
 # age = 22
 # agebin = 20--29
@@ -2868,25 +1306,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39927623
 # post_date = 2009-01-05 14:51:13
-# username = Fru E
-# sent_id = 79a37e6
-1	Som	|som|	HA	_	HA	5	KA	|som..ab.1|
-2	morgonsolan	|morgonsolan|	NN	_	NN.UTR.SIN.DEF.NOM	3	SS	|
-3	skriver	|skriva|	VB	_	VB.PRS.AKT	1	UA	|skriva..vb.1|
-4	så	|så|	AB	_	AB	5	DB	|så..ab.1|
-5	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	FS	|den..pn.1|
-7	nog	|nog|	AB	_	AB	5	MA	|nog..ab.1|
-8	klokt	|klok|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	5	SP	|klok..av.1|
-9	att	|att|	IE	_	IE	13	MS	|att..sn.1|
-10	föjla	|	VB	_	VB.INF.AKT	9	IF	|
-11	sitt	|sig|	PS	_	PS.NEU.SIN.DEF	12	DT	|sig..pn.1|
-12	hjärta	|hjärta|	NN	_	NN.NEU.SIN.IND.NOM	10	OO	|hjärta..nn.1|
-13	och	|och|	KN	_	KN	5	ES	|och..kn.1|
-14	göra	|göra|	VB	_	VB.INF.AKT	13	+F	|göra..vb.1|
-15	genomtänkta	|genomtänka|genomtänkt|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	16	AT	|genomtänka..vb.1|genomtänkt..av.1|
-16	val	|val|	NN	_	NN.NEU.PLU.IND.NOM	14	OO	|val..nn.1|
-17	!	|	MAD	_	MAD	5	IU	|
+Som morgonsolan skriver så är det nog klokt att föjla sitt hjärta och göra genomtänkta val !
 
 # age = 22
 # agebin = 20--29
@@ -2896,10 +1316,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39927623
 # post_date = 2009-01-05 14:51:13
-# username = Fru E
-# sent_id = 79aa255
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Tack !
 
 # age = 22
 # agebin = 20--29
@@ -2909,11 +1326,7 @@
 # thread_title = Hemutredning-krävs det att man har berättat?
 # post_id = 39927623
 # post_date = 2009-01-05 14:51:13
-# username = Fru E
-# sent_id = 79ad6d8
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 23
 # agebin = 20--29
@@ -2923,24 +1336,7 @@
 # thread_title = Översättare
 # post_id = 50423338
 # post_date = 2010-01-31 15:09:44
-# username = Fru E
-# sent_id = 79aee59
-1	Roger	|Roger|	PM	_	PM.NOM	3	SS	|Roger..pm.1|
-2	Tanner	|	PM	_	PM.NOM	1	HD	|
-3	är	|vara|	VB	_	VB.PRS.AKT	7	MS	|vara..vb.1|
-4	snabb	|snabb|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	5	CJ	|snabb..av.1|
-5	,	|	MID	_	MID	3	IK	|
-6	trevlig	|trevlig|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	SP	|trevlig..av.1|
-7	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-8	gör	|göra|	VB	_	VB.PRS.AKT	7	+F	|göra..vb.1|
-9	ett	|en|	DT	_	DT.NEU.SIN.IND	11	DT	|en..al.1|
-10	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	11	AT	|bra..av.2|
-11	jobb	|jobb|	NN	_	NN.NEU.SIN.IND.NOM	8	OO	|jobb..nn.1|
-12	till	|till|	PP	_	PP	8	OA	|till..pp.1|
-13	ett	|en|	DT	_	DT.NEU.SIN.IND	15	DT	|en..al.1|
-14	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	15	AT	|bra..av.2|
-15	pris	|pris|	NN	_	NN.NEU.SIN.IND.NOM	12	PA	|pris..nn.1|pris..nn.2|
-16	!	|	MAD	_	MAD	7	IU	|
+Roger Tanner är snabb , trevlig och gör ett bra jobb till ett bra pris !
 
 # age = 23
 # agebin = 20--29
@@ -2950,14 +1346,7 @@
 # thread_title = Översättare
 # post_id = 50423338
 # post_date = 2010-01-31 15:09:44
-# username = Fru E
-# sent_id = 79ae7ef
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	jättenöjda	|jättenöjd|	PC	_	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	2	SP	|jättenöjd..av.1|
-4	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-5	honom	|han|	PN	_	PN.UTR.SIN.DEF.OBJ	4	PA	|han..pn.1|
-6	!	|	MAD	_	MAD	2	IU	|
+Vi är jättenöjda med honom !
 
 # age = 21
 # agebin = 20--29
@@ -2967,33 +1356,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39549680
 # post_date = 2008-12-21 21:04:13
-# username = Fru E
-# sent_id = 79a4de0
-1	Som	|som|	HA	_	HA	7	AA	|som..ab.1|
-2	rubriken	|rubrik|	NN	_	NN.UTR.SIN.DEF.NOM	3	SS	|rubrik..nn.1|
-3	lyder	|lyda|	VB	_	VB.PRS.AKT	1	UA	|lyda..vb.1|
-4	...	|	MID	_	MID	3	IQ	|
-5	hur	|hur|	HA	_	HA	6	AA	|hur..ab.1|
-6	länge	|länge|	AB	_	AB.POS	3	TA	|länge..ab.1|
-7	har	|ha|	VB	_	VB.PRS.AKT	19	MS	|ha..vb.1|
-8	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|ni..pn.1|
-9	varit	|vara|	VB	_	VB.SUP.AKT	7	VG	|vara..vb.1|
-10	medlemmar	|medlem|	NN	_	NN.UTR.PLU.IND.NOM	9	SP	|medlem..nn.1|
-11	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	19	CJ	|ni..pn.1|
-12	som	|	HP	_	HP.-.-.-	13	SS	|
-13	får	|få|	VB	_	VB.PRS.AKT	11	ET	|få..vb.1|
-14	skicka	|skicka|	VB	_	VB.INF.AKT	13	VG	|skicka..vb.1|
-15	iväg	|iväg|	PL	_	PL	14	PL	|iväg..ab.1|
-16	papper	|papper|	NN	_	NN.NEU.PLU.IND.NOM	14	OO	|papper..nn.1|
-17	nu	|nu|	AB	_	AB	14	TA	|nu..ab.1|
-18	,	|	MID	_	MID	19	IK	|
-19	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-20	vilka	|	HD	_	HD.UTR+NEU.PLU.IND	21	DT	|
-21	länder	|land|	NN	_	NN.NEU.PLU.IND.NOM	22	OO	|land..nn.1|
-22	skickar	|skicka|	VB	_	VB.PRS.AKT	19	MS	|skicka..vb.1|
-23	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	22	SS	|ni..pn.1|
-24	till	|till|	PL	_	PL	22	PL	|till..ab.1|
-25	?	|	MAD	_	MAD	19	I?	|
+Som rubriken lyder ... hur länge har ni varit medlemmar ni som får skicka iväg papper nu , och vilka länder skickar ni till ?
 
 # age = 21
 # agebin = 20--29
@@ -3003,14 +1366,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39549680
 # post_date = 2008-12-21 21:04:13
-# username = Fru E
-# sent_id = 79a4080
-1	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	0	ROOT	|någon..pn.1|
-2	som	|	HP	_	HP.-.-.-	3	SS	|
-3	nappat	|nappa|	VB	_	VB.SUP.AKT	1	ET	|nappa..vb.1|nappa..vb.2|
-4	på	|på|	PP	_	PP	3	OA	|på..pp.1|
-5	nepal	|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|
-6	?	|	MAD	_	MAD	1	I?	|
+Någon som nappat på nepal ?
 
 # age = 21
 # agebin = 20--29
@@ -3020,11 +1376,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39549680
 # post_date = 2008-12-21 21:04:13
-# username = Fru E
-# sent_id = 79ac688
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -3034,35 +1386,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a43bd
-1	Åh	|åh|	IN	_	IN	14	MS	|åh..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|denna..pn.1|
-4	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-5	lite	|lite|	AB	_	AB.POS	6	AA	|lite..ab.1|
-6	mer	|mer|mycket|	AB	_	AB.KOM	7	AA	|mer..ab.1|mycket..ab.1|
-7	invecklat	|invecklad|	PC	_	PC.PRF.NEU.SIN.IND.NOM	4	SP	|invecklad..av.1|
-8	än	|än|	SN	_	SN	4	KA	|än..sn.1|
-9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
-10	kan	|kunna|	VB	_	VB.PRS.AKT	8	UA	|kunna..vb.1|
-11	föreställa	|föreställa|föreställa sig|	VB	_	VB.INF.AKT	10	VG	|föreställa..vb.1|föreställa_sig..vbm.1|
-12	mig	|jag|föreställa sig:11|	PN	_	PN.UTR.SIN.DEF.OBJ	11	OO	|jag..pn.1|föreställa_sig..vbm.1:11|
-13	..	|	MID	_	MID	14	IK	|
-14	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-15	sisådär	|sisådär|	AB	_	AB	16	AA	|sisådär..ab.1|
-16	1	|	RG	_	RG.NOM	14	+F	|
-17	,	|	MID	_	MID	16	IK	|
-18	5-2	|	RG	_	RG.NOM	19	DT	|
-19	års	|år|	NN	_	NN.NEU.SIN.IND.GEN	20	DT	|år..nn.1|
-20	kötid	|kötid|	NN	_	NN.UTR.SIN.IND.NOM	17	CJ	|
-21	kan	|kunna|	VB	_	VB.PRS.AKT	1	MS	|kunna..vb.1|
-22	väl	|väl|	AB	_	AB	21	MA	|väl..ab.1|väl_2..ab.1|
-23	inte	|inte|	AB	_	AB	21	NA	|inte..ab.1|
-24	vara	|vara|	VB	_	VB.INF.AKT	21	VG	|vara..vb.1|vara..vb.2|
-25	så	|så|	AB	_	AB	26	AA	|så..ab.1|
-26	dumt	|dum|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	24	SP	|dum..av.1|
-27	?	|	MAD	_	MAD	1	I?	|
+Åh , detta är lite mer invecklat än jag kan föreställa mig .. men sisådär 1 , 5-2 års kötid kan väl inte vara så dumt ?
 
 # age = 21
 # agebin = 20--29
@@ -3072,32 +1396,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79af19a
-1	Visst	|viss|visst|	AB	_	AB	2	MA	|viss..av.1|visst..ab.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	så	|så|	AB	_	AB	2	AA	|så..ab.1|
-5	att	|att|	SN	_	SN	2	KA	|att..sn.1|
-6	Taiean	|	PM	_	PM.NOM	7	SS	|
-7	har	|ha|	VB	_	VB.PRS.AKT	5	UA	|ha..vb.1|
-8	två	|två|	RG	_	RG.NOM	10	DT	|två..nl.1|
-9	olika	|olik|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	10	AT	|olik..av.1|
-10	varianter	|variant|	NN	_	NN.UTR.PLU.IND.NOM	7	OO	|variant..nn.1|
-11	..	|	MID	_	MID	2	IK	|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
-13	går	|gå|	VB	_	VB.PRS.AKT	2	MS	|gå..vb.1|
-14	fortare	|fort|	AB	_	AB.KOM	13	AA	|fort..ab.1|
-15	om	|om|	SN	_	SN	13	AA	|om..sn.1|
-16	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	17	SS	|man..pn.1|
-17	lever	|leva|	VB	_	VB.PRS.AKT	15	UA	|leva..vb.1|
-18	som	|	KN	_	KN	17	SP	|
-19	aktivt	|aktiv|	AB	_	AB.POS	20	AA	|aktiv..av.1|
-20	kristen	|kristen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	21	AT	|kristen..av.1|
-21	trro	|	NN	_	NN.UTR.SIN.IND.NOM	18	UA	|
-22	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	23	SS	|jag..pn.1|
-23	...	|	MAD	_	MAD	21	ET	|
-24	?	|	MAD	_	MAD	2	I?	|
+Visst är det så att Taiean har två olika varianter .. det går fortare om man lever som aktivt kristen trro jag ... ?
 
 # age = 21
 # agebin = 20--29
@@ -3107,27 +1406,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a814f
-1	Nepalmmam	|	NN	_	NN.UTR.SIN.IND.NOM	2	SS	|
-2	:	|	MID	_	MID	0	ROOT	|
-3	Så	|så|	AB	_	AB	4	AA	|så..ab.1|
-4	spännande	|spännande|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	2	SP	|spännande..av.1|
-5	att	|att|	SN	_	SN	2	KA	|att..sn.1|
-6	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|ni..pn.1|
-7	är	|vara|	VB	_	VB.PRS.AKT	5	UA	|vara..vb.1|
-8	på	|på|på G|på g|	PP	_	PP	7	SP	|på..pp.1|på_G..avm.1|på_g..avm.1|
-9	G	|på G:8|på g:8|	PM	_	PM.NOM	8	PA	|på_G..avm.1:8|på_g..avm.1:8|
-10	i	|i|	PP	_	PP	9	ET	|i..pp.1|
-11	Nepal	|Nepal|	PM	_	PM.NOM	10	PA	|Nepal..pm.1|
-12	,	|	MID	_	MID	13	IK	|
-13	och	|och|	KN	_	KN	7	SP	|och..kn.1|
-14	vilken	|	HP	_	HP.UTR.SIN.IND	15	DT	|
-15	gedigen	|gedigen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	13	CJ	|gedigen..av.1|
-16	(	|	PAD	_	PAD	15	IR	|
-17	!	|	MAD	_	MAD	15	IU	|
-18	?	|	MAD	_	MAD	1	I?	|
-19	)	|	PAD	_	PAD	7	JR	|
+Nepalmmam : Så spännande att ni är på G i Nepal , och vilken gedigen ( ! ? )
 
 # age = 21
 # agebin = 20--29
@@ -3137,15 +1416,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a6d2f
-1	"	|	PAD	_	PAD	2	IC	|
-2	indersökning	|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|
-3	"	|	PAD	_	PAD	2	IK	|
-4	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|du..pn.1|
-5	har	|ha|	VB	_	VB.PRS.AKT	2	TA	|ha..vb.1|
-6	gort	|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|
-7	!	|	MAD	_	MAD	2	IU	|
+" indersökning " du har gort !
 
 # age = 21
 # agebin = 20--29
@@ -3155,30 +1426,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a0b10
-1	Apropå	|	VB	_	VB.IMP.AKT	0	ROOT	|
-2	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	1	OO	|medgivande..nn.1|
-3	,	|	MID	_	MID	1	IK	|
-4	visst	|viss|visst|	AB	_	AB	5	MA	|viss..av.1|visst..ab.1|
-5	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	SS	|den..pn.1|
-7	slut	|slut|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	5	SP	|slut..av.1|
-8	om	|om|	PP	_	PP	5	OA	|om..pp.1|
-9	att	|att|	IE	_	IE	8	PA	|att..sn.1|
-10	ha	|ha|ha sitt|	VB	_	VB.INF.AKT	9	IF	|ha..vb.1|ha_sitt..vbm.1|
-11	en	|en|	DT	_	DT.UTR.SIN.IND	13	DT	|en..al.1|
-12	viss	|viss|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	13	DT	|viss..av.1|
-13	ålder	|ålder|	NN	_	NN.UTR.SIN.IND.NOM	10	OO	|ålder..nn.1|
-14	i	|i|	PP	_	PP	10	RA	|i..pp.1|
-15	sitt	|sig|ha sitt:10|	PS	_	PS.NEU.SIN.DEF	16	DT	|sig..pn.1|ha_sitt..vbm.1:10|
-16	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	14	PA	|medgivande..nn.1|
-17	i	|i|i och med|	PP	_	PP	10	AA	|i..pp.1|i_och_med..ppm.1|
-18	och	|och|i och med:17|	KN	_	KN	17	HD	|och..kn.1|i_och_med..ppm.1:17|
-19	med	|med|i och med:17|	PP	_	PP	17	HD	|med..pp.1|i_och_med..ppm.1:17|
-20	nya	|ny|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	21	AT	|ny..av.1|
-21	handboken	|handbok|	NN	_	NN.UTR.SIN.DEF.NOM	19	PA	|handbok..nn.1|
-22	?	|	MAD	_	MAD	1	I?	|
+Apropå medgivande , visst är det slut om att ha en viss ålder i sitt medgivande i och med nya handboken ?
 
 # age = 21
 # agebin = 20--29
@@ -3188,9 +1436,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79ade27
-1	?	|	MAD	_	MAD	0	ROOT	|
+?
 
 # age = 21
 # agebin = 20--29
@@ -3200,11 +1446,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79afa01
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -3214,33 +1456,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79ad6bc
-1	Åh	|åh|	IN	_	IN	0	ROOT	|åh..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	så	|så|	AB	_	AB	4	AA	|så..ab.1|
-4	spännande	|spännande|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	1	MS	|spännande..av.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	SS	|den..pn.1|
-6	blir	|bli|	VB	_	VB.PRS.AKT	1	MS	|bli..vb.1|
-7	att	|att|	IE	_	IE	6	SP	|att..sn.1|
-8	följa	|följa|	VB	_	VB.INF.AKT	7	IF	|följa..vb.1|
-9	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	8	OO	|ni..pn.1|
-10	alla	|all|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	8	OO	|all..pn.1|
-11	,	|	MID	_	MID	16	IK	|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	16	SP	|den..pn.1|
-13	som	|	HP	_	HP.-.-.-	14	SS	|
-14	är	|vara|	VB	_	VB.PRS.AKT	12	ET	|vara..vb.1|
-15	synd	|synd|	NN	_	NN.UTR.SIN.IND.NOM	14	SP	|synd..nn.1|
-16	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-17	att	|att|	SN	_	SN	16	SS	|att..sn.1|
-18	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	19	SS	|den..pn.1|
-19	verkar	|verka|	VB	_	VB.PRS.AKT	17	UA	|verka..vb.1|
-20	ta	|ta|ta tid|	VB	_	VB.INF.AKT	19	VG	|ta..vb.1|ta_tid..vbm.1|
-21	så	|så|	AB	_	AB	23	AA	|så..ab.1|
-22	himla	|himla|	AB	_	AB	21	HD	|himla..ab.1|
-23	lång	|lång|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	24	AT	|lång..av.1|
-24	tid	|tid|ta tid:20|	NN	_	NN.UTR.SIN.IND.NOM	20	OO	|tid..nn.1|ta_tid..vbm.1:20|
-25	?	|	MAD	_	MAD	1	I?	|
+Åh , så spännande det blir att följa er alla , det som är synd är att det verkar ta så himla lång tid ?
 
 # age = 21
 # agebin = 20--29
@@ -3250,25 +1466,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79ac752
-1	Sedan	|sedan|	AB	_	AB	2	TA	|sedan..ab.1|
-2	fattar	|fatta|	VB	_	VB.PRS.AKT	0	ROOT	|fatta..vb.1|fatta..vb.2|
-3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-5	riktigt	|riktig|	AB	_	AB	2	AA	|riktig..av.1|
-6	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	OO	|den..pn.1|den_här..pnm.1|
-7	här	|här|den här:6|	AB	_	AB	6	HD	|här..ab.1|den_här..pnm.1:6|
-8	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-9	att	|att|	IE	_	IE	8	PA	|att..sn.1|
-10	stå	|stå|	VB	_	VB.INF.AKT	9	IF	|stå..vb.1|
-11	i	|i|	PP	_	PP	10	PL	|i..pp.1|
-12	kö	|kö|	NN	_	NN.UTR.SIN.IND.NOM	11	HD	|kö..nn.1|
-13	till	|till|	PP	_	PP	10	RA	|till..pp.1|
-14	ett	|en|	DT	_	DT.NEU.SIN.IND	16	DT	|en..al.1|
-15	visst	|viss|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	16	DT	|viss..av.1|
-16	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	13	PA	|land..nn.1|land..nn.2|land..nn.3|
-17	?	|	MAD	_	MAD	2	I?	|
+Sedan fattar jag inte riktigt det här med att stå i kö till ett visst land ?
 
 # age = 21
 # agebin = 20--29
@@ -3278,14 +1476,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79a7600
-1	Kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	verkligen	|verkligen|	AB	_	AB	1	MA	|verkligen..ab.1|
-4	göra	|göra|	VB	_	VB.INF.AKT	1	VG	|göra..vb.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	OO	|den..pn.1|
-6	?	|	MAD	_	MAD	1	I?	|
+Kan man verkligen göra det ?
 
 # age = 21
 # agebin = 20--29
@@ -3295,35 +1486,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79ab907
-1	Om	|om|	SN	_	SN	17	AA	|om..sn.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|den..pn.1|
-3	då	|då|	AB	_	AB	4	TA	|då..ab.1|då..ab.2|
-4	kommer	|komma|	VB	_	VB.PRS.AKT	9	MS	|komma..vb.1|
-5	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	4	SS	|någon..pn.1|
-6	med	|med|	PP	_	PP	5	ET	|med..pp.1|
-7	längre	|lång|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	8	AT	|lång..av.1|
-8	ködatum	|ködatum|	NN	_	NN.NEU.PLU.IND.NOM	6	PA	|
-9	men	|men|	KN	_	KN	1	UA	|men..kn.1|
-10	som	|	HP	_	HP.-.-.-	11	SS	|
-11	har	|ha|	VB	_	VB.PRS.AKT	9	CJ	|ha..vb.1|
-12	fått	|få|	VB	_	VB.SUP.AKT	11	VG	|få..vb.1|
-13	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	12	OO	|medgivande..nn.1|
-14	senare	|sen|senare|	AB	_	AB.KOM	12	TA	|sen..av.1|senare..ab.1|
-15	,	|	MID	_	MID	17	IK	|
-16	visst	|viss|visst|	AB	_	AB	17	MA	|viss..av.1|visst..ab.1|
-17	hamnar	|hamna|	VB	_	VB.PRS.AKT	0	ROOT	|hamna..vb.1|
-18	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	17	SS	|de..pn.1|
-19	före	|	PL	_	PL	17	PL	|
-20	då	|då|	AB	_	AB	17	TA	|då..ab.1|då..ab.2|
-21	,	|	MID	_	MID	17	IK	|
-22	förutsatt	|förutsatt|	AB	_	AB	17	AA	|
-23	att	|att|	SN	_	SN	22	HD	|att..sn.1|
-24	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	25	SS	|de..pn.1|
-25	uppfyller	|uppfylla|	VB	_	VB.PRS.AKT	22	UA	|uppfylla..vb.1|
-26	kraven	|krav|	NN	_	NN.NEU.PLU.DEF.NOM	25	OO	|krav..nn.1|
-27	?	|	MAD	_	MAD	17	I?	|
+Om det då kommer någon med längre ködatum men som har fått medgivande senare , visst hamnar de före då , förutsatt att de uppfyller kraven ?
 
 # age = 21
 # agebin = 20--29
@@ -3333,25 +1496,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79a9b8d
-1	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-2	bara	|bara|	AB	_	AB	3	CA	|bara..ab.1|
-3	undrar	|undra|	VB	_	VB.PRS.AKT	5	MS	|undra..vb.1|
-4	,	|	MID	_	MID	5	IK	|
-5	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
-6	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	7	SS	|vi..pn.1|
-7	har	|ha|	VB	_	VB.PRS.AKT	5	MS	|ha..vb.1|
-8	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
-9	specificerat	|specificera|	VB	_	VB.SUP.AKT	7	VG	|specificera..vb.1|
-10	vilket	|	HD	_	HD.NEU.SIN.IND	11	DT	|
-11	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	15	OO	|land..nn.1|land..nn.2|land..nn.3|
-12	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	14	SS	|vi..pn.1|
-13	"	|	PAD	_	PAD	14	IC	|
-14	vill	|vilja|	VB	_	VB.PRS.AKT	9	OO	|vilja..vb.1|
-15	ha	|ha|	VB	_	VB.INF.AKT	14	VG	|ha..vb.1|
-16	"	|	PAD	_	PAD	9	JC	|
-17	...	|	MAD	_	MAD	9	IG	|
+jag bara undrar , för vi har inte specificerat vilket land vi " vill ha " ...
 
 # age = 21
 # agebin = 20--29
@@ -3361,18 +1506,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79aec7c
-1	Itzilainen	|	NN	_	NN.UTR.SIN.DEF.NOM	2	SS	|
-2	...	|	MID	_	MID	0	ROOT	|
-3	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|ni..pn.1|
-4	måste	|måste|	VB	_	VB.PRS.AKT	2	MS	|måste..vb.1|
-5	ha	|ha|	VB	_	VB.INF.AKT	4	VG	|ha..vb.1|
-6	haft	|ha|	VB	_	VB.SUP.AKT	5	VG	|ha..vb.1|
-7	tur	|tur|	NN	_	NN.UTR.SIN.IND.NOM	8	CJ	|tur..nn.1|tur..nn.2|
-8	eller	|eller|	KN	_	KN	6	OO	|eller..kn.1|
-9	nåt	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	8	CJ	|någon..pn.1|
-10	!	|	MAD	_	MAD	2	IU	|
+Itzilainen ... ni måste ha haft tur eller nåt !
 
 # age = 21
 # agebin = 20--29
@@ -3382,18 +1516,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79a97ff
-1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	FS	|den..pn.1|
-4	går	|gå|	VB	_	VB.PRS.AKT	2	UA	|gå..vb.1|
-5	lika	|lika|	AB	_	AB	6	AA	|lika..ab.1|
-6	fort	|fort|	AB	_	AB.POS	4	AA	|fort..ab.1|
-7	att	|att|	IE	_	IE	4	OA	|att..sn.1|
-8	få	|få|	VB	_	VB.INF.AKT	7	IF	|få..vb.1|
-9	bb	|	NN	_	NN.UTR.SIN.IND.NOM	8	OO	|
-10	!	|	MAD	_	MAD	1	IU	|
+Hoppas att det går lika fort att få bb !
 
 # age = 21
 # agebin = 20--29
@@ -3403,11 +1526,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79a5a73
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -3417,33 +1536,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39549680
 # post_date = 2008-12-21 21:04:13
-# username = Fru E
-# sent_id = 79aa119
-1	Som	|som|	HA	_	HA	7	AA	|som..ab.1|
-2	rubriken	|rubrik|	NN	_	NN.UTR.SIN.DEF.NOM	3	SS	|rubrik..nn.1|
-3	lyder	|lyda|	VB	_	VB.PRS.AKT	1	UA	|lyda..vb.1|
-4	...	|	MID	_	MID	3	IQ	|
-5	hur	|hur|	HA	_	HA	6	AA	|hur..ab.1|
-6	länge	|länge|	AB	_	AB.POS	3	TA	|länge..ab.1|
-7	har	|ha|	VB	_	VB.PRS.AKT	19	MS	|ha..vb.1|
-8	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|ni..pn.1|
-9	varit	|vara|	VB	_	VB.SUP.AKT	7	VG	|vara..vb.1|
-10	medlemmar	|medlem|	NN	_	NN.UTR.PLU.IND.NOM	9	SP	|medlem..nn.1|
-11	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	19	CJ	|ni..pn.1|
-12	som	|	HP	_	HP.-.-.-	13	SS	|
-13	får	|få|	VB	_	VB.PRS.AKT	11	ET	|få..vb.1|
-14	skicka	|skicka|	VB	_	VB.INF.AKT	13	VG	|skicka..vb.1|
-15	iväg	|iväg|	PL	_	PL	14	PL	|iväg..ab.1|
-16	papper	|papper|	NN	_	NN.NEU.PLU.IND.NOM	14	OO	|papper..nn.1|
-17	nu	|nu|	AB	_	AB	14	TA	|nu..ab.1|
-18	,	|	MID	_	MID	19	IK	|
-19	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-20	vilka	|	HD	_	HD.UTR+NEU.PLU.IND	21	DT	|
-21	länder	|land|	NN	_	NN.NEU.PLU.IND.NOM	22	OO	|land..nn.1|
-22	skickar	|skicka|	VB	_	VB.PRS.AKT	19	MS	|skicka..vb.1|
-23	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	22	SS	|ni..pn.1|
-24	till	|till|	PL	_	PL	22	PL	|till..ab.1|
-25	?	|	MAD	_	MAD	19	I?	|
+Som rubriken lyder ... hur länge har ni varit medlemmar ni som får skicka iväg papper nu , och vilka länder skickar ni till ?
 
 # age = 21
 # agebin = 20--29
@@ -3453,14 +1546,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39549680
 # post_date = 2008-12-21 21:04:13
-# username = Fru E
-# sent_id = 79a60ba
-1	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	0	ROOT	|någon..pn.1|
-2	som	|	HP	_	HP.-.-.-	3	SS	|
-3	nappat	|nappa|	VB	_	VB.SUP.AKT	1	ET	|nappa..vb.1|nappa..vb.2|
-4	på	|på|	PP	_	PP	3	OA	|på..pp.1|
-5	nepal	|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|
-6	?	|	MAD	_	MAD	1	I?	|
+Någon som nappat på nepal ?
 
 # age = 21
 # agebin = 20--29
@@ -3470,11 +1556,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39549680
 # post_date = 2008-12-21 21:04:13
-# username = Fru E
-# sent_id = 79a3d4d
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -3484,35 +1566,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a23b3
-1	Åh	|åh|	IN	_	IN	14	MS	|åh..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|denna..pn.1|
-4	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-5	lite	|lite|	AB	_	AB.POS	6	AA	|lite..ab.1|
-6	mer	|mer|mycket|	AB	_	AB.KOM	7	AA	|mer..ab.1|mycket..ab.1|
-7	invecklat	|invecklad|	PC	_	PC.PRF.NEU.SIN.IND.NOM	4	SP	|invecklad..av.1|
-8	än	|än|	SN	_	SN	4	KA	|än..sn.1|
-9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
-10	kan	|kunna|	VB	_	VB.PRS.AKT	8	UA	|kunna..vb.1|
-11	föreställa	|föreställa|föreställa sig|	VB	_	VB.INF.AKT	10	VG	|föreställa..vb.1|föreställa_sig..vbm.1|
-12	mig	|jag|föreställa sig:11|	PN	_	PN.UTR.SIN.DEF.OBJ	11	OO	|jag..pn.1|föreställa_sig..vbm.1:11|
-13	..	|	MID	_	MID	14	IK	|
-14	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-15	sisådär	|sisådär|	AB	_	AB	16	AA	|sisådär..ab.1|
-16	1	|	RG	_	RG.NOM	14	+F	|
-17	,	|	MID	_	MID	16	IK	|
-18	5-2	|	RG	_	RG.NOM	19	DT	|
-19	års	|år|	NN	_	NN.NEU.SIN.IND.GEN	20	DT	|år..nn.1|
-20	kötid	|kötid|	NN	_	NN.UTR.SIN.IND.NOM	17	CJ	|
-21	kan	|kunna|	VB	_	VB.PRS.AKT	1	MS	|kunna..vb.1|
-22	väl	|väl|	AB	_	AB	21	MA	|väl..ab.1|väl_2..ab.1|
-23	inte	|inte|	AB	_	AB	21	NA	|inte..ab.1|
-24	vara	|vara|	VB	_	VB.INF.AKT	21	VG	|vara..vb.1|vara..vb.2|
-25	så	|så|	AB	_	AB	26	AA	|så..ab.1|
-26	dumt	|dum|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	24	SP	|dum..av.1|
-27	?	|	MAD	_	MAD	1	I?	|
+Åh , detta är lite mer invecklat än jag kan föreställa mig .. men sisådär 1 , 5-2 års kötid kan väl inte vara så dumt ?
 
 # age = 21
 # agebin = 20--29
@@ -3522,32 +1576,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a00e4
-1	Visst	|viss|visst|	AB	_	AB	2	MA	|viss..av.1|visst..ab.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	så	|så|	AB	_	AB	2	AA	|så..ab.1|
-5	att	|att|	SN	_	SN	2	KA	|att..sn.1|
-6	Taiean	|	PM	_	PM.NOM	7	SS	|
-7	har	|ha|	VB	_	VB.PRS.AKT	5	UA	|ha..vb.1|
-8	två	|två|	RG	_	RG.NOM	10	DT	|två..nl.1|
-9	olika	|olik|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	10	AT	|olik..av.1|
-10	varianter	|variant|	NN	_	NN.UTR.PLU.IND.NOM	7	OO	|variant..nn.1|
-11	..	|	MID	_	MID	2	IK	|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
-13	går	|gå|	VB	_	VB.PRS.AKT	2	MS	|gå..vb.1|
-14	fortare	|fort|	AB	_	AB.KOM	13	AA	|fort..ab.1|
-15	om	|om|	SN	_	SN	13	AA	|om..sn.1|
-16	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	17	SS	|man..pn.1|
-17	lever	|leva|	VB	_	VB.PRS.AKT	15	UA	|leva..vb.1|
-18	som	|	KN	_	KN	17	SP	|
-19	aktivt	|aktiv|	AB	_	AB.POS	20	AA	|aktiv..av.1|
-20	kristen	|kristen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	21	AT	|kristen..av.1|
-21	trro	|	NN	_	NN.UTR.SIN.IND.NOM	18	UA	|
-22	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	23	SS	|jag..pn.1|
-23	...	|	MAD	_	MAD	21	ET	|
-24	?	|	MAD	_	MAD	2	I?	|
+Visst är det så att Taiean har två olika varianter .. det går fortare om man lever som aktivt kristen trro jag ... ?
 
 # age = 21
 # agebin = 20--29
@@ -3557,27 +1586,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a610a
-1	Nepalmmam	|	NN	_	NN.UTR.SIN.IND.NOM	2	SS	|
-2	:	|	MID	_	MID	0	ROOT	|
-3	Så	|så|	AB	_	AB	4	AA	|så..ab.1|
-4	spännande	|spännande|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	2	SP	|spännande..av.1|
-5	att	|att|	SN	_	SN	2	KA	|att..sn.1|
-6	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	7	SS	|ni..pn.1|
-7	är	|vara|	VB	_	VB.PRS.AKT	5	UA	|vara..vb.1|
-8	på	|på|på G|på g|	PP	_	PP	7	SP	|på..pp.1|på_G..avm.1|på_g..avm.1|
-9	G	|på G:8|på g:8|	PM	_	PM.NOM	8	PA	|på_G..avm.1:8|på_g..avm.1:8|
-10	i	|i|	PP	_	PP	9	ET	|i..pp.1|
-11	Nepal	|Nepal|	PM	_	PM.NOM	10	PA	|Nepal..pm.1|
-12	,	|	MID	_	MID	13	IK	|
-13	och	|och|	KN	_	KN	7	SP	|och..kn.1|
-14	vilken	|	HP	_	HP.UTR.SIN.IND	15	DT	|
-15	gedigen	|gedigen|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	13	CJ	|gedigen..av.1|
-16	(	|	PAD	_	PAD	15	IR	|
-17	!	|	MAD	_	MAD	15	IU	|
-18	?	|	MAD	_	MAD	1	I?	|
-19	)	|	PAD	_	PAD	7	JR	|
+Nepalmmam : Så spännande att ni är på G i Nepal , och vilken gedigen ( ! ? )
 
 # age = 21
 # agebin = 20--29
@@ -3587,15 +1596,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a63e5
-1	"	|	PAD	_	PAD	2	IC	|
-2	indersökning	|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|
-3	"	|	PAD	_	PAD	2	IK	|
-4	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|du..pn.1|
-5	har	|ha|	VB	_	VB.PRS.AKT	2	TA	|ha..vb.1|
-6	gort	|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|
-7	!	|	MAD	_	MAD	2	IU	|
+" indersökning " du har gort !
 
 # age = 21
 # agebin = 20--29
@@ -3605,30 +1606,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a8898
-1	Apropå	|	VB	_	VB.IMP.AKT	0	ROOT	|
-2	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	1	OO	|medgivande..nn.1|
-3	,	|	MID	_	MID	1	IK	|
-4	visst	|viss|visst|	AB	_	AB	5	MA	|viss..av.1|visst..ab.1|
-5	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	SS	|den..pn.1|
-7	slut	|slut|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	5	SP	|slut..av.1|
-8	om	|om|	PP	_	PP	5	OA	|om..pp.1|
-9	att	|att|	IE	_	IE	8	PA	|att..sn.1|
-10	ha	|ha|ha sitt|	VB	_	VB.INF.AKT	9	IF	|ha..vb.1|ha_sitt..vbm.1|
-11	en	|en|	DT	_	DT.UTR.SIN.IND	13	DT	|en..al.1|
-12	viss	|viss|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	13	DT	|viss..av.1|
-13	ålder	|ålder|	NN	_	NN.UTR.SIN.IND.NOM	10	OO	|ålder..nn.1|
-14	i	|i|	PP	_	PP	10	RA	|i..pp.1|
-15	sitt	|sig|ha sitt:10|	PS	_	PS.NEU.SIN.DEF	16	DT	|sig..pn.1|ha_sitt..vbm.1:10|
-16	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	14	PA	|medgivande..nn.1|
-17	i	|i|i och med|	PP	_	PP	10	AA	|i..pp.1|i_och_med..ppm.1|
-18	och	|och|i och med:17|	KN	_	KN	17	HD	|och..kn.1|i_och_med..ppm.1:17|
-19	med	|med|i och med:17|	PP	_	PP	17	HD	|med..pp.1|i_och_med..ppm.1:17|
-20	nya	|ny|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	21	AT	|ny..av.1|
-21	handboken	|handbok|	NN	_	NN.UTR.SIN.DEF.NOM	19	PA	|handbok..nn.1|
-22	?	|	MAD	_	MAD	1	I?	|
+Apropå medgivande , visst är det slut om att ha en viss ålder i sitt medgivande i och med nya handboken ?
 
 # age = 21
 # agebin = 20--29
@@ -3638,9 +1616,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79a8001
-1	?	|	MAD	_	MAD	0	ROOT	|
+?
 
 # age = 21
 # agebin = 20--29
@@ -3650,11 +1626,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39580846
 # post_date = 2008-12-22 22:59:50
-# username = Fru E
-# sent_id = 79afd66
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -3664,33 +1636,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79a4af4
-1	Åh	|åh|	IN	_	IN	0	ROOT	|åh..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	så	|så|	AB	_	AB	4	AA	|så..ab.1|
-4	spännande	|spännande|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	1	MS	|spännande..av.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	SS	|den..pn.1|
-6	blir	|bli|	VB	_	VB.PRS.AKT	1	MS	|bli..vb.1|
-7	att	|att|	IE	_	IE	6	SP	|att..sn.1|
-8	följa	|följa|	VB	_	VB.INF.AKT	7	IF	|följa..vb.1|
-9	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	8	OO	|ni..pn.1|
-10	alla	|all|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	8	OO	|all..pn.1|
-11	,	|	MID	_	MID	16	IK	|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	16	SP	|den..pn.1|
-13	som	|	HP	_	HP.-.-.-	14	SS	|
-14	är	|vara|	VB	_	VB.PRS.AKT	12	ET	|vara..vb.1|
-15	synd	|synd|	NN	_	NN.UTR.SIN.IND.NOM	14	SP	|synd..nn.1|
-16	är	|vara|	VB	_	VB.PRS.AKT	1	MS	|vara..vb.1|
-17	att	|att|	SN	_	SN	16	SS	|att..sn.1|
-18	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	19	SS	|den..pn.1|
-19	verkar	|verka|	VB	_	VB.PRS.AKT	17	UA	|verka..vb.1|
-20	ta	|ta|ta tid|	VB	_	VB.INF.AKT	19	VG	|ta..vb.1|ta_tid..vbm.1|
-21	så	|så|	AB	_	AB	23	AA	|så..ab.1|
-22	himla	|himla|	AB	_	AB	21	HD	|himla..ab.1|
-23	lång	|lång|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	24	AT	|lång..av.1|
-24	tid	|tid|ta tid:20|	NN	_	NN.UTR.SIN.IND.NOM	20	OO	|tid..nn.1|ta_tid..vbm.1:20|
-25	?	|	MAD	_	MAD	1	I?	|
+Åh , så spännande det blir att följa er alla , det som är synd är att det verkar ta så himla lång tid ?
 
 # age = 21
 # agebin = 20--29
@@ -3700,25 +1646,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79a314c
-1	Sedan	|sedan|	AB	_	AB	2	TA	|sedan..ab.1|
-2	fattar	|fatta|	VB	_	VB.PRS.AKT	0	ROOT	|fatta..vb.1|fatta..vb.2|
-3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-4	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-5	riktigt	|riktig|	AB	_	AB	2	AA	|riktig..av.1|
-6	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	OO	|den..pn.1|den_här..pnm.1|
-7	här	|här|den här:6|	AB	_	AB	6	HD	|här..ab.1|den_här..pnm.1:6|
-8	med	|med|	PP	_	PP	2	OA	|med..pp.1|
-9	att	|att|	IE	_	IE	8	PA	|att..sn.1|
-10	stå	|stå|	VB	_	VB.INF.AKT	9	IF	|stå..vb.1|
-11	i	|i|	PP	_	PP	10	PL	|i..pp.1|
-12	kö	|kö|	NN	_	NN.UTR.SIN.IND.NOM	11	HD	|kö..nn.1|
-13	till	|till|	PP	_	PP	10	RA	|till..pp.1|
-14	ett	|en|	DT	_	DT.NEU.SIN.IND	16	DT	|en..al.1|
-15	visst	|viss|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	16	DT	|viss..av.1|
-16	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	13	PA	|land..nn.1|land..nn.2|land..nn.3|
-17	?	|	MAD	_	MAD	2	I?	|
+Sedan fattar jag inte riktigt det här med att stå i kö till ett visst land ?
 
 # age = 21
 # agebin = 20--29
@@ -3728,14 +1656,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79aa45f
-1	Kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	verkligen	|verkligen|	AB	_	AB	1	MA	|verkligen..ab.1|
-4	göra	|göra|	VB	_	VB.INF.AKT	1	VG	|göra..vb.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	OO	|den..pn.1|
-6	?	|	MAD	_	MAD	1	I?	|
+Kan man verkligen göra det ?
 
 # age = 21
 # agebin = 20--29
@@ -3745,35 +1666,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79a841b
-1	Om	|om|	SN	_	SN	17	AA	|om..sn.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|den..pn.1|
-3	då	|då|	AB	_	AB	4	TA	|då..ab.1|då..ab.2|
-4	kommer	|komma|	VB	_	VB.PRS.AKT	9	MS	|komma..vb.1|
-5	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	4	SS	|någon..pn.1|
-6	med	|med|	PP	_	PP	5	ET	|med..pp.1|
-7	längre	|lång|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	8	AT	|lång..av.1|
-8	ködatum	|ködatum|	NN	_	NN.NEU.PLU.IND.NOM	6	PA	|
-9	men	|men|	KN	_	KN	1	UA	|men..kn.1|
-10	som	|	HP	_	HP.-.-.-	11	SS	|
-11	har	|ha|	VB	_	VB.PRS.AKT	9	CJ	|ha..vb.1|
-12	fått	|få|	VB	_	VB.SUP.AKT	11	VG	|få..vb.1|
-13	medgivande	|medgivande|	NN	_	NN.NEU.SIN.IND.NOM	12	OO	|medgivande..nn.1|
-14	senare	|sen|senare|	AB	_	AB.KOM	12	TA	|sen..av.1|senare..ab.1|
-15	,	|	MID	_	MID	17	IK	|
-16	visst	|viss|visst|	AB	_	AB	17	MA	|viss..av.1|visst..ab.1|
-17	hamnar	|hamna|	VB	_	VB.PRS.AKT	0	ROOT	|hamna..vb.1|
-18	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	17	SS	|de..pn.1|
-19	före	|	PL	_	PL	17	PL	|
-20	då	|då|	AB	_	AB	17	TA	|då..ab.1|då..ab.2|
-21	,	|	MID	_	MID	17	IK	|
-22	förutsatt	|förutsatt|	AB	_	AB	17	AA	|
-23	att	|att|	SN	_	SN	22	HD	|att..sn.1|
-24	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	25	SS	|de..pn.1|
-25	uppfyller	|uppfylla|	VB	_	VB.PRS.AKT	22	UA	|uppfylla..vb.1|
-26	kraven	|krav|	NN	_	NN.NEU.PLU.DEF.NOM	25	OO	|krav..nn.1|
-27	?	|	MAD	_	MAD	17	I?	|
+Om det då kommer någon med längre ködatum men som har fått medgivande senare , visst hamnar de före då , förutsatt att de uppfyller kraven ?
 
 # age = 21
 # agebin = 20--29
@@ -3783,25 +1676,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79ad6c5
-1	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
-2	bara	|bara|	AB	_	AB	3	CA	|bara..ab.1|
-3	undrar	|undra|	VB	_	VB.PRS.AKT	5	MS	|undra..vb.1|
-4	,	|	MID	_	MID	5	IK	|
-5	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
-6	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	7	SS	|vi..pn.1|
-7	har	|ha|	VB	_	VB.PRS.AKT	5	MS	|ha..vb.1|
-8	inte	|inte|	AB	_	AB	7	NA	|inte..ab.1|
-9	specificerat	|specificera|	VB	_	VB.SUP.AKT	7	VG	|specificera..vb.1|
-10	vilket	|	HD	_	HD.NEU.SIN.IND	11	DT	|
-11	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	15	OO	|land..nn.1|land..nn.2|land..nn.3|
-12	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	14	SS	|vi..pn.1|
-13	"	|	PAD	_	PAD	14	IC	|
-14	vill	|vilja|	VB	_	VB.PRS.AKT	9	OO	|vilja..vb.1|
-15	ha	|ha|	VB	_	VB.INF.AKT	14	VG	|ha..vb.1|
-16	"	|	PAD	_	PAD	9	JC	|
-17	...	|	MAD	_	MAD	9	IG	|
+jag bara undrar , för vi har inte specificerat vilket land vi " vill ha " ...
 
 # age = 21
 # agebin = 20--29
@@ -3811,18 +1686,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79aabc6
-1	Itzilainen	|	NN	_	NN.UTR.SIN.DEF.NOM	2	SS	|
-2	...	|	MID	_	MID	0	ROOT	|
-3	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|ni..pn.1|
-4	måste	|måste|	VB	_	VB.PRS.AKT	2	MS	|måste..vb.1|
-5	ha	|ha|	VB	_	VB.INF.AKT	4	VG	|ha..vb.1|
-6	haft	|ha|	VB	_	VB.SUP.AKT	5	VG	|ha..vb.1|
-7	tur	|tur|	NN	_	NN.UTR.SIN.IND.NOM	8	CJ	|tur..nn.1|tur..nn.2|
-8	eller	|eller|	KN	_	KN	6	OO	|eller..kn.1|
-9	nåt	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	8	CJ	|någon..pn.1|
-10	!	|	MAD	_	MAD	2	IU	|
+Itzilainen ... ni måste ha haft tur eller nåt !
 
 # age = 21
 # agebin = 20--29
@@ -3832,18 +1696,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79a455a
-1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	FS	|den..pn.1|
-4	går	|gå|	VB	_	VB.PRS.AKT	2	UA	|gå..vb.1|
-5	lika	|lika|	AB	_	AB	6	AA	|lika..ab.1|
-6	fort	|fort|	AB	_	AB.POS	4	AA	|fort..ab.1|
-7	att	|att|	IE	_	IE	4	OA	|att..sn.1|
-8	få	|få|	VB	_	VB.INF.AKT	7	IF	|få..vb.1|
-9	bb	|	NN	_	NN.UTR.SIN.IND.NOM	8	OO	|
-10	!	|	MAD	_	MAD	1	IU	|
+Hoppas att det går lika fort att få bb !
 
 # age = 21
 # agebin = 20--29
@@ -3853,11 +1706,7 @@
 # thread_title = BFA-Ni som skickar nu, när blev ni medlemmar?
 # post_id = 39634459
 # post_date = 2008-12-26 17:36:30
-# username = Fru E
-# sent_id = 79adcd0
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 20
 # agebin = 20--29
@@ -3867,23 +1716,7 @@
 # thread_title = Presenter vid adoption. Vad tycker ni?
 # post_id = 24468340
 # post_date = 2007-09-02 12:59:47
-# username = Fru E
-# sent_id = e935f727
-1	En	|en|	DT	_	DT.UTR.SIN.IND	2	DT	|en..al.1|
-2	arbetskompis	|arbetskompis|arbetskompi|	NN	_	NN.UTR.SIN.IND.NOM	9	SS	|
-3	til	|	PP	_	PP	2	ET	|
-4	min	|jag|	PS	_	PS.UTR.SIN.DEF	5	DT	|jag..pn.1|
-5	man	|man|	NN	_	NN.UTR.SIN.IND.NOM	6	CJ	|man..nn.1|man..nn.2|
-6	och	|och|	KN	_	KN	3	PA	|och..kn.1|
-7	hans	|han|	PS	_	PS.UTR+NEU.SIN+PLU.DEF	8	DT	|han..pn.1|
-8	fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	6	CJ	|fru..nn.1|
-9	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-10	just	|just|	AB	_	AB	9	CA	|just..ab.1|just..av.1|
-11	fått	|få|	VB	_	VB.SUP.AKT	9	VG	|få..vb.1|
-12	barnbesked	|barnbesked|	NN	_	NN.NEU.SIN.IND.NOM	11	OO	|
-13	från	|från|	PP	_	PP	11	RA	|från..pp.1|
-14	Kina	|Kina|	PM	_	PM.NOM	13	PA	|Kina..pm.1|
-15	.	|	MAD	_	MAD	9	IP	|
+En arbetskompis til min man och hans fru har just fått barnbesked från Kina .
 
 # age = 20
 # agebin = 20--29
@@ -3893,21 +1726,7 @@
 # thread_title = Presenter vid adoption. Vad tycker ni?
 # post_id = 24468340
 # post_date = 2007-09-02 12:59:47
-# username = Fru E
-# sent_id = e93ffd76
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	vill	|vilja|	VB	_	VB.PRS.AKT	0	ROOT	|vilja..vb.1|
-3	gärna	|gärna|	AB	_	AB.POS	2	MA	|gärna..ab.1|
-4	ge	|ge|	VB	_	VB.INF.AKT	2	VG	|ge..vb.1|
-5	en	|en|	DT	_	DT.UTR.SIN.IND	6	DT	|en..al.1|
-6	present	|present|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|present..nn.1|
-7	,	|	MID	_	MID	10	IK	|
-8	kanske	|kanske|	AB	_	AB	9	MA	|kanske..ab.1|
-9	kläder	|kläder|	NN	_	NN.UTR.PLU.IND.NOM	10	CJ	|kläder..nn.1|
-10	eller	|eller|	KN	_	KN	4	OO	|eller..kn.1|
-11	någon	|någon|	DT	_	DT.UTR.SIN.IND	12	DT	|någon..pn.1|
-12	leksak	|leksak|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|leksak..nn.1|
-13	.	|	MAD	_	MAD	2	IP	|
+Vi vill gärna ge en present , kanske kläder eller någon leksak .
 
 # age = 20
 # agebin = 20--29
@@ -3917,28 +1736,7 @@
 # thread_title = Presenter vid adoption. Vad tycker ni?
 # post_id = 24468340
 # post_date = 2007-09-02 12:59:47
-# username = Fru E
-# sent_id = e93326a6
-1	Är	|vara|	VB	_	VB.PRS.AKT	11	MS	|vara..vb.1|
-2	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	1	FS	|den..pn.1|
-3	ok	|ok|	NN	_	NN.NEU.SIN.IND.NOM	1	SP	|ok..nn.1|
-4	att	|att|	IE	_	IE	1	ES	|att..sn.1|
-5	uppvakta	|uppvakta|	VB	_	VB.INF.AKT	4	IF	|uppvakta..vb.1|
-6	i	|i|	PP	_	PP	5	AA	|i..pp.1|
-7	samband	|samband|	NN	_	NN.NEU.SIN.IND.NOM	6	HD	|samband..nn.1|
-8	med	|med|	PP	_	PP	6	HD	|med..pp.1|
-9	barnbeskedet	|barnbesked|	NN	_	NN.NEU.SIN.DEF.NOM	6	PA	|
-10	,	|	MID	_	MID	11	IK	|
-11	eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-12	ska	|skola|	VB	_	VB.PRS.AKT	11	MS	|skola..vb.2|
-13	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	12	SS	|vi..pn.1|
-14	vänta	|vänta|	VB	_	VB.INF.AKT	12	VG	|vänta..vb.1|
-15	tills	|tills|	SN	_	SN	14	TA	|tills..sn.1|
-16	barnet	|barn|	NN	_	NN.NEU.SIN.DEF.NOM	17	SS	|barn..nn.1|
-17	har	|ha|	VB	_	VB.PRS.AKT	15	UA	|ha..vb.1|
-18	kommit	|komma|komma hem|	VB	_	VB.SUP.AKT	17	VG	|komma..vb.1|komma_hem..vbm.1|
-19	hem	|hem|komma hem:18|	PL	_	PL	18	PL	|hem..ab.1|komma_hem..vbm.1:18|
-20	?	|	MAD	_	MAD	11	I?	|
+Är det ok att uppvakta i samband med barnbeskedet , eller ska vi vänta tills barnet har kommit hem ?
 
 # age = 20
 # agebin = 20--29
@@ -3948,20 +1746,7 @@
 # thread_title = Presenter vid adoption. Vad tycker ni?
 # post_id = 24468340
 # post_date = 2007-09-02 12:59:47
-# username = Fru E
-# sent_id = e93c9ee8
-1	En	|en|	DT	_	DT.UTR.SIN.IND	2	DT	|en..al.1|
-2	sak	|sak|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|sak..nn.1|
-3	till	|till|	PP	_	PP	2	ET	|till..pp.1|
-4	...	|	MID	_	MID	3	PA	|
-5	Brukar	|bruka|	VB	_	VB.PRS.AKT	0	ROOT	|bruka..vb.1|
-6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	5	SS	|man..pn.1|
-7	färdigställa	|färdigställa|	VB	_	VB.INF.AKT	5	OO	|färdigställa..vb.1|
-8	barnrum	|barnrum|	NN	_	NN.NEU.SIN.IND.NOM	7	OO	|
-9	innnan	|	SN	_	SN	7	TA	|
-10	adoptivbarnet	|adoptivbarn|	NN	_	NN.NEU.SIN.DEF.NOM	11	SS	|adoptivbarn..nn.1|
-11	kommer	|komma|	VB	_	VB.PRS.AKT	9	UA	|komma..vb.1|
-12	?	|	MAD	_	MAD	5	I?	|
+En sak till ... Brukar man färdigställa barnrum innnan adoptivbarnet kommer ?
 
 # age = 20
 # agebin = 20--29
@@ -3971,18 +1756,7 @@
 # thread_title = Presenter vid adoption. Vad tycker ni?
 # post_id = 24468340
 # post_date = 2007-09-02 12:59:47
-# username = Fru E
-# sent_id = e93a1c13
-1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-2	på	|på|	PP	_	PP	1	OA	|på..pp.1|
-3	lite	|lite|	AB	_	AB.POS	4	AT	|lite..ab.1|
-4	tankar	|tank|tanke|	NN	_	NN.UTR.PLU.IND.NOM	2	PA	|tank..nn.1|tank..nn.2|tanke..nn.1|
-5	om	|om|	PP	_	PP	4	ET	|om..pp.1|
-6	detta	|denna|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	CJ	|denna..pn.1|
-7	...	|	MID	_	MID	8	CJ	|
-8	/	|	MID	_	MID	5	PA	|
-9	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	8	CJ	|fru..nn.1|
-10	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	1	IP	|e..nn.1|e..nna.1|
+Hoppas på lite tankar om detta ... / Fru E
 
 # age = 20
 # agebin = 20--29
@@ -3992,33 +1766,7 @@
 # thread_title = Presenter vid adoption. Vad tycker ni?
 # post_id = 24589728
 # post_date = 2007-09-05 18:25:51
-# username = Fru E
-# sent_id = e938c987
-1	Tack	|tack|	IN	_	IN	13	MS	|tack..in.1|
-2	för	|för|	PP	_	PP	1	OA	|för..pp.1|
-3	all	|all|	DT	_	DT.UTR.SIN.IND+DEF	5	DT	|all..pn.1|
-4	kloka	|klok|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	5	AT	|klok..av.1|
-5	tankar	|tank|tanke|	NN	_	NN.UTR.PLU.IND.NOM	2	PA	|tank..nn.1|tank..nn.2|tanke..nn.1|
-6	...	|	MID	_	MID	13	IQ	|
-7	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
-8	ska	|skola|	VB	_	VB.PRS.AKT	13	MS	|skola..vb.2|
-9	fundera	|fundera|	VB	_	VB.INF.AKT	8	VG	|fundera..vb.1|
-10	lite	|lite|	AB	_	AB.POS	9	AA	|lite..ab.1|
-11	till	|till|	PP	_	PP	9	OA	|till..pp.1|
-12	,	|	MID	_	MID	13	IK	|
-13	för	|för|	KN	_	KN	0	ROOT	|för..kn.1|
-14	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|jag..pn.1|
-15	vill	|vilja|	VB	_	VB.PRS.AKT	13	MS	|vilja..vb.1|
-16	ju	|ju|	AB	_	AB	15	MA	|ju..ab.1|
-17	så	|så|	AB	_	AB	15	AA	|så..ab.1|
-18	gärna	|gärna|	AB	_	AB.POS	17	HD	|gärna..ab.1|
-19	att	|att|	SN	_	SN	15	KA	|att..sn.1|
-20	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	21	SS	|den..pn.1|
-21	ska	|skola|	VB	_	VB.PRS.AKT	19	UA	|skola..vb.2|
-22	bli	|bli|	VB	_	VB.INF.AKT	21	VG	|bli..vb.1|
-23	helt	|hel|helt|	AB	_	AB.POS	24	AA	|hel..av.1|helt..ab.1|
-24	rätt	|rätt|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	22	SP	|rätt..av.1|
-25	!	|	MAD	_	MAD	13	IU	|
+Tack för all kloka tankar ... jag ska fundera lite till , för jag vill ju så gärna att det ska bli helt rätt !
 
 # age = 20
 # agebin = 20--29
@@ -4028,11 +1776,7 @@
 # thread_title = Presenter vid adoption. Vad tycker ni?
 # post_id = 24589728
 # post_date = 2007-09-05 18:25:51
-# username = Fru E
-# sent_id = e9371c7c
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -4042,10 +1786,7 @@
 # thread_title = Barnbesked!!
 # post_id = 32562862
 # post_date = 2008-05-09 15:04:15
-# username = Fru E
-# sent_id = da1efa56
-1	Underbart	|underbar|	AB	_	AB.POS	0	ROOT	|underbar..av.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Underbart !
 
 # age = 21
 # agebin = 20--29
@@ -4055,13 +1796,7 @@
 # thread_title = Barnbesked!!
 # post_id = 32562862
 # post_date = 2008-05-09 15:04:15
-# username = Fru E
-# sent_id = da131220
-1	Önskar	|önska|	VB	_	VB.PRS.AKT	0	ROOT	|önska..vb.1|
-2	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	1	SS	|ni..pn.1|
-3	all	|all|	DT	_	DT.UTR.SIN.IND+DEF	4	DT	|all..pn.1|
-4	lycka	|lycka|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|lycka..nn.1|lycka..nn.2|
-5	!	|	MAD	_	MAD	1	IU	|
+Önskar er all lycka !
 
 # age = 21
 # agebin = 20--29
@@ -4071,10 +1806,7 @@
 # thread_title = Deppigt besked ang. väntetider hos BFA
 # post_id = 34141920
 # post_date = 2008-07-02 11:24:25
-# username = Fru E
-# sent_id = da1ca844
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 21
 # agebin = 20--29
@@ -4084,43 +1816,7 @@
 # thread_title = Deppigt besked ang. väntetider hos BFA
 # post_id = 34141920
 # post_date = 2008-07-02 11:24:25
-# username = Fru E
-# sent_id = da16d08a
-1	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	var	|vara|	VB	_	VB.PRT.AKT	0	ROOT	|vara..vb.1|
-3	in	|in|	PL	_	PL	2	PL	|in..ab.1|
-4	på	|på|	PP	_	PP	2	RA	|på..pp.1|
-5	bfa-hemsidan	|	NN	_	NN.UTR.SIN.DEF.NOM	6	DT	|
-6	ohc	|	NN	_	NN.AN	4	PA	|
-7	kollade	|kolla|	VB	_	VB.PRT.AKT	2	MS	|kolla..vb.1|kolla..vb.2|
-8	lite	|lite|	AB	_	AB.POS	7	AA	|lite..ab.1|
-9	...	|	MID	_	MID	7	IG	|
-10	vad	|vad|	HP	_	HP.NEU.SIN.IND	11	SS	|vad..pn.1|
-11	menas	|mena|	VB	_	VB.PRS.SFO	7	+F	|mena..vb.1|
-12	med	|med|	PP	_	PP	11	OA	|med..pp.1|
-13	registret	|register|	NN	_	NN.NEU.SIN.DEF.NOM	12	PA	|register..nn.1|
-14	i	|i|	PP	_	PP	13	ET	|i..pp.1|
-15	Sverige	|Sverige|	PM	_	PM.NOM	14	PA	|Sverige..pm.1|
-16	,	|	MID	_	MID	17	IK	|
-17	är	|vara|	VB	_	VB.PRS.AKT	2	MS	|vara..vb.1|
-18	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	17	SS	|den..pn.1|
-19	hur	|hur|	HA	_	HA	20	AA	|hur..ab.1|
-20	länge	|länge|	AB	_	AB.POS	17	TA	|länge..ab.1|
-21	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	22	SS	|man..pn.1|
-22	har	|ha|	VB	_	VB.PRS.AKT	26	CJ	|ha..vb.1|
-23	varit	|vara|	VB	_	VB.SUP.AKT	22	VG	|vara..vb.1|
-24	sökandemedlem	|sökandemedlem|	NN	_	NN.NEU.SIN.IND.NOM	23	SP	|
-25	,	|	MID	_	MID	26	IK	|
-26	eller	|eller|eller hur|	KN	_	KN	17	XX	|eller..kn.1|eller_hur..inm.1|
-27	hur	|hur|eller hur:26|	HA	_	HA	28	AA	|hur..ab.1|eller_hur..inm.1:26|
-28	länge	|länge|	AB	_	AB.POS	30	TA	|länge..ab.1|
-29	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	30	SS	|man..pn.1|
-30	har	|ha|	VB	_	VB.PRS.AKT	26	CJ	|ha..vb.1|
-31	haft	|ha|	VB	_	VB.SUP.AKT	30	VG	|ha..vb.1|
-32	sin	|sig|	PS	_	PS.UTR.SIN.DEF	33	DT	|sig..pn.1|
-33	ansökan	|ansökan|	NN	_	NN.UTR.SIN.IND.NOM	31	OO	|ansökan..nn.1|
-34	klar	|klar|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	31	OP	|klar..av.1|
-35	?	|	MAD	_	MAD	2	I?	|
+jag var in på bfa-hemsidan ohc kollade lite ... vad menas med registret i Sverige , är det hur länge man har varit sökandemedlem , eller hur länge man har haft sin ansökan klar ?
 
 # age = 21
 # agebin = 20--29
@@ -4130,25 +1826,7 @@
 # thread_title = Deppigt besked ang. väntetider hos BFA
 # post_id = 34141920
 # post_date = 2008-07-02 11:24:25
-# username = Fru E
-# sent_id = da136bf1
-1	Vore	|vara|	VB	_	VB.KON.PRT.AKT	0	ROOT	|vara..vb.1|
-2	bussigt	|bussig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	1	SP	|bussig..av.1|
-3	om	|om|	SN	_	SN	1	AA	|om..sn.1|
-4	någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	5	SS	|någon..pn.1|
-5	kan	|kunna|	VB	_	VB.PRS.AKT	3	UA	|kunna..vb.1|
-6	förklara	|förklara|	VB	_	VB.INF.AKT	5	VG	|förklara..vb.1|
-7	det	|den|den här|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	OO	|den..pn.1|den_här..pnm.1|
-8	här	|här|den här:7|	AB	_	AB	7	HD	|här..ab.1|den_här..pnm.1:7|
-9	för	|för|	PP	_	PP	6	OA	|för..pp.1|
-10	mig	|jag|	PN	_	PN.UTR.SIN.DEF.OBJ	9	PA	|jag..pn.1|
-11	,	|	MID	_	MID	1	IK	|
-12	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|jag..pn.1|
-13	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
-14	inte	|inte|	AB	_	AB	13	NA	|inte..ab.1|
-15	riktigt	|riktig|	AB	_	AB	13	AA	|riktig..av.1|
-16	fattat	|fatta|	VB	_	VB.SUP.AKT	13	VG	|fatta..vb.1|fatta..vb.2|
-17	...	|	MAD	_	MAD	1	IG	|
+Vore bussigt om någon kan förklara det här för mig , jag har inte riktigt fattat ...
 
 # age = 21
 # agebin = 20--29
@@ -4158,11 +1836,7 @@
 # thread_title = Deppigt besked ang. väntetider hos BFA
 # post_id = 34142985
 # post_date = 2008-07-02 11:57:46
-# username = Fru E
-# sent_id = da1c421d
-1	Tack	|tack|	IN	_	IN	0	ROOT	|tack..in.1|
-2	basketmia	|	NN	_	NN.NEU.SIN.IND.NOM	1	HD	|
-3	!	|	MAD	_	MAD	1	IU	|
+Tack basketmia !
 
 # age = 21
 # agebin = 20--29
@@ -4172,34 +1846,7 @@
 # thread_title = Deppigt besked ang. väntetider hos BFA
 # post_id = 34142985
 # post_date = 2008-07-02 11:57:46
-# username = Fru E
-# sent_id = da1da28d
-1	Då	|då|	AB	_	AB	2	TA	|då..ab.1|då..ab.2|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	alltså	|alltså|	AB	_	AB	2	+A	|alltså..ab.1|
-5	så	|så|	AB	_	AB	2	AA	|så..ab.1|
-6	att	|att|	SN	_	SN	2	KA	|att..sn.1|
-7	om	|om|	SN	_	SN	21	AA	|om..sn.1|
-8	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	9	SS	|man..pn.1|
-9	har	|ha|	VB	_	VB.PRS.AKT	15	MS	|ha..vb.1|
-10	vartin	|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	11	AT	|
-11	medlem	|medlem|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|medlem..nn.1|
-12	i	|i|	PP	_	PP	9	TA	|i..pp.1|
-13	flera	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	14	DT	|
-14	år	|år|	NN	_	NN.NEU.PLU.IND.NOM	12	PA	|år..nn.1|
-15	och	|och|	KN	_	KN	6	UA	|och..kn.1|
-16	har	|ha|	VB	_	VB.PRS.AKT	15	+F	|ha..vb.1|
-17	klart	|klar|	AB	_	AB	16	MA	|klar..av.1|
-18	sina	|sig|	PS	_	PS.UTR+NEU.PLU.DEF	19	DT	|sig..pn.1|
-19	papper	|papper|	NN	_	NN.NEU.PLU.IND.NOM	16	OO	|papper..nn.1|
-20	så	|så|	AB	_	AB	21	DB	|så..ab.1|
-21	kan	|kunna|	VB	_	VB.PRS.AKT	6	UA	|kunna..vb.1|
-22	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	21	SS	|en..al.1|
-23	skcikas	|	VB	_	VB.INF.SFO	21	VG	|
-24	typ	|typ|	NN	_	NN.UTR.SIN.IND.NOM	23	OO	|typ..nn.1|
-25	direkt	|direkt|	AB	_	AB.POS	23	AA	|direkt..ab.1|direkt..av.1|
-26	?	|	MAD	_	MAD	2	I?	|
+Då är det alltså så att om man har vartin medlem i flera år och har klart sina papper så kan de skcikas typ direkt ?
 
 # age = 21
 # agebin = 20--29
@@ -4209,16 +1856,7 @@
 # thread_title = Deppigt besked ang. väntetider hos BFA
 # post_id = 34142985
 # post_date = 2008-07-02 11:57:46
-# username = Fru E
-# sent_id = da121ca8
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	lång	|lång|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	AT	|lång..av.1|
-3	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	4	SS	|tid..nn.1|
-4	tar	|ta|	VB	_	VB.PRS.AKT	0	ROOT	|ta..vb.1|
-5	utredning	|utredning|	NN	_	NN.UTR.SIN.IND.NOM	6	CJ	|utredning..nn.1|
-6	och	|och|	KN	_	KN	4	OO	|och..kn.1|
-7	papperssamlande	|papperssamlande|	NN	_	NN.NEU.SIN.IND.NOM	6	CJ	|
-8	.	|	MAD	_	MAD	4	IP	|
+Hur lång tid tar utredning och papperssamlande .
 
 # age = 21
 # agebin = 20--29
@@ -4228,22 +1866,7 @@
 # thread_title = Deppigt besked ang. väntetider hos BFA
 # post_id = 34142985
 # post_date = 2008-07-02 11:57:46
-# username = Fru E
-# sent_id = da183c7d
-1	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	14	HD	|någon..pn.1|
-2	som	|	HP	_	HP.-.-.-	3	SS	|
-3	har	|ha|	VB	_	VB.PRS.AKT	1	ET	|ha..vb.1|
-4	tips	|tips|	NN	_	NN.NEU.PLU.IND.NOM	3	OO	|tips..nn.1|
-5	på	|på|	PP	_	PP	3	OA	|på..pp.1|
-6	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	5	PA	|någon..pn.1|
-7	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	8	SS	|man..pn.1|
-8	kan	|kunna|	VB	_	VB.PRS.AKT	6	ET	|kunna..vb.1|
-9	börja	|börja|	VB	_	VB.INF.AKT	8	VG	|börja..vb.1|börja..vb.2|
-10	med	|med|	PL	_	PL	9	PL	|med..ab.1|
-11	innan	|innan|	PP	_	PP	9	TA	|innan..pp.1|
-12	själva	|själv|själva|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	13	DT	|själv..pn.1|själva..pn.1|
-13	hemutredningen	|hemutredning|	NN	_	NN.UTR.SIN.DEF.NOM	11	PA	|
-14	..	|	MAD	_	MAD	0	ROOT	|
+Någon som har tips på något man kan börja med innan själva hemutredningen ..
 
 # age = 21
 # agebin = 20--29
@@ -4253,11 +1876,7 @@
 # thread_title = Deppigt besked ang. väntetider hos BFA
 # post_id = 34142985
 # post_date = 2008-07-02 11:57:46
-# username = Fru E
-# sent_id = da121987
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -4267,10 +1886,7 @@
 # thread_title = Jag har fått barnbesked!!
 # post_id = 42128768
 # post_date = 2009-03-07 19:13:40
-# username = Fru E
-# sent_id = 4968aa50
-1	Grattis	|grattis|	IN	_	IN	0	ROOT	|grattis..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Grattis !
 
 # age = 22
 # agebin = 20--29
@@ -4280,12 +1896,7 @@
 # thread_title = Jag har fått barnbesked!!
 # post_id = 42128768
 # post_date = 2009-03-07 19:13:40
-# username = Fru E
-# sent_id = 49679390
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	låter	|låta|	VB	_	VB.PRS.AKT	0	ROOT	|låta..vb.1|
-3	underbart	|underbar|	AB	_	AB.POS	2	AA	|underbar..av.1|
-4	!	|	MAD	_	MAD	2	IU	|
+Det låter underbart !
 
 # age = 22
 # agebin = 20--29
@@ -4295,25 +1906,7 @@
 # thread_title = Jag har fått barnbesked!!
 # post_id = 42128768
 # post_date = 2009-03-07 19:13:40
-# username = Fru E
-# sent_id = 49614645
-1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
-3	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|du..pn.1|
-4	får	|få|	VB	_	VB.PRS.AKT	2	UA	|få..vb.1|
-5	resa	|resa|	VB	_	VB.INF.AKT	4	VG	|resa..vb.1|resa..vb.2|
-6	väldigt	|väldig|	AB	_	AB.POS	7	AA	|väldig..av.1|
-7	snart	|snar|snart|	AB	_	AB.POS	5	TA	|snar..av.1|snart..ab.1|
-8	,	|	MID	_	MID	1	IK	|
-9	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	10	SS	|den..pn.1|
-10	måste	|måste|	VB	_	VB.PRS.AKT	1	MS	|måste..vb.1|
-11	ju	|ju|	AB	_	AB	10	MA	|ju..ab.1|
-12	kännas	|känna|kännas|	VB	_	VB.INF.SFO	10	VG	|känna..vb.1|känna..vb.2|kännas..vb.1|
-13	huuuur	|	AB	_	AB	14	AA	|
-14	spännande	|spännande|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	12	SP	|spännande..av.1|
-15	som	|	KN	_	KN	12	KA	|
-16	helst	|gärna|	AB	_	AB.SUV	15	UA	|gärna..ab.1|
-17	!	|	MAD	_	MAD	10	IU	|
+Hoppas att du får resa väldigt snart , det måste ju kännas huuuur spännande som helst !
 
 # age = 22
 # agebin = 20--29
@@ -4323,24 +1916,7 @@
 # thread_title = Jag har fått barnbesked!!
 # post_id = 42128768
 # post_date = 2009-03-07 19:13:40
-# username = Fru E
-# sent_id = 496d0523
-1	Nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
-2	kamske	|kamske|	VB	_	VB.PRT.AKT	0	ROOT	|
-3	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|du..pn.1|
-4	kan	|kunna|	VB	_	VB.PRS.AKT	2	VG	|kunna..vb.1|
-5	fundera	|fundera|	VB	_	VB.INF.AKT	4	VG	|fundera..vb.1|
-6	på	|på|	PP	_	PP	5	OA	|på..pp.1|
-7	namn	|namn|	NN	_	NN.NEU.SIN.IND.NOM	6	PA	|namn..nn.1|
-8	(	|	PAD	_	PAD	5	IR	|
-9	om	|om|	SN	_	SN	5	AA	|om..sn.1|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
-11	inte	|inte|	AB	_	AB	13	NA	|inte..ab.1|
-12	redan	|redan|	AB	_	AB	13	TA	|redan..ab.1|
-13	är	|vara|	VB	_	VB.PRS.AKT	9	UA	|vara..vb.1|
-14	bestämt	|bestämd|bestämma|	PC	_	PC.PRF.NEU.SIN.IND.NOM	13	SP	|bestämd..av.1|bestämma..vb.1|
-15	?	|	MAD	_	MAD	2	I?	|
-16	)	|	PAD	_	PAD	5	JR	|
+Nu kamske du kan fundera på namn ( om det inte redan är bestämt ? )
 
 # age = 22
 # agebin = 20--29
@@ -4350,25 +1926,7 @@
 # thread_title = Jag har fått barnbesked!!
 # post_id = 42128768
 # post_date = 2009-03-07 19:13:40
-# username = Fru E
-# sent_id = 496d17fc
-1	shoppa	|shoppa|	VB	_	VB.INF.AKT	0	ROOT	|shoppa..vb.1|
-2	små	|liten|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	3	CJ	|liten..av.1|
-3	,	|	MID	_	MID	5	AT	|
-4	små	|liten|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	3	CJ	|liten..av.1|
-5	kläder	|kläder|	NN	_	NN.UTR.PLU.IND.NOM	1	OO	|kläder..nn.1|
-6	sätta	|sätta|	VB	_	VB.INF.AKT	1	MS	|sätta..vb.1|
-7	iordningför	|iordningför|	NN	_	NN.UTR.SIN.IND.NOM	6	OO	|
-8	bebisen	|bebis|	NN	_	NN.UTR.SIN.DEF.NOM	6	OO	|bebis..nn.1|
-9	där	|där|	AB	_	AB	6	RA	|där..ab.1|
-10	hemma	|hemma|	AB	_	AB	9	RA	|hemma..ab.1|
-11	osv	|osv|	AB	_	AB.AN	6	AA	|osv..aba.1|
-12	...	|	MID	_	MID	1	IG	|
-13	Oh	|oh|	IN	_	IN	1	MS	|oh..in.1|
-14	,	|	MID	_	MID	13	IK	|
-15	my	|	UO	_	UO	13	CJ	|
-16	god	|god|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	15	SP	|god..av.1|
-17	!	|	MAD	_	MAD	1	IU	|
+shoppa små , små kläder sätta iordningför bebisen där hemma osv ... Oh , my god !
 
 # age = 22
 # agebin = 20--29
@@ -4378,15 +1936,7 @@
 # thread_title = Jag har fått barnbesked!!
 # post_id = 42128768
 # post_date = 2009-03-07 19:13:40
-# username = Fru E
-# sent_id = 496df97d
-1	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	längar	|	VB	_	VB.PRS.AKT	0	ROOT	|
-3	till	|till|	PP	_	PP	2	TA	|till..pp.1|
-4	den	|den|en|	DT	_	DT.UTR.SIN.DEF	5	DT	|den..pn.1|en..al.1|
-5	dagen	|dag|	NN	_	NN.UTR.SIN.DEF.NOM	3	PA	|dag..nn.1|
-6	...	|	MAD	_	MAD	2	IG	|
-7	)	|	PAD	_	PAD	2	JR	|
+jag längar till den dagen ... )
 
 # age = 22
 # agebin = 20--29
@@ -4396,11 +1946,7 @@
 # thread_title = Jag har fått barnbesked!!
 # post_id = 42128768
 # post_date = 2009-03-07 19:13:40
-# username = Fru E
-# sent_id = 4962d577
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -4410,30 +1956,7 @@
 # thread_title = Taiwan via bfa och bv?
 # post_id = 44027972
 # post_date = 2009-05-17 16:14:28
-# username = Fru E
-# sent_id = 24e421d1
-1	Någon	|någon|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	4	SS	|någon..pn.1|
-2	med	|med|	PP	_	PP	1	ET	|med..pp.1|
-3	erfarenheter	|erfarenhet|	NN	_	NN.UTR.PLU.IND.NOM	2	PA	|erfarenhet..nn.1|
-4	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-5	vill	|vilja|	VB	_	VB.PRS.AKT	4	+F	|vilja..vb.1|
-6	dela	|dela|dela med sig|dela sig|	VB	_	VB.INF.AKT	5	VG	|dela..vb.1|dela_med_sig..vbm.1|dela_sig..vbm.1|
-7	med	|med|dela med sig:6|	PL	_	PL	6	PL	|med..ab.1|dela_med_sig..vbm.1:6|
-8	sig	|sig|dela med sig:6|dela sig:6|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	6	IO	|sig..pn.1|dela_med_sig..vbm.1:6|dela_sig..vbm.1:6|
-9	Väntetid	|väntetid|	NN	_	NN.UTR.SIN.IND.NOM	16	CJ	|väntetid..nn.1|
-10	,	|	MID	_	MID	16	IK	|
-11	papper	|papper|	NN	_	NN.NEU.SIN.IND.NOM	16	CJ	|papper..nn.1|
-12	,	|	MID	_	MID	16	IK	|
-13	foton	|foto|	NN	_	NN.NEU.PLU.IND.NOM	16	CJ	|foto..nn.1|
-14	,	|	MID	_	MID	16	IK	|
-15	resa	|resa|	NN	_	NN.UTR.SIN.IND.NOM	16	CJ	|resa..nn.1|
-16	,	|	MID	_	MID	6	OO	|
-17	kontakt	|kontakt|	NN	_	NN.UTR.SIN.IND.NOM	16	CJ	|kontakt..nn.1|
-18	med	|med|	PP	_	PP	16	CJ	|med..pp.1|
-19	förmedlingen	|förmedling|	NN	_	NN.UTR.SIN.DEF.NOM	20	DT	|förmedling..nn.1|
-20	mm	|mm|	NN	_	NN.AN	21	DT	|mm..nna.1|
-21	mm	|mm|	NN	_	NN.AN	18	PA	|mm..nna.1|
-22	...	|	MAD	_	MAD	6	IG	|
+Någon med erfarenheter och vill dela med sig Väntetid , papper , foton , resa , kontakt med förmedlingen mm mm ...
 
 # age = 22
 # agebin = 20--29
@@ -4443,24 +1966,7 @@
 # thread_title = Taiwan via bfa och bv?
 # post_id = 44034345
 # post_date = 2009-05-17 20:36:08
-# username = Fru E
-# sent_id = 24ef8f08
-1	Vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	2	SS	|vi..pn.1|
-2	kommer	|komma|	VB	_	VB.PRS.AKT	8	MS	|komma..vb.1|
-3	att	|att|	IE	_	IE	2	VG	|att..sn.1|
-4	ha	|ha|ha det|	VB	_	VB.INF.AKT	3	IF	|ha..vb.1|ha_det..inm.1|
-5	det	|den|en|ha det:4|	DT	_	DT.NEU.SIN.DEF	7	DT	|den..pn.1|en..al.1|ha_det..inm.1:4|
-6	lägsta	|låg|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM	7	AT	|låg..av.1|
-7	medgivandet	|medgivande|	NN	_	NN.NEU.SIN.DEF.NOM	4	OO	|medgivande..nn.1|
-8	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-9	har	|ha|	VB	_	VB.PRS.AKT	8	+F	|ha..vb.1|
-10	en	|en|	DT	_	DT.UTR.SIN.IND	11	DT	|en..al.1|
-11	kötid	|kötid|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|
-12	på	|på|	PP	_	PP	11	ET	|på..pp.1|
-13	snart	|snar|snart|	AB	_	AB.POS	12	PA	|snar..av.1|snart..ab.1|
-14	två	|två|	RG	_	RG.NOM	15	DT	|två..nl.1|
-15	år	|år|	NN	_	NN.NEU.PLU.IND.NOM	12	PA	|år..nn.1|
-16	...	|	MAD	_	MAD	8	IG	|
+Vi kommer att ha det lägsta medgivandet och har en kötid på snart två år ...
 
 # age = 22
 # agebin = 20--29
@@ -4470,27 +1976,7 @@
 # thread_title = Taiwan via bfa och bv?
 # post_id = 44034345
 # post_date = 2009-05-17 20:36:08
-# username = Fru E
-# sent_id = 24e7e3ec
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	låter	|låta|	VB	_	VB.PRS.AKT	0	ROOT	|låta..vb.1|
-3	som	|	KN	_	KN	2	KA	|
-4	att	|att|	SN	_	SN	3	UA	|att..sn.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	FS	|den..pn.1|
-6	är	|vara|	VB	_	VB.PRS.AKT	4	UA	|vara..vb.1|
-7	ett	|en|	DT	_	DT.NEU.SIN.IND	9	DT	|en..al.1|
-8	bra	|bra|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	9	AT	|bra..av.2|
-9	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	6	SP	|land..nn.1|land..nn.2|land..nn.3|
-10	att	|att|	IE	_	IE	6	ES	|att..sn.1|
-11	adoptera	|adoptera|	VB	_	VB.INF.AKT	10	IF	|adoptera..vb.1|
-12	från	|från|	PP	_	PP	11	OA	|från..pp.1|
-13	...	|	MID	_	MID	14	IG	|
-14	tack	|tack|	NN	_	NN.NEU.SIN.IND.NOM	12	PA	|tack..nn.1|
-15	för	|för|	PP	_	PP	11	OA	|för..pp.1|
-16	tipset	|tips|	NN	_	NN.NEU.SIN.DEF.NOM	15	PA	|tips..nn.1|
-17	om	|om|	PP	_	PP	16	ET	|om..pp.1|
-18	listan	|lista|	NN	_	NN.UTR.SIN.DEF.NOM	17	PA	|lista..nn.1|
-19	...	|	MAD	_	MAD	2	IG	|
+Det låter som att det är ett bra land att adoptera från ... tack för tipset om listan ...
 
 # age = 22
 # agebin = 20--29
@@ -4500,10 +1986,7 @@
 # thread_title = Det blir Taiwan!
 # post_id = 41473811
 # post_date = 2009-02-15 20:47:58
-# username = Fru E
-# sent_id = 24ec3ab0
-1	Härligt	|härlig|	AB	_	AB.POS	0	ROOT	|härlig..av.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Härligt !
 
 # age = 20
 # agebin = 20--29
@@ -4513,10 +1996,7 @@
 # thread_title = Cali, Chiquitines
 # post_id = 21950237
 # post_date = 2007-06-19 12:22:54
-# username = Fru E
-# sent_id = ae79fd66
-1	Underbart	|underbar|	AB	_	AB.POS	0	ROOT	|underbar..av.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Underbart !
 
 # age = 20
 # agebin = 20--29
@@ -4526,14 +2006,7 @@
 # thread_title = Cali, Chiquitines
 # post_id = 21950237
 # post_date = 2007-06-19 12:22:54
-# username = Fru E
-# sent_id = ae785604
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PL	_	PL	1	PL	|till..ab.1|lycka_till..inm.1:1|
-3	med	|med|	PP	_	PP	1	AA	|med..pp.1|
-4	erat	|ni|	PS	_	PS.NEU.SIN.DEF	5	DT	|ni..pn.1|
-5	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	3	PA	|barn..nn.1|
-6	!	|	MAD	_	MAD	1	IU	|
+Lycka till med erat barn !
 
 # age = 20
 # agebin = 20--29
@@ -4543,10 +2016,7 @@
 # thread_title = Att bli sökandemedlam...
 # post_id = 21950209
 # post_date = 2007-06-19 12:22:03
-# username = Fru E
-# sent_id = ae7bfae5
-1	Hej	|hej|	IN	_	IN	0	ROOT	|hej..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hej !
 
 # age = 20
 # agebin = 20--29
@@ -4556,27 +2026,7 @@
 # thread_title = Att bli sökandemedlam...
 # post_id = 21950209
 # post_date = 2007-06-19 12:22:03
-# username = Fru E
-# sent_id = ae70b649
-1	Är	|vara|	VB	_	VB.PRS.AKT	7	MS	|vara..vb.1|
-2	alldeles	|alldeles|	AB	_	AB	3	AA	|alldeles..ab.1|
-3	ny	|ny|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	1	SP	|ny..av.1|
-4	här	|här|	AB	_	AB	1	RA	|här..ab.1|
-5	på	|på|	PP	_	PP	4	RA	|på..pp.1|
-6	forumet	|forum|	NN	_	NN.NEU.SIN.DEF.NOM	5	PA	|forum..nn.1|
-7	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-8	spenderar	|spendera|	VB	_	VB.PRS.AKT	7	+F	|spendera..vb.1|
-9	fortfarande	|fortfarande|	AB	_	AB	8	TA	|fortfarande..ab.1|
-10	mycket	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	11	DT	|
-11	tankar	|tank|tanke|	NN	_	NN.UTR.PLU.IND.NOM	8	OO	|tank..nn.1|tank..nn.2|tanke..nn.1|
-12	på	|på|	PP	_	PP	8	OA	|på..pp.1|
-13	"	|	PAD	_	PAD	14	IC	|
-14	svårt	|svår|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	12	PA	|svår..av.1|
-15	att	|att|	IE	_	IE	14	OA	|att..sn.1|
-16	få	|få|	VB	_	VB.INF.AKT	15	IF	|få..vb.1|
-17	barn-forumet	|barn-forum|	NN	_	NN.NEU.SIN.DEF.NOM	16	OO	|
-18	"	|	PAD	_	PAD	7	JC	|
-19	...	|	MAD	_	MAD	7	IG	|
+Är alldeles ny här på forumet och spenderar fortfarande mycket tankar på " svårt att få barn-forumet " ...
 
 # age = 20
 # agebin = 20--29
@@ -4586,23 +2036,7 @@
 # thread_title = Att bli sökandemedlam...
 # post_id = 21950209
 # post_date = 2007-06-19 12:22:03
-# username = Fru E
-# sent_id = ae7da6be
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	CJ	|jag..pn.1|
-2	och	|och|	KN	_	KN	5	SS	|och..kn.1|
-3	min	|jag|	PS	_	PS.UTR.SIN.DEF	4	DT	|jag..pn.1|
-4	man	|man|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|man..nn.1|man..nn.2|
-5	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-6	bestämt	|bestämma|	VB	_	VB.SUP.AKT	5	VG	|bestämma..vb.1|
-7	att	|att|	SN	_	SN	6	OO	|att..sn.1|
-8	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	9	SS	|vi..pn.1|
-9	ska	|skola|	VB	_	VB.PRS.AKT	7	UA	|skola..vb.2|
-10	bli	|bli|	VB	_	VB.INF.AKT	9	VG	|bli..vb.1|
-11	sökandemedlemamr	|	NN	_	NN.NEU.SIN.IND.NOM	10	SP	|
-12	i	|i|	PP	_	PP	10	RA	|i..pp.1|
-13	någon	|någon|	DT	_	DT.UTR.SIN.IND	14	DT	|någon..pn.1|
-14	adoptionsorganisation	|adoptionsorganisation|	NN	_	NN.UTR.SIN.IND.NOM	12	PA	|
-15	.	|	MAD	_	MAD	5	IP	|
+Jag och min man har bestämt att vi ska bli sökandemedlemamr i någon adoptionsorganisation .
 
 # age = 20
 # agebin = 20--29
@@ -4612,13 +2046,7 @@
 # thread_title = Att bli sökandemedlam...
 # post_id = 21950209
 # post_date = 2007-06-19 12:22:03
-# username = Fru E
-# sent_id = ae7f9cf8
-1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-2	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|ni..pn.1|
-3	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	4	DT	|någon..pn.1|
-4	tips	|tips|	NN	_	NN.NEU.PLU.IND.NOM	1	OO	|tips..nn.1|
-5	.	|	MAD	_	MAD	1	IP	|
+Har ni några tips .
 
 # age = 20
 # agebin = 20--29
@@ -4628,45 +2056,7 @@
 # thread_title = Att bli sökandemedlam...
 # post_id = 21950209
 # post_date = 2007-06-19 12:22:03
-# username = Fru E
-# sent_id = ae7c19d3
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	skrev	|skriva|skriva ut|	VB	_	VB.PRT.AKT	30	MS	|skriva..vb.1|skriva_ut..vbm.1|
-3	ut	|ut|skriva ut:2|	PL	_	PL	2	PL	|ut..ab.1|skriva_ut..vbm.1:2|
-4	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
-5	formulär	|formulär|	NN	_	NN.NEU.SIN.IND.NOM	2	OO	|formulär..nn.1|
-6	från	|från|	PP	_	PP	5	ET	|från..pp.1|
-7	BFA	|	PM	_	PM.NOM	6	PA	|
-8	,	|	MID	_	MID	2	IK	|
-9	och	|och|	KN	_	KN	30	MS	|och..kn.1|
-10	blir	|bli|	VB	_	VB.PRS.AKT	9	+F	|bli..vb.1|
-11	lite	|lite|	AB	_	AB.POS	12	AA	|lite..ab.1|
-12	konfunderad	|konfundera|	PC	_	PC.PRF.UTR.SIN.IND.NOM	10	SP	|konfundera..vb.1|
-13	över	|över|	PP	_	PP	10	OA	|över..pp.1|
-14	att	|att|	SN	_	SN	13	PA	|att..sn.1|
-15	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	16	SS	|man..pn.1|
-16	ska	|skola|	VB	_	VB.PRS.AKT	14	UA	|skola..vb.2|
-17	kryssa	|kryssa|	VB	_	VB.INF.AKT	16	VG	|kryssa..vb.1|kryssa..vb.2|
-18	för	|för|	PP	_	PP	17	OA	|för..pp.1|
-19	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	18	PA	|land..nn.1|land..nn.2|land..nn.3|
-20	redan	|redan|	AB	_	AB	21	CA	|redan..ab.1|
-21	nu	|nu|	AB	_	AB	17	TA	|nu..ab.1|
-22	...	|	MID	_	MID	30	IQ	|
-23	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	24	SS	|man..pn.1|
-24	kan	|kunna|	VB	_	VB.PRS.AKT	30	MS	|kunna..vb.1|
-25	förvisso	|förvisso|	AB	_	AB	24	MA	|förvisso..ab.1|
-26	välja	|välja|	VB	_	VB.INF.AKT	24	VG	|välja..vb.1|
-27	flera	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	28	DT	|
-28	länder	|land|	NN	_	NN.NEU.PLU.IND.NOM	26	OO	|land..nn.1|
-29	,	|	MID	_	MID	30	IK	|
-30	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-31	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	32	SS	|jag..pn.1|
-32	tycker	|tycka|	VB	_	VB.PRS.AKT	30	MS	|tycka..vb.1|
-33	att	|att|	SN	_	SN	32	OO	|att..sn.1|
-34	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	35	SS	|den..pn.1|
-35	är	|vara|	VB	_	VB.PRS.AKT	33	UA	|vara..vb.1|
-36	svårt	|svår|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	35	SP	|svår..av.1|
-37	.	|	MAD	_	MAD	30	IP	|
+Jag skrev ut ett formulär från BFA , och blir lite konfunderad över att man ska kryssa för land redan nu ... man kan förvisso välja flera länder , men jag tycker att det är svårt .
 
 # age = 20
 # agebin = 20--29
@@ -4676,14 +2066,7 @@
 # thread_title = Att bli sökandemedlam...
 # post_id = 21950209
 # post_date = 2007-06-19 12:22:03
-# username = Fru E
-# sent_id = ae77dde5
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|ni..pn.1|
-4	andra	|annan|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	2	SS	|annan..pn.1|
-5	tänkt	|tänka|	VB	_	VB.SUP.AKT	2	VG	|tänka..vb.1|
-6	?	|	MAD	_	MAD	2	I?	|
+Hur har ni andra tänkt ?
 
 # age = 20
 # agebin = 20--29
@@ -4693,11 +2076,7 @@
 # thread_title = Att bli sökandemedlam...
 # post_id = 21950209
 # post_date = 2007-06-19 12:22:03
-# username = Fru E
-# sent_id = ae714cf0
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 21
 # agebin = 20--29
@@ -4707,29 +2086,7 @@
 # thread_title = Dela med Taiwan erfarenheter?
 # post_id = 38324427
 # post_date = 2008-11-14 15:11:26
-# username = Fru E
-# sent_id = 40fe364
-1	Här	|här|	AB	_	AB	2	RA	|här..ab.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	10	MS	|vara..vb.1|
-3	en	|man|	PN	_	PN.UTR.SIN.IND.SUB+OBJ	2	SS	|man..pn.1|
-4	som	|	HP	_	HP.-.-.-	6	SS	|
-5	inte	|inte|	AB	_	AB	6	NA	|inte..ab.1|
-6	har	|ha|	VB	_	VB.PRS.AKT	3	ET	|ha..vb.1|
-7	adopterat	|adoptera|	VB	_	VB.SUP.AKT	6	VG	|adoptera..vb.1|
-8	ännu	|ännu|	AB	_	AB	7	TA	|ännu..ab.1|
-9	,	|	MID	_	MID	10	IK	|
-10	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-11	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	12	SS	|den..pn.1|
-12	drar	|dra|dra åt|	VB	_	VB.PRS.AKT	10	MS	|dra..vb.1|dra_åt..vbm.1|
-13	åt	|dra åt:12|	PL	_	PL	12	PL	|dra_åt..vbm.1:12|
-14	Asien	|Asien|	PM	_	PM.NOM	12	OO	|Asien..pm.1|
-15	ju	|	KN	_	KN	16	AA	|
-16	mer	|mer|mycket|	AB	_	AB.KOM	18	AA	|mer..ab.1|mycket..ab.1|
-17	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	18	SS	|jag..pn.1|
-18	tänker	|tänka|	VB	_	VB.PRS.AKT	12	OO	|tänka..vb.1|
-19	på	|på|	PP	_	PP	18	OA	|på..pp.1|
-20	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	19	PA	|den..pn.1|
-21	...	|	MAD	_	MAD	2	IG	|
+Här är en som inte har adopterat ännu , men det drar åt Asien ju mer jag tänker på det ...
 
 # age = 21
 # agebin = 20--29
@@ -4739,33 +2096,7 @@
 # thread_title = Dela med Taiwan erfarenheter?
 # post_id = 38324427
 # post_date = 2008-11-14 15:11:26
-# username = Fru E
-# sent_id = 40ff399
-1	Svinto	|	PM	_	PM.NOM	4	SS	|
-2	:	|	MID	_	MID	1	IQ	|
-3	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	DB	|den..pn.1|
-4	var	|vara|	VB	_	VB.PRT.AKT	0	ROOT	|vara..vb.1|
-5	alldeles	|alldeles|	AB	_	AB	6	AA	|alldeles..ab.1|
-6	så	|så|	AB	_	AB	4	AA	|så..ab.1|
-7	fort	|fort|	AB	_	AB.POS	6	HD	|fort..ab.1|
-8	era	|ni|	PS	_	PS.UTR+NEU.PLU.DEF	9	DT	|ni..pn.1|
-9	adoptioner	|adoption|	NN	_	NN.UTR.PLU.IND.NOM	10	SS	|adoption..nn.1|
-10	har	|ha|	VB	_	VB.PRS.AKT	7	UA	|ha..vb.1|
-11	gått	|gå|	VB	_	VB.SUP.AKT	10	VG	|gå..vb.1|
-12	,	|	MID	_	MID	4	IK	|
-13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	14	SS	|jag..pn.1|
-14	såg	|se|	VB	_	VB.PRT.AKT	4	MS	|se..vb.1|
-15	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	14	OO	|den..pn.1|
-16	i	|i|	PP	_	PP	14	RA	|i..pp.1|
-17	din	|du|	PS	_	PS.UTR.SIN.DEF	18	DT	|du..pn.1|
-18	pres	|	NN	_	NN.UTR.SIN.IND.NOM	16	PA	|
-19	..	|	MID	_	MID	24	OO	|
-20	vilken	|	HD	_	HD.UTR.SIN.IND	21	DT	|
-21	org	|	NN	_	NN.UTR.SIN.IND.NOM	19	PA	|
-22	har	|ha|	VB	_	VB.PRS.AKT	4	MS	|ha..vb.1|
-23	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	22	SS	|ni..pn.1|
-24	haft	|ha|	VB	_	VB.SUP.AKT	22	VG	|ha..vb.1|
-25	?	|	MAD	_	MAD	4	I?	|
+Svinto : Det var alldeles så fort era adoptioner har gått , jag såg det i din pres .. vilken org har ni haft ?
 
 # age = 21
 # agebin = 20--29
@@ -4775,14 +2106,7 @@
 # thread_title = Dela med Taiwan erfarenheter?
 # post_id = 38324427
 # post_date = 2008-11-14 15:11:26
-# username = Fru E
-# sent_id = 40f661b
-1	Väldigt	|väldig|	AB	_	AB.POS	2	AA	|väldig..av.1|
-2	söta	|söt|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	3	AT	|söt..av.1|
-3	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	0	ROOT	|barn..nn.1|
-4	,	|	MID	_	MID	3	IK	|
-5	förresten	|förresten|	AB	_	AB	3	MA	|förresten..ab.1|
-6	!	|	MAD	_	MAD	3	IU	|
+Väldigt söta barn , förresten !
 
 # age = 21
 # agebin = 20--29
@@ -4792,39 +2116,7 @@
 # thread_title = Dela med Taiwan erfarenheter?
 # post_id = 38359094
 # post_date = 2008-11-15 17:37:26
-# username = Fru E
-# sent_id = 40f1b49
-1	Åh	|åh|	IN	_	IN	0	ROOT	|åh..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	så	|så|	AB	_	AB	4	AA	|så..ab.1|
-4	härligt	|härlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	1	MS	|härlig..av.1|
-5	att	|att|	IE	_	IE	4	OA	|att..sn.1|
-6	höra	|höra|	VB	_	VB.INF.AKT	5	IF	|höra..vb.1|
-7	Era	|Ni|ni|	PS	_	PS.UTR+NEU.PLU.DEF	9	DT	|Ni..pn.1|ni..pn.1|
-8	tankar	|tank|tanke|	NN	_	NN.UTR.PLU.IND.NOM	9	CJ	|tank..nn.1|tank..nn.2|tanke..nn.1|
-9	och	|och|	KN	_	KN	6	OO	|och..kn.1|
-10	erfarenheter	|erfarenhet|	NN	_	NN.UTR.PLU.IND.NOM	9	CJ	|erfarenhet..nn.1|
-11	fårn	|	PP	_	PP	6	RA	|
-12	Taiwan	|Taiwan|	PM	_	PM.NOM	11	PA	|Taiwan..pm.1|Taiwan..pm.2|
-13	...	|	MID	_	MID	1	IG	|
-14	jnu	|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	15	SS	|
-15	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
-16	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	SS	|jag..pn.1|
-17	börjat	|börja|	VB	_	VB.SUP.AKT	15	VG	|börja..vb.1|börja..vb.2|
-18	drömma	|drömma|	VB	_	VB.INF.AKT	17	OA	|drömma..vb.1|
-19	Har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
-20	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	19	SS	|ni..pn.1|
-21	bilder	|bild|	NN	_	NN.UTR.PLU.IND.NOM	19	OO	|bild..nn.1|
-22	på	|på|	PP	_	PP	21	ET	|på..pp.1|
-23	Era	|Ni|ni|	PS	_	PS.UTR+NEU.PLU.DEF	24	DT	|Ni..pn.1|ni..pn.1|
-24	små	|liten|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	22	PA	|liten..av.1|
-25	,	|	MID	_	MID	24	IK	|
-26	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	24	AN	|ni..pn.1|
-27	som	|	HP	_	HP.-.-.-	29	SS	|
-28	redan	|redan|	AB	_	AB	29	TA	|redan..ab.1|
-29	har	|ha|	VB	_	VB.PRS.AKT	26	ET	|ha..vb.1|
-30	adopterat	|adoptera|	VB	_	VB.SUP.AKT	29	VG	|adoptera..vb.1|
-31	?	|	MAD	_	MAD	1	I?	|
+Åh , så härligt att höra Era tankar och erfarenheter fårn Taiwan ... jnu har jag börjat drömma Har ni bilder på Era små , ni som redan har adopterat ?
 
 # age = 21
 # agebin = 20--29
@@ -4834,15 +2126,7 @@
 # thread_title = Nu börjar jag välja namn......
 # post_id = 39550018
 # post_date = 2008-12-21 21:12:08
-# username = Fru E
-# sent_id = 858ef080
-1	Så	|så|	AB	_	AB	2	AA	|så..ab.1|
-2	roligt	|rolig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	0	ROOT	|rolig..av.1|
-3	att	|att|	IE	_	IE	2	OA	|att..sn.1|
-4	fundera	|fundera|	VB	_	VB.INF.AKT	3	IF	|fundera..vb.1|
-5	på	|på|	PP	_	PP	4	OA	|på..pp.1|
-6	namn	|namn|	NN	_	NN.NEU.SIN.IND.NOM	5	PA	|namn..nn.1|
-7	!	|	MAD	_	MAD	2	IU	|
+Så roligt att fundera på namn !
 
 # age = 21
 # agebin = 20--29
@@ -4852,15 +2136,7 @@
 # thread_title = Nu börjar jag välja namn......
 # post_id = 39550018
 # post_date = 2008-12-21 21:12:08
-# username = Fru E
-# sent_id = 8588ccc0
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	tycker	|tycka|	VB	_	VB.PRS.AKT	0	ROOT	|tycka..vb.1|
-3	att	|att|	SN	_	SN	2	OO	|att..sn.1|
-4	Agnes	|Agnes|	PM	_	PM.NOM	5	SS	|Agnes..pm.1|
-5	är	|vara|	VB	_	VB.PRS.AKT	3	UA	|vara..vb.1|
-6	finast	|fin|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.IND.NOM	5	SP	|fin..av.1|
-7	!	|	MAD	_	MAD	2	IU	|
+Jag tycker att Agnes är finast !
 
 # age = 22
 # agebin = 20--29
@@ -4870,10 +2146,7 @@
 # thread_title = Vi är nu mamma och pappa!!
 # post_id = 42152820
 # post_date = 2009-03-08 20:11:06
-# username = Fru E
-# sent_id = 85823d54
-1	Underbart	|underbar|	AB	_	AB.POS	0	ROOT	|underbar..av.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Underbart !
 
 # age = 22
 # agebin = 20--29
@@ -4883,27 +2156,7 @@
 # thread_title = Vi är nu mamma och pappa!!
 # post_id = 42152820
 # post_date = 2009-03-08 20:11:06
-# username = Fru E
-# sent_id = 858a2417
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	minns	|minna|minnas|	VB	_	VB.PRS.SFO	7	MS	|minna..vb.1|minnas..vb.1|
-3	dig	|du|	PN	_	PN.UTR.SIN.DEF.OBJ	2	OO	|du..pn.1|
-4	från	|från|	PP	_	PP	2	RA	|från..pp.1|
-5	diverse	|diverse|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	6	DT	|diverse..av.1|
-6	ivf-trådar	|	NN	_	NN.UTR.PLU.IND.NOM	4	PA	|
-7	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-8	tycker	|tycka|	VB	_	VB.PRS.AKT	7	+F	|tycka..vb.1|
-9	att	|att|	SN	_	SN	8	OO	|att..sn.1|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	11	FS	|den..pn.1|
-11	är	|vara|	VB	_	VB.PRS.AKT	9	UA	|vara..vb.1|
-12	superkul	|superkul|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	11	SP	|superkul..av.1|
-13	att	|att|	SN	_	SN	11	ES	|att..sn.1|
-14	ni	|ni|	PN	_	PN.UTR.SIN.DEF.SUB	16	SS	|ni..pn.1|
-15	äntligen	|äntligen|	AB	_	AB	16	AA	|äntligen..ab.1|
-16	har	|ha|	VB	_	VB.PRS.AKT	13	UA	|ha..vb.1|
-17	blivit	|bli|	VB	_	VB.SUP.AKT	16	VG	|bli..vb.1|
-18	föräldrar	|förälder|	NN	_	NN.UTR.PLU.IND.NOM	17	SP	|förälder..nn.1|
-19	!	|	MAD	_	MAD	7	IU	|
+Jag minns dig från diverse ivf-trådar och tycker att det är superkul att ni äntligen har blivit föräldrar !
 
 # age = 22
 # agebin = 20--29
@@ -4913,21 +2166,7 @@
 # thread_title = Vi är nu mamma och pappa!!
 # post_id = 42152820
 # post_date = 2009-03-08 20:11:06
-# username = Fru E
-# sent_id = 858b0dbc
-1	Även	|även|	AB	_	AB	2	+A	|även..ab.1|
-2	kul	|kul|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	0	ROOT	|kul..av.1|
-3	att	|att|	IE	_	IE	2	OA	|att..sn.1|
-4	höra	|höra|	VB	_	VB.INF.AKT	3	IF	|höra..vb.1|
-5	att	|att|	SN	_	SN	4	OO	|att..sn.1|
-6	något	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	8	SS	|någon..pn.1|
-7	någongång	|någongång|	AB	_	AB	8	TA	|någongång..ab.1|
-8	går	|gå|	VB	_	VB.PRS.AKT	5	UA	|gå..vb.1|
-9	liiite	|	AB	_	AB	10	AA	|
-10	fortare	|fort|	AB	_	AB.KOM	8	AA	|fort..ab.1|
-11	än	|	KN	_	KN	8	KA	|
-12	förväntat	|förvänta|förväntad|	PC	_	PC.PRF.NEU.SIN.IND.NOM	11	UA	|förvänta..vb.1|förväntad..av.1|
-13	!	|	MAD	_	MAD	2	IU	|
+Även kul att höra att något någongång går liiite fortare än förväntat !
 
 # age = 22
 # agebin = 20--29
@@ -4937,13 +2176,7 @@
 # thread_title = Vi är nu mamma och pappa!!
 # post_id = 42152820
 # post_date = 2009-03-08 20:11:06
-# username = Fru E
-# sent_id = 858967f7
-1	Vads	|	PM	_	PM.NOM	4	OO	|
-2	ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
-3	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|hon..pn.1|
-4	heta	|heta|	VB	_	VB.INF.AKT	2	VG	|heta..vb.1|
-5	?	|	MAD	_	MAD	2	I?	|
+Vads ska hon heta ?
 
 # age = 22
 # agebin = 20--29
@@ -4953,11 +2186,7 @@
 # thread_title = Vi är nu mamma och pappa!!
 # post_id = 42152820
 # post_date = 2009-03-08 20:11:06
-# username = Fru E
-# sent_id = 858b5d6d
-1	/	|	MID	_	MID	2	DT	|
-2	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	3	DT	|fru..nn.1|
-3	E	|e|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|e..nn.1|e..nna.1|
+/ Fru E
 
 # age = 22
 # agebin = 20--29
@@ -4967,20 +2196,7 @@
 # thread_title = Hade ni gift er ändå?
 # post_id = 42152943
 # post_date = 2009-03-08 20:14:29
-# username = Fru E
-# sent_id = 85840082
-1	ja	|ja|	IN	_	IN	0	ROOT	|ja..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	4	SS	|vi..pn.1|
-4	gifte	|gifta sig|	VB	_	VB.PRT.AKT	1	MS	|gifta_sig..vbm.1|
-5	oss	|vi|gifta sig:4|	PN	_	PN.UTR.PLU.DEF.OBJ	4	OO	|vi..pn.1|gifta_sig..vbm.1:4|
-6	innan	|innan|	SN	_	SN	4	TA	|innan..sn.1|
-7	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	8	SS	|vi..pn.1|
-8	började	|börja|	VB	_	VB.PRT.AKT	6	UA	|börja..vb.1|börja..vb.2|
-9	planera	|planera|	VB	_	VB.INF.AKT	8	OO	|planera..vb.1|
-10	för	|för|	AB	_	AB	11	AA	|för..ab.1|
-11	smått	|smått|	AB	_	AB	9	AA	|smått..av.1|
-12	...	|	MAD	_	MAD	1	IG	|
+ja , vi gifte oss innan vi började planera för smått ...
 
 # age = 20
 # agebin = 20--29
@@ -4990,10 +2206,7 @@
 # thread_title = Liten "provfilm"
 # post_id = 21867304
 # post_date = 2007-06-16 23:12:24
-# username = Fru E
-# sent_id = a1657e4
-1	Underbart	|underbar|	AB	_	AB.POS	0	ROOT	|underbar..av.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Underbart !
 
 # age = 19
 # agebin = <20
@@ -5003,14 +2216,7 @@
 # thread_title = Nu har vi skickat efter första papperna från kommunen!
 # post_id = 8586661
 # post_date = 2006-04-10 17:57:42
-# username = Fru E
-# sent_id = 84c5a4b4
-1	Härligt	|härlig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	0	ROOT	|härlig..av.1|
-2	att	|att|	IE	_	IE	1	OA	|att..sn.1|
-3	vara	|vara|	VB	_	VB.INF.AKT	2	IF	|vara..vb.1|vara..vb.2|
-4	på	|på|på väg|	PP	_	PP	3	RA	|på..pp.1|på_väg..avm.1|
-5	väg	|väg|på väg:4|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|väg..nn.1|på_väg..avm.1:4|
-6	!	|	MAD	_	MAD	1	IU	|
+Härligt att vara på väg !
 
 # age = 19
 # agebin = <20
@@ -5020,16 +2226,7 @@
 # thread_title = Nu har vi skickat efter första papperna från kommunen!
 # post_id = 8586661
 # post_date = 2006-04-10 17:57:42
-# username = Fru E
-# sent_id = 84cb4c67
-1	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-2	att	|att|	SN	_	SN	1	OO	|att..sn.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|den..pn.1|
-4	ordnar	|ordna|	VB	_	VB.PRS.AKT	2	UA	|ordna..vb.1|
-5	sig	|sig|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	4	OO	|sig..pn.1|
-6	för	|för|	PP	_	PP	4	OA	|för..pp.1|
-7	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	6	PA	|ni..pn.1|
-8	!	|	MAD	_	MAD	1	IU	|
+Hoppas att det ordnar sig för er !
 
 # age = 19
 # agebin = <20
@@ -5039,13 +2236,7 @@
 # thread_title = Nu har vi skickat efter första papperna från kommunen!
 # post_id = 8586661
 # post_date = 2006-04-10 17:57:42
-# username = Fru E
-# sent_id = 84c3c7f1
-1	Ta	|ta|ta hand|	VB	_	VB.IMP.AKT	0	ROOT	|ta..vb.1|ta_hand..vbm.1|
-2	hand	|hand|ta hand:1|	NN	_	NN.UTR.SIN.IND.NOM	1	PL	|hand..nn.1|ta_hand..vbm.1:1|
-3	om	|om|	PP	_	PP	1	OA	|om..pp.1|
-4	varandra	|varandra|	PN	_	PN.UTR+NEU.PLU.DEF.OBJ	3	PA	|varandra..pn.1|
-5	!	|	MAD	_	MAD	1	IU	|
+Ta hand om varandra !
 
 # age = 19
 # agebin = <20
@@ -5055,10 +2246,7 @@
 # thread_title = Nu har vi skickat efter första papperna från kommunen!
 # post_id = 8586661
 # post_date = 2006-04-10 17:57:42
-# username = Fru E
-# sent_id = 84cb551f
-1	Fru	|fru|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|fru..nn.1|
-2	E	|E|	PM	_	PM.NOM	1	SP	|E..pma.1|
+Fru E
 
 # age = 22
 # agebin = 20--29
@@ -5068,24 +2256,7 @@
 # thread_title = Vilken förmedling
 # post_id = 41592929
 # post_date = 2009-02-18 20:09:45
-# username = Fru E
-# sent_id = 84c365f8
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-3	knappast	|knapp|knappast|	AB	_	AB.SUV	2	NA	|knapp..av.1|knappast..ab.1|
-4	bli	|bli|	VB	_	VB.INF.AKT	2	VG	|bli..vb.1|
-5	bättre	|bra|god|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	SP	|bra..av.1|god..av.1|
-6	än	|	KN	_	KN	4	KA	|
-7	BV	|	PM	_	PM.NOM	6	UA	|
-8	när	|när|	HA	_	HA	4	OA	|när..ab.1|
-9	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	HD	|den..pn.1|
-10	gäller	|gälla|	VB	_	VB.PRS.AKT	8	HD	|gälla..vb.1|gälla..vb.2|
-11	service	|service|	NN	_	NN.UTR.SIN.IND.NOM	14	CJ	|service..nn.1|
-12	,	|	MID	_	MID	14	IK	|
-13	peronlighet	|	NN	_	NN.UTR.SIN.IND.NOM	14	CJ	|
-14	och	|och|	KN	_	KN	8	PA	|och..kn.1|
-15	bemötande	|bemötande|	NN	_	NN.NEU.SIN.IND.NOM	14	CJ	|bemötande..nn.1|
-16	.	|	MAD	_	MAD	2	IP	|
+Det kan knappast bli bättre än BV när det gäller service , peronlighet och bemötande .
 
 # age = 22
 # agebin = 20--29
@@ -5095,26 +2266,7 @@
 # thread_title = Vilken förmedling
 # post_id = 41592929
 # post_date = 2009-02-18 20:09:45
-# username = Fru E
-# sent_id = 84cbfb61
-1	Sedan	|sedan|	AB	_	AB	2	TA	|sedan..ab.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	11	MS	|vara..vb.1|
-3	ju	|ju|ju ju|	AB	_	AB	2	MA	|ju..ab.1|ju_ju..knm.1|
-4	urvalet	|urval|	NN	_	NN.NEU.SIN.DEF.NOM	2	SS	|urval..nn.1|
-5	av	|av|	PP	_	PP	4	ET	|av..pp.1|
-6	länder	|land|	NN	_	NN.NEU.PLU.IND.NOM	5	PA	|land..nn.1|
-7	inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-8	så	|så|	AB	_	AB	9	AA	|så..ab.1|
-9	stort	|stor|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	2	SP	|stor..av.1|
-10	,	|	MID	_	MID	11	IK	|
-11	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
-13	är	|vara|	VB	_	VB.PRS.AKT	11	MS	|vara..vb.1|
-14	ju	|ju|ju ju:3|	AB	_	AB	13	MA	|ju..ab.1|ju_ju..knm.1:3|
-15	en	|en|en annan|	DT	_	DT.UTR.SIN.IND	17	DT	|en..al.1|en_annan..pnm.1|
-16	annan	|annan|en annan:15|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	17	DT	|annan..pn.1|en_annan..pnm.1:15|
-17	sak	|sak|	NN	_	NN.UTR.SIN.IND.NOM	13	SP	|sak..nn.1|
-18	...	|	MAD	_	MAD	13	IG	|
+Sedan är ju urvalet av länder inte så stort , men det är ju en annan sak ...
 
 # age = 19
 # agebin = <20
@@ -5124,13 +2276,7 @@
 # thread_title = Det gick bra!
 # post_id = 9066158
 # post_date = 2006-05-02 14:23:07
-# username = Fru E
-# sent_id = 84c2e335
-1	Vad	|vad|	HP	_	HP.NEU.SIN.IND	2	SS	|vad..pn.1|
-2	skönt	|skön|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	0	ROOT	|skön..av.1|
-3	att	|att|	IE	_	IE	2	OA	|att..sn.1|
-4	höra	|höra|	VB	_	VB.INF.AKT	3	IF	|höra..vb.1|
-5	!	|	MAD	_	MAD	2	IU	|
+Vad skönt att höra !
 
 # age = 19
 # agebin = <20
@@ -5140,25 +2286,7 @@
 # thread_title = Det gick bra!
 # post_id = 9066158
 # post_date = 2006-05-02 14:23:07
-# username = Fru E
-# sent_id = 84c3f489
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	hört	|höra|	VB	_	VB.SUP.AKT	2	VG	|höra..vb.1|
-4	så	|så|	AB	_	AB	5	AA	|så..ab.1|
-5	mycket	|mycket|	AB	_	AB.POS	6	AA	|mycket..ab.1|
-6	negativt	|negativ|	AB	_	AB.POS	3	AA	|negativ..av.1|
-7	om	|om|	PP	_	PP	3	OA	|om..pp.1|
-8	hemutrednignar	|hemutrednignar|	NN	_	NN.UTR.PLU.IND.NOM	7	PA	|
-9	...	|	MID	_	MID	3	IG	|
-10	Hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	3	AN	|hoppa..vb.1|hoppas..vb.1|
-11	att	|att|	SN	_	SN	10	OO	|att..sn.1|
-12	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	SS	|den..pn.1|
-13	går	|gå|gå bra|	VB	_	VB.PRS.AKT	11	UA	|gå..vb.1|gå_bra..vbm.1|
-14	bra	|bra|gå bra:13|	AB	_	AB.POS	13	AA	|bra..ab.1|bra..ab.2|bra..av.1|gå_bra..vbm.1:13|
-15	för	|för|	PP	_	PP	13	OA	|för..pp.1|
-16	er	|ni|	PN	_	PN.UTR.PLU.DEF.OBJ	15	PA	|ni..pn.1|
-17	!	|	MAD	_	MAD	10	IU	|
+Jag har hört så mycket negativt om hemutrednignar ... Hoppas att det går bra för er !
 
 # age = 19
 # agebin = <20
@@ -5168,12 +2296,7 @@
 # thread_title = Hej från en ny blivande adoptivmamma!
 # post_id = 8232915
 # post_date = 2006-03-26 20:43:22
-# username = Fru E
-# sent_id = 6503d7a0
-1	Önskar	|önska|	VB	_	VB.PRS.AKT	0	ROOT	|önska..vb.1|
-2	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-3	till	|till|lycka till:2|	PP	_	PP	1	OA	|till..pp.1|lycka_till..inm.1:2|
-4	!	|	MAD	_	MAD	3	PA	|
+Önskar Lycka till !
 
 # age = 19
 # agebin = <20
@@ -5183,12 +2306,7 @@
 # thread_title = Hej från en ny blivande adoptivmamma!
 # post_id = 8232920
 # post_date = 2006-03-26 20:43:26
-# username = Fru E
-# sent_id = 650e625e
-1	Önskar	|önska|	VB	_	VB.PRS.AKT	0	ROOT	|önska..vb.1|
-2	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-3	till	|till|lycka till:2|	PP	_	PP	1	OA	|till..pp.1|lycka_till..inm.1:2|
-4	!	|	MAD	_	MAD	3	PA	|
+Önskar Lycka till !
 
 # age = 18
 # agebin = <20
@@ -5198,13 +2316,7 @@
 # thread_title = Vi har fått medgivande!
 # post_id = 2736372
 # post_date = 2005-04-15 18:13:06
-# username = Fru E
-# sent_id = ced97e2e
-1	oh	|oh|	IN	_	IN	0	ROOT	|oh..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	vad	|vad|	HP	_	HP.NEU.SIN.IND	1	AN	|vad..pn.1|
-4	spännande	|spännande|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	1	MS	|spännande..av.1|
-5	!	|	MAD	_	MAD	1	IU	|
+oh , vad spännande !
 
 # age = 18
 # agebin = <20
@@ -5214,10 +2326,7 @@
 # thread_title = Vi har fått medgivande!
 # post_id = 2736372
 # post_date = 2005-04-15 18:13:06
-# username = Fru E
-# sent_id = cedf87ab
-1	Grattis	|grattis|	IN	_	IN	0	ROOT	|grattis..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Grattis !
 
 # age = 16
 # agebin = <20
@@ -5227,22 +2336,7 @@
 # thread_title = Njursjuk
 # post_id = 44957
 # post_date = 2003-10-22 20:25:22
-# username = Fru E
-# sent_id = 19ce8c3c
-1	Om	|om|	SN	_	SN	9	AA	|om..sn.1|
-2	läkaren	|läkare|	NN	_	NN.UTR.SIN.DEF.NOM	3	SS	|läkare..nn.1|
-3	säger	|säga|	VB	_	VB.PRS.AKT	1	UA	|säga..vb.1|
-4	att	|att|	SN	_	SN	3	OO	|att..sn.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	SS	|den..pn.1|
-6	är	|vara|	VB	_	VB.PRS.AKT	4	UA	|vara..vb.1|
-7	okej	|okej|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	6	SP	|okej..av.1|
-8	så	|så|	AB	_	AB	9	DB	|så..ab.1|
-9	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-10	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	9	SS	|den..pn.1|
-11	väl	|väl|	AB	_	AB	9	MA	|väl..ab.1|väl_2..ab.1|
-12	fritt	|fri|fritt fram|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	13	AA	|fri..av.1|fritt_fram..avm.1|
-13	fram	|fram|fritt fram:12|	AB	_	AB	9	RA	|fram..ab.1|fritt_fram..avm.1:12|
-14	?	|	MAD	_	MAD	9	I?	|
+Om läkaren säger att det är okej så är det väl fritt fram ?
 
 # age = 16
 # agebin = <20
@@ -5252,26 +2346,7 @@
 # thread_title = Njursjuk
 # post_id = 44957
 # post_date = 2003-10-22 20:25:22
-# username = Fru E
-# sent_id = 19cbbee8
-1	Inte	|inte|	AB	_	AB	2	NA	|inte..ab.1|
-2	för	|för|	PP	_	PP	9	MS	|för..pp.1|
-3	att	|att|	SN	_	SN	2	PA	|att..sn.1|
-4	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|jag..pn.1|
-5	har	|ha|	VB	_	VB.PRS.AKT	3	UA	|ha..vb.1|
-6	någon	|någon|	DT	_	DT.UTR.SIN.IND	7	DT	|någon..pn.1|
-7	erfarenhet	|erfarenhet|	NN	_	NN.UTR.SIN.IND.NOM	5	OO	|erfarenhet..nn.1|
-8	,	|	MID	_	MID	9	IK	|
-9	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-10	den	|den|en|	DT	_	DT.UTR.SIN.DEF	11	DT	|den..pn.1|en..al.1|
-11	sjukdomen	|sjukdom|	NN	_	NN.UTR.SIN.DEF.NOM	12	SS	|sjukdom..nn.1|
-12	borde	|böra|	VB	_	VB.PRT.AKT	9	MS	|böra..vb.1|
-13	väl	|väl|	AB	_	AB	12	MA	|väl..ab.1|väl_2..ab.1|
-14	inte	|inte|	AB	_	AB	12	NA	|inte..ab.1|
-15	hindra	|hindra|	VB	_	VB.INF.AKT	12	VG	|hindra..vb.1|
-16	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	15	OO	|adoption..nn.1|
-17	?	|	MAD	_	MAD	9	I?	|
-18	?	|	MAD	_	MAD	9	I?	|
+Inte för att jag har någon erfarenhet , men den sjukdomen borde väl inte hindra adoption ? ?
 
 # age = 16
 # agebin = <20
@@ -5281,14 +2356,7 @@
 # thread_title = Njursjuk
 # post_id = 44957
 # post_date = 2003-10-22 20:25:22
-# username = Fru E
-# sent_id = 19c758fa
-1	Lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-2	till	|till|lycka till:1|	PP	_	PP	1	ET	|till..pp.1|lycka_till..inm.1:1|
-3	hur	|hur|hur som helst|	HA	_	HA	2	AA	|hur..ab.1|hur_som_helst..abm.1|
-4	som	|hur som helst:3|	KN	_	KN	3	HD	|hur_som_helst..abm.1:3|
-5	helst	|gärna|hur som helst:3|	AB	_	AB.SUV	3	HD	|gärna..ab.1|hur_som_helst..abm.1:3|
-6	!	|	MAD	_	MAD	1	IU	|
+Lycka till hur som helst !
 
 # age = 18
 # agebin = <20
@@ -5298,15 +2366,7 @@
 # thread_title = Resebesked!!!!
 # post_id = 2663265
 # post_date = 2005-04-09 16:34:00
-# username = Fru E
-# sent_id = 19c48c49
-1	åh	|åh|	IN	_	IN	0	ROOT	|åh..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	så	|så|	AB	_	AB	1	AA	|så..ab.1|
-4	härligt	|härlig|	AB	_	AB.POS	3	HD	|härlig..av.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	SS	|den..pn.1|
-6	låter	|låta|	VB	_	VB.PRS.AKT	3	UA	|låta..vb.1|
-7	!	|	MAD	_	MAD	6	IU	|
+åh , så härligt det låter !
 
 # age = 18
 # agebin = <20
@@ -5316,17 +2376,7 @@
 # thread_title = Resebesked!!!!
 # post_id = 2686747
 # post_date = 2005-04-11 20:43:44
-# username = Fru E
-# sent_id = 19cdbda3
-1	förmodligen	|förmodligen|	AB	_	AB	2	MA	|förmodligen..ab.1|
-2	har	|ha|ha rätt|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|ha_rätt..vbm.1|
-3	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	2	SS	|de..pn.1|
-4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	OO	|den..pn.1|
-5	rätt	|rätt|ha rätt:2|	AB	_	AB	6	AA	|rätt..ab.1|rätt..av.1|ha_rätt..vbm.1:2|
-6	så	|så|	AB	_	AB	7	AA	|så..ab.1|
-7	mysigt	|mysig|	AB	_	AB.POS	2	AA	|mysig..av.1|
-8	nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
-9	!	|	MAD	_	MAD	2	IU	|
+förmodligen har de det rätt så mysigt nu !
 
 # age = 18
 # agebin = <20
@@ -5336,14 +2386,7 @@
 # thread_title = Resebesked!!!!
 # post_id = 2686747
 # post_date = 2005-04-11 20:43:44
-# username = Fru E
-# sent_id = 19cef54c
-1	När	|när|	HA	_	HA	2	TA	|när..ab.1|
-2	kommer	|komma|komma hem|komma igen|	VB	_	VB.PRS.AKT	0	ROOT	|komma..vb.1|komma_hem..vbm.1|komma_igen..vbm.1|
-3	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	2	SS	|de..pn.1|
-4	hem	|hem|komma hem:2|	PL	_	PL	2	PL	|hem..ab.1|komma_hem..vbm.1:2|
-5	igen	|igen|komma igen:2|	AB	_	AB	2	AA	|igen..ab.1|igen..ab.2|komma_igen..vbm.1:2|
-6	?	|	MAD	_	MAD	2	I?	|
+När kommer dom hem igen ?
 
 # age = 17
 # agebin = <20
@@ -5353,14 +2396,7 @@
 # thread_title = Snart är vi tillsammans!
 # post_id = 1727029
 # post_date = 2004-12-26 10:21:33
-# username = Fru E
-# sent_id = a7c185d
-1	nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	nära	|nära|	AB	_	AB.POS	2	AA	|nära..ab.1|nära..av.1|
-5	!	|	MAD	_	MAD	2	IU	|
-6	!	|	MAD	_	MAD	2	IU	|
+nu är det nära ! !
 
 # age = 17
 # agebin = <20
@@ -5370,10 +2406,7 @@
 # thread_title = Snart är vi tillsammans!
 # post_id = 1727029
 # post_date = 2004-12-26 10:21:33
-# username = Fru E
-# sent_id = a7c44f7
-1	Grattis	|grattis|	IN	_	IN	0	ROOT	|grattis..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Grattis !
 
 # age = 18
 # agebin = <20
@@ -5383,15 +2416,7 @@
 # thread_title = Äntligen hemma!!
 # post_id = 2796269
 # post_date = 2005-04-21 17:29:49
-# username = Fru E
-# sent_id = 8a671de
-1	Åh	|åh|	IN	_	IN	0	ROOT	|åh..in.1|
-2	,	|	MID	_	MID	1	IK	|
-3	vad	|vad|	HP	_	HP.NEU.SIN.IND	6	SP	|vad..pn.1|
-4	tagen	|ta|tagen|	PC	_	PC.PRF.UTR.SIN.IND.NOM	6	SP	|ta..vb.1|tagen..av.1|
-5	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	6	SS	|man..pn.1|
-6	blir	|bli|	VB	_	VB.PRS.AKT	1	MS	|bli..vb.1|
-7	!	|	MAD	_	MAD	1	IU	|
+Åh , vad tagen man blir !
 
 # age = 18
 # agebin = <20
@@ -5401,8 +2426,5 @@
 # thread_title = Äntligen hemma!!
 # post_id = 2796269
 # post_date = 2005-04-21 17:29:49
-# username = Fru E
-# sent_id = 8a67268
-1	Grattis	|grattis|	IN	_	IN	0	ROOT	|grattis..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Grattis !
 

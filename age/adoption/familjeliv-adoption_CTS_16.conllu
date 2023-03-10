@@ -6,20 +6,7 @@
 # thread_title = Första mötet avklarat!!
 # post_id = 1267060
 # post_date = 2004-10-22 13:38:42
-# username = CTS
-# sent_id = 8651c17
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	också	|också|	AB	_	AB	2	+A	|också..ab.1|
-4	nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	2	SP	|nyfiken..av.1|
-5	på	|på|	PP	_	PP	2	OA	|på..pp.1|
-6	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	8	DT	|en..al.1|
-7	9	|	RG	_	RG.NOM	8	DT	|
-8	punkterna	|punkt|	NN	_	NN.UTR.PLU.DEF.NOM	5	PA	|punkt..nn.1|
-9	,	|	MID	_	MID	2	IK	|
-10	berätta	|berätta|	VB	_	VB.IMP.AKT	2	MS	|berätta..vb.1|
-11	gärna	|gärna|	AB	_	AB.POS	10	MA	|gärna..ab.1|
-12	!	|	MAD	_	MAD	10	IU	|
+Jag är också nyfiken på de 9 punkterna , berätta gärna !
 
 # age = 16
 # agebin = <20
@@ -29,16 +16,7 @@
 # thread_title = Första mötet avklarat!!
 # post_id = 1267060
 # post_date = 2004-10-22 13:38:42
-# username = CTS
-# sent_id = 865cbe3
-1	Vad	|vad|	HP	_	HP.NEU.SIN.IND	2	AA	|vad..pn.1|
-2	kul	|kul|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	0	ROOT	|kul..av.1|
-3	att	|att|	SN	_	SN	2	KA	|att..sn.1|
-4	Ni	|Ni|ni|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|Ni..pn.1|ni..pn.1|
-5	har	|ha|	VB	_	VB.PRS.AKT	3	UA	|ha..vb.1|
-6	kommit	|komma|komma igång|	VB	_	VB.SUP.AKT	5	VG	|komma..vb.1|komma_igång..vbm.1|
-7	igång	|igång|komma igång:6|	PL	_	PL	6	PL	|igång..ab.1|komma_igång..vbm.1:6|
-8	!	|	MAD	_	MAD	2	IU	|
+Vad kul att Ni har kommit igång !
 
 # age = 16
 # agebin = <20
@@ -48,16 +26,7 @@
 # thread_title = Första mötet avklarat!!
 # post_id = 1287960
 # post_date = 2004-10-25 15:42:40
-# username = CTS
-# sent_id = 865865c
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	mycket	|mycken|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	2	XX	|mycken..pn.1|
-4	Ni	|Ni|ni|	PN	_	PN.UTR.SIN.DEF.SUB	5	SS	|Ni..pn.1|ni..pn.1|
-5	ska	|skola|	VB	_	VB.PRS.AKT	3	EF	|skola..vb.2|
-6	gå	|gå|gå igenom|	VB	_	VB.INF.AKT	5	VG	|gå..vb.1|gå_igenom..vbm.1|gå_igenom..vbm.2|
-7	igenom	|gå igenom:6|	PL	_	PL	6	PL	|gå_igenom..vbm.1:6|gå_igenom..vbm.2:6|
-8	.	|	MAD	_	MAD	2	IP	|
+Det är mycket Ni ska gå igenom .
 
 # age = 16
 # agebin = <20
@@ -67,12 +36,7 @@
 # thread_title = Första mötet avklarat!!
 # post_id = 1287960
 # post_date = 2004-10-25 15:42:40
-# username = CTS
-# sent_id = 865b9af
-1	Är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-2	Ni	|Ni|ni|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|Ni..pn.1|ni..pn.1|
-3	nervösa	|nervös|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	1	SP	|nervös..av.1|nervös..av.2|
-4	?	|	MAD	_	MAD	1	I?	|
+Är Ni nervösa ?
 
 # age = 16
 # agebin = <20
@@ -82,13 +46,7 @@
 # thread_title = Första mötet avklarat!!
 # post_id = 1287960
 # post_date = 2004-10-25 15:42:40
-# username = CTS
-# sent_id = 8651c0b
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SP	|den..pn.1|
-2	skulle	|skola|	VB	_	VB.PRT.AKT	0	ROOT	|skola..vb.2|
-3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-4	vara	|vara|	VB	_	VB.INF.AKT	2	VG	|vara..vb.1|vara..vb.2|
-5	.	|	MAD	_	MAD	2	IP	|
+Det skulle jag vara .
 
 # age = 16
 # agebin = <20
@@ -98,19 +56,7 @@
 # thread_title = Första mötet avklarat!!
 # post_id = 1287960
 # post_date = 2004-10-25 15:42:40
-# username = CTS
-# sent_id = 865d1a0
-1	Lycka	|lycka|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|lycka..nn.1|lycka..nn.2|
-2	,	|	MID	_	MID	6	SS	|
-3	lycka	|lycka|lycka till|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|lycka..nn.1|lycka..nn.2|lycka_till..inm.1|
-4	till	|till|lycka till:3|	PP	_	PP	2	CJ	|till..pp.1|lycka_till..inm.1:3|
-5	&	|&|	KN	_	KN.AN	4	PA	|o..kna.2|
-6	hoppas	|hoppa|hoppas|	VB	_	VB.PRS.SFO	0	ROOT	|hoppa..vb.1|hoppas..vb.1|
-7	att	|att|	SN	_	SN	6	OO	|att..sn.1|
-8	tiden	|tid|	NN	_	NN.UTR.SIN.DEF.NOM	9	SS	|tid..nn.1|
-9	går	|gå|	VB	_	VB.PRS.AKT	7	UA	|gå..vb.1|
-10	fort	|fort|	AB	_	AB.POS	9	AA	|fort..ab.1|
-11	!	|	MAD	_	MAD	6	IU	|
+Lycka , lycka till & hoppas att tiden går fort !
 
 # age = 16
 # agebin = <20
@@ -120,11 +66,5 @@
 # thread_title = Första samtalet idag
 # post_id = 1232065
 # post_date = 2004-10-18 11:38:55
-# username = CTS
-# sent_id = e4e355b7
-1	Håller	|hålla|hålla tummarna|	VB	_	VB.PRS.AKT	0	ROOT	|hålla..vb.1|hålla_tummarna..vbm.1|
-2	tummarna	|tumme|hålla tummarna:1|	NN	_	NN.UTR.PLU.DEF.NOM	1	SS	|tumme..nn.1|hålla_tummarna..vbm.1:1|
-3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	1	OO	|jag..pn.1|
-4	med	|med|	PP	_	PP	1	OA	|med..pp.1|
-5	!	|	MAD	_	MAD	4	PA	|
+Håller tummarna jag med !
 

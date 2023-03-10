@@ -6,15 +6,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79fd19e4
-1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-2	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
-3	läst	|läsa|	VB	_	VB.SUP.AKT	1	VG	|läsa..vb.1|
-4	hela	|hel|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	5	DT	|hel..av.1|
-5	tråden	|tråd|	NN	_	NN.UTR.SIN.DEF.NOM	3	OO	|tråd..nn.1|
-6	nu	|nu|	AB	_	AB	3	TA	|nu..ab.1|
-7	...	|	MAD	_	MAD	3	IG	|
+Har inte läst hela tråden nu ...
 
 # age = 16
 # agebin = <20
@@ -24,24 +16,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79f25f53
-1	Att	|att|	IE	_	IE	10	SS	|att..sn.1|
-2	hjälpa	|hjälpa|	VB	_	VB.INF.AKT	1	IF	|hjälpa..vb.1|
-3	ett	|en|	DT	_	DT.NEU.SIN.IND	9	DT	|en..al.1|
-4	föräldralöst	|föräldralös|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	6	CJ	|föräldralös..av.1|
-5	(	|	PAD	_	PAD	6	IR	|
-6	eller	|eller|	KN	_	KN	9	AT	|eller..kn.1|
-7	övergivet	|överge|övergiven|	PC	_	PC.PRF.NEU.SIN.IND.NOM	6	CJ	|överge..vb.1|övergiven..av.1|
-8	)	|	PAD	_	PAD	7	JR	|
-9	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	2	OO	|barn..nn.1|
-10	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-11	väl	|väl|	AB	_	AB	10	MA	|väl..ab.1|väl_2..ab.1|
-12	aldrig	|aldrig|	AB	_	AB	10	TA	|aldrig..ab.1|
-13	vara	|vara|	VB	_	VB.INF.AKT	10	VG	|vara..vb.1|vara..vb.2|
-14	fel	|fel|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	13	SP	|fel..av.1|
-15	?	|	MAD	_	MAD	10	I?	|
-16	!	|	MAD	_	MAD	10	IU	|
+Att hjälpa ett föräldralöst ( eller övergivet ) barn kan väl aldrig vara fel ? !
 
 # age = 16
 # agebin = <20
@@ -51,10 +26,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79f7b283
-1	Eller	|eller|	KN	_	KN	0	ROOT	|eller..kn.1|
-2	?	|	MAD	_	MAD	1	I?	|
+Eller ?
 
 # age = 16
 # agebin = <20
@@ -64,9 +36,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79f6d89c
-1	?	|	MAD	_	MAD	0	ROOT	|
+?
 
 # age = 16
 # agebin = <20
@@ -76,68 +46,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79f7f34b
-1	Att	|att|	SN	_	SN	9	SS	|att..sn.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	4	SS	|man..pn.1|
-3	först	|först|	AB	_	AB	4	TA	|först..ab.1|
-4	försökt	|försöka|	VB	_	VB.SUP.AKT	1	UA	|försöka..vb.1|
-5	få	|få|	VB	_	VB.INF.AKT	4	OO	|få..vb.1|
-6	ett	|en|	DT	_	DT.NEU.SIN.IND	8	DT	|en..al.1|
-7	eget	|egen|	JJ	_	JJ.POS.NEU.SIN.IND+DEF.NOM	8	DT	|egen..av.1|
-8	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	5	OO	|barn..nn.1|
-9	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-10	väl	|väl|	AB	_	AB	9	MA	|väl..ab.1|väl_2..ab.1|
-11	inget	|ingen|	DT	_	DT.NEU.SIN.IND	12	DT	|ingen..pn.1|
-12	negativt	|negativ|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	9	SP	|negativ..av.1|
-13	,	|	MID	_	MID	9	IK	|
-14	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	15	SS	|den..pn.1|
-15	visar	|visa|	VB	_	VB.PRS.AKT	9	MS	|visa..vb.1|
-16	att	|att|	SN	_	SN	15	OO	|att..sn.1|
-17	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	19	SS	|man..pn.1|
-18	gärna	|gärna|	AB	_	AB.POS	19	MA	|gärna..ab.1|
-19	välkomnar	|välkomna|	VB	_	VB.PRS.AKT	16	UA	|välkomna..vb.1|
-20	ett	|en|	DT	_	DT.NEU.SIN.IND	21	DT	|en..al.1|
-21	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	19	OO	|barn..nn.1|
-22	i	|i|	PP	_	PP	19	RA	|i..pp.1|
-23	sitt	|sig|	PS	_	PS.NEU.SIN.DEF	24	DT	|sig..pn.1|
-24	liv	|liv|	NN	_	NN.NEU.SIN.IND.NOM	22	PA	|liv..nn.1|
-25	och	|och|	KN	_	KN	19	AA	|och..kn.1|
-26	när	|när|	HA	_	HA	29	TA	|när..ab.1|
-27	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	29	SS	|man..pn.1|
-28	väl	|väl|	AB	_	AB.POS	29	MA	|väl..ab.1|väl_2..ab.1|
-29	inser	|inse|	VB	_	VB.PRS.AKT	25	CJ	|inse..vb.1|
-30	att	|att|	SN	_	SN	29	OO	|att..sn.1|
-31	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	33	FS	|den..pn.1|
-32	inte	|inte|	AB	_	AB	33	NA	|inte..ab.1|
-33	går	|gå|	VB	_	VB.PRS.AKT	30	UA	|gå..vb.1|
-34	av	|av|	PL	_	PL	33	PL	|av..ab.1|
-35	sig	|sig|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	33	OO	|sig..pn.1|
-36	självt	|själv|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	35	PT	|själv..pn.1|
-37	eller	|eller|	KN	_	KN	30	UA	|eller..kn.1|
-38	ens	|ens|	AB	_	AB	39	CA	|ens..ab.1|
-39	med	|med|	PP	_	PP	37	+F	|med..pp.1|
-40	hjälp	|hjälp|	NN	_	NN.UTR.SIN.IND.NOM	39	HD	|hjälp..nn.1|
-41	av	|av|	PP	_	PP	39	HD	|av..pp.1|
-42	IVF	|	PM	_	PM.NOM	43	CJ	|
-43	eller	|eller|	KN	_	KN	39	PA	|eller..kn.1|
-44	annat	|annan|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	43	CJ	|annan..pn.1|
-45	så	|så|	AB	_	AB	46	DB	|så..ab.1|
-46	är	|vara|	VB	_	VB.PRS.AKT	37	MS	|vara..vb.1|
-47	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	46	FS	|den..pn.1|
-48	väl	|väl|	AB	_	AB	46	MA	|väl..ab.1|väl_2..ab.1|
-49	självklart	|självklar|	AB	_	AB.POS	46	MA	|självklar..av.1|
-50	okej	|okej|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	46	SP	|okej..av.1|
-51	att	|att|	IE	_	IE	46	ES	|att..sn.1|
-52	vilja	|vilja|	VB	_	VB.INF.AKT	51	IF	|vilja..vb.1|
-53	adoptera	|adoptera|	VB	_	VB.INF.AKT	52	VG	|adoptera..vb.1|
-54	ett	|en|	DT	_	DT.NEU.SIN.IND	55	DT	|en..al.1|
-55	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	53	OO	|barn..nn.1|
-56	från	|från|	PP	_	PP	53	RA	|från..pp.1|
-57	ett	|en|	DT	_	DT.NEU.SIN.IND	59	DT	|en..al.1|
-58	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	59	DT	|annan..pn.1|
-59	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	56	PA	|land..nn.1|land..nn.2|land..nn.3|
-60	!	|	MAD	_	MAD	46	IU	|
+Att man först försökt få ett eget barn är väl inget negativt , det visar att man gärna välkomnar ett barn i sitt liv och när man väl inser att det inte går av sig självt eller ens med hjälp av IVF eller annat så är det väl självklart okej att vilja adoptera ett barn från ett annat land !
 
 # age = 16
 # agebin = <20
@@ -147,9 +56,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79f86195
-1	!	|	MAD	_	MAD	0	ROOT	|
+!
 
 # age = 16
 # agebin = <20
@@ -159,34 +66,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79f3b220
-1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-2	kan	|kunna|	VB	_	VB.PRS.AKT	0	ROOT	|kunna..vb.1|
-3	aldrig	|aldrig|	AB	_	AB	2	TA	|aldrig..ab.1|
-4	vara	|vara|	VB	_	VB.INF.AKT	2	VG	|vara..vb.1|vara..vb.2|
-5	fel	|fel|	JJ	_	JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM	4	SP	|fel..av.1|
-6	att	|att|	IE	_	IE	4	ES	|att..sn.1|
-7	välkomna	|välkomna|	VB	_	VB.INF.AKT	6	IF	|välkomna..vb.1|
-8	ett	|en|	DT	_	DT.NEU.SIN.IND	9	DT	|en..al.1|
-9	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	7	OO	|barn..nn.1|
-10	fött	|föda|född|	PC	_	PC.PRF.NEU.SIN.IND.NOM	7	OP	|föda..vb.1|född..av.1|
-11	i	|i|	PP	_	PP	7	RA	|i..pp.1|
-12	ett	|en|	DT	_	DT.NEU.SIN.IND	14	DT	|en..al.1|
-13	annat	|annan|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	14	DT	|annan..pn.1|
-14	land	|land|	NN	_	NN.NEU.SIN.IND.NOM	11	PA	|land..nn.1|land..nn.2|land..nn.3|
-15	om	|om|	SN	_	SN	4	AA	|om..sn.1|
-16	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	17	SS	|den..pn.1|
-17	kan	|kunna|	VB	_	VB.PRS.AKT	15	UA	|kunna..vb.1|
-18	innebära	|innebära|	VB	_	VB.INF.AKT	17	VG	|innebära..vb.1|
-19	att	|att|	SN	_	SN	18	OO	|att..sn.1|
-20	han	|han|	PN	_	PN.UTR.SIN.DEF.SUB	21	CJ	|han..pn.1|
-21	/	|	MID	_	MID	23	SS	|
-22	hon	|hon|	PN	_	PN.UTR.SIN.DEF.SUB	21	CJ	|hon..pn.1|
-23	får	|få|	VB	_	VB.PRS.AKT	19	UA	|få..vb.1|
-24	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	23	OO	|den..pn.1|
-25	bättre	|bra|god|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	23	OP	|bra..av.1|god..av.1|
-26	?	|	MAD	_	MAD	2	I?	|
+Det kan aldrig vara fel att välkomna ett barn fött i ett annat land om det kan innebära att han / hon får det bättre ?
 
 # age = 16
 # agebin = <20
@@ -196,9 +76,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79f758d2
-1	!	|	MAD	_	MAD	0	ROOT	|
+!
 
 # age = 16
 # agebin = <20
@@ -208,52 +86,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727306
 # post_date = 2006-08-21 08:20:29
-# username = Sallisen
-# sent_id = 79f16eec
-1	Ett	|en|	DT	_	DT.NEU.SIN.IND	2	DT	|en..al.1|
-2	liv	|liv|	NN	_	NN.NEU.SIN.IND.NOM	15	SS	|liv..nn.1|
-3	i	|i|	PP	_	PP	2	ET	|i..pp.1|
-4	ett	|en|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|
-5	hem	|hem|	NN	_	NN.NEU.SIN.IND.NOM	3	PA	|hem..nn.1|
-6	där	|där|	HA	_	HA	8	RA	|där..ab.1|
-7	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	8	SS	|man..pn.1|
-8	får	|få|	VB	_	VB.PRS.AKT	12	MS	|få..vb.1|
-9	kärlek	|kärlek|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|kärlek..nn.1|
-10	och	|och|	KN	_	KN	8	OO	|och..kn.1|
-11	omvårdnad	|omvårdnad|	NN	_	NN.UTR.SIN.IND.NOM	10	CJ	|omvårdnad..nn.1|
-12	och	|och|	KN	_	KN	5	ET	|och..kn.1|
-13	är	|vara|	VB	_	VB.PRS.AKT	12	+F	|vara..vb.1|
-14	välkomnad	|välkomna|	PC	_	PC.PRF.UTR.SIN.IND.NOM	13	SP	|välkomna..vb.1|
-15	måste	|måste|	VB	_	VB.PRS.AKT	0	ROOT	|måste..vb.1|
-16	ju	|ju|	AB	_	AB	15	MA	|ju..ab.1|
-17	alltid	|alltid|	AB	_	AB	15	TA	|alltid..ab.1|
-18	vara	|vara|	VB	_	VB.INF.AKT	15	VG	|vara..vb.1|vara..vb.2|
-19	bättre	|bra|god|	JJ	_	JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM	18	SP	|bra..av.1|god..av.1|
-20	än	|	KN	_	KN	18	KA	|
-21	ett	|en|	DT	_	DT.NEU.SIN.IND	22	DT	|en..al.1|
-22	liv	|liv|	NN	_	NN.NEU.SIN.IND.NOM	20	UA	|liv..nn.1|
-23	på	|på|	PP	_	PP	22	ET	|på..pp.1|
-24	t.ex.	|t.ex.|	AB	_	AB.AN	25	CA	|t.ex...aba.1|
-25	barnhem	|barnhem|	NN	_	NN.NEU.SIN.IND.NOM	23	PA	|barnhem..nn.1|
-26	där	|där|	HA	_	HA	31	RA	|där..ab.1|
-27	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	31	SS	|den..pn.1|
-28	i	|i|	PP	_	PP	31	AA	|i..pp.1|
-29	många	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	30	DT	|
-30	fall	|fall|	NN	_	NN.NEU.PLU.IND.NOM	28	PA	|fall..nn.1|
-31	handlar	|handla|	VB	_	VB.PRS.AKT	35	CJ	|handla..vb.1|handla..vb.2|
-32	om	|om|	PP	_	PP	31	OA	|om..pp.1|
-33	ren	|ren|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	34	AT	|ren..av.1|
-34	förvaring	|förvaring|	NN	_	NN.UTR.SIN.IND.NOM	32	PA	|förvaring..nn.1|
-35	och	|och|	KN	_	KN	22	ET	|och..kn.1|
-36	där	|där|	HA	_	HA	40	RA	|där..ab.1|
-37	kramar	|kram|	NN	_	NN.UTR.PLU.IND.NOM	38	CJ	|kram..nn.1|
-38	och	|och|	KN	_	KN	40	SS	|och..kn.1|
-39	kärlek	|kärlek|	NN	_	NN.UTR.SIN.IND.NOM	38	CJ	|kärlek..nn.1|
-40	är	|vara|	VB	_	VB.PRS.AKT	35	CJ	|vara..vb.1|
-41	en	|en|	DT	_	DT.UTR.SIN.IND	43	DT	|en..al.1|
-42	total	|total|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	43	AT	|total..av.1|
-43	bristvara	|bristvara|	NN	_	NN.UTR.SIN.IND.NOM	40	SP	|bristvara..nn.1|
-44	.	|	MAD	_	MAD	15	IP	|
+Ett liv i ett hem där man får kärlek och omvårdnad och är välkomnad måste ju alltid vara bättre än ett liv på t.ex. barnhem där det i många fall handlar om ren förvaring och där kramar och kärlek är en total bristvara .
 
 # age = 16
 # agebin = <20
@@ -263,19 +96,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727497
 # post_date = 2006-08-21 08:30:57
-# username = Sallisen
-# sent_id = 79f2182d
-1	Men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
-2	ärligt	|ärlig|	AB	_	AB.POS	1	MS	|ärlig..av.1|
-3	-	|	MID	_	MID	2	IT	|
-4	hur	|hur|	HA	_	HA	6	AA	|hur..ab.1|
-5	många	|mången|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	6	SS	|mången..pn.1|
-6	gör	|göra|	VB	_	VB.PRS.AKT	2	OO	|göra..vb.1|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	OO	|den..pn.1|
-8	som	|	KN	_	KN	6	OP	|
-9	VÄLGÖRENHET	|välgörenhet|	NN	_	NN.UTR.SIN.IND.NOM	8	UA	|välgörenhet..nn.1|
-10	?	|	MAD	_	MAD	2	I?	|
-11	!	|	MAD	_	MAD	2	IU	|
+Men ärligt - hur många gör det som VÄLGÖRENHET ? !
 
 # age = 16
 # agebin = <20
@@ -285,17 +106,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727497
 # post_date = 2006-08-21 08:30:57
-# username = Sallisen
-# sent_id = 79f63edc
-1	Måste	|måste|	VB	_	VB.PRS.AKT	0	ROOT	|måste..vb.1|
-2	ju	|ju|	AB	_	AB	1	MA	|ju..ab.1|
-3	vara	|vara|	VB	_	VB.INF.AKT	1	VG	|vara..vb.1|vara..vb.2|
-4	ytterst	|ytterst|	AB	_	AB.SUV	5	AA	|ytterst..ab.1|
-5	få	|få|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	3	SP	|få..av.1|
-6	i	|i|i så fall|	PP	_	PP	3	AA	|i..pp.1|i_så_fall..abm.1|
-7	så	|så|i så fall:6|	AB	_	AB	6	HD	|så..ab.1|i_så_fall..abm.1:6|
-8	fall	|fall|i så fall:6|	NN	_	NN.NEU.SIN.IND.NOM	6	HD	|fall..nn.1|i_så_fall..abm.1:6|
-9	.	|	MAD	_	MAD	1	IP	|
+Måste ju vara ytterst få i så fall .
 
 # age = 16
 # agebin = <20
@@ -305,19 +116,7 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727497
 # post_date = 2006-08-21 08:30:57
-# username = Sallisen
-# sent_id = 79f11dd5
-1	Och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-2	de	|en|	DT	_	DT.UTR+NEU.PLU.DEF	3	DT	|en..al.1|
-3	få	|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	4	SS	|
-4	borde	|böra|	VB	_	VB.PRT.AKT	1	MS	|böra..vb.1|
-5	ju	|ju|	AB	_	AB	4	MA	|ju..ab.1|
-6	inte	|inte|	AB	_	AB	4	NA	|inte..ab.1|
-7	få	|få|	VB	_	VB.INF.AKT	4	VG	|få..vb.1|
-8	smutskasta	|smutskasta|	VB	_	VB.INF.AKT	7	VG	|smutskasta..vb.1|
-9	hela	|hel|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	10	DT	|hel..av.1|
-10	adoptionsgrejen	|	NN	_	NN.UTR.SIN.DEF.NOM	8	OO	|
-11	.	|	MAD	_	MAD	4	IP	|
+Och de få borde ju inte få smutskasta hela adoptionsgrejen .
 
 # age = 16
 # agebin = <20
@@ -327,49 +126,5 @@
 # thread_title = Är adoption moraliskt rätt eller fel?
 # post_id = 11727497
 # post_date = 2006-08-21 08:30:57
-# username = Sallisen
-# sent_id = 79fc4a6d
-1	De	|en|	DT	_	DT.UTR+NEU.PLU.DEF	5	DT	|en..al.1|
-2	allra	|allra|	AB	_	AB	5	AA	|allra..ab.1|
-3	,	|	MID	_	MID	5	IK	|
-4	allra	|allra|	AB	_	AB	5	AA	|allra..ab.1|
-5	flesta	|mången|	JJ	_	JJ.SUV.UTR+NEU.PLU.DEF.NOM	8	SS	|mången..pn.1|
-6	-	|	MID	_	MID	8	IT	|
-7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	8	DB	|den..pn.1|
-8	är	|vara|	VB	_	VB.PRS.AKT	13	MS	|vara..vb.1|
-9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
-10	övertygad	|övertyga|övertygad|	PC	_	PC.PRF.UTR.SIN.IND.NOM	8	SP	|övertyga..vb.1|övertygad..av.1|
-11	om	|om|	PP	_	PP	8	OA	|om..pp.1|
-12	-	|	MID	_	MID	13	IT	|
-13	gör	|göra|	VB	_	VB.PRS.AKT	0	ROOT	|göra..vb.1|
-14	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	13	OO	|den..pn.1|
-15	för	|för|	PP	_	PP	13	AA	|för..pp.1|
-16	att	|att|	SN	_	SN	15	PA	|att..sn.1|
-17	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	18	SS	|de..pn.1|
-18	har	|ha|	VB	_	VB.PRS.AKT	16	UA	|ha..vb.1|
-19	så	|så|	AB	_	AB	20	AA	|så..ab.1|
-20	mycket	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	21	DT	|
-21	kärlek	|kärlek|	NN	_	NN.UTR.SIN.IND.NOM	18	OO	|kärlek..nn.1|
-22	att	|att|	IE	_	IE	21	ET	|att..sn.1|
-23	ge	|ge|	VB	_	VB.INF.AKT	22	IF	|ge..vb.1|
-24	och	|och|	KN	_	KN	22	IF	|och..kn.1|
-25	har	|ha|	VB	_	VB.PRS.AKT	24	CJ	|ha..vb.1|
-26	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	25	SS	|de..pn.1|
-27	då	|då|	AB	_	AB	25	TA	|då..ab.1|då..ab.2|
-28	inte	|inte|	AB	_	AB	25	NA	|inte..ab.1|
-29	kunnat	|kunna|	VB	_	VB.SUP.AKT	25	VG	|kunna..vb.1|
-30	få	|få|	VB	_	VB.INF.AKT	29	VG	|få..vb.1|
-31	ett	|en|	DT	_	DT.NEU.SIN.IND	33	DT	|en..al.1|
-32	eget	|egen|	JJ	_	JJ.POS.NEU.SIN.IND+DEF.NOM	33	DT	|egen..av.1|
-33	barn	|barn|	NN	_	NN.NEU.SIN.IND.NOM	30	OO	|barn..nn.1|
-34	så	|så|	AB	_	AB	35	DB	|så..ab.1|
-35	vill	|vilja|	VB	_	VB.PRS.AKT	24	MS	|vilja..vb.1|
-36	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	35	SS	|de..pn.1|
-37	visa	|visa|	VB	_	VB.INF.AKT	35	VG	|visa..vb.1|
-38	denna	|denna|	DT	_	DT.UTR.SIN.DEF	39	DT	|denna..pn.1|
-39	kärlek	|kärlek|	NN	_	NN.UTR.SIN.IND.NOM	37	OO	|kärlek..nn.1|
-40	genom	|genom|	PP	_	PP	37	AA	|genom..pp.1|
-41	att	|att|	IE	_	IE	40	PA	|att..sn.1|
-42	adoptera	|adoptera|	VB	_	VB.INF.AKT	41	IF	|adoptera..vb.1|
-43	.	|	MAD	_	MAD	35	IP	|
+De allra , allra flesta - det är jag övertygad om - gör det för att de har så mycket kärlek att ge och har de då inte kunnat få ett eget barn så vill de visa denna kärlek genom att adoptera .
 

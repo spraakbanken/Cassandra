@@ -21,6 +21,7 @@ end
 
 f = File.open("familjeliv-#{subforum}_start_end.tsv", "r:utf-8")
 ages = [16, 17, 18, 19, 20]
+#ages = [16]
 maxage = ages.max
 nperage = 10
 agehash = Hash.new{|hash,key| hash[key] = Array.new}
@@ -44,9 +45,9 @@ STDERR.puts agehash
 extracted = {}
 
 ages.each do |startage|
-    STDERR.puts startage
+    #STDERR.puts startage
     userarray = agehash[startage].sample(nperage)
-    STDERR.puts userarray
+    #STDERR.puts userarray
     userarray.each do |user|
         extracted[user] = startage
     end
@@ -77,8 +78,8 @@ f2.each_line do |line|
     if do_pre
         pre << line1
     else 
-        if !extracted[current_user].nil?
-            lines_per_user[current_user] << line1
+        if !extracted[current_user].nil? and line1[0] != "#"
+            lines_per_user[current_user] << line1.split("\t")[1]
         end
     end
 
@@ -88,9 +89,30 @@ if !Dir.exist?(subforum)
     Dir.mkdir(subforum)
 end
 
+o2 = File.open("#{subforum}\\familjeliv-#{subforum}_spotcheck_ages#{ages.join(",")}_threshold#{threshold}_nperage#{nperage}.tsv","w:utf-8")
+o2.puts "user\tage_at_first_post\tstatus\tpost_id(s)\tcomment"
+
+
 lines_per_user.each_pair do |user,lines|
     startage = extracted[user]
+    o2.puts "#{user}\t#{startage}"
     lines.flatten!
+    #STDERR.puts lines
+    #break
+    lines2 = []
+    templine = []
+    lines.each do |line|
+        if line.nil? #strip == ""
+            lines2 << templine.join(" ")
+            lines2 << ""
+            templine = []
+        elsif line[0] != "#"
+            templine << line.strip
+        else
+            lines2 << line.strip
+        end
+    end
     o = File.open("#{subforum}\\familjeliv-#{subforum}_#{user}_#{startage}.conllu","w:utf-8")
-    o.puts lines
+    o.puts lines2
 end
+

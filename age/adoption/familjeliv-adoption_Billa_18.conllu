@@ -6,17 +6,7 @@
 # thread_title = Den allra underbaraste julklappen...
 # post_id = 6110713
 # post_date = 2005-12-26 19:05:13
-# username = Billa
-# sent_id = d8952785
-1	ett	|en|	DT	_	DT.NEU.SIN.IND	3	DT	|en..al.1|
-2	jätte	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	3	AT	|
-3	grattis	|gratti|grattis|	NN	_	NN.NEU.SIN.IND.NOM	0	ROOT	|
-4	!	|	MID	_	MID	3	IU	|
-5	!	|	MID	_	MID	3	IU	|
-6	!	|	MID	_	MID	3	IU	|
-7	!	|	MAD	_	MAD	3	IU	|
-8	!	|	MAD	_	MAD	3	IU	|
-9	!	|	MAD	_	MAD	3	IU	|
+ett jätte grattis ! ! ! ! ! !
 
 # age = 18
 # agebin = <20
@@ -26,9 +16,7 @@
 # thread_title = Den allra underbaraste julklappen...
 # post_id = 6110713
 # post_date = 2005-12-26 19:05:13
-# username = Billa
-# sent_id = d89ad974
-1	!	|	MAD	_	MAD	0	ROOT	|
+!
 
 # age = 18
 # agebin = <20
@@ -38,14 +26,7 @@
 # thread_title = äntligen!!!!
 # post_id = 5785415
 # post_date = 2005-12-02 13:37:17
-# username = Billa
-# sent_id = 7b4549c9
-1	Grattis	|grattis|	IN	_	IN	0	ROOT	|grattis..in.1|
-2	!	|	MID	_	MID	1	IG	|
-3	!	|	MID	_	MID	1	IG	|
-4	!	|	MID	_	MID	1	IU	|
-5	!	|	MAD	_	MAD	1	IU	|
-6	!	|	MAD	_	MAD	1	IU	|
+Grattis ! ! ! ! !
 
 # age = 18
 # agebin = <20
@@ -55,9 +36,7 @@
 # thread_title = äntligen!!!!
 # post_id = 5785415
 # post_date = 2005-12-02 13:37:17
-# username = Billa
-# sent_id = 7b4d1400
-1	!	|	MAD	_	MAD	0	ROOT	|
+!
 
 # age = 18
 # agebin = <20
@@ -67,10 +46,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f048cb4
-1	Hejsan	|hejsan|	IN	_	IN	0	ROOT	|hejsan..in.1|
-2	!	|	MAD	_	MAD	1	IU	|
+Hejsan !
 
 # age = 18
 # agebin = <20
@@ -80,50 +56,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f086b2b
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	CJ	|jag..pn.1|
-2	och	|och|	KN	_	KN	5	SS	|och..kn.1|
-3	min	|jag|	PS	_	PS.UTR.SIN.DEF	4	DT	|jag..pn.1|
-4	sambo	|sambo|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|sambo..nn.1|sambo..nn.2|
-5	har	|ha|	VB	_	VB.PRS.AKT	21	MS	|ha..vb.1|
-6	sedan	|sedan|	AB	_	AB	5	TA	|sedan..ab.1|
-7	långt	|lång|långt|	AB	_	AB.POS	8	AA	|lång..av.1|långt..ab.1|
-8	tillbaka	|tillbaka|	AB	_	AB	5	RA	|tillbaka..ab.1|
-9	(	|	PAD	_	PAD	5	IR	|
-10	redan	|redan|	AB	_	AB	11	CA	|redan..ab.1|
-11	innan	|innan|	SN	_	SN	5	TA	|innan..sn.1|
-12	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	13	SS	|vi..pn.1|
-13	påbörjade	|påbörja|	VB	_	VB.PRT.AKT	11	UA	|påbörja..vb.1|
-14	vår	|vi|	PS	_	PS.UTR.SIN.DEF	16	DT	|vi..pn.1|
-15	egen	|egen|	JJ	_	JJ.POS.UTR.SIN.IND+DEF.NOM	16	DT	|egen..av.1|
-16	bebisverkstad	|bebisverkstad|	NN	_	NN.UTR.SIN.IND.NOM	13	OO	|
-17	)	|	PAD	_	PAD	5	JR	|
-18	pratat	|prata|	VB	_	VB.SUP.AKT	13	VG	|prata..vb.1|
-19	om	|om|	PP	_	PP	18	OA	|om..pp.1|
-20	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	19	PA	|adoption..nn.1|
-21	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
-22	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	23	SS	|vi..pn.1|
-23	har	|ha|	VB	_	VB.PRS.AKT	21	MS	|ha..vb.1|
-24	alltid	|alltid|	AB	_	AB	23	TA	|alltid..ab.1|
-25	varit	|vara|	VB	_	VB.SUP.AKT	23	VG	|vara..vb.1|
-26	överrens	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	25	SP	|
-27	om	|om|	PP	_	PP	25	OA	|om..pp.1|
-28	att	|att|	SN	_	SN	27	PA	|att..sn.1|
-29	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	31	SS	|vi..pn.1|
-30	båda	|båda|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	31	SS	|båda..pn.1|
-31	skulle	|skola|	VB	_	VB.PRT.AKT	28	UA	|skola..vb.2|
-32	vilja	|vilja|	VB	_	VB.INF.AKT	31	VG	|vilja..vb.1|
-33	adoptera	|adoptera|	VB	_	VB.INF.AKT	32	VG	|adoptera..vb.1|
-34	om	|om|	SN	_	SN	33	AA	|om..sn.1|
-35	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	37	SS	|vi..pn.1|
-36	inte	|inte|	AB	_	AB	37	NA	|inte..ab.1|
-37	skulle	|skola|	VB	_	VB.PRT.AKT	34	UA	|skola..vb.2|
-38	kunna	|kunna|	VB	_	VB.INF.AKT	37	VG	|kunna..vb.1|
-39	få	|få|	VB	_	VB.INF.AKT	38	VG	|få..vb.1|
-40	några	|någon|	DT	_	DT.UTR+NEU.PLU.IND	41	DT	|någon..pn.1|
-41	barn	|barn|	NN	_	NN.NEU.PLU.IND.NOM	39	OO	|barn..nn.1|
-42	.	|	MAD	_	MAD	21	IP	|
+Jag och min sambo har sedan långt tillbaka ( redan innan vi påbörjade vår egen bebisverkstad ) pratat om adoption och vi har alltid varit överrens om att vi båda skulle vilja adoptera om vi inte skulle kunna få några barn .
 
 # age = 18
 # agebin = <20
@@ -133,35 +66,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f0d93b8
-1	Nu	|nu|	AB	_	AB	2	TA	|nu..ab.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	så	|så|	AB	_	AB	2	AA	|så..ab.1|
-5	att	|att|	SN	_	SN	2	KA	|att..sn.1|
-6	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	7	SS	|vi..pn.1|
-7	är	|vara|	VB	_	VB.PRS.AKT	5	UA	|vara..vb.1|
-8	i	|i|	PP	_	PP	7	TA	|i..pp.1|
-9	den	|den|en|	DT	_	DT.UTR.SIN.DEF	10	DT	|den..pn.1|en..al.1|
-10	situationen	|situation|	NN	_	NN.UTR.SIN.DEF.NOM	8	PA	|situation..nn.1|
-11	att	|att|	IE	_	IE	7	ES	|att..sn.1|
-12	efter	|efter|	PP	_	PP	21	TA	|efter..pp.1|
-13	nästan	|nästan|	AB	_	AB	14	AA	|nästan..ab.1|
-14	ett	|en|	DT	_	DT.NEU.SIN.IND	15	DT	|en..al.1|
-15	års	|år|	NN	_	NN.NEU.SIN.IND.GEN	16	DT	|år..nn.1|
-16	försök	|försök|	NN	_	NN.NEU.SIN.IND.NOM	12	PA	|försök..nn.1|
-17	till	|till|	PP	_	PP	16	ET	|till..pp.1|
-18	att	|att|	IE	_	IE	17	PA	|att..sn.1|
-19	bli	|bli|	VB	_	VB.INF.AKT	18	IF	|bli..vb.1|
-20	gravida	|gravid|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	19	SP	|gravid..av.1|
-21	har	|ha|	VB	_	VB.PRS.AKT	2	MS	|ha..vb.1|
-22	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	21	SS	|vi..pn.1|
-23	precis	|precis|	AB	_	AB	21	TA	|precis..ab.1|
-24	påbörjat	|påbörja|	VB	_	VB.SUP.AKT	21	VG	|påbörja..vb.1|
-25	en	|en|	DT	_	DT.UTR.SIN.IND	26	DT	|en..al.1|
-26	utredning	|utredning|	NN	_	NN.UTR.SIN.IND.NOM	24	OO	|utredning..nn.1|
-27	.	|	MAD	_	MAD	2	IP	|
+Nu är det så att vi är i den situationen att efter nästan ett års försök till att bli gravida har vi precis påbörjat en utredning .
 
 # age = 18
 # agebin = <20
@@ -171,19 +76,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f0a8ab4
-1	Därför	|därför|	AB	_	AB	2	AA	|därför..ab.1|
-2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
-3	adoptionsämnet	|	NN	_	NN.NEU.SIN.DEF.NOM	2	SS	|
-4	kommit	|komma|komma upp|	VB	_	VB.SUP.AKT	2	VG	|komma..vb.1|komma_upp..vbm.1|
-5	upp	|upp|komma upp:4|	PL	_	PL	4	PL	|upp..ab.1|komma_upp..vbm.1:4|
-6	lite	|lite|	AB	_	AB.POS	7	AA	|lite..ab.1|
-7	oftare	|ofta|	AB	_	AB.KOM	4	TA	|ofta..ab.1|
-8	den	|den|en|	DT	_	DT.UTR.SIN.DEF	10	DT	|den..pn.1|en..al.1|
-9	sista	|sista|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM	10	DT	|sista..av.1|
-10	tiden	|tid|	NN	_	NN.UTR.SIN.DEF.NOM	7	PA	|tid..nn.1|
-11	.	|	MAD	_	MAD	2	IP	|
+Därför har adoptionsämnet kommit upp lite oftare den sista tiden .
 
 # age = 18
 # agebin = <20
@@ -193,20 +86,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f0f7fb5
-1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	däför	|	AB	_	AB	2	AA	|
-4	lite	|lite|	AB	_	AB.POS	5	AA	|lite..ab.1|
-5	nyfiken	|nyfiken|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	2	SP	|nyfiken..av.1|
-6	på	|på|	PP	_	PP	2	OA	|på..pp.1|
-7	hur	|hur|	HA	_	HA	10	AA	|hur..ab.1|
-8	en	|en|	DT	_	DT.UTR.SIN.IND	9	DT	|en..al.1|
-9	adoption	|adoption|	NN	_	NN.UTR.SIN.IND.NOM	10	SS	|adoption..nn.1|
-10	går	|gå|gå till|	VB	_	VB.PRS.AKT	6	PA	|gå..vb.1|gå_till..vbm.1|
-11	till	|till|gå till:10|	PL	_	PL	10	PL	|till..ab.1|gå_till..vbm.1:10|
-12	?	|	MAD	_	MAD	2	I?	|
+Jag är däför lite nyfiken på hur en adoption går till ?
 
 # age = 18
 # agebin = <20
@@ -216,14 +96,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f033686
-1	Vad	|vad|	HP	_	HP.NEU.SIN.IND	2	SS	|vad..pn.1|
-2	sker	|ske|	VB	_	VB.PRS.AKT	0	ROOT	|ske..vb.1|
-3	under	|under|	PP	_	PP	2	RA	|under..pp.1|
-4	en	|en|	DT	_	DT.UTR.SIN.IND	5	DT	|en..al.1|
-5	hemutredning	|hemutredning|	NN	_	NN.UTR.SIN.IND.NOM	3	PA	|
-6	?	|	MAD	_	MAD	2	I?	|
+Vad sker under en hemutredning ?
 
 # age = 18
 # agebin = <20
@@ -233,23 +106,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f01a10f
-1	Vad	|vad|vad för|	HP	_	HP.NEU.SIN.IND	2	SS	|vad..pn.1|vad_för..pnm.1|
-2	finns	|finna|finnas|	VB	_	VB.PRS.SFO	0	ROOT	|finna..vb.1|finnas..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	FS	|den..pn.1|
-4	för	|för|vad för:1|	PP	_	PP	2	OA	|för..pp.1|vad_för..pnm.1:1|
-5	krav	|krav|	NN	_	NN.NEU.PLU.IND.NOM	4	PA	|krav..nn.1|
-6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	7	SS	|man..pn.1|
-7	måste	|måste|	VB	_	VB.PRS.AKT	5	ET	|måste..vb.1|
-8	uppfylla	|uppfylla|	VB	_	VB.INF.AKT	7	VG	|uppfylla..vb.1|
-9	för	|för|	PP	_	PP	8	AA	|för..pp.1|
-10	att	|att|	IE	_	IE	9	PA	|att..sn.1|
-11	bli	|bli|	VB	_	VB.INF.AKT	10	IF	|bli..vb.1|
-12	godkänd	|godkänd|godkänna|	PC	_	PC.PRF.UTR.SIN.IND.NOM	11	SP	|godkänd..av.1|godkänna..vb.1|
-13	som	|	KN	_	KN	11	SP	|
-14	adoptivföräldrar	|adoptivförälder|	NN	_	NN.UTR.PLU.IND.NOM	13	UA	|adoptivförälder..nn.1|
-15	?	|	MAD	_	MAD	2	I?	|
+Vad finns det för krav man måste uppfylla för att bli godkänd som adoptivföräldrar ?
 
 # age = 18
 # agebin = <20
@@ -259,15 +116,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f0b7d8e
-1	Måste	|måste|	VB	_	VB.PRS.AKT	0	ROOT	|måste..vb.1|
-2	båda	|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	3	DT	|
-3	tillexempel	|	AB	_	AB	1	AA	|
-4	ha	|ha|	VB	_	VB.INF.AKT	1	VG	|ha..vb.1|
-5	fasta	|fast|	JJ	_	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	6	AT	|fast..av.1|
-6	jobb	|jobb|	NN	_	NN.NEU.PLU.IND.NOM	4	OO	|jobb..nn.1|
-7	?	|	MAD	_	MAD	1	I?	|
+Måste båda tillexempel ha fasta jobb ?
 
 # age = 18
 # agebin = <20
@@ -277,14 +126,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f0f008e
-1	Måste	|måste|	VB	_	VB.PRS.AKT	0	ROOT	|måste..vb.1|
-2	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	1	SS	|man..pn.1|
-3	bo	|bo|	VB	_	VB.INF.AKT	1	VG	|bo..vb.1|
-4	i	|i|	PP	_	PP	3	RA	|i..pp.1|
-5	hus	|hus|	NN	_	NN.NEU.SIN.IND.NOM	4	PA	|hus..nn.1|
-6	?	|	MAD	_	MAD	1	I?	|
+Måste man bo i hus ?
 
 # age = 18
 # agebin = <20
@@ -294,17 +136,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f01d3d9
-1	Vad	|vad|vad för|	HP	_	HP.NEU.SIN.IND	8	OO	|vad..pn.1|vad_för..pnm.1|
-2	är	|vara|	VB	_	VB.PRS.AKT	0	ROOT	|vara..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	för	|för|vad för:1|	PP	_	PP	2	OA	|för..pp.1|vad_för..pnm.1:1|
-5	föräldrarutbildning	|föräldrarutbildning|	NN	_	NN.UTR.SIN.IND.NOM	4	PA	|
-6	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	7	SS	|man..pn.1|
-7	måste	|måste|	VB	_	VB.PRS.AKT	5	EF	|måste..vb.1|
-8	gå	|gå|	VB	_	VB.INF.AKT	7	VG	|gå..vb.1|
-9	?	|	MAD	_	MAD	2	I?	|
+Vad är det för föräldrarutbildning man måste gå ?
 
 # age = 18
 # agebin = <20
@@ -314,25 +146,7 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f0dc96a
-1	Hur	|hur|	HA	_	HA	2	AA	|hur..ab.1|
-2	lång	|lång|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	AT	|lång..av.1|
-3	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	4	OO	|tid..nn.1|
-4	tar	|ta|	VB	_	VB.PRS.AKT	0	ROOT	|ta..vb.1|
-5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	SS	|den..pn.1|
-6	ungefär	|ungefär|	AB	_	AB	7	AA	|ungefär..ab.1|
-7	från	|från|	PP	_	PP	4	TA	|från..pp.1|
-8	den	|den|en|	DT	_	DT.UTR.SIN.DEF	9	DT	|den..pn.1|en..al.1|
-9	dagen	|dag|	NN	_	NN.UTR.SIN.DEF.NOM	7	PA	|dag..nn.1|
-10	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
-11	har	|ha|	VB	_	VB.PRS.AKT	9	ET	|ha..vb.1|
-12	bestämt	|bestämma|bestämma sig|	VB	_	VB.SUP.AKT	11	VG	|bestämma..vb.1|bestämma_sig..vbm.1|
-13	sig	|sig|bestämma sig:12|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	12	OO	|sig..pn.1|bestämma_sig..vbm.1:12|
-14	för	|för|	PP	_	PP	12	AA	|för..pp.1|
-15	att	|att|	IE	_	IE	14	PA	|att..sn.1|
-16	adoptera	|adoptera|	VB	_	VB.INF.AKT	15	IF	|adoptera..vb.1|
-17	?	|	MAD	_	MAD	4	I?	|
+Hur lång tid tar det ungefär från den dagen man har bestämt sig för att adoptera ?
 
 # age = 18
 # agebin = <20
@@ -342,10 +156,5 @@
 # thread_title = Lite undringar om adoption
 # post_id = 5795314
 # post_date = 2005-12-03 09:30:36
-# username = Billa
-# sent_id = 5f0651f4
-1	Vad	|vad|	HP	_	HP.NEU.SIN.IND	2	OO	|vad..pn.1|
-2	kostar	|kosta|	VB	_	VB.PRS.AKT	0	ROOT	|kosta..vb.1|
-3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
-4	?	|	MAD	_	MAD	2	I?	|
+Vad kostar det ?
 
