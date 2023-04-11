@@ -86,7 +86,7 @@ filelist.each do |filename2|
                 corpus_from_json = hit["corpus"]
                 #output_array << corpus_from_json
                 maincorpus = get_maincorpus(corpus_from_json)
-                conll_file.puts "#sent_id = #{unique_id}; de-dem-dom_id = #{match_end}"
+                conll_file.puts "#sent_id = #{unique_id}; de-dem-dom_id = #{match_end-1}"
                 tokens = hit["tokens"]
                 dword = ""
                 dpos = ""

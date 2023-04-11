@@ -20,7 +20,7 @@ end
 
 
 f = File.open("familjeliv-#{subforum}_start_end.tsv", "r:utf-8")
-ages = [16, 17, 18, 19, 20]
+ages = [21, 22, 23, 24, 25]
 #ages = [16]
 maxage = ages.max
 nperage = 10
@@ -90,12 +90,12 @@ if !Dir.exist?(subforum)
 end
 
 o2 = File.open("#{subforum}\\familjeliv-#{subforum}_spotcheck_ages#{ages.join(",")}_threshold#{threshold}_nperage#{nperage}.tsv","w:utf-8")
-o2.puts "user\tage_at_first_post\tstatus\tpost_id(s)\tcomment"
+o2.puts "user\tage_at_first_post\tbirthyear\tstatus\tpost_id(s)\tcomment"
 
 
 lines_per_user.each_pair do |user,lines|
     startage = extracted[user]
-    o2.puts "#{user}\t#{startage}"
+    o2.puts "#{user}\t#{startage}\t#{birthyearhash[user]}"
     lines.flatten!
     #STDERR.puts lines
     #break
