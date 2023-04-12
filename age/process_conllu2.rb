@@ -1,7 +1,7 @@
 f = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\age\\all_age_1000_merged.tsv","r:utf-8")
 agehash = {}
 threshold = 10000
-age_threshold = 0
+age_threshold = 20
 firstlasthash = Hash.new{|hash,key| hash[key] = [100,0]}
 
 
