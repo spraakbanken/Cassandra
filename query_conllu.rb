@@ -1,5 +1,15 @@
+PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
+subforum = "kansliga"
+token_threshold = 10000
+firstage = 20
 
-f = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-kansliga_sentence_age10000_18.conllu","r:utf-8")
+
+f = File.open("#{PATH}familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firstage}.conllu","r:utf-8")
+variable = ARGV[0]
+if variable.to_s == ""
+    STDERR.puts "Specify variable!"
+    halt
+end
 
 total_threshold = 10
 
@@ -75,8 +85,9 @@ f.each_line do |line|
 end
 
 
+o = File.open("familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firstage}_#{variable}.tsv","w:utf-8")
 
-STDOUT.puts "post_year\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv3abs\tv1rel\tv2rel\tv3rel"
+o.puts "post_year\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv3abs\tv1rel\tv2rel\tv3rel"
 
 authorhash.each_pair do |key,value|
     year = key[3]
@@ -91,7 +102,7 @@ authorhash.each_pair do |key,value|
         v1rel = v1abs/total
         v2rel = v2abs/total
         v3rel = v3abs/total
-        STDOUT.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v3abs}\t#{v1rel}\t#{v2rel}\t#{v3rel}"
+        o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v3abs}\t#{v1rel}\t#{v2rel}\t#{v3rel}"
     end
 
 end
