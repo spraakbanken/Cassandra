@@ -1,0 +1,263 @@
+{
+"kwic": [
+{
+"corpus": "GP2011",
+"match": {
+"position": 57,
+"start": 2,
+"end": 4
+},
+"tokens": [
+{
+"word": "Tillsammans",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|tillsammans|",
+"lex": "|tillsammans..ab.1|",
+"ref": "01",
+"dephead": "02",
+"deprel": "AA"
+},
+{
+"word": "gjorde",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|g\u00f6ra|",
+"lex": "|g\u00f6ra..vb.1|",
+"ref": "02",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "03",
+"dephead": "02",
+"deprel": "SS"
+},
+{
+"word": "ett",
+"pos": "DT",
+"msd": "DT.NEU.SIN.IND",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"ref": "04",
+"dephead": "06",
+"deprel": "DT"
+},
+{
+"word": "arton",
+"pos": "RG",
+"msd": "RG.NOM",
+"lemma": "|arton|",
+"lex": "|arton..nl.1|",
+"ref": "05",
+"dephead": "06",
+"deprel": "DT"
+},
+{
+"word": "meter",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|meter|",
+"lex": "|meter..nn.1|",
+"ref": "06",
+"dephead": "08",
+"deprel": "DT"
+},
+{
+"word": "l\u00e5ngt",
+"pos": "JJ",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"lemma": "|l\u00e5ng|",
+"lex": "|l\u00e5ng..av.1|",
+"ref": "07",
+"dephead": "08",
+"deprel": "AT"
+},
+{
+"word": "v\u00e4ggkonstverk",
+"pos": "NN",
+"msd": "NN.NEU.SIN.IND.NOM",
+"lemma": "|v\u00e4ggkonstverk|",
+"lex": "|",
+"ref": "08",
+"dephead": "02",
+"deprel": "OO"
+},
+{
+"word": "vid",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|vid|",
+"lex": "|vid..pp.1|",
+"ref": "09",
+"dephead": "02",
+"deprel": "OA"
+},
+{
+"word": "Carnegie",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Carnegie|",
+"lex": "|Carnegie..pm.1|",
+"ref": "10",
+"dephead": "09",
+"deprel": "PA"
+},
+{
+"word": "Mellon",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"lex": "|",
+"ref": "11",
+"dephead": "10",
+"deprel": "HD"
+},
+{
+"word": "University",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"lex": "|",
+"ref": "12",
+"dephead": "10",
+"deprel": "HD"
+},
+{
+"word": "i",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"ref": "13",
+"dephead": "10",
+"deprel": "ET"
+},
+{
+"word": "huvudstaden",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"lemma": "|huvudstad|",
+"lex": "|huvudstad..nn.1|",
+"ref": "14",
+"dephead": "13",
+"deprel": "HD"
+},
+{
+"word": "Doha",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|",
+"lex": "|",
+"ref": "15",
+"dephead": "13",
+"deprel": "PA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "16",
+"dephead": "02",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "GP2011",
+"match": {
+"position": 724,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "I",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"ref": "1",
+"dephead": "3",
+"deprel": "RA"
+},
+{
+"word": "Manchester",
+"pos": "PM",
+"msd": "PM.NOM",
+"lemma": "|Manchester|",
+"lex": "|Manchester..pm.1|",
+"ref": "2",
+"dephead": "1",
+"deprel": "PA"
+},
+{
+"word": "fattar",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|fatta|",
+"lex": "|fatta..vb.2|fatta..vb.1|",
+"ref": "3",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "4",
+"dephead": "3",
+"deprel": "SS"
+},
+{
+"word": "inte",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|inte|",
+"lex": "|inte..ab.1|",
+"ref": "5",
+"dephead": "3",
+"deprel": "NA"
+},
+{
+"word": "mycket",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|mycket|",
+"lex": "|mycket..ab.1|",
+"ref": "6",
+"dephead": "3",
+"deprel": "AA"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "7",
+"dephead": "3",
+"deprel": "IP"
+}
+]
+}
+],
+"hits": 51921,
+"corpus_hits": {
+"GP2011": 51921
+},
+"corpus_order": [
+"GP2011"
+],
+"query_data": "eJwNyMERgDAIBMCWOOAG0AL82oKJ0H8Jus_1EWI90daaOU0LC3KHCeXtNEh6966n-Le5F7B8KdV0z5zXrQIcRCk-ECMTmg==\n",
+"time": 4.357242584228516
+}

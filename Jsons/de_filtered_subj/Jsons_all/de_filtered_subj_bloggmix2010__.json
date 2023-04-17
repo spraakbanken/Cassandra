@@ -1,0 +1,175 @@
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "BLOGGMIX2010",
+"match": {
+"position": 237,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "1",
+"dephead": "6",
+"deprel": "SS"
+},
+{
+"word": "han",
+"pos": "PN",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"lemma": "|han|",
+"lex": "|han..pn.1|",
+"ref": "2",
+"dephead": "5",
+"deprel": "SS"
+},
+{
+"word": "v\u00e4l",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|v\u00e4l|",
+"lex": "|v\u00e4l_2..ab.1|v\u00e4l..ab.1|",
+"ref": "3",
+"dephead": "5",
+"deprel": "MA"
+},
+{
+"word": "bara",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|bara|",
+"lex": "|bara..ab.1|",
+"ref": "4",
+"dephead": "5",
+"deprel": "CA"
+},
+{
+"word": "bli",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|bli|",
+"lex": "|bli..vb.1|",
+"ref": "5",
+"dephead": "1",
+"deprel": "ET"
+},
+{
+"word": "gifta",
+"pos": "VB",
+"msd": "VB.INF.AKT",
+"lemma": "|",
+"lex": "|",
+"ref": "6",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "n\u00e5gra",
+"pos": "DT",
+"msd": "DT.UTR+NEU.PLU.IND",
+"lemma": "|n\u00e5gon|",
+"lex": "|n\u00e5gon..pn.1|",
+"ref": "7",
+"dephead": "8",
+"deprel": "DT"
+},
+{
+"word": "dagar",
+"pos": "NN",
+"msd": "NN.UTR.PLU.IND.NOM",
+"lemma": "|dag|",
+"lex": "|dag..nn.1|",
+"ref": "8",
+"dephead": "6",
+"deprel": "OO"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "9",
+"dephead": "6",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "BLOGGMIX2010",
+"match": {
+"position": 272,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "S\u00e5",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|s\u00e5|s\u00e5_h\u00e4r|",
+"lex": "|s\u00e5..ab.1|s\u00e5_h\u00e4r..abm.1|",
+"ref": "1",
+"dephead": "3",
+"deprel": "AA"
+},
+{
+"word": "h\u00e4r",
+"pos": "AB",
+"msd": "AB",
+"lemma": "|h\u00e4r|s\u00e5_h\u00e4r:1|",
+"lex": "|h\u00e4r..ab.1|s\u00e5_h\u00e4r..abm.1:1|",
+"ref": "2",
+"dephead": "1",
+"deprel": "HD"
+},
+{
+"word": "blev",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|bli|",
+"lex": "|bli..vb.1|",
+"ref": "3",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "de",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "4",
+"dephead": "3",
+"deprel": "SS"
+},
+{
+"word": ".....",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "5",
+"dephead": "3",
+"deprel": "IP"
+}
+]
+}
+],
+"hits": 208373,
+"corpus_hits": {
+"BLOGGMIX2010": 208373
+},
+"corpus_order": [
+"BLOGGMIX2010"
+],
+"query_data": "eJwFwTEOgDAIBdArUaD9qJtLY6JxdYXS3v8IvpfWgiOzuaVo8RmbzIjptnylJVEdDRighmCV6iEiTkpRFcBx3m_vz_UxFdqZTCA_C1wW0A==\n",
+"time": 12.296796083450317
+}

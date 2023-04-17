@@ -1,0 +1,403 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "TWITTER",
+"match": {
+"position": 3328,
+"start": 9,
+"end": 11
+},
+"structs": {
+"text_datetime": "2012-12-14 15:58:13",
+"text_id": "279586092007686145",
+"user_username": "uppdragsmedia"
+},
+"tokens": [
+{
+"word": "RT",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "@",
+"deprel": "DT",
+"dephead": "3",
+"ref": "2",
+"lemma": "|",
+"lex": "|",
+"msd": "NN.AN",
+"pos": "NN"
+},
+{
+"word": "ttgruppen",
+"deprel": "ET",
+"dephead": "1",
+"ref": "3",
+"lemma": "|",
+"lex": "|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ":",
+"deprel": "IQ",
+"dephead": "3",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "UNT:s",
+"deprel": "DT",
+"dephead": "6",
+"ref": "5",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.GEN",
+"pos": "PM"
+},
+{
+"word": "nyhetschef",
+"deprel": "SS",
+"dephead": "7",
+"ref": "6",
+"lemma": "|nyhetschef|",
+"lex": "|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "ber\u00e4ttar",
+"deprel": "ET",
+"dephead": "3",
+"ref": "7",
+"lemma": "|ber\u00e4tta|",
+"lex": "|ber\u00e4tta..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "hur",
+"deprel": "AA",
+"dephead": "11",
+"ref": "9",
+"lemma": "|hur|",
+"lex": "|hur..ab.1|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "11",
+"ref": "10",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "jobbar",
+"deprel": "PA",
+"dephead": "8",
+"ref": "11",
+"lemma": "|jobba|",
+"lex": "|jobba..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "liverapportering",
+"deprel": "PA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|liverapportering|",
+"lex": "|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "7",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "TWITTER",
+"match": {
+"position": 6115,
+"start": 9,
+"end": 11
+},
+"structs": {
+"text_datetime": "2012-02-20 21:58:00",
+"text_id": "171685052055437312",
+"user_username": "uppdragsmedia"
+},
+"tokens": [
+{
+"word": "RT",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "@",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|",
+"lex": "|",
+"msd": "IN",
+"pos": "IN"
+},
+{
+"word": "hejg",
+"deprel": "HD",
+"dephead": "2",
+"ref": "3",
+"lemma": "|",
+"lex": "|",
+"msd": "IN",
+"pos": "IN"
+},
+{
+"word": ":",
+"deprel": "IQ",
+"dephead": "2",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "Kan",
+"deprel": "MS",
+"dephead": "2",
+"ref": "5",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "vi",
+"deprel": "SS",
+"dephead": "5",
+"ref": "6",
+"lemma": "|vi|",
+"lex": "|vi..pn.1|",
+"msd": "PN.UTR.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "prata",
+"deprel": "VG",
+"dephead": "5",
+"ref": "7",
+"lemma": "|prata|",
+"lex": "|prata..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "vad",
+"deprel": "OO",
+"dephead": "11",
+"ref": "9",
+"lemma": "|vad|",
+"lex": "|vad..pn.1|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "11",
+"ref": "10",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "har",
+"deprel": "PA",
+"dephead": "8",
+"ref": "11",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "till",
+"deprel": "RA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "m\u00e5ndagsm\u00f6tet",
+"deprel": "PA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|m\u00e5ndagsm\u00f6te|",
+"lex": "|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "p\u00e5",
+"deprel": "RA",
+"dephead": "11",
+"ref": "14",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "det",
+"deprel": "DT",
+"dephead": "17",
+"ref": "15",
+"lemma": "|den|en|den_h\u00e4r|",
+"lex": "|den..pn.1|en..al.1|den_h\u00e4r..pnm.1|",
+"msd": "DT.NEU.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "h\u00e4r",
+"deprel": "HD",
+"dephead": "15",
+"ref": "16",
+"lemma": "|h\u00e4r|den_h\u00e4r:15|",
+"lex": "|h\u00e4r..ab.1|den_h\u00e4r..pnm.1:15|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "kontoret",
+"deprel": "PA",
+"dephead": "14",
+"ref": "17",
+"lemma": "|kontor|",
+"lex": "|kontor..nn.1|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "jag",
+"deprel": "SS",
+"dephead": "19",
+"ref": "18",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "ET",
+"dephead": "17",
+"ref": "19",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "p\u00e5",
+"deprel": "OA",
+"dephead": "19",
+"ref": "20",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "?",
+"deprel": "I?",
+"dephead": "2",
+"ref": "21",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 687832,
+"corpus_hits": {
+"TWITTER": 687832
+},
+"corpus_order": [
+"TWITTER"
+],
+"query_data": "eJwFwbsNwCAMBcCVsPHnkdQp0kZI1Bjw_iPkTmhr2YrwQjEZatUpl03nomAzt9kYwD4hqq3KgSRWplAL8buPt_fnuwyOyj8pZBRu\n",
+"time": 50.596198320388794
+}

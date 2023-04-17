@@ -1,0 +1,438 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-VETENSKAP",
+"match": {
+"position": 166,
+"start": 2,
+"end": 4
+},
+"tokens": [
+{
+"word": "D\u00e4remot",
+"deprel": "+A",
+"dephead": "2",
+"ref": "1",
+"lemma": "|d\u00e4remot|",
+"lex": "|d\u00e4remot..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "2",
+"ref": "3",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "s\u00e4llan",
+"deprel": "TA",
+"dephead": "2",
+"ref": "4",
+"lemma": "|s\u00e4llan|",
+"lex": "|s\u00e4llan..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "praktiska",
+"deprel": "SP",
+"dephead": "2",
+"ref": "5",
+"lemma": "|praktisk|",
+"lex": "|praktisk..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "att",
+"deprel": "ES",
+"dephead": "2",
+"ref": "6",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "arbeta",
+"deprel": "IF",
+"dephead": "6",
+"ref": "7",
+"lemma": "|arbeta|",
+"lex": "|arbeta..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "7",
+"ref": "8",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "d\u00e5",
+"deprel": "TA",
+"dephead": "12",
+"ref": "9",
+"lemma": "|d\u00e5|",
+"lex": "|d\u00e5..ab.1|d\u00e5..ab.2|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "det",
+"deprel": "FS",
+"dephead": "12",
+"ref": "10",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "ofta",
+"deprel": "TA",
+"dephead": "12",
+"ref": "11",
+"lemma": "|ofta|",
+"lex": "|ofta..ab.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "\u00e4r",
+"deprel": "PA",
+"dephead": "8",
+"ref": "12",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "sv\u00e5rt",
+"deprel": "SP",
+"dephead": "12",
+"ref": "13",
+"lemma": "|sv\u00e5r|",
+"lex": "|sv\u00e5r..av.1|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "att",
+"deprel": "ES",
+"dephead": "12",
+"ref": "14",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "arbeta",
+"deprel": "IF",
+"dephead": "14",
+"ref": "15",
+"lemma": "|arbeta|arbeta_ihop|",
+"lex": "|arbeta..vb.1|arbeta_ihop..vbm.1|arbeta_ihop..vbm.2|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "ihop",
+"deprel": "PL",
+"dephead": "15",
+"ref": "16",
+"lemma": "|ihop|arbeta_ihop:15|",
+"lex": "|ihop..ab.1|arbeta_ihop..vbm.1:15|arbeta_ihop..vbm.2:15|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "det",
+"deprel": "DT",
+"dephead": "19",
+"ref": "17",
+"lemma": "|den|en|",
+"lex": "|den..pn.1|en..al.1|",
+"msd": "DT.NEU.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "dammiga",
+"deprel": "AT",
+"dephead": "19",
+"ref": "18",
+"lemma": "|dammig|",
+"lex": "|dammig..av.1|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "pulvret",
+"deprel": "OO",
+"dephead": "15",
+"ref": "19",
+"lemma": "|pulver|",
+"lex": "|pulver..nn.1|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "med",
+"deprel": "AA",
+"dephead": "15",
+"ref": "20",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "oxidationsmedlet",
+"deprel": "PA",
+"dephead": "20",
+"ref": "21",
+"lemma": "|oxidationsmedel|",
+"lex": "|oxidationsmedel..nn.1|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "s\u00e5",
+"deprel": "AA",
+"dephead": "15",
+"ref": "22",
+"lemma": "|s\u00e5|",
+"lex": "|s\u00e5..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "att",
+"deprel": "HD",
+"dephead": "22",
+"ref": "23",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "27",
+"ref": "24",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "verkligt",
+"deprel": "AA",
+"dephead": "26",
+"ref": "25",
+"lemma": "|verklig|",
+"lex": "|verklig..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "intim",
+"deprel": "AT",
+"dephead": "27",
+"ref": "26",
+"lemma": "|intim|",
+"lex": "|intim..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "mix",
+"deprel": "SS",
+"dephead": "28",
+"ref": "27",
+"lemma": "|mix|",
+"lex": "|mix..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "uppst\u00e5r",
+"deprel": "UA",
+"dephead": "22",
+"ref": "28",
+"lemma": "|uppst\u00e5|",
+"lex": "|uppst\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "29",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FLASHBACK-VETENSKAP",
+"match": {
+"position": 869,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "inneh\u00f6ll",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|inneh\u00e5lla|",
+"lex": "|inneh\u00e5lla..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "1,42",
+"deprel": "CJ",
+"dephead": "4",
+"ref": "3",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "eller",
+"deprel": "DT",
+"dephead": "7",
+"ref": "4",
+"lemma": "|eller|",
+"lex": "|eller..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "1,48",
+"deprel": "CJ",
+"dephead": "4",
+"ref": "5",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "gram",
+"deprel": "DT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|gram|",
+"lex": "|gram..nn.1|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "blyazid",
+"deprel": "OO",
+"dephead": "2",
+"ref": "7",
+"lemma": "|blyazid|",
+"lex": "|blyazid..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "per",
+"deprel": "ET",
+"dephead": "7",
+"ref": "8",
+"lemma": "|per|per_styck|",
+"lex": "|per..pp.1|per_styck..abm.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "styck",
+"deprel": "PA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|styck|per_styck:8|",
+"lex": "|styck..nn.1|per_styck..abm.1:8|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "10",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 1528386,
+"corpus_hits": {
+"FLASHBACK-VETENSKAP": 1528386
+},
+"corpus_order": [
+"FLASHBACK-VETENSKAP"
+],
+"query_data": "eJwFwdEOQDAMBdAvkqyr7hZPI0RCREK863T__wnOCUYlimgwGFVPLK2XGonZ1ZktuLB3QGrlBSlK7RDBagQIfXVY9nytY5625pnv-bi2fPYkUVnTD20tGBY=\n",
+"time": 76.9745192527771
+}

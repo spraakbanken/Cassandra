@@ -1,0 +1,285 @@
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FAMILJELIV-ALLMANNA-EKONOMI",
+"match": {
+"position": 397,
+"start": 8,
+"end": 10
+},
+"tokens": [
+{
+"word": "Barnens",
+"deprel": "DT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|barn|",
+"lex": "|barn..nn.1|",
+"msd": "NN.NEU.PLU.DEF.GEN",
+"pos": "NN"
+},
+{
+"word": "b\u00e4sta",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|bra|b\u00e4st|god|",
+"lex": "|bra..av.1|b\u00e4st..av.1|god..av.1|",
+"msd": "JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "ska",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|skola|",
+"lex": "|skola..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "g\u00e5",
+"deprel": "VG",
+"dephead": "3",
+"ref": "4",
+"lemma": "|g\u00e5|g\u00e5_f\u00f6re|",
+"lex": "|g\u00e5..vb.1|g\u00e5_f\u00f6re..vbm.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "f\u00f6re",
+"deprel": "PL",
+"dephead": "4",
+"ref": "5",
+"lemma": "|g\u00e5_f\u00f6re:4|",
+"lex": "|g\u00e5_f\u00f6re..vbm.1:4|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "3",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "sj\u00e4lvklart",
+"deprel": "MA",
+"dephead": "8",
+"ref": "7",
+"lemma": "|sj\u00e4lvklar|",
+"lex": "|sj\u00e4lvklar..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "ska",
+"deprel": "MS",
+"dephead": "3",
+"ref": "8",
+"lemma": "|skola|",
+"lex": "|skola..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "8",
+"ref": "9",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "f\u00e5",
+"deprel": "VG",
+"dephead": "8",
+"ref": "10",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "fira",
+"deprel": "VG",
+"dephead": "10",
+"ref": "11",
+"lemma": "|fira|",
+"lex": "|fira..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "b\u00e5da",
+"deprel": "DT",
+"dephead": "15",
+"ref": "13",
+"lemma": "|",
+"lex": "|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "sina",
+"deprel": "DT",
+"dephead": "15",
+"ref": "14",
+"lemma": "|sig|",
+"lex": "|sig..pn.1|",
+"msd": "PS.UTR+NEU.PLU.DEF",
+"pos": "PS"
+},
+{
+"word": "f\u00f6r\u00e4ldrar",
+"deprel": "PA",
+"dephead": "12",
+"ref": "15",
+"lemma": "|f\u00f6r\u00e4lder|",
+"lex": "|f\u00f6r\u00e4lder..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "8",
+"ref": "16",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FAMILJELIV-ALLMANNA-EKONOMI",
+"match": {
+"position": 470,
+"start": 4,
+"end": 6
+},
+"tokens": [
+{
+"word": "Lilla",
+"deprel": "AT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|liten|",
+"lex": "|liten..av.1|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "basbeloppsregeln",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|basbeloppsregel|",
+"lex": "|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "g\u00e4ller",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|g\u00e4lla|",
+"lex": "|g\u00e4lla..vb.1|g\u00e4lla..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|om|",
+"lex": "|om..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "7",
+"ref": "5",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "bara",
+"deprel": "CA",
+"dephead": "7",
+"ref": "6",
+"lemma": "|bara|",
+"lex": "|bara..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "\u00e4r",
+"deprel": "UA",
+"dephead": "4",
+"ref": "7",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "sambo",
+"deprel": "SP",
+"dephead": "7",
+"ref": "8",
+"lemma": "|sambo|",
+"lex": "|sambo..nn.1|sambo..nn.2|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 207988,
+"corpus_hits": {
+"FAMILJELIV-ALLMANNA-EKONOMI": 207988
+},
+"corpus_order": [
+"FAMILJELIV-ALLMANNA-EKONOMI"
+],
+"query_data": "eJwFwcENwzAIAMCJIiGMA7QvP1LJqe38OgBg9h-hd6k1ALQICQeq2w7GM90pLG1TNQcBR0A-06pS8i5JnEoUUeL9abOP-xr9d7QxZlurHdf3Wc_sLwRWkT9zcBt5\n",
+"time": 11.384536266326904
+}

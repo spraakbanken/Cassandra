@@ -1,0 +1,320 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-SPORT",
+"match": {
+"position": 241,
+"start": 8,
+"end": 10
+},
+"tokens": [
+{
+"word": "Fiorentina",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "rej\u00e4lt",
+"deprel": "AA",
+"dephead": "4",
+"ref": "3",
+"lemma": "|rej\u00e4l|",
+"lex": "|rej\u00e4l..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "f\u00f6rbannade",
+"deprel": "SP",
+"dephead": "2",
+"ref": "4",
+"lemma": "|f\u00f6rbanna|f\u00f6rbannad|",
+"lex": "|f\u00f6rbanna..vb.1|f\u00f6rbannad..av.1|",
+"msd": "PC.PRF.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "PC"
+},
+{
+"word": "p\u00e5",
+"deprel": "OA",
+"dephead": "2",
+"ref": "5",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Inter",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "p.g.a.",
+"deprel": "CA",
+"dephead": "2",
+"ref": "7",
+"lemma": "|",
+"lex": "|",
+"msd": "AB.AN",
+"pos": "AB"
+},
+{
+"word": "att",
+"deprel": "KA",
+"dephead": "2",
+"ref": "8",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "10",
+"ref": "9",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "f\u00f6rs\u00f6ker",
+"deprel": "UA",
+"dephead": "8",
+"ref": "10",
+"lemma": "|f\u00f6rs\u00f6ka|",
+"lex": "|f\u00f6rs\u00f6ka..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "kapa",
+"deprel": "OO",
+"dephead": "10",
+"ref": "11",
+"lemma": "|kapa|kapa_\u00e5t_sig|",
+"lex": "|kapa..vb.1|kapa_\u00e5t_sig..vbm.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "\u00e5t",
+"deprel": "PL",
+"dephead": "11",
+"ref": "12",
+"lemma": "|kapa_\u00e5t_sig:11|",
+"lex": "|kapa_\u00e5t_sig..vbm.1:11|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "sig",
+"deprel": "IO",
+"dephead": "11",
+"ref": "13",
+"lemma": "|sig|kapa_\u00e5t_sig:11|",
+"lex": "|sig..pn.1|kapa_\u00e5t_sig..vbm.1:11|",
+"msd": "PN.UTR+NEU.SIN+PLU.DEF.OBJ",
+"pos": "PN"
+},
+{
+"word": "Mohamed",
+"deprel": "OO",
+"dephead": "11",
+"ref": "14",
+"lemma": "|Mohamed|",
+"lex": "|Mohamed..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Salah",
+"deprel": "HD",
+"dephead": "14",
+"ref": "15",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "16",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FLASHBACK-SPORT",
+"match": {
+"position": 964,
+"start": 5,
+"end": 7
+},
+"tokens": [
+{
+"word": "Man",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|man|",
+"lex": "|man..pn.1|",
+"msd": "PN.UTR.SIN.IND.SUB",
+"pos": "PN"
+},
+{
+"word": "vet",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|veta|",
+"lex": "|veta..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "fan",
+"deprel": "MA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|fan|",
+"lex": "|fan..in.1|",
+"msd": "IN",
+"pos": "IN"
+},
+{
+"word": "aldrig",
+"deprel": "TA",
+"dephead": "2",
+"ref": "4",
+"lemma": "|aldrig|",
+"lex": "|aldrig..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "n\u00e4r",
+"deprel": "TA",
+"dephead": "7",
+"ref": "5",
+"lemma": "|n\u00e4r|",
+"lex": "|n\u00e4r..ab.1|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "7",
+"ref": "6",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "l\u00e4gger",
+"deprel": "MS",
+"dephead": "9",
+"ref": "7",
+"lemma": "|l\u00e4gga|l\u00e4gga_sig|",
+"lex": "|l\u00e4gga..vb.1|l\u00e4gga_sig..vbm.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "sig",
+"deprel": "OO",
+"dephead": "7",
+"ref": "8",
+"lemma": "|sig|l\u00e4gga_sig:7|",
+"lex": "|sig..pn.1|l\u00e4gga_sig..vbm.1:7|",
+"msd": "PN.UTR+NEU.SIN+PLU.DEF.OBJ",
+"pos": "PN"
+},
+{
+"word": "eller",
+"deprel": "OO",
+"dephead": "2",
+"ref": "9",
+"lemma": "|eller|",
+"lex": "|eller..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "faktiskt",
+"deprel": "MA",
+"dephead": "11",
+"ref": "10",
+"lemma": "|faktisk|",
+"lex": "|faktisk..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "f\u00f6rs\u00f6ker",
+"deprel": "+F",
+"dephead": "9",
+"ref": "11",
+"lemma": "|f\u00f6rs\u00f6ka|",
+"lex": "|f\u00f6rs\u00f6ka..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 711176,
+"corpus_hits": {
+"FLASHBACK-SPORT": 711176
+},
+"corpus_order": [
+"FLASHBACK-SPORT"
+],
+"query_data": "eJwFwdsJgDAMBdCJhNzENq1-qSCCgmJdoOlj_xE8B9xh0hlkEnwhFwMpNeMYIbH3kB2bIxWtFa0BPJLPEDFYcZB5v5Z0rMt2Dum5329SAOp_2VoWYg==\n",
+"time": 39.3502471446991
+}

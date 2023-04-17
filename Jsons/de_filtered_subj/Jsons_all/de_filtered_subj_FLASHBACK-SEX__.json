@@ -1,0 +1,176 @@
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-SEX",
+"match": {
+"position": 771,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "Det",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "s\u00e5",
+"deprel": "XX",
+"dephead": "2",
+"ref": "3",
+"lemma": "|s\u00e5|",
+"lex": "|s\u00e5..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "5",
+"ref": "4",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "ska",
+"deprel": "EF",
+"dephead": "3",
+"ref": "5",
+"lemma": "|skola|",
+"lex": "|skola..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "se",
+"deprel": "VG",
+"dephead": "5",
+"ref": "6",
+"lemma": "|se|se_ut|",
+"lex": "|se..vb.1|se_ut..vbm.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "ut",
+"deprel": "PL",
+"dephead": "6",
+"ref": "7",
+"lemma": "|ut|se_ut:6|",
+"lex": "|ut..ab.1|se_ut..vbm.1:6|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "8",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FLASHBACK-SEX",
+"match": {
+"position": 1273,
+"start": 1,
+"end": 3
+},
+"tokens": [
+{
+"word": "E",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|e|",
+"lex": "|e..nn.1|e..nna.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "1",
+"ref": "2",
+"lemma": "|de|den_d\u00e4r|",
+"lex": "|de..pn.1|den_d\u00e4r..pnm.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "d\u00e4r",
+"deprel": "RA",
+"dephead": "1",
+"ref": "3",
+"lemma": "|d\u00e4r|den_d\u00e4r:2|",
+"lex": "|d\u00e4r..ab.1|den_d\u00e4r..pnm.1:2|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "5",
+"ref": "4",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "man",
+"deprel": "OO",
+"dephead": "1",
+"ref": "5",
+"lemma": "|man|",
+"lex": "|man..nn.1|man..nn.2|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "?",
+"deprel": "I?",
+"dephead": "1",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 255839,
+"corpus_hits": {
+"FLASHBACK-SEX": 255839
+},
+"corpus_order": [
+"FLASHBACK-SEX"
+],
+"query_data": "eJwNwTEOgCAMAMAXmZTSQtFJjcZENxbXUsr_n6B3Qb2TYWNBsxFdfsEZEmUBR0JUalBaMHZj6q6YQh4JNEkvxZbzWeu1rfs91eOdkVli-QDqIxbY\n",
+"time": 16.397780418395996
+}

@@ -1,0 +1,381 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FAMILJELIV-MEDLEM-VANTARBARN",
+"match": {
+"position": 757,
+"start": 4,
+"end": 6
+},
+"tokens": [
+{
+"word": "Inte",
+"deprel": "NA",
+"dephead": "3",
+"ref": "1",
+"lemma": "|inte|",
+"lex": "|inte..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "s\u00e5",
+"deprel": "AA",
+"dephead": "3",
+"ref": "2",
+"lemma": "|s\u00e5|",
+"lex": "|s\u00e5..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "konstigt",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|konstig|",
+"lex": "|konstig..av.1|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "om",
+"deprel": "AA",
+"dephead": "3",
+"ref": "4",
+"lemma": "|om|",
+"lex": "|om..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "6",
+"ref": "5",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "UA",
+"dephead": "4",
+"ref": "6",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "superstressade",
+"deprel": "SP",
+"dephead": "6",
+"ref": "7",
+"lemma": "|superstressad|",
+"lex": "|superstressad..av.1|",
+"msd": "PC.PRF.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "PC"
+},
+{
+"word": "p\u00e5",
+"deprel": "RA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "CSK",
+"deprel": "PA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "eftersom",
+"deprel": "AA",
+"dephead": "6",
+"ref": "10",
+"lemma": "|eftersom|",
+"lex": "|eftersom..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "andra",
+"deprel": "DT",
+"dephead": "12",
+"ref": "11",
+"lemma": "|andra|annan|",
+"lex": "|andra..av.1|annan..pn.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "f\u00f6rlossningsmottagningar",
+"deprel": "SS",
+"dephead": "18",
+"ref": "12",
+"lemma": "|f\u00f6rlossningsmottagning|",
+"lex": "|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "12",
+"ref": "13",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "18",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "12",
+"ref": "15",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Torsby",
+"deprel": "PA",
+"dephead": "15",
+"ref": "16",
+"lemma": "|Torsby|",
+"lex": "|Torsby..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "12",
+"ref": "17",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "har",
+"deprel": "UA",
+"dephead": "10",
+"ref": "18",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "f\u00e5tt",
+"deprel": "VG",
+"dephead": "18",
+"ref": "19",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "l\u00e4gga",
+"deprel": "VG",
+"dephead": "19",
+"ref": "20",
+"lemma": "|l\u00e4gga|l\u00e4gga_ned|",
+"lex": "|l\u00e4gga..vb.1|l\u00e4gga_ned..vbm.1|l\u00e4gga_ned..vbm.2|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "ned",
+"deprel": "PL",
+"dephead": "20",
+"ref": "21",
+"lemma": "|ned|l\u00e4gga_ned:20|",
+"lex": "|ned..ab.1|l\u00e4gga_ned..vbm.1:20|l\u00e4gga_ned..vbm.2:20|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "22",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FAMILJELIV-MEDLEM-VANTARBARN",
+"match": {
+"position": 959,
+"start": 2,
+"end": 4
+},
+"tokens": [
+{
+"word": "Ibland",
+"deprel": "TA",
+"dephead": "2",
+"ref": "1",
+"lemma": "|ibland|",
+"lex": "|ibland..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "har",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "2",
+"ref": "3",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "bara",
+"deprel": "CA",
+"dephead": "2",
+"ref": "4",
+"lemma": "|bara|",
+"lex": "|bara..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "v\u00e4ldigt",
+"deprel": "AA",
+"dephead": "6",
+"ref": "5",
+"lemma": "|v\u00e4ldig|",
+"lex": "|v\u00e4ldig..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "lite",
+"deprel": "AT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|lite|",
+"lex": "|lite..ab.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "f\u00f6rst\u00e5else",
+"deprel": "OO",
+"dephead": "2",
+"ref": "7",
+"lemma": "|f\u00f6rst\u00e5else|",
+"lex": "|f\u00f6rst\u00e5else..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "2",
+"ref": "8",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "kan",
+"deprel": "MS",
+"dephead": "2",
+"ref": "9",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "man",
+"deprel": "SS",
+"dephead": "9",
+"ref": "10",
+"lemma": "|man|",
+"lex": "|man..pn.1|",
+"msd": "PN.UTR.SIN.IND.SUB",
+"pos": "PN"
+},
+{
+"word": "tycka",
+"deprel": "VG",
+"dephead": "9",
+"ref": "11",
+"lemma": "|tycka|",
+"lex": "|tycka..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "!",
+"deprel": "IU",
+"dephead": "9",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 886321,
+"corpus_hits": {
+"FAMILJELIV-MEDLEM-VANTARBARN": 886321
+},
+"corpus_order": [
+"FAMILJELIV-MEDLEM-VANTARBARN"
+],
+"query_data": "eJwFwUEOwyAMBMAXRTKlYNOeqEqlRJBDFOWO7c3_n9AZmZjmDOiTXd1KKCrsWZU8FNJEambEuGPyKfAEnkCQGzGT4f2rY-1b6-u1jPbtbSxX3c96fOqxv0RyfIQ_CKsdVg==\n",
+"time": 43.58270072937012
+}

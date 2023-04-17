@@ -1,0 +1,293 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2009",
+"match": {
+"position": 62,
+"start": 7,
+"end": 9
+},
+"tokens": [
+{
+"word": "M\u00e5nga",
+"deprel": "SS",
+"dephead": "6",
+"ref": "1",
+"lemma": "|m\u00e5ngen|",
+"lex": "|m\u00e5ngen..pn.1|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "1",
+"ref": "2",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "cheferna",
+"deprel": "PA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|chef|",
+"lex": "|chef..nn.1|",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "p\u00e5",
+"deprel": "ET",
+"dephead": "3",
+"ref": "4",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "m\u00f6tet",
+"deprel": "PA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|m\u00f6te|",
+"lex": "|m\u00f6te..nn.1|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "uppfattade",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "6",
+"lemma": "|uppfatta|",
+"lex": "|uppfatta..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "6",
+"ref": "7",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "9",
+"ref": "8",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "f\u00f6rbj\u00f6ds",
+"deprel": "UA",
+"dephead": "7",
+"ref": "9",
+"lemma": "|f\u00f6rbjuda|",
+"lex": "|f\u00f6rbjuda..vb.1|",
+"msd": "VB.PRT.SFO",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "OA",
+"dephead": "9",
+"ref": "10",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "tala",
+"deprel": "IF",
+"dephead": "10",
+"ref": "11",
+"lemma": "|tala|",
+"lex": "|tala..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "media",
+"deprel": "PA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|medium|",
+"lex": "|medium..nn.1|medium..nn.2|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "6",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2009",
+"match": {
+"position": 383,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "Anledningen",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|anledning|",
+"lex": "|anledning..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "\u00e4r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "SS",
+"dephead": "2",
+"ref": "3",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "5",
+"ref": "4",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "anst\u00e4lla",
+"deprel": "UA",
+"dephead": "3",
+"ref": "5",
+"lemma": "|anst\u00e4lla|",
+"lex": "|anst\u00e4lla..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "bara",
+"deprel": "CA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|bara|",
+"lex": "|bara..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "erbjuds",
+"deprel": "UA",
+"dephead": "3",
+"ref": "7",
+"lemma": "|erbjuda|",
+"lex": "|erbjuda..vb.1|",
+"msd": "VB.PRS.SFO",
+"pos": "VB"
+},
+{
+"word": "tj\u00e4nster",
+"deprel": "OO",
+"dephead": "7",
+"ref": "8",
+"lemma": "|tj\u00e4nst|",
+"lex": "|tj\u00e4nst..nn.1|tj\u00e4nst..nn.2|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "p\u00e5",
+"deprel": "ET",
+"dephead": "8",
+"ref": "9",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "75",
+"deprel": "DT",
+"dephead": "11",
+"ref": "10",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "procent",
+"deprel": "PA",
+"dephead": "9",
+"ref": "11",
+"lemma": "|procent|",
+"lex": "|procent..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 22591,
+"corpus_hits": {
+"SVT-2009": 22591
+},
+"corpus_order": [
+"SVT-2009"
+],
+"query_data": "eJwNzMsRgDAIBcCKnCF8kjwtQ8c7IdB_CboFLISJNkVWinqxyhwYpLHBi5Sq2ZrNnVUxAo4kk_DVa6d18-t-n-MvcDIb2gdNihTn\n",
+"time": 1.7612874507904053
+}

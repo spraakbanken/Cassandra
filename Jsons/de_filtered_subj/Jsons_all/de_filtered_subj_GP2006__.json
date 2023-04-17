@@ -1,0 +1,143 @@
+{
+"kwic": [
+{
+"corpus": "GP2006",
+"match": {
+"position": 292,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "1",
+"dephead": "2",
+"deprel": "SS"
+},
+{
+"word": "var",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"ref": "2",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "franska",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"lemma": "|fransk|",
+"lex": "|fransk..av.1|",
+"ref": "3",
+"dephead": "2",
+"deprel": "SP"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "4",
+"dephead": "2",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "GP2006",
+"match": {
+"position": 1281,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "1",
+"dephead": "2",
+"deprel": "SS"
+},
+{
+"word": "passade",
+"pos": "VB",
+"msd": "VB.PRT.AKT",
+"lemma": "|passa|passa_in|",
+"lex": "|passa..vb.2|passa..vb.1|passa_in..vbm.1|",
+"ref": "2",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "in",
+"pos": "PL",
+"msd": "PL",
+"lemma": "|in|passa_in:2|in_i|",
+"lex": "|in..ab.1|passa_in..vbm.1:2|in_i..ppm.1|",
+"ref": "3",
+"dephead": "2",
+"deprel": "PL"
+},
+{
+"word": "i",
+"pos": "PP",
+"msd": "PP",
+"lemma": "|i|in_i:3|",
+"lex": "|i..pp.1|in_i..ppm.1:3|",
+"ref": "4",
+"dephead": "2",
+"deprel": "TA"
+},
+{
+"word": "pluggskolans",
+"pos": "NN",
+"msd": "NN.UTR.SIN.DEF.GEN",
+"lemma": "|pluggskola|pluggskolan|pluggskolans|",
+"lex": "|",
+"ref": "5",
+"dephead": "4",
+"deprel": "HD"
+},
+{
+"word": "v\u00e4rld",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|v\u00e4rld|",
+"lex": "|v\u00e4rld..nn.1|",
+"ref": "6",
+"dephead": "2",
+"deprel": "OO"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "7",
+"dephead": "2",
+"deprel": "IP"
+}
+]
+}
+],
+"hits": 55450,
+"corpus_hits": {
+"GP2006": 55450
+},
+"corpus_order": [
+"GP2006"
+],
+"query_data": "eJwNxsEBgDAIA8CVAgJNdQC_rkAp7j-C3us0TTblRSjpnlPCStNGscES4d-VvRrjmIlRPhsoekZ29XU_CsTpbo4PF-AUUw==\n",
+"time": 4.183189868927002
+}

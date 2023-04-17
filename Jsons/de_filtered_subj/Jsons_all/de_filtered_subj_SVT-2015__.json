@@ -1,0 +1,183 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2015",
+"match": {
+"position": 306,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "fick",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "personal",
+"deprel": "CJ",
+"dephead": "6",
+"ref": "3",
+"lemma": "|personal|",
+"lex": "|personal..nn.1|personal..nn.2|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "6",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "f\u00f6r\u00e4ldrar",
+"deprel": "CJ",
+"dephead": "6",
+"ref": "5",
+"lemma": "|f\u00f6r\u00e4lder|",
+"lex": "|f\u00f6r\u00e4lder..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "OO",
+"dephead": "2",
+"ref": "6",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "barn",
+"deprel": "CJ",
+"dephead": "6",
+"ref": "7",
+"lemma": "|barn|",
+"lex": "|barn..nn.1|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "att",
+"deprel": "OA",
+"dephead": "2",
+"ref": "8",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "protestera",
+"deprel": "IF",
+"dephead": "8",
+"ref": "9",
+"lemma": "|protestera|",
+"lex": "|protestera..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "h\u00f6gljutt",
+"deprel": "AA",
+"dephead": "9",
+"ref": "10",
+"lemma": "|h\u00f6gljudd|",
+"lex": "|h\u00f6gljudd..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "11",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2015",
+"match": {
+"position": 418,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "sommarjobbar",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|sommarjobba|",
+"lex": "|sommarjobba..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "barnkonventionen",
+"deprel": "PA",
+"dephead": "3",
+"ref": "4",
+"lemma": "|barnkonvention|",
+"lex": "|barnkonvention..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+}
+]
+}
+],
+"hits": 63198,
+"corpus_hits": {
+"SVT-2015": 63198
+},
+"corpus_order": [
+"SVT-2015"
+],
+"query_data": "eJwFwcsRgDAIBcCKnAHD46Nl6HgHkvRfgrtaCo0UVUtBUyPbAePeS72nAZNWu62kQFULUqxjzF1sUvfzvcdJjEsHh_9klxVo\n",
+"time": 2.3555407524108887
+}
