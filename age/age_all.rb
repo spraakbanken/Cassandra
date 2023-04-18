@@ -39,7 +39,7 @@ f.each_line.with_index do |line, index|
             file.each_line do |line|
                 line1 = line.strip
                 if flag2
-                    birthyear = 2021 - line1.split(" ")[0].to_i
+                    birthyear = Time.now.year - line1.split(" ")[0].to_i
                     break
                 end
             
