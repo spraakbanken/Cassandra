@@ -80,7 +80,7 @@ f.each_line do |line|
                 elsif agehash[current_user] < 1990 
                     agebin = "Gen4"
                 else
-                    agebin = "Gen4"
+                    agebin = "Gen5"
                 end
                 o.puts "# agebin = #{agebin}" ###
 
