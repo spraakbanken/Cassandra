@@ -1,8 +1,8 @@
 
 df <- read.csv("familjeliv-kansliga_sentence_10000_firstage18_de_vs_dem_vs_dom.tsv",header=TRUE,sep="\t")
 
-gen = "Gen3"
-threshold = 20
+gen = "Gen1"
+threshold = 5
 x = sort(unique(df$post_year))
 y = c()
 for (year in x) {
@@ -14,8 +14,8 @@ else {
 }
 }
 
-#plot(x,y, type="b",ylim=c(0,1))
-points(x,y, type="b",ylim=c(0,1),col="blue")
+plot(x,y, type="b",ylim=c(0,1))
+points(x,y, type="b",ylim=c(0,1),col="orange")
 
 stripchart(v3rel ~ post_year, data = gen3, xlab = "year", ylab = "Andel 'dom'",main = "Generation 3", vertical=TRUE)
 boxplot(v3rel ~ post_year, data = gen1, xlab = "year", ylab = "Andel 'dom'",main = "Generation 1", varwidth = TRUE
