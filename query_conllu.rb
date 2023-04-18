@@ -1,10 +1,10 @@
 PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
 subforum = "kansliga"
 token_threshold = 10000
-firstage = 20
+firstage = 18
 
 
-f = File.open("#{PATH}familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firstage}.conllu","r:utf-8")
+f = File.open("#{PATH}familjeliv-#{subforum}_sentence_age#{token_threshold}_#{firstage}.conllu","r:utf-8")
 variable = ARGV[0]
 if variable.to_s == ""
     STDERR.puts "Specify variable!"
