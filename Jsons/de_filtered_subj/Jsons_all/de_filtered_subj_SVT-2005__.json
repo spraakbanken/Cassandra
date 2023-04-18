@@ -1,0 +1,533 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2005",
+"match": {
+"position": 94,
+"start": 13,
+"end": 15
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "DT",
+"dephead": "2",
+"ref": "1",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "tre",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|tre|",
+"lex": "|tre..nl.1|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "hade",
+"deprel": "MS",
+"dephead": "7",
+"ref": "3",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "flugit",
+"deprel": "VG",
+"dephead": "3",
+"ref": "4",
+"lemma": "|flyga|",
+"lex": "|flyga..vb.1|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "fr\u00e5n",
+"deprel": "RA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|fr\u00e5n|",
+"lex": "|fr\u00e5n..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Idre",
+"deprel": "PA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "och",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "7",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "var",
+"deprel": "+F",
+"dephead": "7",
+"ref": "8",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "p\u00e5",
+"deprel": "RA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|p\u00e5|p\u00e5_v\u00e4g|",
+"lex": "|p\u00e5..pp.1|p\u00e5_v\u00e4g..avm.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "v\u00e4g",
+"deprel": "PA",
+"dephead": "9",
+"ref": "10",
+"lemma": "|v\u00e4g|p\u00e5_v\u00e4g:9|",
+"lex": "|v\u00e4g..nn.1|p\u00e5_v\u00e4g..avm.1:9|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "RA",
+"dephead": "8",
+"ref": "11",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Karlstad",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|Karlstad|",
+"lex": "|Karlstad..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "n\u00e4r",
+"deprel": "TA",
+"dephead": "15",
+"ref": "13",
+"lemma": "|n\u00e4r|",
+"lex": "|n\u00e4r..ab.1|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "15",
+"ref": "14",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00f6verraskades",
+"deprel": "TA",
+"dephead": "8",
+"ref": "15",
+"lemma": "|\u00f6verraska|",
+"lex": "|\u00f6verraska..vb.1|",
+"msd": "VB.PRT.SFO",
+"pos": "VB"
+},
+{
+"word": "av",
+"deprel": "AG",
+"dephead": "15",
+"ref": "16",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "d\u00e5ligt",
+"deprel": "AT",
+"dephead": "18",
+"ref": "17",
+"lemma": "|d\u00e5lig|",
+"lex": "|d\u00e5lig..av.1|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "v\u00e4der",
+"deprel": "PA",
+"dephead": "16",
+"ref": "18",
+"lemma": "|v\u00e4der|",
+"lex": "|v\u00e4der..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "7",
+"ref": "19",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2005",
+"match": {
+"position": 415,
+"start": 16,
+"end": 18
+},
+"tokens": [
+{
+"word": "I",
+"deprel": "AA",
+"dephead": "7",
+"ref": "1",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "ett",
+"deprel": "DT",
+"dephead": "3",
+"ref": "2",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.NEU.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "f\u00f6rslag",
+"deprel": "PA",
+"dephead": "1",
+"ref": "3",
+"lemma": "|f\u00f6rslag|",
+"lex": "|f\u00f6rslag..nn.1|f\u00f6rslag_2..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "ET",
+"dephead": "3",
+"ref": "4",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "ny",
+"deprel": "AT",
+"dephead": "6",
+"ref": "5",
+"lemma": "|ny|",
+"lex": "|ny..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "rovdjurspolitik",
+"deprel": "PA",
+"dephead": "4",
+"ref": "6",
+"lemma": "|rovdjurspolitik|",
+"lex": "|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "vill",
+"deprel": "MS",
+"dephead": "16",
+"ref": "7",
+"lemma": "|vilja|",
+"lex": "|vilja..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "moderaterna",
+"deprel": "SS",
+"dephead": "7",
+"ref": "8",
+"lemma": "|moderat|",
+"lex": "|moderat..nn.1|",
+"msd": "NN.UTR.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "g\u00f6ra",
+"deprel": "VG",
+"dephead": "7",
+"ref": "9",
+"lemma": "|g\u00f6ra|",
+"lex": "|g\u00f6ra..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "det",
+"deprel": "OO",
+"dephead": "9",
+"ref": "10",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "l\u00e4ttare",
+"deprel": "OP",
+"dephead": "9",
+"ref": "11",
+"lemma": "|l\u00e4tt|",
+"lex": "|l\u00e4tt..av.1|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "9",
+"ref": "12",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "skyddjakt",
+"deprel": "PA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|skyddjakt|",
+"lex": "|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "p\u00e5",
+"deprel": "ET",
+"dephead": "13",
+"ref": "14",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "varg",
+"deprel": "PA",
+"dephead": "14",
+"ref": "15",
+"lemma": "|varg|",
+"lex": "|varg..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "och",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "16",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "18",
+"ref": "17",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "vill",
+"deprel": "MS",
+"dephead": "16",
+"ref": "18",
+"lemma": "|vilja|",
+"lex": "|vilja..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "samtidigt",
+"deprel": "TA",
+"dephead": "18",
+"ref": "19",
+"lemma": "|samtidig|",
+"lex": "|samtidig..av.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "18",
+"ref": "20",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "besluten",
+"deprel": "SS",
+"dephead": "24",
+"ref": "21",
+"lemma": "|beslut|",
+"lex": "|beslut..nn.1|",
+"msd": "NN.NEU.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "om",
+"deprel": "ET",
+"dephead": "21",
+"ref": "22",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "skyddsjakt",
+"deprel": "PA",
+"dephead": "22",
+"ref": "23",
+"lemma": "|skyddsjakt|",
+"lex": "|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "ska",
+"deprel": "UA",
+"dephead": "20",
+"ref": "24",
+"lemma": "|skola|",
+"lex": "|skola..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "fattas",
+"deprel": "VG",
+"dephead": "24",
+"ref": "25",
+"lemma": "|fatta|fattas|",
+"lex": "|fatta..vb.1|fatta..vb.2|fattas..vb.1|",
+"msd": "VB.INF.SFO",
+"pos": "VB"
+},
+{
+"word": "p\u00e5",
+"deprel": "RA",
+"dephead": "25",
+"ref": "26",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "en",
+"deprel": "DT",
+"dephead": "30",
+"ref": "27",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "mer",
+"deprel": "AA",
+"dephead": "29",
+"ref": "28",
+"lemma": "|mer|mycket|",
+"lex": "|mer..ab.1|mycket..ab.1|",
+"msd": "AB.KOM",
+"pos": "AB"
+},
+{
+"word": "lokal",
+"deprel": "AT",
+"dephead": "30",
+"ref": "29",
+"lemma": "|lokal|",
+"lex": "|lokal..av.1|",
+"msd": "JJ.POS.UTR.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "niv\u00e5",
+"deprel": "PA",
+"dephead": "26",
+"ref": "30",
+"lemma": "|niv\u00e5|",
+"lex": "|niv\u00e5..nn.1|",
+"msd": "NN.UTR.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "16",
+"ref": "31",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 7031,
+"corpus_hits": {
+"SVT-2005": 7031
+},
+"corpus_order": [
+"SVT-2005"
+],
+"query_data": "eJwNy8ERgDAIBdGKnIEQ_EHL0PFOgPRfgrns5c26cyVsMp2rdsJCnOCp1UoD6F1kq4F1LVGttDFsP9mzMO_ne49GpBdI-AdcrhUk\n",
+"time": 1.0388667583465576
+}

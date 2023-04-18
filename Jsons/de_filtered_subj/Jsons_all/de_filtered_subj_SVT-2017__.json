@@ -1,0 +1,293 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2017",
+"match": {
+"position": 998,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "\u2013",
+"deprel": "RA",
+"dephead": "3",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Startkitet",
+"deprel": "PA",
+"dephead": "1",
+"ref": "2",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "f\u00e5r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "3",
+"ref": "4",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "l\u00e5na",
+"deprel": "VG",
+"dephead": "3",
+"ref": "5",
+"lemma": "|l\u00e5na|",
+"lex": "|l\u00e5na..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "ett",
+"deprel": "DT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.NEU.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "tag",
+"deprel": "OO",
+"dephead": "5",
+"ref": "7",
+"lemma": "|tag|",
+"lex": "|tag..nn.1|tag..nn.2|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "medan",
+"deprel": "TA",
+"dephead": "5",
+"ref": "8",
+"lemma": "|medan|",
+"lex": "|medan..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "10",
+"ref": "9",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "provar",
+"deprel": "UA",
+"dephead": "8",
+"ref": "10",
+"lemma": "|prova|",
+"lex": "|prova..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "p\u00e5",
+"deprel": "RA",
+"dephead": "10",
+"ref": "11",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "hockeyn",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|hockey|",
+"lex": "|hockey..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "13",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2017",
+"match": {
+"position": 1003,
+"start": 8,
+"end": 10
+},
+"tokens": [
+{
+"word": "\u2013",
+"deprel": "RA",
+"dephead": "3",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Startkitet",
+"deprel": "PA",
+"dephead": "1",
+"ref": "2",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "f\u00e5r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "3",
+"ref": "4",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "l\u00e5na",
+"deprel": "VG",
+"dephead": "3",
+"ref": "5",
+"lemma": "|l\u00e5na|",
+"lex": "|l\u00e5na..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "ett",
+"deprel": "DT",
+"dephead": "7",
+"ref": "6",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.NEU.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "tag",
+"deprel": "OO",
+"dephead": "5",
+"ref": "7",
+"lemma": "|tag|",
+"lex": "|tag..nn.1|tag..nn.2|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "medan",
+"deprel": "TA",
+"dephead": "5",
+"ref": "8",
+"lemma": "|medan|",
+"lex": "|medan..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "10",
+"ref": "9",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "provar",
+"deprel": "UA",
+"dephead": "8",
+"ref": "10",
+"lemma": "|prova|",
+"lex": "|prova..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "p\u00e5",
+"deprel": "RA",
+"dephead": "10",
+"ref": "11",
+"lemma": "|p\u00e5|",
+"lex": "|p\u00e5..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "hockeyn",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|hockey|",
+"lex": "|hockey..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "13",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 71269,
+"corpus_hits": {
+"SVT-2017": 71269
+},
+"corpus_order": [
+"SVT-2017"
+],
+"query_data": "eJwNycENgDAMA8CJkOo0tQmMAeLftHT_EeB30rHJ1p6sUsgxANcMKSsi2y9X9lZpboKlT4qjjJnlRbfF83ruzQp0_M34ABc1E-Q=\n",
+"time": 3.3552820682525635
+}

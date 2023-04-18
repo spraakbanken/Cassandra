@@ -1,0 +1,419 @@
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-DROGER",
+"match": {
+"position": 26,
+"start": 6,
+"end": 8
+},
+"tokens": [
+{
+"word": "Om",
+"deprel": "AA",
+"dephead": "6",
+"ref": "1",
+"lemma": "|om|",
+"lex": "|om..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "du",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|du|",
+"lex": "|du..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "UA",
+"dephead": "1",
+"ref": "3",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "\u00f6ver",
+"deprel": "RA",
+"dephead": "3",
+"ref": "4",
+"lemma": "|\u00f6ver|",
+"lex": "|\u00f6ver..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "40",
+"deprel": "PA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "fungerar",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "6",
+"lemma": "|fungera|",
+"lex": "|fungera..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "6",
+"ref": "7",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "s\u00e5",
+"deprel": "AA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|s\u00e5|",
+"lex": "|s\u00e5..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "att",
+"deprel": "KA",
+"dephead": "6",
+"ref": "9",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "12",
+"ref": "10",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "eventuellt",
+"deprel": "MA",
+"dephead": "12",
+"ref": "11",
+"lemma": "|eventuell|",
+"lex": "|eventuell..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "kan",
+"deprel": "UA",
+"dephead": "8",
+"ref": "12",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "balansera",
+"deprel": "VG",
+"dephead": "12",
+"ref": "13",
+"lemma": "|balansera|",
+"lex": "|balansera..vb.1|balansera..vb.2|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "testo",
+"deprel": "AT",
+"dephead": "15",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "v\u00e4rden",
+"deprel": "OO",
+"dephead": "13",
+"ref": "15",
+"lemma": "|v\u00e4rde|",
+"lex": "|v\u00e4rde..nn.1|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "OA",
+"dephead": "13",
+"ref": "16",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "det",
+"deprel": "DT",
+"dephead": "18",
+"ref": "17",
+"lemma": "|den|en|",
+"lex": "|den..pn.1|en..al.1|",
+"msd": "DT.NEU.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "normala",
+"deprel": "PA",
+"dephead": "16",
+"ref": "18",
+"lemma": "|normal|",
+"lex": "|normal..av.1|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "6",
+"ref": "19",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FLASHBACK-DROGER",
+"match": {
+"position": 29,
+"start": 9,
+"end": 11
+},
+"tokens": [
+{
+"word": "Om",
+"deprel": "AA",
+"dephead": "6",
+"ref": "1",
+"lemma": "|om|",
+"lex": "|om..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "du",
+"deprel": "SS",
+"dephead": "3",
+"ref": "2",
+"lemma": "|du|",
+"lex": "|du..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "UA",
+"dephead": "1",
+"ref": "3",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "\u00f6ver",
+"deprel": "RA",
+"dephead": "3",
+"ref": "4",
+"lemma": "|\u00f6ver|",
+"lex": "|\u00f6ver..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "40",
+"deprel": "PA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": "fungerar",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "6",
+"lemma": "|fungera|",
+"lex": "|fungera..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "6",
+"ref": "7",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "s\u00e5",
+"deprel": "AA",
+"dephead": "6",
+"ref": "8",
+"lemma": "|s\u00e5|",
+"lex": "|s\u00e5..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "att",
+"deprel": "KA",
+"dephead": "6",
+"ref": "9",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "12",
+"ref": "10",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "eventuellt",
+"deprel": "MA",
+"dephead": "12",
+"ref": "11",
+"lemma": "|eventuell|",
+"lex": "|eventuell..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "kan",
+"deprel": "UA",
+"dephead": "8",
+"ref": "12",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "balansera",
+"deprel": "VG",
+"dephead": "12",
+"ref": "13",
+"lemma": "|balansera|",
+"lex": "|balansera..vb.1|balansera..vb.2|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "testo",
+"deprel": "AT",
+"dephead": "15",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "v\u00e4rden",
+"deprel": "OO",
+"dephead": "13",
+"ref": "15",
+"lemma": "|v\u00e4rde|",
+"lex": "|v\u00e4rde..nn.1|",
+"msd": "NN.NEU.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "till",
+"deprel": "OA",
+"dephead": "13",
+"ref": "16",
+"lemma": "|till|",
+"lex": "|till..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "det",
+"deprel": "DT",
+"dephead": "18",
+"ref": "17",
+"lemma": "|den|en|",
+"lex": "|den..pn.1|en..al.1|",
+"msd": "DT.NEU.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "normala",
+"deprel": "PA",
+"dephead": "16",
+"ref": "18",
+"lemma": "|normal|",
+"lex": "|normal..av.1|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "6",
+"ref": "19",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 622970,
+"corpus_hits": {
+"FLASHBACK-DROGER": 622970
+},
+"corpus_order": [
+"FLASHBACK-DROGER"
+],
+"query_data": "eJwNydsNgCAMAMCJTGiFtugXvhNNTHACamH_EfR-TygwghG9FqCQi-aFm5foLKioAINHRVZl31rtSyApDNXqH-B43K70HFOaz27J977mgRAjuw__Rxb0\n",
+"time": 34.15336990356445
+}

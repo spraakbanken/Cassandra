@@ -1,0 +1,313 @@
+{
+"kwic": [
+{
+"corpus": "DA",
+"match": {
+"position": 540,
+"start": 4,
+"end": 6
+},
+"structs": {
+"text_date": "2007-11-27 16:21:20",
+"text_id": "coverage-de-vill-avskaffa-asylratten",
+"text_author": "Per Wirt\u00e9n"
+},
+"tokens": [
+{
+"word": "G\u00f6ran",
+"deprel": "SS",
+"dephead": "3",
+"ref": "1",
+"lemma": "|G\u00f6ran|",
+"lex": "|G\u00f6ran..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Johansson",
+"deprel": "HD",
+"dephead": "1",
+"ref": "2",
+"lemma": "|Johansson|",
+"lex": "|Johansson..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "s\u00e4ger",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|s\u00e4ga|",
+"lex": "|s\u00e4ga..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "6",
+"ref": "5",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "f\u00e5r",
+"deprel": "UA",
+"dephead": "4",
+"ref": "6",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "komma",
+"deprel": "VG",
+"dephead": "6",
+"ref": "7",
+"lemma": "|komma|",
+"lex": "|komma..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "\"",
+"deprel": "PL",
+"dephead": "7",
+"ref": "8",
+"lemma": "|",
+"lex": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "den",
+"deprel": "DT",
+"dephead": "11",
+"ref": "9",
+"lemma": "|den|en|",
+"lex": "|den..pn.1|en..al.1|",
+"msd": "DT.UTR.SIN.DEF",
+"pos": "DT"
+},
+{
+"word": "vanliga",
+"deprel": "AT",
+"dephead": "11",
+"ref": "10",
+"lemma": "|vanlig|",
+"lex": "|vanlig..av.1|",
+"msd": "JJ.POS.UTR+NEU.SIN.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "v\u00e4gen",
+"deprel": "OO",
+"dephead": "7",
+"ref": "11",
+"lemma": "|v\u00e4g|",
+"lex": "|v\u00e4g..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "\"",
+"deprel": "JC",
+"dephead": "11",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "PAD",
+"pos": "PAD"
+},
+{
+"word": "i",
+"deprel": "+A",
+"dephead": "7",
+"ref": "13",
+"lemma": "|i|i_st\u00e4llet|",
+"lex": "|i..pp.1|i_st\u00e4llet..abm.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "st\u00e4llet",
+"deprel": "HD",
+"dephead": "13",
+"ref": "14",
+"lemma": "|st\u00e4ll|st\u00e4lle|i_st\u00e4llet:13|",
+"lex": "|st\u00e4ll..nn.1|st\u00e4lle..nn.1|i_st\u00e4llet..abm.1:13|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "15",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "DA",
+"match": {
+"position": 572,
+"start": 4,
+"end": 6
+},
+"structs": {
+"text_date": "2007-11-27 16:21:20",
+"text_id": "coverage-de-vill-avskaffa-asylratten",
+"text_author": "Per Wirt\u00e9n"
+},
+"tokens": [
+{
+"word": "Ilmar",
+"deprel": "SS",
+"dephead": "3",
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Reepalu",
+"deprel": "HD",
+"dephead": "1",
+"ref": "2",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "s\u00e4ger",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|s\u00e4ga|",
+"lex": "|s\u00e4ga..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "3",
+"ref": "4",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "6",
+"ref": "5",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "kan",
+"deprel": "UA",
+"dephead": "4",
+"ref": "6",
+"lemma": "|kunna|",
+"lex": "|kunna..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "s\u00f6ka",
+"deprel": "VG",
+"dephead": "6",
+"ref": "7",
+"lemma": "|s\u00f6ka|",
+"lex": "|s\u00f6ka..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "asyl",
+"deprel": "OO",
+"dephead": "7",
+"ref": "8",
+"lemma": "|asyl|",
+"lex": "|asyl..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "vid",
+"deprel": "RA",
+"dephead": "7",
+"ref": "9",
+"lemma": "|vid|",
+"lex": "|vid..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "svenska",
+"deprel": "AT",
+"dephead": "11",
+"ref": "10",
+"lemma": "|svensk|",
+"lex": "|svensk..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "ambassader",
+"deprel": "PA",
+"dephead": "9",
+"ref": "11",
+"lemma": "|ambassad|",
+"lex": "|ambassad..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 34552,
+"corpus_hits": {
+"DA": 34552
+},
+"corpus_order": [
+"DA"
+],
+"query_data": "eJwNycERgDAIBMCW4AgQ9OWMjZAE-i9B97tra1DOWdY-gizTIEsOl2ft6AIqHMT_swTTgQQRDJ7Se97vc8lQxQfajxLy\n",
+"time": 1.5030431747436523
+}

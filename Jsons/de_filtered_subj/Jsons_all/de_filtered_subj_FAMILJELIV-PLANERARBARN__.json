@@ -1,0 +1,478 @@
+ 
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FAMILJELIV-PLANERARBARN",
+"match": {
+"position": 628,
+"start": 34,
+"end": 36
+},
+"tokens": [
+{
+"word": "Smiter",
+"deprel": "AA",
+"dephead": "16",
+"ref": "1",
+"lemma": "|smita|",
+"lex": "|smita..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "in",
+"deprel": "PL",
+"dephead": "1",
+"ref": "2",
+"lemma": "|in|",
+"lex": "|in..ab.1|",
+"msd": "PL",
+"pos": "PL"
+},
+{
+"word": "h\u00e4r",
+"deprel": "RA",
+"dephead": "1",
+"ref": "3",
+"lemma": "|h\u00e4r|",
+"lex": "|h\u00e4r..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "....",
+"deprel": "RA",
+"dephead": "1",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "FiskBulle",
+"deprel": "PA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": ":",
+"deprel": "IQ",
+"dephead": "1",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "Om",
+"deprel": "AA",
+"dephead": "16",
+"ref": "7",
+"lemma": "|om|",
+"lex": "|om..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "du",
+"deprel": "SS",
+"dephead": "10",
+"ref": "8",
+"lemma": "|du|",
+"lex": "|du..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "ringer",
+"deprel": "CJ",
+"dephead": "10",
+"ref": "9",
+"lemma": "|ringa|",
+"lex": "|ringa..vb.1|ringa..vb.3|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "och",
+"deprel": "UA",
+"dephead": "7",
+"ref": "10",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "kollar",
+"deprel": "CJ",
+"dephead": "10",
+"ref": "11",
+"lemma": "|kolla|",
+"lex": "|kolla..vb.1|kolla..vb.2|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "k\u00f6ns",
+"deprel": "DT",
+"dephead": "14",
+"ref": "13",
+"lemma": "|k\u00f6n|",
+"lex": "|k\u00f6n..nn.1|",
+"msd": "NN.NEU.SIN.IND.GEN",
+"pos": "NN"
+},
+{
+"word": "ul",
+"deprel": "PA",
+"dephead": "12",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "NN.AN",
+"pos": "NN"
+},
+{
+"word": "s\u00e5",
+"deprel": "DB",
+"dephead": "16",
+"ref": "15",
+"lemma": "|s\u00e5|",
+"lex": "|s\u00e5..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "f\u00e5r",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "16",
+"lemma": "|f\u00e5|",
+"lex": "|f\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "du",
+"deprel": "SS",
+"dephead": "16",
+"ref": "17",
+"lemma": "|du|",
+"lex": "|du..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "g\u00e4rna",
+"deprel": "MA",
+"dephead": "16",
+"ref": "18",
+"lemma": "|g\u00e4rna|",
+"lex": "|g\u00e4rna..ab.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "skriva",
+"deprel": "CJ",
+"dephead": "20",
+"ref": "19",
+"lemma": "|skriva|",
+"lex": "|skriva..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "och",
+"deprel": "VG",
+"dephead": "16",
+"ref": "20",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "ber\u00e4tta",
+"deprel": "CJ",
+"dephead": "20",
+"ref": "21",
+"lemma": "|ber\u00e4tta|",
+"lex": "|ber\u00e4tta..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "vad",
+"deprel": "SS",
+"dephead": "24",
+"ref": "22",
+"lemma": "|vad|vad_f\u00f6r|",
+"lex": "|vad..pn.1|vad_f\u00f6r..pnm.1|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "svaret",
+"deprel": "SS",
+"dephead": "24",
+"ref": "23",
+"lemma": "|svar|",
+"lex": "|svar..nn.1|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "blev",
+"deprel": "CJ",
+"dephead": "20",
+"ref": "24",
+"lemma": "|bli|",
+"lex": "|bli..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "vice99",
+"deprel": "SP",
+"dephead": "24",
+"ref": "25",
+"lemma": "|",
+"lex": "|",
+"msd": "RG.NOM",
+"pos": "RG"
+},
+{
+"word": ":",
+"deprel": "IQ",
+"dephead": "20",
+"ref": "26",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "Nej",
+"deprel": "MS",
+"dephead": "16",
+"ref": "27",
+"lemma": "|nej|",
+"lex": "|nej..in.1|",
+"msd": "IN",
+"pos": "IN"
+},
+{
+"word": "det",
+"deprel": "SS",
+"dephead": "29",
+"ref": "28",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "kallas",
+"deprel": "MS",
+"dephead": "16",
+"ref": "29",
+"lemma": "|kalla|",
+"lex": "|kalla..vb.1|",
+"msd": "VB.PRS.SFO",
+"pos": "VB"
+},
+{
+"word": "f\u00f6r",
+"deprel": "OA",
+"dephead": "29",
+"ref": "30",
+"lemma": "|f\u00f6r|vad_f\u00f6r:22|",
+"lex": "|f\u00f6r..pp.1|vad_f\u00f6r..pnm.1:22|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "ett",
+"deprel": "DT",
+"dephead": "33",
+"ref": "31",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.NEU.SIN.IND",
+"pos": "DT"
+},
+{
+"word": "vaginalt",
+"deprel": "AT",
+"dephead": "33",
+"ref": "32",
+"lemma": "|vaginal|",
+"lex": "|vaginal..av.1|",
+"msd": "JJ.POS.NEU.SIN.IND.NOM",
+"pos": "JJ"
+},
+{
+"word": "ultraljud",
+"deprel": "PA",
+"dephead": "30",
+"ref": "33",
+"lemma": "|ultraljud|",
+"lex": "|ultraljud..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "d\u00e4r",
+"deprel": "RA",
+"dephead": "36",
+"ref": "34",
+"lemma": "|d\u00e4r|",
+"lex": "|d\u00e4r..ab.1|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "36",
+"ref": "35",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "anv\u00e4nder",
+"deprel": "EF",
+"dephead": "33",
+"ref": "36",
+"lemma": "|anv\u00e4nda|",
+"lex": "|anv\u00e4nda..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "staven",
+"deprel": "OO",
+"dephead": "36",
+"ref": "37",
+"lemma": "|stav|",
+"lex": "|stav..nn.1|stav..nn.2|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "16",
+"ref": "38",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FAMILJELIV-PLANERARBARN",
+"match": {
+"position": 633,
+"start": 1,
+"end": 3
+},
+"tokens": [
+{
+"word": "Tycker",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|tycka|",
+"lex": "|tycka..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "1",
+"ref": "2",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "\u00e4r",
+"deprel": "OO",
+"dephead": "1",
+"ref": "3",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "bra",
+"deprel": "SP",
+"dephead": "3",
+"ref": "4",
+"lemma": "|bra|",
+"lex": "|bra..av.2|",
+"msd": "JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "d\u00e4r",
+"deprel": "RA",
+"dephead": "3",
+"ref": "5",
+"lemma": "|d\u00e4r|",
+"lex": "|d\u00e4r..ab.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "!",
+"deprel": "IU",
+"dephead": "1",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 473957,
+"corpus_hits": {
+"FAMILJELIV-PLANERARBARN": 473957
+},
+"corpus_order": [
+"FAMILJELIV-PLANERARBARN"
+],
+"query_data": "eJwFwUEKhDAMAMAXCYlJk6qnCi64VFl62Hti0_8_wZmRfcTcxTgpBoCQ4HDqD5tIcLJOCA5GgMiPZaRYJKKrZnNi3z7lOuv3qOd_-tVyH620vbR7ZaUl6Qv1YBoJ\n",
+"time": 25.71207547187805
+}

@@ -1,0 +1,327 @@
+ 
+ 
+ 
+ 
+{
+"kwic": [
+{
+"corpus": "FAMILJELIV-ALLMANNA-KROPP",
+"match": {
+"position": 432,
+"start": 5,
+"end": 7
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "DT",
+"dephead": "3",
+"ref": "1",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "flesta",
+"deprel": "DT",
+"dephead": "3",
+"ref": "2",
+"lemma": "|m\u00e5ngen|",
+"lex": "|m\u00e5ngen..pn.1|",
+"msd": "JJ.SUV.UTR+NEU.PLU.DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "akutmottagningar",
+"deprel": "SS",
+"dephead": "4",
+"ref": "3",
+"lemma": "|akutmottagning|",
+"lex": "|akutmottagning..nn.1|",
+"msd": "NN.UTR.PLU.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "har",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "4",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "PM",
+"deprel": "OO",
+"dephead": "4",
+"ref": "5",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "7",
+"ref": "6",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "f\u00f6ljer",
+"deprel": "ET",
+"dephead": "5",
+"ref": "7",
+"lemma": "|f\u00f6lja|",
+"lex": "|f\u00f6lja..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "g\u00e4llande",
+"deprel": "AT",
+"dephead": "9",
+"ref": "8",
+"lemma": "|g\u00e4lla|",
+"lex": "|g\u00e4lla..vb.1|g\u00e4lla..vb.2|",
+"msd": "PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "PC"
+},
+{
+"word": "trauma",
+"deprel": "OO",
+"dephead": "7",
+"ref": "9",
+"lemma": "|trauma|",
+"lex": "|trauma..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "mot",
+"deprel": "RA",
+"dephead": "7",
+"ref": "10",
+"lemma": "|mot|",
+"lex": "|mot..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "halsen",
+"deprel": "PA",
+"dephead": "10",
+"ref": "11",
+"lemma": "|hals|",
+"lex": "|hals..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "4",
+"ref": "12",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FAMILJELIV-ALLMANNA-KROPP",
+"match": {
+"position": 633,
+"start": 9,
+"end": 11
+},
+"tokens": [
+{
+"word": "Det",
+"deprel": "FS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|den|",
+"lex": "|den..pn.1|",
+"msd": "PN.NEU.SIN.DEF.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "finns",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|finna|finnas|",
+"lex": "|finna..vb.1|finnas..vb.1|",
+"msd": "VB.PRS.SFO",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "ES",
+"dephead": "2",
+"ref": "3",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "5",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "\u00e4r",
+"deprel": "ET",
+"dephead": "3",
+"ref": "5",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "helt",
+"deprel": "AA",
+"dephead": "7",
+"ref": "6",
+"lemma": "|hel|helt|",
+"lex": "|hel..av.1|helt..ab.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "medvetna",
+"deprel": "SP",
+"dephead": "5",
+"ref": "7",
+"lemma": "|medveten|",
+"lex": "|medveten..av.1|",
+"msd": "JJ.POS.UTR+NEU.PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "om",
+"deprel": "OA",
+"dephead": "5",
+"ref": "8",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "vad",
+"deprel": "OO",
+"dephead": "11",
+"ref": "9",
+"lemma": "|vad|",
+"lex": "|vad..pn.1|",
+"msd": "HP.NEU.SIN.IND",
+"pos": "HP"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "11",
+"ref": "10",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "g\u00f6r",
+"deprel": "PA",
+"dephead": "8",
+"ref": "11",
+"lemma": "|g\u00f6ra|g\u00f6ra_om|",
+"lex": "|g\u00f6ra..vb.1|g\u00f6ra_om..vbm.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "\u00e4ven",
+"deprel": "AA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|\u00e4ven|\u00e4ven_om|",
+"lex": "|\u00e4ven..ab.1|\u00e4ven_om..snm.1|",
+"msd": "AB",
+"pos": "AB"
+},
+{
+"word": "om",
+"deprel": "HD",
+"dephead": "12",
+"ref": "13",
+"lemma": "|om|g\u00f6ra_om:11|\u00e4ven_om:12|",
+"lex": "|om..sn.1|g\u00f6ra_om..vbm.1:11|\u00e4ven_om..snm.1:12|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "15",
+"ref": "14",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "m\u00e5r",
+"deprel": "UA",
+"dephead": "12",
+"ref": "15",
+"lemma": "|m\u00e5|",
+"lex": "|m\u00e5..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "d\u00e5ligt",
+"deprel": "AA",
+"dephead": "15",
+"ref": "16",
+"lemma": "|d\u00e5lig|",
+"lex": "|d\u00e5lig..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "17",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 401922,
+"corpus_hits": {
+"FAMILJELIV-ALLMANNA-KROPP": 401922
+},
+"corpus_order": [
+"FAMILJELIV-ALLMANNA-KROPP"
+],
+"query_data": "eJwNyDkOgCAQAMAXmewBLKsVhSYqIrGwl8P_P0GnHFeM9b1aR6ZyEyZ5LL9AjbzBf1iLovr-2CIAUrUVEnYeOjYEh9MSjjVuc1zvIcR4hJTCsF9nzqMBVKIP3EUZRA==\n",
+"time": 21.195765256881714
+}

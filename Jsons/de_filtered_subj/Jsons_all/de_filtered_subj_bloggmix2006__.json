@@ -1,0 +1,173 @@
+{
+"kwic": [
+{
+"corpus": "BLOGGMIX2006",
+"match": {
+"position": 1250,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "1",
+"dephead": "2",
+"deprel": "SS"
+},
+{
+"word": "\u00e4r",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"ref": "2",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "faktiskt",
+"pos": "AB",
+"msd": "AB.POS",
+"lemma": "|faktisk|",
+"lex": "|faktisk..av.1|",
+"ref": "3",
+"dephead": "2",
+"deprel": "MA"
+},
+{
+"word": "b\u00e5de",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|b\u00e5de_och|",
+"lex": "|b\u00e5de_och..knm.1|",
+"ref": "4",
+"dephead": "6",
+"deprel": "VA"
+},
+{
+"word": "bra",
+"pos": "JJ",
+"msd": "JJ.POS.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"lemma": "|bra|",
+"lex": "|bra..av.2|",
+"ref": "5",
+"dephead": "6",
+"deprel": "CJ"
+},
+{
+"word": "och",
+"pos": "KN",
+"msd": "KN",
+"lemma": "|och|b\u00e5de_och:4|",
+"lex": "|och..kn.1|b\u00e5de_och..knm.1:4|",
+"ref": "6",
+"dephead": "2",
+"deprel": "SP"
+},
+{
+"word": "l\u00e4ttl\u00e4sta",
+"pos": "PC",
+"msd": "PC.PRF.UTR+NEU.PLU.IND+DEF.NOM",
+"lemma": "|l\u00e4ttl\u00e4st|",
+"lex": "|l\u00e4ttl\u00e4st..av.1|",
+"ref": "7",
+"dephead": "6",
+"deprel": "CJ"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "8",
+"dephead": "2",
+"deprel": "IP"
+}
+]
+},
+{
+"corpus": "BLOGGMIX2006",
+"match": {
+"position": 1322,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"pos": "PN",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"ref": "1",
+"dephead": "2",
+"deprel": "SS"
+},
+{
+"word": "\u00e4r",
+"pos": "VB",
+"msd": "VB.PRS.AKT",
+"lemma": "|vara|",
+"lex": "|vara..vb.1|",
+"ref": "2",
+"dephead": null,
+"deprel": "ROOT"
+},
+{
+"word": "b\u00e4st",
+"pos": "AB",
+"msd": "AB.SUV",
+"lemma": "|god|b\u00e4st|bra|",
+"lex": "|god..av.1|b\u00e4st..av.1|bra..av.1|bra..ab.1|",
+"ref": "3",
+"dephead": "2",
+"deprel": "AA"
+},
+{
+"word": "ingen",
+"pos": "DT",
+"msd": "DT.UTR.SIN.IND",
+"lemma": "|ingen|",
+"lex": "|ingen..pn.1|",
+"ref": "4",
+"dephead": "5",
+"deprel": "DT"
+},
+{
+"word": "protest",
+"pos": "NN",
+"msd": "NN.UTR.SIN.IND.NOM",
+"lemma": "|protest|",
+"lex": "|protest..nn.1|",
+"ref": "5",
+"dephead": "2",
+"deprel": "SP"
+},
+{
+"word": ".",
+"pos": "MAD",
+"msd": "MAD",
+"lemma": "|",
+"lex": "|",
+"ref": "6",
+"dephead": "2",
+"deprel": "IP"
+}
+]
+}
+],
+"hits": 23608,
+"corpus_hits": {
+"BLOGGMIX2006": 23608
+},
+"corpus_order": [
+"BLOGGMIX2006"
+],
+"query_data": "eJwNyjEOgDAIAMAvUaBQdHNpTDSurrTQ_z9Bbz5NJyMcltMmB6FBAyHLTA1Y4pzLoAhL8ebzD1Wt8sggDzXaj-vp_T5fBJANSaB9u-gWMg==\n",
+"time": 1.9605584144592285
+}

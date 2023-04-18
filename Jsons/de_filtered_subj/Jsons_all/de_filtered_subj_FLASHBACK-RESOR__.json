@@ -1,0 +1,424 @@
+ 
+{
+"kwic": [
+{
+"corpus": "FLASHBACK-RESOR",
+"match": {
+"position": 31,
+"start": 14,
+"end": 16
+},
+"tokens": [
+{
+"word": "Urs\u00e4kta",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|urs\u00e4kta|",
+"lex": "|urs\u00e4kta..vb.1|",
+"msd": "VB.IMP.AKT",
+"pos": "VB"
+},
+{
+"word": "om",
+"deprel": "AA",
+"dephead": "1",
+"ref": "2",
+"lemma": "|om|",
+"lex": "|om..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "jag",
+"deprel": "SS",
+"dephead": "4",
+"ref": "3",
+"lemma": "|jag|",
+"lex": "|jag..pn.1|",
+"msd": "PN.UTR.SIN.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "s\u00e4ger",
+"deprel": "UA",
+"dephead": "2",
+"ref": "4",
+"lemma": "|s\u00e4ga|",
+"lex": "|s\u00e4ga..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "att",
+"deprel": "OO",
+"dephead": "4",
+"ref": "5",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "SN",
+"pos": "SN"
+},
+{
+"word": "flera",
+"deprel": "SS",
+"dephead": "13",
+"ref": "6",
+"lemma": "|flera|m\u00e5ngen|",
+"lex": "|flera..pn.1|m\u00e5ngen..pn.1|",
+"msd": "PN.UTR+NEU.PLU.IND.SUB+OBJ",
+"pos": "PN"
+},
+{
+"word": "av",
+"deprel": "ET",
+"dephead": "6",
+"ref": "7",
+"lemma": "|av|",
+"lex": "|av..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "de",
+"deprel": "DT",
+"dephead": "10",
+"ref": "8",
+"lemma": "|en|",
+"lex": "|en..al.1|",
+"msd": "DT.UTR+NEU.PLU.DEF",
+"pos": "DT"
+},
+{
+"word": "senare",
+"deprel": "DT",
+"dephead": "10",
+"ref": "9",
+"lemma": "|sen|",
+"lex": "|sen..av.1|",
+"msd": "JJ.KOM.UTR+NEU.SIN+PLU.IND+DEF.NOM",
+"pos": "JJ"
+},
+{
+"word": "svaren",
+"deprel": "PA",
+"dephead": "7",
+"ref": "10",
+"lemma": "|svar|",
+"lex": "|svar..nn.1|",
+"msd": "NN.NEU.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "10",
+"ref": "11",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "tr\u00e5den",
+"deprel": "PA",
+"dephead": "11",
+"ref": "12",
+"lemma": "|tr\u00e5d|",
+"lex": "|tr\u00e5d..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "l\u00e5ter",
+"deprel": "UA",
+"dephead": "5",
+"ref": "13",
+"lemma": "|l\u00e5ta|",
+"lex": "|l\u00e5ta..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "som",
+"deprel": "KA",
+"dephead": "13",
+"ref": "14",
+"lemma": "|som|",
+"lex": "|som..ab.1|",
+"msd": "HA",
+"pos": "HA"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "16",
+"ref": "15",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "kommer",
+"deprel": "UA",
+"dephead": "14",
+"ref": "16",
+"lemma": "|komma|",
+"lex": "|komma..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "fr\u00e5n",
+"deprel": "RA",
+"dephead": "16",
+"ref": "17",
+"lemma": "|fr\u00e5n|",
+"lex": "|fr\u00e5n..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "WT",
+"deprel": "PA",
+"dephead": "17",
+"ref": "18",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "1",
+"ref": "19",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "FLASHBACK-RESOR",
+"match": {
+"position": 1117,
+"start": 13,
+"end": 15
+},
+"tokens": [
+{
+"word": "International",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "1",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "1",
+"ref": "2",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "K\u00f6penhamn",
+"deprel": "PA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|K\u00f6penhamn|",
+"lex": "|K\u00f6penhamn..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "som",
+"deprel": "SS",
+"dephead": "5",
+"ref": "4",
+"lemma": "|",
+"lex": "|",
+"msd": "HP.-.-.-",
+"pos": "HP"
+},
+{
+"word": "samarbetar",
+"deprel": "ET",
+"dephead": "3",
+"ref": "5",
+"lemma": "|samarbeta|",
+"lex": "|samarbeta..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "f\u00f6rs\u00e4kringsbolagen",
+"deprel": "PA",
+"dephead": "6",
+"ref": "7",
+"lemma": "|f\u00f6rs\u00e4kringsbolag|",
+"lex": "|f\u00f6rs\u00e4kringsbolag..nn.1|",
+"msd": "NN.NEU.PLU.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ",",
+"deprel": "IK",
+"dephead": "1",
+"ref": "8",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "om",
+"deprel": "CJ",
+"dephead": "8",
+"ref": "9",
+"lemma": "|om|",
+"lex": "|om..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "vilket",
+"deprel": "DT",
+"dephead": "11",
+"ref": "10",
+"lemma": "|",
+"lex": "|",
+"msd": "HD.NEU.SIN.IND",
+"pos": "HD"
+},
+{
+"word": "sjukhus",
+"deprel": "PA",
+"dephead": "9",
+"ref": "11",
+"lemma": "|sjukhus|",
+"lex": "|sjukhus..nn.1|",
+"msd": "NN.NEU.SIN.IND.NOM",
+"pos": "NN"
+},
+{
+"word": "i",
+"deprel": "ET",
+"dephead": "11",
+"ref": "12",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Pattaya",
+"deprel": "PA",
+"dephead": "12",
+"ref": "13",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "15",
+"ref": "14",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "rekommenderar",
+"deprel": "PA",
+"dephead": "9",
+"ref": "15",
+"lemma": "|rekommendera|",
+"lex": "|rekommendera..vb.1|",
+"msd": "VB.PRS.AKT",
+"pos": "VB"
+},
+{
+"word": "..",
+"deprel": "RA",
+"dephead": "15",
+"ref": "16",
+"lemma": "|",
+"lex": "|",
+"msd": "MID",
+"pos": "MID"
+},
+{
+"word": "Bangkok",
+"deprel": "PA",
+"dephead": "16",
+"ref": "17",
+"lemma": "|Bangkok|",
+"lex": "|Bangkok..pm.1|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Pattaya",
+"deprel": "HD",
+"dephead": "17",
+"ref": "18",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": "Hospital",
+"deprel": "HD",
+"dephead": "17",
+"ref": "19",
+"lemma": "|",
+"lex": "|",
+"msd": "PM.NOM",
+"pos": "PM"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "1",
+"ref": "20",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 110050,
+"corpus_hits": {
+"FLASHBACK-RESOR": 110050
+},
+"corpus_order": [
+"FLASHBACK-RESOR"
+],
+"query_data": "eJwFwdEJgDAMBcCJhBfTNK1-qSiCgmAnaNO4_wjejZ_GbNoTU0BiBkw01ZCrSVcbc2OHk7BIj24KzahOrl9joSDzcS_lXJftGt69PO9EBAh-5hUWnQ==\n",
+"time": 7.3086090087890625
+}

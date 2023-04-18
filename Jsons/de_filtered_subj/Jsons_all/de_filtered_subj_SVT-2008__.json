@@ -1,0 +1,233 @@
+{
+"kwic": [
+{
+"corpus": "SVT-2008",
+"match": {
+"position": 1315,
+"start": 0,
+"end": 2
+},
+"tokens": [
+{
+"word": "De",
+"deprel": "SS",
+"dephead": "2",
+"ref": "1",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "k\u00f6rde",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "2",
+"lemma": "|k\u00f6ra|",
+"lex": "|k\u00f6ra..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "snabbt",
+"deprel": "AA",
+"dephead": "2",
+"ref": "3",
+"lemma": "|snabb|",
+"lex": "|snabb..av.1|",
+"msd": "AB.POS",
+"pos": "AB"
+},
+{
+"word": "fr\u00e5n",
+"deprel": "RA",
+"dephead": "2",
+"ref": "4",
+"lemma": "|fr\u00e5n|",
+"lex": "|fr\u00e5n..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "platsen",
+"deprel": "PA",
+"dephead": "4",
+"ref": "5",
+"lemma": "|plats|",
+"lex": "|plats..nn.1|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "2",
+"ref": "6",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+},
+{
+"corpus": "SVT-2008",
+"match": {
+"position": 1596,
+"start": 3,
+"end": 5
+},
+"tokens": [
+{
+"word": "I",
+"deprel": "RA",
+"dephead": "3",
+"ref": "1",
+"lemma": "|i|",
+"lex": "|i..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "Elfenbenskusten",
+"deprel": "PA",
+"dephead": "1",
+"ref": "2",
+"lemma": "|elfenbenskusten|",
+"lex": "|",
+"msd": "NN.UTR.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": "hade",
+"deprel": "ROOT",
+"dephead": null,
+"ref": "3",
+"lemma": "|ha|",
+"lex": "|ha..vb.1|",
+"msd": "VB.PRT.AKT",
+"pos": "VB"
+},
+{
+"word": "de",
+"deprel": "SS",
+"dephead": "3",
+"ref": "4",
+"lemma": "|de|",
+"lex": "|de..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.SUB",
+"pos": "PN"
+},
+{
+"word": "kommunicerat",
+"deprel": "VG",
+"dephead": "3",
+"ref": "5",
+"lemma": "|kommunicera|",
+"lex": "|kommunicera..vb.1|kommunicera..vb.2|",
+"msd": "VB.SUP.AKT",
+"pos": "VB"
+},
+{
+"word": "med",
+"deprel": "OA",
+"dephead": "5",
+"ref": "6",
+"lemma": "|med|",
+"lex": "|med..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "varandra",
+"deprel": "PA",
+"dephead": "6",
+"ref": "7",
+"lemma": "|varandra|",
+"lex": "|varandra..pn.1|",
+"msd": "PN.UTR+NEU.PLU.DEF.OBJ",
+"pos": "PN"
+},
+{
+"word": "genom",
+"deprel": "AA",
+"dephead": "5",
+"ref": "8",
+"lemma": "|genom|",
+"lex": "|genom..pp.1|",
+"msd": "PP",
+"pos": "PP"
+},
+{
+"word": "att",
+"deprel": "PA",
+"dephead": "8",
+"ref": "9",
+"lemma": "|att|",
+"lex": "|att..sn.1|",
+"msd": "IE",
+"pos": "IE"
+},
+{
+"word": "peka",
+"deprel": "CJ",
+"dephead": "11",
+"ref": "10",
+"lemma": "|peka|",
+"lex": "|peka..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "och",
+"deprel": "IF",
+"dephead": "9",
+"ref": "11",
+"lemma": "|och|",
+"lex": "|och..kn.1|",
+"msd": "KN",
+"pos": "KN"
+},
+{
+"word": "anv\u00e4nda",
+"deprel": "CJ",
+"dephead": "11",
+"ref": "12",
+"lemma": "|anv\u00e4nda|",
+"lex": "|anv\u00e4nda..vb.1|",
+"msd": "VB.INF.AKT",
+"pos": "VB"
+},
+{
+"word": "kroppsspr\u00e5ket",
+"deprel": "OO",
+"dephead": "11",
+"ref": "13",
+"lemma": "|kroppsspr\u00e5k|",
+"lex": "|kroppsspr\u00e5k..nn.1|",
+"msd": "NN.NEU.SIN.DEF.NOM",
+"pos": "NN"
+},
+{
+"word": ".",
+"deprel": "IP",
+"dephead": "3",
+"ref": "14",
+"lemma": "|",
+"lex": "|",
+"msd": "MAD",
+"pos": "MAD"
+}
+]
+}
+],
+"hits": 17651,
+"corpus_hits": {
+"SVT-2008": 17651
+},
+"corpus_order": [
+"SVT-2008"
+],
+"query_data": "eJwFwcsRgDAIBcCKnOEl4adl6HgHCf2X4G70B2XXJrY9OlyTisSKB6fQ9GwkhIO3q82EreVuSzCrIvq63-cYRHZChfEDUlIUpg==\n",
+"time": 1.6319568157196045
+}
