@@ -68,14 +68,17 @@ f.each_line do |line|
             #if current_age < age_threshold
                 authorhash[current_user] = true
                 o.puts "# age = #{current_age}" ###
+                o.puts "# yob = #{agehash[current_user]}"
               
 
-                if agehash[current_user] <= 1964
+                if agehash[current_user] < 1960
                     agebin = "Gen1"
-                elsif agehash[current_user] <= 1979
+                elsif agehash[current_user] < 1970
                     agebin = "Gen2"
-                elsif agehash[current_user] <= 1994 
+                elsif agehash[current_user] < 1980 
                     agebin = "Gen3"
+                elsif agehash[current_user] < 1990 
+                    agebin = "Gen4"
                 else
                     agebin = "Gen4"
                 end
