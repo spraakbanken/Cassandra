@@ -71,16 +71,14 @@ f.each_line do |line|
                 o.puts "# yob = #{agehash[current_user]}"
               
 
-                if agehash[current_user] < 1960
+                if agehash[current_user] < 1970
                     agebin = "Gen1"
-                elsif agehash[current_user] < 1970
+                elsif agehash[current_user] < 1980
                     agebin = "Gen2"
-                elsif agehash[current_user] < 1980 
-                    agebin = "Gen3"
                 elsif agehash[current_user] < 1990 
-                    agebin = "Gen4"
+                    agebin = "Gen3"
                 else
-                    agebin = "Gen5"
+                    agebin = "Gen4"
                 end
                 o.puts "# agebin = #{agebin}" ###
 

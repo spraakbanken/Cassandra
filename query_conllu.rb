@@ -11,7 +11,7 @@ if variable.to_s == ""
     exit
 end
 
-total_threshold = 0
+total_threshold = 10
 
 current_age = ""
 current_agebin = ""
@@ -58,20 +58,20 @@ f.each_line do |line|
         msd = line2[5]
         dephead = line2[6]
         deprel = line2[7]
-        if (tokenc == "de") and (pos == "PN" or pos == "DT")
-        #if (prev_tokenc == "de") and (prev_pos == "PN") and (prev_deprel == "SS" or prev_deprel == "FS" or prev_deprel == "ES") and tokenc != "som"
+        #if (tokenc == "de") and (pos == "PN" or pos == "DT")
+        if (prev_tokenc == "de") and (prev_pos == "PN") and (prev_deprel == "SS" or prev_deprel == "FS" or prev_deprel == "ES") and tokenc != "som"
         #if (prev_tokenc == "de") and (prev_pos == "PN") and (prev_deprel == "OO" or prev_deprel == "IO" or prev_deprel == "PA") and tokenc != "som"
             agebinhash_v1[current_agebin] += 1
             authorhash[[current_username,current_age,current_agebin,current_year]]["v1"] += 1
             authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
-        elsif (tokenc == "dem") and (pos == "PN" or pos == "DT")
-        #elsif (prev_tokenc == "dem") and (prev_pos == "PN") and (prev_deprel == "SS" or prev_deprel == "FS" or prev_deprel == "ES") and tokenc != "som"
+        #elsif (tokenc == "dem") and (pos == "PN" or pos == "DT")
+        elsif (prev_tokenc == "dem") and (prev_pos == "PN") and (prev_deprel == "SS" or prev_deprel == "FS" or prev_deprel == "ES") and tokenc != "som"
         #elsif (prev_tokenc == "dem") and (prev_pos == "PN") and (prev_deprel == "OO" or prev_deprel == "IO" or prev_deprel == "PA") and tokenc != "som"
             agebinhash_v2[current_agebin] += 1
             authorhash[[current_username,current_age,current_agebin,current_year]]["v2"] += 1
             authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
-        elsif (tokenc == "dom") and (pos == "PN" or pos == "DT") and (prev_deprel != "DT" and prev_deprel != "AT")
-        #elsif (prevprev_deprel != "DT" and prevprev_deprel != "AT") and (prev_tokenc == "dom") and (prev_pos == "PN") and (prev_deprel == "SS" or prev_deprel == "FS" or prev_deprel == "ES") and tokenc != "som"
+        #elsif (tokenc == "dom") and (pos == "PN" or pos == "DT") and (prev_deprel != "DT" and prev_deprel != "AT")
+        elsif (prevprev_deprel != "DT" and prevprev_deprel != "AT") and (prev_tokenc == "dom") and (prev_pos == "PN") and (prev_deprel == "SS" or prev_deprel == "FS" or prev_deprel == "ES") and tokenc != "som"
         #elsif (prevprev_deprel != "DT" and prevprev_deprel != "AT") and (prev_tokenc == "dom") and (prev_pos == "PN") and (prev_deprel == "OO" or prev_deprel == "IO" or prev_deprel == "PA") and tokenc != "som"
             agebinhash_v3[current_agebin] += 1
             authorhash[[current_username,current_age,current_agebin,current_year]]["v3"] += 1
@@ -90,7 +90,7 @@ o = File.open("familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firs
 o.puts "post_year\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv3abs\tv1rel\tv2rel\tv3rel"
 
 authorhash.each_pair do |key,value|
-    year = key[3]
+    year = key[3]	
     username = key[0]
     age = key[1]
     bin = key[2]
