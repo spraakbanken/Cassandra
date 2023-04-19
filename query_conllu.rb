@@ -8,10 +8,10 @@ f = File.open("#{PATH}familjeliv-#{subforum}_sentence_age#{token_threshold}_#{fi
 variable = ARGV[0]
 if variable.to_s == ""
     STDERR.puts "Specify variable!"
-    halt
+    exit
 end
 
-total_threshold = 10
+total_threshold = 0
 
 current_age = ""
 current_agebin = ""
@@ -85,7 +85,7 @@ f.each_line do |line|
 end
 
 
-o = File.open("familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firstage}_#{variable}.tsv","w:utf-8")
+o = File.open("familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firstage}_#{variable}_t#{total_threshold}.tsv","w:utf-8")
 
 o.puts "post_year\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv3abs\tv1rel\tv2rel\tv3rel"
 
