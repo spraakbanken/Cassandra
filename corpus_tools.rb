@@ -9,18 +9,25 @@ PATH = "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\"
 def get_years(corpus,nolabel=false)
 
     if nolabel
+        #STDERR.puts "nolabel"
         firstyear,lastyear = get_years_from_file(corpus,nolabel)
         if firstyear.nil? or lastyear.nil?
             firstyear,lastyear = get_years_from_api(corpus)
         end
     else
+        #STDERR.puts "label"
         corphash = get_years_from_file(corpus,nolabel)
+        #STDERR.puts "#{corphash}"
         corpora = read_corpus_label(corpus,outputmode="array")
+        #STDERR.puts "#{corpora}"
         firstmax = 3000
         lastmin = 0
         corpora.each do |corpus1|
             if corphash[corpus1].nil?
                 first,last = get_years_from_api(corpus1)
+                #f = File.open("years.tsv","a:utf-8")
+                #f.puts "#{corpus1}\t#{first}\t#{last}"
+                #f.close
             else
                 first = corphash[corpus1][0]
                 last = corphash[corpus1][1]
@@ -34,14 +41,14 @@ def get_years(corpus,nolabel=false)
             end
             firstyear = firstmax
             lastyear = lastmax
-            
+            #STDERR.puts firstyear
+            #STDERR.puts lastyear            
         end
-        f = File.open("years.tsv","a:utf-8")
-        f.puts "#{corpus}\t#{firstyear}\t#{lastyear}"
-        f.close
+        
     
     end
-    
+    #STDERR.puts firstyear
+    #STDERR.puts lastyear
     return (firstyear..lastyear).to_a
 end
 

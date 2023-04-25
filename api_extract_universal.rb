@@ -72,7 +72,7 @@ breakpoint = variant1.index("]")
 cqp1 = variant1[0..breakpoint-1] 
 cqp2 = variant1[breakpoint..-1] 
 
-show = "msd,lemma,pos,ref,lex,deprel,dephead" 
+#show = "msd,lemma,pos,ref,lex,deprel,dephead" 
 
 corpora.each do |corpus|
     STDERR.puts corpus
@@ -85,10 +85,9 @@ corpora.each do |corpus|
         execute_query(show, context, cqp, gran_spec, structs, filename, corpus, errorlist, limit, sort)
         
     elsif granularity == "y"
-        start, finish = get_years(corpus)
-        
-        years = (start..finish).to_a
-      
+        years = get_years(corpus)
+        #STDERR.puts years.join("-")
+        #break
 
         years.each do |searchyear|
             STDERR.puts searchyear
