@@ -99,6 +99,7 @@ filelist.each do |filename2|
                 #    id = token["ref"].to_i
                 #
                     word = token["word"]
+                    words << word
                 #    pos = token["pos"]
                 #    msd = token["msd"]
                 #    lemma = token["lemma"]

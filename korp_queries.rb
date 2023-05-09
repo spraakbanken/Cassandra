@@ -44,6 +44,12 @@ variant1 = [deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c  & (pos = 'PN') & 
 #UA excludes a lot of cases like "än de(m)", which is reasonable, right? We could also exclude cases with "än" in front, but then we'd lose determiners like "...än de kloka tjejerna"
 
 
+#label = de(m)_filtered
+variant1 = [(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')]
+
+#label = dem_filtered
+variant1 = [word = 'dem' %c  & (pos = 'PN' | pos = 'DT')]
+
 
 #label = de_filtered
 variant1 = [word = 'de' %c  & (pos = 'PN' | pos = 'DT')]
