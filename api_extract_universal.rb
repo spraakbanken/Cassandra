@@ -96,9 +96,7 @@ corpora.each do |corpus|
             execute_query(show, context, cqp, gran_spec, structs, filename, corpus, errorlist, limit, sort, searchyear)
         end #years 
     elsif granularity == "m"
-        start, finish = get_years(corpus)
-        
-        years = (start..finish).to_a
+        years = get_years(corpus)
         years.each do |searchyear|
             STDERR.puts searchyear
             

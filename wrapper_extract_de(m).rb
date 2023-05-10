@@ -4,7 +4,7 @@ require_relative 'read_cmd.rb'
 
 corpus_and_label = ARGV[0]
 corpora = read_corpus_label(corpus_and_label,outputmode="array")
-granularity = "n"
+granularity = "m"
 variable = "de(m)_filtered"
 #limit = 2
 
