@@ -32,7 +32,7 @@ def cleant(parameter)
 end
 
 #conll_file = File.open("#{var_output}#{variable}.txt","w:utf-8")
-sample_file = File.open("#{var_output}#{variable}.tsv","w:utf-8")
+sample_file = File.open("#{var_output}#{variable}_#{maincorpus}.tsv","w:utf-8")
 header = "unique_id\ttoken_id\tsentence\tmaincorpus\tsubcorpus\tyear"
 
 
