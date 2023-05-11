@@ -45,6 +45,7 @@ subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-friti
 #subforum = "kansliga"
 
 subforums.each do |subforum|
+    STDERR.puts subforum
     f = File.open("#{PATHC}familjeliv-#{subforum}_sentence.conllu","r:utf-8")
     
     o = File.open("#{PATHC}familjeliv-#{subforum}_sentence_age#{threshold}_#{age_threshold}.conllu","w:utf-8") ###
