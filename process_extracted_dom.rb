@@ -31,9 +31,11 @@ def cleant(parameter)
     return parameter
 end
 
-conll_file = File.open("#{var_output}#{variable}.txt","w:utf-8")
+#conll_file = File.open("#{var_output}#{variable}.txt","w:utf-8")
 sample_file = File.open("#{var_output}#{variable}.tsv","w:utf-8")
-header = "unique_id\ttoken_id\tword\tpos\tpos_correct\tdeprel\tdeprel_correct\tdephead_correct\tlemma_correct\tcomment\tmaincorpus\tsubcorpus"
+header = "unique_id\ttoken_id\tsentence\tmaincorpus\tsubcorpus\tyear"
+
+
 sample_file.puts header
 input_dir = "#{var_output}Jsons\\#{variable}\\Jsons_#{maincorpus}"
 filelist = Dir.children(input_dir) 
@@ -65,6 +67,7 @@ filelist.each do |filename2|
         
        
         file = File.read("#{input_dir}\\#{filename2}")
+        year = filename2.split("_")[-2].to_i
         data_hash = JSON.parse(file)
         if data_hash["ERROR"].nil?
               
@@ -86,30 +89,31 @@ filelist.each do |filename2|
                 corpus_from_json = hit["corpus"]
                 #output_array << corpus_from_json
                 maincorpus = get_maincorpus(corpus_from_json)
-                conll_file.puts "#sent_id = #{unique_id}; de-dem-dom_id = #{match_end-1}"
+                #conll_file.puts "#sent_id = #{unique_id}; de-dem-dom_id = #{match_end-1}"
                 tokens = hit["tokens"]
-                dword = ""
-                dpos = ""
-                ddeprel = ""
-                
+                #dword = ""
+                #dpos = ""
+                #ddeprel = ""
+                words = []
                 tokens.each.with_index do |token, tindex|
-                    id = token["ref"].to_i
-            
+                #    id = token["ref"].to_i
+                #
                     word = token["word"]
-                    pos = token["pos"]
-                    msd = token["msd"]
-                    lemma = token["lemma"]
-                    deprel = token["deprel"]
-                    dephead = token["dephead"].to_i
-                    conll_file.puts "#{id}\t#{word}\t#{lemma}\t#{pos}\t#{msd}\t#{deprel}\t#{dephead}"
-                    if id == match_end - 1
-                        dword = word
-                        dpos = pos
-                        ddeprel = deprel
-                    end
+                    words << word
+                #    pos = token["pos"]
+                #    msd = token["msd"]
+                #    lemma = token["lemma"]
+                #    deprel = token["deprel"]
+                #    dephead = token["dephead"].to_i
+                #    conll_file.puts "#{id}\t#{word}\t#{lemma}\t#{pos}\t#{msd}\t#{deprel}\t#{dephead}"
+                #    if id == match_end - 1
+                #        dword = word
+                #        dpos = pos
+                #        ddeprel = deprel
+                #    end
                 end
-                conll_file.puts ""
-                sample_file.puts "#{unique_id}\t#{match_end-1}\t#{dword}\t#{dpos}\t\t#{ddeprel}\t\t\t\t\t#{maincorpus}\t#{corpus_from_json}"
+                #conll_file.puts ""
+                sample_file.puts "#{unique_id}\t#{match_end-1}\t#{words.join(" ")}\t#{maincorpus}\t#{corpus_from_json}\t#{year}"
                 
                 
                 

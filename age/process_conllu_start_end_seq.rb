@@ -40,7 +40,6 @@ o2.puts "username\tstartage\tendage"
 authorhash = {}
 
 subforums.each do |subforum|
-    STDERR.puts subforum
     f = File.open("#{PATHC}familjeliv-#{subforum}_sentence.conllu","r:utf-8")
     f.each_line do |line|
         line1 = line.strip
