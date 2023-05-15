@@ -6,7 +6,7 @@ subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-friti
 
 
 subforums.each do |subforum|
-    f = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-#{subforum}_sentence_age10000_18.conllu","r:utf-8")
+    f = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-#{subforum}_sentence.conllu","r:utf-8")
     STDERR.puts subforum
     sentences = []
     sentence = []
