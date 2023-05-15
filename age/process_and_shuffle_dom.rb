@@ -1,6 +1,6 @@
 o = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\de(m)_filtered_familjeliv_age.tsv","w:utf-8")
 o.puts "unique_id\ttoken_id\tsentence\tmaincorpus\tsubcorpus\tyear\tspeaker\tage\tyob\tgeneration"
-#subforums = ["pappagrupp"]
+#subforums = ["kansliga"]
 
 subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert", "medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert","gravid","kansliga"]
 
@@ -37,7 +37,7 @@ subforums.each do |subforum|
                 end
     
             else
-                id = line1.split("\t")[0]
+                id = line1.split("\t")[0].to_i - 1
                 token = line1.split("\t")[1]
                 pos = line1.split("\t")[3]
                 if (token.downcase == "de" or token == "dem") and (pos == "PN" or pos == "DT")
