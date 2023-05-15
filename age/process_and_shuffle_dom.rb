@@ -42,9 +42,10 @@ subforums.each do |subforum|
                 pos = line1.split("\t")[3]
                 if (token.downcase == "de" or token == "dem") and (pos == "PN" or pos == "DT")
                     flag = true
+                    tokens << id
                 end
                 sentence << token
-                tokens << id
+                
             end
             
             
