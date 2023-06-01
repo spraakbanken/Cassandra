@@ -50,6 +50,9 @@ variant1 = [(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')]
 #label = dem_filtered
 variant1 = [word = 'dem' %c  & (pos = 'PN' | pos = 'DT')]
 
+#label = de(m)_vs_dom
+variant1 = [(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]
+variant2 = [deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]
 
 #label = de_filtered
 variant1 = [word = 'de' %c  & (pos = 'PN' | pos = 'DT')]
