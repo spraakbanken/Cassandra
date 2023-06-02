@@ -1,0 +1,1079 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"corpora": {
+"BLOGGMIX1998": [
+{
+"absolute": {
+"1998": 193,
+"1999": null
+},
+"relative": {
+"1998": 6240.098289631091,
+"1999": null
+},
+"sums": {
+"absolute": 193,
+"relative": 6240.098289631091
+}
+},
+{
+"absolute": {
+"1998": 184,
+"1999": null
+},
+"relative": {
+"1998": 5949.109250218242,
+"1999": null
+},
+"sums": {
+"absolute": 184,
+"relative": 5949.109250218242
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"1998": 9,
+"1999": null
+},
+"relative": {
+"1998": 290.98903941284874,
+"1999": null
+},
+"sums": {
+"absolute": 9,
+"relative": 290.98903941284874
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX1999": [
+{
+"absolute": {
+"1999": 3233,
+"2000": null
+},
+"relative": {
+"1999": 5371.395532753384,
+"2000": null
+},
+"sums": {
+"absolute": 3233,
+"relative": 5371.395532753384
+}
+},
+{
+"absolute": {
+"1999": 3049,
+"2000": null
+},
+"relative": {
+"1999": 5065.692848550902,
+"2000": null
+},
+"sums": {
+"absolute": 3049,
+"relative": 5065.692848550902
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"1999": 183,
+"2000": null
+},
+"relative": {
+"1999": 304.0412565709463,
+"2000": null
+},
+"sums": {
+"absolute": 183,
+"relative": 304.0412565709463
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2000": [
+{
+"absolute": {
+"2000": 1190,
+"2001": null
+},
+"relative": {
+"2000": 6410.2218798649,
+"2001": null
+},
+"sums": {
+"absolute": 1190,
+"relative": 6410.2218798649
+}
+},
+{
+"absolute": {
+"2000": 926,
+"2001": null
+},
+"relative": {
+"2000": 4988.122235928486,
+"2001": null
+},
+"sums": {
+"absolute": 926,
+"relative": 4988.122235928486
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2000": 262,
+"2001": null
+},
+"relative": {
+"2000": 1411.3261617853814,
+"2001": null
+},
+"sums": {
+"absolute": 262,
+"relative": 1411.3261617853814
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2001": [
+{
+"absolute": {
+"2001": 2132,
+"2002": null
+},
+"relative": {
+"2001": 7827.587472922863,
+"2002": null
+},
+"sums": {
+"absolute": 2132,
+"relative": 7827.587472922863
+}
+},
+{
+"absolute": {
+"2001": 1856,
+"2002": null
+},
+"relative": {
+"2001": 6814.26001395161,
+"2002": null
+},
+"sums": {
+"absolute": 1856,
+"relative": 6814.26001395161
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2001": 273,
+"2002": null
+},
+"relative": {
+"2001": 1002.3130300693908,
+"2002": null
+},
+"sums": {
+"absolute": 273,
+"relative": 1002.3130300693908
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2002": [
+{
+"absolute": {
+"2002": 1462,
+"2003": null
+},
+"relative": {
+"2002": 8251.169668203649,
+"2003": null
+},
+"sums": {
+"absolute": 1462,
+"relative": 8251.169668203649
+}
+},
+{
+"absolute": {
+"2002": 1312,
+"2003": null
+},
+"relative": {
+"2002": 7404.606432751838,
+"2003": null
+},
+"sums": {
+"absolute": 1312,
+"relative": 7404.606432751838
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2002": 147,
+"2003": null
+},
+"relative": {
+"2002": 829.6319707427747,
+"2003": null
+},
+"sums": {
+"absolute": 147,
+"relative": 829.6319707427747
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2003": [
+{
+"absolute": {
+"2003": 1631,
+"2004": null
+},
+"relative": {
+"2003": 7598.840838994027,
+"2004": null
+},
+"sums": {
+"absolute": 1631,
+"relative": 7598.840838994027
+}
+},
+{
+"absolute": {
+"2003": 1434,
+"2004": null
+},
+"relative": {
+"2003": 6681.016409023566,
+"2004": null
+},
+"sums": {
+"absolute": 1434,
+"relative": 6681.016409023566
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2003": 194,
+"2004": null
+},
+"relative": {
+"2003": 903.847408194262,
+"2004": null
+},
+"sums": {
+"absolute": 194,
+"relative": 903.847408194262
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2004": [
+{
+"absolute": {
+"2004": 4632,
+"2005": null
+},
+"relative": {
+"2004": 7972.035915467504,
+"2005": null
+},
+"sums": {
+"absolute": 4632,
+"relative": 7972.035915467504
+}
+},
+{
+"absolute": {
+"2004": 3542,
+"2005": null
+},
+"relative": {
+"2004": 6096.060279055679,
+"2005": null
+},
+"sums": {
+"absolute": 3542,
+"relative": 6096.060279055679
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2004": 1083,
+"2005": null
+},
+"relative": {
+"2004": 1863.9280864532184,
+"2005": null
+},
+"sums": {
+"absolute": 1083,
+"relative": 1863.9280864532184
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2005": [
+{
+"absolute": {
+"2005": 31384,
+"2006": null
+},
+"relative": {
+"2005": 6899.380805634172,
+"2006": null
+},
+"sums": {
+"absolute": 31384,
+"relative": 6899.380805634172
+}
+},
+{
+"absolute": {
+"2005": 27922,
+"2006": null
+},
+"relative": {
+"2005": 6138.30330279497,
+"2006": null
+},
+"sums": {
+"absolute": 27922,
+"relative": 6138.30330279497
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2005": 3422,
+"2006": null
+},
+"relative": {
+"2005": 752.2840019398462,
+"2006": null
+},
+"sums": {
+"absolute": 3422,
+"relative": 752.2840019398462
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2006": [
+{
+"absolute": {
+"2006": 55262,
+"2007": null
+},
+"relative": {
+"2006": 7042.2553159712215,
+"2007": null
+},
+"sums": {
+"absolute": 55262,
+"relative": 7042.2553159712215
+}
+},
+{
+"absolute": {
+"2006": 50640,
+"2007": null
+},
+"relative": {
+"2006": 6453.255568035588,
+"2007": null
+},
+"sums": {
+"absolute": 50640,
+"relative": 6453.255568035588
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2006": 4562,
+"2007": null
+},
+"relative": {
+"2006": 581.3537105327479,
+"2007": null
+},
+"sums": {
+"absolute": 4562,
+"relative": 581.3537105327479
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2007": [
+{
+"absolute": {
+"2007": 121207,
+"2008": null
+},
+"relative": {
+"2007": 6620.422156443011,
+"2008": null
+},
+"sums": {
+"absolute": 121207,
+"relative": 6620.422156443011
+}
+},
+{
+"absolute": {
+"2007": 102913,
+"2008": null
+},
+"relative": {
+"2007": 5621.189414687432,
+"2008": null
+},
+"sums": {
+"absolute": 102913,
+"relative": 5621.189414687432
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2007": 18132,
+"2008": null
+},
+"relative": {
+"2007": 990.3841736914922,
+"2008": null
+},
+"sums": {
+"absolute": 18132,
+"relative": 990.3841736914922
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2008": [
+{
+"absolute": {
+"2008": 266452,
+"2009": null
+},
+"relative": {
+"2008": 6428.744196651263,
+"2009": null
+},
+"sums": {
+"absolute": 266452,
+"relative": 6428.744196651263
+}
+},
+{
+"absolute": {
+"2008": 211070,
+"2009": null
+},
+"relative": {
+"2008": 5092.530878308972,
+"2009": null
+},
+"sums": {
+"absolute": 211070,
+"relative": 5092.530878308972
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2008": 54873,
+"2009": null
+},
+"relative": {
+"2008": 1323.932566851984,
+"2009": null
+},
+"sums": {
+"absolute": 54873,
+"relative": 1323.932566851984
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2009": [
+{
+"absolute": {
+"2009": 446471,
+"2010": null
+},
+"relative": {
+"2009": 6249.725638120936,
+"2010": null
+},
+"sums": {
+"absolute": 446471,
+"relative": 6249.725638120936
+}
+},
+{
+"absolute": {
+"2009": 350958,
+"2010": null
+},
+"relative": {
+"2009": 4912.729405725451,
+"2010": null
+},
+"sums": {
+"absolute": 350958,
+"relative": 4912.729405725451
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2009": 94672,
+"2010": null
+},
+"relative": {
+"2009": 1325.2238680948715,
+"2010": null
+},
+"sums": {
+"absolute": 94672,
+"relative": 1325.2238680948715
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2010": [
+{
+"absolute": {
+"2010": 587415,
+"2011": null
+},
+"relative": {
+"2010": 6400.065877375146,
+"2011": null
+},
+"sums": {
+"absolute": 587415,
+"relative": 6400.065877375146
+}
+},
+{
+"absolute": {
+"2010": 468754,
+"2011": null
+},
+"relative": {
+"2010": 5107.218032026946,
+"2011": null
+},
+"sums": {
+"absolute": 468754,
+"relative": 5107.218032026946
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2010": 117652,
+"2011": null
+},
+"relative": {
+"2010": 1281.8544821036928,
+"2011": null
+},
+"sums": {
+"absolute": 117652,
+"relative": 1281.8544821036928
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2011": [
+{
+"absolute": {
+"2011": 574023,
+"2012": null
+},
+"relative": {
+"2011": 6150.9709250753895,
+"2012": null
+},
+"sums": {
+"absolute": 574023,
+"relative": 6150.9709250753895
+}
+},
+{
+"absolute": {
+"2011": 460836,
+"2012": null
+},
+"relative": {
+"2011": 4938.110210266909,
+"2012": null
+},
+"sums": {
+"absolute": 460836,
+"relative": 4938.110210266909
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2011": 112127,
+"2012": null
+},
+"relative": {
+"2011": 1201.5022340845717,
+"2012": null
+},
+"sums": {
+"absolute": 112127,
+"relative": 1201.5022340845717
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2012": [
+{
+"absolute": {
+"2012": 443961,
+"2013": null
+},
+"relative": {
+"2012": 6241.028085462812,
+"2013": null
+},
+"sums": {
+"absolute": 443961,
+"relative": 6241.028085462812
+}
+},
+{
+"absolute": {
+"2012": 357663,
+"2013": null
+},
+"relative": {
+"2012": 5027.884945143573,
+"2013": null
+},
+"sums": {
+"absolute": 357663,
+"relative": 5027.884945143573
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2012": 85542,
+"2013": null
+},
+"relative": {
+"2012": 1202.5155914295622,
+"2013": null
+},
+"sums": {
+"absolute": 85542,
+"relative": 1202.5155914295622
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2013": [
+{
+"absolute": {
+"2013": 340062,
+"2014": null
+},
+"relative": {
+"2013": 6590.658317153148,
+"2014": null
+},
+"sums": {
+"absolute": 340062,
+"relative": 6590.658317153148
+}
+},
+{
+"absolute": {
+"2013": 272814,
+"2014": null
+},
+"relative": {
+"2013": 5287.341302867769,
+"2014": null
+},
+"sums": {
+"absolute": 272814,
+"relative": 5287.341302867769
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2013": 66634,
+"2014": null
+},
+"relative": {
+"2013": 1291.417230696705,
+"2014": null
+},
+"sums": {
+"absolute": 66634,
+"relative": 1291.417230696705
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2014": [
+{
+"absolute": {
+"2014": 221398,
+"2015": null
+},
+"relative": {
+"2014": 10348.372652285227,
+"2015": null
+},
+"sums": {
+"absolute": 221398,
+"relative": 10348.372652285227
+}
+},
+{
+"absolute": {
+"2014": 182329,
+"2015": null
+},
+"relative": {
+"2014": 8522.246981989509,
+"2015": null
+},
+"sums": {
+"absolute": 182329,
+"relative": 8522.246981989509
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"2014": 38738,
+"2015": null
+},
+"relative": {
+"2014": 1810.6543862375684,
+"2015": null
+},
+"sums": {
+"absolute": 38738,
+"relative": 1810.6543862375684
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2015": [
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2016": [
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"BLOGGMIX2017": [
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {},
+"relative": {},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1998": 193,
+"2015": null,
+"1999": 3233,
+"2000": 1190,
+"2001": 2132,
+"2002": 1462,
+"2003": 1631,
+"2004": 4632,
+"2005": 31384,
+"2006": 55262,
+"2007": 121207,
+"2008": 266452,
+"2009": 446471,
+"2010": 587415,
+"2011": 574023,
+"2012": 443961,
+"2013": 340062,
+"2014": 221398
+},
+"relative": {
+"1998": 6240.098289631091,
+"2015": null,
+"1999": 5371.395532753384,
+"2000": 6410.2218798649,
+"2001": 7827.587472922863,
+"2002": 8251.169668203649,
+"2003": 7598.840838994027,
+"2004": 7972.035915467504,
+"2005": 6899.380805634172,
+"2006": 7042.2553159712215,
+"2007": 6620.422156443011,
+"2008": 6428.744196651263,
+"2009": 6249.725638120936,
+"2010": 6400.065877375146,
+"2011": 6150.9709250753895,
+"2012": 6241.028085462812,
+"2013": 6590.658317153148,
+"2014": 10348.372652285227
+},
+"sums": {
+"absolute": 3102108,
+"relative": 5342.658928106694
+}
+},
+{
+"absolute": {
+"1998": 184,
+"2015": null,
+"1999": 3049,
+"2000": 926,
+"2001": 1856,
+"2002": 1312,
+"2003": 1434,
+"2004": 3542,
+"2005": 27922,
+"2006": 50640,
+"2007": 102913,
+"2008": 211070,
+"2009": 350958,
+"2010": 468754,
+"2011": 460836,
+"2012": 357663,
+"2013": 272814,
+"2014": 182329
+},
+"relative": {
+"1998": 5949.109250218242,
+"2015": null,
+"1999": 5065.692848550902,
+"2000": 4988.122235928486,
+"2001": 6814.26001395161,
+"2002": 7404.606432751838,
+"2003": 6681.016409023566,
+"2004": 6096.060279055679,
+"2005": 6138.30330279497,
+"2006": 6453.255568035588,
+"2007": 5621.189414687432,
+"2008": 5092.530878308972,
+"2009": 4912.729405725451,
+"2010": 5107.218032026946,
+"2011": 4938.110210266909,
+"2012": 5027.884945143573,
+"2013": 5287.341302867769,
+"2014": 8522.246981989509
+},
+"sums": {
+"absolute": 2498202,
+"relative": 4302.571419020226
+},
+"cqp": "[(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+},
+{
+"absolute": {
+"1998": 9,
+"2015": null,
+"1999": 183,
+"2000": 262,
+"2001": 273,
+"2002": 147,
+"2003": 194,
+"2004": 1083,
+"2005": 3422,
+"2006": 4562,
+"2007": 18132,
+"2008": 54873,
+"2009": 94672,
+"2010": 117652,
+"2011": 112127,
+"2012": 85542,
+"2013": 66634,
+"2014": 38738
+},
+"relative": {
+"1998": 290.98903941284874,
+"2015": null,
+"1999": 304.0412565709463,
+"2000": 1411.3261617853814,
+"2001": 1002.3130300693908,
+"2002": 829.6319707427747,
+"2003": 903.847408194262,
+"2004": 1863.9280864532184,
+"2005": 752.2840019398462,
+"2006": 581.3537105327479,
+"2007": 990.3841736914922,
+"2008": 1323.932566851984,
+"2009": 1325.2238680948715,
+"2010": 1281.8544821036928,
+"2011": 1201.5022340845717,
+"2012": 1202.5155914295622,
+"2013": 1291.417230696705,
+"2014": 1810.6543862375684
+},
+"sums": {
+"absolute": 598505,
+"relative": 1030.7855438193951
+},
+"cqp": "[deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]"
+}
+],
+"time": 330.4088888168335
+}
