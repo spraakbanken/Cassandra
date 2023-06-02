@@ -1,3 +1,5 @@
+
+#subforums = ["adoption"]
 subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
 
@@ -5,6 +7,7 @@ PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\"
 #subforum = "kansliga"
 token_threshold = 10000
 firstage = 18
+total_threshold = 0
 
 variable = ARGV[0]
 if variable.to_s == ""
@@ -22,10 +25,10 @@ tokencounter = 0
     
 
 subforums.each do |subforum|
-
+    STDERR.puts subforum
     f = File.open("#{PATH}familjeliv-#{subforum}_sentence_age#{token_threshold}_#{firstage}.conllu","r:utf-8")
     
-    total_threshold = 10
+    
     
     current_age = ""
     current_agebin = ""
@@ -94,11 +97,13 @@ subforums.each do |subforum|
 
 end
 
-o = File.open("familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firstage}_#{variable}_t#{total_threshold}.tsv","w:utf-8")
+#o = File.open("familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firstage}_#{variable}_t#{total_threshold}.tsv","w:utf-8")
+o = File.open("familjeliv_sentence_#{token_threshold}_firstage#{firstage}_#{variable}_t#{total_threshold}.tsv","w:utf-8")
 
 #o.puts "post_year\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv3abs\tv1rel\tv2rel\tv3rel"
 
-o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv3abs\tv1rel\tv2rel\tv3rel"
+#o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv3abs\tv1rel\tv2rel\tv3rel"
+o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 
 authorhash.each_pair do |key,value|
     year = key[3]	
@@ -106,15 +111,16 @@ authorhash.each_pair do |key,value|
     age = key[1]
     bin = key[2]
     total = value["total"]
-    #if total >= total_threshold
+    if total >= total_threshold
         v1abs = value["v1"]
         v2abs = value["v2"]
         v3abs = value["v3"]
         v1rel = v1abs/total
         v2rel = v2abs/total
         v3rel = v3abs/total
-        o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v3abs}\t#{v1rel}\t#{v2rel}\t#{v3rel}"
-    #end
+        #o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v3abs}\t#{v1rel}\t#{v2rel}\t#{v3rel}"
+        o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
+    end
 
 end
 

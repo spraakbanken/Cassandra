@@ -32,8 +32,8 @@ variant1 = [deprel != 'DT' & deprel != 'AT'] [word = 'dom' %c  & (pos = 'PN') & 
 
 
 #label = de_filtered_obj
-variant1 = [word = 'de' %c  & (pos = 'PN') & (deprel = 'OO' | deprel = 'IO' | deprel = 'PA')] [word != 'som' %c]
 #UA excludes a lot of cases like "än de(m)", which is reasonable, right? We could also exclude cases with "än" in front, but then we'd lose determiners like "...än de kloka tjejerna"
+variant1 = [word = 'de' %c  & (pos = 'PN') & (deprel = 'OO' | deprel = 'IO' | deprel = 'PA')] [word != 'som' %c]
 
 #label = dem_filtered_obj
 variant1 = [word = 'dem' %c  & (pos = 'PN') & (deprel = 'OO' | deprel = 'IO' | deprel = 'PA')] [word != 'som' %c]
@@ -49,6 +49,11 @@ variant1 = [(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')]
 
 #label = dem_filtered
 variant1 = [word = 'dem' %c  & (pos = 'PN' | pos = 'DT')]
+
+#label = demsom_vs_desom
+variant1 = [(word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word = 'som' %c]
+variant2 = [(word = 'de' %c) & (pos = 'PN' | pos = 'DT')] [word = 'som' %c]
+
 
 #label = de(m)_vs_dom
 variant1 = [(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]
