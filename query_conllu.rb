@@ -3,7 +3,7 @@
 subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
 
-PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\"
+PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
 #subforum = "kansliga"
 token_threshold = 10000
 firstage = 18
