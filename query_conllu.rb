@@ -37,6 +37,7 @@ subforums.each do |subforum|
     
     prev_tokenc = ""
     prev_pos = ""
+    prevprev_pos = ""
     prevprev_deprel = ""
     prev_deprel = ""
     
@@ -70,7 +71,8 @@ subforums.each do |subforum|
             deprel = line2[7]
             #if (tokenc == "de") and (pos == "PN" or pos == "DT")
             #if (prev_tokenc == "de") and (prev_pos == "PN") and (prev_deprel == "SS" or prev_deprel == "FS" or prev_deprel == "ES") and tokenc != "som"
-            if ( ((prev_tokenc == "de") and (prev_pos == "PN" or prev_pos == "DT")) or ((prev_tokenc == "dem") and (prev_pos == "PN" or prev_pos == "DT")) )and tokenc != "som"
+            #if ( ((prev_tokenc == "de") and (prev_pos == "PN" or prev_pos == "DT")) or ((prev_tokenc == "dem") and (prev_pos == "PN" or prev_pos == "DT")) )and tokenc != "som"
+            if (prevprev_pos == "PP") and (prev_pos == "PN" or prev_pos == "DT") and (prev_tokenc == "dem") and tokenc == "som"
                 agebinhash_v1[current_agebin] += 1
                 authorhash[[current_username,current_age,current_agebin,current_year]]["v1"] += 1
                 authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
@@ -81,13 +83,15 @@ subforums.each do |subforum|
                 #authorhash[[current_username,current_age,current_agebin,current_year]]["v2"] += 1
                 #authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
             #elsif (tokenc == "dom") and (pos == "PN" or pos == "DT") and (prev_deprel != "DT" and prev_deprel != "AT")
-            elsif (prevprev_deprel != "DT" and prevprev_deprel != "AT") and (prev_tokenc == "dom") and (prev_pos == "PN" or prev_pos == "DT")  and tokenc != "som"
+            #elsif (prevprev_deprel != "DT" and prevprev_deprel != "AT") and (prev_tokenc == "dom") and (prev_pos == "PN" or prev_pos == "DT")  and tokenc != "som"
             #elsif (prevprev_deprel != "DT" and prevprev_deprel != "AT") and (prev_tokenc == "dom") and (prev_pos == "PN") and (prev_deprel == "OO" or prev_deprel == "IO" or prev_deprel == "PA") and tokenc != "som"
+            elsif (prevprev_pos == "PP") and (prev_pos == "PN" or prev_pos == "DT") and (prev_tokenc == "de") and tokenc == "som"
                 agebinhash_v2[current_agebin] += 1
                 authorhash[[current_username,current_age,current_agebin,current_year]]["v2"] += 1
                 authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
             end
             prev_tokenc = tokenc.clone
+            prevprev_pos = prev_pos.clone
             prev_pos = pos.clone
             prevprev_deprel = prev_deprel.clone
             prev_deprel = deprel.clone
