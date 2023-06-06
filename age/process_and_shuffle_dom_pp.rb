@@ -44,7 +44,7 @@ subforums.each do |subforum|
                 token = line1.split("\t")[1]
                 tokenc = token.downcase
                 pos = line1.split("\t")[3]
-                if (prevprev_pos == "PP") and (prev_pos == "PN" or prev_pos == "DT") and (prev_tokenc == "dem") and tokenc == "som"
+                if (prevprev_pos == "PP") and (prev_pos == "PN" or prev_pos == "DT") and (prev_tokenc == "dem" or prev_tokenc == "de") and tokenc == "som"
                     flag = true
                     tokens << id
                 end
