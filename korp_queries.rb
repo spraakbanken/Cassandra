@@ -58,7 +58,8 @@ variant2 = [(word = 'de' %c) & (pos = 'PN' | pos = 'DT')] [word = 'som' %c]
 variant1 = [pos = "PP"] [(word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word = 'som' %c]
 variant2 = [pos = "PP"] [(word = 'de' %c) & (pos = 'PN' | pos = 'DT')] [word = 'som' %c]
 
-
+#label = pp_demsom_desom
+variant1 = [pos = "PP"] [(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word = 'som' %c]
 
 #label = de(m)_vs_dom
 variant1 = [(word = 'de' %c | word = 'dem' %c) & (pos = 'PN' | pos = 'DT')] [word != 'som' %c]
