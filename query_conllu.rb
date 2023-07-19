@@ -37,6 +37,7 @@ subforums.each do |subforum|
     current_username = ""
     current_year = ""
     
+    prevprev_tokenc = ""
     prev_tokenc = ""
     prev_pos = ""
     prevprev_pos = ""
@@ -56,7 +57,7 @@ subforums.each do |subforum|
             elsif line1.include?("# username")
                 current_username = line1.split(" = ")[1]
             elsif line1.include?("# post_date")
-                current_year = line1.split(" = ")[1].split("-")[0]
+                current_year = line1.split(" = ")[1].split("-")[0].to_i
             
                 #authorhash[current_username] = true
             end
@@ -74,7 +75,7 @@ subforums.each do |subforum|
                 deprel = line2[7]
     
     
-                condition = apply_criteria(tokenc, lemma, pos, mds, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+                condition = apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
                 if condition == 1
                     agebinhash_v1[current_agebin] += 1
                     authorhash[[current_username,current_age,current_agebin,current_year]]["v1"] += 1
@@ -84,6 +85,7 @@ subforums.each do |subforum|
                     authorhash[[current_username,current_age,current_agebin,current_year]]["v2"] += 1
                     authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
                 end
+                prevprev_tokenc = prev_tokenc.clone
                 prev_tokenc = tokenc.clone
                 prevprev_pos = prev_pos.clone
                 prev_pos = pos.clone
@@ -96,8 +98,7 @@ subforums.each do |subforum|
 
 end
 
-#o = File.open("familjeliv-#{subforum}_sentence_#{token_threshold}_firstage#{firstage}_#{variable}_t#{total_threshold}.tsv","w:utf-8")
-o = File.open("familjeliv_#{variable}_t#{total_threshold}.tsv","w:utf-8")
+o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}.tsv","w:utf-8")
 
 o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 
