@@ -4,15 +4,16 @@ if variable.to_s == ""
     exit
 end
 
-year_of_interest = 2010
+year_of_interest = 2009
 
 require_relative "queries\\#{variable}.rb"
 
-subforums = ["kansliga"]
-#subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
+#subforums = ["kansliga"]
+subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
 
-PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
+#PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
+PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 #subforum = "kansliga"
 token_threshold = 10000
 firstage = 18
@@ -98,7 +99,7 @@ subforums.each do |subforum|
 
 end
 
-o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}.tsv","w:utf-8")
+o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
 
 o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 

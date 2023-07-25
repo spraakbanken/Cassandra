@@ -7,7 +7,7 @@ variant2 = [word = 'kommer' %c] [pos = 'VB' & msd = '.*INF.*']
 
 #label = ss_naan
 variant1 = [word = 'någon.*' %c | word = 'något.*' %c | word = 'några.*' %c ]
-variant2 = [(word = 'nån.' %c & word != 'nånå' %c) | (word = 'nåt.' %c & pos != 'VB') | (word = 'nåra.' %c) | (word = 'nårra.' %c)]
+variant2 = [(word = 'nån.*' %c & word != 'nånå' %c) | (word = 'nåt.*' %c & pos != 'VB') | (word = 'nåra.*' %c) | (word = 'nårra.*' %c)]
 
 #label = med_vs_paa_kort_varsel
 variant1 = [lex contains 'med\.\.pp\.1'] [lex contains 'kort\.\.av\.1'] [lex contains 'varsel\.\.nn\.1']
