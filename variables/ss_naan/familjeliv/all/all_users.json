@@ -62,8 +62,6 @@
  
  
  
- 
- 
 {
 "corpora": {
 "FAMILJELIV-ADOPTION": [
@@ -3761,5 +3759,5 @@
 "cqp": "[(word = 'n\u00e5n.*' %c & word != 'n\u00e5n\u00e5' %c) | (word = 'n\u00e5t.*' %c & pos != 'VB') | (word = 'n\u00e5ra.*' %c) | (word = 'n\u00e5rra.*' %c)]"
 }
 ],
-"time": 331.13703060150146
+"time": 321.72279715538025
 }
