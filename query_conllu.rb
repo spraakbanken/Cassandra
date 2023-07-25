@@ -16,7 +16,7 @@ PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
 #subforum = "kansliga"
 token_threshold = 10000
 firstage = 18
-total_threshold = 0
+total_threshold = ARGV[1].to_i
 
 
 agebinhash_v1 = Hash.new(0.0)
