@@ -103,6 +103,9 @@ o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_int
 
 o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 
+nprolific = 0.0
+sum_v2rel = 0.0
+
 authorhash.each_pair do |key,value|
     year = key[3]
     username = key[0]
@@ -110,14 +113,22 @@ authorhash.each_pair do |key,value|
     bin = key[2]
     total = value["total"]
     if total >= total_threshold
+        nprolific += 1
         v1abs = value["v1"]
         v2abs = value["v2"]
         v3abs = value["v3"]
         v1rel = v1abs/total
         v2rel = v2abs/total
+        sum_v2rel += v2rel
         v3rel = v3abs/total
         #o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v3abs}\t#{v1rel}\t#{v2rel}\t#{v3rel}"
         o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
     end
 
+end
+o.close
+
+STDERR.puts "#{variable} #prolific speakers: #{nprolific} Average v2rel: #{sum_v2rel/nprolific}"
+if nprolific >= 10 and sum_v2rel/nprolific >= 0.10 and  sum_v2rel/nprolific <= 0.90
+    File.rename("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv", "results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}_a.tsv"
 end
