@@ -1,6 +1,5 @@
 #check that the order within arrays is equivalent
-#solve the 1970 mystery and bugs
-#do cohorts 
+#remove 1970 (currently removed only from cohorts. Do this at the previous stage (extracting results) or even before (corpora)
 
 
 require "rinruby"
@@ -29,8 +28,23 @@ end
 
 
 #__END__
-def age_to_cohort(age)
-    
+def yob_to_cohort(yob)
+    if yob > 1999
+        abort("Invalid yob")
+    elsif yob >= 1990
+        cohort = 5
+    elsif yob >= 1980
+        cohort = 4
+    elsif yob == 1970
+        cohort = 0 #this year must be exluded. Do it somewhere else?
+    elsif yob >= 1969
+        cohort = 3
+    elsif yob >= 1959
+        cohort = 2 
+    else
+        cohort = 1
+    end
+       
     return cohort
 end
 avar_enthash = {}
@@ -43,6 +57,9 @@ variables.each do |variable|
     agehash = {}
     v2hash = {}
     enthash = {}
+    coh_enthash = Hash.new{|hash, key| hash[key] = Array.new}
+    coh_v2hash  = Hash.new{|hash, key| hash[key] = Array.new}
+    #coh_total = Hash.new(0.0)
     entsum = 0.0
 
     STDERR.puts variable
@@ -71,9 +88,18 @@ variables.each do |variable|
             line2 = line.strip.split("\t")
             speaker = line2[1]
             agehash[speaker] = line2[2].to_i
-            v2hash[speaker] = line2[-1].to_f
-            enthash[speaker] = entropy([v2hash[speaker],1-v2hash[speaker]])
-            entsum += enthash[speaker]
+            yob = year - line2[2].to_i
+            #if yob != 1970
+                v2hash[speaker] = line2[-1].to_f
+                enthash[speaker] = entropy([v2hash[speaker],1-v2hash[speaker]])
+                entsum += enthash[speaker]
+                cohort = yob_to_cohort(yob)
+                if cohort != 0
+                    #coh_total[cohort] += 1
+                    coh_enthash[cohort] << enthash[speaker]
+                    coh_v2hash[cohort] << v2hash[speaker]
+                end
+            #end
             #STDOUT.puts "#{line2[1]}\t#{v2hash[speaker]}\t#{enthash[speaker]}"
             
         end
@@ -107,6 +133,18 @@ variables.each do |variable|
     R.eval "plot(entropy~age)"
     R.eval "dev.off()"
 
+    R.eval "pdf(file='entropybycohort_#{variable}_t#{t}_#{year}.pdf')"
+    for i in 1..5 do 
+        R.assign "c#{i}",coh_enthash[i]
+        R.assign "d#{i}",coh_v2hash[i]
+    end
+    R.eval "boxplot(c1,c2,c3,c4,c5)"
+    R.eval "dev.off()"
+
+    R.eval "pdf(file='v2bycohort_#{variable}_t#{t}_#{year}.pdf')"
+
+    R.eval "boxplot(d1,d2,d3,d4,d5)"
+    R.eval "dev.off()"
 
     #STDERR.puts intersection.keys.length
 end
@@ -116,17 +154,24 @@ STDERR.puts intersection.length
 
 intersection_v2 = Hash.new{|hash, key| hash[key] = Hash.new}
 consistency = {}
+#coh_intersection = {}
+coh_innovativity = Hash.new{|hash, key| hash[key] = Array.new}
+coh_consistency = Hash.new{|hash, key| hash[key] = Array.new}
 
 intersection.each do |speaker|
     i_sum = 0.0
     more = 0.0
     less = 0.0
+    ageflag = true
         
     variables.each do |variable|
         intersection_v2[variable][speaker] = var_v2[variable][speaker]
         i_sum += var_v2[variable][speaker]
-        intersection_age[speaker] = var_age[variable][speaker]
-
+        if ageflag
+            intersection_age[speaker] = var_age[variable][speaker]
+            
+            ageflag = false
+        end
         if var_v2[variable][speaker] >= avar_community[variable]
             more += 1
         else
@@ -136,9 +181,12 @@ intersection.each do |speaker|
         
 
     end
+    cohort = yob_to_cohort(year - intersection_age[speaker])
     nvariables = variables.length
     innovativity[speaker] = i_sum/nvariables
+    coh_innovativity[cohort] << innovativity[speaker]
     consistency[speaker] = entropy([more/nvariables,less/nvariables])
+    coh_consistency[cohort] << consistency[speaker]
 
 end
 
@@ -172,4 +220,17 @@ R.eval "dev.off()"
 
 R.eval "pdf(file='consbyage_t#{t}_#{year}.pdf')"
 R.eval "plot(consistency~int_age)"
+R.eval "dev.off()"
+
+R.eval "pdf(file='innovbycohort_t#{t}_#{year}.pdf')"
+for i in 1..5 do 
+    R.assign "c#{i}",coh_innovativity[i]
+    R.assign "d#{i}",coh_consistency[i]
+end
+R.eval "boxplot(c1,c2,c3,c4,c5)"
+R.eval "dev.off()"
+
+R.eval "pdf(file='consbycohort_t#{t}_#{year}.pdf')"
+
+R.eval "boxplot(d1,d2,d3,d4,d5)"
 R.eval "dev.off()"
