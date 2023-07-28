@@ -1,11 +1,13 @@
 #check that the order within arrays is equivalent
 #extract samples for manual control
+#check consistency
+#zoom in?
 
 
 require "rinruby"
 
 
-variables = ["kommer_att", "naan_asterisk", "mej"]
+variables = ["kommer_att", "naan_asterisk", "mej", "eftersom_att"]
 #variables = ["kommer_att"]
 year = 2009
 t = 10
@@ -37,7 +39,7 @@ def yob_to_cohort(yob)
     elsif yob >= 1980
         cohort = 4
     elsif yob == 1970
-        cohort = 0 #this year must be exluded. Do it somewhere else?
+        cohort = 0 #this year must be exluded. It was already done by query_conllu, so this is just an extra safety
     elsif yob >= 1969
         cohort = 3
     elsif yob >= 1959

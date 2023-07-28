@@ -610,9 +610,9 @@ variant2 = [(word = 'de' %c & deprel = 'OO')] [(word != 'som' %c )]
 
 
 
-#label = eftersom_att
-variant1 = [word = 'eftersom'] [word != 'att']
-variant2 = [word = 'eftersom'] [word = 'att']
+#label = ss_eftersom_att
+variant1 = [word = 'eftersom' %c] [word != 'att' %c]
+variant2 = [word = 'eftersom' %c] [word = 'att' %c]
 
 #label = styv_bonus
 variant1 = [word = 'styv.*'+%c & (word = '.*familj.*' %c | word = '.*far.*' %c | word = '.*mor.*' %c | word = '.*papp.*' %c | word = '.*mamm.*' %c | word = '.*bror.*' %c | word = '.*syst.*' %c | word = '.*syskon.*' %c | word = '.*dott.*' %c | word = '.*son.*' %c | word = '.*barn.*' %c)]

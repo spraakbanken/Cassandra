@@ -126,20 +126,26 @@ if query == "time"
         if nvariants == 2
             variant2.gsub!("\"","\'") 
             variant2.gsub!(" ","+")
-            safe_uri = URI.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/count_time?cqp=((#{variant1})+|+(#{variant2}))#{gran_addendum[granularity]}&corpus=#{corpus}&subcqp0=#{variant1}&subcqp1=#{variant2}")
+            p = URI::Parser.new
+            safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/count_time?cqp=((#{variant1})+|+(#{variant2}))#{gran_addendum[granularity]}&corpus=#{corpus}&subcqp0=#{variant1}&subcqp1=#{variant2}")
+            #STDERR.puts safe_uri
         elsif nvariants == 1
-            safe_uri = URI.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/count_time?cqp=(#{variant1})#{gran_addendum[granularity]}&corpus=#{corpus}")
+            p = URI::Parser.new
+            safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/count_time?cqp=(#{variant1})#{gran_addendum[granularity]}&corpus=#{corpus}")
         end
     else
         variant1 = "[#{useradd}]"
-        safe_uri = URI.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/count_time?cqp=((#{variant1}))&corpus=#{corpus}&subcqp0=#{variant1}")
+        p = URI::Parser.new
+        safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/count_time?cqp=((#{variant1}))&corpus=#{corpus}&subcqp0=#{variant1}")
     end
 
 elsif query == "authors"
     if year_for_authors.nil?
-        safe_uri = URI.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/struct_values?corpus=#{corpus}&struct=text_username&count=true")
+        p = URI::Parser.new
+        safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/struct_values?corpus=#{corpus}&struct=text_username&count=true")
     else
-        safe_uri = URI.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/struct_values?corpus=#{corpus}&struct=text_username>text_date&count=true")
+        p = URI::Parser.new
+        safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/struct_values?corpus=#{corpus}&struct=text_username>text_date&count=true")
     end
 
     

@@ -143,6 +143,6 @@ end
 o.close
 
 STDERR.puts "#{variable} #prolific speakers: #{nprolific} Average v2rel: #{sum_v2rel/nprolific}"
-if nprolific >= 10 and sum_v2rel/nprolific >= 0.10 and  sum_v2rel/nprolific <= 0.90
+if nprolific >= 10 and sum_v2rel/nprolific >= 0.01 and  sum_v2rel/nprolific <= 0.90
     File.rename("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv", "results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}_a.tsv")
 end
