@@ -1,11 +1,15 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = ss_mej
+variant1 = [word = 'mig' %c | word = 'dig' %c | word = 'sig' %c]
+variant2 = [word = 'mej' %c | word = 'dej' %c | word = 'sej' %c]
+
 
 #label = ss_kommer_att
 variant1 = [word = 'kommer' %c] [word = 'att' %c] [pos = 'VB' & msd = '.*INF.*']
 variant2 = [word = 'kommer' %c] [pos = 'VB' & msd = '.*INF.*']
 
-#label = ss_naan
+#label = ss_naan_asterisk
 variant1 = [word = 'någon.*' %c | word = 'något.*' %c | word = 'några.*' %c ]
 variant2 = [(word = 'nån.*' %c & word != 'nånå' %c) | (word = 'nåt.*' %c & pos != 'VB') | (word = 'nåra.*' %c) | (word = 'nårra.*' %c)]
 

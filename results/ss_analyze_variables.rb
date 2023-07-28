@@ -1,11 +1,12 @@
 #check that the order within arrays is equivalent
-#remove 1970 (currently removed only from cohorts. Do this at the previous stage (extracting results) or even before (corpora)
+#extract samples for manual control
 
 
 require "rinruby"
 
 
-variables = ["kommer_att", "naan_asterisk"]
+variables = ["kommer_att", "naan_asterisk", "mej"]
+#variables = ["kommer_att"]
 year = 2009
 t = 10
 
@@ -120,17 +121,17 @@ variables.each do |variable|
     avar_enthash[variable] = entsum/v2array.length
     R.eval "pdf(file='intra_#{variable}_t#{t}_#{year}.pdf')"
     R.assign "v2rels",v2array
-    R.eval "hist(v2rels)"
+    R.eval "hist(v2rels, main = \"Proportion of innovations for #{variable}\")"
     R.eval "dev.off()"
     
     R.eval "pdf(file='entropy_#{variable}_t#{t}_#{year}.pdf')"
     R.assign "entropy",enthash.values
-    R.eval "hist(entropy)"
+    R.eval "hist(entropy, main = \"Entropy for #{variable}\")"
     R.eval "dev.off()"
 
     R.eval "pdf(file='entropybyage_#{variable}_t#{t}_#{year}.pdf')"
     R.assign "age",agehash.values
-    R.eval "plot(entropy~age)"
+    R.eval "plot(entropy~age, main = \"Entropy by age #{variable}\")"
     R.eval "dev.off()"
 
     R.eval "pdf(file='entropybycohort_#{variable}_t#{t}_#{year}.pdf')"
@@ -138,12 +139,12 @@ variables.each do |variable|
         R.assign "c#{i}",coh_enthash[i]
         R.assign "d#{i}",coh_v2hash[i]
     end
-    R.eval "boxplot(c1,c2,c3,c4,c5)"
+    R.eval "boxplot(c1,c2,c3,c4,c5, main = \"Entropy by cohort for #{variable}\")"
     R.eval "dev.off()"
 
     R.eval "pdf(file='v2bycohort_#{variable}_t#{t}_#{year}.pdf')"
 
-    R.eval "boxplot(d1,d2,d3,d4,d5)"
+    R.eval "boxplot(d1,d2,d3,d4,d5, main = \"Innovation by cohort for #{variable}\")"
     R.eval "dev.off()"
 
     #STDERR.puts intersection.keys.length
@@ -197,7 +198,7 @@ variables.each do |variable1|
             R.eval "pdf(file='#{variable1}by#{variable2}_t#{t}_#{year}.pdf')"
             R.assign "var1",intersection_v2[variable1].values
             R.assign "var2",intersection_v2[variable2].values
-            R.eval "plot(var1~var2)"
+            R.eval "plot(var1~var2, main = \"Innovation: #{variable1} by #{variable2}\")"
             R.eval "dev.off()"
             used_pairs << [variable1, variable2].sort
         end
@@ -205,21 +206,21 @@ variables.each do |variable1|
 end
 R.eval "pdf(file='innovativity_t#{t}_#{year}.pdf')"
 R.assign "innov",innovativity.values
-R.eval "hist(innov)"
+R.eval "hist(innov, main = \"innovativity across variables\")"
 R.eval "dev.off()"
 
 R.eval "pdf(file='innovbyage_t#{t}_#{year}.pdf')"
 R.assign "int_age",intersection_age.values
-R.eval "plot(innov~int_age)"
+R.eval "plot(innov~int_age, main = \"innovativity by age\")"
 R.eval "dev.off()"
 
 R.eval "pdf(file='consistency_t#{t}_#{year}.pdf')"
 R.assign "consistency",consistency.values
-R.eval "hist(consistency)"
+R.eval "hist(consistency, main = \"consistency\")"
 R.eval "dev.off()"
 
 R.eval "pdf(file='consbyage_t#{t}_#{year}.pdf')"
-R.eval "plot(consistency~int_age)"
+R.eval "plot(consistency~int_age, main = \"consistency by age\")"
 R.eval "dev.off()"
 
 R.eval "pdf(file='innovbycohort_t#{t}_#{year}.pdf')"
@@ -227,10 +228,10 @@ for i in 1..5 do
     R.assign "c#{i}",coh_innovativity[i]
     R.assign "d#{i}",coh_consistency[i]
 end
-R.eval "boxplot(c1,c2,c3,c4,c5)"
+R.eval "boxplot(c1,c2,c3,c4,c5, main = \"innovativity by cohort\")"
 R.eval "dev.off()"
 
 R.eval "pdf(file='consbycohort_t#{t}_#{year}.pdf')"
 
-R.eval "boxplot(d1,d2,d3,d4,d5)"
+R.eval "boxplot(d1,d2,d3,d4,d5, main = \"consistency by cohort\")"
 R.eval "dev.off()"
