@@ -5,7 +5,7 @@
 
 
 require "rinruby"
-
+R.eval "setwd('plots')"
 
 variables = ["kommer_att", "naan_asterisk", "mej", "eftersom_att"]
 #variables = ["kommer_att"]
