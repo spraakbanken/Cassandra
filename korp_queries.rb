@@ -1,5 +1,12 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = ss_are_vs_mer
+variant1 = [pos = 'JJ' & msd = '.*KOM.*']
+variant2 = [word = 'mer' %c] [pos = 'JJ' & lemma not contains 'själv']
+
+#[
+# &
+
 #label = ss_mej
 variant1 = [word = 'mig' %c | word = 'dig' %c | word = 'sig' %c]
 variant2 = [word = 'mej' %c | word = 'dej' %c | word = 'sej' %c]

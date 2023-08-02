@@ -7,8 +7,8 @@
 require "rinruby"
 R.eval "setwd('plots')"
 
-variables = ["kommer_att", "naan_asterisk", "mej", "eftersom_att"]
-#variables = ["kommer_att"]
+variables = ["kommer_att", "naan_asterisk", "mej", "eftersom_att", "are_vs_mer"]
+#variables = ["are_vs_mer"]
 year = 2009
 t = 10
 
@@ -55,6 +55,7 @@ var_v2 = {}
 var_age = {}
 innovativity = {}
 avar_community = {}
+var_ent = {}
 
 variables.each do |variable|
     agehash = {}
@@ -109,6 +110,7 @@ variables.each do |variable|
     end
     var_v2[variable] = v2hash
     var_age[variable] = agehash
+    var_ent[variable] = enthash
     
     if flag
         intersection = agehash.keys
@@ -152,10 +154,11 @@ variables.each do |variable|
     #STDERR.puts intersection.keys.length
 end
 
-STDERR.puts "#{avar_enthash}"
-STDERR.puts intersection.length
+STDOUT.puts "#{avar_enthash}"
+STDOUT.puts intersection.length
 
 intersection_v2 = Hash.new{|hash, key| hash[key] = Hash.new}
+intersection_entropy = Hash.new{|hash, key| hash[key] = Hash.new}
 consistency = {}
 #coh_intersection = {}
 coh_innovativity = Hash.new{|hash, key| hash[key] = Array.new}
@@ -169,6 +172,7 @@ intersection.each do |speaker|
         
     variables.each do |variable|
         intersection_v2[variable][speaker] = var_v2[variable][speaker]
+        intersection_entropy[variable][speaker] = var_ent[variable][speaker]
         i_sum += var_v2[variable][speaker]
         if ageflag
             intersection_age[speaker] = var_age[variable][speaker]
@@ -197,11 +201,18 @@ used_pairs = []
 variables.each do |variable1|
     variables.each do |variable2|
         if variable1 != variable2 and !used_pairs.include?([variable1, variable2].sort)
-            R.eval "pdf(file='#{variable1}by#{variable2}_t#{t}_#{year}.pdf')"
+            R.eval "pdf(file='correlv2_#{variable1}by#{variable2}_t#{t}_#{year}.pdf')"
             R.assign "var1",intersection_v2[variable1].values
             R.assign "var2",intersection_v2[variable2].values
-            R.eval "plot(var1~var2, main = \"Innovation: #{variable1} by #{variable2}\")"
+            R.eval "plot(var1~var2, main = \"V2: #{variable1} by #{variable2}\")"
             R.eval "dev.off()"
+
+            R.eval "pdf(file='correlentropy_#{variable1}by#{variable2}_t#{t}_#{year}.pdf')"
+            R.assign "var1",intersection_entropy[variable1].values
+            R.assign "var2",intersection_entropy[variable2].values
+            R.eval "plot(var1~var2, main = \"Entropy: #{variable1} by #{variable2}\")"
+            R.eval "dev.off()"
+
             used_pairs << [variable1, variable2].sort
         end
     end
