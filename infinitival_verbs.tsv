@@ -1,0 +1,192 @@
+ID	Verb	Category_SAG	Att_present_SAG	Comment_SAG	Category_Lagervall	Att_present_Lagervall	Att_omission_Lagervall	Category_Bylin	Att_present_Bylin	Att_omission_Bylin	Category_Mjöberg	Att-present_Mjöberg	Category_Own	Variation_reported	Sample_Narrow (in progress)
+ID1	riskera	Aktionell	Yes										Aspectual	No	Include
+ID2	upphöra	Aktionell	Yes										Aspectual	No	Include
+ID3	bruka	Aktionell	No		modalliknande_verb	0.1%	99.9%	aspektuell	0%	100%	modala_hjälpverb_frändskap	No_but_possible	Aspectual	Yes	Include
+ID4	börja	Aktionell	Optional		modalliknande_verb	2.3%	97.7%	aspektuell	2%	98%	modala_hjälpverb_frändskap	No_but_possible	Aspectual	Yes	Include
+ID5	råka	Aktionell	No		modalliknande_verb	0.0%	100.0%				ingen	Optional	Aspectual	Yes	Include
+ID6	pläga	Aktionell	No								ingen	Optional	Aspectual	Yes	Include
+ID7	begynna										ingen	Optional	Aspectual	Yes	Include
+ID8	sluta	Aktionell	Optional		modalliknande_verb	15.2%	84.8%	aspektuell	19%	81%			Aspectual	Yes	Include
+ID9	fortsätta	Aktionell	Optional					aspektuell	63%	37%			Aspectual	Yes	Include
+ID10	hota	Aktionell	Yes					aspektuell	84%	16%			Aspectual	Yes	Include
+ID11	tendera	Aktionell	Yes					aspektuell	97%	3%			Aspectual	Yes	Include
+ID12	få	Ingressiv_aktionsart	No	t.ex. få se, få höra, få veta	övriga_modala_verb	1.0%	99.0%				ingen	No_without_exception	Collocation	No	Exclude
+ID13	lära	Ingressiv_aktionsart	Optional	t.ex. lära känna									Collocation	Yes	Exclude
+ID14	vänta sig	Fruktan_mm / Reflexivt	Yes										Emotion	No	Include
+ID15	hoppas	Fruktan_mm	Optional			5.0%					modala_hjälpverb_frändskap	No_but_possible	Emotion	Yes	Include
+ID16	önska	Fruktan_mm	Optional								modala_hjälpverb_frändskap	No_but_possible	Emotion	Yes	Include
+ID17	vänta	Fruktan_mm	Optional								ingen	No_without_exception	Emotion	Yes	Include
+ID18	frukta	Fruktan_mm	Optional										Emotion	Yes	Include
+ID19	låta	Initiativ	No		övriga_modala_verb	0.1%	99.9%						Initiative	No	Include
+ID20	avböja	Initiativ	Yes								ingen		Initiative	No	Include
+ID21	negligera	Initiativ	Yes										Initiative	No	Include
+ID22	låtsas	Initiativ	Optional								ingen	No_without_exception	Initiative	Yes	Include
+ID23	försöka	Initiativ	Optional		modalliknande_verb	5.2%	94.8%				ingen	Optional	Initiative	Yes	Include
+ID24	söka	Initiativ	Optional			10.0%					ingen	Optional	Initiative	Yes	Include
+ID25	glömma	Initiativ	Optional								ingen	Yes_but_omission_possible	Initiative	Yes	Include
+ID26	försumma	Initiativ	Yes								ingen	Yes_but_omission_possible	Initiative	Yes	Include
+ID27	underlåta	Initiativ	Yes								ingen	Yes_but_omission_possible	Initiative	Yes	Include
+ID28	undvika	Initiativ	Yes								ingen	Yes_but_omission_possible	Initiative	Yes	Include
+ID29	gitta	Intentionell	No										Intentional	No	Include
+ID30	idas	Intentionell	No										Intentional	No	Include
+ID31	avse	Intentionell	Yes										Intentional	No	Include
+ID32	diskutera	Intentionell	Yes										Intentional	No	Include
+ID33	överväga	Intentionell	Yes										Intentional	No	Include
+ID34	svära	Intentionell	Yes										Intentional	No	Include
+ID35	välja	Intentionell	Yes										Intentional	No	Include
+ID36	ämna	Intentionell	No		modalliknande_verb	8.1%	91.9%				ingen	Optional	Intentional	Yes	Include
+ID37	nännas	Intentionell	No								ingen	Optional	Intentional	Yes	Include
+ID38	täckas	Intentionell	No	ålderdomligt							ingen	Optional	Intentional	Yes	Include
+ID39	besluta	Intentionell	Optional								ingen	Optional	Intentional	Yes	Include
+ID40	lova	Intentionell	Optional	även med indirekt objekt							ingen	Optional	Intentional	Yes	Include
+ID41	vägra	Intentionell	Optional								ingen	Optional	Intentional	Yes	Include
+ID42	planera	Intentionell	Optional								ingen	Yes_but_omission_possible	Intentional	Yes	Include
+ID43	hota	Intentionell	Yes								ingen	Yes_but_omission_possible	Intentional	Yes	Include
+ID44	anses	Intentionell	yes			5.0%							Intentional	Yes	Include
+ID45	anse	Intentionell	yes			10.0%							Intentional	Yes	Include
+ID46	tänka	Intentionell	No		modalliknande_verb	11.5%	88.5%						Intentional	Yes	Include
+ID47	behaga	Intentionell	Optional										Intentional	Yes	Include
+ID48	inbilla sig (vara)										ingen	No_without_exception	Intervening_element	No	Exclude
+ID49	se ngn										ingen	No_without_exception	Intervening_element	No	Exclude
+ID50	hålla på	Aktionell	Yes										Intervening_element	No	Exclude
+ID51	vara på (god) väg	Aktionell	Yes										Intervening_element	No	Exclude
+ID52	vara på håret	Aktionell	Yes										Intervening_element	No	Exclude
+ID53	vara på vippen	Aktionell	Yes										Intervening_element	No	Exclude
+ID54	få lov	Deontisk	Yes	t.ex. bilen får inte lov att stå här									Intervening_element	No	Exclude
+ID55	ha rätt	Deontisk	Yes										Intervening_element	No	Exclude
+ID56	vara tvungen	Deontisk	Yes										Intervening_element	No	Exclude
+ID57	ägna ngt	Direkt_objekt	Yes	Rare									Intervening_element	No	Exclude
+ID58	åsätta ngt	Direkt_objekt	Yes	Rare									Intervening_element	No	Exclude
+ID59	tillmäta ngt	Direkt_objekt	Yes	Rare									Intervening_element	No	Exclude
+ID60	se ut	Epistemic	Yes										Intervening_element	No	Exclude
+ID61	anvisa ngn	Indirekt_objekt	Yes								ingen		Intervening_element	No	Exclude
+ID62	beordra ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID63	föreskriva ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID64	instruera ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID65	misunna ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID66	neka ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID67	rekommendare ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID68	säga åt ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID69	säga till ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID70	vägra ngn	Indirekt_objekt	Yes										Intervening_element	No	Exclude
+ID71	begära av ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID72	hänsjuta till ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID73	inskärpa i ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID74	kräva av ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID75	möjliggöra för ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID76	överlämna åt ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID77	överlåta åt ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID78	underlätta för ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID79	vädja till ngn	Indirekt_objekt_adverbial	Yes										Intervening_element	No	Exclude
+ID80	bry sig om	Initiativ	Yes										Intervening_element	No	Exclude
+ID81	hitta på	Initiativ	Yes										Intervening_element	No	Exclude
+ID82	låta bli	Initiativ	Yes										Intervening_element	No	Exclude
+ID83	låta vara	Initiativ	Yes										Intervening_element	No	Exclude
+ID84	se till	Initiativ	Yes										Intervening_element	No	Exclude
+ID85	ha bråttom	Intentionell	Yes										Intervening_element	No	Exclude
+ID86	ha lust	Intentionell	Yes										Intervening_element	No	Exclude
+ID87	sta i begrepp	Intentionell	Yes										Intervening_element	No	Exclude
+ID88	ha möjlighet	Potentiell	Yes										Intervening_element	No	Exclude
+ID89	ha råd	Potentiell	Yes										Intervening_element	No	Exclude
+ID90	ha svårt	Potentiell	Yes										Intervening_element	No	Exclude
+ID91	klara av	Potentiell	Yes										Intervening_element	No	Exclude
+ID92	åta sig	Reflexivt	Yes										Intervening_element	No	Exclude
+ID93	företa sig	Reflexivt	Yes										Intervening_element	No	Exclude
+ID94	förvänta sig	Reflexivt	Yes										Intervening_element	No	Exclude
+ID95	neka sig	Reflexivt	Yes										Intervening_element	No	Exclude
+ID96	utfästa sig	Reflexivt	Yes										Intervening_element	No	Exclude
+ID97	tycka om	Värdering	Yes										Intervening_element	No	Exclude
+ID98	vänja sig												Intervening_element	No	Exclude
+ID99	lära ngn	Indirekt_objekt	Optional								ingen	Optional	Intervening_element	Yes	Exclude
+ID100	lära sig	Reflexivt	Optional								ingen	Optional	Intervening_element	Yes	Exclude
+ID101	drista sig										ingen	Optional	Intervening_element	Yes	Exclude
+ID102	ålägga ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID103	anbefalla ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID104	befalla ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID105	erbjuda ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID106	förbjuda ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID107	förelägga ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID108	föreslå ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID109	förmena ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID110	tillåta ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID111	tillråda ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID112	unna ngn	Indirekt_objekt	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID113	komma ihåg	Initiativ	Yes								ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID114	anmoda ngn										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID115	få ngn										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID116	förordna ngn										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID117	glädja sig										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID118	hjälpa ngn										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID119	mana ngn										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID120	råda ngn										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID121	tvinga ngn										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID122	uppmana ngn										ingen	Yes_but_omission_possible	Intervening_element	Yes	Exclude
+ID123	lova ngn	Indirekt_objekt	Optional										Intervening_element	Yes	Exclude
+ID124	erbjuda sig	Reflexivt	Optional										Intervening_element	Yes	Exclude
+ID125	tänka sig	Reflexivt	Optional										Intervening_element	Yes	Exclude
+ID126	böra	Deontisk	No		centrala_modala_hjälpverb	0.0%	100.0%				modala_hjälpverb_trängre_mening	No_without_exception	Modal	No	Include
+ID127	lär	Epistemic	No		övriga_modala_verb	0.0%	100.0%				ingen	No_without_exception	Modal	No	Include
+ID128	må	Epistemic	No		övriga_modala_verb	0.0%	100.0%				modala_hjälpverb_trängre_mening	No_without_exception	Modal	No	Include
+ID129	måste	Epistemisk / Deontisk	No	Epistemisk: "Med nödvändighet"	centrala_modala_hjälpverb	0.0%	100.0%				modala_hjälpverb_trängre_mening	No_without_exception	Modal	No	Include
+ID130	vilja	Intentionell	No		centrala_modala_hjälpverb	0.0%	100.0%				modala_hjälpverb_trängre_mening	No_without_exception	Modal	No	Include
+ID131	skola	Deontisk	No		centrala_modala_hjälpverb	0.0%	100.0%				modala_hjälpverb_trängre_mening	No_without_exception	Modal	No	Include
+ID132	kunna	Epistemisk/Deontisk/Potentiell	No	Epistemisk: "Det är möjligt att" / Deontisk: "vara tillåtet att, måste"	centrala_modala_hjälpverb	0.1%	99.9%				modala_hjälpverb_trängre_mening	No_without_exception	Modal	No	Include
+ID133	få	Deontisk	No	"vara tillåtet att, måste"	övriga_modala_verb	1.0%	99.0%				ingen	No_without_exception	Modal	No	Include
+ID134	synas	Epistemic	No								ingen	No_without_exception	Modal	No	Include
+ID135	tyckas	Epistemic	No								ingen	No_without_exception	Modal	No	Include
+ID136	borde	Epistemic	No	"Det är rimligt att"	centrala_modala_hjälpverb	0.0%	100.0%						Modal	No	Include
+ID137	måtte	Epistemic	No		övriga_modala_verb	0.0%	100.0%						Modal	No	Include
+ID138	torde	Epistemic	No		övriga_modala_verb	0.0%	100.0%						Modal	No	Include
+ID139	befinnas	Epistemic	No										Modal	No	Include
+ID140	skall	Epistemic	No	"Det sägs att"									Modal	No	Include
+ID141	bör	Epistemisk	No	"Det är rimligt att"									Modal	No	Include
+ID142	äga	Deontisk	Yes										Modal	No	Include
+ID143	ha	Deontisk	Yes										Modal	No	Include
+ID144	behöva	Epistemic/Deontisk	No		modalliknande_verb	0.1%	99.9%				modala_hjälpverb_frändskap	No_but_possible	Modal	Yes	Include
+ID145	förefalla	Epistemic	No								ingen	Yes_but_omission_possible	Modal	Yes	Include
+ID146	slippa	Deontisk	No		modalliknande_verb	8.2%	91.8%						Modal	Yes	Include
+ID147	verka	Epistemic	No			10.0%							Modal	Yes	Include
+ID148	månde										modala_hjälpverb_trängre_mening	No_without_exception	Other	No	Exclude
+ID149	sägas (vara)										ingen	No_without_exception	Other	No	Exclude
+ID150	tänkas (vara)										ingen	No_without_exception	Other	No	Exclude
+ID151	fortfara												Other	No	Exclude
+ID152	ärna										ingen	Optional	Other	Yes	Exclude
+ID153	bedja										ingen	Optional	Other	Yes	Exclude
+ID154	bjuda										ingen	Optional	Other	Yes	Exclude
+ID155	djärvas										ingen	Optional	Other	Yes	Exclude
+ID156	drista										ingen	Optional	Other	Yes	Exclude
+ID157	åligga										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID158	anhålla										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID159	dröja										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID160	glädjas										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID161	längta										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID162	neka										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID163	sansa										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID164	skynda										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID165	tveka										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID166	veta										ingen	Yes_but_omission_possible	Other	Yes	Exclude
+ID167	behövas					5.0%							Other	Yes	Exclude
+ID168	nödgas											No_but_possible	Other	Yes	Exclude
+ID169	töras	Potentiell	No		modalliknande_verb	0.0%	100.0%				ingen	No_without_exception	Potential	No	Include
+ID170	mäkta	Potentiell	No										Potential	No	Include
+ID171	förstå	Potentiell	Yes										Potential	No	Include
+ID172	hinna med	Potentiell	Yes										Potential	No	Include
+ID173	vara i stånd	Potentiell	Yes										Potential	No	Include
+ID174	våga	Potentiell	No		modalliknande_verb	0.5%	99.5%				modala_hjälpverb_frändskap	No_but_possible	Potential	Yes	Include
+ID175	hinna	Potentiell	No		modalliknande_verb	0.9%	99.1%				ingen	Optional	Potential	Yes	Include
+ID176	lyckas	Potentiell	Optional			5.0%					ingen	Optional	Potential	Yes	Include
+ID177	förtjäna	Potentiell	Yes								ingen	Optional	Potential	Yes	Include
+ID178	förmå	Potentiell	No								ingen	Yes_but_omission_possible	Potential	Yes	Include
+ID179	tåla	Potentiell	Yes								ingen	Yes_but_omission_possible	Potential	Yes	Include
+ID180	orka	Potentiell	No		modalliknande_verb	2.5%	97.5%						Potential	Yes	Include
+ID181	skola	Temporal	No		centrala_modala_hjälpverb	0.0%	100.0%				modala_hjälpverb_trängre_mening	No_without_exception	Temporal	No	Include
+ID182	komma	Temporal/Aktionell	Yes	Aktionell = "råka"							ingen	Yes_but_omission_possible	Temporal	Yes	Include
+ID183	avsky	Värdering	Yes										Value	No	Include
+ID184	förakta	Värdering	Yes										Value	No	Include
+ID185	föredra	Värdering	Yes										Value	No	Include
+ID186	acceptera	Värdering	Yes										Value	No	Include
+ID187	älska	Värdering	Yes										Value	No	Include
+ID188	gilla	Värdering	Yes										Value	No	Include
+ID189	hata	Värdering	Yes										Value	No	Include
+ID190	sakna	Värdering	Yes										Value	No	Include
+ID191	tolerera	Värdering	Yes										Value	No	Include

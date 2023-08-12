@@ -1,8 +1,14 @@
 ### Use single quotes, not double quotes in this file!
 
-#label = ss_are_vs_mer
-variant1 = [pos = 'JJ' & msd = '.*KOM.*']
-variant2 = [word = 'mer' %c] [pos = 'JJ' & lemma not contains 'själv']
+#label = ss90_sluta
+variant1 = [lemma contains 'sluta' & (msd != '.*INF.*' & msd != '.*SUP.*' & msd != '.*SFO.*' & msd != '.*PRF.*')] [word = 'att' %c] [msd = '.*INF.*'] [msd != '.*INF.*']
+variant2 = [lemma contains 'sluta' & (msd != '.*INF.*' & msd != '.*SUP.*' & msd != '.*SFO.*' & msd != '.*PRF.*')] [msd = '.*INF.*'] [msd != '.*INF.*']
+
+#label = ss90_komma
+variant1 = [lemma contains 'komma' & (msd != '.*INF.*' & msd != '.*SUP.*' & msd != '.*SFO.*' & msd != '.*PRF.*')] [word = 'att' %c] [msd = '.*INF.*'] [msd != '.*INF.*']
+variant2 = [lemma contains 'komma' & (msd != '.*INF.*' & msd != '.*SUP.*' & msd != '.*SFO.*' & msd != '.*PRF.*')] [msd = '.*INF.*'] [msd != '.*INF.*']
+
+
 
 #[
 # &
