@@ -79,9 +79,6 @@
  
  
  
- 
- 
- 
 {
 "corpora": {
 "FAMILJELIV-ADOPTION": [
@@ -3745,5 +3742,5 @@
 "cqp": "[lemma contains 'komma' & (msd != '.*INF.*' & msd != '.*SUP.*' & msd != '.*SFO.*' & msd != '.*PRF.*')] [msd = '.*INF.*'] [msd != '.*INF.*']"
 }
 ],
-"time": 424.407080411911
+"time": 408.7653272151947
 }

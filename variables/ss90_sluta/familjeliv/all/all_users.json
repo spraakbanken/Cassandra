@@ -12,25 +12,6 @@
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 {
 "corpora": {
 "FAMILJELIV-ADOPTION": [
@@ -3518,5 +3499,5 @@
 "cqp": "[lemma contains 'sluta' & (msd != '.*INF.*' & msd != '.*SUP.*' & msd != '.*SFO.*' & msd != '.*PRF.*')] [msd = '.*INF.*'] [msd != '.*INF.*']"
 }
 ],
-"time": 169.54524087905884
+"time": 74.17581367492676
 }

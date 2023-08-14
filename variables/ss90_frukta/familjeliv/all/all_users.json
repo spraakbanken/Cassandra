@@ -1,0 +1,1476 @@
+ 
+ 
+ 
+{
+"corpora": {
+"FAMILJELIV-ADOPTION": [
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-EKONOMI": [
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-FAMILJELIV": [
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2004": 1,
+"2005": 0,
+"2008": 1,
+"2009": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2004": 0.9047759503314194,
+"2005": 0.0,
+"2008": 0.13012744421631658,
+"2009": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 1.034903394547736
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2004": 1,
+"2005": 0,
+"2008": 1,
+"2009": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2004": 0.9047759503314194,
+"2005": 0.0,
+"2008": 0.13012744421631658,
+"2009": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 1.034903394547736
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-FRITID": [
+{
+"absolute": {
+"2004": 0,
+"2023": null,
+"2009": 1,
+"2010": 0
+},
+"relative": {
+"2004": 0,
+"2023": null,
+"2009": 0.23273149743867352,
+"2010": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.23273149743867352
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2023": null,
+"2009": 1,
+"2010": 0
+},
+"relative": {
+"2004": 0,
+"2023": null,
+"2009": 0.23273149743867352,
+"2010": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.23273149743867352
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2004": 0,
+"2023": null
+},
+"relative": {
+"2004": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-HUSDJUR": [
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-HUSHEM": [
+{
+"absolute": {
+"2004": 0,
+"2023": null
+},
+"relative": {
+"2004": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2023": null
+},
+"relative": {
+"2004": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2004": 0,
+"2023": null
+},
+"relative": {
+"2004": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-KROPP": [
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-NOJE": [
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-SAMHALLE": [
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2005": 2,
+"2006": 0,
+"2007": 2,
+"2008": 1,
+"2009": 0,
+"2010": 2,
+"2011": 0,
+"2013": 3,
+"2014": 1,
+"2015": 0,
+"2019": 1,
+"2020": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2005": 0.15343643136320445,
+"2006": 0.0,
+"2007": 0.05279213232516902,
+"2008": 0.028385498688930588,
+"2009": 0.0,
+"2010": 0.06678335722674897,
+"2011": 0.0,
+"2013": 0.1929894895350806,
+"2014": 0.07474273364223509,
+"2015": 0.0,
+"2019": 0.36900872816344726,
+"2020": 0.0
+},
+"sums": {
+"absolute": 12,
+"relative": 0.9381383709448159
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2005": 2,
+"2006": 0,
+"2007": 2,
+"2008": 1,
+"2009": 0,
+"2010": 2,
+"2011": 0,
+"2013": 2,
+"2014": 1,
+"2015": 0,
+"2019": 1,
+"2020": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2005": 0.15343643136320445,
+"2006": 0.0,
+"2007": 0.05279213232516902,
+"2008": 0.028385498688930588,
+"2009": 0.0,
+"2010": 0.06678335722674897,
+"2011": 0.0,
+"2013": 0.12865965969005372,
+"2014": 0.07474273364223509,
+"2015": 0.0,
+"2019": 0.36900872816344726,
+"2020": 0.0
+},
+"sums": {
+"absolute": 11,
+"relative": 0.8738085410997891
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2013": 1,
+"2014": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2013": 0.06432982984502686,
+"2014": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.06432982984502686
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ALLMANNA-SANDLADAN": [
+{
+"absolute": {
+"2005": 0,
+"2023": null,
+"2010": 1,
+"2011": 0
+},
+"relative": {
+"2005": 0,
+"2023": null,
+"2010": 0.19222052769148146,
+"2011": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.19222052769148146
+}
+},
+{
+"absolute": {
+"2005": 0,
+"2023": null,
+"2010": 1,
+"2011": 0
+},
+"relative": {
+"2005": 0,
+"2023": null,
+"2010": 0.19222052769148146,
+"2011": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.19222052769148146
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2005": 0,
+"2023": null
+},
+"relative": {
+"2005": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-ANGLARUM": [
+{
+"absolute": {
+"2006": 0,
+"2023": null
+},
+"relative": {
+"2006": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2006": 0,
+"2023": null
+},
+"relative": {
+"2006": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2006": 0,
+"2023": null
+},
+"relative": {
+"2006": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-EXPERT": [
+{
+"absolute": {
+"2009": 0,
+"2023": null
+},
+"relative": {
+"2009": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2009": 0,
+"2023": null
+},
+"relative": {
+"2009": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2009": 0,
+"2023": null
+},
+"relative": {
+"2009": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-FORALDER": [
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2005": 2,
+"2006": 0,
+"2010": 1,
+"2011": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2005": 0.03261248437209749,
+"2006": 0.0,
+"2010": 0.016720740146906752,
+"2011": 0.0
+},
+"sums": {
+"absolute": 3,
+"relative": 0.04933322451900424
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2005": 2,
+"2006": 0,
+"2010": 1,
+"2011": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2005": 0.03261248437209749,
+"2006": 0.0,
+"2010": 0.016720740146906752,
+"2011": 0.0
+},
+"sums": {
+"absolute": 3,
+"relative": 0.04933322451900424
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-GRAVID": [
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2008": 1,
+"2009": 0,
+"2010": 1,
+"2011": 1,
+"2012": 0,
+"2014": 2,
+"2015": 0,
+"2022": 1
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2008": 0.021397656858144813,
+"2009": 0.0,
+"2010": 0.027135387429700012,
+"2011": 0.021719478556152486,
+"2012": 0.0,
+"2014": 0.11856538961268778,
+"2015": 0.0,
+"2022": 0.880088783356465
+},
+"sums": {
+"absolute": 6,
+"relative": 1.0689066958131501
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2008": 1,
+"2009": 0,
+"2010": 1,
+"2011": 1,
+"2012": 0,
+"2014": 2,
+"2015": 0,
+"2022": 1
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2008": 0.021397656858144813,
+"2009": 0.0,
+"2010": 0.027135387429700012,
+"2011": 0.021719478556152486,
+"2012": 0.0,
+"2014": 0.11856538961268778,
+"2015": 0.0,
+"2022": 0.880088783356465
+},
+"sums": {
+"absolute": 6,
+"relative": 1.0689066958131501
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-KANSLIGA": [
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2007": 1,
+"2008": 1,
+"2009": 1,
+"2010": 2,
+"2011": 3,
+"2012": 2,
+"2013": 4,
+"2014": 1,
+"2015": 3,
+"2016": 0,
+"2017": 2,
+"2018": 1,
+"2019": 2,
+"2020": 2,
+"2021": 1,
+"2022": 1
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2007": 0.012153472150373257,
+"2008": 0.011652270791036076,
+"2009": 0.010423775573026475,
+"2010": 0.026167836183588568,
+"2011": 0.031400653795106044,
+"2012": 0.01967007714004317,
+"2013": 0.045939907890025285,
+"2014": 0.017378633057548908,
+"2015": 0.08367386737937464,
+"2016": 0.0,
+"2017": 0.0644767961067363,
+"2018": 0.033339407773429655,
+"2019": 0.07874572238471184,
+"2020": 0.0810822797839741,
+"2021": 0.040670416018092154,
+"2022": 0.048792469331249436
+},
+"sums": {
+"absolute": 27,
+"relative": 0.605567585358316
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2007": 1,
+"2008": 1,
+"2009": 1,
+"2010": 2,
+"2011": 3,
+"2012": 2,
+"2013": 4,
+"2014": 1,
+"2015": 2,
+"2016": 0,
+"2017": 2,
+"2018": 1,
+"2019": 2,
+"2020": 0,
+"2021": 1,
+"2022": 1
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2007": 0.012153472150373257,
+"2008": 0.011652270791036076,
+"2009": 0.010423775573026475,
+"2010": 0.026167836183588568,
+"2011": 0.031400653795106044,
+"2012": 0.01967007714004317,
+"2013": 0.045939907890025285,
+"2014": 0.017378633057548908,
+"2015": 0.05578257825291642,
+"2016": 0.0,
+"2017": 0.0644767961067363,
+"2018": 0.033339407773429655,
+"2019": 0.07874572238471184,
+"2020": 0.0,
+"2021": 0.040670416018092154,
+"2022": 0.048792469331249436
+},
+"sums": {
+"absolute": 24,
+"relative": 0.49659401644788354
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2015": 1,
+"2016": 0,
+"2020": 2,
+"2021": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2015": 0.02789128912645821,
+"2016": 0.0,
+"2020": 0.0810822797839741,
+"2021": 0.0
+},
+"sums": {
+"absolute": 3,
+"relative": 0.1089735689104323
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-MEDLEM-ALLMANNA": [
+{
+"absolute": {
+"2006": 1,
+"2023": null,
+"2007": 0,
+"2009": 1,
+"2010": 0
+},
+"relative": {
+"2006": 0.04264053200033345,
+"2023": null,
+"2007": 0.0,
+"2009": 0.015330573462176377,
+"2010": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 0.05797110546250983
+}
+},
+{
+"absolute": {
+"2006": 1,
+"2023": null,
+"2007": 0,
+"2009": 1,
+"2010": 0
+},
+"relative": {
+"2006": 0.04264053200033345,
+"2023": null,
+"2007": 0.0,
+"2009": 0.015330573462176377,
+"2010": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 0.05797110546250983
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2006": 0,
+"2023": null
+},
+"relative": {
+"2006": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-MEDLEM-FORALDRAR": [
+{
+"absolute": {
+"2006": 0,
+"2023": null,
+"2009": 2,
+"2010": 0
+},
+"relative": {
+"2006": 0,
+"2023": null,
+"2009": 0.0326810548823576,
+"2010": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 0.0326810548823576
+}
+},
+{
+"absolute": {
+"2006": 0,
+"2023": null,
+"2009": 2,
+"2010": 0
+},
+"relative": {
+"2006": 0,
+"2023": null,
+"2009": 0.0326810548823576,
+"2010": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 0.0326810548823576
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2006": 0,
+"2023": null
+},
+"relative": {
+"2006": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-MEDLEM-PLANERARBARN": [
+{
+"absolute": {
+"2005": 0,
+"2021": null,
+"2022": 0,
+"2023": null,
+"2010": 1,
+"2011": 0
+},
+"relative": {
+"2005": 0,
+"2021": null,
+"2022": 0,
+"2023": null,
+"2010": 0.05028206984129219,
+"2011": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05028206984129219
+}
+},
+{
+"absolute": {
+"2005": 0,
+"2021": null,
+"2022": 0,
+"2023": null,
+"2010": 1,
+"2011": 0
+},
+"relative": {
+"2005": 0,
+"2021": null,
+"2022": 0,
+"2023": null,
+"2010": 0.05028206984129219,
+"2011": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05028206984129219
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2005": 0,
+"2021": null,
+"2022": 0,
+"2023": null
+},
+"relative": {
+"2005": 0,
+"2021": null,
+"2022": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-MEDLEM-VANTARBARN": [
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-PAPPAGRUPP": [
+{
+"absolute": {
+"2004": 0,
+"2023": null,
+"2007": 1,
+"2008": 0
+},
+"relative": {
+"2004": 0,
+"2023": null,
+"2007": 2.161690095784488,
+"2008": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 2.161690095784488
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2023": null,
+"2007": 1,
+"2008": 0
+},
+"relative": {
+"2004": 0,
+"2023": null,
+"2007": 2.161690095784488,
+"2008": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 2.161690095784488
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2004": 0,
+"2023": null
+},
+"relative": {
+"2004": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-PLANERARBARN": [
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-SEXSAMLEVNAD": [
+{
+"absolute": {
+"2004": 0,
+"2023": null,
+"2011": 2,
+"2012": 1,
+"2013": 1,
+"2014": 0
+},
+"relative": {
+"2004": 0,
+"2023": null,
+"2011": 0.14464800919498463,
+"2012": 0.06738361939252051,
+"2013": 0.06794819683831604,
+"2014": 0.0
+},
+"sums": {
+"absolute": 4,
+"relative": 0.27997982542582117
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2023": null,
+"2011": 2,
+"2012": 1,
+"2013": 1,
+"2014": 0
+},
+"relative": {
+"2004": 0,
+"2023": null,
+"2011": 0.14464800919498463,
+"2012": 0.06738361939252051,
+"2013": 0.06794819683831604,
+"2014": 0.0
+},
+"sums": {
+"absolute": 4,
+"relative": 0.27997982542582117
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2004": 0,
+"2023": null
+},
+"relative": {
+"2004": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"FAMILJELIV-SVARTATTFABARN": [
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2014": 1,
+"2015": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2014": 0.14940590236981668,
+"2015": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.14940590236981668
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2014": 1,
+"2015": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2014": 0.14940590236981668,
+"2015": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.14940590236981668
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null
+},
+"relative": {
+"2003": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2004": 1,
+"2005": 4,
+"2006": 1,
+"2007": 4,
+"2008": 4,
+"2009": 5,
+"2010": 8,
+"2011": 6,
+"2012": 3,
+"2013": 8,
+"2014": 5,
+"2015": 3,
+"2016": 0,
+"2017": 2,
+"2018": 1,
+"2019": 3,
+"2020": 2,
+"2021": 1,
+"2022": 2
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2004": 0.010366802562316976,
+"2005": 0.01721302182141682,
+"2006": 0.002131561992812143,
+"2007": 0.006299749039417417,
+"2008": 0.006423170183617031,
+"2009": 0.008428600143126398,
+"2010": 0.019413918410333617,
+"2011": 0.016634606466173728,
+"2012": 0.010330101990198827,
+"2013": 0.03850545912109326,
+"2014": 0.036089072016068015,
+"2015": 0.03377946891310944,
+"2016": 0.0,
+"2017": 0.03249080242242325,
+"2018": 0.01768341092342489,
+"2019": 0.06554120188669525,
+"2020": 0.04795409488767868,
+"2021": 0.02456377257690113,
+"2022": 0.06059880894858975
+},
+"sums": {
+"absolute": 63,
+"relative": 0.014008404831216167
+}
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2004": 1,
+"2005": 4,
+"2006": 1,
+"2007": 4,
+"2008": 4,
+"2009": 5,
+"2010": 8,
+"2011": 6,
+"2012": 3,
+"2013": 7,
+"2014": 5,
+"2015": 2,
+"2016": 0,
+"2017": 2,
+"2018": 1,
+"2019": 3,
+"2020": 0,
+"2021": 1,
+"2022": 2
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2004": 0.010366802562316976,
+"2005": 0.01721302182141682,
+"2006": 0.002131561992812143,
+"2007": 0.006299749039417417,
+"2008": 0.006423170183617031,
+"2009": 0.008428600143126398,
+"2010": 0.019413918410333617,
+"2011": 0.016634606466173728,
+"2012": 0.010330101990198827,
+"2013": 0.0336922767309566,
+"2014": 0.036089072016068015,
+"2015": 0.022519645942072963,
+"2016": 0.0,
+"2017": 0.03249080242242325,
+"2018": 0.01768341092342489,
+"2019": 0.06554120188669525,
+"2020": 0.0,
+"2021": 0.02456377257690113,
+"2022": 0.06059880894858975
+},
+"sums": {
+"absolute": 59,
+"relative": 0.013118982302250061
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"2003": 0,
+"2023": null,
+"2013": 1,
+"2014": 0,
+"2015": 1,
+"2016": 0,
+"2020": 2,
+"2021": 0
+},
+"relative": {
+"2003": 0,
+"2023": null,
+"2013": 0.004813182390136657,
+"2014": 0.0,
+"2015": 0.011259822971036481,
+"2016": 0.0,
+"2020": 0.04795409488767868,
+"2021": 0.0
+},
+"sums": {
+"absolute": 4,
+"relative": 0.0008894225289661059
+},
+"cqp": "[lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"time": 16.362383365631104
+}
