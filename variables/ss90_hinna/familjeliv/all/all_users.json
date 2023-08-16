@@ -8,6 +8,28 @@
  
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 {
 "corpora": {
 "FAMILJELIV-ADOPTION": [
@@ -3331,5 +3353,5 @@
 "cqp": "[lemma contains 'hinna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
-"time": 54.86168599128723
+"time": 163.89949703216553
 }

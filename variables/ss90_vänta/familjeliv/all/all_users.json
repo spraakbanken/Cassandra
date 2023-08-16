@@ -9,6 +9,7 @@
  
  
  
+ 
 {
 "corpora": {
 "FAMILJELIV-ADOPTION": [
@@ -2490,5 +2491,5 @@
 "cqp": "[lemma contains 'v\u00e4nta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
-"time": 57.12577199935913
+"time": 62.867252826690674
 }
