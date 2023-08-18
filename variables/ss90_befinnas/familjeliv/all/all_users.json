@@ -1,5 +1,6 @@
  
  
+ 
 {
 "corpora": {
 "FAMILJELIV-ADOPTION": [
@@ -30,7 +31,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
@@ -45,22 +46,36 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-EKONOMI": [
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2010": 1,
+"2011": 0,
+"2015": 1,
+"2016": 0,
+"2017": 2,
+"2018": 0,
+"2022": 1
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2010": 0.18564286360057675,
+"2011": 0.0,
+"2015": 0.8508067775267898,
+"2016": 0.0,
+"2017": 2.6254161284563606,
+"2018": 0.0,
+"2022": 3.249475209753625
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 5,
+"relative": 6.911340979337352
 }
 },
 {
@@ -76,22 +91,36 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2010": 1,
+"2011": 0,
+"2015": 1,
+"2016": 0,
+"2017": 2,
+"2018": 0,
+"2022": 1
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2010": 0.18564286360057675,
+"2011": 0.0,
+"2015": 0.8508067775267898,
+"2016": 0.0,
+"2017": 2.6254161284563606,
+"2018": 0.0,
+"2022": 3.249475209753625
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 5,
+"relative": 6.911340979337352
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-FAMILJELIV": [
@@ -122,7 +151,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
@@ -137,7 +166,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-FRITID": [
@@ -168,7 +197,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
@@ -183,7 +212,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-HUSDJUR": [
@@ -214,7 +243,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
@@ -229,22 +258,26 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-HUSHEM": [
 {
 "absolute": {
 "2004": 0,
-"2023": null
+"2023": null,
+"2016": 1,
+"2017": 0
 },
 "relative": {
 "2004": 0,
-"2023": null
+"2023": null,
+"2016": 1.4865578010837006,
+"2017": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 1.4865578010837006
 }
 },
 {
@@ -260,37 +293,45 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2004": 0,
-"2023": null
+"2023": null,
+"2016": 1,
+"2017": 0
 },
 "relative": {
 "2004": 0,
-"2023": null
+"2023": null,
+"2016": 1.4865578010837006,
+"2017": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 1.4865578010837006
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-KROPP": [
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2010": 1,
+"2011": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2010": 0.07919659803093498,
+"2011": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.07919659803093498
 }
 },
 {
@@ -306,37 +347,45 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2010": 1,
+"2011": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2010": 0.07919659803093498,
+"2011": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.07919659803093498
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-NOJE": [
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2008": 3,
+"2009": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2008": 0.23352236969159867,
+"2009": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 3,
+"relative": 0.23352236969159867
 }
 },
 {
@@ -352,37 +401,69 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2008": 3,
+"2009": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2008": 0.23352236969159867,
+"2009": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 3,
+"relative": 0.23352236969159867
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-SAMHALLE": [
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 1,
+"2007": 4,
+"2008": 0,
+"2009": 4,
+"2010": 0,
+"2011": 5,
+"2012": 1,
+"2013": 1,
+"2014": 2,
+"2015": 0,
+"2019": 1,
+"2020": 1,
+"2021": 2,
+"2022": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 0.029704051700971332,
+"2007": 0.10558426465033804,
+"2008": 0.0,
+"2009": 0.09881525694721283,
+"2010": 0.0,
+"2011": 0.1595237717698502,
+"2012": 0.04323833136879975,
+"2013": 0.06432982984502686,
+"2014": 0.14948546728447018,
+"2015": 0.0,
+"2019": 0.36900872816344726,
+"2020": 0.545014669069818,
+"2021": 1.0558942923106083,
+"2022": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 22,
+"relative": 2.6205986631105427
 }
 },
 {
@@ -398,37 +479,69 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 1,
+"2007": 4,
+"2008": 0,
+"2009": 4,
+"2010": 0,
+"2011": 5,
+"2012": 1,
+"2013": 1,
+"2014": 2,
+"2015": 0,
+"2019": 1,
+"2020": 1,
+"2021": 2,
+"2022": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 0.029704051700971332,
+"2007": 0.10558426465033804,
+"2008": 0.0,
+"2009": 0.09881525694721283,
+"2010": 0.0,
+"2011": 0.1595237717698502,
+"2012": 0.04323833136879975,
+"2013": 0.06432982984502686,
+"2014": 0.14948546728447018,
+"2015": 0.0,
+"2019": 0.36900872816344726,
+"2020": 0.545014669069818,
+"2021": 1.0558942923106083,
+"2022": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 22,
+"relative": 2.6205986631105427
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ALLMANNA-SANDLADAN": [
 {
 "absolute": {
 "2005": 0,
-"2023": null
+"2023": null,
+"2011": 1,
+"2012": 0
 },
 "relative": {
 "2005": 0,
-"2023": null
+"2023": null,
+"2011": 0.19089572473752792,
+"2012": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.19089572473752792
 }
 },
 {
@@ -444,22 +557,26 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2005": 0,
-"2023": null
+"2023": null,
+"2011": 1,
+"2012": 0
 },
 "relative": {
 "2005": 0,
-"2023": null
+"2023": null,
+"2011": 0.19089572473752792,
+"2012": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.19089572473752792
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-ANGLARUM": [
@@ -490,7 +607,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
@@ -505,22 +622,26 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-EXPERT": [
 {
 "absolute": {
 "2009": 0,
-"2023": null
+"2023": null,
+"2012": 1,
+"2013": 0
 },
 "relative": {
 "2009": 0,
-"2023": null
+"2023": null,
+"2012": 0.4764488929948196,
+"2013": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.4764488929948196
 }
 },
 {
@@ -536,37 +657,51 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2009": 0,
-"2023": null
+"2023": null,
+"2012": 1,
+"2013": 0
 },
 "relative": {
 "2009": 0,
-"2023": null
+"2023": null,
+"2012": 0.4764488929948196,
+"2013": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.4764488929948196
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-FORALDER": [
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2007": 1,
+"2008": 1,
+"2009": 0,
+"2011": 2,
+"2012": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2007": 0.011664086939998293,
+"2008": 0.01131124460667132,
+"2009": 0.0,
+"2011": 0.04079858164546881,
+"2012": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 4,
+"relative": 0.06377391319213843
 }
 },
 {
@@ -582,37 +717,53 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2007": 1,
+"2008": 1,
+"2009": 0,
+"2011": 2,
+"2012": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2007": 0.011664086939998293,
+"2008": 0.01131124460667132,
+"2009": 0.0,
+"2011": 0.04079858164546881,
+"2012": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 4,
+"relative": 0.06377391319213843
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-GRAVID": [
 {
 "absolute": {
-"2003": 0,
-"2023": null
+"2003": 2,
+"2023": null,
+"2004": 0,
+"2009": 1,
+"2010": 0
 },
 "relative": {
-"2003": 0,
-"2023": null
+"2003": 0.8652682201692291,
+"2023": null,
+"2004": 0.0,
+"2009": 0.019605314051742227,
+"2010": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 3,
+"relative": 0.8848735342209714
 }
 },
 {
@@ -628,37 +779,77 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
-"2003": 0,
-"2023": null
+"2003": 2,
+"2023": null,
+"2004": 0,
+"2009": 1,
+"2010": 0
 },
 "relative": {
-"2003": 0,
-"2023": null
+"2003": 0.8652682201692291,
+"2023": null,
+"2004": 0.0,
+"2009": 0.019605314051742227,
+"2010": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 3,
+"relative": 0.8848735342209714
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-KANSLIGA": [
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2005": 1,
+"2006": 0,
+"2007": 1,
+"2008": 1,
+"2009": 5,
+"2010": 1,
+"2011": 3,
+"2012": 1,
+"2013": 5,
+"2014": 2,
+"2015": 0,
+"2016": 2,
+"2017": 3,
+"2018": 1,
+"2019": 0,
+"2021": 2,
+"2022": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2005": 0.04971757929083839,
+"2006": 0.0,
+"2007": 0.012153472150373257,
+"2008": 0.011652270791036076,
+"2009": 0.052118877865132376,
+"2010": 0.013083918091794284,
+"2011": 0.031400653795106044,
+"2012": 0.009835038570021585,
+"2013": 0.057424884862531604,
+"2014": 0.034757266115097815,
+"2015": 0.0,
+"2016": 0.06676465715397155,
+"2017": 0.09671519416010446,
+"2018": 0.033339407773429655,
+"2019": 0.0,
+"2021": 0.08134083203618431,
+"2022": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 28,
+"relative": 0.5503040526556214
 }
 },
 {
@@ -674,37 +865,75 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2005": 1,
+"2006": 0,
+"2007": 1,
+"2008": 1,
+"2009": 5,
+"2010": 1,
+"2011": 3,
+"2012": 1,
+"2013": 5,
+"2014": 2,
+"2015": 0,
+"2016": 2,
+"2017": 3,
+"2018": 1,
+"2019": 0,
+"2021": 2,
+"2022": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2005": 0.04971757929083839,
+"2006": 0.0,
+"2007": 0.012153472150373257,
+"2008": 0.011652270791036076,
+"2009": 0.052118877865132376,
+"2010": 0.013083918091794284,
+"2011": 0.031400653795106044,
+"2012": 0.009835038570021585,
+"2013": 0.057424884862531604,
+"2014": 0.034757266115097815,
+"2015": 0.0,
+"2016": 0.06676465715397155,
+"2017": 0.09671519416010446,
+"2018": 0.033339407773429655,
+"2019": 0.0,
+"2021": 0.08134083203618431,
+"2022": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 28,
+"relative": 0.5503040526556214
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-MEDLEM-ALLMANNA": [
 {
 "absolute": {
 "2006": 0,
-"2023": null
+"2023": null,
+"2010": 1,
+"2011": 0
 },
 "relative": {
 "2006": 0,
-"2023": null
+"2023": null,
+"2010": 0.03477051581260486,
+"2011": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.03477051581260486
 }
 },
 {
@@ -720,37 +949,47 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2006": 0,
-"2023": null
+"2023": null,
+"2010": 1,
+"2011": 0
 },
 "relative": {
 "2006": 0,
-"2023": null
+"2023": null,
+"2010": 0.03477051581260486,
+"2011": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.03477051581260486
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-MEDLEM-FORALDRAR": [
 {
 "absolute": {
 "2006": 0,
-"2023": null
+"2023": null,
+"2007": 2,
+"2008": 1,
+"2009": 0
 },
 "relative": {
 "2006": 0,
-"2023": null
+"2023": null,
+"2007": 0.02497846294478743,
+"2008": 0.012375984436853043,
+"2009": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 3,
+"relative": 0.03735444738164047
 }
 },
 {
@@ -766,22 +1005,28 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2006": 0,
-"2023": null
+"2023": null,
+"2007": 2,
+"2008": 1,
+"2009": 0
 },
 "relative": {
 "2006": 0,
-"2023": null
+"2023": null,
+"2007": 0.02497846294478743,
+"2008": 0.012375984436853043,
+"2009": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 3,
+"relative": 0.03735444738164047
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-MEDLEM-PLANERARBARN": [
@@ -790,17 +1035,21 @@
 "2005": 0,
 "2021": null,
 "2022": 0,
-"2023": null
+"2023": null,
+"2009": 1,
+"2010": 0
 },
 "relative": {
 "2005": 0,
 "2021": null,
 "2022": 0,
-"2023": null
+"2023": null,
+"2009": 0.04296046030930328,
+"2010": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.04296046030930328
 }
 },
 {
@@ -820,26 +1069,30 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2005": 0,
 "2021": null,
 "2022": 0,
-"2023": null
+"2023": null,
+"2009": 1,
+"2010": 0
 },
 "relative": {
 "2005": 0,
 "2021": null,
 "2022": 0,
-"2023": null
+"2023": null,
+"2009": 0.04296046030930328,
+"2010": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.04296046030930328
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-MEDLEM-VANTARBARN": [
@@ -870,7 +1123,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
@@ -885,7 +1138,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-PAPPAGRUPP": [
@@ -916,7 +1169,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
@@ -931,22 +1184,32 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-PLANERARBARN": [
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 2,
+"2007": 1,
+"2008": 0,
+"2009": 1,
+"2010": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 0.08858832641502798,
+"2007": 0.08107861147040198,
+"2008": 0.0,
+"2009": 0.06345703520862832,
+"2010": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 4,
+"relative": 0.2331239730940583
 }
 },
 {
@@ -962,22 +1225,32 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 2,
+"2007": 1,
+"2008": 0,
+"2009": 1,
+"2010": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 0.08858832641502798,
+"2007": 0.08107861147040198,
+"2008": 0.0,
+"2009": 0.06345703520862832,
+"2010": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 4,
+"relative": 0.2331239730940583
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-SEXSAMLEVNAD": [
@@ -1008,7 +1281,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
@@ -1023,22 +1296,30 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
 "FAMILJELIV-SVARTATTFABARN": [
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 1,
+"2007": 0,
+"2009": 1,
+"2010": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 0.0482074702970877,
+"2007": 0.0,
+"2009": 0.049196587744352684,
+"2010": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 2,
+"relative": 0.09740405804144038
 }
 },
 {
@@ -1054,38 +1335,84 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 1,
+"2007": 0,
+"2009": 1,
+"2010": 0
 },
 "relative": {
 "2003": 0,
-"2023": null
+"2023": null,
+"2006": 0.0482074702970877,
+"2007": 0.0,
+"2009": 0.049196587744352684,
+"2010": 0.0
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 2,
+"relative": 0.09740405804144038
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ]
 },
 "combined": [
 {
 "absolute": {
-"2003": 0,
-"2023": null
+"2003": 2,
+"2023": null,
+"2004": 0,
+"2005": 1,
+"2006": 4,
+"2007": 9,
+"2008": 6,
+"2009": 13,
+"2010": 4,
+"2011": 11,
+"2012": 3,
+"2013": 6,
+"2014": 4,
+"2015": 1,
+"2016": 3,
+"2017": 5,
+"2018": 1,
+"2019": 1,
+"2020": 1,
+"2021": 4,
+"2022": 1
 },
 "relative": {
-"2003": 0,
-"2023": null
+"2003": 0.29220700002323047,
+"2023": null,
+"2004": 0.0,
+"2005": 0.004303255455354205,
+"2006": 0.008526247971248572,
+"2007": 0.014174435338689187,
+"2008": 0.009634755275425545,
+"2009": 0.02191436037212863,
+"2010": 0.009706959205166808,
+"2011": 0.030496778521318504,
+"2012": 0.010330101990198827,
+"2013": 0.028879094340819943,
+"2014": 0.028871257612854407,
+"2015": 0.011259822971036481,
+"2016": 0.046904426664678756,
+"2017": 0.08122700605605813,
+"2018": 0.01768341092342489,
+"2019": 0.021847067295565084,
+"2020": 0.02397704744383934,
+"2021": 0.09825509030760451,
+"2022": 0.030299404474294876
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 80,
+"relative": 0.01778845057932212
 }
 },
 {
@@ -1101,23 +1428,61 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 },
 {
 "absolute": {
-"2003": 0,
-"2023": null
+"2003": 2,
+"2023": null,
+"2004": 0,
+"2005": 1,
+"2006": 4,
+"2007": 9,
+"2008": 6,
+"2009": 13,
+"2010": 4,
+"2011": 11,
+"2012": 3,
+"2013": 6,
+"2014": 4,
+"2015": 1,
+"2016": 3,
+"2017": 5,
+"2018": 1,
+"2019": 1,
+"2020": 1,
+"2021": 4,
+"2022": 1
 },
 "relative": {
-"2003": 0,
-"2023": null
+"2003": 0.29220700002323047,
+"2023": null,
+"2004": 0.0,
+"2005": 0.004303255455354205,
+"2006": 0.008526247971248572,
+"2007": 0.014174435338689187,
+"2008": 0.009634755275425545,
+"2009": 0.02191436037212863,
+"2010": 0.009706959205166808,
+"2011": 0.030496778521318504,
+"2012": 0.010330101990198827,
+"2013": 0.028879094340819943,
+"2014": 0.028871257612854407,
+"2015": 0.011259822971036481,
+"2016": 0.046904426664678756,
+"2017": 0.08122700605605813,
+"2018": 0.01768341092342489,
+"2019": 0.021847067295565084,
+"2020": 0.02397704744383934,
+"2021": 0.09825509030760451,
+"2022": 0.030299404474294876
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 80,
+"relative": 0.01778845057932212
 },
-"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+"cqp": "[lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
 }
 ],
-"time": 14.596103429794312
+"time": 16.938433170318604
 }
