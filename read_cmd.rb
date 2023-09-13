@@ -135,6 +135,18 @@ def process_cmd
                 else
                     structs = ""
                 end
+                
+                if ARGV.include?("--smoothing")
+                    window = ARGV[ARGV.index("--smoothing") + 1].to_i
+                else
+                    window = 1
+                end
+
+                if ARGV.include?("--defaultyaxis")
+                    defaultyaxis = "#{ARGV[ARGV.index("--defaultyaxis") + 1]}"
+                else
+                    defaultyaxis = "no"
+                end
 
             end
         elsif query == "authors"
@@ -151,6 +163,6 @@ def process_cmd
 
 
     end
-    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label, "format" => format, "more_variables" => more_variables, "showplot" => showplot, "structs" => structs, "sort" => sort, "show" => show, "context" => context, "limit" => limit}
+    outhash = {"corpus_and_label" => corpus_and_label, "query" => query, "variable" => variable, "username" => username, "nvariants" => nvariants, "whattoplot" => whattoplot, "max" => max_predef, "dir" => dir, "nyl_year" => nyl_year, "only_process_local" => only_process_local, "granularity" => granularity, "total_threshold" => total_threshold, "variable_source" => variable_source, "var_output" => var_output, "more_corpora_and_labels" => more_corpora_and_labels, "merged_label" => merged_label, "format" => format, "more_variables" => more_variables, "showplot" => showplot, "structs" => structs, "sort" => sort, "show" => show, "context" => context, "limit" => limit, "window" => window, "defaultyaxis" => defaultyaxis}
     return outhash
 end

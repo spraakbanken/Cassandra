@@ -5,6 +5,7 @@
 require 'rinruby'
 require_relative 'read_cmd.rb'
 require_relative 'date_tools.rb'
+require_relative 'math_tools.rb'
 
 
 gran_hash = {"m" => "-----m"}
@@ -33,6 +34,8 @@ granularity = outhash["granularity"]
 total_threshold = outhash["total_threshold"]
 format = outhash["format"]
 showplot = outhash["showplot"]
+window = outhash["window"]
+defaultyaxis = outhash["defaultyaxis"]
 
 #dir = "#{var_output}#{dir}"
 
@@ -51,7 +54,7 @@ end
 
 gran_addendum = gran_hash[granularity]
 
-def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold)
+def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold,window)
     maincorpus = corpus_and_label.split("-")[0]
     subcorpus = corpus_and_label.split("-")[1]
     file = File.open("#{inputdir}\\#{variable}#{gran_addendum}\\#{maincorpus}\\#{subcorpus}\\#{username}.tsv","r:utf-8")
@@ -60,9 +63,11 @@ def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whatt
     years = []
     labels = []
     values = []
+    values_copy = []
     whattoplot_id = nil
     period_id = nil
     #absmonth_id = nil
+    array_ndatapoints = []
     file.each_line.with_index do |line,index|
         if index > 0
             line1 = line.split("\t")
@@ -72,14 +77,16 @@ def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whatt
                 labels << line1[period_id]
                 years << absmonth(line1[period_id])
             end
+            ndatapoints = line1[1].to_i
+            array_ndatapoints << ndatapoints
             
-            if nvariants == 1 or (nvariants == 2 and line1[1].to_i >= total_threshold)
+            if nvariants == 1 or (nvariants == 2 and ndatapoints >= total_threshold)
             
                 values << line1[whattoplot_id].to_f
             else
                 values << "NA"
             end
-            
+            values_copy << line1[whattoplot_id].to_f
         else
             header = line.strip.split("\t")
             whattoplot_id = header.index(whattoplot)
@@ -88,6 +95,10 @@ def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whatt
         end
     end
     file.close
+    if window > 1
+        values = smooth(values_copy,window,array_ndatapoints,total_threshold)
+    end
+
     return [years,values,labels,maincorpus,subcorpus]
 end
 
@@ -98,7 +109,7 @@ var_more_values = []
 colors = ["black","blue","green","red","gray","magenta","brown","orange"]
 ltys = [1,5,3,4,2]
 
-plot_data = extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold)
+plot_data = extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold,window)
 years = plot_data[0]
 values = plot_data[1]
 labels = plot_data[2]
@@ -106,6 +117,11 @@ maincorpus = plot_data[3]
 subcorpus = plot_data[4]
 
 if !years.empty?
+    if defaultyaxis == "no"
+        yinfo = "ylim = c(0,maxvalue), "
+    elsif defaultyaxis == "yes"
+        yinfo = ""
+    end
        
 
     
@@ -124,7 +140,7 @@ if !years.empty?
         
         
         more_corpora_and_labels.each.with_index do |extra_corpus_and_label,index|
-            plot_data = extract_data(extra_corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold)
+            plot_data = extract_data(extra_corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold,window)
             more_years[index] = plot_data[0]
             more_values[index] = plot_data[1]
             #more_labels[index] = plot_data[2]
@@ -137,7 +153,7 @@ if !years.empty?
 
     if !more_variables.empty?
         more_variables.each.with_index do |extra_variable,index|
-            plot_data = extract_data(corpus_and_label,inputdir,extra_variable,username,gran_addendum,whattoplot,nvariants,total_threshold)
+            plot_data = extract_data(corpus_and_label,inputdir,extra_variable,username,gran_addendum,whattoplot,nvariants,total_threshold,window)
             var_more_values[index] = plot_data[1]
             all_values << plot_data[1]
             var_all_names << extra_variable.gsub(":","_colon_")
@@ -168,8 +184,8 @@ if !years.empty?
     end
     #STDERR.puts max
     R.assign "maxvalue", max
-    R.eval "#{format}(file='#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}.#{format}')"
-    plotfilename = "#{dir}\\#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}.#{format}"
+    R.eval "#{format}(file='#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}')"
+    plotfilename = "#{dir}\\#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}"
 
     if nvariants == 1
         ylab = "ipm"
@@ -178,9 +194,9 @@ if !years.empty?
     end
     if granularity == "y"
         #R.eval "plot(0,0,xlab = 'HEY', ylab = '#{ylab}', xlim = c(minyear,maxyear), ylim = c(0,maxvalue),frame.plot=FALSE)"
-        R.eval "plot(values~years, type='b',xlab = 'time', ylab = '#{ylab}', xlim = c(minyear,maxyear), ylim = c(0,maxvalue), lwd =2 )"
+        R.eval "plot(values~years, type='b',xlab = 'time', ylab = '#{ylab}', xlim = c(minyear,maxyear), #{yinfo}lwd =2 )"
     elsif granularity == "m"
-        R.eval "plot(years, values, type='l',xaxt='n', ylab = '#{ylab}', xlim = c(minyear,maxyear),ylim = c(0,maxvalue), lwd =2)"
+        R.eval "plot(years, values, type='l',xaxt='n', ylab = '#{ylab}', xlim = c(minyear,maxyear), #{yinfo}lwd =2)"
         
         R.eval "axis(1, at=years,labels = labels)"
     end

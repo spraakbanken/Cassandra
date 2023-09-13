@@ -1,3 +1,41 @@
+def smooth(array,window,ndatapoints,total_threshold)
+    if window % 2 == 0
+        abort("Cassandra says: Smoothing window must be an odd number")
+    end
+    smoother = (window - 1) / 2
+    #hash = Hash.new{|hash, key| hash[key] = Array.new}
+    array2 = []
+    array3 = []
+    array.each.with_index do |element, index|
+        array2[index] = 0.0
+        array3[index] = 0.0
+        #if (index + 1 - smoother) > = 0 and (index + 1 + smoother) <= array.length
+            ntotal = 0.0
+            for i in correct((index - smoother), 0, "lower")..correct((index+smoother), array.length-1, "higher")
+                #if array[i] != "NA"
+                    array2[index] += array[i]
+                    ntotal += 1
+                #end
+                array3[index] += ndatapoints[i]
+            end
+            array2[index] = array2[index]/ntotal
+            array3[index] = array3[index]/ntotal
+            if array3[index] < total_threshold
+                array2[index] = "NA"
+            end
+        #end
+
+    end
+    return array2
+end
+
+def correct(number, limit, type)
+    if (type == "lower" and number < limit) or (type == "higher" and number > limit)
+        number = limit
+    end
+    return number
+end
+
 def mean(array)
     sum = 0.0
     array.each do |x|
@@ -58,4 +96,5 @@ def div_by_zero(a,b)
     end 
     return c
 end 
+
 
