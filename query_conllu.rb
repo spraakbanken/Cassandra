@@ -4,6 +4,8 @@ if variable.to_s == ""
     exit
 end
 
+
+
 year_of_interest = 2009
 
 require_relative "queries\\#{variable}.rb"
@@ -82,7 +84,7 @@ subforums.each do |subforum|
                 id = line2[0]
                 token = line2[1]
                 tokenc = token.downcase
-                lemma = line2[2]
+                lemma = line2[2][1..-2].split("|")
                 pos = line2[3]
                 msd = line2[5]
                 dephead = line2[6]
