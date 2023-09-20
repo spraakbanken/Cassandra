@@ -14,10 +14,12 @@ PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 token_threshold = 10000
 firstage = 18
 total_threshold = 10
-verblist = ["anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas", "komma", "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
+verblist = ["anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas",  "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
+
+#["komma"] # ["anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas", "komma", "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
 
 verblist.each do |verb_of_interest|
-    
+    STDERR.puts verb_of_interest
     #require_relative "queries\\#{variable}.rb"
     
     
@@ -50,9 +52,9 @@ verblist.each do |verb_of_interest|
         prevprev_pos = ""
         prevprev_deprel = ""
         prev_deprel = ""
-        prev_lemma = ""
-        prevprev_lemma = ""
-        prevprevprev_lemma = ""
+        prev_lemma = []
+        prevprev_lemma = []
+        prevprevprev_lemma = []
     
         prev_msd = ""
         prevprev_msd = ""
@@ -145,7 +147,7 @@ verblist.each do |verb_of_interest|
     yearhash.keys.sort.each do |year|
         total = yearhash[year]
         v2abs = yearhash_v2[year]
-        v1abs = total - v1abs 
+        v1abs = total - v2abs
         o.puts "#{year}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1abs.to_f/total}\t#{v2abs.to_f/total}\tNA\tNA"
     end
     
