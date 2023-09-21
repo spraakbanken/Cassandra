@@ -57,9 +57,9 @@ gran_addendum = gran_hash[granularity]
 def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whattoplot,nvariants,total_threshold,window)
     maincorpus = corpus_and_label.split("-")[0]
     subcorpus = corpus_and_label.split("-")[1]
-    file = File.open("#{inputdir}\\#{variable}#{gran_addendum}\\#{maincorpus}\\#{subcorpus}\\#{username}.tsv","r:utf-8")
-    #verb = variable.split("_")[1]
-    #file = File.open("results\\ss30dia\\#{verb}_t10.tsv","r:utf-8")
+    #file = File.open("#{inputdir}\\#{variable}#{gran_addendum}\\#{maincorpus}\\#{subcorpus}\\#{username}.tsv","r:utf-8")
+    verb = variable.split("_")[1]
+    file = File.open("results\\ss30dia\\#{verb}_t10.tsv","r:utf-8")
     #file = File.open("C:\\Sasha\\D\\DGU\\CassandraMy\\hbt_authors\\Varnagel.tsv","r:utf-8")
     header = []
     years = []
