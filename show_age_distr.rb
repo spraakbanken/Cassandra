@@ -71,7 +71,7 @@ subforums.each do |subforum|
             if yob != 1970
                 #yob_authorhash[current_year][yob] += 1
                 #age_authorhash[current_year[current_age] += 1
-                cohort_authorhash[current_year[current_agebin] += 1
+                cohort_authorhash[current_year][current_agebin] += 1
                 yearhash[current_year] += 1
                 
             end
@@ -86,24 +86,7 @@ o.puts "year\tcohort\tproportion"
 
 cohort_authorhash.each_pair do |year,cohorthash|
     cohorthash.each_pair do |cohort,n|
-        o.puts "#{year}\t#{}\t#{}"
+        o.puts "#{year}\t#{cohort}\t#{n/yearhash[year]}"
     end
 
 end
-#nprolific = 0.0
-#sum_v2rel = 0.0
-yearhash.keys.sort.each do |year|
-    total = yearhash[year]
-    v2abs = yearhash_v2[year]
-    v1abs = total - v2abs
-    o.puts "#{year}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1abs.to_f/total}\t#{v2abs.to_f/total}\tNA\tNA"
-end
-
-
-o.close
-
-#STDERR.puts "#{variable} #prolific speakers: #{nprolific} Average v2rel: #{sum_v2rel/nprolific}"
-#if nprolific >= 10 and sum_v2rel/nprolific >= 0.01 and  sum_v2rel/nprolific <= 0.90
-#    File.rename("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv", "results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}_a.tsv")
-#end
-
