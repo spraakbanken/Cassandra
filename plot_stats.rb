@@ -215,8 +215,8 @@ if !years.empty?
     end
     #STDERR.puts max
     R.assign "maxvalue", max
-    R.eval "#{format}(file='#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}')"
-    plotfilename = "#{dir}\\#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}"
+    R.eval "#{format}(file='stats_#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}')"
+    plotfilename = "#{dir}\\stats_#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}"
 
     if nvariants == 1
         ylab = "ipm"
