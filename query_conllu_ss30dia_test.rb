@@ -9,8 +9,8 @@ require_relative "queries\\query_tools.rb"
 subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
 
-PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
-#PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
+#PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
+PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 token_threshold = 10000
 firstage = 18
 total_threshold = 10
@@ -91,7 +91,7 @@ verblist.each do |verb_of_interest|
                     #authorhash[current_username] = true
                 end
             else
-                if yob != 1970 and current_agebin == "Gen1"
+                if yob != 1970 and current_agebin == "Gen2"
                     tokencounter += 1
                     line2 = line1.split("\t")
                     id = line2[0]
