@@ -91,7 +91,7 @@ verblist.each do |verb_of_interest|
                     #authorhash[current_username] = true
                 end
             else
-                if yob != 1970 and current_agebin == "Gen3"
+                if yob != 1970 and current_agebin == "Gen4"
                     tokencounter += 1
                     line2 = line1.split("\t")
                     id = line2[0]
@@ -138,7 +138,7 @@ verblist.each do |verb_of_interest|
     
     end
     
-    o = File.open("results\\ss30dia\\gen3_#{verb_of_interest}_t#{total_threshold}.tsv","w:utf-8")
+    o = File.open("results\\ss30dia\\gen4_#{verb_of_interest}_t#{total_threshold}.tsv","w:utf-8")
     
     o.puts "period	total	v1abs	v2abs	v1rel	v2rel	v1ipm	v2ipm"
     
