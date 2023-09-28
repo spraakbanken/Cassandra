@@ -257,6 +257,7 @@ if !years.empty?
         end
         
         predicted = bestparams[-1]
+        STDOUT.puts predicted
         #STDERR.puts bestparams[0]
         #STDERR.puts bestparams[1]
         #STDERR.puts bestparams[2]
