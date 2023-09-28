@@ -108,8 +108,9 @@ def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whatt
     values_nona = values.clone
     values_nona.delete("NA")
     range = values_nona.max - values_nona.min
+    value_yoi = values_copy[6]
 
-    return [years,values,labels,maincorpus,subcorpus,range]
+    return [years,values,labels,maincorpus,subcorpus,range,value_yoi]
 end
 
 more_years = []
@@ -126,6 +127,7 @@ labels = plot_data[2]
 maincorpus = plot_data[3]
 subcorpus = plot_data[4]
 range = plot_data[5]
+value_yoi = plot_data[6]
 
 
 def fitmodel(values,years,type)
@@ -263,7 +265,7 @@ if !years.empty?
         
         R.eval "lines(yearsn, predicted, type='b', col = 'blue', lwd = 2)"
         #STDERR.puts r2_lin, intercept_lin, slope_lin, predicted
-        o.puts "#{verb}\t#{values[6]}\t#{bestfit}\t#{bestparams[0]}\t#{bestparams[2]}\t#{range}"
+        o.puts "#{verb}\t#{value_yoi}\t#{bestfit}\t#{bestparams[0]}\t#{bestparams[2]}\t#{range}"
 
     elsif granularity == "m"
         R.eval "plot(years, values, type='l',xaxt='n', ylab = '#{ylab}', xlim = c(minyear,maxyear), #{yinfo}lwd =2)"
