@@ -1,5 +1,5 @@
 window = 5
-corpus = "press-all"
+corpus = "svt-all"
 f = File.open("ss30.tsv","r:utf-8")
 o = File.open("summary_ss30_#{corpus}_smoothing#{window}.tsv", "w:utf-8")
 o.puts "verb\tv2rel_2009\tbest_model\tr2\tslope\trange"
