@@ -1,4 +1,4 @@
-window = 5
+window = 1
 f = File.open("ss30.tsv","r:utf-8")
 #o = File.open("summary_ss30_wholecorpus_smoothing#{window}.tsv", "w:utf-8")
 #o.puts "verb\tv2rel_2009\tbest_model\tr2\tslope\trange"
