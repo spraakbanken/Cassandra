@@ -8,7 +8,8 @@ end
 
 year_of_interest = 2009
 
-require_relative "queries\\#{variable}.rb"
+#require_relative "queries\\#{variable}.rb"
+require_relative "queries\\query_tools.rb"
 
 #subforums = ["kansliga"]
 subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
@@ -114,7 +115,7 @@ subforums.each do |subforum|
 
 end
 
-o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
+o = File.open("results\\ss30_#{year_of_interest}\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
 
 o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 
@@ -146,5 +147,5 @@ o.close
 
 STDERR.puts "#{variable} #prolific speakers: #{nprolific} Average v2rel: #{sum_v2rel/nprolific}"
 if nprolific >= 10 and sum_v2rel/nprolific >= 0.01 and  sum_v2rel/nprolific <= 0.90
-    File.rename("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv", "results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}_a.tsv")
+    File.rename("results\\ss30_#{year_of_interest}\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv", "results\\ss30_#{year_of_interest}\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}_a.tsv")
 end
