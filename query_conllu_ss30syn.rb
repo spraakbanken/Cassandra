@@ -22,7 +22,7 @@ authorhash = Hash.new{|hash,key| hash[key] = Hash.new(0.0)}
 authorhash_gen = {}
 tokencounter = 0
     
-#verblist = ["komma"]
+#verblist = ["komma","anse"]
 verblist = ["komma", "anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas", "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
 
 oo = File.open("results\\ss30_#{year_of_interest}\\summary_t#{total_threshold}.tsv","w:utf-8")
@@ -102,7 +102,7 @@ verblist.each do |verb_of_interest|
                     #authorhash[current_username] = true
                 end
             else
-                if yob != 1970
+                if yob != 1970 and current_year == year_of_interest
                     tokencounter += 1
                     line2 = line1.split("\t")
                     id = line2[0]
