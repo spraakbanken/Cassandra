@@ -1,5 +1,5 @@
-year_of_interest = 2009
-
+#year_of_interest = 2009
+years_of_interest = [2008, 2009, 2010]
 #require_relative "queries\\#{variable}.rb"
 require_relative "queries\\query_tools.rb"
 
@@ -25,7 +25,7 @@ tokencounter = 0
 #verblist = ["komma","anse"]
 verblist = ["komma", "anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas", "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
 
-oo = File.open("results\\ss30_#{year_of_interest}\\summary_t#{total_threshold}.tsv","w:utf-8")
+oo = File.open("results\\ss30_#{years_of_interest.join(",")}\\summary_t#{total_threshold}.tsv","w:utf-8")
 oo.puts "verb\tprolific_speakers\ttotal_prolific\tmicroave_v2rel_prolific\ttotal\tmicroave_v2rel" 
     
 
@@ -102,7 +102,7 @@ verblist.each do |verb_of_interest|
                     #authorhash[current_username] = true
                 end
             else
-                if yob != 1970 and current_year == year_of_interest
+                if yob != 1970 and years_of_interest.include?(current_year)
                     tokencounter += 1
                     line2 = line1.split("\t")
                     id = line2[0]
@@ -117,14 +117,14 @@ verblist.each do |verb_of_interest|
                     if condition == 1
                         #yearhash[current_year] += 1
                         #agebinhash_v1[current_agebin] += 1
-                        authorhash[[current_username,current_age,current_agebin,current_year]]["v1"] += 1
-                        authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
+                        authorhash[[current_username,yob]]["v1"] += 1
+                        authorhash[[current_username,yob]]["total"] += 1
                     elsif condition == 2
                         #yearhash_v2[current_year] += 1
                         #yearhash[current_year] += 1
                         #agebinhash_v2[current_agebin] += 1
-                        authorhash[[current_username,current_age,current_agebin,current_year]]["v2"] += 1
-                        authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
+                        authorhash[[current_username,yob]]["v2"] += 1
+                        authorhash[[current_username,yob]]["total"] += 1
                     end
                     prevprev_tokenc = prev_tokenc.clone
                     prev_tokenc = tokenc.clone
@@ -147,9 +147,9 @@ verblist.each do |verb_of_interest|
     
     end
     
-    o = File.open("results\\ss30_#{year_of_interest}\\familjeliv_#{verb_of_interest}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
+    o = File.open("results\\ss30_#{years_of_interest.join(",")}\\familjeliv_#{verb_of_interest}_t#{total_threshold}_#{years_of_interest.join(",")}.tsv","w:utf-8")
     
-    o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
+    o.puts "period\tusername\tyob\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
     
     nprolific = 0.0
     sum_v2rel = 0.0
@@ -159,9 +159,9 @@ verblist.each do |verb_of_interest|
     v2abstotal_all = 0.0
     
     authorhash.each_pair do |key,value|
-        year = key[3]
+        #year = key[3]
         username = key[0]
-        age = key[1]
+        yob = key[1]
         #bin = key[2]
         total = value["total"]
         v2abs = value["v2"]
@@ -176,7 +176,7 @@ verblist.each do |verb_of_interest|
             #v3rel = v3abs/total
             #o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v3abs}\t#{v1rel}\t#{v2rel}\t#{v3rel}"
             #o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
-            o.puts "#{year}\t#{username}\t#{age}\t\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
+            o.puts "\t#{username}\t#{yob}\t\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
             totaltotal += total
             v2abstotal += v2abs
         end
