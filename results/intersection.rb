@@ -5,7 +5,7 @@ token_threshold = 10000
 firstage = 18
 total_threshold = 10
 
-list = ["komma", "försöka", "slippa", "vägra", "sluta", "fortsätta", "glömma", "planera", "riskera", "lova", "anse"]
+list = ["komma", "försöka", "slippa", "vägra", "sluta", "fortsätta", "glömma"]
 
 arrays = Hash.new{|hash,key| hash[key] = Array.new}
 
@@ -26,4 +26,5 @@ for i in 1..arrays.values.length-1 do
     intersection = intersection.intersection(arrays.values[i])
     #STDERR.puts intersection.join("\t")
 end
-STDERR.puts intersection.join("\t")
+#STDERR.puts intersection.join("\t")
+STDERR.puts intersection.length
