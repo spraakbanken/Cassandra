@@ -1,11 +1,11 @@
-#years_of_interest = [2008, 2009, 2010]
-years_of_interest = [2009]
+years_of_interest = [2008, 2009, 2010]
+#years_of_interest = [2009]
 
 token_threshold = 10000
 firstage = 18
 total_threshold = 10
 
-list = ["försöka","komma"] #"fortsätta","sluta","vägra","slippa",
+list = ["komma", "försöka", "slippa", "vägra", "sluta", "fortsätta", "glömma", "planera", "riskera", "lova", "anse"]
 
 arrays = Hash.new{|hash,key| hash[key] = Array.new}
 
