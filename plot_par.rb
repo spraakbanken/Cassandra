@@ -96,7 +96,7 @@ if !Dir.exist?(dir)
 end
 R.eval "setwd('#{dir}')"
 
-R.eval "#{format}(file='ss12_familjeliv-all_all-users_#{whattoplot}_#{granularity}_#{window}.#{format}')"
+R.eval "#{format}(file='ss12_#{corpus_and_label}_all-users_#{whattoplot}_#{granularity}_#{window}_dyaxis#{defaultyaxis}.#{format}')"
 R.eval "par(mfrow=c(4,3))"
 
 

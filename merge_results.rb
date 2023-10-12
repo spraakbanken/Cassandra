@@ -102,7 +102,9 @@ elsif nvariants == 2
     o.puts "period\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 end
 
-periods.each_key do |period|
+sorted_periods = periods.keys.sort
+
+sorted_periods.each do |period|
     v1abs = v1abss[period]
     if corpus_sizes[period] != 0
         v1ipm = v1abs.to_f/corpus_sizes[period]*1000000
