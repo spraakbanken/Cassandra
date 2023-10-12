@@ -1,0 +1,97 @@
+{
+"corpora": {
+"PRESS76": [
+{
+"absolute": {
+"1976": 1,
+"1977": null
+},
+"relative": {
+"1976": 0.7417726288867031,
+"1977": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.7417726288867031
+}
+},
+{
+"absolute": {
+"1976": 0,
+"1977": null
+},
+"relative": {
+"1976": 0,
+"1977": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'behaga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"1976": 1,
+"1977": null
+},
+"relative": {
+"1976": 0.7417726288867031,
+"1977": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.7417726288867031
+},
+"cqp": "[lemma contains 'behaga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1976": 1,
+"1977": null
+},
+"relative": {
+"1976": 0.7417726288867031,
+"1977": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.7417726288867031
+}
+},
+{
+"absolute": {
+"1976": 0,
+"1977": null
+},
+"relative": {
+"1976": 0,
+"1977": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'behaga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"1976": 1,
+"1977": null
+},
+"relative": {
+"1976": 0.7417726288867031,
+"1977": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.7417726288867031
+},
+"cqp": "[lemma contains 'behaga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"time": 0.6664149761199951
+}

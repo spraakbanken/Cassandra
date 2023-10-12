@@ -1,0 +1,319 @@
+{
+"corpora": {
+"PRESS65": [
+{
+"absolute": {
+"1965": 11,
+"1967": null,
+"1966": 0
+},
+"relative": {
+"1965": 9.922066676288065,
+"1967": null,
+"1966": 0.0
+},
+"sums": {
+"absolute": 11,
+"relative": 9.922066676288065
+}
+},
+{
+"absolute": {
+"1965": 0,
+"1967": null
+},
+"relative": {
+"1965": 0,
+"1967": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"1965": 11,
+"1967": null,
+"1966": 0
+},
+"relative": {
+"1965": 9.922066676288065,
+"1967": null,
+"1966": 0.0
+},
+"sums": {
+"absolute": 11,
+"relative": 9.922066676288065
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"PRESS95": [
+{
+"absolute": {
+"1995": 92,
+"1996": null
+},
+"relative": {
+"1995": 11.992126907986496,
+"1996": null
+},
+"sums": {
+"absolute": 92,
+"relative": 11.992126907986496
+}
+},
+{
+"absolute": {
+"1995": 7,
+"1996": null
+},
+"relative": {
+"1995": 0.9124444386511464,
+"1996": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.9124444386511464
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"1995": 85,
+"1996": null
+},
+"relative": {
+"1995": 11.07968246933535,
+"1996": null
+},
+"sums": {
+"absolute": 85,
+"relative": 11.07968246933535
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"PRESS96": [
+{
+"absolute": {
+"1996": 83,
+"1997": null
+},
+"relative": {
+"1996": 12.737817351976588,
+"1997": null
+},
+"sums": {
+"absolute": 83,
+"relative": 12.737817351976588
+}
+},
+{
+"absolute": {
+"1996": 10,
+"1997": null
+},
+"relative": {
+"1996": 1.5346767893947695,
+"1997": null
+},
+"sums": {
+"absolute": 10,
+"relative": 1.5346767893947695
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"1996": 73,
+"1997": null
+},
+"relative": {
+"1996": 11.203140562581817,
+"1997": null
+},
+"sums": {
+"absolute": 73,
+"relative": 11.203140562581817
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"PRESS97": [
+{
+"absolute": {
+"1997": 150,
+"1998": null
+},
+"relative": {
+"1997": 10.946285192033237,
+"1998": null
+},
+"sums": {
+"absolute": 150,
+"relative": 10.946285192033237
+}
+},
+{
+"absolute": {
+"1997": 19,
+"1998": null
+},
+"relative": {
+"1997": 1.3865294576575433,
+"1998": null
+},
+"sums": {
+"absolute": 19,
+"relative": 1.3865294576575433
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"1997": 131,
+"1998": null
+},
+"relative": {
+"1997": 9.559755734375692,
+"1998": null
+},
+"sums": {
+"absolute": 131,
+"relative": 9.559755734375692
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"PRESS98": [
+{
+"absolute": {
+"1998": 133,
+"1999": null
+},
+"relative": {
+"1998": 12.382633812280575,
+"1999": null
+},
+"sums": {
+"absolute": 133,
+"relative": 12.382633812280575
+}
+},
+{
+"absolute": {
+"1998": 13,
+"1999": null
+},
+"relative": {
+"1998": 1.210332628268026,
+"1999": null
+},
+"sums": {
+"absolute": 13,
+"relative": 1.210332628268026
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"1998": 120,
+"1999": null
+},
+"relative": {
+"1998": 11.172301184012548,
+"1999": null
+},
+"sums": {
+"absolute": 120,
+"relative": 11.172301184012548
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1965": 11,
+"1967": null,
+"1995": 92,
+"1999": null,
+"1966": 0,
+"1996": 83,
+"1997": 150,
+"1998": 133
+},
+"relative": {
+"1965": 9.922066676288065,
+"1967": null,
+"1995": 11.992126907986496,
+"1999": null,
+"1966": 0.0,
+"1996": 12.737817351976588,
+"1997": 10.946285192033237,
+"1998": 12.382633812280575
+},
+"sums": {
+"absolute": 469,
+"relative": 11.798354202542322
+}
+},
+{
+"absolute": {
+"1965": 0,
+"1967": null,
+"1995": 7,
+"1999": null,
+"1996": 10,
+"1997": 19,
+"1998": 13
+},
+"relative": {
+"1965": 0,
+"1967": null,
+"1995": 0.9124444386511464,
+"1999": null,
+"1996": 1.5346767893947695,
+"1997": 1.3865294576575433,
+"1998": 1.210332628268026
+},
+"sums": {
+"absolute": 49,
+"relative": 1.2326638719074068
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+},
+{
+"absolute": {
+"1965": 11,
+"1967": null,
+"1995": 85,
+"1999": null,
+"1966": 0,
+"1996": 73,
+"1997": 131,
+"1998": 120
+},
+"relative": {
+"1965": 9.922066676288065,
+"1967": null,
+"1995": 11.07968246933535,
+"1999": null,
+"1966": 0.0,
+"1996": 11.203140562581817,
+"1997": 9.559755734375692,
+"1998": 11.172301184012548
+},
+"sums": {
+"absolute": 420,
+"relative": 10.565690330634915
+},
+"cqp": "[lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']"
+}
+],
+"time": 2.2772886753082275
+}
