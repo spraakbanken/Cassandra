@@ -27,6 +27,7 @@ def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whatt
     labels = []
     values = []
     values_copy = []
+    values_copy2 = []
     whattoplot_id = nil
     period_id = nil
     #absmonth_id = nil
@@ -46,10 +47,12 @@ def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whatt
             if nvariants == 1 or (nvariants == 2 and ndatapoints >= total_threshold)
             
                 values << line1[whattoplot_id].to_f
+                values_copy2 << line1[whattoplot_id].to_f
             else
                 values << "NA"
             end
             values_copy << line1[whattoplot_id].to_f
+            
         else
             header = line.strip.split("\t")
             whattoplot_id = header.index(whattoplot)
@@ -62,7 +65,7 @@ def extract_data(corpus_and_label,inputdir,variable,username,gran_addendum,whatt
         values = smooth(values_copy,window,array_ndatapoints,total_threshold)
     end
 
-    return [years,values,labels,maincorpus,subcorpus]
+    return [years,values,labels,maincorpus,subcorpus,values_copy2]
 end
 
 outhash = process_cmd
@@ -97,6 +100,8 @@ end
 R.eval "setwd('#{dir}')"
 
 R.eval "#{format}(file='ss12_#{corpus_and_label}_all-users_#{whattoplot}_#{granularity}_#{window}_dyaxis#{defaultyaxis}.#{format}')"
+plotfilename = "#{dir}\\ss12_#{corpus_and_label}_all-users_#{whattoplot}_#{granularity}_#{window}_dyaxis#{defaultyaxis}.#{format}"
+
 R.eval "par(mfrow=c(4,3))"
 
 
@@ -127,15 +132,10 @@ variables.each do |variable|
     labels = plot_data[2]
     maincorpus = plot_data[3]
     subcorpus = plot_data[4]
+    values_no_nas = plot_data[5]
     
     if !years.empty?
-        if defaultyaxis == "no"
-            yinfo = "ylim = c(0,maxvalue), "
-        elsif defaultyaxis == "yes"
-            yinfo = ""
-        end
-           
-    
+        
         
         R.assign "years", years
         R.assign "values", values
@@ -196,8 +196,34 @@ variables.each do |variable|
         end
         #STDERR.puts max
         R.assign "maxvalue", max
+        
+
+        if values_no_nas.empty?
+            maxvalue2 = 1
+            minvalue2 = 0
+        else
+            maxvalue2 = values_no_nas.max.round(2)+0.01
+            if maxvalue2 > 1
+                maxvalue2 = 1
+            end
+            R.assign "maxvalue2",maxvalue2
+            minvalue2 = values_no_nas.min.round(2)-0.01
+            if minvalue2 < 0
+                minvalue2 = 0
+            end
+        end
+
+        R.assign "minvalue2",minvalue2
+ 
+        if defaultyaxis == "no"
+            yinfo = "ylim = c(0,maxvalue), "
+        elsif defaultyaxis == "yes"
+            yinfo = "ylim = c(minvalue2,maxvalue2), "
+        end
+           
+    
         #R.eval "#{format}(file='#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}')"
-        plotfilename = "#{dir}\\#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}"
+        #plotfilename = "#{dir}\\#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}"
     
         if nvariants == 1
             ylab = "ipm"
@@ -207,8 +233,16 @@ variables.each do |variable|
         if granularity == "y"
             #R.eval "plot(0,0,xlab = 'HEY', ylab = '#{ylab}', xlim = c(minyear,maxyear), ylim = c(0,maxvalue),frame.plot=FALSE)"
             #R.eval "plot(values~years, type='b',xlab = 'time', ylab = '#{ylab}', xlim = c(minyear,maxyear), #{yinfo}lwd =2, main = #{verb})"
-            R.eval "plot(values~years, type='b', xlab = '', ylab = '', xlim = c(minyear,maxyear), #{yinfo}main = \"#{verb}\")"
-        elsif granularity == "m"
+            R.eval "plot(values~years, type='p', xlab = '', ylab = '', xlim = c(minyear,maxyear), #{yinfo}main = \"#{verb}\", yaxt='n')"
+            
+            if defaultyaxis == "no"
+                R.eval "axis(2, at=c(0,maxvalue),labels = c(0,maxvalue))"
+            elsif
+                R.eval "axis(2, at=c(minvalue2,maxvalue2),labels = c(minvalue2,maxvalue2))"
+            else
+
+            end
+        elsif granularity == "m" #does not work for plot_par
             R.eval "plot(years, values, type='l',xaxt='n', ylab = '#{ylab}', xlim = c(minyear,maxyear), #{yinfo}lwd =2)"
             
             R.eval "axis(1, at=years,labels = labels)"
@@ -257,10 +291,12 @@ variables.each do |variable|
         
         #R.eval "dev.off()"
         #STDERR.puts plotfilename
-        if showplot != "no"
-            system "start #{plotfilename}"
-        end
+        
     end
 
 end
 R.eval "dev.off()"
+
+if showplot != "no"
+    system "start #{plotfilename}"
+end
