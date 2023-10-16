@@ -1,8 +1,8 @@
 subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
 
-#PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
-PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
+PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
+#PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 token_threshold = 10000
 firstage = 18
 #total_threshold = 10
@@ -70,7 +70,7 @@ subforums.each do |subforum|
                 #authorhash[current_username] = true
             end
         else
-            if yob != 1970 and current_year == 2009
+            if yob != 1970 and [2008,2009,2010].include?(current_year)
                 #yob_authorhash[current_year][yob] += 1
                 #age_authorhash[current_year[current_age] += 1
                 #cohort_authorhash[current_year][current_agebin] += 1
@@ -86,7 +86,7 @@ subforums.each do |subforum|
 
 end
 
-o = File.open("age\\stats2009.tsv","w:utf-8")
+o = File.open("age\\stats2008-2010.tsv","w:utf-8")
 o.puts "author\tyob\tntokens"
 
 authorhash.each_pair do |author,ntokens|

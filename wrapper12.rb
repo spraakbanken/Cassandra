@@ -5,7 +5,8 @@ variables.each do |variable|
     #system "ruby korp16.rb --variable #{variable} --corpus press2-all"
     #system "ruby korp16.rb --variable #{variable} --corpus webbnyheter-all"
     #system "ruby korp16.rb --variable #{variable} --corpus gp-all2"
-    system "ruby merge_results.rb --variable #{variable} --corpus press2-all,webbnyheter-all,press-all,gp-all2 --merged_label earlypress"
-    system "ruby plot.rb --variable #{variable} --corpus earlypress-all --format png --defaultyaxis no --showplot no"
+    #system "ruby merge_results.rb --variable #{variable} --corpus press2-all,webbnyheter-all,press-all,gp-all2 --merged_label earlypress"
+    #system "ruby plot.rb --variable #{variable} --corpus earlypress-all --format png --defaultyaxis no --showplot no"
+    system "ruby korp16.rb --variable #{variable} --corpus flashback-all"
 
 end

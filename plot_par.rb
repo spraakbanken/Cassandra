@@ -233,7 +233,7 @@ variables.each do |variable|
         if granularity == "y"
             #R.eval "plot(0,0,xlab = 'HEY', ylab = '#{ylab}', xlim = c(minyear,maxyear), ylim = c(0,maxvalue),frame.plot=FALSE)"
             #R.eval "plot(values~years, type='b',xlab = 'time', ylab = '#{ylab}', xlim = c(minyear,maxyear), #{yinfo}lwd =2, main = #{verb})"
-            R.eval "plot(values~years, type='p', xlab = '', ylab = '', xlim = c(minyear,maxyear), #{yinfo}main = \"#{verb}\", yaxt='n')"
+            R.eval "plot(values~years, type='l', xlab = '', ylab = '', xlim = c(minyear,maxyear), #{yinfo}main = \"#{verb}\", yaxt='n')"
             
             if defaultyaxis == "no"
                 R.eval "axis(2, at=c(0,maxvalue),labels = c(0,maxvalue))"
