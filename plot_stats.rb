@@ -38,7 +38,7 @@ showplot = outhash["showplot"]
 window = outhash["window"]
 defaultyaxis = outhash["defaultyaxis"]
 
-o = File.open("summary_ss30_wholecorpus_smoothing#{window}.tsv", "a:utf-8")
+o = File.open("summary_ss30_#{corpus_and_label}_smoothing#{window}.tsv", "a:utf-8")
 #o.puts "verb\tv2rel_2009\tbest_model\tr2\tslope"
 verb = variable.split("_")[1]
 STDERR.puts verb
@@ -153,6 +153,8 @@ def fitmodel(values,years,type)
 end
 
 
+
+
 if !years.empty?
     if defaultyaxis == "no"
         yinfo = "ylim = c(0,maxvalue), "
@@ -164,6 +166,7 @@ if !years.empty?
     
     R.assign "years", years
     R.assign "values", values
+    R.eval "values3 = replace(values,values=='NA',NA)"
     R.assign "labels",labels
     all_names = ["#{maincorpus}_#{subcorpus}"]
     all_values = [values]
@@ -230,20 +233,12 @@ if !years.empty?
         ylab = "proportion incoming"
     end
     if granularity == "y"
-        #R.eval "plot(0,0,xlab = 'HEY', ylab = '#{ylab}', xlim = c(minyear,maxyear), ylim = c(0,maxvalue),frame.plot=FALSE)"
+#=begin
         R.eval "yearsn = years - 2002"
-        #STDERR.puts years.join(", ")
-        #STDERR.puts values.join(", ")
         R.eval "plot(values~yearsn, type='b',xlab = 'time', ylab = '#{ylab}', xlim = c(1,20), #{yinfo}lwd =2 )"
         linparams = fitmodel(values,years,"lin")
-        #STDERR.puts linparams[0]
-        #STDERR.puts linparams[-1].join(" ")
         logparams = fitmodel(values,years,"log")
-        #STDERR.puts logparams[0]
-        #STDERR.puts logparams[-1].join(" ")
         sqrtparams = fitmodel(values,years,"sqrt")
-        #STDERR.puts sqrtparams[0]
-        #STDERR.puts sqrtparams[-1].join(" ")
         bestfit = "unknown"
         if logparams[0].to_f > linparams[0].to_f and logparams[0].to_f > sqrtparams[0].to_f
             bestparams = logparams
@@ -257,16 +252,15 @@ if !years.empty?
         end
         
         predicted = bestparams[-1]
-        STDOUT.puts predicted
-        #STDERR.puts bestparams[0]
-        #STDERR.puts bestparams[1]
-        #STDERR.puts bestparams[2]
-        #STDERR.puts bestfit
-        #STDERR.puts predicted.join(" ")
         
         R.eval "lines(yearsn, predicted, type='b', col = 'blue', lwd = 2)"
-        #STDERR.puts r2_lin, intercept_lin, slope_lin, predicted
-        o.puts "#{verb}\t#{value_yoi}\t#{bestfit}\t#{bestparams[0]}\t#{bestparams[2]}\t#{range}"
+#=end   
+        #STDERR.puts years.join(" ")
+        #STDERR.puts values.join(" ")
+        #gets
+        tau = R.pull "cor.test(years,values3,method='kendall',use='pairwise.complete.obs')$estimate"
+        #o.puts "#{verb}\t#{value_yoi}\t\t\t\t#{range}\t#{tau}"
+        o.puts "#{verb}\t#{value_yoi}\t#{bestfit}\t#{bestparams[0]}\t#{bestparams[2]}\t#{range}\t#{tau}"
 
     elsif granularity == "m"
         R.eval "plot(years, values, type='l',xaxt='n', ylab = '#{ylab}', xlim = c(minyear,maxyear), #{yinfo}lwd =2)"
