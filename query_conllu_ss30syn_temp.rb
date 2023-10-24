@@ -23,10 +23,11 @@ authorhash_gen = {}
 tokencounter = 0
     
 #verblist = ["komma","anse"]
-verblist = ["komma", "anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas", "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
+#verblist = ["komma", "anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas", "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
+verblist = ["försöka", "fortsätta", "glömma", "komma", "slippa", "sluta", "vägra", "anse", "behaga", "lova", "planera", "riskera"]
 
-oo = File.open("results\\ss30_#{years_of_interest.join(",")}\\summary_t#{total_threshold}.tsv","w:utf-8")
-oo.puts "verb\tnprolific_speakers\ttotal_prolific\tmicroave_v2rel_prolific\tnspeakers\ttotal\tmicroave_v2rel" 
+oo = File.open("results\\ss30_#{years_of_interest.join(",")}\\summary_t#{total_threshold}_temp.tsv","w:utf-8")
+oo.puts "verb\tnspeakers" 
     
 
 verblist.each do |verb_of_interest|
@@ -147,46 +148,13 @@ verblist.each do |verb_of_interest|
     
     end
     
-    o = File.open("results\\ss30_#{years_of_interest.join(",")}\\familjeliv_#{verb_of_interest}_t#{total_threshold}_#{years_of_interest.join(",")}.tsv","w:utf-8")
+    #o = File.open("results\\ss30_#{years_of_interest.join(",")}\\familjeliv_#{verb_of_interest}_t#{total_threshold}_#{years_of_interest.join(",")}.tsv","w:utf-8")
     
-    o.puts "period\tusername\tyob\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
+    #o.puts "period\tusername\tyob\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
     
-    nprolific = 0.0
-    sum_v2rel = 0.0
-    totaltotal = 0.0
-    totaltotal_all = 0.0
-    v2abstotal = 0.0
-    v2abstotal_all = 0.0
     nspeakers = authorhash.keys.length
-    authorhash.each_pair do |key,value|
-        #year = key[3]
-        username = key[0]
-        yob = key[1]
-        #bin = key[2]
-        total = value["total"]
-        v2abs = value["v2"]
-        if total >= total_threshold
-            nprolific += 1
-            v1abs = value["v1"]
-            
-            #v3abs = value["v3"]
-            v1rel = v1abs/total
-            v2rel = v2abs/total
-            #sum_v2rel += v2rel
-            #v3rel = v3abs/total
-            #o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v3abs}\t#{v1rel}\t#{v2rel}\t#{v3rel}"
-            #o.puts "#{year}\t#{username}\t#{age}\t#{bin}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
-            o.puts "\t#{username}\t#{yob}\t\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
-            totaltotal += total
-            v2abstotal += v2abs
-        end
-        totaltotal_all += total
-        v2abstotal_all += v2abs
     
-    end
-    o.close
-    
-    oo.puts "#{verb_of_interest}\t#{nprolific}\t#{totaltotal}\t#{v2abstotal/totaltotal}\t#{nspeakers}\t#{totaltotal_all}\t#{v2abstotal_all/totaltotal_all}"
+    oo.puts "#{verb_of_interest}\t#{nspeakers}"
     #if nprolific >= 10 and sum_v2rel/nprolific >= 0.01 and  sum_v2rel/nprolific <= 0.90
     #    File.rename("results\\ss30_#{year_of_interest}\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv", "results\\ss30_#{year_of_interest}\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}_a.tsv")
     #end

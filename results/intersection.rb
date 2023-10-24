@@ -5,7 +5,11 @@ token_threshold = 10000
 firstage = 18
 total_threshold = 10
 
-list = ["komma", "försöka", "slippa", "vägra", "sluta", "fortsätta", "glömma"]
+list = ["komma", "försöka", "slippa", "vägra", "sluta", "fortsätta"]#, "glömma"]
+
+#7: 10
+#6: 26
+#5: 43
 
 arrays = Hash.new{|hash,key| hash[key] = Array.new}
 
