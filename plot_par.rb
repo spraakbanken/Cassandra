@@ -111,7 +111,7 @@ else
     inputdir = "#{var_output}variables"
 end
 
-variables = ["ss90_anse", "ss90_behaga", "ss90_fortsätta", "ss90_försöka", "ss90_glömma", "ss90_komma", "ss90_lova", "ss90_planera", "ss90_riskera","ss90_slippa", "ss90_sluta", "ss90_vägra"]
+variables = ["ss90_behaga", "ss90_fortsätta", "ss90_försöka", "ss90_glömma", "ss90_komma", "ss90_lova", "ss90_planera", "ss90_riskera","ss90_slippa", "ss90_sluta", "ss90_vägra"]
 
 gran_addendum = gran_hash[granularity]
 
@@ -133,6 +133,30 @@ variables.each do |variable|
     maincorpus = plot_data[3]
     subcorpus = plot_data[4]
     values_no_nas = plot_data[5]
+
+    if values_no_nas.empty?
+        maxvalue2 = 1
+        minvalue2 = 0
+    else
+        maxvalue2 = values_no_nas.max.round(2)+0.01
+        if maxvalue2 > 1
+            maxvalue2 = 1
+        end
+        
+        minvalue2 = values_no_nas.min.round(2)-0.01
+        if minvalue2 < 0
+            minvalue2 = 0
+        end
+    end
+    R.assign "maxvalue2",maxvalue2
+    R.assign "minvalue2",minvalue2
+    if defaultyaxis == "no"
+        yinfo = "ylim = c(0,maxvalue), "
+    elsif defaultyaxis == "yes"
+        yinfo = "ylim = c(minvalue2,maxvalue2), "
+    end
+
+
     
     if !years.empty?
         
@@ -198,29 +222,6 @@ variables.each do |variable|
         R.assign "maxvalue", max
         
 
-        if values_no_nas.empty?
-            maxvalue2 = 1
-            minvalue2 = 0
-        else
-            maxvalue2 = values_no_nas.max.round(2)+0.01
-            if maxvalue2 > 1
-                maxvalue2 = 1
-            end
-            R.assign "maxvalue2",maxvalue2
-            minvalue2 = values_no_nas.min.round(2)-0.01
-            if minvalue2 < 0
-                minvalue2 = 0
-            end
-        end
-
-        R.assign "minvalue2",minvalue2
- 
-        if defaultyaxis == "no"
-            yinfo = "ylim = c(0,maxvalue), "
-        elsif defaultyaxis == "yes"
-            yinfo = "ylim = c(minvalue2,maxvalue2), "
-        end
-           
     
         #R.eval "#{format}(file='#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}')"
         #plotfilename = "#{dir}\\#{var_namelist}_#{namelist}_#{username.gsub(":","_colon_")}_#{whattoplot}_#{granularity}_#{window}.#{format}"
