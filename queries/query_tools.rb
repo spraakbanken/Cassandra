@@ -31,3 +31,17 @@ def apply_criteria_ss30(tokenc, lemma, prev_lemma, prevprev_lemma, prevprevprev_
     return condition
 end
 
+
+
+def apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+    if tokenc.include?("hbt") and !tokenc.include?("hbtq")
+        condition = 1
+    elsif tokenc.include?("hbtq")
+        condition = 2
+    else
+        condition = 0
+    end
+
+    return condition
+end
+
