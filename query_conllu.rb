@@ -96,7 +96,7 @@ subforums.each do |subforum|
                 line2 = line1.split("\t")
                 id = line2[0]
                 token = line2[1]
-                tokenc = token.downcase
+                tokenc = token.to_s.downcase
                 lemma = line2[2][1..-2].split("|")
                 pos = line2[3]
                 msd = line2[5]
