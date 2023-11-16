@@ -6,7 +6,7 @@ end
 token_threshold = 10000
 firstage = 18
 total_threshold = ARGV[1].to_i
-
+corpus = "flashback"
 
 with_age = false
 year_of_interest = 2009
@@ -17,6 +17,8 @@ require_relative "queries\\query_tools.rb"
 #subforums = ["adoption"]
 subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn"]
 
+subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
 
@@ -24,7 +26,8 @@ if with_age
     #PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
     #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 else
-    PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
+    #PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
+    PATH = "D:\\DGU\\CassandraMy\\SMCorpora\\"
 end
 
 
@@ -46,7 +49,7 @@ subforums.each do |subforum|
     if with_age
         f = File.open("#{PATH}familjeliv-#{subforum}_sentence_age#{token_threshold}_#{firstage}.conllu","r:utf-8")
     else
-        f = File.open("#{PATH}familjeliv-#{subforum}_sentence.conllu","r:utf-8")
+        f = File.open("#{PATH}#{corpus}-#{subforum}_sentence.conllu","r:utf-8")
     end
     
     current_age = ""
@@ -143,7 +146,7 @@ if with_age
     o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
     o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 else
-    o = File.open("results\\familjeliv_#{variable}.tsv","w:utf-8")
+    o = File.open("results\\#{corpus}_#{variable}.tsv","w:utf-8")
     o.puts "period\tusername\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 end
 
