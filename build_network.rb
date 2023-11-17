@@ -29,10 +29,29 @@ authorfile.each_line.with_index do |line,index|
     end
 end
 
+=begin
+STDOUT.puts "year\tc\ti"
+authorhash.each_pair do |year,users|
+    c = 0
+    i = 0
+    users.each_pair do |user,status|
+        if status == "conservative"
+            c += 1
+        elsif status == "innovative"
+            i += 1
+        end
+    end   
+    STDOUT.puts "#{year}\t#{c}\t#{i}"
+end
 
+__END__
+=end
 c_to_c = Hash.new(0.0)
 c_to_i = Hash.new(0.0)
 i_to_i = Hash.new(0.0)
+i_to_n = Hash.new(0.0)
+c_to_n = Hash.new(0.0)
+n_to_n = Hash.new(0.0)
 
 subforums.each do |subforum|
     f = File.open("#{PATH}#{forum}-#{subforum}_post.conllu","r:utf-8")
@@ -57,9 +76,9 @@ subforums.each do |subforum|
                     if !line1.split("=")[1].nil?
                         #post_in_thread += 1
                         current_user = line1.split("=")[1].strip
-                        if authorhash[current_year][current_user] != nil #authors[current_user]
+                        ###if authorhash[current_year][current_user] != nil #authors[current_user]
                             prev_posts.each do |prev_post|
-                                if authorhash[current_year][prev_post[0]] != nil
+                                ###if authorhash[current_year][prev_post[0]] != nil
                                     if (abs_day(date_to_array(current_date, "-")) - abs_day(date_to_array(prev_post[1], "-")) <= threshold_time_distance) and (current_user != prev_post[0]) 
                                         #userlabel = [current_user,prev_post[0]].sort
                                         #proximity_hash[userlabel] += 1
@@ -67,22 +86,39 @@ subforums.each do |subforum|
                                         if authorhash[current_year][current_user] == authorhash[current_year][prev_post[0]]
                                             if authorhash[current_year][current_user] == "conservative"
                                                 c_to_c[current_year] += 1
-                                            elsif
+                                            elsif authorhash[current_year][current_user] == "innovative"
                                                 i_to_i[current_year] += 1
+                                            else
+                                                n_to_n[current_year] += 1
                                             end
 								    
                                         else
-                                            c_to_i[current_year] += 1
+                                            if authorhash[current_year][prev_post[0]] == nil
+                                                if authorhash[current_year][current_user] == "conservative" 
+                                                    c_to_n[current_year] += 1
+                                                else
+                                                    i_to_n[current_year] += 1
+                                                end
+                                            elsif authorhash[current_year][current_user] == nil
+                                                if authorhash[current_year][prev_post[0]] == "conservative" 
+                                                    c_to_n[current_year] += 1
+                                                else
+                                                    i_to_n[current_year] += 1
+                                                end
+                                            else
+                                                c_to_i[current_year] += 1
+                                            end
+                                            
                                         end
                                     end
-                                end
+                                #end
                             end
                                 
                             if !(prev_posts.length < threshold_post_distance)
                                 prev_posts.shift
                             end
                             prev_posts << [current_user, current_date]
-                        end
+                        #end
                     end
 
             elsif line1.include?("# post_date")
@@ -106,8 +142,12 @@ subforums.each do |subforum|
     end
 end
 
-STDOUT.puts "year\tc_to_c\tc_to_i\ti_to_i\ttotal"
+#add direction?
+STDOUT.puts "year\tc_to_n_by_c\tc_to_c_by_c\tc_to_i_by_c\tc_total\tc_to_i_by_i\ti_to_n_by_i\ti_to_i_by_i\ti_total\tn_to_n"
 authorhash.keys.sort.each do |year|
-    total = c_to_c[year] + c_to_i[year] + i_to_i[year]
-    STDOUT.puts "#{year}\t#{c_to_c[year]/total}\t#{c_to_i[year]/total}\t#{i_to_i[year]/total}\t#{total}"
+    c_total = c_to_c[year] + c_to_i[year] + c_to_n[year]
+    i_total = i_to_i[year] + c_to_i[year] + i_to_n[year]
+    #total = c_to_c[year] + c_to_i[year] + i_to_i[year] + c_to_n[year] + i_to_n[year]
+    #STDOUT.puts "#{year}\t#{c_to_c[year]/total}\t#{c_to_i[year]/total}\t#{i_to_i[year]/total}\t#{c_to_n[year]/total}\t#{i_to_n[year]/total}\t#{total}"
+    STDOUT.puts "#{year}\t#{c_to_n[year]/c_total}\t#{c_to_c[year]/c_total}\t#{c_to_i[year]/c_total}\t#{c_total}\t#{c_to_i[year]/i_total}\t#{i_to_n[year]/i_total}\t#{i_to_i[year]/i_total}\t#{i_total}\t#{n_to_n[year]}"
 end
