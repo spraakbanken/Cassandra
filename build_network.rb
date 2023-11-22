@@ -15,7 +15,7 @@ authorhash = Hash.new{|hash,key| hash[key] = Hash.new}
 #authorfile = File.open("results\\flashback_hbt(q)_resor.tsv","r:utf-8")
 authorfile = File.open("results\\flashback_hbt(q).tsv","r:utf-8")
 authors = {}
-
+yearhash = Hash.new{|hash,key| hash[key] = Hash.new(0.0)}
 authorfile.each_line.with_index do |line,index|
     if index > 0
         line2 = line.strip.split("\t")
@@ -26,25 +26,31 @@ authorfile.each_line.with_index do |line,index|
         v2rel = line2[-1].to_f
         if v2rel > v1rel
             authorhash[year][username] = "innovative"
+            yearhash[year]["innovative"] += 1
         else
             authorhash[year][username] = "conservative"
+            yearhash[year]["conservative"] += 1
         end
     end
 end
 
+
 =begin
-STDOUT.puts "year\tc\ti"
+#STDOUT.puts "year\tc\ti"
+
+
 authorhash.each_pair do |year,users|
     c = 0
     i = 0
     users.each_pair do |user,status|
         if status == "conservative"
             c += 1
+            
         elsif status == "innovative"
             i += 1
         end
     end   
-    STDOUT.puts "#{year}\t#{c}\t#{i}"
+    #STDOUT.puts "#{year}\t#{c}\t#{i}"
 end
 
 __END__
@@ -176,14 +182,16 @@ end
 
 #add direction?
 if countinteractions
-    STDOUT.puts "year\tc_to_n_by_c\tc_to_c_by_c\tc_to_i_by_c\tc_total\tc_to_i_by_i\ti_to_n_by_i\ti_to_i_by_i\ti_total\tn_to_n"
+    o1 = File.open("flashback_hbtq_interactions_n.tsv","w:utf8")
+    o1.puts "year\tc_to_n_by_c\tc_to_c_by_c\tc_to_i_by_c\tc_total\tc_to_i_by_i\ti_to_n_by_i\ti_to_i_by_i\ti_total\tn_to_n"
     authorhash.keys.sort.each do |year|
         c_total = c_to_c[year] + c_to_i[year] + c_to_n[year]
         i_total = i_to_i[year] + c_to_i[year] + i_to_n[year]
         #total = c_to_c[year] + c_to_i[year] + i_to_i[year] + c_to_n[year] + i_to_n[year]
         #STDOUT.puts "#{year}\t#{c_to_c[year]/total}\t#{c_to_i[year]/total}\t#{i_to_i[year]/total}\t#{c_to_n[year]/total}\t#{i_to_n[year]/total}\t#{total}"
-        STDOUT.puts "#{year}\t#{c_to_n[year]/c_total}\t#{c_to_c[year]/c_total}\t#{c_to_i[year]/c_total}\t#{c_total}\t#{c_to_i[year]/i_total}\t#{i_to_n[year]/i_total}\t#{i_to_i[year]/i_total}\t#{i_total}\t#{n_to_n[year]}"
+        o1.puts "#{year}\t#{c_to_n[year]/c_total}\t#{c_to_c[year]/c_total}\t#{c_to_i[year]/c_total}\t#{c_total}\t#{c_to_i[year]/i_total}\t#{i_to_n[year]/i_total}\t#{i_to_i[year]/i_total}\t#{i_total}\t#{n_to_n[year]}"
     end
+    o1.close
 end
 if countusers
     STDOUT.puts "year\tcusers_to_cusers\tcusers_to_iusers\tcusers_to_nusers\ttotal"
