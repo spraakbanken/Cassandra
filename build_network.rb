@@ -2,14 +2,17 @@ require_relative "date_tools.rb"
 PATH = "D:\\DGU\\CassandraMy\\SMCorpora\\"
 
 forum = "flashback"
+countinteractions = false
+countusers = true
 #subforums = ["resor"]
 
 subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
 threshold_time_distance = 5
-threshold_post_distance = 3
+threshold_post_distance = ARGV[0].to_i
 
 authorhash = Hash.new{|hash,key| hash[key] = Hash.new}
+#authorfile = File.open("results\\flashback_hbt(q)_resor.tsv","r:utf-8")
 authorfile = File.open("results\\flashback_hbt(q).tsv","r:utf-8")
 authors = {}
 
@@ -53,6 +56,10 @@ i_to_n = Hash.new(0.0)
 c_to_n = Hash.new(0.0)
 n_to_n = Hash.new(0.0)
 
+cusers_to_iusers = Hash.new{|hash,key| hash[key] = Hash.new}
+cusers_to_cusers = Hash.new{|hash,key| hash[key] = Hash.new}
+cusers_to_nusers = Hash.new{|hash,key| hash[key] = Hash.new}
+
 subforums.each do |subforum|
     f = File.open("#{PATH}#{forum}-#{subforum}_post.conllu","r:utf-8")
     
@@ -83,32 +90,57 @@ subforums.each do |subforum|
                                         #userlabel = [current_user,prev_post[0]].sort
                                         #proximity_hash[userlabel] += 1
                                         #interactions[subforum][userlabel] << abs_day(date_to_array(current_date, "-"))
-                                        if authorhash[current_year][current_user] == authorhash[current_year][prev_post[0]]
-                                            if authorhash[current_year][current_user] == "conservative"
-                                                c_to_c[current_year] += 1
-                                            elsif authorhash[current_year][current_user] == "innovative"
-                                                i_to_i[current_year] += 1
-                                            else
-                                                n_to_n[current_year] += 1
-                                            end
-								    
-                                        else
-                                            if authorhash[current_year][prev_post[0]] == nil
-                                                if authorhash[current_year][current_user] == "conservative" 
-                                                    c_to_n[current_year] += 1
-                                                else
-                                                    i_to_n[current_year] += 1
-                                                end
-                                            elsif authorhash[current_year][current_user] == nil
-                                                if authorhash[current_year][prev_post[0]] == "conservative" 
-                                                    c_to_n[current_year] += 1
-                                                else
-                                                    i_to_n[current_year] += 1
-                                                end
-                                            else
-                                                c_to_i[current_year] += 1
-                                            end
+                                        if countinteractions
+                                            if authorhash[current_year][current_user] == authorhash[current_year][prev_post[0]]
                                             
+                                                if authorhash[current_year][current_user] == "conservative"
+                                                    c_to_c[current_year] += 1
+                                                elsif authorhash[current_year][current_user] == "innovative"
+                                                    i_to_i[current_year] += 1
+                                                else
+                                                    n_to_n[current_year] += 1
+                                                end
+										    
+                                            else
+                                                if authorhash[current_year][prev_post[0]] == nil
+                                                    if authorhash[current_year][current_user] == "conservative" 
+                                                        c_to_n[current_year] += 1
+                                                    else
+                                                        i_to_n[current_year] += 1
+                                                    end
+                                                elsif authorhash[current_year][current_user] == nil
+                                                    if authorhash[current_year][prev_post[0]] == "conservative" 
+                                                        c_to_n[current_year] += 1
+                                                    else
+                                                        i_to_n[current_year] += 1
+                                                    end
+                                                else
+                                                    c_to_i[current_year] += 1
+                                                end
+                                                
+                                            end
+                                        end
+                                        if countusers
+                                            if authorhash[current_year][current_user] == "conservative"
+                                                if authorhash[current_year][prev_post[0]] == "conservative"
+                                                    cusers_to_cusers[current_year][current_user] = true
+                                                    cusers_to_cusers[current_year][prev_post[0]] = true
+                                                elsif authorhash[current_year][prev_post[0]] == "innovative"
+                                                    cusers_to_iusers[current_year][current_user] = true
+                                                    #cusers_to_cusers[current_year][prev_post[0]] = true
+                                                else
+                                                    cusers_to_nusers[current_year][current_user] = true
+                                                end
+                                            elsif authorhash[current_year][prev_post[0]] == "conservative"
+                                                if authorhash[current_year][current_user] == "innovative"
+                                                    cusers_to_iusers[current_year][prev_post[0]] = true
+                                                    #cusers_to_cusers[current_year][prev_post[0]] = true
+                                                else
+                                                    cusers_to_nusers[current_year][prev_post[0]] = true
+                                                end
+
+                                            end
+
                                         end
                                     end
                                 #end
@@ -143,11 +175,20 @@ subforums.each do |subforum|
 end
 
 #add direction?
-STDOUT.puts "year\tc_to_n_by_c\tc_to_c_by_c\tc_to_i_by_c\tc_total\tc_to_i_by_i\ti_to_n_by_i\ti_to_i_by_i\ti_total\tn_to_n"
-authorhash.keys.sort.each do |year|
-    c_total = c_to_c[year] + c_to_i[year] + c_to_n[year]
-    i_total = i_to_i[year] + c_to_i[year] + i_to_n[year]
-    #total = c_to_c[year] + c_to_i[year] + i_to_i[year] + c_to_n[year] + i_to_n[year]
-    #STDOUT.puts "#{year}\t#{c_to_c[year]/total}\t#{c_to_i[year]/total}\t#{i_to_i[year]/total}\t#{c_to_n[year]/total}\t#{i_to_n[year]/total}\t#{total}"
-    STDOUT.puts "#{year}\t#{c_to_n[year]/c_total}\t#{c_to_c[year]/c_total}\t#{c_to_i[year]/c_total}\t#{c_total}\t#{c_to_i[year]/i_total}\t#{i_to_n[year]/i_total}\t#{i_to_i[year]/i_total}\t#{i_total}\t#{n_to_n[year]}"
+if countinteractions
+    STDOUT.puts "year\tc_to_n_by_c\tc_to_c_by_c\tc_to_i_by_c\tc_total\tc_to_i_by_i\ti_to_n_by_i\ti_to_i_by_i\ti_total\tn_to_n"
+    authorhash.keys.sort.each do |year|
+        c_total = c_to_c[year] + c_to_i[year] + c_to_n[year]
+        i_total = i_to_i[year] + c_to_i[year] + i_to_n[year]
+        #total = c_to_c[year] + c_to_i[year] + i_to_i[year] + c_to_n[year] + i_to_n[year]
+        #STDOUT.puts "#{year}\t#{c_to_c[year]/total}\t#{c_to_i[year]/total}\t#{i_to_i[year]/total}\t#{c_to_n[year]/total}\t#{i_to_n[year]/total}\t#{total}"
+        STDOUT.puts "#{year}\t#{c_to_n[year]/c_total}\t#{c_to_c[year]/c_total}\t#{c_to_i[year]/c_total}\t#{c_total}\t#{c_to_i[year]/i_total}\t#{i_to_n[year]/i_total}\t#{i_to_i[year]/i_total}\t#{i_total}\t#{n_to_n[year]}"
+    end
+end
+if countusers
+    STDOUT.puts "year\tcusers_to_cusers\tcusers_to_iusers\tcusers_to_nusers\ttotal"
+    authorhash.keys.sort.each do |current_year|
+        total = (cusers_to_cusers[current_year].keys.length + cusers_to_iusers[current_year].keys.length + cusers_to_nusers[current_year].keys.length).to_f
+        STDOUT.puts "#{current_year}\t#{cusers_to_cusers[current_year].keys.length/total}\t#{cusers_to_iusers[current_year].keys.length/total}\t#{cusers_to_nusers[current_year].keys.length/total}\t#{total}"
+    end
 end
