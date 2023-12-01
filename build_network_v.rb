@@ -3,10 +3,11 @@ PATH = "D:\\DGU\\CassandraMy\\SMCorpora\\"
 
 forum = "flashback"
 countinteractions = false
-countusers = true
-#subforums = ["resor"]
+countusers = false
+countactual = true
+subforums = ["resor"]
 
-subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+#subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
 threshold_time_distance = 5
 threshold_post_distance = ARGV[0].to_i
@@ -31,6 +32,21 @@ authorfile.each_line.with_index do |line,index|
             authorhash[year][username] = "conservative"
             yearhash[year]["conservative"] += 1
         end
+    end
+end
+
+postfile = File.open("results\\flashback_posts_hbt(q)0.tsv","r:utf-8")
+c_posts = Hash.new(0.0)
+i_posts = Hash.new(0.0)
+
+authorfile.each_line.with_index do |line,index|
+    if index > 0
+        line2 = line.strip.split("\t")
+        post_id = line2[0]
+        c = line2[1].to_f
+        i = line2[2].to_f
+        c_posts[post_id] = c
+        i_posts[post_id] = i
     end
 end
 
@@ -61,6 +77,8 @@ i_to_i = Hash.new(0.0)
 i_to_n = Hash.new(0.0)
 c_to_n = Hash.new(0.0)
 n_to_n = Hash.new(0.0)
+n_to_i = Hash.new(0.0)
+n_to_c = Hash.new(0.0)
 
 cusers_to_iusers = Hash.new{|hash,key| hash[key] = Hash.new}
 cusers_to_cusers = Hash.new{|hash,key| hash[key] = Hash.new}
@@ -74,6 +92,7 @@ subforums.each do |subforum|
     current_thread = ""
     users_in_thread = {}
     #post_in_thread = 0
+    current_post = ""
     current_year = ""
     current_date = ""
     prev_year = ""
@@ -148,6 +167,30 @@ subforums.each do |subforum|
                                             end
 
                                         end
+                                        if countactual
+                                            #count (different) users as well?
+                                            if authorhash[current_year][current_user] == "conservative"
+                                                c_to_c[current_year] += c_posts[prev_post[2]]
+                                                c_to_i[current_year] += i_posts[prev_post[2]]
+                                            elsif authorhash[current_year][current_user] == "innovative"
+                                                i_to_c[current_year] += c_posts[prev_post[2]]
+                                                i_to_i[current_year] += i_posts[prev_post[2]]
+                                            else
+                                                n_to_c[current_year] += c_posts[prev_post[2]]
+                                                n_to_i[current_year] += i_posts[prev_post[2]]
+                                            end
+                                            if authorhash[current_year][prev_post[0]] == "conservative"
+                                                c_to_c[current_year] += c_posts[current_post]
+                                                c_to_i[current_year] += i_posts[current_post]
+                                            elsif authorhash[current_year][prev_post[0]] == "innovative"
+                                                i_to_c[current_year] += c_posts[current_post]
+                                                i_to_i[current_year] += i_posts[current_post]
+                                            else
+                                                n_to_c[current_year] += c_posts[current_post]
+                                                n_to_i[current_year] += i_posts[current_post]
+                                            end
+                                        end
+
                                     end
                                 #end
                             end
@@ -155,9 +198,12 @@ subforums.each do |subforum|
                             if !(prev_posts.length < threshold_post_distance)
                                 prev_posts.shift
                             end
-                            prev_posts << [current_user, current_date]
+                            prev_posts << [current_user, current_date, current_post]
                         #end
                     end
+
+            elsif line1.include?("# post_id")
+                current_post = line1.split(" = ")[1].split("-")[0].to_i
 
             elsif line1.include?("# post_date")
                 current_date = line1.split("=")[1].strip.split(" ")[0]
@@ -210,3 +256,4 @@ if countusers
         STDOUT.puts "#{current_year}\t#{cusers_to_cusers[current_year].keys.length/total}\t#{cusers_to_iusers[current_year].keys.length/total}\t#{cusers_to_nusers[current_year].keys.length/total}\t#{total}"
     end
 end
+
