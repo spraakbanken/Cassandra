@@ -34,9 +34,9 @@ end
 
 
 def apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
-    if tokenc.include?("hbt") and !tokenc.include?("hbtq")
+    if tokenc[0..2] == "hbt" and !tokenc[3]== "q"
         condition = 1
-    elsif tokenc.include?("hbtq")
+    elsif tokenc[0..3] == "hbtq"
         condition = 2
     else
         condition = 0

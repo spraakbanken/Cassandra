@@ -256,4 +256,11 @@ if countusers
         STDOUT.puts "#{current_year}\t#{cusers_to_cusers[current_year].keys.length/total}\t#{cusers_to_iusers[current_year].keys.length/total}\t#{cusers_to_nusers[current_year].keys.length/total}\t#{total}"
     end
 end
-
+if countactual
+    o1 = File.open("flashback_hbtq_actual_per_speaker.tsv","w:utf8")
+    o1.puts "year\tc_to_c\tc_to_i\ti_to_c\ti_to_i\tn_to_c\tn_to_i"
+    
+    authorhash.keys.sort.each do |current_year|
+        o1.puts "#{current_year}\t#{c_to_c[current_year]}\t#{c_to_i[current_year]}\t#{i_to_c[current_year]}\t#{i_to_i[current_year]}\t#{n_to_c[current_year]}\t#{n_to_i[current_year]}"
+    end
+end
