@@ -17,14 +17,21 @@ authorhash = Hash.new{|hash,key| hash[key] = Hash.new}
 authorfile = File.open("results\\flashback_hbt(q).tsv","r:utf-8")
 authors = {}
 yearhash = Hash.new{|hash,key| hash[key] = Hash.new(0.0)}
+
+innovativity_year_author = Hash.new{|hash,key| hash[key] = Hash.new}
+exposure_year_author_c = Hash.new{|hash,key| hash[key] = Hash.new(0.0)}
+exposure_year_author_i = Hash.new{|hash,key| hash[key] = Hash.new(0.0)}
+
+
 authorfile.each_line.with_index do |line,index|
     if index > 0
         line2 = line.strip.split("\t")
         year = line2[0].to_i
         username = line2[1]
-        #authors[username] = true
+        authors[username] = true
         v1rel = line2[-2].to_f
         v2rel = line2[-1].to_f
+        innovativity_year_author[year][username] = v2rel
         if v2rel > v1rel
             authorhash[year][username] = "innovative"
             yearhash[year]["innovative"] += 1
@@ -189,6 +196,16 @@ subforums.each do |subforum|
                                                 n_to_c[current_year] += c_posts[current_post]
                                                 n_to_i[current_year] += i_posts[current_post]
                                             end
+                                            if authors[current_user]
+                                                exposure_year_author_c[current_year][current_user] += c_posts[prev_post[2]]
+                                                exposure_year_author_i[current_year][current_user] += i_posts[prev_post[2]]
+                                            end
+                                            if authors[prev_post[0]]
+                                                exposure_year_author_c[current_year][prev_post[0]] += c_posts[current_post]
+                                                exposure_year_author_i[current_year][prev_post[0]] += i_posts[current_post]
+                                            end
+                                             
+
                                         end
 
                                     end
@@ -256,11 +273,20 @@ if countusers
         STDOUT.puts "#{current_year}\t#{cusers_to_cusers[current_year].keys.length/total}\t#{cusers_to_iusers[current_year].keys.length/total}\t#{cusers_to_nusers[current_year].keys.length/total}\t#{total}"
     end
 end
+
 if countactual
-    o1 = File.open("flashback_hbtq_actual_per_speaker.tsv","w:utf8")
+    o1 = File.open("flashback_hbtq_actual_per_speaker_aggregated.tsv","w:utf8")
     o1.puts "year\tc_to_c\tc_to_i\ti_to_c\ti_to_i\tn_to_c\tn_to_i"
     
     authorhash.keys.sort.each do |current_year|
         o1.puts "#{current_year}\t#{c_to_c[current_year]}\t#{c_to_i[current_year]}\t#{i_to_c[current_year]}\t#{i_to_i[current_year]}\t#{n_to_c[current_year]}\t#{n_to_i[current_year]}"
+    end
+    o2 = File.open("flashback_hbtq_actual_per_speaker_individual.tsv","w:utf8")
+    o2.puts "year\tspeaker\tinnovativity\texposure_to_c\texposure_to_i"
+    
+    authors.keys.each do |author|
+        authorhash.keys.sort.each do |current_year|
+            o2.puts "#{current_year}\t#{authors}\t#{innovativity_year_author[current_year][author]}\t#{exposure_year_author_c[current_year][author]}\t#{exposure_year_author_i[current_year][author]}"
+        end
     end
 end
