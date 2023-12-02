@@ -5,9 +5,9 @@ forum = "flashback"
 countinteractions = false
 countusers = false
 countactual = true
-subforums = ["resor"]
+#subforums = ["resor"]
 
-#subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
 threshold_time_distance = 5
 threshold_post_distance = ARGV[0].to_i

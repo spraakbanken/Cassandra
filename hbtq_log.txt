@@ -1,7 +1,7 @@
 extract s-curve via korp16.rb
 extract individual users via query_conllu (with_age = false)
+create_post_index (should actually be combined with query_conllu -- done now)
 extract user status per year (extract_user_status)
-create_post_index (should actually be combined with query_conllu)
 build_network_v
 
 build_network: previous attempts
