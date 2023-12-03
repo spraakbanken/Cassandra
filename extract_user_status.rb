@@ -23,8 +23,8 @@ authorfile.each_line.with_index do |line,index|
     end
 end
 
-
-STDOUT.puts "year\tc\ti"
+o = File.open("results\\user_status_hbt(q)_flashback.tsv","w:utf-8")
+o.puts "year\tc\ti"
 
 authorhash.each_pair do |year,users|
     c = 0
@@ -37,6 +37,6 @@ authorhash.each_pair do |year,users|
             i += 1
         end
     end   
-    STDOUT.puts "#{year}\t#{c}\t#{i}"
+    o.puts "#{year}\t#{c}\t#{i}"
 end
 

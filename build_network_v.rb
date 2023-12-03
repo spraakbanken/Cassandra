@@ -5,16 +5,21 @@ forum = "flashback"
 countinteractions = false
 countusers = false
 countactual = true
-#subforums = ["resor"]
 
-subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
-
+addendum = ""
+if addendum == "_resor"
+    subforums = ["resor"]
+else 
+    subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+end
 threshold_time_distance = 5
 threshold_post_distance = ARGV[0].to_i
 
 authorhash = Hash.new{|hash,key| hash[key] = Hash.new}
-#authorfile = File.open("results\\flashback_hbt(q)_resor.tsv","r:utf-8")
-authorfile = File.open("results\\flashback_hbt(q).tsv","r:utf-8")
+
+
+authorfile = File.open("results\\flashback_hbt(q)#{addendum}.tsv","r:utf-8")
+#authorfile = File.open("results\\flashback_hbt(q).tsv","r:utf-8")
 authors = {}
 yearhash = Hash.new{|hash,key| hash[key] = Hash.new(0.0)}
 
@@ -42,7 +47,8 @@ authorfile.each_line.with_index do |line,index|
     end
 end
 
-postfile = File.open("results\\flashback_posts_hbt(q)0.tsv","r:utf-8")
+postfile = File.open("results\\flashback_posts_hbt(q)_t0#{addendum}.tsv","r:utf-8")
+#postfile = File.open("results\\flashback_posts_hbt(q)_t0.tsv","r:utf-8")
 c_posts = Hash.new(0.0)
 i_posts = Hash.new(0.0)
 
@@ -86,6 +92,7 @@ c_to_n = Hash.new(0.0)
 n_to_n = Hash.new(0.0)
 n_to_i = Hash.new(0.0)
 n_to_c = Hash.new(0.0)
+i_to_c = Hash.new(0.0)
 
 cusers_to_iusers = Hash.new{|hash,key| hash[key] = Hash.new}
 cusers_to_cusers = Hash.new{|hash,key| hash[key] = Hash.new}
@@ -220,7 +227,7 @@ subforums.each do |subforum|
                     end
 
             elsif line1.include?("# post_id")
-                current_post = line1.split(" = ")[1].split("-")[0].to_i
+                current_post = line1.split(" = ")[1].split("-")[0]
 
             elsif line1.include?("# post_date")
                 current_date = line1.split("=")[1].strip.split(" ")[0]
@@ -275,18 +282,18 @@ if countusers
 end
 
 if countactual
-    o1 = File.open("flashback_hbtq_actual_per_speaker_aggregated.tsv","w:utf8")
+    o1 = File.open("flashback_hbtq_actual_per_speaker_aggregated#{addendum}.tsv","w:utf-8")
     o1.puts "year\tc_to_c\tc_to_i\ti_to_c\ti_to_i\tn_to_c\tn_to_i"
     
     authorhash.keys.sort.each do |current_year|
         o1.puts "#{current_year}\t#{c_to_c[current_year]}\t#{c_to_i[current_year]}\t#{i_to_c[current_year]}\t#{i_to_i[current_year]}\t#{n_to_c[current_year]}\t#{n_to_i[current_year]}"
     end
-    o2 = File.open("flashback_hbtq_actual_per_speaker_individual.tsv","w:utf8")
+    o2 = File.open("flashback_hbtq_actual_per_speaker_individual#{addendum}.tsv","w:utf-8")
     o2.puts "year\tspeaker\tinnovativity\texposure_to_c\texposure_to_i"
     
     authors.keys.each do |author|
         authorhash.keys.sort.each do |current_year|
-            o2.puts "#{current_year}\t#{authors}\t#{innovativity_year_author[current_year][author]}\t#{exposure_year_author_c[current_year][author]}\t#{exposure_year_author_i[current_year][author]}"
+            o2.puts "#{current_year}\t#{author}\t#{innovativity_year_author[current_year][author]}\t#{exposure_year_author_c[current_year][author]}\t#{exposure_year_author_i[current_year][author]}"
         end
     end
 end

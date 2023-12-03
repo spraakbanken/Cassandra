@@ -95,7 +95,7 @@ subforums.each do |subforum|
             elsif line1.include?("# username")
                 current_username = line1.split(" = ")[1]
             elsif line1.include?("# post_id")
-                current_post = line1.split(" = ")[1].split("-")[0].to_i
+                current_post = line1.split(" = ")[1].split("-")[0]
             elsif line1.include?("# post_date")
                 current_year = line1.split(" = ")[1].split("-")[0].to_i
             
@@ -207,7 +207,7 @@ else
     
 end
 
-o = File.open("results\\familjeliv_posts_#{variable}_t#{total_threshold}.tsv","w:utf-8")
+o = File.open("results\\#{corpus}_posts_#{variable}_t#{total_threshold}.tsv","w:utf-8")
 o.puts "post_id\tc\ti"
 ids = [post_hash_c.keys, post_hash_i.keys].flatten.uniq
 ids.each do |id|
