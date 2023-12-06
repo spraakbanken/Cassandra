@@ -17,9 +17,14 @@ require_relative "queries\\query_tools.rb"
 #subforums = ["adoption"]
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn"]
 
-#subforums = ["resor"]
 
-subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+addendum = ""
+if addendum == "_resor"
+    subforums = ["resor"]
+else 
+    subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+end
+#subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
@@ -29,7 +34,8 @@ if with_age
     #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 else
     #PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
-    PATH = "D:\\DGU\\CassandraMy\\SMCorpora\\"
+    #PATH = "D:\\DGU\\CassandraMy\\SMCorpora\\"
+    PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\"
 end
 
 
@@ -110,12 +116,12 @@ subforums.each do |subforum|
                 tokenc = token.to_s.downcase
                 lemma = line2[2][1..-2].split("|")
                 pos = line2[3]
-                msd = line2[5]
+                msd = line2[5].to_s
                 dephead = line2[6]
                 deprel = line2[7]
     
     
-                condition = apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+                condition = apply_criteria_kommer_att(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
                 if condition == 1
                     if with_age
                         agebinhash_v1[current_agebin] += 1
@@ -154,7 +160,7 @@ if with_age
     o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
     o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 else
-    o = File.open("results\\#{corpus}_#{variable}.tsv","w:utf-8")
+    o = File.open("results\\#{corpus}_#{variable}#{addendum}.tsv","w:utf-8")
     o.puts "period\tusername\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 end
 
@@ -207,7 +213,7 @@ else
     
 end
 
-o = File.open("results\\#{corpus}_posts_#{variable}_t#{total_threshold}.tsv","w:utf-8")
+o = File.open("results\\#{corpus}_posts_#{variable}#{addendum}.tsv","w:utf-8")
 o.puts "post_id\tc\ti"
 ids = [post_hash_c.keys, post_hash_i.keys].flatten.uniq
 ids.each do |id|
