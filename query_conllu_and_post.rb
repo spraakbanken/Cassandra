@@ -18,7 +18,7 @@ require_relative "queries\\query_tools.rb"
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn"]
 
 
-addendum = ""
+addendum = "_resor"
 if addendum == "_resor"
     subforums = ["resor"]
 else 
@@ -160,7 +160,7 @@ if with_age
     o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
     o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 else
-    o = File.open("results\\#{corpus}_#{variable}#{addendum}.tsv","w:utf-8")
+    o = File.open("results\\#{corpus}_#{variable}#{addendum}_t#{total_threshold}.tsv","w:utf-8")
     o.puts "period\tusername\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 end
 
@@ -201,11 +201,13 @@ else
     authorhash_new.each_pair do |year,value|
         value.each_pair do |username,varhash|
             total = varhash["total"]
-            v1abs = varhash["v1"]
-            v2abs = varhash["v2"]
-            v1rel = v1abs/total
-            v2rel = v2abs/total
-            o.puts "#{year}\t#{username}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
+            if total >= total_threshold
+                v1abs = varhash["v1"]
+                v2abs = varhash["v2"]
+                v1rel = v1abs/total
+                v2rel = v2abs/total
+                o.puts "#{year}\t#{username}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
+            end
         end
     
     end
