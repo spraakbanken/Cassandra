@@ -18,7 +18,7 @@ require_relative "queries\\query_tools.rb"
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn"]
 
 
-addendum = "_resor"
+addendum = ""
 if addendum == "_resor"
     subforums = ["resor"]
 else 
