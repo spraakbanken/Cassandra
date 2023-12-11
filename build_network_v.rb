@@ -6,7 +6,7 @@ countinteractions = false
 countusers = false
 countactual = true
 
-addendum = ""
+addendum = "_nodator"
 if addendum == "_resor"
     subforums = ["resor"]
 elsif addendum == "_nodator"
