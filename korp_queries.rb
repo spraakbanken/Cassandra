@@ -102,6 +102,10 @@ variant2 = [(word = 'hbtq' %c )]
 variant1 = [(word = 'hbt[^q].*' %c )]
 variant2 = [(word = 'hbtq.*' %c )]
 
+#label = hbt(q)3
+variant1 = [word != 'hbtv' %c] [] [word = 'hbt[^q].*' %c] [word != '\\']
+variant2 = [word != '\\'] [(word = 'hbtq.*' %c )]
+
 #label = aen
 variant1 = [word = 'än' %c & pos = 'KN'] [msd = '.*SUB.*' & (lex contains 'jag\.\.pn\.1' | lex contains 'du\.\.pn\.1' | lex contains 'han\.\.pn\.1' | lex contains 'hon\.\.pn\.1' | lex contains 'vi\.\.pn\.1' | lex contains 'ni\.\.pn\.1')]
 variant2 = [word = 'än' %c & pos = 'KN'] [msd = '.*OBJ.*' & (lex contains 'jag\.\.pn\.1' | lex contains 'du\.\.pn\.1' | lex contains 'han\.\.pn\.1' | lex contains 'hon\.\.pn\.1' | lex contains 'vi\.\.pn\.1' | lex contains 'ni\.\.pn\.1')]

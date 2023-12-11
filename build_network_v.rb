@@ -6,9 +6,11 @@ countinteractions = false
 countusers = false
 countactual = true
 
-addendum = ""
+addendum = "_nodator"
 if addendum == "_resor"
     subforums = ["resor"]
+elsif addendum == "_nodator"
+    subforums = ["droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 else 
     subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 end
@@ -17,7 +19,7 @@ threshold_post_distance = ARGV[0].to_i
 
 authorhash = Hash.new{|hash,key| hash[key] = Hash.new}
 
-
+#STDOUT.puts "type\tnext_post\tprev_post\texposed_user\tuser_status\texposed_to_c\texposed_to_i"
 authorfile = File.open("results\\flashback_hbt(q)#{addendum}.tsv","r:utf-8")
 #authorfile = File.open("results\\flashback_hbt(q).tsv","r:utf-8")
 authors = {}
@@ -52,7 +54,7 @@ postfile = File.open("results\\flashback_posts_hbt(q)_t0#{addendum}.tsv","r:utf-
 c_posts = Hash.new(0.0)
 i_posts = Hash.new(0.0)
 
-authorfile.each_line.with_index do |line,index|
+postfile.each_line.with_index do |line,index|
     if index > 0
         line2 = line.strip.split("\t")
         post_id = line2[0]
@@ -62,6 +64,7 @@ authorfile.each_line.with_index do |line,index|
         i_posts[post_id] = i
     end
 end
+
 
 
 =begin
@@ -99,7 +102,7 @@ cusers_to_cusers = Hash.new{|hash,key| hash[key] = Hash.new}
 cusers_to_nusers = Hash.new{|hash,key| hash[key] = Hash.new}
 
 subforums.each do |subforum|
-    f = File.open("#{PATH}#{forum}-#{subforum}_sentence.conllu","r:utf-8")
+    f = File.open("#{PATH}#{forum}-#{subforum}_post.conllu","r:utf-8")
     
     current_user = ""
     prev_thread = ""
@@ -114,11 +117,14 @@ subforums.each do |subforum|
 
     STDERR.puts subforum
     
-    f.each_line do |line|
+    f.each_line.with_index do |line,index|
         line1 = line.strip
         if line1 != ""
             if line1.include?("# username")
-                    
+                    #STDERR.puts line
+                    #STDERR.puts index
+                    #STDERR.puts "#{current_post}\t#{prev_posts}"
+                    #hold = gets
                     if !line1.split("=")[1].nil?
                         #post_in_thread += 1
                         current_user = line1.split("=")[1].strip
@@ -183,6 +189,15 @@ subforums.each do |subforum|
                                         end
                                         if countactual
                                             #count (different) users as well?
+                                            
+                                            #if c_posts[prev_post[2]] != 0 or i_posts[prev_post[2]] != 0    
+                                            #    STDOUT.puts "prev\t#{current_post}\t#{prev_post[2]}\t#{current_user}\t#{authorhash[current_year][current_user]}\t#{c_posts[prev_post[2]]}\t#{i_posts[prev_post[2]]}"
+                                            #end
+                                            #if c_posts[current_post] != 0 or i_posts[current_post] != 0
+                                            #    STDOUT.puts "next\t#{current_post}\t#{prev_post[2]}\t#{prev_post[0]}\t#{authorhash[current_year][prev_post[0]]}\t#{c_posts[current_post]}\t#{i_posts[current_post]}"
+                                            #end
+                                            #end
+
                                             if authorhash[current_year][current_user] == "conservative"
                                                 c_to_c[current_year] += c_posts[prev_post[2]]
                                                 c_to_i[current_year] += i_posts[prev_post[2]]

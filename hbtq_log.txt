@@ -1,8 +1,15 @@
-extract s-curve via korp16.rb
-extract individual users via query_conllu (with_age = false)
-create_post_index (should actually be combined with query_conllu -- done now)
-extract user status per year (extract_user_status)
-build_network_v
+Labov's hypothesis. Check Nevalainen, proceedings, Croft
 
-build_network: previous attempts
+exclude dator
+use hbtq(2)
+
+extract s-curve via korp16.rb
+extract individual users via query_conllu_and_post (with_age = false). No threshold
+optionally: extract user status per year (extract_user_status)
+build_network_v
+aggregated output: manual plots
+individual output: apply process_ind_users and then do Granger causality?
+
+who are the laggards? network status? manual analysis: contexts, attitudes?
+
 make sure queries in korp_queries and query_tools match

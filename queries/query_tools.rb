@@ -33,7 +33,7 @@ end
 
 
 
-def apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+def apply_criteria_hbtq2(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
     if tokenc[0..2] == "hbt" and tokenc[3] != "q"
         condition = 1
     elsif tokenc[0..3] == "hbtq"
