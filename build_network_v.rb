@@ -9,6 +9,8 @@ countactual = true
 addendum = ""
 if addendum == "_resor"
     subforums = ["resor"]
+elsif addendum == "_nodator"
+    subforums = ["droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 else 
     subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 end
