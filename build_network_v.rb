@@ -20,7 +20,7 @@ threshold_post_distance = ARGV[0].to_i
 authorhash = Hash.new{|hash,key| hash[key] = Hash.new}
 
 #STDOUT.puts "type\tnext_post\tprev_post\texposed_user\tuser_status\texposed_to_c\texposed_to_i"
-authorfile = File.open("results\\flashback_hbt(q)#{addendum}.tsv","r:utf-8")
+authorfile = File.open("results\\flashback_hbt(q)2#{addendum}_t0.tsv","r:utf-8")
 #authorfile = File.open("results\\flashback_hbt(q).tsv","r:utf-8")
 authors = {}
 yearhash = Hash.new{|hash,key| hash[key] = Hash.new(0.0)}
@@ -49,7 +49,7 @@ authorfile.each_line.with_index do |line,index|
     end
 end
 
-postfile = File.open("results\\flashback_posts_hbt(q)_t0#{addendum}.tsv","r:utf-8")
+postfile = File.open("results\\flashback_posts_hbt(q)2_t0#{addendum}.tsv","r:utf-8")
 #postfile = File.open("results\\flashback_posts_hbt(q)_t0.tsv","r:utf-8")
 c_posts = Hash.new(0.0)
 i_posts = Hash.new(0.0)
