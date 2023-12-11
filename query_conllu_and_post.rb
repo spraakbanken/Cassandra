@@ -123,7 +123,7 @@ subforums.each do |subforum|
                 deprel = line2[7]
     
     
-                condition = apply_criteria_kommer_att(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+                condition = apply_criteria_hbtq2(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
                 if condition == 1
                     if with_age
                         agebinhash_v1[current_agebin] += 1
