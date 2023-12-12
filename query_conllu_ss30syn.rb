@@ -7,11 +7,11 @@ require_relative "queries\\query_tools.rb"
 subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
 
-PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
-#PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
+#PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
+PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 token_threshold = 10000
 firstage = 18
-total_threshold = 10
+total_threshold = 0
 
 
 agebinhash_v1 = Hash.new(0.0)
@@ -23,7 +23,10 @@ authorhash_gen = {}
 tokencounter = 0
     
 #verblist = ["komma","anse"]
-verblist = ["komma", "anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas", "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
+#verblist = ["komma", "anse", "avse", "behaga", "behöva", "besluta", "bruka", "börja", "fortsätta", "förefalla", "förmå", "försöka", "glömma", "hinna", "hota", "idas", "lova", "lyckas", "låtsas", "orka", "planera", "riskera", "råka", "slippa", "sluta", "tendera", "våga", "vägra", "ämna", "önska"]
+
+
+verblist = ["försöka", "fortsätta", "glömma", "komma", "slippa", "sluta", "vägra", "behaga", "lova", "planera", "riskera"]
 
 oo = File.open("results\\ss30_#{years_of_interest.join(",")}\\summary_t#{total_threshold}.tsv","w:utf-8")
 oo.puts "verb\tnprolific_speakers\ttotal_prolific\tmicroave_v2rel_prolific\tnspeakers\ttotal\tmicroave_v2rel" 
