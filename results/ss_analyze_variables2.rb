@@ -50,6 +50,39 @@ def yob_to_cohort(yob)
        
     return cohort
 end
+
+def yob_to_cohort2(yob)
+    if yob > 1992
+        #abort("Invalid yob") 
+        cohort = 0
+    elsif yob >= 1988
+        cohort = 8
+    elsif yob >= 1983
+        cohort = 7
+    elsif yob >= 1978
+        cohort = 6
+    elsif yob >= 1973
+        cohort = 5
+    elsif yob == 1970
+        cohort = 0 #this year must be exluded. It was already done by query_conllu, so this is just an extra safety
+    elsif yob >= 1968
+        cohort = 4
+    elsif yob >= 1963
+        cohort = 3
+    elsif yob >= 1958
+        cohort = 3
+    elsif yob >= 1953
+        cohort = 2
+    elsif yob >= 1947
+        cohort = 1
+    else
+        abort("Invalid yob") 
+    end
+       
+    return cohort
+end
+
+
 avar_enthash = {}
 var_v2 = {}
 var_age = {}
@@ -64,6 +97,7 @@ variables.each do |variable|
     enthash = {}
     coh_enthash = Hash.new{|hash, key| hash[key] = Array.new}
     coh_v2hash  = Hash.new{|hash, key| hash[key] = Array.new}
+    coh_v2hash2  = Hash.new{|hash, key| hash[key] = Array.new}
     #coh_total = Hash.new(0.0)
     entsum = 0.0
 
@@ -92,7 +126,7 @@ variables.each do |variable|
     filename2 = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}_withcohort.tsv"
     f = File.open(filename, "r:utf-8")
     f2 = File.open(filename2, "w:utf-8")
-    f2.puts "period	username	yob	agebin	total	v1abs	v2abs	v1rel	v2rel"
+    f2.puts "period	username	yob	agebin	total	v1abs	v2abs	v1rel	v2rel\tagebin2"
     f.each_line.with_index do |line,index|
         if index > 0
             line2 = line.split("\t")
@@ -106,11 +140,13 @@ variables.each do |variable|
             #    enthash[speaker] = entropy([v2hash[speaker],1-v2hash[speaker]])
             #    entsum += enthash[speaker]
                 cohort = yob_to_cohort(yob)
+                cohort2 = yob_to_cohort2(yob)
                 if cohort != 0
                     #coh_total[cohort] += 1
             #        coh_enthash[cohort] << enthash[speaker]
                     coh_v2hash[cohort] << v2hash[speaker]
-                    f2.puts "\t#{speaker}\t#{yob}\t#{cohort}\t#{line2[4..-1].join("\t")}"
+                    coh_v2hash2[cohort2] << v2hash[speaker]
+                    f2.puts "\t#{speaker}\t#{yob}\t#{cohort}\t#{line2[4..-1].join("\t").strip}\t#{cohort2}"
                 end
             #end
             #STDOUT.puts "#{line2[1]}\t#{v2hash[speaker]}\t#{enthash[speaker]}"
@@ -152,13 +188,23 @@ variables.each do |variable|
     #    R.assign "c#{i}",coh_enthash[i]
         R.assign "d#{i}",coh_v2hash[i]
     end
+    for j in 1..8 do 
+   
+        R.assign "e#{j}",coh_v2hash2[j]
+    end
     #R.eval "boxplot(c1,c2,c3,c4,c5, main = \"Entropy by cohort for #{variable}\")"
     #R.eval "dev.off()"
 
     R.eval "pdf(file='v2bycohort_#{variable}_t#{t}_#{year}.pdf')"
 
-    R.eval "boxplot(d4,d3,d2,d1, main = \"Innovation by cohort for #{variable}\")"
+    R.eval "boxplot(d1,d2,d3,d4, main = \"Innovation by cohort for #{variable}\")"
     R.eval "dev.off()"
+
+    R.eval "pdf(file='v2bycohort2_#{variable}_t#{t}_#{year}.pdf')"
+
+    R.eval "boxplot(e1,e2,e3,e4,e5,e6,e7,e8, main = \"Innovation by cohort2 for #{variable}\")"
+    R.eval "dev.off()"
+
 
     #STDERR.puts intersection.keys.length
 end
