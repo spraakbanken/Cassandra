@@ -9,7 +9,7 @@ R.eval "setwd('plots')"
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
 #variables = ["are_vs_mer"]
 year = "2008,2009,2010"
-t = 10
+t = 0
 
 intersection = []
 flag = true
@@ -89,7 +89,10 @@ variables.each do |variable|
 =end
 
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
+    filename2 = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}_withcohort.tsv"
     f = File.open(filename, "r:utf-8")
+    f2 = File.open(filename2, "w:utf-8")
+    f2.puts "period	username	yob	agebin	total	v1abs	v2abs	v1rel	v2rel"
     f.each_line.with_index do |line,index|
         if index > 0
             line2 = line.split("\t")
@@ -107,6 +110,7 @@ variables.each do |variable|
                     #coh_total[cohort] += 1
             #        coh_enthash[cohort] << enthash[speaker]
                     coh_v2hash[cohort] << v2hash[speaker]
+                    f2.puts "\t#{speaker}\t#{yob}\t#{cohort}\t#{line2[4..-1].join("\t")}"
                 end
             #end
             #STDOUT.puts "#{line2[1]}\t#{v2hash[speaker]}\t#{enthash[speaker]}"
@@ -153,7 +157,7 @@ variables.each do |variable|
 
     R.eval "pdf(file='v2bycohort_#{variable}_t#{t}_#{year}.pdf')"
 
-    R.eval "boxplot(d1,d2,d3,d4,d5, main = \"Innovation by cohort for #{variable}\")"
+    R.eval "boxplot(d4,d3,d2,d1, main = \"Innovation by cohort for #{variable}\")"
     R.eval "dev.off()"
 
     #STDERR.puts intersection.keys.length
