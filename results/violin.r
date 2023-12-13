@@ -5,7 +5,7 @@
 library(ggplot2)
 library(gridExtra)
 
-langs <- c("riskera")
+langs <- c("komma")
 #threshold <- 200
 for (lang in langs){
     print(lang)
