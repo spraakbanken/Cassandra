@@ -11,8 +11,8 @@ require "rinruby"
 R.eval "setwd('plots')"
 
 cohorttype = 5
-part = 1
-plottype = "stripchart"
+part = 3
+plottype = "boxplot"
 year = "2008,2009,2010"
 t = 0
 
