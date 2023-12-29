@@ -1,4 +1,10 @@
+#TODO:
+#prolific speakers
+#deviances
+#visualize RQ2
+
 # encoding: UTF-8
+
 
 #require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 
@@ -40,8 +46,7 @@ elsif cohorttype == 10
 
 end
 
-
-
+variables2 = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
 
 
 intersection = []
@@ -137,24 +142,26 @@ variables.each do |variable|
 
     STDERR.puts variable
 
-=begin
-    fcommunity = "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\variables\\ss_#{variable}\\familjeliv\\all\\all_users.tsv"
-    fc = File.open(fcommunity, "r:utf-8")
-    community_average = nil
-    fc.each_line.with_index do |line,index|
-        if index > 0
-            line2 = line.strip.split("\t")
-            period = line2[0].to_i
-            if period == year
-                community_average = line2[5].to_f
-                break
+#=begin
+    if variables2.include?(variable)
+        fcommunity = "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\variables\\ss90_#{variable}\\familjeliv\\all\\all_users.tsv"
+        fc = File.open(fcommunity, "r:utf-8")
+        community_average = 0.0
+        fc.each_line.with_index do |line,index|
+            if index > 0
+                line2 = line.strip.split("\t")
+                period = line2[0]
+                if year.include?(period)
+                    community_average += line2[5].to_f
+                end
+                
             end
-            
         end
+        community_average = community_average/(year.split(",").length)
+        avar_community[variable] = community_average
+        fc.close
     end
-    avar_community[variable] = community_average
-    fc.close
-=end
+#=end
 
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
     filename2 = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}_withcohort.tsv"
@@ -173,15 +180,15 @@ variables.each do |variable|
             v2hash[speaker] = line2[-1].to_f
             #    enthash[speaker] = entropy([v2hash[speaker],1-v2hash[speaker]])
             #    entsum += enthash[speaker]
-                cohort = yob_to_cohort(yob)
-                cohort2 = yob_to_cohort2(yob)
-                if cohort != 0
-                    #coh_total[cohort] += 1
-            #        coh_enthash[cohort] << enthash[speaker]
-                    coh_v2hash[cohort] << v2hash[speaker]
-                    coh_v2hash2[cohort2] << v2hash[speaker]
-                    f2.puts "\t#{speaker}\t#{yob}\t#{cohort}\t#{line2[4..-1].join("\t").strip}\t#{cohort2}"
-                end
+            cohort = yob_to_cohort(yob)
+            cohort2 = yob_to_cohort2(yob)
+            if cohort != 0
+                #coh_total[cohort] += 1
+        #        coh_enthash[cohort] << enthash[speaker]
+                coh_v2hash[cohort] << v2hash[speaker]
+                coh_v2hash2[cohort2] << v2hash[speaker]
+                f2.puts "\t#{speaker}\t#{yob}\t#{cohort}\t#{line2[4..-1].join("\t").strip}\t#{cohort2}"
+            end
             #end
             #STDOUT.puts "#{line2[1]}\t#{v2hash[speaker]}\t#{enthash[speaker]}"
             
