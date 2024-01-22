@@ -7,6 +7,7 @@ counter = 1
 varhash = Hash.new{|hash,key| hash[key] = Hash.new{|hash2,key2| hash2[key2] = Hash.new}}
 
 variables.each do |variable|
+    STDERR.puts variable
     filename = "familjeliv_#{variable}_t0_2008,2009,2010.tsv"
     f = File.open(filename,"r:utf-8")
     f.each_line.with_index do |line,index|
@@ -28,13 +29,13 @@ variables.each do |variable|
     end
 end
 
-o = File("")
-o.puts "#{speaker}\t#{yob}\tbehagav1\tbehagav2\tfortsättav1\tfortsättav2\tförsökav1\tförsökav2\tglömmav1\tglömmav2\tkommav1\tkommav2\tlovav1\tlovav2\tplanerav1\tplanerav2\triskerav1\triskerav2\tslippav1\tslippav2\tslutav1\tslutav2\tvägrav1\tvägrav2"
+o = File.open("sm2_speakers.tsv","w:utf-8")
+o.puts "speaker\tyob\tbehagav1\tbehagav2\tfortsättav1\tfortsättav2\tförsökav1\tförsökav2\tglömmav1\tglömmav2\tkommav1\tkommav2\tlovav1\tlovav2\tplanerav1\tplanerav2\triskerav1\triskerav2\tslippav1\tslippav2\tslutav1\tslutav2\tvägrav1\tvägrav2"
 
 varhash.each do |anon,hash2|
     oline = "#{anon}\t#{yearhash[anon]}"
     variables.each do |variable|
         oline << "\t#{hash2[variable]["v1"]}\t#{hash2[variable]["v2"]}"
     end
-
+    o.puts oline
 end
