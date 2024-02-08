@@ -16,11 +16,12 @@
 require "rinruby"
 R.eval "setwd('plots')"
 
-cohorttype = 5
-part = 3
-plottype = "boxplot"
+cohorttype = 10
+part = 2
+plottype = "stripchart"
 year = "2008,2009,2010"
-t = 0
+t = 10
+t2 = 10
 
 R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}.pdf')"
 if cohorttype == 5
@@ -128,7 +129,7 @@ innovativity = {}
 avar_community = {}
 var_ent = {}
 
-
+rq2 = Hash.new{|hash, key| hash[key] = Array.new}
 
 variables.each do |variable|
     agehash = {}
@@ -177,7 +178,8 @@ variables.each do |variable|
             yob = line2[2].to_i
             #STDERR.puts yob
             #if yob != 1970
-            v2hash[speaker] = line2[-1].to_f
+            innov = line2[-1].to_f
+            v2hash[speaker] = innov
             #    enthash[speaker] = entropy([v2hash[speaker],1-v2hash[speaker]])
             #    entsum += enthash[speaker]
             cohort = yob_to_cohort(yob)
@@ -191,7 +193,12 @@ variables.each do |variable|
             end
             #end
             #STDOUT.puts "#{line2[1]}\t#{v2hash[speaker]}\t#{enthash[speaker]}"
-            
+            if variables2.include?(variable)
+                total = line2[4].to_i 
+                if total >= t2
+                    rq2[variable] << innov 
+                end
+            end
         end
     end
     #var_v2[variable] = v2hash
