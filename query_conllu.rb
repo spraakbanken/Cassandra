@@ -16,10 +16,13 @@ require_relative "queries\\query_tools.rb"
 
 #subforums = ["adoption"]
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn"]
+subforum = ARGV[2]
+subforums = [subforum]
+
 
 #subforums = ["resor"]
-
-subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+#subforums = ["dator"]
+#subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
@@ -111,7 +114,9 @@ subforums.each do |subforum|
                 deprel = line2[7]
     
     
-                condition = apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+                condition = apply_criteria_hbtq2(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+#apply_criteria_kommer_att
+#apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
                 if condition == 1
                     if with_age
                         agebinhash_v1[current_agebin] += 1
@@ -144,11 +149,13 @@ subforums.each do |subforum|
 
 end
 
+corpus2 = "#{corpus}-#{subforum}"
+
 if with_age
     o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
     o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 else
-    o = File.open("results\\#{corpus}_#{variable}.tsv","w:utf-8")
+    o = File.open("results\\#{corpus2}_#{variable}.tsv","w:utf-8")
     o.puts "period\tusername\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 end
 
