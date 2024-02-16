@@ -104,17 +104,23 @@ subforums.each do |subforum|
             if (with_age and (current_year == year_of_interest and yob != 1970)) or !with_age
                 tokencounter += 1
                 line2 = line1.split("\t")
+                if line2.length == 5
+                    msd = line2[4]
+                else
+                    msd = line2[5]
+                end
+
                 id = line2[0]
                 token = line2[1]
                 tokenc = token.to_s.downcase
                 lemma = line2[2][1..-2].split("|")
                 pos = line2[3]
-                msd = line2[5]
+                
                 dephead = line2[6]
                 deprel = line2[7]
     
     
-                condition = apply_criteria_hbtq2(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+                condition = apply_criteria_kommer_att(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
 #apply_criteria_kommer_att
 #apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
                 if condition == 1
@@ -155,7 +161,7 @@ if with_age
     o = File.open("results\\familjeliv_#{variable}_t#{total_threshold}_#{year_of_interest}.tsv","w:utf-8")
     o.puts "period\tusername\tage\tagebin\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 else
-    o = File.open("results\\#{corpus2}_#{variable}.tsv","w:utf-8")
+    o = File.open("results\\#{corpus2}_#{variable}_t#{total_threshold}.tsv","w:utf-8")
     o.puts "period\tusername\ttotal\tv1abs\tv2abs\tv1rel\tv2rel"
 end
 
