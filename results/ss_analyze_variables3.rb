@@ -20,35 +20,41 @@ cohorttype = 10
 part = 2
 plottype = "stripchart"
 year = "2008,2009,2010"
-t = 10
-t2 = 10
+t = 0
+t2 = 10 #prolific speaker
 
-R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}.pdf')"
-if cohorttype == 5
-    R.eval "par(mfrow=c(2,2))"
-    if part == 1
-        variables = ["behaga", "fortsätta", "försöka", "glömma"]#, "planera", "riskera","slippa", "sluta", "vägra"]
-    elsif part == 2
-        variables = ["komma", "lova", "planera", "riskera"]
-    elsif part == 3
-        variables = ["slippa", "sluta", "vägra"]
-    else part == "allverbs"
-        variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-    end
-elsif cohorttype == 10
-    R.eval "par(mfrow=c(2,3))"
-    if part == 1
-        variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova"]#, "planera", "riskera","slippa", "sluta", "vägra"]
-    elsif part == 2
-        variables = ["planera", "riskera","slippa", "sluta", "vägra"]
-    else part == "allverbs"
-        variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-    end
+variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
+plotrq1 = false
+plotrq2 = true
 
+
+if plotrq1
+    R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}.pdf')"
+    if cohorttype == 5
+        R.eval "par(mfrow=c(2,2))"
+        if part == 1
+            variables = ["behaga", "fortsätta", "försöka", "glömma"]#, "planera", "riskera","slippa", "sluta", "vägra"]
+        elsif part == 2
+            variables = ["komma", "lova", "planera", "riskera"]
+        elsif part == 3
+            variables = ["slippa", "sluta", "vägra"]
+        else part == "allverbs"
+            variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
+        end
+    elsif cohorttype == 10
+        R.eval "par(mfrow=c(2,3))"
+        if part == 1
+            variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova"]#, "planera", "riskera","slippa", "sluta", "vägra"]
+        elsif part == 2
+            variables = ["planera", "riskera","slippa", "sluta", "vägra"]
+        else part == "allverbs"
+            variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
+        end
+    
+    end
 end
 
 variables2 = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
-
 
 intersection = []
 flag = true
@@ -233,35 +239,35 @@ variables.each do |variable|
 
     #R.eval "pdf(file='entropybycohort_#{variable}_t#{t}_#{year}.pdf')"
 
-
-    if cohorttype == 10
-        for i in 1..4 do 
-            R.assign "d#{i}",coh_v2hash[i]
+    if plotrq1
+        if cohorttype == 10
+            for i in 1..4 do 
+                R.assign "d#{i}",coh_v2hash[i]
+            end
+            if plottype == "boxplot"
+                R.eval "boxplot(d1,d2,d3,d4, main = \"#{variable.encode("windows-1252")}\", varwidth = TRUE, names = c(\"47-62\",\"-72\",\"-82\",\"-92\"))"
+            elsif plottype == "stripchart"
+                #R.eval "df <- data.frame(d1,d2,d3,d4)"
+                #R.eval "names(df) <- c(\"47-62\",\"-72\",\"-82\",\"-92\")"
+                R.eval "stripchart(list(d1,d2,d3,d4), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\")"
+                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=19, col=\"green\")"
+            end
+            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=15, col=\"red\")"
+            
+        elsif cohorttype == 5
+            for j in 1..9 do 
+	            R.assign "e#{j}",coh_v2hash2[j]
+            end
+            if plottype == "boxplot"
+                R.eval "boxplot(e1,e2,e3,e4,e5,e6,e7,e8,e9, main = \"#{variable.encode("windows-1252")}\", varwidth = TRUE, names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"),cex.axis=0.75)"
+            elsif plottype == "stripchart"
+                R.eval "stripchart(list(e1,e2,e3,e4,e5,e6,e7,e8,e9), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"), vertical = TRUE, method=\"jitter\")"
+                R.eval "points(c(median(e1),median(e2),median(e3),median(e4),median(e5),median(e6),median(e7),median(e8),median(e9)), pch=19, col=\"green\")"
+            end
+	    
+            R.eval "points(c(mean(e1),mean(e2),mean(e3),mean(e4),mean(e5),mean(e6),mean(e7),mean(e8),mean(e9)), pch=15, col=\"red\")"
         end
-        if plottype == "boxplot"
-            R.eval "boxplot(d1,d2,d3,d4, main = \"#{variable.encode("windows-1252")}\", varwidth = TRUE, names = c(\"47-62\",\"-72\",\"-82\",\"-92\"))"
-        elsif plottype == "stripchart"
-            #R.eval "df <- data.frame(d1,d2,d3,d4)"
-            #R.eval "names(df) <- c(\"47-62\",\"-72\",\"-82\",\"-92\")"
-            R.eval "stripchart(list(d1,d2,d3,d4), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\")"
-            R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=19, col=\"green\")"
-        end
-        R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=15, col=\"red\")"
-        
-    elsif cohorttype == 5
-        for j in 1..9 do 
-	        R.assign "e#{j}",coh_v2hash2[j]
-        end
-        if plottype == "boxplot"
-            R.eval "boxplot(e1,e2,e3,e4,e5,e6,e7,e8,e9, main = \"#{variable.encode("windows-1252")}\", varwidth = TRUE, names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"),cex.axis=0.75)"
-        elsif plottype == "stripchart"
-            R.eval "stripchart(list(e1,e2,e3,e4,e5,e6,e7,e8,e9), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"), vertical = TRUE, method=\"jitter\")"
-            R.eval "points(c(median(e1),median(e2),median(e3),median(e4),median(e5),median(e6),median(e7),median(e8),median(e9)), pch=19, col=\"green\")"
-        end
-
-        R.eval "points(c(mean(e1),mean(e2),mean(e3),mean(e4),mean(e5),mean(e6),mean(e7),mean(e8),mean(e9)), pch=15, col=\"red\")"
     end
-
     #R.eval "pdf(file='v2bycohort2_#{variable}_t#{t}_#{year}.pdf')"
 
     #R.eval "boxplot(e1,e2,e3,e4,e5,e6,e7,e8, main = \"Innovation across 5-year cohorts for #{variable}\", varwidth = TRUE, names = c(\"47-52\",\"63-72\",\"73-82\",\"83-92\"))"
@@ -271,7 +277,79 @@ variables.each do |variable|
     #STDERR.puts intersection.keys.length
 end
 
-R.eval "dev.off()"
+if plotrq1
+    R.eval "dev.off()"
+end
+
+if plotrq2
+    plottype = "stripchart"
+    part = "allverbs"
+    mode = "_deviances"
+    R.eval "pdf(file='#{plottype}_rq2innovation#{mode}_t2#{t2}_#{year}_part#{part}.pdf')"
+    variables = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
+    
+    rq2a = Hash.new{|hash, key| hash[key] = Array.new}
+    if mode == "_deviances"
+        variables.each do |variable|
+            rq2[variable].each do |value|
+                rq2a[variable] << value - avar_community[variable]
+            end
+        end
+    else
+        rq2a = rq2
+    end
+
+    #R.eval "par(mfrow=c(2,2))"
+    if part == 1
+        variables = variables[0..3]
+        for i in 1..4 do
+            R.assign "d#{i}",rq2a[variables[i-1]]
+        end
+        R.assign "plotnames", ["försöka".encode("windows-1252"), "fortsätta".encode("windows-1252"),  "glömma".encode("windows-1252"), "komma".encode("windows-1252")]
+        R.assign "community", [avar_community["försöka"], avar_community["fortsätta"], avar_community["glömma"], avar_community["komma"]]
+    elsif part == 2
+        variables = variables[4..6]
+        for i in 1..3 do
+            
+            R.assign "d#{i}",rq2a[variables[i-1]]
+            
+        end
+        R.assign "plotnames", ["slippa".encode("windows-1252"), "sluta".encode("windows-1252"), "vägra".encode("windows-1252")]
+        R.assign "community", [avar_community["slippa"], avar_community["sluta"], avar_community["vägra"]]
+    elsif part == "allverbs"
+        for i in 1..7 do
+            R.assign "d#{i}",rq2a[variables[i-1]]
+        end
+        R.assign "plotnames", ["försöka".encode("windows-1252"), "fortsätta".encode("windows-1252"),  "glömma".encode("windows-1252"), "komma".encode("windows-1252"),"slippa".encode("windows-1252"), "sluta".encode("windows-1252"), "vägra".encode("windows-1252")]
+        R.assign "community", [avar_community["försöka"], avar_community["fortsätta"], avar_community["glömma"], avar_community["komma"],avar_community["slippa"], avar_community["sluta"], avar_community["vägra"]]
+    end
+    
+    
+
+    if plottype == "boxplot"
+        if part == "allverbs"
+            R.eval "boxplot(list(d1,d2,d3,d4,d5,d6,d7), names = plotnames, varwidth = TRUE)" 
+            R.eval "points(community, pch=15, col=\"orange\")"
+        end
+
+    elsif plottype == "stripchart"
+        if part == 1
+            R.eval "stripchart(list(d1,d2,d3,d4), group.names = plotnames, jitter = 0.3, vertical = TRUE, method=\"jitter\")" #main = \"#{variable.encode("windows-1252")}\",
+            R.eval "points(community, pch=15, col=\"orange\")"
+        elsif part == 2
+            R.eval "stripchart(list(d1,d2,d3), group.names = plotnames, jitter = 0.3, vertical = TRUE, method=\"jitter\")" 
+            R.eval "points(community, pch=15, col=\"orange\")"
+        elsif part == "allverbs"
+            R.eval "stripchart(list(d1,d2,d3,d4,d5,d6,d7), group.names = plotnames, jitter = 0.3, vertical = TRUE, method=\"jitter\")" 
+            R.eval "points(community, pch=15, col=\"orange\")"
+        end
+    end
+    
+    
+    
+    R.eval "dev.off()"
+end
+
 __END__
 STDOUT.puts "#{avar_enthash}"
 STDOUT.puts intersection.length
