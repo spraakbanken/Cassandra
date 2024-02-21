@@ -98,3 +98,14 @@ def div_by_zero(a,b)
 end 
 
 
+
+def entropy(array)
+    e = 0.0
+    array.each do |p|
+        if p != 0
+            e += p * Math.log(p, 2)
+        end
+    end
+    e = -e
+    return e
+end

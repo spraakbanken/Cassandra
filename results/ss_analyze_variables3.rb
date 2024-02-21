@@ -6,7 +6,7 @@
 # encoding: UTF-8
 
 
-#require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
+require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 
 #check that the order within arrays is equivalent
 #extract samples for manual control
@@ -14,6 +14,7 @@
 #zoom in?
 
 require "rinruby"
+require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
 
 cohorttype = 10
@@ -23,9 +24,12 @@ year = "2008,2009,2010"
 t = 0
 t2 = 10 #prolific speaker
 
+
+
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
 plotrq1 = false
-plotrq2 = true
+plotrq2 = false
+plotrq3 = true
 
 
 if plotrq1
@@ -55,21 +59,14 @@ if plotrq1
 end
 
 variables2 = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
+variables3 = ["försöka", "fortsätta",  "komma", "slippa", "sluta", "vägra"]
 
-intersection = []
+intersection = find_intersection(year, t2, variables3)
+STDERR.puts intersection.length
+#__END__
+
 flag = true
 intersection_age = {}
-
-def entropy(array)
-    e = 0.0
-    array.each do |p|
-        if p != 0
-            e += p * Math.log(p, 2)
-        end
-    end
-    e = -e
-    return e
-end
 
 #STDERR.puts entropy([0.01, 0.99])
 
@@ -136,6 +133,8 @@ avar_community = {}
 var_ent = {}
 
 rq2 = Hash.new{|hash, key| hash[key] = Array.new}
+speaker_general_properties = {}
+speaker_properties = Hash.new{|hash, key| hash[key] = Hash.new}
 
 variables.each do |variable|
     agehash = {}
@@ -179,28 +178,27 @@ variables.each do |variable|
         if index > 0
             line2 = line.split("\t")
             speaker = line2[1]
-            #STDERR.puts speaker
-            #agehash[speaker] = line2[2].to_i
             yob = line2[2].to_i
-            #STDERR.puts yob
-            #if yob != 1970
             innov = line2[-1].to_f
             v2hash[speaker] = innov
-            #    enthash[speaker] = entropy([v2hash[speaker],1-v2hash[speaker]])
-            #    entsum += enthash[speaker]
             cohort = yob_to_cohort(yob)
             cohort2 = yob_to_cohort2(yob)
+            total = line2[4].to_i 
+            if speaker_general_properties[speaker].nil?
+                speaker_general_properties[speaker] = [yob, cohort, cohort2]
+            end
+            
+
+            speaker_properties[variable][speaker] = [total, innov]
+
+
             if cohort != 0
-                #coh_total[cohort] += 1
-        #        coh_enthash[cohort] << enthash[speaker]
                 coh_v2hash[cohort] << v2hash[speaker]
                 coh_v2hash2[cohort2] << v2hash[speaker]
                 f2.puts "\t#{speaker}\t#{yob}\t#{cohort}\t#{line2[4..-1].join("\t").strip}\t#{cohort2}"
             end
-            #end
-            #STDOUT.puts "#{line2[1]}\t#{v2hash[speaker]}\t#{enthash[speaker]}"
             if variables2.include?(variable)
-                total = line2[4].to_i 
+                
                 if total >= t2
                     rq2[variable] << innov 
                 end
@@ -349,6 +347,56 @@ if plotrq2
     
     R.eval "dev.off()"
 end
+
+
+
+if plotrq3
+    o = File.open("coherence_t2_#{t2}.tsv","w:utf-8")
+    o.puts "speaker\tyob\tcohort10\tcohort5\tförsöka\tfortsätta\tkomma\tslippa\tsluta\tvägra\tcoherence"
+    intersection.each do |speaker|
+        oline = ""
+        oline << "#{speaker}\t#{speaker_general_properties[speaker].join("\t")}"
+        conservative = 0.0
+        innovative = 0.0
+        variables3.each do |variable|
+            if speaker_properties[variable][speaker][1] > avar_community[variable]
+                innovative += 1
+            else
+                conservative += 1
+            end
+            oline << "\t#{speaker_properties[variable][speaker][1] - avar_community[variable]}"
+        end
+        coherence = entropy([innovative / (innovative + conservative),conservative / (innovative + conservative)])
+        oline << "\t#{coherence}"
+        o.puts oline
+    end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 __END__
 STDOUT.puts "#{avar_enthash}"
