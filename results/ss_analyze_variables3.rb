@@ -60,6 +60,7 @@ end
 
 variables2 = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
 variables3 = ["försöka", "fortsätta",  "komma", "slippa", "sluta", "vägra"]
+variables3 = ["försöka", "komma", "slippa", "vägra"]
 
 intersection = find_intersection(year, t2, variables3)
 STDERR.puts intersection.length
@@ -135,6 +136,8 @@ var_ent = {}
 rq2 = Hash.new{|hash, key| hash[key] = Array.new}
 speaker_general_properties = {}
 speaker_properties = Hash.new{|hash, key| hash[key] = Hash.new}
+
+
 
 variables.each do |variable|
     agehash = {}
@@ -349,6 +352,9 @@ if plotrq2
 end
 
 
+cohort_coherence = Hash.new{|hash, key| hash[key] = Array.new}
+plotrq3b = true
+
 
 if plotrq3
     o = File.open("coherence_t2_#{t2}.tsv","w:utf-8")
@@ -366,130 +372,22 @@ if plotrq3
             end
             oline << "\t#{speaker_properties[variable][speaker][1] - avar_community[variable]}"
         end
+        cohort = speaker_general_properties[speaker][1]
         coherence = entropy([innovative / (innovative + conservative),conservative / (innovative + conservative)])
+        cohort_coherence[cohort] << coherence
         oline << "\t#{coherence}"
         o.puts oline
     end
-end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-__END__
-STDOUT.puts "#{avar_enthash}"
-STDOUT.puts intersection.length
-
-intersection_v2 = Hash.new{|hash, key| hash[key] = Hash.new}
-intersection_entropy = Hash.new{|hash, key| hash[key] = Hash.new}
-consistency = {}
-#coh_intersection = {}
-coh_innovativity = Hash.new{|hash, key| hash[key] = Array.new}
-coh_consistency = Hash.new{|hash, key| hash[key] = Array.new}
-
-intersection.each do |speaker|
-    i_sum = 0.0
-    more = 0.0
-    less = 0.0
-    ageflag = true
-        
-    variables.each do |variable|
-        intersection_v2[variable][speaker] = var_v2[variable][speaker]
-        intersection_entropy[variable][speaker] = var_ent[variable][speaker]
-        i_sum += var_v2[variable][speaker]
-        if ageflag
-            intersection_age[speaker] = var_age[variable][speaker]
-            
-            ageflag = false
+    if plotrq3b
+        for i in 1..4 do 
+            R.assign "d#{i}",cohort_coherence[i]
         end
-        if var_v2[variable][speaker] >= avar_community[variable]
-            more += 1
-        else
-            less += 1
-        end
-        
-        
-
-    end
-    cohort = yob_to_cohort(year - intersection_age[speaker])
-    nvariables = variables.length
-    innovativity[speaker] = i_sum/nvariables
-    coh_innovativity[cohort] << innovativity[speaker]
-    consistency[speaker] = entropy([more/nvariables,less/nvariables])
-    coh_consistency[cohort] << consistency[speaker]
-
-end
-
-used_pairs = []
-variables.each do |variable1|
-    variables.each do |variable2|
-        if variable1 != variable2 and !used_pairs.include?([variable1, variable2].sort)
-            R.eval "pdf(file='correlv2_#{variable1}by#{variable2}_t#{t}_#{year}.pdf')"
-            R.assign "var1",intersection_v2[variable1].values
-            R.assign "var2",intersection_v2[variable2].values
-            R.eval "plot(var1~var2, main = \"V2: #{variable1} by #{variable2}\")"
-            R.eval "dev.off()"
-
-            R.eval "pdf(file='correlentropy_#{variable1}by#{variable2}_t#{t}_#{year}.pdf')"
-            R.assign "var1",intersection_entropy[variable1].values
-            R.assign "var2",intersection_entropy[variable2].values
-            R.eval "plot(var1~var2, main = \"Entropy: #{variable1} by #{variable2}\")"
-            R.eval "dev.off()"
-
-            used_pairs << [variable1, variable2].sort
-        end
+            if plottype == "boxplot"
+                R.eval "boxplot(d1,d2,d3,d4, varwidth = TRUE, names = c(\"47-62\",\"-72\",\"-82\",\"-92\"))"
+            elsif plottype == "stripchart"
+                R.eval "stripchart(list(d1,d2,d3,d4), group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\")"
+                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=19, col=\"green\")"
+            end
+            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=15, col=\"red\")"
     end
 end
-R.eval "pdf(file='innovativity_t#{t}_#{year}.pdf')"
-R.assign "innov",innovativity.values
-R.eval "hist(innov, main = \"innovativity across variables\")"
-R.eval "dev.off()"
-
-R.eval "pdf(file='innovbyage_t#{t}_#{year}.pdf')"
-R.assign "int_age",intersection_age.values
-R.eval "plot(innov~int_age, main = \"innovativity by age\")"
-R.eval "dev.off()"
-
-R.eval "pdf(file='consistency_t#{t}_#{year}.pdf')"
-R.assign "consistency",consistency.values
-R.eval "hist(consistency, main = \"consistency\")"
-R.eval "dev.off()"
-
-R.eval "pdf(file='consbyage_t#{t}_#{year}.pdf')"
-R.eval "plot(consistency~int_age, main = \"consistency by age\")"
-R.eval "dev.off()"
-
-R.eval "pdf(file='innovbycohort_t#{t}_#{year}.pdf')"
-for i in 1..5 do 
-    R.assign "c#{i}",coh_innovativity[i]
-    #R.assign "d#{i}",coh_consistency[i]
-end
-R.eval "boxplot(c1,c2,c3,c4,c5, main = \"innovativity by cohort\")"
-R.eval "dev.off()"
-
-R.eval "pdf(file='consbycohort_t#{t}_#{year}.pdf')"
-
-R.eval "boxplot(d1,d2,d3,d4,d5, main = \"consistency by cohort\")"
-R.eval "dev.off()"
