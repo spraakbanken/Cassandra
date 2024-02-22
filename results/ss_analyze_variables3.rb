@@ -379,6 +379,9 @@ if plotrq3
         o.puts oline
     end
     if plotrq3b
+        plottype = "boxplot"
+        R.eval "pdf(file='#{plottype}_rq3coherence_t2#{t2}_#{year}_verbs#{variables3.length}.pdf')"
+   
         for i in 1..4 do 
             R.assign "d#{i}",cohort_coherence[i]
         end
@@ -389,5 +392,6 @@ if plotrq3
                 R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=19, col=\"green\")"
             end
             R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=15, col=\"red\")"
+        R.eval "dev.off()"
     end
 end
