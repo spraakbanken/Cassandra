@@ -30,7 +30,7 @@ variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "p
 plotrq1 = false
 plotrq2 = false
 plotrq3 = true
-
+plotrq3b = true
 
 if plotrq1
     R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}.pdf')"
@@ -353,7 +353,7 @@ end
 
 
 cohort_coherence = Hash.new{|hash, key| hash[key] = Array.new}
-plotrq3b = true
+
 
 
 if plotrq3
@@ -373,7 +373,8 @@ if plotrq3
             oline << "\t#{speaker_properties[variable][speaker][1] - avar_community[variable]}"
         end
         cohort = speaker_general_properties[speaker][1]
-        coherence = entropy([innovative / (innovative + conservative),conservative / (innovative + conservative)])
+        #coherence = entropy([innovative / (innovative + conservative),conservative / (innovative + conservative)])
+        coherence = ((2 * innovative ) / variables3.length) - 1 
         cohort_coherence[cohort] << coherence
         oline << "\t#{coherence}"
         o.puts oline
