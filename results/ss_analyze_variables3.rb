@@ -60,7 +60,7 @@ end
 
 variables2 = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
 variables3 = ["försöka", "fortsätta",  "komma", "slippa", "sluta", "vägra"]
-variables3 = ["försöka", "komma", "slippa", "vägra"]
+#variables3 = ["försöka", "komma", "slippa", "vägra"]
 
 intersection = find_intersection(year, t2, variables3)
 STDERR.puts intersection.length
@@ -357,8 +357,8 @@ cohort_coherence = Hash.new{|hash, key| hash[key] = Array.new}
 
 
 if plotrq3
-    o = File.open("coherence_t2_#{t2}.tsv","w:utf-8")
-    o.puts "speaker\tyob\tcohort10\tcohort5\tförsöka\tfortsätta\tkomma\tslippa\tsluta\tvägra\tcoherence"
+    o = File.open("coherence_t2_#{t2}_verbs#{variables3.length}.tsv","w:utf-8")
+    o.puts "speaker\tyob\tcohort10\tcohort5\t#{variables3.join("\t")}\tcoherence"
     intersection.each do |speaker|
         oline = ""
         oline << "#{speaker}\t#{speaker_general_properties[speaker].join("\t")}"
@@ -374,13 +374,13 @@ if plotrq3
         end
         cohort = speaker_general_properties[speaker][1]
         #coherence = entropy([innovative / (innovative + conservative),conservative / (innovative + conservative)])
-        coherence = ((2 * innovative ) / variables3.length) - 1 
+        coherence = (((2 * innovative ) / variables3.length) - 1).abs
         cohort_coherence[cohort] << coherence
         oline << "\t#{coherence}"
         o.puts oline
     end
     if plotrq3b
-        plottype = "boxplot"
+        plottype = "stripchart"
         R.eval "pdf(file='#{plottype}_rq3coherence_t2#{t2}_#{year}_verbs#{variables3.length}.pdf')"
    
         for i in 1..4 do 
