@@ -17,6 +17,7 @@ require "rinruby"
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
 
+
 cohorttype = 10
 part = 2
 plottype = "stripchart"
@@ -30,7 +31,10 @@ variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "p
 plotrq1 = false
 plotrq2 = false
 plotrq3 = true
-plotrq3b = true
+plotrq3a = false
+plotrq3b = false
+plotrq3c = true
+plotrq3d = true
 
 if plotrq1
     R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}.pdf')"
@@ -354,11 +358,14 @@ end
 
 cohort_coherence = Hash.new{|hash, key| hash[key] = Array.new}
 
+correl_what = ""
 
 
 if plotrq3
-    o = File.open("coherence_t2_#{t2}_verbs#{variables3.length}.tsv","w:utf-8")
-    o.puts "speaker\tyob\tcohort10\tcohort5\t#{variables3.join("\t")}\tcoherence"
+    if plotrq3a
+        o = File.open("coherence_t2_#{t2}_verbs#{variables3.length}.tsv","w:utf-8")
+        o.puts "speaker\tyob\tcohort10\tcohort5\t#{variables3.join("\t")}\tcoherence"
+    end
     intersection.each do |speaker|
         oline = ""
         oline << "#{speaker}\t#{speaker_general_properties[speaker].join("\t")}"
@@ -371,17 +378,21 @@ if plotrq3
                 conservative += 1
             end
             oline << "\t#{speaker_properties[variable][speaker][1] - avar_community[variable]}"
+
+            
         end
         cohort = speaker_general_properties[speaker][1]
         #coherence = entropy([innovative / (innovative + conservative),conservative / (innovative + conservative)])
         coherence = (((2 * innovative ) / variables3.length) - 1).abs
         cohort_coherence[cohort] << coherence
         oline << "\t#{coherence}"
-        o.puts oline
+        if plotrq3a
+            o.puts oline
+        end
     end
     if plotrq3b
         plottype = "stripchart"
-        R.eval "pdf(file='#{plottype}_rq3coherence_t2#{t2}_#{year}_verbs#{variables3.length}.pdf')"
+        R.eval "pdf(file='#{plottype}_rq3b_coherence_t2#{t2}_#{year}_verbs#{variables3.length}.pdf')"
    
         for i in 1..4 do 
             R.assign "d#{i}",cohort_coherence[i]
@@ -395,4 +406,113 @@ if plotrq3
             R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=15, col=\"red\")"
         R.eval "dev.off()"
     end
+    if plotrq3c or plotrq3d
+        method = "kendall"
+        vectors = {}
+        R.eval "df = data.frame(matrix(nrow = #{intersection.length}, ncol = 0))"
+        variables3.each do |variable|
+        
+            vector = []
+            intersection.each do |speaker|
+                #arrayfordf[variable] << speaker_properties[variable][speaker][1]
+                if correl_what == "relative"
+                    vector << (speaker_properties[variable][speaker][1] - avar_community[variable])
+                else
+                    vector << speaker_properties[variable][speaker][1]
+                end
+                
+            end
+            vectors[variable] = vector
+            R.assign "vector", vector
+            STDERR.puts "#{variable} #{vector.join(",")}"
+            R.eval "df['#{variable.encode("windows-1252")}'] = vector"
+        end
+
+    end
+    if plotrq3c
+        R.eval "library('GGally')"
+        
+        #STDERR.puts "Started 3c"
+        #arrayfordf = Hash.new{|hash,key|hash[key] = Array.new}
+        
+        
+        #STDERR.puts "Finished 3c"
+        #R.eval "sink('rq3c.txt')"
+        #STDERR.puts "calculating corr"
+        #R.eval "cor(df,method = 'kendall')"
+        #STDERR.puts "done"
+        #R.eval "sink()"
+        R.eval "pdf(file='rq3c_coherence_t2#{t2}_#{year}_verbs#{variables3.length}_#{method}#{correl_what}.pdf')"
+        #R.eval "plot(df)"
+        R.eval "ggpairs(df,upper = list(continuous = wrap('cor', method = '#{method}', stars = FALSE)),axisLabels = 'none')"
+        R.eval "warnings()"
+        R.eval "dev.off()"
+    end
+    
+    if plotrq3d
+        
+    
+        vardata = File.open("variable_stats.tsv","r:utf-8")
+        freq = {}
+        trend = {}
+        sclass = {}
+        vardata.each_line.with_index do |line,index|
+            if index > 0
+                line2 = line.strip.split("\t")
+                variable = line2[0]
+                if variables3.include?(variable)
+                    freq[variable] = line2[3].to_f
+                    trend[variable] = line2[4]
+                    sclass[variable] = line2[5]
+                end
+            end
+        end
+        used_pairs = []
+        dfreqs = []
+        dtrends = []
+        dclasses = []
+        dinnovs = []
+        taus = []
+        variables3.each do |variable1|
+            variables3.each do |variable2|
+                if variable1 != variable2
+                    pair = [variable1, variable2].sort
+                    
+                    if !used_pairs.include?(pair)
+                        dfreq = (freq[variable1] - freq[variable2]).abs
+                        if trend[variable1] == trend[variable2]
+                            dtrend = 1
+                        else
+                            dtrend = 0
+                        end
+                        if sclass[variable1] == sclass[variable2]
+                            dclass = 1
+                        else
+                            dclass = 0
+                        end
+                        dinnov = (avar_community[variable1] - avar_community[variable2]).abs
+                        R.assign "v1", vectors[variable1]
+                        R.assign "v2", vectors[variable2]
+                        tau = R.pull "cor.test(v1,v2,method='#{method}')$estimate"
+                        #STDERR.puts "#{pair.join("-")}\t#{dfreq}\t#{dtrend}\t#{dclass}\t#{dinnov}\t#{tau}"
+                        dfreqs << dfreq
+                        dtrends << dtrend
+                        dclasses << dclass
+                        dinnovs << dinnov
+                        taus << tau
+                        used_pairs << pair
+                    end
+                end
+            end
+        end
+        R.assign "dfreqs", dfreqs
+        R.assign "dtrends", dtrends
+        R.assign "dclasses", dclasses
+        R.assign "dinnovs", dinnovs
+        R.assign "taus", taus
+        R.eval "print(summary(lm(taus ~ dfreqs * dtrends * dclasses * dinnovs)))"
+    
+    end
+    
+    
 end
