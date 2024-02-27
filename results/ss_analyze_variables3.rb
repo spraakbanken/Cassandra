@@ -19,7 +19,7 @@ R.eval "setwd('plots')"
 
 
 cohorttype = 10
-part = 2
+part = 1
 plottype = "stripchart"
 year = "2008,2009,2010"
 t = 0
@@ -33,7 +33,7 @@ plotrq2 = false
 plotrq3 = true
 plotrq3a = false
 plotrq3b = false
-plotrq3c = true
+plotrq3c = false
 plotrq3d = true
 
 if plotrq1
@@ -254,10 +254,10 @@ variables.each do |variable|
             elsif plottype == "stripchart"
                 #R.eval "df <- data.frame(d1,d2,d3,d4)"
                 #R.eval "names(df) <- c(\"47-62\",\"-72\",\"-82\",\"-92\")"
-                R.eval "stripchart(list(d1,d2,d3,d4), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\")"
-                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=19, col=\"green\")"
+                R.eval "stripchart(list(d1,d2,d3,d4), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))"
+                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=16, col=\"green\")"
             end
-            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=15, col=\"red\")"
+            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=4, col=\"red\")"
             
         elsif cohorttype == 5
             for j in 1..9 do 
@@ -267,10 +267,10 @@ variables.each do |variable|
                 R.eval "boxplot(e1,e2,e3,e4,e5,e6,e7,e8,e9, main = \"#{variable.encode("windows-1252")}\", varwidth = TRUE, names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"),cex.axis=0.75)"
             elsif plottype == "stripchart"
                 R.eval "stripchart(list(e1,e2,e3,e4,e5,e6,e7,e8,e9), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"), vertical = TRUE, method=\"jitter\")"
-                R.eval "points(c(median(e1),median(e2),median(e3),median(e4),median(e5),median(e6),median(e7),median(e8),median(e9)), pch=19, col=\"green\")"
+                R.eval "points(c(median(e1),median(e2),median(e3),median(e4),median(e5),median(e6),median(e7),median(e8),median(e9)), pch=1, col=\"green\")"
             end
 	    
-            R.eval "points(c(mean(e1),mean(e2),mean(e3),mean(e4),mean(e5),mean(e6),mean(e7),mean(e8),mean(e9)), pch=15, col=\"red\")"
+            R.eval "points(c(mean(e1),mean(e2),mean(e3),mean(e4),mean(e5),mean(e6),mean(e7),mean(e8),mean(e9)), pch=4, col=\"red\")"
         end
     end
     #R.eval "pdf(file='v2bycohort2_#{variable}_t#{t}_#{year}.pdf')"
@@ -289,7 +289,7 @@ end
 if plotrq2
     plottype = "stripchart"
     part = "allverbs"
-    mode = "_deviances"
+    mode = "" #"_deviances"
     R.eval "pdf(file='#{plottype}_rq2innovation#{mode}_t2#{t2}_#{year}_part#{part}.pdf')"
     variables = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
     
@@ -334,7 +334,7 @@ if plotrq2
     if plottype == "boxplot"
         if part == "allverbs"
             R.eval "boxplot(list(d1,d2,d3,d4,d5,d6,d7), names = plotnames, varwidth = TRUE)" 
-            R.eval "points(community, pch=15, col=\"orange\")"
+            R.eval "points(community, pch=16, col=\"orange\")"
         end
 
     elsif plottype == "stripchart"
@@ -345,8 +345,8 @@ if plotrq2
             R.eval "stripchart(list(d1,d2,d3), group.names = plotnames, jitter = 0.3, vertical = TRUE, method=\"jitter\")" 
             R.eval "points(community, pch=15, col=\"orange\")"
         elsif part == "allverbs"
-            R.eval "stripchart(list(d1,d2,d3,d4,d5,d6,d7), group.names = plotnames, jitter = 0.3, vertical = TRUE, method=\"jitter\")" 
-            R.eval "points(community, pch=15, col=\"orange\")"
+            R.eval "stripchart(list(d1,d2,d3,d4,d5,d6,d7), group.names = plotnames, jitter = 0.3, vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))" 
+            R.eval "points(community, pch=16, col=\"orange\")"
         end
     end
     
@@ -400,10 +400,10 @@ if plotrq3
             if plottype == "boxplot"
                 R.eval "boxplot(d1,d2,d3,d4, varwidth = TRUE, names = c(\"47-62\",\"-72\",\"-82\",\"-92\"))"
             elsif plottype == "stripchart"
-                R.eval "stripchart(list(d1,d2,d3,d4), group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\")"
-                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=19, col=\"green\")"
+                R.eval "stripchart(list(d1,d2,d3,d4), group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))"
+                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=16, col=\"green\")"
             end
-            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=15, col=\"red\")"
+            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=4, col=\"red\")"
         R.eval "dev.off()"
     end
     if plotrq3c or plotrq3d
