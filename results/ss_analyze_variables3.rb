@@ -19,7 +19,7 @@ R.eval "setwd('plots')"
 
 
 cohorttype = 10
-part = 1
+part = 2
 plottype = "stripchart"
 year = "2008,2009,2010"
 t = 0
@@ -28,9 +28,9 @@ t2 = 10 #prolific speaker
 
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-plotrq1 = false
+plotrq1 = true
 plotrq2 = false
-plotrq3 = true
+plotrq3 = false
 plotrq3a = false
 plotrq3b = false
 plotrq3c = false
@@ -67,7 +67,7 @@ variables3 = ["försöka", "fortsätta",  "komma", "slippa", "sluta", "vägra"]
 #variables3 = ["försöka", "komma", "slippa", "vägra"]
 
 intersection = find_intersection(year, t2, variables3)
-STDERR.puts intersection.length
+#STDERR.puts intersection.length
 #__END__
 
 flag = true
@@ -149,6 +149,7 @@ variables.each do |variable|
     enthash = {}
     coh_enthash = Hash.new{|hash, key| hash[key] = Array.new}
     coh_v2hash  = Hash.new{|hash, key| hash[key] = Array.new}
+    coh_v2hash_var = Hash.new{|hash, key| hash[key] = Array.new}
     coh_v2hash2  = Hash.new{|hash, key| hash[key] = Array.new}
     #coh_total = Hash.new(0.0)
     entsum = 0.0
@@ -156,7 +157,7 @@ variables.each do |variable|
     STDERR.puts variable
 
 #=begin
-    if variables2.include?(variable)
+    #if variables2.include?(variable)
         fcommunity = "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\variables\\ss90_#{variable}\\familjeliv\\all\\all_users.tsv"
         fc = File.open(fcommunity, "r:utf-8")
         community_average = 0.0
@@ -173,7 +174,7 @@ variables.each do |variable|
         community_average = community_average/(year.split(",").length)
         avar_community[variable] = community_average
         fc.close
-    end
+    #end
 #=end
 
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
@@ -203,6 +204,16 @@ variables.each do |variable|
                 coh_v2hash[cohort] << v2hash[speaker]
                 coh_v2hash2[cohort2] << v2hash[speaker]
                 f2.puts "\t#{speaker}\t#{yob}\t#{cohort}\t#{line2[4..-1].join("\t").strip}\t#{cohort2}"
+                if avar_community[variable] > 0.5
+                    if v2hash[speaker] < 1 #and v2hash[speaker] > 0
+                        coh_v2hash_var[cohort] << v2hash[speaker]
+                    end
+                else #avar_community[variable] > 0.5
+                    if v2hash[speaker] > 0
+                        coh_v2hash_var[cohort] << v2hash[speaker]
+                    end
+
+                end
             end
             if variables2.include?(variable)
                 
@@ -248,6 +259,7 @@ variables.each do |variable|
         if cohorttype == 10
             for i in 1..4 do 
                 R.assign "d#{i}",coh_v2hash[i]
+                R.assign "dvar#{i}",coh_v2hash_var[i]
             end
             if plottype == "boxplot"
                 R.eval "boxplot(d1,d2,d3,d4, main = \"#{variable.encode("windows-1252")}\", varwidth = TRUE, names = c(\"47-62\",\"-72\",\"-82\",\"-92\"))"
@@ -256,9 +268,10 @@ variables.each do |variable|
                 #R.eval "names(df) <- c(\"47-62\",\"-72\",\"-82\",\"-92\")"
                 R.eval "stripchart(list(d1,d2,d3,d4), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))"
                 R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=16, col=\"green\")"
+                
             end
             R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=4, col=\"red\")"
-            
+            R.eval "points(c(median(dvar1),median(dvar2),median(dvar3),median(dvar4)), pch=17, col=\"blue\")"
         elsif cohorttype == 5
             for j in 1..9 do 
 	            R.assign "e#{j}",coh_v2hash2[j]
