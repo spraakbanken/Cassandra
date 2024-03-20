@@ -1,8 +1,9 @@
 ### Use single quotes, not double quotes in this file!
 
 
-
-
+#label = (d)en_blekaste_aning
+variant1 = [word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]
+variant2 = [word = 'en' %c | word = 'blekaste' %c | word = 'aning' %c]
 
 #[
 # &
