@@ -1,0 +1,716 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+{
+"corpora": {
+"GP2001": [
+{
+"absolute": {
+"2001": 7,
+"2002": null
+},
+"relative": {
+"2001": 0.4020370181902223,
+"2002": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.4020370181902223
+}
+},
+{
+"absolute": {
+"2001": 6,
+"2002": null
+},
+"relative": {
+"2001": 0.344603158448762,
+"2002": null
+},
+"sums": {
+"absolute": 6,
+"relative": 0.344603158448762
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2001": 1,
+"2002": null
+},
+"relative": {
+"2001": 0.05743385974146033,
+"2002": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05743385974146033
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2002": [
+{
+"absolute": {
+"2002": 7,
+"2003": null
+},
+"relative": {
+"2002": 0.3323160979329844,
+"2003": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.3323160979329844
+}
+},
+{
+"absolute": {
+"2002": 7,
+"2003": null
+},
+"relative": {
+"2002": 0.3323160979329844,
+"2003": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.3323160979329844
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2002": 0,
+"2003": null
+},
+"relative": {
+"2002": 0,
+"2003": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2003": [
+{
+"absolute": {
+"2003": 9,
+"2004": null
+},
+"relative": {
+"2003": 0.4720924390566691,
+"2004": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.4720924390566691
+}
+},
+{
+"absolute": {
+"2003": 9,
+"2004": null
+},
+"relative": {
+"2003": 0.4720924390566691,
+"2004": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.4720924390566691
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2003": 0,
+"2004": null
+},
+"relative": {
+"2003": 0,
+"2004": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2004": [
+{
+"absolute": {
+"2004": 6,
+"2005": null
+},
+"relative": {
+"2004": 0.2684536732851683,
+"2005": null
+},
+"sums": {
+"absolute": 6,
+"relative": 0.2684536732851683
+}
+},
+{
+"absolute": {
+"2004": 6,
+"2005": null
+},
+"relative": {
+"2004": 0.2684536732851683,
+"2005": null
+},
+"sums": {
+"absolute": 6,
+"relative": 0.2684536732851683
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2005": [
+{
+"absolute": {
+"2005": 5,
+"2006": null
+},
+"relative": {
+"2005": 0.2159466867364638,
+"2006": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.2159466867364638
+}
+},
+{
+"absolute": {
+"2005": 5,
+"2006": null
+},
+"relative": {
+"2005": 0.2159466867364638,
+"2006": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.2159466867364638
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2006": [
+{
+"absolute": {
+"2006": 4,
+"2007": null
+},
+"relative": {
+"2006": 0.17801946491532303,
+"2007": null
+},
+"sums": {
+"absolute": 4,
+"relative": 0.17801946491532303
+}
+},
+{
+"absolute": {
+"2006": 4,
+"2007": null
+},
+"relative": {
+"2006": 0.17801946491532303,
+"2007": null
+},
+"sums": {
+"absolute": 4,
+"relative": 0.17801946491532303
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2006": 0,
+"2007": null
+},
+"relative": {
+"2006": 0,
+"2007": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2007": [
+{
+"absolute": {
+"2007": 6,
+"2008": null
+},
+"relative": {
+"2007": 0.32249842540143797,
+"2008": null
+},
+"sums": {
+"absolute": 6,
+"relative": 0.32249842540143797
+}
+},
+{
+"absolute": {
+"2007": 5,
+"2008": null
+},
+"relative": {
+"2007": 0.26874868783453165,
+"2008": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.26874868783453165
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2007": 1,
+"2008": null
+},
+"relative": {
+"2007": 0.053749737566906326,
+"2008": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.053749737566906326
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2008": [
+{
+"absolute": {
+"2008": 1,
+"2009": null
+},
+"relative": {
+"2008": 0.05888487706221464,
+"2009": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05888487706221464
+}
+},
+{
+"absolute": {
+"2008": 1,
+"2009": null
+},
+"relative": {
+"2008": 0.05888487706221464,
+"2009": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2008": 0,
+"2009": null
+},
+"relative": {
+"2008": 0,
+"2009": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2009": [
+{
+"absolute": {
+"2009": 8,
+"2010": null
+},
+"relative": {
+"2009": 0.46096098380137007,
+"2010": null
+},
+"sums": {
+"absolute": 8,
+"relative": 0.46096098380137007
+}
+},
+{
+"absolute": {
+"2009": 7,
+"2010": null
+},
+"relative": {
+"2009": 0.4033408608261988,
+"2010": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.4033408608261988
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2009": 1,
+"2010": null
+},
+"relative": {
+"2009": 0.05762012297517126,
+"2010": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2010": [
+{
+"absolute": {
+"2010": 3,
+"2011": null
+},
+"relative": {
+"2010": 0.17430647086627118,
+"2011": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.17430647086627118
+}
+},
+{
+"absolute": {
+"2010": 3,
+"2011": null
+},
+"relative": {
+"2010": 0.17430647086627118,
+"2011": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.17430647086627118
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2010": 0,
+"2011": null
+},
+"relative": {
+"2010": 0,
+"2011": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2011": [
+{
+"absolute": {
+"2011": 3,
+"2012": null
+},
+"relative": {
+"2011": 0.15046349527401684,
+"2012": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.15046349527401684
+}
+},
+{
+"absolute": {
+"2011": 3,
+"2012": null
+},
+"relative": {
+"2011": 0.15046349527401684,
+"2012": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.15046349527401684
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2011": 0,
+"2012": null
+},
+"relative": {
+"2011": 0,
+"2012": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2012": [
+{
+"absolute": {
+"2012": 7,
+"2013": null
+},
+"relative": {
+"2012": 0.40787694282713144,
+"2013": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.40787694282713144
+}
+},
+{
+"absolute": {
+"2012": 7,
+"2013": null
+},
+"relative": {
+"2012": 0.40787694282713144,
+"2013": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.40787694282713144
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2012": 0,
+"2013": null
+},
+"relative": {
+"2012": 0,
+"2013": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"GP2013": [
+{
+"absolute": {
+"2013": 3,
+"2014": null
+},
+"relative": {
+"2013": 0.17780893517163276,
+"2014": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.17780893517163276
+}
+},
+{
+"absolute": {
+"2013": 1,
+"2014": null
+},
+"relative": {
+"2013": 0.05926964505721091,
+"2014": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05926964505721091
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2013": 2,
+"2014": null
+},
+"relative": {
+"2013": 0.11853929011442182,
+"2014": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.11853929011442182
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2001": 7,
+"2014": null,
+"2002": 7,
+"2003": 9,
+"2004": 6,
+"2005": 5,
+"2006": 4,
+"2007": 6,
+"2008": 1,
+"2009": 8,
+"2010": 3,
+"2011": 3,
+"2012": 7,
+"2013": 3
+},
+"relative": {
+"2001": 0.4020370181902223,
+"2014": null,
+"2002": 0.3323160979329844,
+"2003": 0.4720924390566691,
+"2004": 0.2684536732851683,
+"2005": 0.2159466867364638,
+"2006": 0.17801946491532303,
+"2007": 0.32249842540143797,
+"2008": 0.05888487706221464,
+"2009": 0.46096098380137007,
+"2010": 0.17430647086627118,
+"2011": 0.15046349527401684,
+"2012": 0.40787694282713144,
+"2013": 0.17780893517163276
+},
+"sums": {
+"absolute": 69,
+"relative": 0.2763993030170967
+}
+},
+{
+"absolute": {
+"2001": 6,
+"2014": null,
+"2002": 7,
+"2003": 9,
+"2004": 6,
+"2005": 5,
+"2006": 4,
+"2007": 5,
+"2008": 1,
+"2009": 7,
+"2010": 3,
+"2011": 3,
+"2012": 7,
+"2013": 1
+},
+"relative": {
+"2001": 0.344603158448762,
+"2014": null,
+"2002": 0.3323160979329844,
+"2003": 0.4720924390566691,
+"2004": 0.2684536732851683,
+"2005": 0.2159466867364638,
+"2006": 0.17801946491532303,
+"2007": 0.26874868783453165,
+"2008": 0.05888487706221464,
+"2009": 0.4033408608261988,
+"2010": 0.17430647086627118,
+"2011": 0.15046349527401684,
+"2012": 0.40787694282713144,
+"2013": 0.05926964505721091
+},
+"sums": {
+"absolute": 64,
+"relative": 0.25637036801585783
+},
+"cqp": "[word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+},
+{
+"absolute": {
+"2001": 1,
+"2014": null,
+"2002": 0,
+"2007": 1,
+"2008": 0,
+"2009": 1,
+"2010": 0,
+"2013": 2
+},
+"relative": {
+"2001": 0.05743385974146033,
+"2014": null,
+"2002": 0.0,
+"2007": 0.053749737566906326,
+"2008": 0.0,
+"2009": 0.05762012297517126,
+"2010": 0.0,
+"2013": 0.11853929011442182
+},
+"sums": {
+"absolute": 5,
+"relative": 0.020028935001238892
+},
+"cqp": "[word = 'en' %c] [word = 'blekaste' %c] [word = 'aning' %c]"
+}
+],
+"time": 35.4724280834198
+}
