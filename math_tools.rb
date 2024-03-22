@@ -1,3 +1,10 @@
+def median(array)
+  return nil if array.empty?
+  sorted = array.sort
+  len = sorted.length
+  (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
+end
+
 def smooth(array,window,ndatapoints,total_threshold)
     if window % 2 == 0
         abort("Cassandra says: Smoothing window must be an odd number")
