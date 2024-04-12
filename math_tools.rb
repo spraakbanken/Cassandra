@@ -1,3 +1,13 @@
+def median_absolute_deviation(array, refpoint)
+    #median = median(array)
+    devs = []
+    array.each do |v|
+        devs << (v - refpoint).abs
+    end
+    mad = median(devs)
+    return mad
+end
+
 def median(array)
   return nil if array.empty?
   sorted = array.sort

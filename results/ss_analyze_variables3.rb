@@ -18,8 +18,8 @@ require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
 
 
-cohorttype = 10
-part = 2
+cohorttype = 5
+part = "all"
 plottype = "stripchart"
 year = "2008,2009,2010"
 t = 0
@@ -28,13 +28,13 @@ t2 = 10 #prolific speaker
 
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-plotrq1 = true
-plotrq2 = false
+plotrq1 = false
+plotrq2 = true
 plotrq3 = false
 plotrq3a = false
 plotrq3b = false
 plotrq3c = false
-plotrq3d = true
+plotrq3d = false
 
 if plotrq1
     R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}.pdf')"
@@ -340,6 +340,8 @@ if plotrq2
         end
         R.assign "plotnames", ["försöka".encode("windows-1252"), "fortsätta".encode("windows-1252"),  "glömma".encode("windows-1252"), "komma".encode("windows-1252"),"slippa".encode("windows-1252"), "sluta".encode("windows-1252"), "vägra".encode("windows-1252")]
         R.assign "community", [avar_community["försöka"], avar_community["fortsätta"], avar_community["glömma"], avar_community["komma"],avar_community["slippa"], avar_community["sluta"], avar_community["vägra"]]
+        R.assign "mad", [median_absolute_deviation(rq2["försöka"], avar_community["försöka"]), median_absolute_deviation(rq2["fortsätta"], avar_community["försöka"]), median_absolute_deviation(rq2["glömma"], avar_community["försöka"]), median_absolute_deviation(rq2["komma"], avar_community["försöka"]), median_absolute_deviation(rq2["slippa"], avar_community["försöka"]), median_absolute_deviation(rq2["sluta"], avar_community["försöka"]), median_absolute_deviation(rq2["vägra"], avar_community["försöka"])]
+        R.assign "medians", [median(rq2["försöka"]), median(rq2["fortsätta"]), median(rq2["glömma"]), median(rq2["komma"]), median(rq2["slippa"]), median(rq2["sluta"]), median(rq2["vägra"])]
     end
     
     
@@ -347,7 +349,7 @@ if plotrq2
     if plottype == "boxplot"
         if part == "allverbs"
             R.eval "boxplot(list(d1,d2,d3,d4,d5,d6,d7), names = plotnames, varwidth = TRUE)" 
-            R.eval "points(community, pch=16, col=\"orange\")"
+            R.eval "points(community, pch=21, col = 'black', bg=\"orange\")"
         end
 
     elsif plottype == "stripchart"
@@ -359,7 +361,9 @@ if plotrq2
             R.eval "points(community, pch=15, col=\"orange\")"
         elsif part == "allverbs"
             R.eval "stripchart(list(d1,d2,d3,d4,d5,d6,d7), group.names = plotnames, jitter = 0.3, vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))" 
-            R.eval "points(community, pch=16, col=\"orange\")"
+            R.eval "points(community, pch=21, col = 'black', bg=\"orange\")"
+            R.eval "points(medians, pch=23, col = 'black', bg=\"blue\")"
+            R.eval "points(mad, pch=24, col = 'black', bg=\"green\")"
         end
     end
     
