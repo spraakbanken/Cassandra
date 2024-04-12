@@ -1,10 +1,14 @@
-def median_absolute_deviation(array, refpoint)
+def m_absolute_deviation(array, refpoint, type)
     #median = median(array)
     devs = []
     array.each do |v|
         devs << (v - refpoint).abs
     end
-    mad = median(devs)
+    if type == "median"
+        mad = median(devs)
+    elsif type == "mean"
+        mad = mean(devs)
+    end
     return mad
 end
 

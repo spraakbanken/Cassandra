@@ -340,7 +340,7 @@ if plotrq2
         end
         R.assign "plotnames", ["försöka".encode("windows-1252"), "fortsätta".encode("windows-1252"),  "glömma".encode("windows-1252"), "komma".encode("windows-1252"),"slippa".encode("windows-1252"), "sluta".encode("windows-1252"), "vägra".encode("windows-1252")]
         R.assign "community", [avar_community["försöka"], avar_community["fortsätta"], avar_community["glömma"], avar_community["komma"],avar_community["slippa"], avar_community["sluta"], avar_community["vägra"]]
-        R.assign "mad", [median_absolute_deviation(rq2["försöka"], avar_community["försöka"]), median_absolute_deviation(rq2["fortsätta"], avar_community["försöka"]), median_absolute_deviation(rq2["glömma"], avar_community["försöka"]), median_absolute_deviation(rq2["komma"], avar_community["försöka"]), median_absolute_deviation(rq2["slippa"], avar_community["försöka"]), median_absolute_deviation(rq2["sluta"], avar_community["försöka"]), median_absolute_deviation(rq2["vägra"], avar_community["försöka"])]
+        R.assign "mad", [m_absolute_deviation(rq2["försöka"], avar_community["försöka"], "mean"), m_absolute_deviation(rq2["fortsätta"], avar_community["fortsätta"], "mean"), m_absolute_deviation(rq2["glömma"], avar_community["glömma"], "mean"), m_absolute_deviation(rq2["komma"], avar_community["komma"], "mean"), m_absolute_deviation(rq2["slippa"], avar_community["slippa"], "mean"), m_absolute_deviation(rq2["sluta"], avar_community["sluta"], "mean"), m_absolute_deviation(rq2["vägra"], avar_community["vägra"], "mean")]
         R.assign "medians", [median(rq2["försöka"]), median(rq2["fortsätta"]), median(rq2["glömma"]), median(rq2["komma"]), median(rq2["slippa"]), median(rq2["sluta"]), median(rq2["vägra"])]
     end
     
