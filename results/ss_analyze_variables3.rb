@@ -18,9 +18,9 @@ require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
 
 
-cohorttype = 5
-part = "all"
-plottype = "stripchart"
+cohorttype = 10
+part = 2
+plottype = "boxplot"
 year = "2008,2009,2010"
 t = 0
 t2 = 10 #prolific speaker
@@ -28,8 +28,8 @@ t2 = 10 #prolific speaker
 
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-plotrq1 = false
-plotrq2 = true
+plotrq1 = true
+plotrq2 = false
 plotrq3 = false
 plotrq3a = false
 plotrq3b = false
@@ -151,6 +151,11 @@ variables.each do |variable|
     coh_v2hash  = Hash.new{|hash, key| hash[key] = Array.new}
     coh_v2hash_var = Hash.new{|hash, key| hash[key] = Array.new}
     coh_v2hash2  = Hash.new{|hash, key| hash[key] = Array.new}
+    coh_v2abs = Hash.new(0.0)
+    coh_v2abs2 = Hash.new(0.0)
+    coh_total = Hash.new(0.0)
+    coh_total2 = Hash.new(0.0)
+        
     #coh_total = Hash.new(0.0)
     entsum = 0.0
 
@@ -188,6 +193,8 @@ variables.each do |variable|
             speaker = line2[1]
             yob = line2[2].to_i
             innov = line2[-1].to_f
+            v2abs = line2[-3].to_f
+            vtotal = line2[-5].to_f
             v2hash[speaker] = innov
             cohort = yob_to_cohort(yob)
             cohort2 = yob_to_cohort2(yob)
@@ -202,6 +209,11 @@ variables.each do |variable|
 
             if cohort != 0
                 coh_v2hash[cohort] << v2hash[speaker]
+                coh_v2abs[cohort] += v2abs
+                coh_v2abs2[cohort2] += v2abs
+                coh_total[cohort] += vtotal
+                coh_total2[cohort2] += vtotal
+                
                 coh_v2hash2[cohort2] << v2hash[speaker]
                 f2.puts "\t#{speaker}\t#{yob}\t#{cohort}\t#{line2[4..-1].join("\t").strip}\t#{cohort2}"
                 if avar_community[variable] > 0.5
@@ -260,6 +272,8 @@ variables.each do |variable|
             for i in 1..4 do 
                 R.assign "d#{i}",coh_v2hash[i]
                 R.assign "dvar#{i}",coh_v2hash_var[i]
+                microave = coh_v2abs[i]/coh_total[i]
+                R.assign "m#{i}",microave
             end
             if plottype == "boxplot"
                 R.eval "boxplot(d1,d2,d3,d4, main = \"#{variable.encode("windows-1252")}\", varwidth = TRUE, names = c(\"47-62\",\"-72\",\"-82\",\"-92\"))"
@@ -271,7 +285,8 @@ variables.each do |variable|
                 
             end
             R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=4, col=\"red\")"
-            R.eval "points(c(median(dvar1),median(dvar2),median(dvar3),median(dvar4)), pch=17, col=\"blue\")"
+            #R.eval "points(c(median(dvar1),median(dvar2),median(dvar3),median(dvar4)), pch=17, col=\"blue\")"
+            R.eval "points(c(m1,m2,m3,m4), pch=18, col=\"orange\")"
         elsif cohorttype == 5
             for j in 1..9 do 
 	            R.assign "e#{j}",coh_v2hash2[j]

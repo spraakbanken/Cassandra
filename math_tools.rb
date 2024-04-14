@@ -58,12 +58,18 @@ def correct(number, limit, type)
 end
 
 def mean(array)
+    sum = sumarray(array)
+    mean = sum / array.length
+    return mean
+end
+
+def sumarray(array)
+
     sum = 0.0
     array.each do |x|
         sum += x
     end
-    mean = sum / array.length
-    return mean
+    return sum
 end
 
 def stdev(array) #calculate standard deviation
