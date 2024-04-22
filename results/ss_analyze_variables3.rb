@@ -1,10 +1,8 @@
-#TODO:
-#prolific speakers
-#deviances
-#visualize RQ2
-
 # encoding: UTF-8
 
+# median: orange circle
+# macroave: green triangle
+# microave: blue diamond
 
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 
@@ -20,10 +18,19 @@ R.eval "setwd('plots')"
 
 cohorttype = 10
 part = 2
-plottype = "boxplot"
+plottype = "stripchart"
 year = "2008,2009,2010"
 t = 0
 t2 = 10 #prolific speaker
+ylimsrq1 = "fixed"
+
+if ylimsrq1 == "fixed"
+    ylimrq1l = Hash.new(0)
+    ylimrq1u = Hash.new(1)
+elsif ylimsrq1 == "flex"
+    ylimrq1l = {"behaga" => 0.6, "fortsätta" => 0, "försöka" => 0.8, "glömma" => 0.7, "komma" => 0, "lova" => 0, "planera" => 0, "riskera" => 0, "slippa" => 0.9, "sluta" => 0.9, "vägra" => 0}
+    ylimrq1u = {"behaga" => 1, "fortsätta" => 1, "försöka" => 1, "glömma" => 1, "komma" => 1, "lova" => 0.25, "planera" => 0.2, "riskera" => 0.2, "slippa" => 1, "sluta" => 1, "vägra" => 1}
+end
 
 
 
@@ -37,7 +44,7 @@ plotrq3c = false
 plotrq3d = false
 
 if plotrq1
-    R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}.pdf')"
+    R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}_ylim#{ylimsrq1}.pdf')"
     if cohorttype == 5
         R.eval "par(mfrow=c(2,2))"
         if part == 1
@@ -141,7 +148,7 @@ rq2 = Hash.new{|hash, key| hash[key] = Array.new}
 speaker_general_properties = {}
 speaker_properties = Hash.new{|hash, key| hash[key] = Hash.new}
 
-
+STDOUT.puts "variable\tdiffmean21\tdiffmean32\tdiffmean43\trel_diffmean21\trel_diffmean32\trel_diffmean43"
 
 variables.each do |variable|
     agehash = {}
@@ -280,13 +287,35 @@ variables.each do |variable|
             elsif plottype == "stripchart"
                 #R.eval "df <- data.frame(d1,d2,d3,d4)"
                 #R.eval "names(df) <- c(\"47-62\",\"-72\",\"-82\",\"-92\")"
-                R.eval "stripchart(list(d1,d2,d3,d4), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))"
-                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=16, col=\"green\")"
-                
+                R.eval "stripchart(list(d1,d2,d3,d4), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2), ylim = c(#{ylimrq1l[variable]}, #{ylimrq1u[variable]}))"
+                R.eval "medians = c(median(d1),median(d2),median(d3),median(d4))"
+                R.eval "points(medians, pch=21, col = 'black', bg='orange')"
             end
-            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=4, col=\"red\")"
+            R.eval "means = c(mean(d1),mean(d2),mean(d3),mean(d4))"
+            R.eval "points(means, pch=24, col='black', bg = 'green')"
+            R.eval "ref = c(1,2,3,4)"
+            kendall_medians = R.pull "cor.test(medians,ref,method='kendall')$estimate"
+            kendall_means = R.pull "cor.test(means,ref,method='kendall')$estimate"
+
+            R.eval "diffmean21 = mean(d2) - mean(d1)"
+            R.eval "diffmean32 = mean(d3) - mean(d2)"
+            R.eval "diffmean43 = mean(d4) - mean(d3)"
+            R.eval "sum_diffmean = sum(diffmean21,diffmean32,diffmean43)"
+            R.eval "rel_diffmean21 = diffmean21/sum_diffmean"
+            R.eval "rel_diffmean32 = diffmean32/sum_diffmean"
+            R.eval "rel_diffmean43 = diffmean43/sum_diffmean"
+            diffmean21 = R.pull "diffmean21"
+            diffmean32 = R.pull "diffmean32"
+            diffmean43 = R.pull "diffmean43"
+            rel_diffmean21 = R.pull "rel_diffmean21"
+            rel_diffmean32 = R.pull "rel_diffmean32"
+            rel_diffmean43 = R.pull "rel_diffmean43"
+            STDOUT.puts "#{variable}\t#{diffmean21}\t#{diffmean32}\t#{diffmean43}\t#{rel_diffmean21}\t#{rel_diffmean32}\t#{rel_diffmean43}"
+
+            STDERR.puts kendall_medians
+            STDERR.puts kendall_means
             #R.eval "points(c(median(dvar1),median(dvar2),median(dvar3),median(dvar4)), pch=17, col=\"blue\")"
-            R.eval "points(c(m1,m2,m3,m4), pch=18, col=\"orange\")"
+            #R.eval "points(c(m1,m2,m3,m4), pch=23, col='black', bg = 'yellow')"
         elsif cohorttype == 5
             for j in 1..9 do 
 	            R.assign "e#{j}",coh_v2hash2[j]
@@ -294,11 +323,17 @@ variables.each do |variable|
             if plottype == "boxplot"
                 R.eval "boxplot(e1,e2,e3,e4,e5,e6,e7,e8,e9, main = \"#{variable.encode("windows-1252")}\", varwidth = TRUE, names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"),cex.axis=0.75)"
             elsif plottype == "stripchart"
-                R.eval "stripchart(list(e1,e2,e3,e4,e5,e6,e7,e8,e9), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"), vertical = TRUE, method=\"jitter\")"
-                R.eval "points(c(median(e1),median(e2),median(e3),median(e4),median(e5),median(e6),median(e7),median(e8),median(e9)), pch=1, col=\"green\")"
+                R.eval "stripchart(list(e1,e2,e3,e4,e5,e6,e7,e8,e9), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"-52\",\"-57\",\"-62\",\"-67\",\"-72\",\"-77\",\"-82\",\"-87\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2), ylim = c(#{ylimrq1l[variable]}, #{ylimrq1u[variable]}))"
+                R.eval "medians = c(median(e1),median(e2),median(e3),median(e4),median(e5),median(e6),median(e7),median(e8),median(e9))"
+                R.eval "points(medians, pch=21, col = 'black', bg='orange')"
             end
-	    
-            R.eval "points(c(mean(e1),mean(e2),mean(e3),mean(e4),mean(e5),mean(e6),mean(e7),mean(e8),mean(e9)), pch=4, col=\"red\")"
+	        R.eval "means = c(mean(e1),mean(e2),mean(e3),mean(e4),mean(e5),mean(e6),mean(e7),mean(e8),mean(e9)) "
+            R.eval "points(means, pch=24, col='black', bg = 'green')"
+            R.eval "ref = c(1,2,3,4,5,6,7,8,9)"
+            kendall_medians = R.pull "cor.test(medians,ref,method='kendall')$estimate"
+            kendall_means = R.pull "cor.test(means,ref,method='kendall')$estimate"
+            STDERR.puts kendall_medians
+            STDERR.puts kendall_means
         end
     end
     #R.eval "pdf(file='v2bycohort2_#{variable}_t#{t}_#{year}.pdf')"
