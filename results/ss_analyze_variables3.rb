@@ -1,8 +1,9 @@
 # encoding: UTF-8
 
 # median: orange circle
-# macroave: green triangle
+# macroave: green triangle up
 # microave: blue diamond
+# mad from median: yellow triange down
 
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 
@@ -35,8 +36,8 @@ end
 
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-plotrq1 = true
-plotrq2 = false
+plotrq1 = false
+plotrq2 = true
 plotrq3 = false
 plotrq3a = false
 plotrq3b = false
@@ -411,9 +412,15 @@ if plotrq2
             R.eval "points(community, pch=15, col=\"orange\")"
         elsif part == "allverbs"
             R.eval "stripchart(list(d1,d2,d3,d4,d5,d6,d7), group.names = plotnames, jitter = 0.3, vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))" 
-            R.eval "points(community, pch=21, col = 'black', bg=\"orange\")"
-            R.eval "points(medians, pch=23, col = 'black', bg=\"blue\")"
-            R.eval "points(mad, pch=24, col = 'black', bg=\"green\")"
+
+# median: orange circle
+# macroave: green triangle up
+# microave: blue diamond
+# mad from median: yellow triange down
+            
+            R.eval "points(community, pch=23, col = 'black', bg=\"blue\")"
+            R.eval "points(medians, pch=21, col = 'black', bg='orange')"
+            R.eval "points(mad, pch=25, col = 'black', bg=\"yellow\")"
         end
     end
     
