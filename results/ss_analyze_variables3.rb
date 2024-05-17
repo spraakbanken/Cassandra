@@ -391,8 +391,12 @@ if plotrq2
         end
         R.assign "plotnames", ["försöka".encode("windows-1252"), "fortsätta".encode("windows-1252"),  "glömma".encode("windows-1252"), "komma".encode("windows-1252"),"slippa".encode("windows-1252"), "sluta".encode("windows-1252"), "vägra".encode("windows-1252")]
         R.assign "community", [avar_community["försöka"], avar_community["fortsätta"], avar_community["glömma"], avar_community["komma"],avar_community["slippa"], avar_community["sluta"], avar_community["vägra"]]
-        R.assign "mad", [m_absolute_deviation(rq2["försöka"], avar_community["försöka"], "mean"), m_absolute_deviation(rq2["fortsätta"], avar_community["fortsätta"], "mean"), m_absolute_deviation(rq2["glömma"], avar_community["glömma"], "mean"), m_absolute_deviation(rq2["komma"], avar_community["komma"], "mean"), m_absolute_deviation(rq2["slippa"], avar_community["slippa"], "mean"), m_absolute_deviation(rq2["sluta"], avar_community["sluta"], "mean"), m_absolute_deviation(rq2["vägra"], avar_community["vägra"], "mean")]
+
+        mad = [m_absolute_deviation(rq2["försöka"], avar_community["försöka"], "mean"), m_absolute_deviation(rq2["fortsätta"], avar_community["fortsätta"], "mean"), m_absolute_deviation(rq2["glömma"], avar_community["glömma"], "mean"), m_absolute_deviation(rq2["komma"], avar_community["komma"], "mean"), m_absolute_deviation(rq2["slippa"], avar_community["slippa"], "mean"), m_absolute_deviation(rq2["sluta"], avar_community["sluta"], "mean"), m_absolute_deviation(rq2["vägra"], avar_community["vägra"], "mean")]
+
+        R.assign "mad", mad
         R.assign "medians", [median(rq2["försöka"]), median(rq2["fortsätta"]), median(rq2["glömma"]), median(rq2["komma"]), median(rq2["slippa"]), median(rq2["sluta"]), median(rq2["vägra"])]
+        R.assign "means", [mean(rq2["försöka"]), mean(rq2["fortsätta"]), mean(rq2["glömma"]), mean(rq2["komma"]), mean(rq2["slippa"]), mean(rq2["sluta"]), mean(rq2["vägra"])]
     end
     
     
@@ -421,6 +425,8 @@ if plotrq2
             R.eval "points(community, pch=23, col = 'black', bg=\"blue\")"
             R.eval "points(medians, pch=21, col = 'black', bg='orange')"
             R.eval "points(mad, pch=25, col = 'black', bg=\"yellow\")"
+            R.eval "points(means, pch=24, col='black', bg = 'green')"
+            STDERR.puts mad.join(" ")
         end
     end
     
