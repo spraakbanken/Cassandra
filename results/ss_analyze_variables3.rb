@@ -37,12 +37,12 @@ end
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
 plotrq1 = false
-plotrq2 = true
-plotrq3 = false
+plotrq2 = false
+plotrq3 = true
 plotrq3a = false
 plotrq3b = false
 plotrq3c = false
-plotrq3d = false
+plotrq3d = true
 
 if plotrq1
     R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}_ylim#{ylimsrq1}.pdf')"
@@ -487,7 +487,7 @@ if plotrq3
         R.eval "dev.off()"
     end
     if plotrq3c or plotrq3d
-        method = "kendall"
+        method = "pearson"
         vectors = {}
         R.eval "df = data.frame(matrix(nrow = #{intersection.length}, ncol = 0))"
         variables3.each do |variable|
@@ -524,7 +524,7 @@ if plotrq3
         #R.eval "sink()"
         R.eval "pdf(file='rq3c_coherence_t2#{t2}_#{year}_verbs#{variables3.length}_#{method}#{correl_what}.pdf')"
         #R.eval "plot(df)"
-        R.eval "ggpairs(df,upper = list(continuous = wrap('cor', method = '#{method}', stars = FALSE)),axisLabels = 'none')"
+        R.eval "ggpairs(df,upper = list(continuous = wrap('cor', method = '#{method}', stars = TRUE)),axisLabels = 'none')"
         R.eval "warnings()"
         R.eval "dev.off()"
     end
@@ -561,14 +561,14 @@ if plotrq3
                     if !used_pairs.include?(pair)
                         dfreq = (freq[variable1] - freq[variable2]).abs
                         if trend[variable1] == trend[variable2]
-                            dtrend = 1
-                        else
                             dtrend = 0
+                        else
+                            dtrend = 1
                         end
                         if sclass[variable1] == sclass[variable2]
-                            dclass = 1
-                        else
                             dclass = 0
+                        else
+                            dclass = 1
                         end
                         dinnov = (avar_community[variable1] - avar_community[variable2]).abs
                         R.assign "v1", vectors[variable1]
@@ -590,7 +590,8 @@ if plotrq3
         R.assign "dclasses", dclasses
         R.assign "dinnovs", dinnovs
         R.assign "taus", taus
-        R.eval "print(summary(lm(taus ~ dfreqs * dtrends * dclasses * dinnovs)))"
+        R.eval "print(summary(lm(taus ~ dfreqs * dtrends * dclasses * dinnovs)))" 
+        R.eval "print(summary(lm(taus ~ dtrends)))"
     
     end
     
