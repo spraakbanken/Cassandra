@@ -41,7 +41,7 @@ plotrq2 = false
 plotrq3 = true
 plotrq3a = false
 plotrq3b = false
-plotrq3c = false
+plotrq3c = true
 plotrq3d = true
 
 if plotrq1
@@ -524,7 +524,7 @@ if plotrq3
         #R.eval "sink()"
         R.eval "pdf(file='rq3c_coherence_t2#{t2}_#{year}_verbs#{variables3.length}_#{method}#{correl_what}.pdf')"
         #R.eval "plot(df)"
-        R.eval "ggpairs(df,upper = list(continuous = wrap('cor', method = '#{method}', stars = TRUE)),axisLabels = 'none')"
+        R.eval "ggpairs(df,upper = list(continuous = wrap('cor', method = '#{method}', stars = FALSE)),axisLabels = 'none')"
         R.eval "warnings()"
         R.eval "dev.off()"
     end
