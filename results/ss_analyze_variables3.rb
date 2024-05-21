@@ -40,9 +40,9 @@ plotrq1 = false
 plotrq2 = false
 plotrq3 = true
 plotrq3a = false
-plotrq3b = false
+plotrq3b = true
 plotrq3c = false
-plotrq3d = true
+plotrq3d = false
 
 if plotrq1
     R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}_ylim#{ylimsrq1}.pdf')"
@@ -481,9 +481,10 @@ if plotrq3
                 R.eval "boxplot(d1,d2,d3,d4, varwidth = TRUE, names = c(\"47-62\",\"-72\",\"-82\",\"-92\"))"
             elsif plottype == "stripchart"
                 R.eval "stripchart(list(d1,d2,d3,d4), group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))"
-                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=16, col=\"green\")"
+                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=21, col = 'black', bg='orange')"
             end
-            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=4, col=\"red\")"
+            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=24, col='black', bg = 'green')"
+            #R.eval "points(means, pch=24, col='black', bg = 'green')"
         R.eval "dev.off()"
     end
     if plotrq3c or plotrq3d
