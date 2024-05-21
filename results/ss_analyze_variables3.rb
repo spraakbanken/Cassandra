@@ -41,7 +41,7 @@ plotrq2 = false
 plotrq3 = true
 plotrq3a = false
 plotrq3b = false
-plotrq3c = true
+plotrq3c = false
 plotrq3d = true
 
 if plotrq1
@@ -590,8 +590,40 @@ if plotrq3
         R.assign "dclasses", dclasses
         R.assign "dinnovs", dinnovs
         R.assign "taus", taus
+        STDERR.puts 1
         R.eval "print(summary(lm(taus ~ dfreqs * dtrends * dclasses * dinnovs)))" 
+        STDERR.puts 2
+        R.eval "print(summary(lm(taus ~ dfreqs + dtrends + dclasses + dinnovs)))" 
+        STDERR.puts 3
+        R.eval "print(summary(lm(taus ~ dfreqs + dtrends + dclasses)))" 
+        STDERR.puts 4
+        R.eval "print(summary(lm(taus ~ dfreqs + dtrends + dinnovs)))" 
+        STDERR.puts 5
+        R.eval "print(summary(lm(taus ~ dfreqs + dclasses + dinnovs)))" 
+        STDERR.puts 6
+        R.eval "print(summary(lm(taus ~ dtrends + dclasses + dinnovs)))" 
+        STDERR.puts 7
         R.eval "print(summary(lm(taus ~ dtrends)))"
+        STDERR.puts 8
+        R.eval "print(summary(lm(taus ~ dfreqs)))"
+        STDERR.puts 9
+        R.eval "print(summary(lm(taus ~ dinnovs)))"
+        STDERR.puts 10
+        R.eval "print(summary(lm(taus ~ dclasses)))"
+        STDERR.puts 11
+        R.eval "print(summary(lm(taus ~ dfreqs * dtrends * dclasses)))" 
+        STDERR.puts 12
+        R.eval "print(summary(lm(taus ~ dfreqs * dtrends * dinnovs)))" 
+        STDERR.puts 13
+        R.eval "print(summary(lm(taus ~ dfreqs *  dclasses * dinnovs)))" 
+        STDERR.puts 14
+        R.eval "print(summary(lm(taus ~ dtrends * dclasses * dinnovs)))" 
+        STDERR.puts 15
+        R.eval "print(summary(lm(taus ~ dtrends * dinnovs)))" 
+        STDERR.puts 16
+        R.eval "print(summary(lm(taus ~ dtrends * dclasses)))" 
+        STDERR.puts 17
+        R.eval "print(summary(lm(taus ~ dclasses * dinnovs)))" 
     
     end
     
