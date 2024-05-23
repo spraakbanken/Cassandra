@@ -37,10 +37,10 @@ end
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
 plotrq1 = false
-plotrq2 = false
-plotrq3 = true
+plotrq2 = true
+plotrq3 = false
 plotrq3a = false
-plotrq3b = true
+plotrq3b = false
 plotrq3c = false
 plotrq3d = false
 
@@ -424,9 +424,11 @@ if plotrq2
             
             R.eval "points(community, pch=23, col = 'black', bg=\"blue\")"
             R.eval "points(medians, pch=21, col = 'black', bg='orange')"
-            R.eval "points(mad, pch=25, col = 'black', bg=\"yellow\")"
+            R.eval "x <- 1:7"
+            R.eval "arrows(x, community-mad/2, x, community+mad/2, col='red', lwd = 2, length=0.05, angle=90, code=3)"
+            #R.eval "points(mad, pch=25, col = 'black', bg=\"yellow\")"
             R.eval "points(means, pch=24, col='black', bg = 'green')"
-            STDERR.puts mad.join(" ")
+            #STDERR.puts mad.join(" ")
         end
     end
     
