@@ -18,7 +18,7 @@ R.eval "setwd('plots')"
 
 
 cohorttype = 10
-part = 2
+part = 1
 plottype = "stripchart"
 year = "2008,2009,2010"
 t = 0
@@ -36,8 +36,8 @@ end
 
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-plotrq1 = false
-plotrq2 = true
+plotrq1 = true
+plotrq2 = false
 plotrq3 = false
 plotrq3a = false
 plotrq3b = false
@@ -45,7 +45,7 @@ plotrq3c = false
 plotrq3d = false
 
 if plotrq1
-    R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}_ylim#{ylimsrq1}.pdf')"
+    R.eval "pdf(file='#{plottype}_v2bycohort#{cohorttype}_t#{t}_#{year}_part#{part}_ylim#{ylimsrq1}_cohorta.pdf')"
     if cohorttype == 5
         R.eval "par(mfrow=c(2,2))"
         if part == 1
@@ -89,13 +89,11 @@ def yob_to_cohort(yob)
     if yob > 1992
         #abort("Invalid yob") 
         cohort = 0
-    elsif yob >= 1983
-        cohort = 4
-    elsif yob >= 1973
+    elsif yob >= 1980
         cohort = 3
     elsif yob == 1970
         cohort = 0 #this year must be exluded. It was already done by query_conllu, so this is just an extra safety
-    elsif yob >= 1963
+    elsif yob >= 1965
         cohort = 2
     elsif yob >= 1947
         cohort = 1
@@ -277,7 +275,7 @@ variables.each do |variable|
 
     if plotrq1
         if cohorttype == 10
-            for i in 1..4 do 
+            for i in 1..3 do 
                 R.assign "d#{i}",coh_v2hash[i]
                 R.assign "dvar#{i}",coh_v2hash_var[i]
                 microave = coh_v2abs[i]/coh_total[i]
@@ -288,33 +286,33 @@ variables.each do |variable|
             elsif plottype == "stripchart"
                 #R.eval "df <- data.frame(d1,d2,d3,d4)"
                 #R.eval "names(df) <- c(\"47-62\",\"-72\",\"-82\",\"-92\")"
-                R.eval "stripchart(list(d1,d2,d3,d4), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2), ylim = c(#{ylimrq1l[variable]}, #{ylimrq1u[variable]}))"
-                R.eval "medians = c(median(d1),median(d2),median(d3),median(d4))"
+                R.eval "stripchart(list(d1,d2,d3), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-64\",\"-79\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2), ylim = c(#{ylimrq1l[variable]}, #{ylimrq1u[variable]}))"
+                R.eval "medians = c(median(d1),median(d2),median(d3))"
                 R.eval "points(medians, pch=21, col = 'black', bg='orange')"
             end
-            R.eval "means = c(mean(d1),mean(d2),mean(d3),mean(d4))"
+            R.eval "means = c(mean(d1),mean(d2),mean(d3))"
             R.eval "points(means, pch=24, col='black', bg = 'green')"
-            R.eval "ref = c(1,2,3,4)"
+            R.eval "ref = c(1,2,3)"
             kendall_medians = R.pull "cor.test(medians,ref,method='kendall')$estimate"
             kendall_means = R.pull "cor.test(means,ref,method='kendall')$estimate"
 
             R.eval "diffmean21 = mean(d2) - mean(d1)"
             R.eval "diffmean32 = mean(d3) - mean(d2)"
-            R.eval "diffmean43 = mean(d4) - mean(d3)"
-            R.eval "sum_diffmean = sum(diffmean21,diffmean32,diffmean43)"
+            #R.eval "diffmean43 = mean(d4) - mean(d3)"
+            R.eval "sum_diffmean = sum(diffmean21,diffmean32)"
             R.eval "rel_diffmean21 = diffmean21/sum_diffmean"
             R.eval "rel_diffmean32 = diffmean32/sum_diffmean"
-            R.eval "rel_diffmean43 = diffmean43/sum_diffmean"
+            #R.eval "rel_diffmean43 = diffmean43/sum_diffmean"
             diffmean21 = R.pull "diffmean21"
             diffmean32 = R.pull "diffmean32"
-            diffmean43 = R.pull "diffmean43"
+            #diffmean43 = R.pull "diffmean43"
             rel_diffmean21 = R.pull "rel_diffmean21"
             rel_diffmean32 = R.pull "rel_diffmean32"
-            rel_diffmean43 = R.pull "rel_diffmean43"
-            STDOUT.puts "#{variable}\t#{diffmean21}\t#{diffmean32}\t#{diffmean43}\t#{rel_diffmean21}\t#{rel_diffmean32}\t#{rel_diffmean43}"
+            #rel_diffmean43 = R.pull "rel_diffmean43"
+            STDOUT.puts "#{variable}\t#{diffmean21}\t#{diffmean32}\t#{rel_diffmean21}\t#{rel_diffmean32}"
 
-            STDERR.puts kendall_medians
-            STDERR.puts kendall_means
+            #STDERR.puts kendall_medians
+            #STDERR.puts kendall_means
             #R.eval "points(c(median(dvar1),median(dvar2),median(dvar3),median(dvar4)), pch=17, col=\"blue\")"
             #R.eval "points(c(m1,m2,m3,m4), pch=23, col='black', bg = 'yellow')"
         elsif cohorttype == 5
