@@ -18,7 +18,7 @@ R.eval "setwd('plots')"
 
 
 cohorttype = 10
-part = 1
+part = "allverbs"
 plottype = "stripchart"
 year = "2008,2009,2010"
 t = 0
@@ -71,8 +71,8 @@ if plotrq1
 end
 
 variables2 = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
-variables3 = ["försöka", "fortsätta",  "komma", "slippa", "sluta", "vägra"]
-#variables3 = ["försöka", "komma", "slippa", "vägra"]
+#variables3 = ["försöka", "fortsätta",  "komma", "slippa", "sluta", "vägra"]
+variables3 = ["försöka", "komma", "slippa", "vägra"]
 
 intersection = find_intersection(year, t2, variables3)
 #STDERR.puts intersection.length
@@ -296,8 +296,8 @@ variables.each do |variable|
             kendall_medians = R.pull "cor.test(medians,ref,method='kendall')$estimate"
             kendall_means = R.pull "cor.test(means,ref,method='kendall')$estimate"
 
-            R.eval "diffmean21 = mean(d2) - mean(d1)"
-            R.eval "diffmean32 = mean(d3) - mean(d2)"
+            R.eval "diffmean21 = median(d2) - median(d1)"
+            R.eval "diffmean32 = median(d3) - median(d2)"
             #R.eval "diffmean43 = mean(d4) - mean(d3)"
             R.eval "sum_diffmean = sum(diffmean21,diffmean32)"
             R.eval "rel_diffmean21 = diffmean21/sum_diffmean"
@@ -478,16 +478,16 @@ if plotrq3
         plottype = "stripchart"
         R.eval "pdf(file='#{plottype}_rq3b_coherence_t2#{t2}_#{year}_verbs#{variables3.length}.pdf')"
    
-        for i in 1..4 do 
+        for i in 1..3 do 
             R.assign "d#{i}",cohort_coherence[i]
         end
             if plottype == "boxplot"
                 R.eval "boxplot(d1,d2,d3,d4, varwidth = TRUE, names = c(\"47-62\",\"-72\",\"-82\",\"-92\"))"
             elsif plottype == "stripchart"
-                R.eval "stripchart(list(d1,d2,d3,d4), group.names = c(\"47-62\",\"-72\",\"-82\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))"
-                R.eval "points(c(median(d1),median(d2),median(d3),median(d4)), pch=21, col = 'black', bg='orange')"
+                R.eval "stripchart(list(d1,d2,d3), group.names = c(\"47-64\",\"-79\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2))"
+                R.eval "points(c(median(d1),median(d2),median(d3)), pch=21, col = 'black', bg='orange')"
             end
-            R.eval "points(c(mean(d1),mean(d2),mean(d3),mean(d4)), pch=24, col='black', bg = 'green')"
+            R.eval "points(c(mean(d1),mean(d2),mean(d3)), pch=24, col='black', bg = 'green')"
             #R.eval "points(means, pch=24, col='black', bg = 'green')"
         R.eval "dev.off()"
     end
