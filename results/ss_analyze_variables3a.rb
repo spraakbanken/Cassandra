@@ -36,11 +36,11 @@ end
 
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-plotrq1 = true
+plotrq1 = false
 plotrq2 = false
-plotrq3 = false
+plotrq3 = true
 plotrq3a = false
-plotrq3b = false
+plotrq3b = true
 plotrq3c = false
 plotrq3d = false
 

@@ -37,10 +37,10 @@ end
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
 plotrq1 = false
-plotrq2 = true
-plotrq3 = false
+plotrq2 = false
+plotrq3 = true
 plotrq3a = false
-plotrq3b = false
+plotrq3b = true
 plotrq3c = false
 plotrq3d = false
 
@@ -71,8 +71,8 @@ if plotrq1
 end
 
 variables2 = ["försöka", "fortsätta",  "glömma", "komma", "slippa", "sluta", "vägra"]
-variables3 = ["försöka", "fortsätta",  "komma", "slippa", "sluta", "vägra"]
-#variables3 = ["försöka", "komma", "slippa", "vägra"]
+#variables3 = ["försöka", "fortsätta",  "komma", "slippa", "sluta", "vägra"]
+variables3 = ["försöka", "komma", "slippa", "vägra"]
 
 intersection = find_intersection(year, t2, variables3)
 #STDERR.puts intersection.length
@@ -149,7 +149,7 @@ rq2 = Hash.new{|hash, key| hash[key] = Array.new}
 speaker_general_properties = {}
 speaker_properties = Hash.new{|hash, key| hash[key] = Hash.new}
 
-#STDOUT.puts "variable\tdiffmean21\tdiffmean32\tdiffmean43\trel_diffmean21\trel_diffmean32\trel_diffmean43"
+STDOUT.puts "variable\tdiffmean21\tdiffmean32\tdiffmean43\trel_diffmean21\trel_diffmean32\trel_diffmean43"
 
 variables.each do |variable|
     agehash = {}
@@ -397,7 +397,6 @@ if plotrq2
         R.assign "mad", mad
         R.assign "medians", [median(rq2["försöka"]), median(rq2["fortsätta"]), median(rq2["glömma"]), median(rq2["komma"]), median(rq2["slippa"]), median(rq2["sluta"]), median(rq2["vägra"])]
         R.assign "means", [mean(rq2["försöka"]), mean(rq2["fortsätta"]), mean(rq2["glömma"]), mean(rq2["komma"]), mean(rq2["slippa"]), mean(rq2["sluta"]), mean(rq2["vägra"])]
-        
     end
     
     
@@ -425,14 +424,9 @@ if plotrq2
             
             R.eval "points(community, pch=23, col = 'black', bg=\"blue\")"
             R.eval "points(medians, pch=21, col = 'black', bg='orange')"
-            R.eval "x <- 1:7"
-            R.eval "arrows(x, community-mad/2, x, community+mad/2, col='red', lwd = 2, length=0.05, angle=90, code=3)"
-            #R.eval "points(mad, pch=25, col = 'black', bg=\"yellow\")"
+            R.eval "points(mad, pch=25, col = 'black', bg=\"yellow\")"
             R.eval "points(means, pch=24, col='black', bg = 'green')"
-            #STDERR.puts mad.join(" ")
-            variables.each do |variable|
-                STDERR.puts "#{variable}\t#{(rq2[variable].count(1).to_f + rq2[variable].count(0).to_f)/rq2[variable].length}"
-            end
+            STDERR.puts mad.join(" ")
         end
     end
     
