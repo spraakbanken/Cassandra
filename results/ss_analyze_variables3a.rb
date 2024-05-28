@@ -349,7 +349,7 @@ if plotrq1
 end
 
 if plotrq2
-    plottype = "stripchart"
+    plottype = "histogram"
     part = "allverbs"
     mode = "" #"_deviances"
     R.eval "pdf(file='#{plottype}_rq2innovation#{mode}_t2#{t2}_#{year}_part#{part}.pdf')"
@@ -431,6 +431,13 @@ if plotrq2
             variables.each do |variable|
                 STDERR.puts "#{variable}\t#{(rq2[variable].count(1).to_f + rq2[variable].count(0).to_f)/rq2[variable].length}"
             end
+        end
+    elsif plottype == "histogram"
+        R.eval "par(mfrow=c(2,4))"
+        for i in 1..7 do 
+            verb = variables2[i-1].encode("windows-1252")
+            R.eval "hist(d#{i}, main = '#{verb}', axes = FALSE, xlab = '', ylab = '', breaks = c(0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0))"
+            #breaks = 10
         end
     end
     
@@ -529,7 +536,7 @@ if plotrq3
         #R.eval "sink()"
         R.eval "pdf(file='rq3c_coherence_t2#{t2}_#{year}_verbs#{variables3.length}_#{method}#{correl_what}.pdf')"
         #R.eval "plot(df)"
-        R.eval "ggpairs(df,upper = list(continuous = wrap('cor', method = '#{method}', stars = FALSE)),diag = list(continuous = 'barDiag'), axisLabels = 'none')"
+        R.eval "ggpairs(df,upper = list(continuous = wrap('cor', method = '#{method}', stars = FALSE)),diag = list(continuous = 'blankDiag'), axisLabels = 'none')"
         R.eval "warnings()"
         R.eval "dev.off()"
     end
