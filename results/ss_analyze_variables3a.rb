@@ -37,8 +37,8 @@ end
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
 plotrq1 = false
-plotrq2 = false
-plotrq3 = true
+plotrq2 = true
+plotrq3 = false
 plotrq3a = false
 plotrq3b = false
 plotrq3c = true
@@ -436,7 +436,7 @@ if plotrq2
         R.eval "par(mfrow=c(2,4))"
         for i in 1..7 do 
             verb = variables2[i-1].encode("windows-1252")
-            R.eval "hist(d#{i}, main = '#{verb}', axes = FALSE, xlab = '', ylab = '', breaks = c(0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0))"
+            R.eval "hist(d#{i}, main = '#{verb}', xlab = '', ylab = '', breaks = c(0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0), freq=TRUE)"
             #breaks = 10
         end
     end
