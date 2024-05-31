@@ -18,7 +18,7 @@ R.eval "setwd('plots')"
 
 
 cohorttype = 10
-part = "allverbs"
+part = 2
 plottype = "stripchart"
 year = "2008,2009,2010"
 t = 0
@@ -36,8 +36,8 @@ end
 
 
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
-plotrq1 = false
-plotrq2 = true
+plotrq1 = true
+plotrq2 = false
 plotrq3 = false
 plotrq3a = false
 plotrq3b = false
@@ -286,7 +286,7 @@ variables.each do |variable|
             elsif plottype == "stripchart"
                 #R.eval "df <- data.frame(d1,d2,d3,d4)"
                 #R.eval "names(df) <- c(\"47-62\",\"-72\",\"-82\",\"-92\")"
-                R.eval "stripchart(list(d1,d2,d3), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-64\",\"-79\",\"-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2), ylim = c(#{ylimrq1l[variable]}, #{ylimrq1u[variable]}))"
+                R.eval "stripchart(list(d1,d2,d3), main = \"#{variable.encode("windows-1252")}\", group.names = c(\"47-64\",\"65-79\",\"80-92\"), vertical = TRUE, method=\"jitter\", pch=15, col=rgb(0, 0, 0, 0.2), ylim = c(#{ylimrq1l[variable]}, #{ylimrq1u[variable]}))"
                 R.eval "medians = c(median(d1),median(d2),median(d3))"
                 R.eval "points(medians, pch=21, col = 'black', bg='orange')"
             end
