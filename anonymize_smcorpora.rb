@@ -1,4 +1,4 @@
-corpus = "flashback"
+corpus = "familjeliv"
 path = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
 
 if corpus == "flashback"
@@ -27,7 +27,7 @@ subforums.each do |subforum|
             if !line1.split("=")[1].nil?
                 current_user = line1.split("=")[1].strip
                 if usernames[current_user].nil?
-                    if corpus == "familjeliv" and username.downcase.include?("anonym")
+                    if corpus == "familjeliv" and current_user.downcase.include?("anonym")
                         acounter += 1
                         zeroes = "0000000"[acounter.to_s.length..-1]  
                         usernames[current_user] = "usera#{zeroes}#{acounter}"
