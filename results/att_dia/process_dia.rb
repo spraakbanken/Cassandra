@@ -5,9 +5,11 @@ threshold_per_year = 4
 threshold_years = 4
 
 verblist.each do |verb|
+    STDERR.puts verb
     authoryear_v2 = Hash.new{|hash, key| hash[key] = Hash.new(0.0)}
     authoryear_total = Hash.new{|hash, key| hash[key] = Hash.new(0.0)}
     
+    STDERR.puts "Reading"
     f = File.open("familjeliv_#{verb}_t#{total_threshold}.tsv","r:utf-8")
     f.each_line.with_index do |line,index|
         if index > 0
@@ -23,6 +25,7 @@ verblist.each do |verb|
         end
     end
     f.close
+    STDERR.puts "Writing"
     authoryear_v2.each_pair do |author,authorhash|
         if authorhash.keys.length >= threshold_years
             o = File.open("individuals\\#{verb}_#{author}_#{threshold_per_year}_#{threshold_years}.tsv"
