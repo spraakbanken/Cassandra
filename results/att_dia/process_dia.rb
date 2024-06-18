@@ -25,7 +25,7 @@ verblist.each do |verb|
     f.close
     authoryear_v2.each_pair do |author,authorhash|
         if authorhash.keys.length >= threshold_years
-            o = File.open("#{verb}_#{author}_#{threshold_per_year}_#{threshold_years}.tsv"
+            o = File.open("individuals\\#{verb}_#{author}_#{threshold_per_year}_#{threshold_years}.tsv"
             for year in 2003..2022 do
                 o.puts "#{year}\t#{authorhash[year].to_f}\t#{authoryear_total[author][year].to_f}"
             end
