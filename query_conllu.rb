@@ -32,7 +32,7 @@ if with_age
     #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 else
     #PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
-    PATH = "D:\\DGU\\CassandraMy\\SMCorpora\\"
+    PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\"
 end
 
 
