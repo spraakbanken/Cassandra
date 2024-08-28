@@ -5,6 +5,30 @@
 # microave: blue diamond
 # mad from median: yellow triange down
 
+step = 4
+cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
+cohorts = {}
+
+cohortsfile.each_line.with_index do |line,index|
+    if index > 0 
+        line2 = line.strip.split("\t")
+        cohorts[index] = line2
+    end
+end
+
+ncohorts = cohorts.keys.length.to_f
+testsetsize = ncohorts/4
+train = []
+test = []
+cohorts.each_key do |key|
+    if key <= ncohorts - testsetsize
+        train << key
+    else
+        test << key
+    end
+end
+
+
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 
 #check that the order within arrays is equivalent
