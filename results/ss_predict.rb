@@ -41,6 +41,10 @@ require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 require "rinruby"
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
+variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
+variables.each do |variable|
+    filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
+end
 
 __END__
 cohorttype = 10
