@@ -20,6 +20,8 @@ ncohorts = cohorts.keys.length.to_f
 testsetsize = ncohorts/4
 train = []
 test = []
+
+#adjust for cross-validation
 cohorts.each_key do |key|
     if key <= ncohorts - testsetsize
         train << key
@@ -40,7 +42,7 @@ require "rinruby"
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
 
-
+__END__
 cohorttype = 10
 part = 2
 plottype = "stripchart"
