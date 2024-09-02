@@ -5,6 +5,9 @@
 # microave: blue diamond
 # mad from median: yellow triange down
 
+year = "2008,2009,2010"
+t = 0
+
 step = 4
 cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
 cohorts = {}
@@ -14,6 +17,20 @@ cohortsfile.each_line.with_index do |line,index|
         line2 = line.strip.split("\t")
         cohorts[index] = line2
     end
+end
+
+cohortidhash = {}
+cohorttokenhash = {}
+cohortauthorhash = {}
+cohorts.each_pair do |id,cohortinfo|
+    start = cohortinfo[0].to_i
+    finish = cohortinfo[1].to_i
+    for i in start..finish
+        cohortidhash[i] = id
+    end
+    cohorttokenhash[id] = cohortinfo[2].to_i
+    cohortauthorhash[id] = cohortinfo[3].to_i
+
 end
 
 ncohorts = cohorts.keys.length.to_f
@@ -42,8 +59,45 @@ require "rinruby"
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
 variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
+by_verb_by_cohort_tokens = Hash.new{|hash,key| hash[key] = Hash.new(0)}
+by_verb_by_cohort_authors = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 variables.each do |variable|
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
+    f = File.open(filename,"r:utf-8")
+    f.each_line.with_index do |line,index|
+        if index > 0
+            line2 = line.split("\t")
+            speaker = line2[1]
+            yob = line2[2].to_i
+            innov = line2[-1].to_f
+            #v2abs = line2[-3].to_f
+            #vtotal = line2[-5].to_f
+            total = line2[4].to_i
+            cohort = cohortidhash[yob]
+            by_verb_by_cohort_tokens[variable][cohort] += total
+            by_verb_by_cohort_authors[variable][cohort] += 1
+            
+        end
+    end
+end
+
+o1 = File.open("by_cohort_stats_occurrences_step#{step}.tsv","w:utf-8")
+o2 = File.open("by_cohort_stats_authors_step#{step}.tsv","w:utf-8")
+
+o1.puts "variable\t#{cohorts.keys.join("\t")}"
+o2.puts "variable\t#{cohorts.keys.join("\t")}"
+
+by_verb_by_cohort_tokens.each_pair do |verb, verbhash|
+    output1 = "#{verb}"
+    output2 = "#{verb}"
+    cohorts.each_key do |cohort|
+        output1 << "\t#{verbhash[cohort]}"
+        output2 << "\t#{by_verb_by_cohort_authors[verb][cohort]}"
+    end
+
+    o1.puts output1
+    o2.puts output2
+    
 end
 
 __END__

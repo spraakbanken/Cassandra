@@ -25,7 +25,7 @@ end
 yobs2 = yobs.keys.sort
 max = yobs2[-1]
 
-step = 4
+step = 8
 
 o = File.open("cohorts_min#{min}_step#{step}.tsv","w:utf-8")
 o.puts "yob_start\tyob_end\tntokens\tnauthors"
