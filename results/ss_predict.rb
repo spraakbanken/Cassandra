@@ -8,7 +8,7 @@
 year = "2008,2009,2010"
 t = 0
 
-step = 4
+step = 8
 cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
 cohorts = {}
 
