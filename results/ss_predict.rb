@@ -58,11 +58,51 @@ require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 require "rinruby"
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
-variables = ["behaga", "fortsätta", "försöka", "glömma", "komma", "lova", "planera", "riskera","slippa", "sluta", "vägra"]
+excluded_variables = ["behaga", "lova"]
+variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
 by_verb_by_cohort_tokens = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 by_verb_by_cohort_authors = Hash.new{|hash,key| hash[key] = Hash.new(0)}
+macroinnov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new(0)}
+
+avar_community = {}
+freq = {}
+trend = {}
+sclass = {}
+o3 = File.open("for_regression_step#{step}.tsv","w:utf-8")
+o3.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\ttest"
 variables.each do |variable|
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
+    vardata = File.open("variable_stats.tsv","r:utf-8")
+    vardata.each_line.with_index do |line,index|
+        if index > 0
+            line2 = line.strip.split("\t")
+            
+            if variable == line2[0]
+                freq[variable] = line2[3].to_f
+                trend[variable] = line2[4]
+                sclass[variable] = line2[5]
+            end
+        end
+    end
+    
+    fcommunity = "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\variables\\ss90_#{variable}\\familjeliv\\all\\all_users.tsv"
+    fc = File.open(fcommunity, "r:utf-8")
+    community_average = 0.0
+    fc.each_line.with_index do |line,index|
+        if index > 0
+            line2 = line.strip.split("\t")
+            period = line2[0]
+            if year.include?(period)
+                community_average += line2[5].to_f
+            end
+            
+        end
+    end
+    community_average = community_average/(year.split(",").length)
+    avar_community[variable] = community_average
+    fc.close
+
+
     f = File.open(filename,"r:utf-8")
     f.each_line.with_index do |line,index|
         if index > 0
@@ -70,10 +110,13 @@ variables.each do |variable|
             speaker = line2[1]
             yob = line2[2].to_i
             innov = line2[-1].to_f
-            #v2abs = line2[-3].to_f
+            v2abs = line2[-3].to_f
             #vtotal = line2[-5].to_f
             total = line2[4].to_i
             cohort = cohortidhash[yob]
+
+            macroinnov_by_variable_by_cohort[variable][cohort] += innov
+            
             by_verb_by_cohort_tokens[variable][cohort] += total
             by_verb_by_cohort_authors[variable][cohort] += 1
             
@@ -99,6 +142,14 @@ by_verb_by_cohort_tokens.each_pair do |verb, verbhash|
     o2.puts output2
     
 end
+
+variables.each do |variable|
+    cohorts.each_key do |cohort|
+        macroinnov = macroinnov_by_variable_by_cohort[variable][cohort].to_f/by_verb_by_cohort_authors[variable][cohort]
+        o3.puts "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{test.count(cohort)}"
+    end
+end
+
 
 __END__
 cohorttype = 10
