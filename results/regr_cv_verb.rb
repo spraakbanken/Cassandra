@@ -3,7 +3,7 @@ require "rinruby"
 #require_relative "ba.rb"
 
 #R.eval "library('lme4')"
-step = 8
+step = 4
 testsize = 8/step
 xcoords1 = {4 => "6.9,7.9", 8 => "3.9"}
 xcoords2 = {4 => "7.1,8.1", 8 => "4.1"}
@@ -62,7 +62,7 @@ fold = 1
 for fold in 1..9 do
     STDERR.puts "Joint fold #{fold}"
     v_test = [variables[fold-1]]
-    v_train = variables.delete_at(fold-1)
+    v_train = variables.reject{|n| n==v_test[0]}
     
 
     R.assign "v_train", v_train
