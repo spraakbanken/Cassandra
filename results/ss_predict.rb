@@ -8,7 +8,7 @@
 year = "2008,2009,2010"
 t = 0
 
-step = 8
+step = 4
 cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
 cohorts = {}
 
@@ -38,15 +38,21 @@ testsetsize = ncohorts/4
 train = []
 test = []
 
-#adjust for cross-validation
-cohorts.each_key do |key|
-    if key <= ncohorts - testsetsize
-        train << key
-    else
-        test << key
+for testid in 1..4 do
+    if step == 4
+        start = testid*2 - 1 
+        finish = testid*2
+    elsif step == 8
+        start = testid
+        finish = testid
+    end
+    test[testid] = []
+    cohorts.each_key do |key|
+        if key >= start and key <= finish
+            test[testid] << key
+        end
     end
 end
-
 
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 
@@ -69,7 +75,7 @@ freq = {}
 trend = {}
 sclass = {}
 o3 = File.open("for_regression_step#{step}.tsv","w:utf-8")
-o3.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\ttest"
+o3.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\ttest1\ttest2\ttest3\ttest4"
 variables.each do |variable|
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
     vardata = File.open("variable_stats.tsv","r:utf-8")
@@ -146,7 +152,7 @@ end
 variables.each do |variable|
     cohorts.each_key do |cohort|
         macroinnov = macroinnov_by_variable_by_cohort[variable][cohort].to_f/by_verb_by_cohort_authors[variable][cohort]
-        o3.puts "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{test.count(cohort)}"
+        o3.puts "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{test[1].count(cohort)}\t#{test[2].count(cohort)}\t#{test[3].count(cohort)}\t#{test[4].count(cohort)}"
     end
 end
 
