@@ -64,7 +64,7 @@ for fold in 1..4 do
     R.eval "test2 = dataset[dataset$test#{fold} == 1,]"
     #R.eval "m2 = lm(value ~ cohort + community + freq + trend + sclass + cohort:community + cohort:freq + cohort:trend + cohort:sclass, data = train2)"
     R.eval "m2 = lm(value ~ cohort + community + sclass + cohort:sclass, data = train2)"
-    
+    #WHEN OTHER: R.eval "m2 = lm(value ~ cohort + community + sclass + cohort:sclass, data = train2)"
     #R.eval "m2 = lm(value ~ cohort, data = train2)"
     R.eval "preds2 = predict.lm(m2,test2,type='response')"
     preds2[fold] = R.pull "preds2"

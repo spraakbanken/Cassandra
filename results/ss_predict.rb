@@ -87,6 +87,10 @@ variables.each do |variable|
                 freq[variable] = line2[3].to_f
                 trend[variable] = line2[4]
                 sclass[variable] = line2[5]
+                if sclass[variable] == "deontic" or sclass[variable] == "temporal"
+                    STDERR.puts variable
+                    sclass[variable] = "other"
+                end
             end
         end
     end
