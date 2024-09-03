@@ -8,7 +8,7 @@
 year = "2008,2009,2010"
 t = 0
 
-step = 4
+step = 8
 cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
 cohorts = {}
 
@@ -88,7 +88,7 @@ variables.each do |variable|
                 trend[variable] = line2[4]
                 sclass[variable] = line2[5]
                 if sclass[variable] == "deontic" or sclass[variable] == "temporal"
-                    STDERR.puts variable
+                    #STDERR.puts variable
                     sclass[variable] = "other"
                 end
             end

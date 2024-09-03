@@ -3,7 +3,7 @@ require "rinruby"
 #require_relative "ba.rb"
 
 #R.eval "library('lme4')"
-step = 4
+step = 8
 testsize = 8/step
 xcoords1 = {4 => "6.9,7.9", 8 => "3.9"}
 xcoords2 = {4 => "7.1,8.1", 8 => "4.1"}
@@ -63,8 +63,9 @@ for fold in 1..4 do
     R.eval "train2 = dataset[dataset$test#{fold} == 0,]"
     R.eval "test2 = dataset[dataset$test#{fold} == 1,]"
     #R.eval "m2 = lm(value ~ cohort + community + freq + trend + sclass + cohort:community + cohort:freq + cohort:trend + cohort:sclass, data = train2)"
-    R.eval "m2 = lm(value ~ cohort + community + sclass + cohort:sclass, data = train2)"
-    #WHEN OTHER: R.eval "m2 = lm(value ~ cohort + community + sclass + cohort:sclass, data = train2)"
+    #R.eval "m2 = lm(value ~ cohort + community + sclass + cohort:sclass, data = train2)"
+    R.eval "m2 = lm(value ~ cohort + community + cohort:community + freq + trend + cohort:freq + cohort:trend, data = train2)"
+    #R.eval "m2 = lm(value ~ cohort * community * freq * trend, data = train2)"
     #R.eval "m2 = lm(value ~ cohort, data = train2)"
     R.eval "preds2 = predict.lm(m2,test2,type='response')"
     preds2[fold] = R.pull "preds2"
