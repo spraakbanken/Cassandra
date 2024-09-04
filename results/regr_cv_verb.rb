@@ -55,7 +55,7 @@ variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera"
 #nonlinearity
 #exclude unknown verbs and try on them?
 preds2 = []
-;fold = 1
+#fold = 1
 #sum_mae2 = 0.0
 #joint_mae_all = Hash.new{|hash,key| hash[key] = Hash.new}
 #separate_mae_all = Hash.new{|hash,key| hash[key] = Hash.new}
