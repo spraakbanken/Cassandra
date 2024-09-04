@@ -3,13 +3,16 @@ require "rinruby"
 
 
 #R.eval "library('lme4')"
-step = 4
+step = 8
 testsize = 8/step
-xcoords1 = {4 => "6.9,7.9", 8 => "3.9"}
-xcoords2 = {4 => "7.1,8.1", 8 => "4.1"}
+normalize = 2
+
 R.eval "dataset = read.csv('for_regression_step#{step}.tsv', sep='\t',header=TRUE)"
 R.eval "names = c('trend','sclass')"
 R.eval "dataset[,names] <- lapply(dataset[,names],factor)"
+joint_mae_all = Hash.new{|hash,key| hash[key] = Hash.new}
+separate_mae_all = Hash.new{|hash,key| hash[key] = Hash.new}
+byverb_mae_all = Hash.new{|hash,key| hash[key] = Hash.new}
     
 
 def bound_pred(unbound_preds)
@@ -44,9 +47,30 @@ modelformula = "cohort + community + cohort:community + freq + trend + cohort:fr
 
 vpreds2 = {}
 
-vmae2_sum = 0.0
+sum_micro_fmae = 0.0
+
+normalized_per_verb = {}
+
+max_normalized = 0.0
+if normalize == 2
+    variables.each do |variable|
+        v_test = [variable]
+        R.assign "v_test", v_test
+
+        R.eval "test2 = dataset[dataset$variable %in% v_test,]"
+        R.eval "normalized = max(test2$value) - min(test2$value)"
+        normalized = R.pull "normalized"
+        if normalized > max_normalized
+            max_normalized = normalized.clone
+        end
+    end
+end
+
 variables.each do |variable|
     STDERR.puts variable
+    if normalize == 2
+        normalized_per_verb[variable] = max_normalized
+    end
     v_test = [variable]
     v_train = variables.reject{|n| n==variable}
     
@@ -62,21 +86,48 @@ variables.each do |variable|
     vpreds2[variable] = R.pull "preds2"
     vpreds2[variable] = bound_pred(vpreds2[variable])
     R.assign "preds2", vpreds2[variable]
-    R.eval "vmae2 = mean(abs(preds2-test2$value))"
-    vmae2 = R.pull "vmae2"
-    STDERR.puts vmae2
-    vmae2_sum += vmae2
+    if normalize == 1
+        R.eval "normalized = max(test2$value) - min(test2$value)"
+        normalized = R.pull "normalized"
+        normalized_per_verb[variable] = normalized
+    end
+    #R.eval "vmae2 = mean(abs(preds2-test2$value))"
+    #vmae2 = R.pull "vmae2"
+    #if normalize > 0
+    #    vmae2 = vmae2 / normalized_per_verb[variable]
+    #end
+    #STDERR.puts vmae2
+    #vmae2_sum += vmae2
+    actual = R.pull "test2$value"
+    fmae_sum = 0.0
+    for fold in 1..4 do
+        if step == 4
+            predsf = vpreds2[variable][(fold-1)*2..(fold-1)*2 + 1]
+            actualf = actual[(fold-1)*2..(fold-1)*2 + 1]
+        elsif step == 8
+            predsf = vpreds2[variable][fold-1]
+            actualf = actual[fold-1]
+        end
+        R.assign "predsf", predsf
+        R.assign "actual", actual
+        R.eval "fmae = mean(abs(predsf-actual))"
+        fmae = R.pull "fmae"
+        if normalize > 0
+            fmae = fmae / normalized_per_verb[variable]
+        end
+        byverb_mae_all[variable][fold] = fmae
+        fmae_sum += fmae
+    end
+    sum_micro_fmae += fmae_sum
 end 
-ave_vmae2 = vmae2_sum / variables.length
-
+ave_vmae2 = sum_micro_fmae / (variables.length * 4)
+#STDERR.puts normalized_per_verb
 #__END__
 
 
 preds2 = []
 
 sum_mae2 = 0.0
-joint_mae_all = Hash.new{|hash,key| hash[key] = Hash.new}
-separate_mae_all = Hash.new{|hash,key| hash[key] = Hash.new}
 for fold in 1..4 do
     STDERR.puts "Joint fold #{fold}"
     R.eval "train2 = dataset[dataset$test#{fold} == 0,]"
@@ -130,6 +181,9 @@ variables.each.with_index do |variable,index|
         R.eval "mae = mean(abs(preds-test$value))"
         
         mae = R.pull "mae"
+        if normalize > 0
+            mae = mae/normalized_per_verb[variable]
+        end
         sum_mae += mae
         
         preds = R.pull "preds"
@@ -173,6 +227,9 @@ variables.each.with_index do |variable,index|
         
         R.eval "mae_joint = mean(abs(preds2var-test$value))"
         mae_joint = R.pull "mae_joint"
+        if normalize > 0
+            mae_joint = mae_joint/normalized_per_verb[variable]
+        end
         joint_mae_all[variable][fold] = mae_joint
         separate_mae_all[variable][fold] = mae
         #sum_mae_joint += mae_joint
@@ -193,23 +250,31 @@ R.eval "dev.off()"
 ave_micro_mae = sum_micro_mae/(variables.length * 4)
 
 STDERR.puts "Average mae predicting unknown verbs: #{ave_vmae2}"
-STDERR.puts "Joint (interactions with cohort) mae overall: #{ave_mae2}"
 STDERR.puts "Average micromae separately: #{ave_micro_mae}"
+#if !normalize
+    
+#end
 
 o1 = File.open("predicting_step#{step}_error_separate.tsv","w:utf-8")
 o2 = File.open("predicting_step#{step}_error_joint.tsv","w:utf-8")
+o3 = File.open("predicting_step#{step}_error_byverb.tsv","w:utf-8")
 
 o1.puts "variable\tfold1\tfold2\tfold3\tfold4\tmean"
 o2.puts "variable\tfold1\tfold2\tfold3\tfold4\tmean"
+o3.puts "variable\tfold1\tfold2\tfold3\tfold4\tmean"
 
 sum_mae_per_fold = Hash.new(0.0)
 sum_mae2_per_fold = Hash.new(0.0)
+sum_mae3_per_fold = Hash.new(0.0)
+sum_mae2_per_variable = 0.0
 
 separate_mae_all.each_pair do |variable,vhash|
     output1 = "#{variable}"
     output2 = "#{variable}"
+    output3 = "#{variable}"
     sum_mae = 0.0
     sum_mae2 = 0.0
+    sum_mae3 = 0.0
     vhash.each_pair do |fold,mae|
         output1 << "\t#{mae}"
         sum_mae += mae
@@ -218,105 +283,43 @@ separate_mae_all.each_pair do |variable,vhash|
         sum_mae2 += mae2
         sum_mae_per_fold[fold] += mae
         sum_mae2_per_fold[fold] += mae2
+        mae3 = byverb_mae_all[variable][fold]
+        output3 << "\t#{mae3}"
+
+        sum_mae3 += mae3
+        sum_mae3_per_fold[fold] += mae3
     end
     output1 << "\t#{sum_mae/4}"
     output2 << "\t#{sum_mae2/4}"
+    output3 << "\t#{sum_mae3/4}"
+    sum_mae2_per_variable += sum_mae2 / 4
     o1.puts output1
     o2.puts output2
+    o3.puts output3
 end
 
 output1 = "mean"
 output2 = "mean"
+output3 = "mean"
     
 for fold in 1..4
     output1 << "\t#{sum_mae_per_fold[fold]/variables.length}"
     output2 << "\t#{sum_mae2_per_fold[fold]/variables.length}"
+    output3 << "\t#{sum_mae3_per_fold[fold]/variables.length}"
 end
 output1 << "\t#{ave_micro_mae}"
-output2 << "\t#{ave_mae2}"
+output3 << "\t#{ave_vmae2}"
+
+
+if normalize > 0
+    normalized_ave_mae2 = sum_mae2_per_variable/variables.length
+    output2 << "\t#{normalized_ave_mae2}"
+    STDERR.puts "Joint (interactions with cohort) mae overall: #{normalized_ave_mae2}"
+else
+    output2 << "\t#{ave_mae2}" 
+    STDERR.puts "Joint (interactions with cohort) mae overall: #{ave_mae2}"
+end
 
 o1.puts output1
 o2.puts output2
-
-__END__
-
-R.eval "train2 = dataset[dataset$test == 0,]"
-R.eval "names = c('trend','sclass')"
-R.eval "train2[,names] <- lapply(train2[,names],factor)"
-
-R.eval "test2 = dataset[dataset$test == 1,]"
-R.eval "m2 = lm(value ~ cohort + community + freq + trend + sclass, data = train2)"
-R.eval "preds2 = predict.lm(m2,test2,type='response')"
-R.eval "mae2 = mean(abs(preds2-test2$value))"
-mae2 = R.pull "mae2"
-STDERR.puts "Joint (no interactions): #{mae2}"
-
-R.eval "m2 = lm(value ~ cohort + community + freq + trend + sclass + cohort:community + cohort:freq + cohort:trend + cohort:sclass, data = train2)"
-R.eval "preds2 = predict.lm(m2,test2,type='response')"
-R.eval "mae2 = mean(abs(preds2-test2$value))"
-mae2 = R.pull "mae2"
-STDERR.puts "Joint (interactions with cohort): #{mae2}"
-
-R.eval "m2 = lm(value ~ cohort * community * freq * trend * sclass, data = train2)"
-R.eval "preds2 = predict.lm(m2,test2,type='response')"
-R.eval "mae2 = mean(abs(preds2-test2$value))"
-mae2 = R.pull "mae2"
-STDERR.puts "Joint (all interactions): #{mae2}"
-
-
-__END__
-R.eval "m3 = glm(outcome ~ rec_type + rec_def + rec_anim + theme_type + theme_def + theme_anim + diff_length + variety + rec_type:variety + rec_def:variety + rec_anim:variety + theme_type:variety + theme_def:variety + theme_anim:variety + diff_length:variety, data=train2,family='binomial')"
-
-R.eval "tpreds = predict.glm(m3,train2,type='response')"
-#=begin
-threshold = 0.25
-accs = {}
-bas = {}
-begin 
-    STDERR.puts threshold
-    R.eval "tpreds2 = ifelse(tpreds <= #{threshold},'D','P')"
-    R.eval "acc = sum(tpreds2 == train$outcome)/length(tpreds2)"
-    acc = R.pull "acc"
-    tpreds2 = R.pull "tpreds2"
-    #R.eval "tgold = train2$outcome"
-    tgold = R.pull "as.character(train$outcome)"
-    ba = acc_and_ba(tpreds2,tgold)
-    accs[acc] = threshold
-    bas[ba] = threshold
-    threshold += 0.01
-    STDERR.puts "#{acc} #{ba}"
-end until threshold > 0.75
-
-=begin
-accs.each_pair do |acc,threshold|
-    STDERR.puts "#{acc}\t#{threshold}"
-end
-
-bas.each_pair do |acc,threshold|
-    STDERR.puts "#{acc}\t#{threshold}"
-end
-=end
-
-threshold = accs[accs.keys.max]
-STDERR.puts "Final threshold #{threshold}, yields acc #{accs.keys.max}"
-
-#threshold = bas[bas.keys.max]
-
-
-#=end
-R.eval "test = read.csv('datives_test_full.tsv', sep='\t',header=TRUE)"
-R.eval "test2 = test"
-R.eval "test2[,names] <- lapply(test2[,names],factor)"
-R.eval "preds = predict.glm(m3,test2,type='response')"
-R.eval "preds2 = ifelse(preds <= #{threshold},'D','P')"
-#R.eval "gold = test2$outcome"
-preds = R.pull "preds2"
-gold = R.pull "as.character(test$outcome)"
-#STDOUT.puts preds
-
-R.eval "acc = sum(preds2 == test$outcome)/length(preds2)"
-acc = R.pull "acc"
-STDERR.puts acc
-
-ba = acc_and_ba(preds,gold)
-STDERR.puts ba
+o3.puts output3
