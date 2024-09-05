@@ -2,7 +2,7 @@
 require "rinruby"
 
 
-#R.eval "library('lme4')"
+
 step = 8
 testsize = 8/step
 
@@ -13,8 +13,9 @@ elsif step == 4
 end
 
 normalize = 0
-topredict = "uncertainty"
-#topredict = "innovativeness"
+#topredict = "uncertainty"
+topredict = "innovativeness"
+individual = true
 
 if topredict == "innovativeness"
     addendum = ""
@@ -97,7 +98,7 @@ variables.each do |variable|
     R.eval "test2 = dataset[dataset$variable %in% v_test,]"
     
     R.eval "m2 = lm(value#{addendum} ~ #{modelformula}, data = train2)"
-    R.eval "preds2 = predict.lm(m2,test2,type='response')"
+    R.eval "preds2 = predict(m2,test2,type='response')"
     
     vpreds2[variable] = R.pull "preds2"
     vpreds2[variable] = bound_pred(vpreds2[variable])
@@ -154,7 +155,7 @@ for fold in 1..4 do
     #R.eval "m2 = lm(value#{addendum} ~ cohort + scale(freq), data = train2)"
     #R.eval "m2 = lm(value#{addendum} ~ cohort * community * freq * trend, data = train2)"
     #R.eval "m2 = lm(value#{addendum} ~ cohort, data = train2)"
-    R.eval "preds2 = predict.lm(m2,test2,type='response')"
+    R.eval "preds2 = predict(m2,test2,type='response')"
     preds2[fold] = R.pull "preds2"
     preds2[fold] = bound_pred(preds2[fold])
     R.assign "preds2", preds2[fold]
@@ -195,7 +196,7 @@ variables.each.with_index do |variable,index|
         R.eval "train = dataset2[dataset2$test#{fold} == 0,]"
         R.eval "test = dataset2[dataset2$test#{fold} == 1,]"
         R.eval "m1 = lm(value#{addendum} ~ cohort, data = train)"
-        R.eval "preds = predict.lm(m1,test,type='response')"
+        R.eval "preds = predict(m1,test,type='response')"
         R.eval "mae = mean(abs(preds-test$value#{addendum}))"
         
         mae = R.pull "mae"
@@ -341,3 +342,68 @@ end
 o1.puts output1
 o2.puts output2
 o3.puts output3
+
+ind_vpreds2 = {}
+
+if individual
+    STDERR.puts "Individual analysis"
+    R.eval "library('lme4')"
+    R.eval "indivdataset = read.csv('for_regression_step#{step}_indiv.tsv', sep='\t',header=TRUE)"
+    R.eval "names = c('trend','sclass')"
+    R.eval "dataset_indiv[,names] <- lapply(dataset_indiv[,names],factor)"
+    variables.each do |variable|
+        STDERR.puts variable
+        if normalize == 2
+            normalized_per_verb[variable] = max_normalized
+        end
+        v_test = [variable]
+        v_train = variables.reject{|n| n==variable}
+        
+	    
+        R.assign "v_train", v_train
+        R.assign "v_test", v_test
+        R.eval "train2 = dataset_indiv[dataset$variable %in% v_train,]"
+        R.eval "test2 = dataset_indiv[dataset$variable %in% v_test,]"
+        #modelformula = "cohort + community + cohort:community + freq + trend + cohort:freq + cohort:trend"
+        R.eval "m2 = lmer(indvalue ~ #{modelformula} + (1+cohort|speaker), data = train2)"
+        R.eval "preds2 = predict(m2,test2,type='response')"
+        
+        ind_vpreds2[variable] = R.pull "preds2"
+        ind_vpreds2[variable] = bound_pred(ind_vpreds2[variable])
+        R.assign "preds2", ind_vpreds2[variable]
+        R.eval "indmae = mean(abs(preds2-test2$indvalue))"
+        indmae = R.pull "indmae"
+        STDERR.puts indmae 
+=begin        
+        if normalize == 1
+            R.eval "normalized = max(test2$value#{addendum}) - min(test2$value#{addendum})"
+            normalized = R.pull "normalized"
+            normalized_per_verb[variable] = normalized
+        end
+        actual = R.pull "test2$value#{addendum}"
+        fmae_sum = 0.0
+        for fold in 1..4 do
+            if step == 4
+                predsf = vpreds2[variable][(fold-1)*2..(fold-1)*2 + 1]
+                actualf = actual[(fold-1)*2..(fold-1)*2 + 1]
+            elsif step == 8
+                predsf = vpreds2[variable][fold-1]
+                actualf = actual[fold-1]
+            end
+            R.assign "predsf", predsf
+            R.assign "actual", actual
+            R.eval "fmae = mean(abs(predsf-actual))"
+            fmae = R.pull "fmae"
+            if normalize > 0
+                fmae = fmae / normalized_per_verb[variable]
+            end
+            byverb_mae_all[variable][fold] = fmae
+            fmae_sum += fmae
+        end
+        sum_micro_fmae += fmae_sum
+=end
+    end 
+    #ave_vmae2 = sum_micro_fmae / (variables.length * 4)
+
+
+end

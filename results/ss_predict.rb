@@ -70,6 +70,7 @@ by_verb_by_cohort_tokens = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 by_verb_by_cohort_authors = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 macroinnov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 hashinnov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new{|hash1,key1| hash1[key1] = Array.new}}
+innov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new{|hash1,key1| hash1[key1] = Hash.new}}
 
 avar_community = {}
 freq = {}
@@ -77,6 +78,9 @@ trend = {}
 sclass = {}
 o3 = File.open("for_regression_step#{step}.tsv","w:utf-8")
 o3.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\ttest1\ttest2\ttest3\ttest4\tvalue2"
+o4 = File.open("for_regression_step#{step}_indiv.tsv","w:utf-8")
+o4.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\ttest1\ttest2\ttest3\ttest4\tvalue2\tspeaker\tindvalue"
+
 variables.each do |variable|
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
     vardata = File.open("variable_stats.tsv","r:utf-8")
@@ -130,6 +134,7 @@ variables.each do |variable|
             hashinnov_by_variable_by_cohort[variable][cohort] << innov
             by_verb_by_cohort_tokens[variable][cohort] += total
             by_verb_by_cohort_authors[variable][cohort] += 1
+            innov_by_variable_by_cohort[variable][cohort][speaker] = innov
             
         end
     end
@@ -159,6 +164,10 @@ variables.each do |variable|
         macroinnov = macroinnov_by_variable_by_cohort[variable][cohort].to_f/by_verb_by_cohort_authors[variable][cohort]
         mad = m_absolute_deviation(hashinnov_by_variable_by_cohort[variable][cohort], mean(hashinnov_by_variable_by_cohort[variable][cohort]), "mean")
         o3.puts "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{test[1].count(cohort)}\t#{test[2].count(cohort)}\t#{test[3].count(cohort)}\t#{test[4].count(cohort)}\t#{mad}"
+        output4 = "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{test[1].count(cohort)}\t#{test[2].count(cohort)}\t#{test[3].count(cohort)}\t#{test[4].count(cohort)}\t#{mad}"
+        innov_by_variable_by_cohort[variable][cohort].each_pair do |speaker,indinnov|
+            o4.puts "#{output4}\t#{speaker}\t#{indinnov}"
+        end
     end
 end
 
