@@ -66,17 +66,55 @@ by_verb_by_cohort_authors = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 macroinnov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 hashinnov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new{|hash1,key1| hash1[key1] = Array.new}}
 innov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new{|hash1,key1| hash1[key1] = Hash.new}}
+speakers_by_variable = Hash.new{|hash,key| hash[key] = Hash.new}
 yobs = {}
-#speakers_by_variable = Hash.new{|hash,key| hash[key] = Hash.new}
 
 avar_community = {}
 freq = {}
 trend = {}
 sclass = {}
-o3 = File.open("for_regression_step#{step}.tsv","w:utf-8")
+o3 = File.open("for_regression_step#{step}_intersection.tsv","w:utf-8")
 o3.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\ttest1\ttest2\ttest3\ttest4\tvalue2"
-o4 = File.open("for_regression_step#{step}_indiv.tsv","w:utf-8")
+o4 = File.open("for_regression_step#{step}_indiv_intersection.tsv","w:utf-8")
 o4.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\ttest1\ttest2\ttest3\ttest4\tvalue2\tspeaker\tindvalue\tyob"
+
+variables.each do |variable|
+    filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
+    
+
+
+    f = File.open(filename,"r:utf-8")
+    f.each_line.with_index do |line,index|
+        if index > 0
+            line2 = line.split("\t")
+            speaker = line2[1]
+            yob = line2[2].to_i
+            innov = line2[-1].to_f
+            v2abs = line2[-3].to_f
+            #vtotal = line2[-5].to_f
+            total = line2[4].to_i
+            cohort = cohortidhash[yob]
+
+            speakers_by_variable[variable][speaker] = true
+        end
+    end
+end
+
+
+jointspeakers = []
+
+variables.each.with_index do |variable,index|
+    STDERR.puts variable
+    STDERR.puts speakers_by_variable[variable].keys.length
+    if index == 0
+        jointspeakers = speakers_by_variable[variable].keys
+    else
+        jointspeakers = jointspeakers.intersection(speakers_by_variable[variable].keys)
+    end
+
+end
+
+STDERR.puts jointspeakers.length
 
 variables.each do |variable|
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
@@ -120,26 +158,30 @@ variables.each do |variable|
         if index > 0
             line2 = line.split("\t")
             speaker = line2[1]
-            yob = line2[2].to_i
-            innov = line2[-1].to_f
-            v2abs = line2[-3].to_f
-            #vtotal = line2[-5].to_f
-            total = line2[4].to_i
-            cohort = cohortidhash[yob]
-
-            macroinnov_by_variable_by_cohort[variable][cohort] += innov
-            hashinnov_by_variable_by_cohort[variable][cohort] << innov
-            by_verb_by_cohort_tokens[variable][cohort] += total
-            by_verb_by_cohort_authors[variable][cohort] += 1
-            innov_by_variable_by_cohort[variable][cohort][speaker] = innov
-            yobs[speaker] = yob
-            #speakers_by_variable[variable][speaker] = true
+            if jointspeakers.include?(speaker)
+                yob = line2[2].to_i
+                innov = line2[-1].to_f
+                v2abs = line2[-3].to_f
+                #vtotal = line2[-5].to_f
+                total = line2[4].to_i
+                cohort = cohortidhash[yob]
+                yobs[speaker] = yob
+			    
+                macroinnov_by_variable_by_cohort[variable][cohort] += innov
+                hashinnov_by_variable_by_cohort[variable][cohort] << innov
+                by_verb_by_cohort_tokens[variable][cohort] += total
+                by_verb_by_cohort_authors[variable][cohort] += 1
+                innov_by_variable_by_cohort[variable][cohort][speaker] = innov
+            end
         end
     end
 end
 
-o1 = File.open("by_cohort_stats_occurrences_step#{step}.tsv","w:utf-8")
-o2 = File.open("by_cohort_stats_authors_step#{step}.tsv","w:utf-8")
+
+
+
+o1 = File.open("by_cohort_stats_occurrences_step#{step}_intersection.tsv","w:utf-8")
+o2 = File.open("by_cohort_stats_authors_step#{step}_intersection.tsv","w:utf-8")
 
 o1.puts "variable\t#{cohorts.keys.join("\t")}"
 o2.puts "variable\t#{cohorts.keys.join("\t")}"
