@@ -1,7 +1,7 @@
 # encoding: UTF-8
 require "rinruby"
 
-step = 2
+step = 4
 #testsize = 8/step
 
 ncohorts = 32/step
@@ -202,11 +202,12 @@ if aggregate
         R.eval "if (min < 0 ) {min = 0}"
         R.eval "if (max > 1 ) {max = 1}"
     
-        R.eval "plot(dataset2$value#{addendum} ~ dataset2$cohort, ylim = c(min,max), pch=21, col = 'black', bg='black', xlab = '', ylab = '', main = '#{variable.encode("windows-1252")}', xaxt = 'n')"
+        R.eval "plot(dataset2$value#{addendum} ~ dataset2$cohort, ylim = c(min,max), pch=21, col = 'black', bg='black', xlab = '', ylab = '', main = '#{variable.encode("windows-1252")}', xaxt = 'n', type= 'b')"
         R.eval "axis(1, at = seq(1, #{ncohorts}, by = 1))"
     
         sum_mae = 0.0
-        
+        allpreds_sep = []
+        allpreds_joint = []
         for cohort in 1..ncohorts do
             R.eval "train = dataset2[dataset2$cohort != #{cohort},]"
             R.eval "test = dataset2[dataset2$cohort == #{cohort},]"
@@ -223,22 +224,20 @@ if aggregate
             
             preds = R.pull "preds"
             preds = bound_pred(preds)
+            allpreds_sep << preds
             R.assign "preds", preds
             actual = R.pull "test$value#{addendum}"
             verb_preds = preds_byverb[variable]
             R.assign "verb_preds",verb_preds
             
-            #separate
-            R.eval "points(c(#{cohort-0.1}), preds, pch=22, col = 'black', bg='orange')"
-
+            
             #joint
             preds2var = preds2[cohort][index]
+            allpreds_joint << preds2var
             R.assign "preds2var", preds2var
             R.eval "points(c(#{cohort+0.1}), preds2var, pch=24, col = 'black', bg='green')"
 
-            #per verb
-            R.eval "points(c(1:#{ncohorts}), verb_preds, pch=23, type = 'l', col ='blue')"
-
+            
             R.eval "mae_joint = mean(abs(preds2var-test$value#{addendum}))"
             mae_joint = R.pull "mae_joint"
             if normalize > 0
@@ -247,7 +246,18 @@ if aggregate
             joint_mae_all[variable][cohort] = mae_joint
             separate_mae_all[variable][cohort] = mae
         end
+        #separate
+        R.assign "allpreds_sep", allpreds_sep.flatten
+        R.assign "allpreds_joint", allpreds_joint.flatten
+        xcoords = (1..ncohorts).to_a
+        R.assign "xcoords", xcoords
+        R.eval "points(xcoords-0.1, allpreds_sep, pch=22, col = 'black', bg='orange', type = 'b')"
+        R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')"
+ 
+        #per verb
+        R.eval "points(xcoords, verb_preds, pch=23, type = 'b', col ='blue')"
 
+ 
         sum_micro_mae += sum_mae
     end
     R.eval "dev.off()"
