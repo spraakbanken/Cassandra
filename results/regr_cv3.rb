@@ -1,12 +1,12 @@
 # encoding: UTF-8
 require "rinruby"
 
-step = 8
+step = 2
 #testsize = 8/step
 
 ncohorts = 32/step
 
-normalize = 2
+normalize = 0
 #topredict = "uncertainty"
 topredict = "innovativeness"
 aggregate = true
@@ -26,6 +26,7 @@ STDERR.puts "Step: #{step}; dependent variable: #{topredict}; normalization mode
 
 excluded_variables = ["behaga", "lova"]
 variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
+#variables = ["fortsätta", "försöka", "glömma", "komma", "slippa", "sluta", "vägra"]
 
 #modelformula = "(1/(1+exp(-cohort))) + community + (1/(1+exp(-cohort))):community + freq + trend + (1/(1+exp(-cohort))):freq + (1/(1+exp(-cohort))):trend"
 #modelformula1 = "(1/(1+exp(-cohort)))"
