@@ -1,33 +1,37 @@
 # encoding: UTF-8
 require "rinruby"
 
-step = 4
-testsize = 8/step
+step = 8
+#testsize = 8/step
 
-if step == 8
-    ncohorts = 4
-elsif step == 4
-    ncohorts = 8
-end
+ncohorts = 32/step
 
-normalize = 0
+normalize = 2
 #topredict = "uncertainty"
 topredict = "innovativeness"
 aggregate = true
-individual = true
+individual = false
 
 if topredict == "innovativeness"
     addendum = ""
 elsif topredict == "uncertainty"
     addendum = 2
 end
-intersection = "_intersection"
+
+intersection = ""
+function = "linear"
+#intersection = "_intersection"
 
 STDERR.puts "Step: #{step}; dependent variable: #{topredict}; normalization mode: #{normalize}; intersection: #{intersection}"
 
 excluded_variables = ["behaga", "lova"]
 variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
-modelformula = "cohort + community + cohort:community + freq + trend + cohort:freq + cohort:trend"
+
+#modelformula = "(1/(1+exp(-cohort))) + community + (1/(1+exp(-cohort))):community + freq + trend + (1/(1+exp(-cohort))):freq + (1/(1+exp(-cohort))):trend"
+#modelformula1 = "(1/(1+exp(-cohort)))"
+
+modelformula = "scohort + community + scohort:community + freq + trend + scohort:freq + scohort:trend"
+modelformula1 = "scohort"
 
 def bound_pred(unbound_preds)
     if unbound_preds.kind_of?(Array)
@@ -59,6 +63,22 @@ end
 
 if aggregate
     R.eval "dataset = read.csv('for_regression_step#{step}#{intersection}.tsv', sep='\t',header=TRUE)"
+    
+    if function == "scurve"
+        R.eval "dataset$scohort <- (1/(1+exp(-dataset$cohort)))"
+    elsif function == "log"
+        R.eval "dataset$scohort <- log(dataset$cohort)"
+    elsif function == "sqrt"
+        R.eval "dataset$scohort <- sqrt(dataset$cohort)"
+    elsif function == "linear"
+        R.eval "dataset$scohort <- dataset$cohort"
+    elsif function == "poly"
+        R.eval "dataset$scohort <- dataset$cohort"
+        R.eval "dataset$scohort2 <- dataset$cohort^2"
+        R.eval "dataset$scohort3 <- dataset$cohort^3"
+        modelformula1 = "scohort + scohort2 +scohort3"
+    end
+    #R.eval "head(dataset)"
     R.eval "names = c('trend','sclass')"
     R.eval "dataset[,names] <- lapply(dataset[,names],factor)"
     joint_mae_all = Hash.new{|hash,key| hash[key] = Hash.new}
@@ -168,7 +188,7 @@ if aggregate
     
     # SEPARATE REGRESSIONS
     sum_micro_mae = 0.0
-    R.eval "pdf(file='predicting_#{step}_dv#{topredict}#{intersection}.pdf')"
+    R.eval "pdf(file='predicting_#{step}_dv#{topredict}#{intersection}_#{function}.pdf')"
     R.eval "par(mfrow=c(3,3), mar=c(2,2,2,2))"
     
     variables.each.with_index do |variable,index|
@@ -189,7 +209,8 @@ if aggregate
         for cohort in 1..ncohorts do
             R.eval "train = dataset2[dataset2$cohort != #{cohort},]"
             R.eval "test = dataset2[dataset2$cohort == #{cohort},]"
-            R.eval "m1 = lm(value#{addendum} ~ cohort, data = train)"
+            R.eval "m1 = lm(value#{addendum} ~ #{modelformula1}, data = train)"
+            #R.eval "summary(m1)"
             R.eval "preds = predict(m1,test,type='response')"
             R.eval "mae = mean(abs(preds-test$value#{addendum}))"
             
@@ -236,9 +257,9 @@ if aggregate
     
 
 
-    o1 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_error_separate.tsv","w:utf-8")
-    o2 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_error_joint.tsv","w:utf-8")
-    o3 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_error_byverb.tsv","w:utf-8")
+    o1 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_error_separate.tsv","w:utf-8")
+    o2 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_error_joint.tsv","w:utf-8")
+    o3 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_error_byverb.tsv","w:utf-8")
     
     cohortlist = "variable"
     for cohort in 1..ncohorts
@@ -323,6 +344,16 @@ if individual
     R.eval "dataset_indiv = read.csv('for_regression_step#{step}_indiv#{intersection}.tsv', sep='\t',header=TRUE)"
     R.eval "names = c('trend','sclass')"
     R.eval "dataset_indiv[,names] <- lapply(dataset_indiv[,names],factor)"
+    if function == "scurve"
+        R.eval "dataset_indiv$scohort <- (1/(1+exp(-dataset_indiv$cohort)))"
+    elsif function == "log"
+        R.eval "dataset_indiv$scohort <- log(dataset_indiv$cohort)"
+    elsif function == "sqrt"
+        R.eval "dataset_indiv$scohort <- sqrt(dataset_indiv$cohort)"
+    elsif function == "linear"
+        R.eval "dataset_indiv$scohort <- dataset_indiv$cohort"
+    end
+    
     sumind = 0.0
     variables.each do |variable|
         STDERR.puts variable
