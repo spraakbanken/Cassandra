@@ -3,7 +3,7 @@
 year = "2008,2009,2010"
 t = 0
 
-step = 1
+step = 4
 cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
 cohorts = {}
 
@@ -78,7 +78,35 @@ sclass = {}
 o3 = File.open("for_regression_step#{step}.tsv","w:utf-8")
 o3.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\tvalue2"
 o4 = File.open("for_regression_step#{step}_indiv.tsv","w:utf-8")
-o4.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\tvalue2\tspeaker\tindvalue\tyob"
+o4.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\tvalue2\tspeaker\tindvalue\tyob\tspeaker2"
+
+variables.each do |variable|
+    filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
+    f = File.open(filename,"r:utf-8")
+    f.each_line.with_index do |line,index|
+        if index > 0
+            line2 = line.split("\t")
+            speaker = line2[1]
+            yob = line2[2].to_i
+            innov = line2[-1].to_f
+            v2abs = line2[-3].to_f
+            #vtotal = line2[-5].to_f
+            total = line2[4].to_i
+            cohort = cohortidhash[yob]
+
+            speakers_by_variable[variable][speaker] = true
+        end
+    end
+end
+
+speaker_scores = Hash.new(0)
+speakers_by_variable.each_pair do |variable, speakerhash|
+    speakerhash.each_key do |speaker|
+        speaker_scores[speaker] += 1
+    end
+end
+
+
 
 variables.each do |variable|
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
@@ -166,7 +194,12 @@ variables.each do |variable|
         o3.puts "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{mad}"
         output4 = "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{mad}"
         innov_by_variable_by_cohort[variable][cohort].each_pair do |speaker,indinnov|
-            o4.puts "#{output4}\t#{speaker}\t#{indinnov}\t#{yobs[speaker]}"
+            if speaker_scores[speaker] > 1
+                speaker2 = speaker
+            else
+                speaker2 = "dummy_coded_other"
+            end
+            o4.puts "#{output4}\t#{speaker}\t#{indinnov}\t#{yobs[speaker]}\t#{speaker2}"
         end
     end
 end

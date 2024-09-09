@@ -1,8 +1,17 @@
 # encoding: UTF-8
 require "rinruby"
+require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
+
+#the bundle-aggregate mystery
+#pretty up and double-check averages
+#detailed output for individual predictions
+#add normalization for individual
+#try random slopes
+#anonymize individuals
 
 step = 4
-#testsize = 8/step
+
+
 
 ncohorts = 32/step
 
@@ -10,7 +19,7 @@ normalize = 0
 #topredict = "uncertainty"
 topredict = "innovativeness"
 aggregate = true
-individual = false
+individual = true
 
 if topredict == "innovativeness"
     addendum = ""
@@ -31,9 +40,6 @@ variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera"
 #modelformula = "(1/(1+exp(-cohort))) + community + (1/(1+exp(-cohort))):community + freq + trend + (1/(1+exp(-cohort))):freq + (1/(1+exp(-cohort))):trend"
 #modelformula1 = "(1/(1+exp(-cohort)))"
 
-modelformula = "scohort + community + scohort:community + freq + trend + scohort:freq + scohort:trend"
-modelformula1 = "scohort"
-modelformula2 = "scohort + variable + scohort:variable"
 
 def bound_pred(unbound_preds)
     if unbound_preds.kind_of?(Array)
@@ -61,9 +67,103 @@ def bound_pred(unbound_preds)
     return bound_preds
 end
 
+#=begin
+
+indbundle_per_variable = {}
+indcategorical_per_variable = {}
+
+if individual
+    #variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
+    modelformula = "scale(scohort) + scale(community) + scale(scohort):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort):trend"
+    modelformula2 = "scale(scohort) + variable + scale(scohort):variable"
+    #modelformula = "scale(yob)"
+    STDERR.puts "Individual analysis"
+    #R.eval '.libPaths("C:/Users/Sasha/Documents/R/win-library/3.6")'
+    R.eval "library(lme4)"
+    R.eval "dataset_indiv = read.csv('for_regression_step#{step}_indiv#{intersection}.tsv', sep='\t',header=TRUE)"
+    #R.eval "dataset_indiv$yob <- dataset_indiv$cohort"
+    R.eval "names = c('trend','sclass')"
+    R.eval "dataset_indiv[,names] <- lapply(dataset_indiv[,names],factor)"
+    if function == "scurve"
+        R.eval "dataset_indiv$scohort <- (1/(1+exp(-dataset_indiv$cohort)))"
+    elsif function == "log"
+        R.eval "dataset_indiv$scohort <- log(dataset_indiv$cohort)"
+    elsif function == "sqrt"
+        R.eval "dataset_indiv$scohort <- sqrt(dataset_indiv$cohort)"
+    elsif function == "linear"
+        R.eval "dataset_indiv$scohort <- dataset_indiv$cohort"
+    end
+    
+    sumind = 0.0
+    indmae2s = []
+    indmae3s = []
+    indindmae2s = []
+    indindmae3s = []
+
+    variables.each do |variable|
+        STDERR.puts variable
+        bundle = []
+        categorical = []
+        for cohort in 1..ncohorts do
+            R.eval "train2 = dataset_indiv[((dataset_indiv$cohort != #{cohort}) | (dataset_indiv$variable != '#{variable}')) ,]"
+            R.eval "test2 = dataset_indiv[((dataset_indiv$cohort == #{cohort}) & (dataset_indiv$variable == '#{variable}')),]"
+            #modelformula = "yob + community + yob:community + freq + trend + yob:freq + yob:trend"
+            R.eval "m2 = lmer(indvalue ~ #{modelformula} + (1|speaker2), data = train2)"
+            R.eval "m3 = lmer(indvalue ~ #{modelformula2} + (1|speaker2), data = train2)"
+        #R.eval "m2 = lm(indvalue ~ #{modelformula}, data = train2)"
+        #R.eval "print(summary(m2))"
+            R.eval "preds2 = predict(m2,test2,type='response')"
+            R.eval "preds3 = predict(m3,test2,type='response')"
+        
+            ind_preds_bundle = R.pull "preds2"
+            ind_preds_bundle = bound_pred(ind_preds_bundle)
+            ind_preds_categorical = R.pull "preds3"
+            ind_preds_categorical = bound_pred(ind_preds_categorical)
+            actual = R.pull "test2$indvalue"
+            #STDERR.puts ind_preds_byverb[variable].join(" ")
+            #STDERR.puts actual.join(" ")
+            R.assign "preds2", ind_preds_bundle 
+            bundle << mean(ind_preds_bundle)
+            R.assign "preds3", ind_preds_categorical
+            categorical << mean(ind_preds_categorical)
+            R.eval "indindmae2 = mean(abs(preds2-test2$indvalue))"
+            R.eval "indindmae3 = mean(abs(preds3-test2$indvalue))"
+            indindmae2 = R.pull "indindmae2"
+            indindmae3 = R.pull "indindmae3"
+            indindmae2s << indindmae2
+            indindmae3s << indindmae3
+            
+
+            R.eval "ave_per_cohort_actual = mean(test2[test2$cohort == #{cohort},]$indvalue)"
+            R.eval "ave_per_cohort_pred2 = mean(preds2)"
+            R.eval "ave_per_cohort_pred3 = mean(preds3)"
+            R.eval "ind_mae2 = mean(abs(ave_per_cohort_pred2 - ave_per_cohort_actual))"
+            R.eval "ind_mae3 = mean(abs(ave_per_cohort_pred3 - ave_per_cohort_actual))"
+            indmae2 = R.pull "ind_mae2"
+            indmae3 = R.pull "ind_mae3"
+            indmae2s << indmae2
+            indmae3s << indmae3
+            
+        end
+        indbundle_per_variable[variable] = bundle
+        indcategorical_per_variable[variable] = categorical
+    end 
+    #micro_byverb_mae = sum_micro_byverb_mae / (variables.length * 4)
+    #STDERR.puts sumind/variables.length
+    STDERR.puts "Individual average bundle: #{mean(indmae2s)}"
+    STDERR.puts "Individual average categorical: #{mean(indmae3s)}"
+    STDERR.puts "Individual individual bundle: #{mean(indindmae2s)}"
+    STDERR.puts "Individual individual categorical: #{mean(indindmae3s)}"
+    R.eval "detach('package:lme4', unload=TRUE)"
+end
+#=end
 
 
 if aggregate
+    modelformula = "scohort + community + scohort:community + freq + trend + scohort:freq + scohort:trend"
+    modelformula1 = "scohort"
+    modelformula2 = "scohort + variable + scohort:variable"
+
     R.eval "dataset = read.csv('for_regression_step#{step}#{intersection}.tsv', sep='\t',header=TRUE)"
     
     if function == "scurve"
@@ -122,7 +222,7 @@ if aggregate
         R.assign "v_test", v_test
         R.eval "train2 = dataset[dataset$variable %in% v_train,]"
         R.eval "test2 = dataset[dataset$variable %in% v_test,]"
-        
+        #STDERR.puts "train, test ready"
         R.eval "m2 = lm(value#{addendum} ~ #{modelformula}, data = train2)"
         R.eval "preds2 = predict(m2,test2,type='response')"
         
@@ -179,22 +279,33 @@ if aggregate
     variables.each do |variable|
         for cohort in 1..ncohorts do
             #STDERR.puts "Joint: cohort #{cohort}"
-            STDERR.puts variable
+            #STDERR.puts variable
             R.eval "train2 = dataset[((dataset$cohort != #{cohort}) | (dataset$variable != '#{variable}')) ,]"
             R.eval "test2 = dataset[((dataset$cohort == #{cohort}) & (dataset$variable == '#{variable}')),]"
-            R.eval "head(test2)"
-            break
+            #R.eval "print(train#)"
+            #abort
             R.eval "m2 = lm(value#{addendum} ~ #{modelformula}, data = train2)"
             R.eval "m3 = lm(value#{addendum} ~ #{modelformula2}, data = train2)"
+            #R.eval "summary(m2)"
+            #R.eval "summary(m3)"
+           
+
             R.eval "preds2 = predict(m2, test2, type='response')"
             R.eval "preds3 = predict(m3, test2, type='response')"
             preds2[variable][cohort] = R.pull "preds2"
             preds2[variable][cohort] = bound_pred(preds2[variable][cohort])
             preds3[variable][cohort] = R.pull "preds3"
             preds3[variable][cohort] = bound_pred(preds3[variable][cohort])
-	    
-            R.assign "preds2", preds2[cohort]
-            R.assign "preds3", preds3[cohort]
+            
+            #if variable == "fortsätta" 
+            #    STDERR.puts cohort
+            #    STDERR.puts preds2[variable][cohort]
+            #    STDERR.puts preds3[variable][cohort] 
+            #end
+            #abort
+
+            R.assign "preds2", preds2[variable][cohort]
+            R.assign "preds3", preds3[variable][cohort]
             R.eval "mae2 = mean(abs(preds2-test2$value#{addendum}))"
             mae2 = R.pull "mae2"
             sum_mae2 += mae2
@@ -247,6 +358,7 @@ if aggregate
             allpreds_sep << preds
             R.assign "preds", preds
             actual = R.pull "test$value#{addendum}"
+            
             verb_preds = preds_byverb[variable]
             R.assign "verb_preds",verb_preds
             
@@ -255,12 +367,16 @@ if aggregate
             preds2var = preds2[variable][cohort]
             allpreds_joint << preds2var
             R.assign "preds2var", preds2var
-            #R.eval "points(c(#{cohort+0.1}), preds2var, pch=24, col = 'black', bg='green')"
+            
             preds3var = preds3[variable][cohort]
             allpreds_joint3 << preds3var
             R.assign "preds3var", preds3var
-            #R.eval "points(c(#{cohort+0.1}), preds3var, pch=24, col = 'black', bg='green')"
-
+            #if variable == "fortsätta" 
+            #    STDERR.puts cohort
+            #    STDERR.puts preds2var
+            #    STDERR.puts preds3var
+            #end
+            
             
             R.eval "mae_joint = mean(abs(preds2var-test$value#{addendum}))"
             mae_joint = R.pull "mae_joint"
@@ -279,12 +395,24 @@ if aggregate
         R.assign "allpreds_sep", allpreds_sep.flatten
         R.assign "allpreds_joint", allpreds_joint.flatten
         R.assign "allpreds_joint3", allpreds_joint3.flatten
+        #R.eval "print(allpreds_sep)"
+        #R.eval "print(allpreds_joint3)"
+        
+
         xcoords = (1..ncohorts).to_a
         R.assign "xcoords", xcoords
-        R.eval "points(xcoords-0.1, allpreds_sep, pch=22, col = 'black', bg='orange', type = 'b')"
+        #R.eval "points(xcoords-0.1, allpreds_sep, pch=22, col = 'black', bg='orange', type = 'b')"
         R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')"
-        R.eval "points(xcoords, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')"
+        R.eval "points(xcoords-0.1, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')"
  
+        if individual
+            R.assign "indbundle",indbundle_per_variable[variable]
+            R.assign "indcategorical",indcategorical_per_variable[variable]
+            #R.eval "print(indbundle)"
+            #R.eval "print(indcategorical)"
+            R.eval "points(xcoords+0.1, indbundle, pch=22, col = 'black', bg='blue', type = 'b')"
+            R.eval "points(xcoords-0.1, indcategorical, pch=23, col = 'black', bg='red', type = 'b')"
+         end
         #per verb
         #R.eval "points(xcoords, verb_preds, pch=23, type = 'b', col ='blue')"
 
@@ -383,105 +511,3 @@ end
 
 ind_preds_byverb = {}
 
-if individual
-    variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
-    modelformula = "scale(yob) + scale(community) + scale(yob):scale(community) + scale(freq) + trend + scale(yob):scale(freq) + scale(yob):trend"
-    #modelformula = "scale(yob)"
-    STDERR.puts "Individual analysis"
-    R.eval '.libPaths("C:/Users/Sasha/Documents/R/win-library/3.6")'
-    R.eval "library(lme4)"
-    R.eval "dataset_indiv = read.csv('for_regression_step#{step}_indiv#{intersection}.tsv', sep='\t',header=TRUE)"
-    R.eval "names = c('trend','sclass')"
-    R.eval "dataset_indiv[,names] <- lapply(dataset_indiv[,names],factor)"
-    if function == "scurve"
-        R.eval "dataset_indiv$scohort <- (1/(1+exp(-dataset_indiv$cohort)))"
-    elsif function == "log"
-        R.eval "dataset_indiv$scohort <- log(dataset_indiv$cohort)"
-    elsif function == "sqrt"
-        R.eval "dataset_indiv$scohort <- sqrt(dataset_indiv$cohort)"
-    elsif function == "linear"
-        R.eval "dataset_indiv$scohort <- dataset_indiv$cohort"
-    end
-    
-    sumind = 0.0
-    variables.each do |variable|
-        STDERR.puts variable
-        if normalize == 2
-            normalized_per_verb[variable] = max_normalized
-        end
-        v_test = [variable]
-        v_train = variables.reject{|n| n==variable}
-        
-        
-        R.assign "v_train", v_train
-        R.assign "v_test", v_test
-        R.eval "train2 = dataset_indiv[dataset_indiv$variable %in% v_train,]"
-        R.eval "test2 = dataset_indiv[dataset_indiv$variable %in% v_test,]"
-        #modelformula = "yob + community + yob:community + freq + trend + yob:freq + yob:trend"
-        R.eval "m2 = lmer(indvalue ~ #{modelformula} + (1|speaker), data = train2)"
-        #R.eval "m2 = lm(indvalue ~ #{modelformula}, data = train2)"
-        #R.eval "print(summary(m2))"
-        R.eval "preds2 = predict(m2,test2,type='response')"
-        
-        ind_preds_byverb[variable] = R.pull "preds2"
-        ind_preds_byverb[variable] = bound_pred(ind_preds_byverb[variable])
-        actual = R.pull "test2$indvalue"
-        #STDERR.puts ind_preds_byverb[variable].join(" ")
-        #STDERR.puts actual.join(" ")
-        R.assign "preds2", ind_preds_byverb[variable]
-        #R.eval "indmae = mean(abs(preds2-test2$indvalue))"
-        #indmae = R.pull "indmae"
-        #STDERR.puts indmae
-        ave_per_cohort_actual = {}
-        ave_per_cohort_pred = {}
-        offset = 1
-        sum = 0.0
-        for cohort in 1..ncohorts do
-            
-            #STDERR.puts offset
-            R.eval "cohort = test2[test2$cohort == #{cohort},]"
-            R.eval "actual_cohort = mean(cohort$indvalue)"
-            R.assign "offset",offset
-            R.eval "l = length(cohort$indvalue)"
-            R.eval "preds_cohort = mean(preds2[offset:offset+l-1])"
-            R.eval "offset = offset + l"
-            offset = R.pull "offset"
-            pred_cohort = R.pull "preds_cohort"
-            actual_cohort = R.pull "actual_cohort"
-            #STDERR.puts "#{cohort} #{pred_cohort} #{actual_cohort}"
-            sum += (pred_cohort - actual_cohort).abs
-        end
-        STDERR.puts sum/ncohorts
-        sumind += sum/ncohorts
-=begin        
-        if normalize == 1
-            R.eval "normalized = max(test2$value#{addendum}) - min(test2$value#{addendum})"
-            normalized = R.pull "normalized"
-            normalized_per_verb[variable] = normalized
-        end
-        actual = R.pull "test2$value#{addendum}"
-        byverb_mae_sum = 0.0
-        for fold in 1..4 do
-            if step == 4
-                predsf = preds_byverb[variable][(fold-1)*2..(fold-1)*2 + 1]
-                actualf = actual[(fold-1)*2..(fold-1)*2 + 1]
-            elsif step == 8
-                predsf = preds_byverb[variable][fold-1]
-                actualf = actual[fold-1]
-            end
-            R.assign "predsf", predsf
-            R.assign "actual", actual
-            R.eval "byverb_mae = mean(abs(predsf-actual))"
-            byverb_mae = R.pull "byverb_mae"
-            if normalize > 0
-                byverb_mae = byverb_mae / normalized_per_verb[variable]
-            end
-            byverb_mae_all[variable][fold] = byverb_mae
-            byverb_mae_sum += byverb_mae
-        end
-        sum_micro_byverb_mae += byverb_mae_sum
-=end
-    end 
-    #micro_byverb_mae = sum_micro_byverb_mae / (variables.length * 4)
-    STDERR.puts sumind/variables.length
-end

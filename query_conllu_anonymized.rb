@@ -1,3 +1,5 @@
+
+
 variable = ARGV[0]
 if variable.to_s == ""
     STDERR.puts "Specify variable!"
@@ -16,12 +18,28 @@ require_relative "queries\\query_tools.rb"
 
 #subforums = ["adoption"]
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn"]
-subforum = ARGV[2]
-subforums = [subforum]
+#subforum = ARGV[2]
+#subforums = [subforum]
+
+an_path = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
+an_file = File.open("#{an_path}#{corpus}_usernames.tsv","r:utf-8")
+
+"Reading in userhash..."
+userhash = {}
+an_file.each_line.with_index do |line,index|
+    if index % 10000 == 0
+        STDERR.puts index
+    end
+    if index > 0
+        line2 = line.strip.split("\t")
+        userhash[line2[0]] = line2[1]
+    end
+end
+an_file.close
 
 
 #subforums = ["resor"]
-#subforums = ["dator"]
+subforums = ["dator"]
 #subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
@@ -32,7 +50,7 @@ if with_age
     #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 else
     #PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
-    PATH = "D:\\DGU\\CassandraMy\\SMCorpora\\"
+    PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\"
 end
 
 
@@ -94,7 +112,11 @@ subforums.each do |subforum|
             elsif line1.include?("# yob")
                 yob = line1.split(" = ")[1].to_i
             elsif line1.include?("# username")
-                current_username = line1.split(" = ")[1]
+                current_username2 = line1.split(" = ")[1]
+                current_username = userhash[current_username2]
+                if current_username.nil?
+                    STDERR.puts current_username2
+                end
             elsif line1.include?("# post_date")
                 current_year = line1.split(" = ")[1].split("-")[0].to_i
             
