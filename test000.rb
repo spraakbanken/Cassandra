@@ -54,7 +54,7 @@ else
 end
 
 
-
+missing_usernames = {}
 agebinhash_v1 = Hash.new(0.0)
 agebinhash_v2 = Hash.new(0.0)
 agebinhash_v3 = Hash.new(0.0)
@@ -65,7 +65,7 @@ tokencounter = 0
 
 authorhash_new = Hash.new{|hash,key| hash[key] = Hash.new{|hash1,key1| hash1[key1] = Hash.new(0.0)}}
 #authorhash_hbtq = Hash.new{|hash,key| hash[key] = Hash.new(0.0)}
-missing_usernames = {}
+    
 
 subforums.each do |subforum|
     STDERR.puts subforum
@@ -79,6 +79,11 @@ subforums.each do |subforum|
     current_agebin = ""
     current_username = ""
     current_year = ""
+    post_id = ""
+    post_date = ""
+    thread_id = ""
+    subforum_id = ""
+    subsubforum_id = ""
     yob = ""
     
     prevprev_tokenc = ""
@@ -111,67 +116,84 @@ subforums.each do |subforum|
                 current_age = line1.split(" = ")[1]
             elsif line1.include?("# yob")
                 yob = line1.split(" = ")[1].to_i
+            elsif line1.include?("# post_id")
+                post_id = line1.split(" = ")[1]
+            elsif line1.include?("# post_date")
+                post_date = line1.split(" = ")[1]            
+            elsif line1.include?("# thread_id")
+                thread_id = line1.split(" = ")[1]
+            elsif line1.include?("# subforum_id")
+                subforum_id = line1.split(" = ")[1]
+            elsif line1.include?("# subsubforum_id")
+                subsubforum_id = line1.split(" = ")[1]
+            
+
             elsif line1.include?("# username")
                 current_username2 = line1.split(" = ")[1]
                 current_username = userhash[current_username2]
-                if current_username.nil? or current_username == ""
-                    missing_usernames[current_username2] = true
+                if current_username.nil?#current_username2 == "Apoapoapo"
+                    if missing_usernames[current_username2].nil?
+                        missing_usernames[current_username2] = true
+                        STDOUT.puts "#{current_username2}\t#{post_id}\t#{thread_id}\t#{post_date}"
+                        #STDERR.puts subforum_id
+                        #STDERR.puts subsubforum_id
+                    end
                 end
+                
+                
             elsif line1.include?("# post_date")
                 current_year = line1.split(" = ")[1].split("-")[0].to_i
             
                 #authorhash[current_username] = true
             end
         else
-            if !current_username.nil? and current_username != ""
-                if (with_age and (current_year == year_of_interest and yob != 1970)) or !with_age
-                    tokencounter += 1
-                    line2 = line1.split("\t")
-                    if line2.length == 5
-                        msd = line2[4]
-                    else
-                        msd = line2[5]
-                    end
-			    
-                    id = line2[0]
-                    token = line2[1]
-                    tokenc = token.to_s.downcase
-                    lemma = line2[2][1..-2].split("|")
-                    pos = line2[3]
-                    
-                    dephead = line2[6]
-                    deprel = line2[7]
-			    
-			    
-                    condition = apply_criteria_kommer_att(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
-#apply_crite    ria_kommer_att
-#apply_crite    ria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
-                    if condition == 1
-                        if with_age
-                            agebinhash_v1[current_agebin] += 1
-                            authorhash[[current_username,current_age,current_agebin,current_year]]["v1"] += 1
-                            authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
-                        else
-                            authorhash_new[current_year][current_username]["v1"] += 1
-                            authorhash_new[current_year][current_username]["total"] += 1
-                        end
-                    elsif condition == 2
-                        if with_age
-                            agebinhash_v2[current_agebin] += 1
-                            authorhash[[current_username,current_age,current_agebin,current_year]]["v2"] += 1
-                            authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
-                        else
-                            authorhash_new[current_year][current_username]["v2"] += 1
-                            authorhash_new[current_year][current_username]["total"] += 1
-                        end
-                    end
-                    prevprev_tokenc = prev_tokenc.clone
-                    prev_tokenc = tokenc.clone
-                    prevprev_pos = prev_pos.clone
-                    prev_pos = pos.clone
-                    prevprev_deprel = prev_deprel.clone
-                    prev_deprel = deprel.clone
+            if (with_age and (current_year == year_of_interest and yob != 1970)) or !with_age
+                tokencounter += 1
+                line2 = line1.split("\t")
+                if line2.length == 5
+                    msd = line2[4]
+                else
+                    msd = line2[5]
                 end
+
+                id = line2[0]
+                token = line2[1]
+                tokenc = token.to_s.downcase
+                lemma = line2[2][1..-2].split("|")
+                pos = line2[3]
+                
+                dephead = line2[6]
+                deprel = line2[7]
+    
+    
+                condition = apply_criteria_kommer_att(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+#apply_criteria_kommer_att
+#apply_criteria(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
+                if condition == 1
+                    if with_age
+                        agebinhash_v1[current_agebin] += 1
+                        authorhash[[current_username,current_age,current_agebin,current_year]]["v1"] += 1
+                        authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
+                    else
+                        authorhash_new[current_year][current_username]["v1"] += 1
+                        authorhash_new[current_year][current_username]["total"] += 1
+                    end
+                elsif condition == 2
+                    if with_age
+                        agebinhash_v2[current_agebin] += 1
+                        authorhash[[current_username,current_age,current_agebin,current_year]]["v2"] += 1
+                        authorhash[[current_username,current_age,current_agebin,current_year]]["total"] += 1
+                    else
+                        authorhash_new[current_year][current_username]["v2"] += 1
+                        authorhash_new[current_year][current_username]["total"] += 1
+                    end
+                end
+                prevprev_tokenc = prev_tokenc.clone
+                prev_tokenc = tokenc.clone
+                prevprev_pos = prev_pos.clone
+                prev_pos = pos.clone
+                prevprev_deprel = prev_deprel.clone
+                prev_deprel = deprel.clone
             end
         end
     end
@@ -237,5 +259,3 @@ else
     o.close
     
 end
-
-STDOUT.puts missing_usernames.keys

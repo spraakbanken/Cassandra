@@ -3,7 +3,7 @@ path = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
 
 if corpus == "flashback"
     subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
-    #subforums = ["resor"]
+    subforums = ["resor"]
 elsif corpus == "familjeliv"
     subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 end
@@ -15,38 +15,45 @@ subforums.each do |subforum|
     f = File.open("#{path}#{corpus}-#{subforum}_post.conllu","r:utf-8")
     o = File.open("#{path}#{corpus}-#{subforum}_post_anonymized.conllu","w:utf-8")
     current_user = ""
+    post_id = ""
     
     STDERR.puts subforum
     
     cache = []
     f.each_line do |line|
         line1 = line.strip
+        #line1 = line2.gsub("\n","")
         #if line1 != ""
-        
+        #if line1.include?("# post_id")
+        #    post_id = line1.split(" = ")[1]
         if line1.include?("# username")
-            if !line1.split(" = ")[1].nil?
-                current_user = line1.split(" = ")[1].strip
-                if usernames[current_user].nil?
-                    if corpus == "familjeliv" and current_user.downcase.include?("anonym")
-                        acounter += 1
-                        zeroes = "0000000"[acounter.to_s.length..-1]  
-                        usernames[current_user] = "usera#{zeroes}#{acounter}"
-                    else
-                        counter += 1
-                        zeroes = "00000000"[counter.to_s.length..-1]  
-                        usernames[current_user] = "user#{zeroes}#{counter}"
+            current_user = line1.split(" = ")[1]
+            if !current_user.nil?
+                #if !current_user.nil?
+                    if usernames[current_user].nil?
+                        if corpus == "familjeliv" and current_user.downcase.include?("anonym")
+                            acounter += 1
+                            zeroes = "0000000"[acounter.to_s.length..-1]  
+                            usernames[current_user] = "usera#{zeroes}#{acounter}"
+                        else
+                            counter += 1
+                            zeroes = "00000000"[counter.to_s.length..-1]  
+                            usernames[current_user] = "user#{zeroes}#{counter}"
+                        end
                     end
-                end
-                o.puts cache
-                o.puts "# username = #{usernames[current_user]}"
+                    o.puts cache
+                    o.puts "# username = #{usernames[current_user]}"
+                    cache = []
+                #end
+            else
+                STDERR.puts "Nil right part! #{post_id}"
                 cache = []
-                if current_user == "KontaktBanan"
-                    STDOUT.puts "#{current_user} subforum"
-                end
-                
-     
+                #abort
             end
         else
+            if line1.include?("# post_id")
+                post_id = line1.split(" = ")[1]
+            end
             cache << line1
         end
         #end
