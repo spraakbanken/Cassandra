@@ -39,8 +39,8 @@ an_file.close
 
 
 #subforums = ["resor"]
-subforums = ["resor","mat"]
-#subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+#subforums = ["resor","mat"]
+subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
 #subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
@@ -225,11 +225,13 @@ subforums.each do |subforum|
             authorhash_new.each_pair do |year,value|
                 value.each_pair do |username,varhash|
                     total = varhash["total"]
-                    v1abs = varhash["v1"]
-                    v2abs = varhash["v2"]
-                    v1rel = v1abs/total
-                    v2rel = v2abs/total
-                    o.puts "#{year}\t#{username}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
+                    if total > total_threshold
+                        v1abs = varhash["v1"]
+                        v2abs = varhash["v2"]
+                        v1rel = v1abs/total
+                        v2rel = v2abs/total
+                        o.puts "#{year}\t#{username}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
+                    end
                 end
             
             end
@@ -290,11 +292,13 @@ if !bysubforum
         authorhash_new.each_pair do |year,value|
             value.each_pair do |username,varhash|
                 total = varhash["total"]
-                v1abs = varhash["v1"]
-                v2abs = varhash["v2"]
-                v1rel = v1abs/total
-                v2rel = v2abs/total
-                o.puts "#{year}\t#{username}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
+                if total >= total_threshold
+                    v1abs = varhash["v1"]
+                    v2abs = varhash["v2"]
+                    v1rel = v1abs/total
+                    v2rel = v2abs/total
+                    o.puts "#{year}\t#{username}\t#{total}\t#{v1abs}\t#{v2abs}\t#{v1rel}\t#{v2rel}"
+                end
             end
         
         end
