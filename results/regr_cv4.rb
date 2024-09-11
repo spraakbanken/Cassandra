@@ -402,8 +402,8 @@ if aggregate
         xcoords = (1..ncohorts).to_a
         R.assign "xcoords", xcoords
         #R.eval "points(xcoords-0.1, allpreds_sep, pch=22, col = 'black', bg='orange', type = 'b')"
-        R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')"
-        R.eval "points(xcoords-0.1, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')"
+        #R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')"
+        #R.eval "points(xcoords-0.1, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')"
  
         if individual
             R.assign "indbundle",indbundle_per_variable[variable]
