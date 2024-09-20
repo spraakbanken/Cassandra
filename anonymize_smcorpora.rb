@@ -1,4 +1,4 @@
-corpus = "flashback"
+corpus = "familjeliv"
 path = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
 
 if corpus == "flashback"

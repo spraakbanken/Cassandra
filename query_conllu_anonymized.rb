@@ -8,7 +8,7 @@ end
 token_threshold = 10000
 firstage = 18
 total_threshold = ARGV[1].to_i
-corpus = "flashback"
+corpus = "familjeliv"
 
 with_age = false
 year_of_interest = 2009
@@ -40,11 +40,11 @@ an_file.close
 
 #subforums = ["resor"]
 #subforums = ["resor","mat"]
-subforums = ["politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
+#subforums = ["politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
 #subforums = ["dator", "droger", "ekonomi", "flashback", "fordon", "hem", "kultur", "livsstil", "mat", "ovrigt", "politik", "resor", "samhalle", "sex", "sport", "vetenskap"]
 
-#subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
+subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 
 
 if with_age
