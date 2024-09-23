@@ -317,7 +317,7 @@ if aggregate
             R.eval "test2 = dataset[((dataset$cohort == #{cohort}) & (dataset$variable == '#{variable}')),]"
             #R.eval "print(train#)"
             #abort
-            R.eval "m0 = lm(value#{addendum} ~ 1, data = train2)"
+            R.eval "m0 = lm(value#{addendum} ~ #{modelformula1}, data = train2)"
             R.eval "m2 = lm(value#{addendum} ~ #{modelformula}, data = train2)"
             R.eval "m3 = lm(value#{addendum} ~ #{modelformula2}, data = train2)"
             R.eval "m4 = lmer(value#{addendum} ~ #{modelformula4}, data = train2)"
@@ -466,8 +466,10 @@ if aggregate
         xcoords = (1..ncohorts).to_a
         R.assign "xcoords", xcoords
         #R.eval "points(xcoords-0.1, allpreds_sep, pch=22, col = 'black', bg='orange', type = 'b')"
-        #R.eval "points(xcoords, allpreds_joint0, pch=21, col = 'black', bg='white', type = 'b')"
+        R.eval "points(xcoords, allpreds_joint0, pch=21, col = 'black', bg='white', type = 'b')"
         R.eval "points(xcoords, allpreds_joint4, pch=21, col = 'black', bg='orange', type = 'b')" #bundle-random
+        R.assign "preds_byverb", preds_byverb[variable]
+        R.eval "points(xcoords, preds_byverb, pch=21, col = 'black', bg='gray', type = 'b')"
         R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')" #bundle
         R.eval "points(xcoords-0.1, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')" #categorical
  
