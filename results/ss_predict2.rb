@@ -7,6 +7,12 @@ step = 4
 cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
 cohorts = {}
 
+sag = {"fortsätta" => "var", "försöka" => "var", "glömma" => "var", "komma" => "att", "planera" => "var", "riskera" => "att", "slippa" => "no", "sluta"  => "var", "vägra"  => "var"}
+so = {"fortsätta" => "var", "försöka" => "var", "glömma" => "var", "komma" => "var", "planera" => "att", "riskera" => "att", "slippa" => "no", "sluta"  => "var", "vägra"  => "var"}
+freqlog = {"fortsätta" => 3, "försöka" => 3, "glömma" => 2, "komma" => 4, "planera" => 2, "riskera" => 2, "slippa" => 3, "sluta"  => 3, "vägra"  => 3}
+comcat = {"fortsätta" => 1, "försöka" => 2, "glömma" => 2, "komma" => 1, "planera" => 0, "riskera" => 0, "slippa" => 2, "sluta"  => 2, "vägra"  => 2}
+
+
 cohortsfile.each_line.with_index do |line,index|
     if index > 0 
         line2 = line.strip.split("\t")
@@ -76,9 +82,9 @@ freq = {}
 trend = {}
 sclass = {}
 o3 = File.open("for_regression_step#{step}.tsv","w:utf-8")
-o3.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\tvalue2"
+o3.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\tvalue2\tsag\tso\tfreqlog\tcomcat"
 o4 = File.open("for_regression_step#{step}_indiv.tsv","w:utf-8")
-o4.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\tvalue2\tspeaker\tindvalue\tyob\tspeaker2"
+o4.puts "variable\tcommunity\tfreq\ttrend\tsclass\tcohort\tvalue\tvalue2\tsag\tso\tfreqlog\tcomcat\tspeaker\tindvalue\tyob\tspeaker2"
 
 variables.each do |variable|
     filename = "ss30_2008,2009,2010\\familjeliv_#{variable}_t#{t}_#{year}.tsv"
@@ -191,8 +197,10 @@ variables.each do |variable|
     cohorts.each_key do |cohort|
         macroinnov = macroinnov_by_variable_by_cohort[variable][cohort].to_f/by_verb_by_cohort_authors[variable][cohort]
         mad = m_absolute_deviation(hashinnov_by_variable_by_cohort[variable][cohort], mean(hashinnov_by_variable_by_cohort[variable][cohort]), "mean")
-        o3.puts "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{mad}"
-        output4 = "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{mad}"
+        
+        output4 = "#{variable}\t#{avar_community[variable]}\t#{freq[variable]}\t#{trend[variable]}\t#{sclass[variable]}\t#{cohort}\t#{macroinnov}\t#{mad}\t#{sag[variable]}\t#{so[variable]}\t#{freqlog[variable]}\t#{comcat[variable]}"
+
+        o3.puts output4
         innov_by_variable_by_cohort[variable][cohort].each_pair do |speaker,indinnov|
             if speaker_scores[speaker] > 1
                 speaker2 = speaker
