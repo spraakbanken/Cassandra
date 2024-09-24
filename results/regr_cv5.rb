@@ -19,7 +19,7 @@ normalize = 0
 #topredict = "uncertainty"
 topredict = "innovativeness"
 aggregate = true
-individual = true
+individual = false
 
 if topredict == "innovativeness"
     addendum = ""
@@ -39,6 +39,7 @@ variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera"
 
 #modelformula = "(1/(1+exp(-cohort))) + community + (1/(1+exp(-cohort))):community + freq + trend + (1/(1+exp(-cohort))):freq + (1/(1+exp(-cohort))):trend"
 #modelformula1 = "(1/(1+exp(-cohort)))"
+
 
 
 def bound_pred(unbound_preds)
@@ -73,6 +74,7 @@ indbundle_per_variable = {}
 indbundle_re_per_variable = {}
 indcategorical_per_variable = {}
 
+R.eval '.libPaths("C:/Users/Sasha/Documents/R/win-library/3.6")'
 R.eval "library(lme4)"
 
 if individual
@@ -184,10 +186,11 @@ end
 
 
 if aggregate
-    modelformula = "scohort + community + scohort:community + freq + trend + scohort:freq + scohort:trend"
+    modelformula = "scohort + community + scohort:community + freq + trend + scohort:freq + scohort:trend" # + sag + so + scohort:sag + scohort:so
+    #modelformula = "scohort + comcat + scohort:comcat + freqlog + trend + scohort:freqlog + scohort:trend" # + sag + so + scohort:sag + scohort:so
     modelformula1 = "scohort"
     modelformula2 = "scohort + variable + scohort:variable"
-    modelformula4 = "scale(scohort) + scale(community) + scale(scohort):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort):trend + (1 + scale(scohort)|variable)"
+    modelformula4 = "scale(scohort) + scale(community) + scale(scohort):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort):trend + (1 + scale(scohort)|variable)" #+ sag + so + scale(scohort):sag + scale(scohort):so 
 
     R.eval "dataset = read.csv('for_regression_step#{step}#{intersection}.tsv', sep='\t',header=TRUE)"
     
@@ -314,7 +317,7 @@ if aggregate
             R.eval "test2 = dataset[((dataset$cohort == #{cohort}) & (dataset$variable == '#{variable}')),]"
             #R.eval "print(train#)"
             #abort
-            R.eval "m0 = lm(value#{addendum} ~ 1, data = train2)"
+            R.eval "m0 = lm(value#{addendum} ~ #{modelformula1}, data = train2)"
             R.eval "m2 = lm(value#{addendum} ~ #{modelformula}, data = train2)"
             R.eval "m3 = lm(value#{addendum} ~ #{modelformula2}, data = train2)"
             R.eval "m4 = lmer(value#{addendum} ~ #{modelformula4}, data = train2)"
@@ -463,10 +466,12 @@ if aggregate
         xcoords = (1..ncohorts).to_a
         R.assign "xcoords", xcoords
         #R.eval "points(xcoords-0.1, allpreds_sep, pch=22, col = 'black', bg='orange', type = 'b')"
-        #R.eval "points(xcoords, allpreds_joint0, pch=21, col = 'black', bg='white', type = 'b')"
-        ###R.eval "points(xcoords, allpreds_joint4, pch=21, col = 'black', bg='orange', type = 'b')" #bundle-random
-        ###R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')" #bundle
-        ###R.eval "points(xcoords-0.1, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')" #categorical
+        R.eval "points(xcoords, allpreds_joint0, pch=21, col = 'black', bg='white', type = 'b')"
+        R.eval "points(xcoords, allpreds_joint4, pch=21, col = 'black', bg='orange', type = 'b')" #bundle-random
+        R.assign "preds_byverb", preds_byverb[variable]
+        R.eval "points(xcoords, preds_byverb, pch=21, col = 'black', bg='gray', type = 'b')"
+        R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')" #bundle
+        R.eval "points(xcoords-0.1, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')" #categorical
  
         if individual
             R.assign "indbundle",indbundle_per_variable[variable]
