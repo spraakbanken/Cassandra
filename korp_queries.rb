@@ -1,5 +1,11 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = dfa
+variant1 = [word = 'detta' %c] [word = 'för' %c] [word = 'att' %c]
+
+#label = fortsatt1
+variant1 = ([word = 'är' %c | word = 'kan' %c | word = 'måste' %c | word = 'ska' %c] [word = 'fortsatt' %c]) | ([word = 'fortsatt' %c] [word = 'inte' %c])
+
 
 #label = (d)en_blekaste_aning
 variant1 = [word = 'den' %c] [word = 'blekaste' %c] [word = 'aning' %c]
