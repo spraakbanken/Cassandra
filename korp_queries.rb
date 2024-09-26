@@ -1,5 +1,14 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = varit
+variant1 = [msd = ".*PN.*"] [word = "har"] [word = "varit"]
+variant2 = [msd = ".*PN.*"] [word = "har"] [word = "vart"]
+
+#label = kant
+variant1 = [lex contains 'dra\.\.vb\.1'] [word = 'över'] [word = 'en'] [word = 'kam']
+variant2 = [lex contains 'dra\.\.vb\.1'] [word = 'över'] [word = 'en'] [word = 'kant']
+
+
 #label = dfa
 variant1 = [word = 'detta' %c] [word = 'för' %c] [word = 'att' %c]
 
