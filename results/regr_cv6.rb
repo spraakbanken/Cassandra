@@ -19,7 +19,7 @@ normalize = 0
 #topredict = "uncertainty"
 topredict = "innovativeness"
 aggregate = true
-individual = false
+individual = true
 do_smoothing = 0
 
 if topredict == "innovativeness"
@@ -144,7 +144,8 @@ if individual
 
         
         
-        R.eval "indindmae_byverb = mean(abs(indiv_preds_byverb-test3$indvalue))" 
+        #R.eval "indindmae_byverb = mean(abs(indiv_preds_byverb-test3$indvalue))" 
+        R.eval "indindmae_byverb = mean(sqrt((log(indiv_preds_byverb/test3$indvalue))^2))" 
         indindiv_mae = R.pull "indindmae_byverb"
         indindiv_maes << indindiv_mae
  
@@ -165,7 +166,8 @@ if individual
         R.assign "per_cohort_actuals", per_cohort_actuals
         R.assign "per_cohort_predictions", per_cohort_predictions
         averaged_preds_byverb[variable] = per_cohort_predictions
-        R.eval "indiv_mae = mean(abs(per_cohort_predictions-per_cohort_actuals))"
+        #R.eval "indiv_mae = mean(abs(per_cohort_predictions-per_cohort_actuals))"
+        R.eval "indiv_mae = mean(sqrt((log(per_cohort_predictions/per_cohort_actuals))^2))"
         indiv_mae = R.pull "indiv_mae"
         indiv_maes << indiv_mae
     end 
@@ -205,9 +207,12 @@ if individual
             categorical << mean(ind_preds_categorical)
             R.assign "preds4", ind_preds_bundle_re
             bundle_re << mean(ind_preds_bundle_re)
-            R.eval "indindmae2 = mean(abs(preds2-test2$indvalue))"
-            R.eval "indindmae3 = mean(abs(preds3-test2$indvalue))"
-            R.eval "indindmae4 = mean(abs(preds4-test2$indvalue))"
+            #R.eval "indindmae2 = mean(abs(preds2-test2$indvalue))"
+            R.eval "indindmae2 = mean(sqrt((log(preds2/test2$indvalue))^2))"
+            #R.eval "indindmae3 = mean(abs(preds3-test2$indvalue))"
+            R.eval "indindmae3 = mean(sqrt((log(preds3/test2$indvalue))^2))"
+            #R.eval "indindmae4 = mean(abs(preds4-test2$indvalue))"
+            R.eval "indindmae4 = mean(sqrt((log(preds4/test2$indvalue))^2))"
             indindmae2 = R.pull "indindmae2"
             indindmae3 = R.pull "indindmae3"
             indindmae4 = R.pull "indindmae4"
@@ -220,9 +225,13 @@ if individual
             R.eval "ave_per_cohort_pred2 = mean(preds2)"
             R.eval "ave_per_cohort_pred3 = mean(preds3)"
             R.eval "ave_per_cohort_pred4 = mean(preds4)"
-            R.eval "ind_mae2 = mean(abs(ave_per_cohort_pred2 - ave_per_cohort_actual))"
-            R.eval "ind_mae3 = mean(abs(ave_per_cohort_pred3 - ave_per_cohort_actual))"
-            R.eval "ind_mae4 = mean(abs(ave_per_cohort_pred4 - ave_per_cohort_actual))"
+            #R.eval "ind_mae2 = mean(abs(ave_per_cohort_pred2 - ave_per_cohort_actual))"
+            R.eval "ind_mae2 = mean(sqrt((log(ave_per_cohort_pred2/ave_per_cohort_actual))^2))"
+            #R.eval "ind_mae3 = mean(abs(ave_per_cohort_pred3 - ave_per_cohort_actual))"
+            R.eval "ind_mae3 = mean(sqrt((log(ave_per_cohort_pred3/ave_per_cohort_actual))^2))"
+            #R.eval "ind_mae4 = mean(abs(ave_per_cohort_pred4 - ave_per_cohort_actual))"
+            R.eval "ind_mae4 = mean(sqrt((log(ave_per_cohort_pred4/ave_per_cohort_actual))^2))"
+            
             indmae2 = R.pull "ind_mae2"
             indmae3 = R.pull "ind_mae3"
             indmae4 = R.pull "ind_mae4"
@@ -365,7 +374,8 @@ if aggregate
             
             R.assign "predsf", predsf
             R.assign "actualf", actualf
-            R.eval "byverb_mae = mean(abs(predsf-actualf))"
+            #R.eval "byverb_mae = mean(abs(predsf-actualf))"
+            R.eval "byverb_mae = mean(sqrt((log(predsf/actualf))^2))"
             byverb_mae = R.pull "byverb_mae"
             #if variable == "riskera"
             #    STDERR.puts "#{fold} #{byverb_mae}"
@@ -428,17 +438,21 @@ if aggregate
             R.assign "preds2", preds2[variable][cohort]
             R.assign "preds3", preds3[variable][cohort]
             R.assign "preds4", preds4[variable][cohort]
-            R.eval "mae2 = mean(abs(preds2-test2$value#{addendum}))"
+            #R.eval "mae2 = mean(abs(preds2-test2$value#{addendum}))"
+            R.eval "mae2 = mean(sqrt((log(preds2/test2$value#{addendum}))^2))"
             mae2 = R.pull "mae2"
             sum_mae2 += mae2
-            R.eval "mae3 = mean(abs(preds3-test2$value#{addendum}))"
+            #R.eval "mae3 = mean(abs(preds3-test2$value#{addendum}))"
+            R.eval "mae3 = mean(sqrt((log(preds3/test2$value#{addendum}))^2))"
             mae3 = R.pull "mae3"
             sum_mae3 += mae3
-            R.eval "mae4 = mean(abs(preds4-test2$value#{addendum}))"
+            #R.eval "mae4 = mean(abs(preds4-test2$value#{addendum}))"
+            R.eval "mae4 = mean(sqrt((log(preds4/test2$value#{addendum}))^2))"
             mae4 = R.pull "mae4"
             sum_mae4 += mae4
             
-            R.eval "mae0 = mean(abs(preds0-test2$value#{addendum}))"
+            #R.eval "mae0 = mean(abs(preds0-test2$value#{addendum}))"
+            R.eval "mae0 = mean(sqrt((log(preds0/test2$value#{addendum}))^2))"
             mae0 = R.pull "mae0"
             sum_mae0 += mae0
             
@@ -480,7 +494,8 @@ if aggregate
             R.eval "m1 = lm(value#{addendum} ~ #{modelformula1}, data = train)"
             #R.eval "summary(m1)"
             R.eval "preds = predict(m1,test,type='response')"
-            R.eval "mae = mean(abs(preds-test$value#{addendum}))"
+            #R.eval "mae = mean(abs(preds-test$value#{addendum}))"
+            R.eval "mae = mean(sqrt((log(preds/test$value#{addendum}))^2))"
             
             mae = R.pull "mae"
             if normalize > 0
@@ -522,9 +537,11 @@ if aggregate
             #end
             
             
-            R.eval "mae_joint = mean(abs(preds2var-test$value#{addendum}))"
+            #R.eval "mae_joint = mean(abs(preds2var-test$value#{addendum}))"
+            R.eval "mae_joint = mean(sqrt((log(preds2var/test$value#{addendum}))^2))"
             mae_joint = R.pull "mae_joint"
-            R.eval "mae_joint3 = mean(abs(preds3var-test$value#{addendum}))"
+            #R.eval "mae_joint3 = mean(abs(preds3var-test$value#{addendum}))"
+            R.eval "mae_joint3 = mean(sqrt((log(preds3var/test$value#{addendum}))^2))"
             mae_joint3 = R.pull "mae_joint3"
             
             if normalize > 0

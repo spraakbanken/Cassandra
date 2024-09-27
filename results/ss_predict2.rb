@@ -3,6 +3,8 @@
 year = "2008,2009,2010"
 t = 0
 
+sampling = false
+
 step = 4
 cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
 cohorts = {}
@@ -106,11 +108,15 @@ variables.each do |variable|
 end
 
 speaker_scores = Hash.new(0)
+speakers_per_variable = {}
 speakers_by_variable.each_pair do |variable, speakerhash|
     speakerhash.each_key do |speaker|
         speaker_scores[speaker] += 1
     end
+    speakers_per_variable[variable] = speakerhash.keys.length
 end
+
+minspeakers = speakers_per_variable.values.min
 
 
 
@@ -150,26 +156,38 @@ variables.each do |variable|
     avar_community[variable] = community_average
     fc.close
 
+    if sampling
+        f = File.open(filename,"r:utf-8")
+        counter = -1
+        f.each_line do |line|
+            counter += 1
+        end
+        f.close
+        chosenlines = (1..counter).to_a.sample(minspeakers)
+    end
+
 
     f = File.open(filename,"r:utf-8")
     f.each_line.with_index do |line,index|
         if index > 0
-            line2 = line.split("\t")
-            speaker = line2[1]
-            yob = line2[2].to_i
-            innov = line2[-1].to_f
-            v2abs = line2[-3].to_f
-            #vtotal = line2[-5].to_f
-            total = line2[4].to_i
-            cohort = cohortidhash[yob]
-
-            macroinnov_by_variable_by_cohort[variable][cohort] += innov
-            hashinnov_by_variable_by_cohort[variable][cohort] << innov
-            by_verb_by_cohort_tokens[variable][cohort] += total
-            by_verb_by_cohort_authors[variable][cohort] += 1
-            innov_by_variable_by_cohort[variable][cohort][speaker] = innov
-            yobs[speaker] = yob
-            #speakers_by_variable[variable][speaker] = true
+                if !sampling or (sampling and chosenlines.include?(index))
+                line2 = line.split("\t")
+                speaker = line2[1]
+                yob = line2[2].to_i
+                innov = line2[-1].to_f
+                v2abs = line2[-3].to_f
+                #vtotal = line2[-5].to_f
+                total = line2[4].to_i
+                cohort = cohortidhash[yob]
+			    
+                macroinnov_by_variable_by_cohort[variable][cohort] += innov
+                hashinnov_by_variable_by_cohort[variable][cohort] << innov
+                by_verb_by_cohort_tokens[variable][cohort] += total
+                by_verb_by_cohort_authors[variable][cohort] += 1
+                innov_by_variable_by_cohort[variable][cohort][speaker] = innov
+                yobs[speaker] = yob
+                #speakers_by_variable[variable][speaker] = true
+            end
         end
     end
 end

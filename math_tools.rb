@@ -19,7 +19,7 @@ def median(array)
   (sorted[(len - 1) / 2] + sorted[len / 2]) / 2.0
 end
 
-def smooth(array,window,ndatapoints,total_threshold)
+def smooth(array,window,totalcontrol=false,ndatapoints=[],total_threshold=10000)
     if window % 2 == 0
         abort("Cassandra says: Smoothing window must be an odd number")
     end
@@ -37,12 +37,16 @@ def smooth(array,window,ndatapoints,total_threshold)
                     array2[index] += array[i]
                     ntotal += 1
                 #end
-                array3[index] += ndatapoints[i]
+                if totalcontrol
+                    array3[index] += ndatapoints[i]
+                end
             end
             array2[index] = array2[index]/ntotal
-            array3[index] = array3[index]/ntotal
-            if array3[index] < total_threshold
-                array2[index] = "NA"
+            if totalcontrol
+                array3[index] = array3[index]/ntotal
+                if array3[index] < total_threshold
+                    array2[index] = "NA"
+                end
             end
         #end
 
