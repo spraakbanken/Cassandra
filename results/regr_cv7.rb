@@ -11,16 +11,18 @@ require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\math_tools.rb"
 
 step = 4
 
-def measure_error(function, predictions, actuals)
+def measure_error(measure, predictions, actuals)
     R.assign "fpredictions", predictions
     R.assign "factuals", actuals
 
-    if function == "mae"
+    if measure == "mae"
         R.eval "error = mean(abs(fpredictions-factuals))"
-    elsif function == "koplenig"
+    elsif measure == "koplenig"
         R.eval "error = mean(sqrt((log(fpredictions/factuals))^2))"
-    elsif function == "rmse"
+    elsif measure == "rmse"
         R.eval "error = sqrt(mean((fpredictions-factuals)^2))"
+    elsif measure == "se"
+        R.eval "error = sqrt(mean((fpredictions-factuals)^2))/(sqrt(length(fpredictions)))"
     end
     error = R.pull "error"
     return error
@@ -34,7 +36,7 @@ topredict = "innovativeness"
 aggregate = true
 individual = true
 do_smoothing = 0
-function = "mae"
+measure = "mae"
 
 if topredict == "innovativeness"
     addendum = ""
@@ -46,7 +48,12 @@ intersection = ""
 function = "linear"
 #intersection = "_intersection"
 
-STDERR.puts "Step: #{step}; dependent variable: #{topredict}; normalization mode: #{normalize}; intersection: #{intersection}; smoothing: #{do_smoothing}; link function #{function}"
+STDERR.puts "Step: #{step}; dependent variable: #{topredict}; normalization mode: #{normalize}; intersection: #{intersection}; smoothing: #{do_smoothing}; link function #{function}; error measure: #{measure}"
+
+mainresults = File.open("regr_summary_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}.tsv","w:utf-8")
+
+
+mainresults.puts "analysis\tbaseline0\tlabel1\tbundle2\tbundle_re3\tbundle_newconstr4"
 
 excluded_variables = ["behaga", "lova"]
 variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
@@ -89,7 +96,7 @@ indbundle_per_variable = {}
 indbundle_re_per_variable = {}
 indcategorical_per_variable = {}
 
-R.eval '.libPaths("C:/Users/Sasha/Documents/R/win-library/3.6")'
+#R.eval '.libPaths("C:/Users/Sasha/Documents/R/win-library/3.6")'
 R.eval "library(lme4)"
 
 if individual
@@ -159,8 +166,10 @@ if individual
         
         
         #R.eval "indindmae_byverb = mean(abs(indiv_preds_byverb-test3$indvalue))" 
-        R.eval "indindmae_byverb = mean(sqrt((log(indiv_preds_byverb/test3$indvalue))^2))" 
-        indindiv_mae = R.pull "indindmae_byverb"
+        #R.eval "indindmae_byverb = mean(sqrt((log(indiv_preds_byverb/test3$indvalue))^2))" 
+        actuals = R.pull "test3$indvalue"
+        indindiv_mae = measure_error(measure,indiv_preds_byverb[variable],actuals)
+#R.pull "indindmae_byverb"
         indindiv_maes << indindiv_mae
  
         counter = 0
@@ -177,16 +186,19 @@ if individual
             per_cohort_actual = R.pull "ave_per_cohort_actual"
             per_cohort_actuals << per_cohort_actual
         end
-        R.assign "per_cohort_actuals", per_cohort_actuals
-        R.assign "per_cohort_predictions", per_cohort_predictions
+        #R.assign "per_cohort_actuals", per_cohort_actuals
+        #R.assign "per_cohort_predictions", per_cohort_predictions
         averaged_preds_byverb[variable] = per_cohort_predictions
         #R.eval "indiv_mae = mean(abs(per_cohort_predictions-per_cohort_actuals))"
-        R.eval "indiv_mae = mean(sqrt((log(per_cohort_predictions/per_cohort_actuals))^2))"
-        indiv_mae = R.pull "indiv_mae"
+        #R.eval "indiv_mae = mean(sqrt((log(per_cohort_predictions/per_cohort_actuals))^2))"
+        indiv_mae = measure_error(measure,per_cohort_predictions,per_cohort_actuals)
+
+        #indiv_mae = R.pull "indiv_mae"
         indiv_maes << indiv_mae
     end 
-    STDERR.puts "Individual: Average mae per unknown verb #{mean(indiv_maes)}"
-    STDERR.puts "Individual: Invidiual mae per unknown verb #{mean(indindiv_maes)}"
+    
+    
+
     variables.each do |variable|
         STDERR.puts variable
         bundle = []
@@ -222,33 +234,44 @@ if individual
             R.assign "preds4", ind_preds_bundle_re
             bundle_re << mean(ind_preds_bundle_re)
             #R.eval "indindmae2 = mean(abs(preds2-test2$indvalue))"
-            R.eval "indindmae2 = mean(sqrt((log(preds2/test2$indvalue))^2))"
+            #R.eval "indindmae2 = mean(sqrt((log(preds2/test2$indvalue))^2))"
+            actuals = R.pull "test2$indvalue"
+            indindmae2 = measure_error(measure,ind_preds_bundle,actuals)
+            
             #R.eval "indindmae3 = mean(abs(preds3-test2$indvalue))"
-            R.eval "indindmae3 = mean(sqrt((log(preds3/test2$indvalue))^2))"
+            #R.eval "indindmae3 = mean(sqrt((log(preds3/test2$indvalue))^2))"
+            indindmae3 = measure_error(measure,ind_preds_categorical,actuals)
             #R.eval "indindmae4 = mean(abs(preds4-test2$indvalue))"
-            R.eval "indindmae4 = mean(sqrt((log(preds4/test2$indvalue))^2))"
-            indindmae2 = R.pull "indindmae2"
-            indindmae3 = R.pull "indindmae3"
-            indindmae4 = R.pull "indindmae4"
+            #R.eval "indindmae4 = mean(sqrt((log(preds4/test2$indvalue))^2))"
+            indindmae4 = measure_error(measure,ind_preds_bundle_re,actuals)
+            #indindmae2 = R.pull "indindmae2"
+            #indindmae3 = R.pull "indindmae3"
+            #indindmae4 = R.pull "indindmae4"
             indindmae2s << indindmae2
             indindmae3s << indindmae3
             indindmae4s << indindmae4
             
 
             R.eval "ave_per_cohort_actual = mean(test2[test2$cohort == #{cohort},]$indvalue)"
-            R.eval "ave_per_cohort_pred2 = mean(preds2)"
-            R.eval "ave_per_cohort_pred3 = mean(preds3)"
-            R.eval "ave_per_cohort_pred4 = mean(preds4)"
+            ave_per_cohort_actual = R.pull "ave_per_cohort_actual"
+            #R.eval "ave_per_cohort_pred2 = mean(preds2)"
+            #R.eval "ave_per_cohort_pred3 = mean(preds3)"
+            #R.eval "ave_per_cohort_pred4 = mean(preds4)"
             #R.eval "ind_mae2 = mean(abs(ave_per_cohort_pred2 - ave_per_cohort_actual))"
-            R.eval "ind_mae2 = mean(sqrt((log(ave_per_cohort_pred2/ave_per_cohort_actual))^2))"
+            #R.eval "ind_mae2 = mean(sqrt((log(ave_per_cohort_pred2/ave_per_cohort_actual))^2))"
             #R.eval "ind_mae3 = mean(abs(ave_per_cohort_pred3 - ave_per_cohort_actual))"
-            R.eval "ind_mae3 = mean(sqrt((log(ave_per_cohort_pred3/ave_per_cohort_actual))^2))"
+            #R.eval "ind_mae3 = mean(sqrt((log(ave_per_cohort_pred3/ave_per_cohort_actual))^2))"
             #R.eval "ind_mae4 = mean(abs(ave_per_cohort_pred4 - ave_per_cohort_actual))"
-            R.eval "ind_mae4 = mean(sqrt((log(ave_per_cohort_pred4/ave_per_cohort_actual))^2))"
+            #R.eval "ind_mae4 = mean(sqrt((log(ave_per_cohort_pred4/ave_per_cohort_actual))^2))"
             
-            indmae2 = R.pull "ind_mae2"
-            indmae3 = R.pull "ind_mae3"
-            indmae4 = R.pull "ind_mae4"
+            #indmae2 = R.pull "ind_mae2"
+            #indmae3 = R.pull "ind_mae3"
+            #indmae4 = R.pull "ind_mae4"
+
+            indmae2 = measure_error(measure, mean(ind_preds_bundle), ave_per_cohort_actual)
+            indmae3 = measure_error(measure, mean(ind_preds_categorical), ave_per_cohort_actual)
+            indmae4 = measure_error(measure, mean(ind_preds_bundle_re), ave_per_cohort_actual)
+
             indmae2s << indmae2
             indmae3s << indmae3
             indmae4s << indmae4
@@ -266,6 +289,14 @@ if individual
     STDERR.puts "Individual individual bundle: #{mean(indindmae2s)}"
     STDERR.puts "Individual individual bundle re: #{mean(indindmae4s)}"
     STDERR.puts "Individual individual categorical: #{mean(indindmae3s)}"
+
+    STDERR.puts "Individual: Average mae per unknown verb #{mean(indiv_maes)}"
+    STDERR.puts "Individual: Invididual mae per unknown verb #{mean(indindiv_maes)}"
+    
+    mainresults.puts "individual\t\t#{mean(indindmae3s)}\t#{mean(indindmae2s)}\t#{mean(indindmae4s)}\t#{mean(indindiv_maes)}"
+    mainresults.puts "individual_averaged\t\t#{mean(indmae3s)}\t#{mean(indmae2s)}\t#{mean(indmae4s)}\t#{mean(indiv_maes)}"
+    
+
     #R.eval "detach('package:lme4', unload=TRUE)"
 end
 #=end
@@ -385,12 +416,12 @@ if aggregate
         for cohort in 1..ncohorts do
             predsf = preds_byverb[variable][cohort-1]
             actualf = actual[cohort-1]
-            
-            R.assign "predsf", predsf
-            R.assign "actualf", actualf
+            byverb_mae = measure_error(measure,predsf,actualf)
+            #R.assign "predsf", predsf
+            #R.assign "actualf", actualf
             #R.eval "byverb_mae = mean(abs(predsf-actualf))"
-            R.eval "byverb_mae = mean(sqrt((log(predsf/actualf))^2))"
-            byverb_mae = R.pull "byverb_mae"
+            #R.eval "byverb_mae = mean(sqrt((log(predsf/actualf))^2))"
+            #byverb_mae = R.pull "byverb_mae"
             #if variable == "riskera"
             #    STDERR.puts "#{fold} #{byverb_mae}"
             #    STDERR.puts "F #{fold} A #{actualf.join(" ")} P #{predsf.join(" ")}"
@@ -453,21 +484,26 @@ if aggregate
             R.assign "preds3", preds3[variable][cohort]
             R.assign "preds4", preds4[variable][cohort]
             #R.eval "mae2 = mean(abs(preds2-test2$value#{addendum}))"
-            R.eval "mae2 = mean(sqrt((log(preds2/test2$value#{addendum}))^2))"
-            mae2 = R.pull "mae2"
+            #R.eval "mae2 = mean(sqrt((log(preds2/test2$value#{addendum}))^2))"
+            #mae2 = R.pull "mae2"
+            actuals = R.pull "test2$value#{addendum}"
+            mae2 = measure_error(measure, preds2[variable][cohort], actuals)
             sum_mae2 += mae2
             #R.eval "mae3 = mean(abs(preds3-test2$value#{addendum}))"
-            R.eval "mae3 = mean(sqrt((log(preds3/test2$value#{addendum}))^2))"
-            mae3 = R.pull "mae3"
+            #R.eval "mae3 = mean(sqrt((log(preds3/test2$value#{addendum}))^2))"
+            #mae3 = R.pull "mae3"
+            mae3 = measure_error(measure, preds3[variable][cohort], actuals)
             sum_mae3 += mae3
             #R.eval "mae4 = mean(abs(preds4-test2$value#{addendum}))"
-            R.eval "mae4 = mean(sqrt((log(preds4/test2$value#{addendum}))^2))"
-            mae4 = R.pull "mae4"
+            #R.eval "mae4 = mean(sqrt((log(preds4/test2$value#{addendum}))^2))"
+            #mae4 = R.pull "mae4"
+            mae4 = measure_error(measure, preds4[variable][cohort], actuals)
             sum_mae4 += mae4
             
             #R.eval "mae0 = mean(abs(preds0-test2$value#{addendum}))"
-            R.eval "mae0 = mean(sqrt((log(preds0/test2$value#{addendum}))^2))"
-            mae0 = R.pull "mae0"
+            #R.eval "mae0 = mean(sqrt((log(preds0/test2$value#{addendum}))^2))"
+            #mae0 = R.pull "mae0"
+            mae0 = measure_error(measure, preds0[variable][cohort], actuals)
             sum_mae0 += mae0
             
         end
@@ -552,12 +588,15 @@ if aggregate
             
             
             #R.eval "mae_joint = mean(abs(preds2var-test$value#{addendum}))"
-            R.eval "mae_joint = mean(sqrt((log(preds2var/test$value#{addendum}))^2))"
-            mae_joint = R.pull "mae_joint"
+            #R.eval "mae_joint = mean(sqrt((log(preds2var/test$value#{addendum}))^2))"
+            #mae_joint = R.pull "mae_joint"
+            actuals = R.pull "test$value#{addendum}"
+            mae_joint = measure_error(measure, preds2var, actuals)
+
             #R.eval "mae_joint3 = mean(abs(preds3var-test$value#{addendum}))"
-            R.eval "mae_joint3 = mean(sqrt((log(preds3var/test$value#{addendum}))^2))"
-            mae_joint3 = R.pull "mae_joint3"
-            
+            #R.eval "mae_joint3 = mean(sqrt((log(preds3var/test$value#{addendum}))^2))"
+            #mae_joint3 = R.pull "mae_joint3"
+            mae_joint3 = measure_error(measure, preds3var, actuals)
             if normalize > 0
                 mae_joint = mae_joint/normalized_per_verb[variable]
                 mae_joint3 = mae_joint3/normalized_per_verb[variable]
@@ -613,9 +652,9 @@ if aggregate
     
 
 
-    o1 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_error_separate.tsv","w:utf-8")
-    o2 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_error_joint_bundle.tsv","w:utf-8")
-    o3 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_error_joint_categorical.tsv","w:utf-8")
+    o1 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_error_separate.tsv","w:utf-8")
+    o2 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_error_joint_bundle.tsv","w:utf-8")
+    o3 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_error_joint_categorical.tsv","w:utf-8")
     
     cohortlist = "variable"
     for cohort in 1..ncohorts
@@ -691,7 +730,7 @@ if aggregate
         STDERR.puts "Null model: #{joint_ave_mae0}"
         STDERR.puts "Random-effect model: #{joint_ave_mae4}"
     end
-    
+    mainresults.puts "aggregate\t#{joint_ave_mae0}\t#{joint_ave_mae3}\t#{joint_ave_mae2}\t#{joint_ave_mae4}\t#{micro_byverb_mae}"
     o1.puts output1
     o2.puts output2
     o3.puts output3
