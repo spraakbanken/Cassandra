@@ -34,7 +34,7 @@ normalize = 0
 #topredict = "uncertainty"
 topredict = "innovativeness"
 aggregate = true
-individual = true
+individual = false
 do_smoothing = 0
 measure = "mae"
 
@@ -50,14 +50,16 @@ function = "linear"
 
 STDERR.puts "Step: #{step}; dependent variable: #{topredict}; normalization mode: #{normalize}; intersection: #{intersection}; smoothing: #{do_smoothing}; link function #{function}; error measure: #{measure}"
 
-mainresults = File.open("regr_summary_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}.tsv","w:utf-8")
+excluded_variables = ["behaga", "lova"]
+variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra","behaga", "lova"]
+#variables = ["fortsätta", "försöka", "glömma", "komma", "slippa", "sluta", "vägra"]
+
+
+mainresults = File.open("regr_summary_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_nvars#{variables.length}.tsv","w:utf-8")
 
 
 mainresults.puts "analysis\tbaseline0\tlabel1\tbundle2\tbundle_re3\tbundle_newconstr4"
 
-excluded_variables = ["behaga", "lova"]
-variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
-#variables = ["fortsätta", "försöka", "glömma", "komma", "slippa", "sluta", "vägra"]
 
 #modelformula = "(1/(1+exp(-cohort))) + community + (1/(1+exp(-cohort))):community + freq + trend + (1/(1+exp(-cohort))):freq + (1/(1+exp(-cohort))):trend"
 #modelformula1 = "(1/(1+exp(-cohort)))"
@@ -515,8 +517,8 @@ if aggregate
     
     # SEPARATE REGRESSIONS
     sum_micro_mae = 0.0
-    R.eval "pdf(file='predicting_#{step}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}.pdf')"
-    R.eval "par(mfrow=c(3,3), mar=c(2,2,2,2))"
+    R.eval "pdf(file='predicting_#{step}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_nvars#{variables.length}.pdf')"
+    R.eval "par(mfrow=c(4,3), mar=c(2,2,2,2))"
     
     variables.each.with_index do |variable,index|
         
@@ -652,9 +654,9 @@ if aggregate
     
 
 
-    o1 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_error_separate.tsv","w:utf-8")
-    o2 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_error_joint_bundle.tsv","w:utf-8")
-    o3 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_error_joint_categorical.tsv","w:utf-8")
+    o1 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_nvars#{variables.length}_error_separate.tsv","w:utf-8")
+    o2 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_nvars#{variables.length}_error_joint_bundle.tsv","w:utf-8")
+    o3 = File.open("predicting_step#{step}_norm#{normalize}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_#{measure}_nvars#{variables.length}_error_joint_categorical.tsv","w:utf-8")
     
     cohortlist = "variable"
     for cohort in 1..ncohorts

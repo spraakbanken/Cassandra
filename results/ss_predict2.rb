@@ -9,10 +9,10 @@ step = 4
 cohortsfile = File.open("C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\cohorts_min1960_step#{step}.tsv","r:utf-8")
 cohorts = {}
 
-sag = {"fortsätta" => "var", "försöka" => "var", "glömma" => "var", "komma" => "att", "planera" => "var", "riskera" => "att", "slippa" => "no", "sluta"  => "var", "vägra"  => "var"}
-so = {"fortsätta" => "var", "försöka" => "var", "glömma" => "var", "komma" => "var", "planera" => "att", "riskera" => "att", "slippa" => "no", "sluta"  => "var", "vägra"  => "var"}
-freqlog = {"fortsätta" => 3, "försöka" => 3, "glömma" => 2, "komma" => 4, "planera" => 2, "riskera" => 2, "slippa" => 3, "sluta"  => 3, "vägra"  => 3}
-comcat = {"fortsätta" => 1, "försöka" => 2, "glömma" => 2, "komma" => 1, "planera" => 0, "riskera" => 0, "slippa" => 2, "sluta"  => 2, "vägra"  => 2}
+sag = {"fortsätta" => "var", "försöka" => "var", "glömma" => "var", "komma" => "att", "planera" => "var", "riskera" => "att", "slippa" => "no", "sluta"  => "var", "vägra"  => "var", "behaga" => "var", "lova" => "var"}
+so = {"fortsätta" => "var", "försöka" => "var", "glömma" => "var", "komma" => "var", "planera" => "att", "riskera" => "att", "slippa" => "no", "sluta"  => "var", "vägra"  => "var", "behaga" => "var", "lova" => "att"}
+freqlog = {"fortsätta" => 3, "försöka" => 3, "glömma" => 2, "komma" => 4, "planera" => 2, "riskera" => 2, "slippa" => 3, "sluta"  => 3, "vägra"  => 3, "behaga" => 1, "lova" => 1}
+comcat = {"fortsätta" => 1, "försöka" => 2, "glömma" => 2, "komma" => 1, "planera" => 0, "riskera" => 0, "slippa" => 2, "sluta"  => 2, "vägra"  => 2, "behaga" => 2, "lova" => 0}
 
 
 cohortsfile.each_line.with_index do |line,index|
@@ -70,7 +70,7 @@ require "rinruby"
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
 excluded_variables = ["behaga", "lova"]
-variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
+variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra", "behaga", "lova"]
 by_verb_by_cohort_tokens = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 by_verb_by_cohort_authors = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 macroinnov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new(0)}
