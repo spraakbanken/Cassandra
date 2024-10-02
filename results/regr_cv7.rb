@@ -34,9 +34,10 @@ normalize = 0
 #topredict = "uncertainty"
 topredict = "innovativeness"
 aggregate = true
-individual = false
+individual = true
 do_smoothing = 0
 measure = "mae"
+plot_aggregate = false
 
 if topredict == "innovativeness"
     addendum = ""
@@ -51,7 +52,7 @@ function = "linear"
 STDERR.puts "Step: #{step}; dependent variable: #{topredict}; normalization mode: #{normalize}; intersection: #{intersection}; smoothing: #{do_smoothing}; link function #{function}; error measure: #{measure}"
 
 excluded_variables = ["behaga", "lova"]
-variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra","behaga", "lova"]
+variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]#,"behaga", "lova"]
 #variables = ["fortsätta", "försöka", "glömma", "komma", "slippa", "sluta", "vägra"]
 
 
@@ -94,6 +95,7 @@ end
 
 #=begin
 
+indbaseline_per_variable = {}
 indbundle_per_variable = {}
 indbundle_re_per_variable = {}
 indcategorical_per_variable = {}
@@ -105,6 +107,7 @@ if individual
     #variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
     modelformula = "scale(scohort) + scale(community) + scale(scohort):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort):trend"
     modelformula2 = "scale(scohort) + variable + scale(scohort):variable"
+    modelformula0 = "scale(scohort)"
     
     #modelformula = "scale(yob)"
     STDERR.puts "Individual analysis"
@@ -127,15 +130,18 @@ if individual
         R.eval "dataset_indiv$scohort2 <- dataset_indiv$cohort^2"
         R.eval "dataset_indiv$scohort3 <- dataset_indiv$cohort^3"
         
+        modelformula = "scale(scohort) + scale(scohort2) + scale(scohort3)"
         modelformula2 = "scale(scohort) + scale(scohort2) + scale(scohort3) + variable + scale(scohort):variable + scale(scohort2):variable + scale(scohort3):variable"
         modelformula = "scale(scohort) + scale(scohort2) + scale(scohort3) + scale(community) + scale(scohort):scale(community) + scale(scohort2):scale(community) + scale(scohort3):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort2):scale(freq) + scale(scohort3):scale(freq) + scale(scohort):trend + scale(scohort2):trend + scale(scohort3):trend" # + sag + so + scohort:sag + scohort:so
         
     end
     
     sumind = 0.0
+    indmae0s = []
     indmae2s = []
     indmae3s = []
     indmae4s = []
+    indindmae0s = []
     indindmae2s = []
     indindmae3s = []
     indindmae4s = []
@@ -157,6 +163,7 @@ if individual
         R.eval "test3 = dataset_indiv[dataset_indiv$variable %in% v_test,]"
         
         #modelformula = "yob + community + yob:community + freq + trend + yob:freq + yob:trend"
+        
         R.eval "m2 = lmer(indvalue ~ #{modelformula} + (1|speaker2), data = train3)"
         #R.eval "m2 = lm(indvalue ~ #{modelformula}, data = train2)"
         R.eval "indiv_preds_byverb = predict(m2,test3,type='response')"
@@ -206,19 +213,26 @@ if individual
         bundle = []
         bundle_re = []
         categorical = []
+        baseline = []
+
         for cohort in 1..ncohorts do
             R.eval "train2 = dataset_indiv[((dataset_indiv$cohort != #{cohort}) | (dataset_indiv$variable != '#{variable}')) ,]"
             R.eval "test2 = dataset_indiv[((dataset_indiv$cohort == #{cohort}) & (dataset_indiv$variable == '#{variable}')),]"
             #modelformula = "yob + community + yob:community + freq + trend + yob:freq + yob:trend"
+            R.eval "m0 = lmer(indvalue ~ #{modelformula0} + (1|speaker2), data = train2)"
             R.eval "m2 = lmer(indvalue ~ #{modelformula} + (1|speaker2), data = train2)"
             R.eval "m3 = lmer(indvalue ~ #{modelformula2} + (1|speaker2), data = train2)"
             R.eval "m4 = lmer(indvalue ~ #{modelformula} + (1|speaker2) + (1+scale(cohort)|variable), data = train2)"
         #R.eval "m2 = lm(indvalue ~ #{modelformula}, data = train2)"
         #R.eval "print(summary(m2))"
+            R.eval "preds0 = predict(m0,test2,type='response')"
             R.eval "preds2 = predict(m2,test2,type='response')"
             R.eval "preds3 = predict(m3,test2,type='response')"
             R.eval "preds4 = predict(m4,test2,type='response')"
         
+            ind_preds_baseline = R.pull "preds0"
+            ind_preds_baseline = bound_pred(ind_preds_baseline)
+            
             ind_preds_bundle = R.pull "preds2"
             ind_preds_bundle = bound_pred(ind_preds_bundle)
             ind_preds_categorical = R.pull "preds3"
@@ -226,18 +240,20 @@ if individual
             ind_preds_bundle_re = R.pull "preds4"
             ind_preds_bundle_re = bound_pred(ind_preds_bundle_re)
             
-            actual = R.pull "test2$indvalue"
+            #actual = R.pull "test2$indvalue"
             #STDERR.puts ind_preds_byverb[variable].join(" ")
             #STDERR.puts actual.join(" ")
-            R.assign "preds2", ind_preds_bundle 
+            #R.assign "preds2", ind_preds_bundle 
             bundle << mean(ind_preds_bundle)
-            R.assign "preds3", ind_preds_categorical
+            #R.assign "preds3", ind_preds_categorical
             categorical << mean(ind_preds_categorical)
-            R.assign "preds4", ind_preds_bundle_re
+            #R.assign "preds4", ind_preds_bundle_re
             bundle_re << mean(ind_preds_bundle_re)
+            baseline << mean(ind_preds_baseline)
             #R.eval "indindmae2 = mean(abs(preds2-test2$indvalue))"
             #R.eval "indindmae2 = mean(sqrt((log(preds2/test2$indvalue))^2))"
             actuals = R.pull "test2$indvalue"
+            indindmae0 = measure_error(measure,ind_preds_baseline,actuals)
             indindmae2 = measure_error(measure,ind_preds_bundle,actuals)
             
             #R.eval "indindmae3 = mean(abs(preds3-test2$indvalue))"
@@ -249,6 +265,7 @@ if individual
             #indindmae2 = R.pull "indindmae2"
             #indindmae3 = R.pull "indindmae3"
             #indindmae4 = R.pull "indindmae4"
+            indindmae0s << indindmae0
             indindmae2s << indindmae2
             indindmae3s << indindmae3
             indindmae4s << indindmae4
@@ -269,16 +286,18 @@ if individual
             #indmae2 = R.pull "ind_mae2"
             #indmae3 = R.pull "ind_mae3"
             #indmae4 = R.pull "ind_mae4"
-
+            indmae0 = measure_error(measure, mean(ind_preds_baseline), ave_per_cohort_actual)
             indmae2 = measure_error(measure, mean(ind_preds_bundle), ave_per_cohort_actual)
             indmae3 = measure_error(measure, mean(ind_preds_categorical), ave_per_cohort_actual)
             indmae4 = measure_error(measure, mean(ind_preds_bundle_re), ave_per_cohort_actual)
 
+            indmae0s << indmae0
             indmae2s << indmae2
             indmae3s << indmae3
             indmae4s << indmae4
             
         end
+        indbaseline_per_variable[variable] = baseline
         indbundle_per_variable[variable] = bundle
         indcategorical_per_variable[variable] = categorical
         indbundle_re_per_variable[variable] = bundle_re
@@ -295,8 +314,8 @@ if individual
     STDERR.puts "Individual: Average mae per unknown verb #{mean(indiv_maes)}"
     STDERR.puts "Individual: Invididual mae per unknown verb #{mean(indindiv_maes)}"
     
-    mainresults.puts "individual\t\t#{mean(indindmae3s)}\t#{mean(indindmae2s)}\t#{mean(indindmae4s)}\t#{mean(indindiv_maes)}"
-    mainresults.puts "individual_averaged\t\t#{mean(indmae3s)}\t#{mean(indmae2s)}\t#{mean(indmae4s)}\t#{mean(indiv_maes)}"
+    mainresults.puts "individual\t#{mean(indindmae0s)}\t#{mean(indindmae3s)}\t#{mean(indindmae2s)}\t#{mean(indindmae4s)}\t#{mean(indindiv_maes)}"
+    mainresults.puts "individual_averaged\t#{mean(indmae0s)}\t#{mean(indmae3s)}\t#{mean(indmae2s)}\t#{mean(indmae4s)}\t#{mean(indiv_maes)}"
     
 
     #R.eval "detach('package:lme4', unload=TRUE)"
@@ -305,10 +324,10 @@ end
 
 
 if aggregate
-    modelformula = "scohort + community + scohort:community + freq + trend + scohort:freq + scohort:trend" # + sag + so + scohort:sag + scohort:so
+    modelformula = "scale(scohort) + scale(community) + scale(scohort):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort):trend" # + sag + so + scohort:sag + scohort:so
     #modelformula = "scohort + comcat + scohort:comcat + freqlog + trend + scohort:freqlog + scohort:trend" # + sag + so + scohort:sag + scohort:so
-    modelformula1 = "scohort"
-    modelformula2 = "scohort + variable + scohort:variable"
+    modelformula1 = "scale(scohort)"
+    modelformula2 = "scale(scohort) + variable + scale(scohort):variable"
     modelformula4 = "scale(scohort) + scale(community) + scale(scohort):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort):trend + (1 + scale(scohort)|variable)" #+ sag + so + scale(scohort):sag + scale(scohort):so 
 
     R.eval "dataset = read.csv('for_regression_step#{step}#{intersection}.tsv', sep='\t',header=TRUE)"
@@ -341,9 +360,9 @@ if aggregate
         R.eval "dataset$scohort <- dataset$cohort"
         R.eval "dataset$scohort2 <- dataset$cohort^2"
         R.eval "dataset$scohort3 <- dataset$cohort^3"
-        modelformula1 = "scohort + scohort2 +scohort3"
-        modelformula2 = "scohort + scohort2 +scohort3 + variable + scohort:variable + scohort2:variable + scohort3:variable"
-        modelformula = "scohort + scohort2 +scohort3 + community + scohort:community + scohort2:community + scohort3:community + freq + trend + scohort:freq + scohort2:freq + scohort3:freq + scohort:trend + scohort2:trend + scohort3:trend" # + sag + so + scohort:sag + scohort:so
+        modelformula1 = "scale(scohort) + scale(scohort2) + scale(scohort3)"
+        modelformula2 = "scale(scohort) + scale(scohort2) + scale(scohort3) + variable + scale(scohort):variable + scale(scohort2):variable + scale(scohort3):variable"
+        modelformula = "scale(scohort) + scale(scohort2) + scale(scohort3) + scale(community) + scale(scohort):scale(community) + scale(scohort2):scale(community) + scale(scohort3):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort2):scale(freq) + scale(scohort3):scale(freq) + scale(scohort):trend + scale(scohort2):trend + scale(scohort3):trend" # + sag + so + scohort:sag + scohort:so
         modelformula4 = "scale(scohort) + scale(scohort2) + scale(scohort3) + scale(community) + scale(scohort):scale(community) + scale(scohort2):scale(community) + scale(scohort3):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort2):scale(freq) + scale(scohort3):scale(freq) + scale(scohort):trend + scale(scohort2):trend + scale(scohort3):trend + (1 + scale(scohort)|variable)"
     end
     #R.eval "head(dataset)"
@@ -518,7 +537,11 @@ if aggregate
     # SEPARATE REGRESSIONS
     sum_micro_mae = 0.0
     R.eval "pdf(file='predicting_#{step}_dv#{topredict}#{intersection}_#{function}_smooth#{do_smoothing}_nvars#{variables.length}.pdf')"
-    R.eval "par(mfrow=c(4,3), mar=c(2,2,2,2))"
+    if variables.length > 9
+        R.eval "par(mfrow=c(4,3), mar=c(2,2,2,2))"
+    else
+        R.eval "par(mfrow=c(3,3), mar=c(2,2,2,2))"
+    end
     
     variables.each.with_index do |variable,index|
         
@@ -620,14 +643,17 @@ if aggregate
         xcoords = (1..ncohorts).to_a
         R.assign "xcoords", xcoords
         #R.eval "points(xcoords-0.1, allpreds_sep, pch=22, col = 'black', bg='orange', type = 'b')"
-        R.eval "points(xcoords, allpreds_joint0, pch=21, col = 'black', bg='white', type = 'b')" #baseline
-        R.eval "points(xcoords, allpreds_joint4, pch=21, col = 'black', bg='orange', type = 'b')" #bundle-random
-        R.assign "preds_byverb", preds_byverb[variable] #by verb
-        R.eval "points(xcoords, preds_byverb, pch=21, col = 'black', bg='gray', type = 'b')"
-        R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')" #bundle
-        R.eval "points(xcoords-0.1, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')" #categorical
+        if plot_aggregate
+            R.eval "points(xcoords, allpreds_joint0, pch=21, col = 'black', bg='white', type = 'b')" #baseline
+            R.eval "points(xcoords, allpreds_joint4, pch=21, col = 'black', bg='orange', type = 'b')" #bundle-random
+            R.assign "preds_byverb", preds_byverb[variable] #by verb
+            R.eval "points(xcoords, preds_byverb, pch=21, col = 'black', bg='gray', type = 'b')"
+            R.eval "points(xcoords+0.1, allpreds_joint, pch=24, col = 'black', bg='green', type = 'b')" #bundle
+            R.eval "points(xcoords-0.1, allpreds_joint3, pch=25, col = 'black', bg='yellow', type = 'b')" #categorical
+        end
  
         if individual
+            R.assign "indbaseline",indbaseline_per_variable[variable]
             R.assign "indbundle",indbundle_per_variable[variable]
             R.assign "indbundle_re",indbundle_re_per_variable[variable]
             R.assign "indcategorical",indcategorical_per_variable[variable]
@@ -635,9 +661,10 @@ if aggregate
             #R.eval "print(indbundle)"
             #R.eval "print(indcategorical)"
             R.eval "points(xcoords+0.1, indbundle, pch=22, col = 'black', bg='blue', type = 'b')"
-            R.eval "points(xcoords, indbundle_re, pch=21, col = 'black', bg='orange', type = 'b')"
-            R.eval "points(xcoords-0.1, indcategorical, pch=23, col = 'black', bg='red', type = 'b')"
-            R.eval "points(xcoords, indbyverb, pch=24, col = 'black', bg='blue', type = 'b')"
+            R.eval "points(xcoords, indbundle_re, pch=21, col = 'black', bg='green', type = 'b')"
+            R.eval "points(xcoords-0.1, indcategorical, pch=23, col = 'black', bg='yellow', type = 'b')"
+            R.eval "points(xcoords, indbyverb, pch=24, col = 'black', bg='gray', type = 'b')"
+            R.eval "points(xcoords, indbaseline, pch=25, col = 'black', bg='white', type = 'b')"
          end
         #per verb
         #R.eval "points(xcoords, verb_preds, pch=23, type = 'b', col ='blue')"

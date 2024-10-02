@@ -70,7 +70,7 @@ require "rinruby"
 require_relative "C:\\Sasha\\D\\DGU\\Repos\\Cassandra\\results\\intersection.rb"
 R.eval "setwd('plots')"
 excluded_variables = ["behaga", "lova"]
-variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra", "behaga", "lova"]
+variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]#, "behaga", "lova"]
 by_verb_by_cohort_tokens = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 by_verb_by_cohort_authors = Hash.new{|hash,key| hash[key] = Hash.new(0)}
 macroinnov_by_variable_by_cohort = Hash.new{|hash,key| hash[key] = Hash.new(0)}
