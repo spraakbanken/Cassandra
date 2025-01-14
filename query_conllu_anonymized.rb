@@ -1,4 +1,4 @@
-bysubforum = true
+bysubforum = false
 
 variable = ARGV[0]
 if variable.to_s == ""
