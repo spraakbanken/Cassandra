@@ -128,6 +128,14 @@ def div_by_zero(a,b)
     return c
 end 
 
+def div_by_zero_marked(a,b)
+    if b != 0
+        c = a.to_f/b
+    else
+        c = -0.5
+    end 
+    return c
+end 
 
 
 def entropy(array)
