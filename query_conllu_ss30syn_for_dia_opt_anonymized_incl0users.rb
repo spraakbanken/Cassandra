@@ -2,9 +2,10 @@
 #years_of_interest = [ARGV[0].to_i]
 #require_relative "queries\\#{variable}.rb"
 require_relative "queries\\query_tools.rb"
+require_relative "math_tools.rb"
 
-#subforums = ["adoption"]
-subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
+subforums = ["adoption"]
+#subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 an_path = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
 corpus = "familjeliv"
 an_file = File.open("#{an_path}#{corpus}_usernames.tsv","r:utf-8")
@@ -27,8 +28,8 @@ if with_age
     PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
     #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 else
-    PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
-    #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
+    PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
+    #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\"
 end
 token_threshold = 10000
 firstage = 18
@@ -79,7 +80,7 @@ subforums.each do |subforum|
     if with_age
         f = File.open("#{PATH}familjeliv-#{subforum}_sentence_age#{token_threshold}_#{firstage}.conllu","r:utf-8")
     else
-        f = File.open("#{PATH}#{corpus]}-#{subforum}_sentence.conllu","r:utf-8")
+        f = File.open("#{PATH}#{corpus}-#{subforum}_sentence.conllu","r:utf-8")
     end
     
     current_age = ""
