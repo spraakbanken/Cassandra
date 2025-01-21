@@ -4,8 +4,8 @@
 require_relative "queries\\query_tools.rb"
 require_relative "math_tools.rb"
 
-subforums = ["adoption"]
-#subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
+#subforums = ["adoption"]
+subforums = ["adoption","allmanna-ekonomi","allmanna-familjeliv","allmanna-fritid","allmanna-husdjur","allmanna-hushem","allmanna-kropp","allmanna-noje","allmanna-samhalle","allmanna-sandladan","anglarum","foralder","gravid","kansliga","medlem-allmanna","medlem-foraldrar","medlem-planerarbarn","medlem-vantarbarn","pappagrupp","planerarbarn","sexsamlevnad","svartattfabarn","expert"]
 an_path = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
 corpus = "familjeliv"
 an_file = File.open("#{an_path}#{corpus}_usernames.tsv","r:utf-8")
