@@ -129,6 +129,11 @@ subforums.each do |subforum|
             elsif line1.include?("# username")
                 current_username = line1.split(" = ")[1]
                 current_username = userhash[current_username]
+                if current_username == ""
+                    current_username = "dummy_for_empty_username"
+                    STDERR.puts line1.split(" = ")[1]
+                end
+
                 verblist.each do |verb_of_interest|
                     authorhash[current_year][verb_of_interest][[current_username,yob]]["total"] = authorhash[current_year][verb_of_interest][[current_username,yob]]["total"]
                 end
