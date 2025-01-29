@@ -28,8 +28,8 @@ if with_age
     PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
     #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\familjeliv-age\\"
 else
-    PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
-    #PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\"
+    #PATH = "C:\\Sasha\\D\\DGU\\CassandraMy\\SMCorpora\\"
+    PATH = "D:\\D\\DGU\\CassandraMy\\SMCorpora\\"
 end
 token_threshold = 10000
 firstage = 18
