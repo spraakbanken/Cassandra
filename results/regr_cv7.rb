@@ -33,11 +33,11 @@ ncohorts = 32/step
 normalize = 0
 #topredict = "uncertainty"
 topredict = "innovativeness"
-aggregate = true
-individual = false
+aggregate = false
+individual = true
 do_smoothing = 0
 measure = "mae"
-plot_aggregate = true
+plot_aggregate = false
 
 if topredict == "innovativeness"
     addendum = ""
@@ -100,7 +100,7 @@ indbundle_per_variable = {}
 indbundle_re_per_variable = {}
 indcategorical_per_variable = {}
 
-R.eval "2+2"
+#R.eval "2+2"
 R.eval "R.version"
 
 STDERR.puts "I will load lme4"
