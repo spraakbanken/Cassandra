@@ -34,10 +34,10 @@ normalize = 0
 #topredict = "uncertainty"
 topredict = "innovativeness"
 aggregate = true
-individual = true
+individual = false
 do_smoothing = 0
 measure = "mae"
-plot_aggregate = false
+plot_aggregate = true
 
 if topredict == "innovativeness"
     addendum = ""
@@ -100,8 +100,13 @@ indbundle_per_variable = {}
 indbundle_re_per_variable = {}
 indcategorical_per_variable = {}
 
-#R.eval '.libPaths("C:/Users/Sasha/Documents/R/win-library/3.6")'
+R.eval "2+2"
+R.eval "R.version"
+
+STDERR.puts "I will load lme4"
+#R.eval '.libPaths("C:/R/win-library/4.1")'
 R.eval "library(lme4)"
+STDERR.puts "I did load lme4"
 
 if individual
     #variables = ["fortsätta", "försöka", "glömma", "komma", "planera", "riskera", "slippa", "sluta", "vägra"]
@@ -324,15 +329,18 @@ end
 
 
 if aggregate
+    STDERR.puts "Aggregate analysis"
     modelformula = "scale(scohort) + scale(community) + scale(scohort):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort):trend" # + sag + so + scohort:sag + scohort:so
     #modelformula = "scohort + comcat + scohort:comcat + freqlog + trend + scohort:freqlog + scohort:trend" # + sag + so + scohort:sag + scohort:so
     modelformula1 = "scale(scohort)"
     modelformula2 = "scale(scohort) + variable + scale(scohort):variable"
     modelformula4 = "scale(scohort) + scale(community) + scale(scohort):scale(community) + scale(freq) + trend + scale(scohort):scale(freq) + scale(scohort):trend + (1 + scale(scohort)|variable)" #+ sag + so + scale(scohort):sag + scale(scohort):so 
 
+    STDERR.puts "Reading in the dataset"
     R.eval "dataset = read.csv('for_regression_step#{step}#{intersection}.tsv', sep='\t',header=TRUE)"
     
     if do_smoothing > 0
+        STDERR.puts "Smoothing"
         variables.each do |variable|
             #STDERR.puts variable
             values = R.pull "dataset[dataset$variable == '#{variable}',]$value"
@@ -382,6 +390,7 @@ if aggregate
     normalized_per_verb = {}
     max_normalized = 0.0
     if normalize == 2
+        STDERR.puts "normalizing"
         variables.each do |variable|
             v_test = [variable]
             R.assign "v_test", v_test
@@ -395,6 +404,7 @@ if aggregate
     end
     
     # BY VERB
+    STDERR.puts "By-verb analysis"
     variables.each do |variable|
         STDERR.puts variable
         if normalize == 2
@@ -467,10 +477,11 @@ if aggregate
     sum_mae0 = 0.0
     sum_mae4 = 0.0
 
+    STDERR.puts "Other joint analyses"
     variables.each do |variable|
         for cohort in 1..ncohorts do
             #STDERR.puts "Joint: cohort #{cohort}"
-            #STDERR.puts variable
+            STDERR.puts variable
             R.eval "train2 = dataset[((dataset$cohort != #{cohort}) | (dataset$variable != '#{variable}')) ,]"
             R.eval "test2 = dataset[((dataset$cohort == #{cohort}) & (dataset$variable == '#{variable}')),]"
             #R.eval "print(train#)"
@@ -542,6 +553,7 @@ if aggregate
     else
         R.eval "par(mfrow=c(3,3), mar=c(2,2,2,2))"
     end
+    
     
     variables.each.with_index do |variable,index|
         
