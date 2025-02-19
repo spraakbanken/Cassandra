@@ -45,6 +45,18 @@ def apply_criteria_hbtq2(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, 
     return condition
 end
 
+def apply_criteria_vadmenardumed(tokenc, prev_tokenc, prevprev_tokenc, prevprevprev_tokenc, flag)
+    if tokenc == "med" and prev_tokenc == "du" and prevprev_tokenc == "menar" and prevprevprev_tokenc == "vad"
+        condition = 1
+    else
+        condition = 0
+    end
+    if flag
+        STDERR.puts condition
+    end
+    return condition
+end
+
 
 def apply_criteria_kommer_att(tokenc, lemma, pos, msd, dephead, deprel, prev_tokenc, prevprev_tokenc, prev_pos, prevprev_pos, prev_deprel, prevprev_deprel)
     if prevprev_tokenc == "kommer" and prev_tokenc == "att" and pos == "VB" and msd.include?("INF") 

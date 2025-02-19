@@ -1,0 +1,653 @@
+# post_date = 2006-04-22 21:41:36
+# username = hagenvind
+# sent_id = c58d681
+1	kör	|köra|	VB	_	VB.PRS.AKT	0	ROOT	|köra..vb.1|
+2	lite	|lite|	AB	_	AB.POS	4	AA	|lite..ab.1|
+3	honda	|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|
+4	250	|	RG	_	RG.NOM	1	RA	|
+5	...	|	MID	_	MID	1	IG	|
+6	bara	|bara|	AB	_	AB	7	CA	|bara..ab.1|
+7	på	|på|	PP	_	PP	1	RA	|på..pp.1|
+8	grusvägar	|grusväg|	NN	_	NN.UTR.PLU.IND.NOM	7	PA	|grusväg..nn.1|
+9	å	|	KN	_	KN	8	ET	|
+10	i	|i|	PP	_	PP	9	RA	|i..pp.1|
+11	skogen	|skog|	NN	_	NN.UTR.SIN.DEF.NOM	10	PA	|skog..nn.1|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 8718263
+# thread_title = Motorsport
+# post_id = 8852858
+# post_date = 2006-04-25 15:45:31
+# username = Pihlen
+# sent_id = c532f74
+1	Tjena	|tjena|	IN	_	IN	0	ROOT	|tjena..in.1|
+2	!	|	MAD	_	MAD	1	IU	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 8718263
+# thread_title = Motorsport
+# post_id = 8907387
+# post_date = 2006-04-25 15:45:31
+# username = Pihlen
+# sent_id = c51d873
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+3	kört	|köra|	VB	_	VB.SUP.AKT	2	VG	|köra..vb.1|
+4	rätt	|rätt|	AB	_	AB	3	AA	|rätt..ab.1|rätt..av.1|
+5	mycke	|	IN	_	IN	4	HD	|
+6	cross	|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|
+7	.	|	MAD	_	MAD	2	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 8718263
+# thread_title = Motorsport
+# post_id = 8907387
+# post_date = 2006-04-25 15:45:31
+# username = Pihlen
+# sent_id = c5d4b91
+1	Men	|men|	KN	_	KN	3	++	|men..kn.1|
+2	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	3	SS	|de..pn.1|
+3	är	|vara|	VB	_	VB.PRS.AKT	6	MS	|vara..vb.1|
+4	bara	|bara|	AB	_	AB	3	CA	|bara..ab.1|
+5	hobby	|hobby|	NN	_	NN.UTR.SIN.IND.NOM	3	SP	|hobby..nn.1|
+6	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+7	fan	|fan|	IN	_	IN	6	+F	|fan..in.1|
+8	så	|så|	AB	_	AB	9	AA	|så..ab.1|
+9	roligt	|rolig|	AB	_	AB.POS	7	AA	|rolig..av.1|
+10	Den	|den|en|	DT	_	DT.UTR.SIN.DEF	11	DT	|den..pn.1|en..al.1|
+11	största	|stor|	JJ	_	JJ.SUV.UTR+NEU.SIN+PLU.DEF.NOM	14	SP	|stor..av.1|
+12	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	13	SS	|jag..pn.1|
+13	ägt	|äga|	VB	_	VB.SUP.AKT	11	ET	|äga..vb.1|äga..vb.2|
+14	va	|	VB	_	VB.PRT.AKT	6	MS	|
+15	en	|en|	DT	_	DT.UTR.SIN.IND	16	DT	|en..al.1|
+16	Honda	|Honda|	PM	_	PM.NOM	14	SP	|Honda..pm.1|
+17	500cc	|	RG	_	RG.NOM	16	PT	|
+18	å	|	KN	_	KN	20	+A	|
+19	de	|de|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	18	HD	|de..pn.1|
+20	va	|	VB	_	VB.PRT.AKT	14	MS	|
+21	ju	|ju|	AB	_	AB	20	MA	|ju..ab.1|
+22	som	|	KN	_	KN	20	KA	|
+23	att	|att|	IE	_	IE	22	UA	|att..sn.1|
+24	köra	|köra|	VB	_	VB.INF.AKT	23	IF	|köra..vb.1|
+25	stridsvagn	|stridsvagn|	NN	_	NN.UTR.SIN.IND.NOM	24	OO	|stridsvagn..nn.1|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 8718263
+# thread_title = Motorsport
+# post_id = 8928625
+# post_date = 2006-05-04 23:04:10
+# username = Enduromästarn
+# sent_id = c5b0c24
+1	Inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
+2	cross	|	NN	_	NN.UTR.SIN.IND.NOM	3	CJ	|
+3	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+4	väl	|väl|	AB	_	AB.POS	3	+F	|väl..ab.1|väl_2..ab.1|
+5	den	|den|en|	DT	_	DT.UTR.SIN.DEF	7	DT	|den..pn.1|en..al.1|
+6	ädla	|ädel|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	7	AT	|ädel..av.1|
+7	sporten	|sport|	NN	_	NN.UTR.SIN.DEF.NOM	3	CJ	|sport..nn.1|
+8	Enduro	|	PM	_	PM.NOM	3	CJ	|
+9	!	|	MAD	_	MAD	3	IU	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 8718263
+# thread_title = Motorsport
+# post_id = 9128567
+# post_date = 2006-05-04 23:04:10
+# username = Enduromästarn
+# sent_id = c5f1dca
+1	Kör	|köra|	VB	_	VB.IMP.AKT	0	ROOT	|köra..vb.1|
+2	en	|en|	DT	_	DT.UTR.SIN.IND	3	DT	|en..al.1|
+3	Yamaha	|	PM	_	PM.NOM	1	OO	|
+4	WR	|	PM	_	PM.NOM	3	HD	|
+5	450F	|	RG	_	RG.NOM	3	ET	|
+6	-	|	MID	_	MID	1	IT	|
+7	06	|	RG	_	RG.NOM	1	AN	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 29613318
+# thread_title = Ensamma pappor i gbg
+# post_id = 29613318
+# post_date = 2008-04-02 17:36:42
+# username = EEE345
+# sent_id = c55fee9
+1	Vet	|veta|	VB	_	VB.PRS.AKT	0	ROOT	|veta..vb.1|
+2	väl	|väl|	AB	_	AB	1	MA	|väl..ab.1|väl_2..ab.1|
+3	ett	|en|ett par|	DT	_	DT.NEU.SIN.IND	5	DT	|en..al.1|ett_par..pnm.1|
+4	par	|par|ett par:3|	NN	_	NN.NEU.SIN.IND.NOM	3	HD	|par..nn.1|ett_par..pnm.1:3|
+5	iaf	|	IN	_	IN	1	OO	|
+6	:)	|	IN	_	IN	1	IU	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 29613318
+# thread_title = Ensamma pappor i gbg
+# post_id = 32399637
+# post_date = 2008-05-11 15:42:39
+# username = rollyboy
+# sent_id = c5d4807
+1	hej	|hej|	IN	_	IN	6	MS	|hej..in.1|
+2	hej	|hej|	IN	_	IN	1	HD	|hej..in.1|
+3	är	|vara|	VB	_	VB.PRS.AKT	6	MS	|vara..vb.1|
+4	ensam	|ensam|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	3	SP	|ensam..av.1|
+5	pappa	|pappa|	NN	_	NN.UTR.SIN.IND.NOM	3	SP	|pappa..nn.1|
+6	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+7	inte	|inte|	AB	_	AB	8	NA	|inte..ab.1|
+8	i	|i|	PP	_	PP	6	+F	|i..pp.1|
+9	göteborg	|göteborg|	NN	_	NN.UTR.SIN.IND.NOM	8	PA	|
+10	så	|så|	AB	_	AB	11	DB	|så..ab.1|
+11	får	|få|	VB	_	VB.PRS.AKT	6	MS	|få..vb.1|
+12	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	11	SS	|man..pn.1|
+13	vara	|vara|vara med|	VB	_	VB.INF.AKT	11	VG	|vara..vb.1|vara..vb.2|vara_med..vbm.1|
+14	med	|med|vara med:13|	PL	_	PL	13	PL	|med..ab.1|vara_med..vbm.1:13|
+15	och	|och|	KN	_	KN	6	++	|och..kn.1|
+16	skriva	|skriva|	VB	_	VB.INF.AKT	15	+F	|skriva..vb.1|
+17	med	|med|	PP	_	PP	16	OA	|med..pp.1|
+18	er	|ni|	PN	_	PN.UTR.SIN.DEF.OBJ	17	PA	|ni..pn.1|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 7327199
+# thread_title = Playstation 2
+# post_id = 7327199
+# post_date = 2006-02-13 23:56:22
+# username = Antons Pappa 07
+# sent_id = c5a199e
+1	*	|	MID	_	MID	2	IR	|
+2	puff	|puff|	NN	_	NN.UTR.SIN.IND.NOM	0	ROOT	|puff..nn.1|
+3	*	|	MID	_	MID	2	ET	|
+4	*	|	MID	_	MID	5	DT	|
+5	puff	|puff|	NN	_	NN.UTR.SIN.IND.NOM	2	XX	|puff..nn.1|
+6	*	|	MID	_	MID	2	JR	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 640322
+# post_date = 2004-07-19 17:27:31
+# username = The Doc
+# sent_id = c5aa100
+1	Självklart	|självklar|	AB	_	AB.POS	2	MA	|självklar..av.1|
+2	gör	|göra|	VB	_	VB.PRS.AKT	0	ROOT	|göra..vb.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+4	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	OO	|den..pn.1|
+5	,	|	MID	_	MID	2	IK	|
+6	när	|när|	HA	_	HA	8	TA	|när..ab.1|
+7	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	8	SS	|jag..pn.1|
+8	får	|få|	VB	_	VB.PRS.AKT	2	TA	|få..vb.1|
+9	tid	|tid|	NN	_	NN.UTR.SIN.IND.NOM	8	OO	|tid..nn.1|
+10	dvs	|dvs|	AB	_	AB.AN	8	CA	|dvs..aba.1|
+11	.	|	MAD	_	MAD	2	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 675376
+# post_date = 2004-07-19 17:27:31
+# username = The Doc
+# sent_id = c53aa14
+1	dottern	|dotter|	NN	_	NN.UTR.SIN.DEF.NOM	2	SS	|dotter..nn.1|
+2	tar	|ta|ta tid|	VB	_	VB.PRS.AKT	0	ROOT	|ta..vb.1|ta_tid..vbm.1|
+3	mycket	|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	DT	|
+4	tid	|tid|ta tid:2|	NN	_	NN.UTR.SIN.IND.NOM	2	OO	|tid..nn.1|ta_tid..vbm.1:2|
+5	.	|	MAD	_	MAD	2	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 675376
+# post_date = 2004-07-19 17:27:31
+# username = The Doc
+# sent_id = c517e99
+1	men	|men|	KN	_	KN	0	ROOT	|men..kn.1|
+2	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|jag..pn.1|
+3	har	|ha|	VB	_	VB.PRS.AKT	1	MS	|ha..vb.1|
+4	inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
+5	x-box	|x-box|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|
+6	live	|live|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|
+7	än	|	KN	_	KN	3	KA	|
+8	!	|	MAD	_	MAD	3	IU	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 676878
+# post_date = 2004-07-25 23:20:01
+# username = Nisslass
+# sent_id = c5916fe
+1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+2	heller	|heller|	AB	_	AB	1	+A	|heller..ab.1|
+3	ingen	|ingen|	DT	_	DT.UTR.SIN.IND	4	DT	|ingen..pn.1|
+4	xbox-live	|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|
+5	än	|	KN	_	KN	4	ET	|
+6	tyvärr	|tyvärr|	AB	_	AB	5	UA	|tyvärr..ab.1|
+7	.	|	MAD	_	MAD	1	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 700358
+# post_date = 2004-07-25 23:20:01
+# username = Nisslass
+# sent_id = c5a0119
+1	Så	|så|	AB	_	AB	2	AA	|så..ab.1|
+2	få	|få|	JJ	_	JJ.POS.UTR+NEU.PLU.IND.NOM	3	DT	|få..av.1|
+3	spel	|spel|	NN	_	NN.NEU.SIN.IND.NOM	21	SS	|spel..nn.1|
+4	som	|	HP	_	HP.-.-.-	5	SS	|
+5	stödjer	|stödja|	VB	_	VB.PRS.AKT	3	ET	|stödja..vb.1|
+6	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	5	OO	|den..pn.1|
+7	för	|för|	PP	_	PP	5	OA	|för..pp.1|
+8	att	|att|	SN	_	SN	7	PA	|att..sn.1|
+9	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	10	SS	|jag..pn.1|
+10	ska	|skola|	VB	_	VB.PRS.AKT	8	UA	|skola..vb.2|
+11	tycka	|tycka|	VB	_	VB.INF.AKT	10	VG	|tycka..vb.1|
+12	att	|att|	SN	_	SN	11	OO	|att..sn.1|
+13	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	14	FS	|den..pn.1|
+14	är	|vara|	VB	_	VB.PRS.AKT	12	UA	|vara..vb.1|
+15	intressant	|intressant|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	14	SP	|intressant..av.1|
+16	att	|att|	IE	_	IE	14	ES	|att..sn.1|
+17	betala	|betala|	VB	_	VB.INF.AKT	16	IF	|betala..vb.1|
+18	månadsavgiften	|månadsavgift|	NN	_	NN.UTR.SIN.DEF.NOM	17	OO	|
+19	..	|	MID	_	MID	0	ROOT	|
+20	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	21	SS	|vi..pn.1|
+21	får	|få|	VB	_	VB.PRS.AKT	19	MS	|få..vb.1|
+22	väl	|väl|	AB	_	AB	21	MA	|väl..ab.1|väl_2..ab.1|
+23	se	|se|	VB	_	VB.INF.AKT	21	VG	|se..vb.1|
+24	i	|i|i framtiden|	PP	_	PP	23	TA	|i..pp.1|i_framtiden..abm.1|
+25	framtiden	|framtid|i framtiden:24|	NN	_	NN.UTR.SIN.DEF.NOM	24	PA	|framtid..nn.1|i_framtiden..abm.1:24|
+26	.	|	MAD	_	MAD	21	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 700358
+# post_date = 2004-07-25 23:20:01
+# username = Nisslass
+# sent_id = c510e68
+1	:)	|	IN	_	IN	0	ROOT	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 848570
+# post_date = 2004-08-25 09:54:01
+# username = Majesty
+# sent_id = c537a45
+1	Har	|ha|	VB	_	VB.PRS.AKT	4	MS	|ha..vb.1|
+2	en	|en|	DT	_	DT.UTR.SIN.IND	3	DT	|en..al.1|
+3	X-box	|x-box|	NN	_	NN.UTR.SIN.IND.NOM	1	OO	|
+4	och	|och|	KN	_	KN	0	ROOT	|och..kn.1|
+5	kommer	|komma|	VB	_	VB.PRS.AKT	4	+F	|komma..vb.1|
+6	förmodligen	|förmodligen|	AB	_	AB	5	MA	|förmodligen..ab.1|
+7	att	|att|	IE	_	IE	5	VG	|att..sn.1|
+8	köra	|köra|	VB	_	VB.INF.AKT	7	IF	|köra..vb.1|
+9	live	|live|	NN	_	NN.UTR.SIN.IND.NOM	8	OO	|
+10	i	|i|	PP	_	PP	8	TA	|i..pp.1|
+11	november-december	|november-december|	NN	_	NN.UTR.SIN.IND.NOM	10	PA	|
+12	då	|då|	HA	_	HA	18	TA	|då..ab.1|då..ab.2|
+13	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	15	CJ	|jag..pn.1|
+14	gumman	|gumma|	NN	_	NN.UTR.SIN.DEF.NOM	15	CJ	|gumma..nn.1|
+15	och	|och|	KN	_	KN	18	SS	|och..kn.1|
+16	den	|den|en|	DT	_	DT.UTR.SIN.DEF	17	DT	|den..pn.1|en..al.1|
+17	lille	|liten|	JJ	_	JJ.POS.MAS.SIN.DEF.NOM	15	CJ	|liten..av.1|
+18	har	|ha|	VB	_	VB.PRS.AKT	11	ET	|ha..vb.1|
+19	flyttat	|flytta|	VB	_	VB.SUP.AKT	18	VG	|flytta..vb.1|
+20	in	|in|in i|	PL	_	PL	19	PL	|in..ab.1|in_i..ppm.1|
+21	i	|i|in i:20|	PP	_	PP	19	RA	|i..pp.1|in_i..ppm.1:20|
+22	huset	|hus|	NN	_	NN.NEU.SIN.DEF.NOM	21	PA	|hus..nn.1|
+23	som	|	HP	_	HP.-.-.-	25	OO	|
+24	vi	|vi|	PN	_	PN.UTR.PLU.DEF.SUB	25	SS	|vi..pn.1|
+25	köpt	|köpa|	VB	_	VB.SUP.AKT	22	ET	|köpa..vb.1|köpa..vb.2|
+26	.	|	MAD	_	MAD	4	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 854794
+# post_date = 2004-08-25 09:54:01
+# username = Majesty
+# sent_id = c5d828d
+1	Det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	2	SS	|den..pn.1|
+2	kommer	|komma|	VB	_	VB.PRS.AKT	0	ROOT	|komma..vb.1|
+3	att	|att|	IE	_	IE	2	VG	|att..sn.1|
+4	bli	|bli|	VB	_	VB.INF.AKT	3	IF	|bli..vb.1|
+5	ett	|en|	DT	_	DT.NEU.SIN.IND	7	DT	|en..al.1|
+6	spel-	|spel|	NN	_	NN.UTR.-.-.SMS	7	CJ	|spel..nn.1|
+7	och	|och|	KN	_	KN	4	SP	|och..kn.1|
+8	filmrum	|filmrum|	NN	_	NN.NEU.SIN.IND.NOM	7	CJ	|
+9	i	|i|	PP	_	PP	4	RA	|i..pp.1|
+10	källaren	|källare|	NN	_	NN.UTR.SIN.DEF.NOM	9	PA	|källare..nn.1|
+11	.	|	MAD	_	MAD	2	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 854794
+# post_date = 2004-08-25 09:54:01
+# username = Majesty
+# sent_id = c515a49
+1	Jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+2	längtar	|längta|	VB	_	VB.PRS.AKT	0	ROOT	|längta..vb.1|
+3	till	|till|	PL	_	PL	2	PL	|till..ab.1|
+4	till	|till|	PP	_	PP	2	RA	|till..pp.1|
+5	flytten	|flytt|	NN	_	NN.UTR.SIN.DEF.NOM	4	PA	|flytt..nn.1|
+6	.	|	MAD	_	MAD	2	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 854794
+# post_date = 2004-08-25 09:54:01
+# username = Majesty
+# sent_id = c575fc5
+1	Va	|	HA	_	HA	2	AA	|
+2	skönt	|skön|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	4	AA	|skön..av.1|
+3	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	4	FS	|den..pn.1|
+4	ska	|skola|	VB	_	VB.PRS.AKT	0	ROOT	|skola..vb.2|
+5	bli	|bli|	VB	_	VB.INF.AKT	4	VG	|bli..vb.1|
+6	att	|att|	IE	_	IE	5	ES	|att..sn.1|
+7	slippa	|slippa|	VB	_	VB.INF.AKT	6	IF	|slippa..vb.1|
+8	ha	|ha|	VB	_	VB.INF.AKT	7	OO	|ha..vb.1|
+9	en	|en|	DT	_	DT.UTR.SIN.IND	10	DT	|en..al.1|
+10	massa	|massa|	NN	_	NN.UTR.SIN.IND.NOM	12	DT	|massa..nn.1|massa..nn.2|
+11	klagande	|klaga|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	12	AT	|klaga..vb.1|
+12	grannar	|granne|	NN	_	NN.UTR.PLU.IND.NOM	8	OO	|granne..nn.1|
+13	som	|	HP	_	HP.-.-.-	14	SS	|
+14	hör	|höra|höra av sig|	VB	_	VB.PRS.AKT	12	ET	|höra..vb.1|höra_av_sig..vbm.1|
+15	av	|av|höra av sig:14|	PL	_	PL	14	PL	|av..ab.1|höra_av_sig..vbm.1:14|
+16	sig	|sig|höra av sig:14|	PN	_	PN.UTR+NEU.SIN+PLU.DEF.OBJ	14	OO	|sig..pn.1|höra_av_sig..vbm.1:14|
+17	hela	|hel|hela tiden|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	18	DT	|hel..av.1|hela_tiden..abm.1|
+18	tiden	|tid|hela tiden:17|	NN	_	NN.UTR.SIN.DEF.NOM	14	TA	|tid..nn.1|hela_tiden..abm.1:17|
+19	då	|då|	HA	_	HA	21	TA	|då..ab.1|då..ab.2|
+20	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	21	SS	|man..pn.1|
+21	haft	|ha|	VB	_	VB.SUP.AKT	14	TA	|ha..vb.1|
+22	lite	|lite|	AB	_	AB.POS	23	AA	|lite..ab.1|
+23	för	|för|	AB	_	AB	24	AA	|för..ab.1|
+24	högt	|hög|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	25	AT	|hög..av.1|
+25	ljud	|ljud|	NN	_	NN.NEU.SIN.IND.NOM	21	OO	|ljud..nn.1|
+26	.	|	MAD	_	MAD	4	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 854794
+# post_date = 2004-08-25 09:54:01
+# username = Majesty
+# sent_id = c54a839
+1	Fattar	|fatta|	VB	_	VB.PRS.AKT	0	ROOT	|fatta..vb.1|fatta..vb.2|
+2	dom	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB+OBJ	1	SS	|de..pn.1|
+3	inte	|inte|	AB	_	AB	1	NA	|inte..ab.1|
+4	att	|att|	SN	_	SN	1	OO	|att..sn.1|
+5	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	FS	|den..pn.1|
+6	ska	|skola|	VB	_	VB.PRS.AKT	4	UA	|skola..vb.2|
+7	vara	|vara|	VB	_	VB.INF.AKT	6	VG	|vara..vb.1|vara..vb.2|
+8	högt	|hög|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	9	AT	|hög..av.1|
+9	ljud	|ljud|	NN	_	NN.NEU.SIN.IND.NOM	7	SP	|ljud..nn.1|
+10	för	|för|	PP	_	PP	7	OA	|för..pp.1|
+11	att	|att|	SN	_	SN	10	PA	|att..sn.1|
+12	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	13	SS	|man..pn.1|
+13	ska	|skola|	VB	_	VB.PRS.AKT	11	UA	|skola..vb.2|
+14	få	|få|	VB	_	VB.INF.AKT	13	VG	|få..vb.1|
+15	den	|den|en|	DT	_	DT.UTR.SIN.DEF	17	DT	|den..pn.1|en..al.1|
+16	rätta	|rätt|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	17	AT	|rätt..av.1|
+17	känslan	|känsla|	NN	_	NN.UTR.SIN.DEF.NOM	14	OO	|känsla..nn.1|
+18	i	|i|	PP	_	PP	20	CJ	|i..pp.1|
+19	spelandet	|spelande|	NN	_	NN.NEU.SIN.DEF.NOM	18	PA	|spelande..nn.1|
+20	eller	|eller|	KN	_	KN	14	RA	|eller..kn.1|
+21	i	|i|	PP	_	PP	20	CJ	|i..pp.1|
+22	filmen	|film|	NN	_	NN.UTR.SIN.DEF.NOM	21	PA	|film..nn.1|
+23	.	|	MAD	_	MAD	1	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 854794
+# post_date = 2004-08-25 09:54:01
+# username = Majesty
+# sent_id = c5e84db
+1	Hehehe	|	IN	_	IN	0	ROOT	|
+2	....	|	MAD	_	MAD	1	IQ	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 854794
+# post_date = 2004-08-25 09:54:01
+# username = Majesty
+# sent_id = c5efd4c
+1	Lev	|leva|	VB	_	VB.IMP.AKT	0	ROOT	|leva..vb.1|
+2	å	|	KN	_	KN	1	+A	|
+3	må	|må|	VB	_	VB.INF.AKT	1	VO	|må..vb.1|
+4	grabbar	|grabb|	NN	_	NN.UTR.PLU.IND.NOM	3	OO	|grabb..nn.1|
+5	!	|	MAD	_	MAD	1	IU	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 934449
+# post_date = 2004-09-08 09:03:28
+# username = foppa77
+# sent_id = c595788
+1	Klart	|klar|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	10	OO	|klar..av.1|
+2	att	|att|	SN	_	SN	1	KA	|att..sn.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	4	SS	|jag..pn.1|
+4	spelar	|spela|	VB	_	VB.PRS.AKT	2	UA	|spela..vb.1|spela..vb.2|
+5	Xbox	|	PM	_	PM.NOM	4	OO	|
+6	,	|	MID	_	MID	4	IK	|
+7	tyvärr	|tyvärr|	AB	_	AB	4	MA	|tyvärr..ab.1|
+8	inte	|inte|	AB	_	AB	9	NA	|inte..ab.1|
+9	Live:n	|	PM	_	PM.NOM	7	SS	|
+10	.	|	MAD	_	MAD	0	ROOT	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 939781
+# post_date = 2004-09-08 09:03:28
+# username = foppa77
+# sent_id = c5ce95b
+1	Mitt	|jag|	PS	_	PS.NEU.SIN.DEF	2	DT	|jag..pn.1|
+2	Xbox	|	NN	_	NN.NEU.SIN.IND.NOM	3	SS	|
+3	stöder	|stödja|	VB	_	VB.PRS.AKT	0	ROOT	|stödja..vb.1|
+4	inte	|inte|	AB	_	AB	3	NA	|inte..ab.1|
+5	live:n	|live|	NN	_	NN.UTR.SIN.DEF.NOM	3	OO	|
+6	tyvärr	|tyvärr|	AB	_	AB	3	MA	|tyvärr..ab.1|
+7	...	|	MAD	_	MAD	3	IG	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 939781
+# post_date = 2004-09-08 09:03:28
+# username = foppa77
+# sent_id = c5454df
+1	Annars	|annars|	AB	_	AB	2	AA	|annars..ab.1|
+2	hade	|ha|	VB	_	VB.PRT.AKT	0	ROOT	|ha..vb.1|
+3	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|jag..pn.1|
+4	suttit	|sitta|	VB	_	VB.SUP.AKT	2	VG	|sitta..vb.1|
+5	klistrad	|klistra|	PC	_	PC.PRF.UTR.SIN.IND.NOM	4	SP	|klistra..vb.1|
+6	framför	|framför|	PP	_	PP	4	RA	|framför..pp.1|
+7	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	6	PA	|den..pn.1|
+8	.	|	MAD	_	MAD	2	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 939781
+# post_date = 2004-09-08 09:03:28
+# username = foppa77
+# sent_id = c538964
+1	/	|	MID	_	MID	2	CJ	|
+2	/	|	MID	_	MID	0	ROOT	|
+3	Foppa77	|	PM	_	PM.NOM	2	CJ	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 945840
+# post_date = 2004-09-08 21:45:33
+# username = zacke
+# sent_id = c5bfe69
+1	Tjena	|	VB	_	VB.IMP.AKT	0	ROOT	|
+2	Foppa	|	PM	_	PM.NOM	1	OO	|
+3	!	|	MAD	_	MAD	1	IU	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 945840
+# post_date = 2004-09-08 21:45:33
+# username = zacke
+# sent_id = c5763a3
+1	Vad	|vad|	HP	_	HP.NEU.SIN.IND	4	PA	|vad..pn.1|
+2	menar	|mena|	VB	_	VB.PRS.AKT	0	ROOT	|mena..vb.1|
+3	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	2	SS	|du..pn.1|
+4	med	|med|	PP	_	PP	2	OA	|med..pp.1|
+5	att	|att|	SN	_	SN	4	PA	|att..sn.1|
+6	din	|du|	PS	_	PS.UTR.SIN.DEF	7	DT	|du..pn.1|
+7	xbox	|	NN	_	NN.UTR.SIN.IND.NOM	9	SS	|
+8	inte	|inte|	AB	_	AB	9	NA	|inte..ab.1|
+9	stöder	|stödja|	VB	_	VB.PRS.AKT	5	UA	|stödja..vb.1|
+10	xbox	|	UO	_	UO	9	OO	|
+11	live	|live|	NN	_	NN.UTR.SIN.IND.NOM	9	OO	|
+12	?	|	MAD	_	MAD	2	I?	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 945840
+# post_date = 2004-09-08 21:45:33
+# username = zacke
+# sent_id = c5a5232
+1	Har	|ha|	VB	_	VB.PRS.AKT	0	ROOT	|ha..vb.1|
+2	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	1	SS	|du..pn.1|
+3	chippat	|	VB	_	VB.SUP.AKT	1	VG	|
+4	den	|den|	PN	_	PN.UTR.SIN.DEF.SUB+OBJ	5	CJ	|den..pn.1|
+5	eller	|eller|	KN	_	KN	3	OO	|eller..kn.1|
+6	nåt	|någon|	PN	_	PN.NEU.SIN.IND.SUB+OBJ	5	CJ	|någon..pn.1|
+7	?	|	MAD	_	MAD	1	I?	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 945840
+# post_date = 2004-09-08 21:45:33
+# username = zacke
+# sent_id = c545c1e
+1	Om	|om|	SN	_	SN	14	AA	|om..sn.1|
+2	du	|du|	PN	_	PN.UTR.SIN.DEF.SUB	3	SS	|du..pn.1|
+3	har	|ha|	VB	_	VB.PRS.AKT	1	UA	|ha..vb.1|
+4	en	|en|	DT	_	DT.UTR.SIN.IND	8	DT	|en..al.1|
+5	"	|	PAD	_	PAD	6	IC	|
+6	gammal	|gammal|	JJ	_	JJ.POS.UTR.SIN.IND.NOM	8	AT	|gammal..av.1|
+7	"	|	PAD	_	PAD	6	JC	|
+8	xbox	|	NN	_	NN.UTR.SIN.IND.NOM	3	OO	|
+9	som	|	HP	_	HP.-.-.-	11	OO	|
+10	jag	|jag|	PN	_	PN.UTR.SIN.DEF.SUB	11	SS	|jag..pn.1|
+11	hade	|ha|	VB	_	VB.PRT.AKT	8	ET	|ha..vb.1|
+12	,	|	MID	_	MID	3	IK	|
+13	så	|så|	AB	_	AB	14	DB	|så..ab.1|
+14	installeras	|installera|	VB	_	VB.PRS.SFO	0	ROOT	|installera..vb.1|
+15	live	|live|	NN	_	NN.UTR.SIN.IND.NOM	14	SS	|
+16	supprt	|	AB	_	AB.POS	14	AA	|
+17	när	|när|	HA	_	HA	19	TA	|när..ab.1|
+18	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	19	SS	|man..pn.1|
+19	köper	|köpa|	VB	_	VB.PRS.AKT	14	TA	|köpa..vb.1|köpa..vb.2|
+20	live	|live|	JJ	_	JJ.POS.UTR+NEU.SIN.DEF.NOM	21	AT	|live..av.1|
+21	startpaketet	|startpaket|	NN	_	NN.NEU.SIN.DEF.NOM	19	OO	|
+22	(	|	PAD	_	PAD	14	IR	|
+23	ligger	|ligga|	VB	_	VB.PRS.AKT	14	MS	|ligga..vb.1|
+24	med	|med|	PP	_	PP	23	AA	|med..pp.1|
+25	en	|en|	DT	_	DT.UTR.SIN.IND	26	DT	|en..al.1|
+26	cd-skiva	|cd-skiva|	NN	_	NN.UTR.SIN.IND.NOM	24	PA	|
+27	)	|	PAD	_	PAD	14	JR	|
+28	sen	|sen|	AB	_	AB	29	TA	|sen..ab.1|
+29	uppdateras	|uppdatera|	VB	_	VB.PRS.SFO	14	MS	|uppdatera..vb.1|
+30	det	|den|	PN	_	PN.NEU.SIN.DEF.SUB+OBJ	29	SS	|den..pn.1|
+31	löpande	|löpa|löpande|	PC	_	PC.PRS.UTR+NEU.SIN+PLU.IND+DEF.NOM	29	SP	|löpa..vb.1|löpa..vb.2|löpande..av.1|
+32	via	|via|	PP	_	PP	29	RA	|via..pp.1|
+33	nätet	|nät|	NN	_	NN.NEU.SIN.DEF.NOM	32	PA	|nät..nn.1|
+34	när	|när|	HA	_	HA	36	TA	|när..ab.1|
+35	man	|man|	PN	_	PN.UTR.SIN.IND.SUB	36	SS	|man..pn.1|
+36	loggar	|logga|logga in|	VB	_	VB.PRS.AKT	29	TA	|logga..vb.1|logga_in..vbm.1|
+37	in	|in|logga in:36|	PL	_	PL	36	PL	|in..ab.1|logga_in..vbm.1:36|
+38	.	|	MAD	_	MAD	14	IP	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 945840
+# post_date = 2004-09-08 21:45:33
+# username = zacke
+# sent_id = c52a482
+1	Ha	|ha|	VB	_	VB.INF.AKT	0	ROOT	|ha..vb.1|
+2	de	|de|	PN	_	PN.UTR+NEU.PLU.DEF.SUB	1	SS	|de..pn.1|
+3	så	|så|	AB	_	AB	4	AA	|så..ab.1|
+4	bra	|bra|	AB	_	AB.POS	1	AA	|bra..ab.1|bra..ab.2|bra..av.1|
+5	allihop	|allihop|	PN	_	PN.UTR+NEU.PLU.IND.SUB+OBJ	1	OO	|allihop..pn.1|
+6	!	|	MAD	_	MAD	1	IU	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 945840
+# post_date = 2004-09-08 21:45:33
+# username = zacke
+# sent_id = c57a722
+1	/	|	MID	_	MID	2	CJ	|
+2	/	|	MID	_	MID	5	SS	|
+3	jens	|	NN	_	NN.UTR.SIN.IND.NOM	2	CJ	|
+4	*	|	MID	_	MID	5	SS	|
+5	längtar	|längta|	VB	_	VB.PRS.AKT	0	ROOT	|längta..vb.1|
+6	efter	|efter|	PP	_	PP	5	AA	|efter..pp.1|
+7	Halo	|	PM	_	PM.NOM	6	PA	|
+8	2	|	RG	_	RG.NOM	5	TA	|
+9	*	|	MID	_	MID	5	IR	|
+10	*	|	MID	_	MID	11	AA	|
+11	nördigt	|nördig|	JJ	_	JJ.POS.NEU.SIN.IND.NOM	12	AT	|nördig..av.1|
+12	va	|va|	IN	_	IN	5	OO	|va..in.1|
+13	?	|	MAD	_	MAD	5	I?	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 945840
+# post_date = 2004-09-08 21:45:33
+# username = zacke
+# sent_id = c552893
+1	*	|	MID	_	MID	0	ROOT	|
+
+# subforum_id = Fritidsintressen
+# subsubforum_id = Fritidsintressen
+# thread_id = 640322
+# thread_title = Xbox?
+# post_id = 950412
