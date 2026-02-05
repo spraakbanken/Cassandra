@@ -28,9 +28,9 @@ def unpredictability(values,slope)
             localslope = value - prevvalue
         
             if (localslope.positive? and slope.negative?) or (localslope.negative? and slope.positive?)
-                if localslope > slope/19
+                #if localslope > slope/38
                     unpredictability += 1
-                end
+                #end
             end
         end
         prevvalue = value.clone
