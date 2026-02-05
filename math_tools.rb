@@ -12,6 +12,17 @@ def m_absolute_deviation(array, refpoint, type)
     return mad
 end
 
+def center(array)
+    array2 = []
+    mmean = mean(array)
+    mstdev = stdev(array)
+    array.each do |element|
+        array2 << (element - mmean)/mstdev
+    end
+    return array2
+end
+
+
 def median(array)
   return nil if array.empty?
   sorted = array.sort
