@@ -1,7 +1,12 @@
+#plot regression lines
+#check unpredictability
+
+require "rinruby"
 require_relative "math_tools.rb"
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\ss90_2026"
 files = Dir.children(path)
 
+smoothing = 3
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
 verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
 #verblist = ["komma"]
@@ -12,8 +17,27 @@ verbs_total = Hash.new(0)
 @startyear = 2004
 @lastyear = 2022
 
-threshold = 1000
+threshold = 100
 
+
+def unpredictability(values,slope)
+    unpredictability = 0
+    prevvalue = nil
+    values.each.with_index do |value,index|
+        if index > 0 
+            localslope = value - prevvalue
+        
+            if (localslope.positive? and slope.negative?) or (localslope.negative? and slope.positive?)
+                if localslope > slope/19
+                    unpredictability += 1
+                end
+            end
+        end
+        prevvalue = value.clone
+    end
+    
+    return unpredictability
+end
 
 
 def jaggedness(verb,years,values)
@@ -33,7 +57,7 @@ def jaggedness(verb,years,values)
     direct = Math.sqrt((years[@lastyear] - years[@startyear]).abs2 + (values[@lastyear] - values[@startyear]).abs2)
     
     jagged = div_by_zero(indirect, direct)
-    return [jagged,direct]
+    return jagged
 end
 
 files.each do |file|
@@ -61,21 +85,41 @@ end
 
 #STDERR.puts verblist
 #__END__
-STDOUT.puts "verb\tfreq\tjaggedness"
+
+o = File.open("summary.tsv","w:utf-8")
+o.puts "verb\tfreq\tjaggedness\tslope\tunpredictability\tr2\tp"
 #verbs.each_pair do |verb,yearhash|
 verblist.each do |verb|
     yearhash = verbs[verb]
     centeredyears_a = center(yearhash.keys)
     #STDERR.puts centeredyears_a
-    centeredvalues_a = smooth(center(yearhash.values),3)
+    centeredvalues_a = smooth(center(yearhash.values),smoothing)
     centeredyears = {}
     centeredvalues = {}
     yearhash.keys.each.with_index do |year,index|
         centeredyears[year] = centeredyears_a[index]
         centeredvalues[year] = centeredvalues_a[index]
     end
-    MOVE TO R
-    R.eval "plot(values ~ years, ylim = c(0,1), pch=21, col = 'black', bg='black',type='l')"
+    
+    R.assign "years",yearhash.keys
+    
+    
+    values = smooth(yearhash.values,smoothing)
+    R.assign "values",values
+    R.eval "pdf(file='#{verb}_smoothed.pdf')"
+    R.eval "plot(values ~ years, ylim = c(#{values.min},#{values.max}), pch=21, col = 'black', bg='black',type='l')"
+    R.eval "dev.off()"
+    
+    
+    R.eval "m<-lm(values~years)"
+    slope = R.pull "m$coefficients[2]"
+    slope = slope.round(7)
+    r2 = R.pull "summary(m)$r.squared"
+    r2 = r2.round(7)
+    p = R.pull "summary(m)$coefficients[2,4]"
+    p = p.round(7)
+    unpredictability = unpredictability(values,slope) 
+    
     jagged = jaggedness(verb,centeredyears,centeredvalues)
-    STDOUT.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged[0].round(9)}"
+    o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}"
 end
