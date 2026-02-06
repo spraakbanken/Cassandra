@@ -6,8 +6,8 @@ PATH = "C:\\D\\DGU\\Repos\\Cassandra\\"
 #require 'json'
 
 
-def get_years(corpus,nolabel=false)
-
+def get_years(corpus2,nolabel=false)
+    #corpus = corpus2.downcase
     if nolabel
         #STDERR.puts "nolabel"
         firstyear,lastyear = get_years_from_file(corpus,nolabel)
@@ -16,9 +16,12 @@ def get_years(corpus,nolabel=false)
         end
     else
         #STDERR.puts "label"
+        #STDERR.puts corpus
         corphash = get_years_from_file(corpus,nolabel)
         #STDERR.puts "#{corphash}"
+        #STDERR.puts "#{corphash}"
         corpora = read_corpus_label(corpus,outputmode="array")
+        STDERR.puts "#{corpora}"
         #STDERR.puts "#{corpora}"
         firstmax = 3000
         lastmin = 0
@@ -78,7 +81,7 @@ def get_years_from_file(corpus,nolabel)
         corpora = read_corpus_label(corpus,outputmode="array")
         corphash = {}
     end
-
+    #STDERR.puts "GY#{corpora}"
 
     f = File.open("years.tsv","r:utf-8")
     firstyear = nil
@@ -96,7 +99,7 @@ def get_years_from_file(corpus,nolabel)
                 end
             else
                 corpora.each do |corpus1|
-                    if line2[0] == corpus1
+                    if line2[0] == corpus1.downcase
                         firstyear = line2[1].to_i
                         lastyear = line2[2].to_i
                         corphash[corpus1] = [firstyear,lastyear]
