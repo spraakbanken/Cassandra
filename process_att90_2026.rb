@@ -6,7 +6,7 @@ require_relative "math_tools.rb"
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\ss90_2026"
 files = Dir.children(path)
 
-smoothing = 3
+smoothing = 7
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
 verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
 #verblist = ["komma"]
@@ -87,7 +87,7 @@ end
 #__END__
 
 o = File.open("summary.tsv","w:utf-8")
-o.puts "verb\tfreq\tjaggedness\tslope\tunpredictability\tr2\tp"
+o.puts "verb\tfreq\tjaggedness\tslope\tunpredictability\tr2\tp\tmax"
 #verbs.each_pair do |verb,yearhash|
 verblist.each do |verb|
     yearhash = verbs[verb]
@@ -121,5 +121,5 @@ verblist.each do |verb|
     unpredictability = unpredictability(values,slope) 
     
     jagged = jaggedness(verb,centeredyears,centeredvalues)
-    o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}"
+    o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
 end
