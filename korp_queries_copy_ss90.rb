@@ -1422,363 +1422,363 @@ variant1 = [(lex contains 'vuvuzela..nn.1' )]
     #safe_uri = URI.escape(#"https://ws.spraakbanken.gu.se/ws/korp/v8/count?corpus=FAMILJELIV-ADOPTION&cqp=[word+=+'kommer'+&+_.text_date+=+'2006.*']+[word+=+'att']+[pos+=+'VB'+&+msd+=+'.*INF.*']&group_by_struct=text_username") #&ignore_case=word #
 
 
-#label = att2026_riskera
+#label = ss90_riskera
 variant1 = [lemma contains 'riskera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'riskera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_upphöra
+#label = ss90_upphöra
 variant1 = [lemma contains 'upphöra' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'upphöra' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_bruka
+#label = ss90_bruka
 variant1 = [lemma contains 'bruka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'bruka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_börja
+#label = ss90_börja
 variant1 = [lemma contains 'börja' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'börja' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_råka
+#label = ss90_råka
 variant1 = [lemma contains 'råka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'råka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_pläga
+#label = ss90_pläga
 variant1 = [lemma contains 'pläga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'pläga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_begynna
+#label = ss90_begynna
 variant1 = [lemma contains 'begynna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'begynna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_sluta
+#label = ss90_sluta
 variant1 = [lemma contains 'sluta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'sluta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_fortsätta
+#label = ss90_fortsätta
 variant1 = [lemma contains 'fortsätta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'fortsätta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_hota
+#label = ss90_hota
 variant1 = [lemma contains 'hota' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'hota' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_tendera
+#label = ss90_tendera
 variant1 = [lemma contains 'tendera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'tendera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_vänta sig
+#label = ss90_vänta sig
 variant1 = [lemma contains 'vänta sig' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'vänta sig' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_hoppas
+#label = ss90_hoppas
 variant1 = [lemma contains 'hoppas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'hoppas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_önska
+#label = ss90_önska
 variant1 = [lemma contains 'önska' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'önska' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_vänta
+#label = ss90_vänta
 variant1 = [lemma contains 'vänta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'vänta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_frukta
+#label = ss90_frukta
 variant1 = [lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'frukta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_låta
+#label = ss90_låta
 variant1 = [lemma contains 'låta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'låta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_avböja
+#label = ss90_avböja
 variant1 = [lemma contains 'avböja' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'avböja' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_negligera
+#label = ss90_negligera
 variant1 = [lemma contains 'negligera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'negligera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_låtsas
+#label = ss90_låtsas
 variant1 = [lemma contains 'låtsas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'låtsas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_försöka
+#label = ss90_försöka
 variant1 = [lemma contains 'försöka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'försöka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_söka
+#label = ss90_söka
 variant1 = [lemma contains 'söka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'söka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_glömma
+#label = ss90_glömma
 variant1 = [lemma contains 'glömma' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'glömma' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_försumma
+#label = ss90_försumma
 variant1 = [lemma contains 'försumma' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'försumma' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_underlåta
+#label = ss90_underlåta
 variant1 = [lemma contains 'underlåta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'underlåta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_undvika
+#label = ss90_undvika
 variant1 = [lemma contains 'undvika' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'undvika' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_gitta
+#label = ss90_gitta
 variant1 = [lemma contains 'gitta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'gitta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_idas
+#label = ss90_idas
 variant1 = [lemma contains 'idas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'idas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_avse
+#label = ss90_avse
 variant1 = [lemma contains 'avse' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'avse' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_diskutera
+#label = ss90_diskutera
 variant1 = [lemma contains 'diskutera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'diskutera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_överväga
+#label = ss90_överväga
 variant1 = [lemma contains 'överväga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'överväga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_svära
+#label = ss90_svära
 variant1 = [lemma contains 'svära' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'svära' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_välja
+#label = ss90_välja
 variant1 = [lemma contains 'välja' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'välja' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_ämna
+#label = ss90_ämna
 variant1 = [lemma contains 'ämna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'ämna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_nännas
+#label = ss90_nännas
 variant1 = [lemma contains 'nännas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'nännas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_täckas
+#label = ss90_täckas
 variant1 = [lemma contains 'täckas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'täckas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_besluta
+#label = ss90_besluta
 variant1 = [lemma contains 'besluta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'besluta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_lova
+#label = ss90_lova
 variant1 = [lemma contains 'lova' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'lova' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_vägra
+#label = ss90_vägra
 variant1 = [lemma contains 'vägra' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'vägra' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_planera
+#label = ss90_planera
 variant1 = [lemma contains 'planera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'planera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_hota
+#label = ss90_hota
 variant1 = [lemma contains 'hota' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'hota' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_anses
+#label = ss90_anses
 variant1 = [lemma contains 'anses' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'anses' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_anse
+#label = ss90_anse
 variant1 = [lemma contains 'anse' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'anse' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_tänka
+#label = ss90_tänka
 variant1 = [lemma contains 'tänka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'tänka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_behaga
+#label = ss90_behaga
 variant1 = [lemma contains 'behaga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'behaga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_böra
+#label = ss90_böra
 variant1 = [lemma contains 'böra' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'böra' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_lär
+#label = ss90_lär
 variant1 = [lemma contains 'lär' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'lär' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_må
+#label = ss90_må
 variant1 = [lemma contains 'må' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'må' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_måste
+#label = ss90_måste
 variant1 = [lemma contains 'måste' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'måste' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_vilja
+#label = ss90_vilja
 variant1 = [lemma contains 'vilja' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'vilja' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_skola
+#label = ss90_skola
 variant1 = [lemma contains 'skola' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'skola' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_kunna
+#label = ss90_kunna
 variant1 = [lemma contains 'kunna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'kunna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_få
+#label = ss90_få
 variant1 = [lemma contains 'få' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'få' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_synas
+#label = ss90_synas
 variant1 = [lemma contains 'synas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'synas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_tyckas
+#label = ss90_tyckas
 variant1 = [lemma contains 'tyckas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'tyckas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_borde
+#label = ss90_borde
 variant1 = [lemma contains 'borde' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'borde' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_måtte
+#label = ss90_måtte
 variant1 = [lemma contains 'måtte' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'måtte' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_torde
+#label = ss90_torde
 variant1 = [lemma contains 'torde' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'torde' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_befinnas
+#label = ss90_befinnas
 variant1 = [lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'befinnas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_skall
+#label = ss90_skall
 variant1 = [lemma contains 'skall' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'skall' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_bör
+#label = ss90_bör
 variant1 = [lemma contains 'bör' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'bör' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_äga
+#label = ss90_äga
 variant1 = [lemma contains 'äga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'äga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_ha
+#label = ss90_ha
 variant1 = [lemma contains 'ha' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'ha' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_behöva
+#label = ss90_behöva
 variant1 = [lemma contains 'behöva' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'behöva' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_förefalla
+#label = ss90_förefalla
 variant1 = [lemma contains 'förefalla' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'förefalla' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_slippa
+#label = ss90_slippa
 variant1 = [lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'slippa' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_verka
+#label = ss90_verka
 variant1 = [lemma contains 'verka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'verka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_töras
+#label = ss90_töras
 variant1 = [lemma contains 'töras' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'töras' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_mäkta
+#label = ss90_mäkta
 variant1 = [lemma contains 'mäkta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'mäkta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_förstå
+#label = ss90_förstå
 variant1 = [lemma contains 'förstå' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'förstå' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_hinna med
+#label = ss90_hinna med
 variant1 = [lemma contains 'hinna med' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'hinna med' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_vara i stånd
+#label = ss90_vara i stånd
 variant1 = [lemma contains 'vara i stånd' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'vara i stånd' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_våga
+#label = ss90_våga
 variant1 = [lemma contains 'våga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'våga' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_hinna
+#label = ss90_hinna
 variant1 = [lemma contains 'hinna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'hinna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_lyckas
+#label = ss90_lyckas
 variant1 = [lemma contains 'lyckas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'lyckas' & (msd = '.*VB.PRS.SFO.*' | msd = '.*VB.PRT.SFO.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_förtjäna
+#label = ss90_förtjäna
 variant1 = [lemma contains 'förtjäna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'förtjäna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_förmå
+#label = ss90_förmå
 variant1 = [lemma contains 'förmå' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'förmå' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_tåla
+#label = ss90_tåla
 variant1 = [lemma contains 'tåla' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'tåla' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_orka
+#label = ss90_orka
 variant1 = [lemma contains 'orka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'orka' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_skola
+#label = ss90_skola
 variant1 = [lemma contains 'skola' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'skola' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_komma
+#label = ss90_komma
 variant1 = [lemma contains 'komma' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'komma' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_avsky
+#label = ss90_avsky
 variant1 = [lemma contains 'avsky' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'avsky' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_förakta
+#label = ss90_förakta
 variant1 = [lemma contains 'förakta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'förakta' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_föredra
+#label = ss90_föredra
 variant1 = [lemma contains 'föredra' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'föredra' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_acceptera
+#label = ss90_acceptera
 variant1 = [lemma contains 'acceptera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'acceptera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_älska
+#label = ss90_älska
 variant1 = [lemma contains 'älska' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'älska' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_gilla
+#label = ss90_gilla
 variant1 = [lemma contains 'gilla' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'gilla' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_hata
+#label = ss90_hata
 variant1 = [lemma contains 'hata' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'hata' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_sakna
+#label = ss90_sakna
 variant1 = [lemma contains 'sakna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'sakna' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
-#label = att2026_tolerera
+#label = ss90_tolerera
 variant1 = [lemma contains 'tolerera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [word = 'att' %c] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 variant2 = [lemma contains 'tolerera' & (msd = '.*VB.PRS.AKT.*' | msd = '.*VB.PRT.AKT.*')] [msd = '.*INF.AKT.*'] [msd != '.*INF.*']
 
