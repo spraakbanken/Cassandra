@@ -7,7 +7,7 @@ PATH = "C:\\D\\DGU\\Repos\\Cassandra\\"
 
 
 def get_years(corpus2,nolabel=false)
-    #corpus = corpus2.downcase
+    corpus = corpus2.downcase
     if nolabel
         #STDERR.puts "nolabel"
         firstyear,lastyear = get_years_from_file(corpus,nolabel)
