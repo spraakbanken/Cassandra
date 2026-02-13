@@ -3,8 +3,8 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "flashback"
-threshold = 50
+corpus = "forum"
+threshold = 200
 smoothing = 3
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
 files = Dir.children(path)
@@ -134,13 +134,17 @@ def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     #p = p.round(7)
     unpredictability = unpredictability(values,slope)     
     #jagged = jaggedness(verb,centeredyears,centeredvalues)
-    R.eval "rm(list = ls())"
+    #R.eval "rm(list = ls())"
     return slope,unpredictability,r2,p,values,link
 end
 
 
 o = File.open("summary_#{corpus}_s#{smoothing}_t#{threshold}.tsv","w:utf-8")
-o.puts "verb\tfreq\tslope\tunpredictability\tr2\tp\tmax"
+
+#o.puts "verb\tfreq\tslope\tunpredictability\tr2\tp\tmax"
+o.puts "verb\tfreq\tslope\tabs_slope\tr2\tmax-min\tmax"
+###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
+###R.eval "par(mfrow=c(10,3))"
 #verbs.each_pair do |verb,yearhash|
 verblist.each do |verb|
     yearhash = verbs[verb]
@@ -158,5 +162,8 @@ verblist.each do |verb|
     slope,unpredictability,r2,p,values,link = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
     
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
-    o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
+    #o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
+    
+    o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope.round(5)}\t#{slope.round(5).abs}\t#{r2.round(5)}\t#{(values.max-values.min).round(5)}\t#{values.max.round(5)}"
 end
+###R.eval "dev.off()"
