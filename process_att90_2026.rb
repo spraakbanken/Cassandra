@@ -3,8 +3,8 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "forum"
-threshold = 200
+corpus = "flashback"
+threshold = 100
 smoothing = 3
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
 files = Dir.children(path)
@@ -141,8 +141,8 @@ end
 
 o = File.open("summary_#{corpus}_s#{smoothing}_t#{threshold}.tsv","w:utf-8")
 
-#o.puts "verb\tfreq\tslope\tunpredictability\tr2\tp\tmax"
-o.puts "verb\tfreq\tslope\tabs_slope\tr2\tmax-min\tmax"
+#o.puts "verb\tfreq,\tslope\tunpredictability\tr2\tp\tmax"
+o.puts "construction\tfreq, K\tslope\tr2\tmax-min\tmax"
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
 #verbs.each_pair do |verb,yearhash|
@@ -164,6 +164,6 @@ verblist.each do |verb|
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     
-    o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope.round(5)}\t#{slope.round(5).abs}\t#{r2.round(5)}\t#{(values.max-values.min).round(5)}\t#{values.max.round(5)}"
+    o.puts "#{verb}\t#{(verbs_total[verb]/1000).round(0)}\t#{slope.round(5)}\t#{r2.round(2)}\t#{(values.max-values.min).round(2)}\t#{values.max.round(2)}"
 end
 ###R.eval "dev.off()"
