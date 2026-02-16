@@ -3,7 +3,9 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "familjeliv"
+
+corpus = "flashback"
+axis = "full"
 threshold = 100
 smoothing = 3
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
@@ -91,63 +93,71 @@ end
 #__END__
 
 
-def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
-    link = ""
-    R.assign "years",yearhash.keys      
+def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,colfitted2,axis)
+    
+    R.assign "x",yearhash.keys      
     values = smooth(yearhash.values,smoothing)
-    R.assign "values",values
-    R.eval "png(file='#{verb}_#{corpus}_s#{smoothing}_t#{threshold}.png')"
-    R.eval "plot(values ~ years, ylim = c(#{values.min},#{values.max}), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
-    #R.eval "plot(values ~ years, ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
-    #if function == "linear"
-    R.eval "m<-lm(values~years)"
-    #elsif function == "log"
+    R.assign "y",values
+    #R.eval "df <- cbind(years1,values1)"
     
-    #end    
-    
-    #R.eval "mlog<-lm(values~log(years))"
-    #r2lin = R.pull "summary(mlin)$r.squared"
-    #r2log = R.pull "summary(mlog)$r.squared"
-    #if 2<1#r2log > r2lin 
-    #    R.eval "m<-mlog"
-    #    link = "log"
-    #else
-    #    R.eval "m<-mlin"
-    #    link = "lin"
-    #end
-    
-    slope = R.pull "m$coefficients[2]"
-    #slope = slope.round(7)
-    intercept = R.pull "m$coefficients[1]"
+    #R.eval "y <- df[, 2]"
+    #R.eval "x <- df[, 1]"
+    R.eval "log.ss <- nls(y ~ SSlogis(x, phi1, phi2, phi3))"
+    R.eval "logres <- sum(residuals(log.ss)^2)"
+    logres = R.pull "logres"
+    #R.eval "asym <- summary(log.ss)$coef[1]"
+    #R.eval "mid <- summary(log.ss)$coef[2]"
+    #R.eval "growth <- summary(log.ss)$coef[3]"
     
     
-    #if link == "lin"
-    R.eval "fittedline <- m$coefficients[1] + m$coefficients[2]*years"
-    R.eval "lines(fittedline ~ years, pch=20, col = '#{colfitted}', bg='#{colfitted}',type='b')"
-    #elsif link == "log"
-        #R.eval "fittedline <- m$coefficients[1] + m$coefficients[2]*log(years)"
-        #R.eval "lines(fittedline ~ years, pch=20, col = '#{colfitted}', bg='#{colfitted}',type='b')"
-    #end
+    
+    
+    
+    #R.eval "stot <- sum((y - mean(y))^2)"
+    
+    #R.eval "r2 <- 1 - (sres/stot)"
+    
+    R.eval "m<-lm(y~x)"
+    R.eval "linres <- sum(residuals(m)^2)"
+    linres = R.pull "linres"
+
+    R.eval "png(file='#{verb}_#{corpus}_s#{smoothing}_t#{threshold}_#{axis}.png')"
+    
+    if axis == "full"
+        R.eval "plot(y ~ x, ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    elsif axis == "fit"
+        R.eval "plot(y ~ x, ylim = c(#{values.min},#{values.max}), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    end
+    R.eval "fittedline <- m$coefficients[1] + m$coefficients[2]*x"
+    R.eval "lines(fittedline ~ x, pch=22, col = '#{colfitted}', bg='#{colfitted}',type='b')"
+    R.eval "lines(0:2050, predict(log.ss, data.frame(x=0:2050)), pch=2, col = '#{colfitted2}', bg='#{colfitted2}',type='b')"
+    
     R.eval "dev.off()"
-    r2 = R.pull "summary(m)$r.squared"
-    #r2 = r2.round(7)
-    p = R.pull "summary(m)$coefficients[2,4]"
-    #p = p.round(7)
-    unpredictability = unpredictability(values,slope)     
-    #jagged = jaggedness(verb,centeredyears,centeredvalues)
-    #R.eval "rm(list = ls())"
-    return slope,unpredictability,r2,p,values,link
+    #R.eval "png(file='#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}.png')"
+    #R.eval "plot(y ~ x, ylim = c(#{values.min},#{values.max}), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    #R.eval "plot(y ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    #R.eval "lines(0:2050, predict(log.ss, data.frame(x=0:2050)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
+    
+    
+    #r2 = R.pull "r2"
+    #r2 = R.pull "summary(log.ss)$sigma"
+    #asym = R.pull "asym"
+    #mid = R.pull "mid"
+    #growth = R.pull "growth"
+    
+    
+    return logres,linres
 end
 
 
-o = File.open("summary_#{corpus}_s#{smoothing}_t#{threshold}.tsv","w:utf-8")
-
-#o.puts "verb\tfreq,\tslope\tunpredictability\tr2\tp\tmax"
-o.puts "construction\tfreq, K\tslope\tr2\tmax-min\tmax"
+o = File.open("summary_compare_#{corpus}_s#{smoothing}_t#{threshold}.tsv","w:utf-8")
+#o.puts "verb\tfreq\tslope\tunpredictability\tr2\tp\tmax"
+o.puts "verb\tfreq\tlogresiduals\tlinresiduals\tbest"
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
 #verbs.each_pair do |verb,yearhash|
 verblist.each do |verb|
+    STDERR.puts verb
     yearhash = verbs[verb]
     centeredyears_a = center(yearhash.keys)
     #STDERR.puts centeredyears_a
@@ -160,11 +170,16 @@ verblist.each do |verb|
     end
     
     
-    slope,unpredictability,r2,p,values,link = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
+    logres,linres = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus,"red",axis)
     
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     
-    o.puts "#{verb}\t#{(verbs_total[verb]/1000).round(0)}\t#{slope.round(5)}\t#{r2.round(2)}\t#{(values.max-values.min).round(2)}\t#{values.max.round(2)}"
+    if !logres.nil? and logres < linres
+        best = "log"
+    else
+        best = "lin"
+    end
+    o.puts "#{verb}\t#{verbs_total[verb]}\t#{logres}\t#{linres}\t#{best}"
 end
 ###R.eval "dev.off()"
