@@ -3,7 +3,7 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "flashback"
+corpus = "familjeliv"
 threshold = 100
 smoothing = 3
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
@@ -114,7 +114,7 @@ def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
 
     
     R.eval "png(file='#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}.png')"
-    #R.eval "plot(y ~ x, ylim = c(#{values.min},#{values.max}), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    #R.eval "/(y ~ x, ylim = c(#{values.min},#{values.max}), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
     R.eval "plot(y ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
     R.eval "lines(0:2050, predict(log.ss, data.frame(x=0:2050)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
     R.eval "dev.off()"
