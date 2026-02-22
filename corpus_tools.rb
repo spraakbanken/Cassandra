@@ -56,7 +56,8 @@ def get_years(corpus2,nolabel=false)
 end
 
 def get_years_from_api(corpus)
-    safe_uri = URI.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/corpus_info?corpus=#{corpus}")
+    p = URI::Parser.new
+    safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/corpus_info?corpus=#{corpus}")
     safe_uri.gsub!("+&+","+%26+")
     uri = URI(safe_uri)
     res = Net::HTTP.get_response(uri)
