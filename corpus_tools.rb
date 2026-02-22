@@ -8,6 +8,7 @@ PATH = "C:\\D\\DGU\\Repos\\Cassandra\\"
 
 def get_years(corpus2,nolabel=false)
     corpus = corpus2.downcase
+    #STDERR.puts "corpus in get_years:#{corpus}"
     if nolabel
         #STDERR.puts "nolabel"
         firstyear,lastyear = get_years_from_file(corpus,nolabel)
@@ -21,7 +22,7 @@ def get_years(corpus2,nolabel=false)
         #STDERR.puts "#{corphash}"
         #STDERR.puts "#{corphash}"
         corpora = read_corpus_label(corpus,outputmode="array")
-        STDERR.puts "#{corpora}"
+        #STDERR.puts "corpora after read_corpus_label #{corpora}"
         #STDERR.puts "#{corpora}"
         firstmax = 3000
         lastmin = 0
@@ -56,6 +57,7 @@ def get_years(corpus2,nolabel=false)
 end
 
 def get_years_from_api(corpus)
+   # STDERR.puts "corpus in get_years_from_api:#{corpus}"
     p = URI::Parser.new
     safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/corpus_info?corpus=#{corpus}")
     safe_uri.gsub!("+&+","+%26+")
@@ -259,9 +261,9 @@ end
 
 def read_corpus_label(corpus_and_label,outputmode="string")
     maincorpus = corpus_and_label.split("-")[0]
-    #STDERR.puts maincorpus
+    #STDERR.puts "read_corpus_label: maincorpus #{maincorpus}"
     label = corpus_and_label.split("-")[1..-1].join("-")
-    #STDERR.puts label
+    #STDERR.puts "read_corpus_label: label #{label}"
 
     corpus = ""
     labelfile = File.open("#{PATH}subforum_labels.tsv", "r:utf-8")
@@ -269,7 +271,7 @@ def read_corpus_label(corpus_and_label,outputmode="string")
     labelfile.each_line do |line|
         line1 = line.strip.split("\t")
         if line1[0] == corpus_and_label
-            
+            #STDERR.puts "match found!"
             line1[1].split(",").each do |subcorp|
                 if line1[2] == "merge"
                     corpus << maincorpus#.upcase

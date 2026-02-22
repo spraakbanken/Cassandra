@@ -94,7 +94,7 @@ elsif query == "authors"
     end
 end
 
-
+#STDERR.puts corpus_and_label
 start_to_finish = get_years(corpus_and_label,nolabel)
 #STDERR.puts start_to_finish
 #__END__
