@@ -1,5 +1,10 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = att2026kommer
+variant1 = [word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'få' %c | word = 'ta' %c | word = 'taga' %c | word = 'fortsätta' %c | word = 'ha' %c | word = 'hava' %c | word = 'göra' %c | word = 'gå' %c | word = 'kunna' %c | word = 'hålla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'påverka' %c | word = 'ske' %c | word = 'se' %c | word = 'behöva' %c | word = 'öka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'hända' %c]
+variant2 = [word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'få' %c | word = 'ta' %c | word = 'taga' %c | word = 'fortsätta' %c | word = 'ha' %c | word = 'hava' %c | word = 'göra' %c | word = 'gå' %c | word = 'kunna' %c | word = 'hålla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'påverka' %c | word = 'ske' %c | word = 'se' %c | word = 'behöva' %c | word = 'öka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'hända' %c]
+
+
 #label = varit
 variant1 = [msd = ".*PN.*"] [word = "har"] [word = "varit"]
 variant2 = [msd = ".*PN.*"] [word = "har"] [word = "vart"]

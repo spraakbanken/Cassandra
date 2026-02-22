@@ -1,5 +1,5 @@
 noatt = {}
-f = File.open("korp-statistics_svt_2017.tsv","r:utf-8")
+f = File.open("svt_all.tsv","r:utf-8")
 
 f.each_line.with_index do |line,index|
     if index > 1
@@ -13,7 +13,7 @@ end
 
 #STDERR.puts "#{noatt}"
 att = {}
-f = File.open("korp-statistics_att_svt_2017.tsv","r:utf-8")
+f = File.open("svt_all_att.tsv","r:utf-8")
 
 f.each_line.with_index do |line,index|
     if index > 1
@@ -25,6 +25,9 @@ f.each_line.with_index do |line,index|
     end
 end
 
+STDOUT.puts att.keys[0..25].intersection(noatt.keys[0..25])
+
+__END__
 noatt.each_pair do |verb,fomission|
     fatt = att[verb]
     if !fatt.nil? and (fomission+fatt) >= 10
