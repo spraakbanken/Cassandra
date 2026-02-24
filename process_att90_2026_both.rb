@@ -4,10 +4,10 @@
 require "rinruby"
 require_relative "math_tools.rb"
 
-corpus = "flashback"
+corpus = "familjeliv"
 axis = "full"
 threshold = 100
-smoothing = 3
+smoothing = 5
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
 files = Dir.children(path)
 
@@ -146,7 +146,7 @@ def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,colfitt
     #growth = R.pull "growth"
     
     
-    return logres,linres
+    return logres,linres,values
 end
 
 
@@ -170,7 +170,7 @@ verblist.each do |verb|
     end
     
     
-    logres,linres = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus,"red",axis)
+    logres,linres,values = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus,"red",axis)
     
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
@@ -180,6 +180,6 @@ verblist.each do |verb|
     else
         best = "lin"
     end
-    o.puts "#{verb}\t#{verbs_total[verb]}\t#{logres}\t#{linres}\t#{best}"
+    o.puts "#{verb}\t#{verbs_total[verb]}\t#{logres.to_f.round(5)}\t#{linres.to_f.round(5)}\t#{(logres.to_f/(values.max-values.min)).round(5)}\t#{(linres.to_f/(values.max-values.min)).round(5)}"
 end
 ###R.eval "dev.off()"

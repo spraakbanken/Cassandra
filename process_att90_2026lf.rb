@@ -5,7 +5,7 @@ require "rinruby"
 require_relative "math_tools.rb"
 corpus = "familjeliv"
 threshold = 100
-smoothing = 3
+smoothing = 5
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
 files = Dir.children(path)
 
@@ -155,6 +155,6 @@ verblist.each do |verb|
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     
-    o.puts "#{verb}\t#{verbs_total[verb]}\t#{asym.to_f.round(5)}\t#{mid.to_f.round(5).abs}\t#{growth.to_f.round(5)}\t#{r2.to_f.round(5)}\t#{(values.max-values.min).round(5)}\t#{values.max.round(5)}"
+    o.puts "#{verb}\t#{verbs_total[verb]}\t#{asym.to_f.round(5)}\t#{mid.to_f.round(5).abs}\t#{growth.to_f.round(5)}\t#{(r2.to_f/(values.max-values.min)).round(5)}\t#{(values.max-values.min).round(5)}\t#{values.max.round(5)}"
 end
 ###R.eval "dev.off()"
