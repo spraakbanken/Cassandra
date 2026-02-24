@@ -1,0 +1,149 @@
+{
+"corpora": {
+"KUBHIST2-WEXJOBLADET-1840": [
+{
+"absolute": {
+"1842": 3,
+"1850": null,
+"1843": 3,
+"1844": 0,
+"1846": 2,
+"1847": 3,
+"1848": 5,
+"1849": 0
+},
+"relative": {
+"1842": 14.719302893814948,
+"1850": null,
+"1843": 14.80348375317658,
+"1844": 0.0,
+"1846": 7.83128284244242,
+"1847": 8.88765120116606,
+"1848": 12.41674571994775,
+"1849": 0.0
+},
+"sums": {
+"absolute": 16,
+"relative": 58.65846641054775
+}
+},
+{
+"absolute": {
+"1842": 2,
+"1850": null,
+"1843": 3,
+"1844": 0,
+"1846": 2,
+"1847": 3,
+"1848": 5,
+"1849": 0
+},
+"relative": {
+"1842": 9.812868595876633,
+"1850": null,
+"1843": 14.80348375317658,
+"1844": 0.0,
+"1846": 7.83128284244242,
+"1847": 8.88765120116606,
+"1848": 12.41674571994775,
+"1849": 0.0
+},
+"sums": {
+"absolute": 15,
+"relative": 53.75203211260944
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1842": 1,
+"1850": null,
+"1843": 0
+},
+"relative": {
+"1842": 4.906434297938317,
+"1850": null,
+"1843": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 4.906434297938317
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1842": 3,
+"1850": null,
+"1843": 3,
+"1844": 0,
+"1846": 2,
+"1847": 3,
+"1848": 5,
+"1849": 0
+},
+"relative": {
+"1842": 14.719302893814948,
+"1850": null,
+"1843": 14.80348375317658,
+"1844": 0.0,
+"1846": 7.83128284244242,
+"1847": 8.88765120116606,
+"1848": 12.41674571994775,
+"1849": 0.0
+},
+"sums": {
+"absolute": 16,
+"relative": 7.154732721544063
+}
+},
+{
+"absolute": {
+"1842": 2,
+"1850": null,
+"1843": 3,
+"1844": 0,
+"1846": 2,
+"1847": 3,
+"1848": 5,
+"1849": 0
+},
+"relative": {
+"1842": 9.812868595876633,
+"1850": null,
+"1843": 14.80348375317658,
+"1844": 0.0,
+"1846": 7.83128284244242,
+"1847": 8.88765120116606,
+"1848": 12.41674571994775,
+"1849": 0.0
+},
+"sums": {
+"absolute": 15,
+"relative": 6.707561926447559
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1842": 1,
+"1850": null,
+"1843": 0
+},
+"relative": {
+"1842": 4.906434297938317,
+"1850": null,
+"1843": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.4471707950965039
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+],
+"time": 1.330517053604126
+}

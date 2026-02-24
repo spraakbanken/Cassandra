@@ -1,0 +1,133 @@
+{
+"corpora": {
+"KUBHIST2-KRISTIANSTADSBLADET-1850": [
+{
+"absolute": {
+"1856": 4,
+"1860": null,
+"1857": 3,
+"1858": 8,
+"1859": 15
+},
+"relative": {
+"1856": 13.061821601640565,
+"1860": null,
+"1857": 2.3503990585868304,
+"1858": 6.349816133136595,
+"1859": 12.342824416739832
+},
+"sums": {
+"absolute": 30,
+"relative": 34.10486121010382
+}
+},
+{
+"absolute": {
+"1856": 4,
+"1860": null,
+"1857": 2,
+"1858": 7,
+"1859": 14
+},
+"relative": {
+"1856": 13.061821601640565,
+"1860": null,
+"1857": 1.5669327057245537,
+"1858": 5.556089116494521,
+"1859": 11.519969455623844
+},
+"sums": {
+"absolute": 27,
+"relative": 31.704812879483484
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1856": 0,
+"1860": null,
+"1857": 1,
+"1858": 1,
+"1859": 1
+},
+"relative": {
+"1856": 0,
+"1860": null,
+"1857": 0.7834663528622768,
+"1858": 0.7937270166420743,
+"1859": 0.8228549611159889
+},
+"sums": {
+"absolute": 3,
+"relative": 2.40004833062034
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1856": 4,
+"1860": null,
+"1857": 3,
+"1858": 8,
+"1859": 15
+},
+"relative": {
+"1856": 13.061821601640565,
+"1860": null,
+"1857": 2.3503990585868304,
+"1858": 6.349816133136595,
+"1859": 12.342824416739832
+},
+"sums": {
+"absolute": 30,
+"relative": 7.393214261510311
+}
+},
+{
+"absolute": {
+"1856": 4,
+"1860": null,
+"1857": 2,
+"1858": 7,
+"1859": 14
+},
+"relative": {
+"1856": 13.061821601640565,
+"1860": null,
+"1857": 1.5669327057245537,
+"1858": 5.556089116494521,
+"1859": 11.519969455623844
+},
+"sums": {
+"absolute": 27,
+"relative": 6.6538928353592794
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1856": 0,
+"1860": null,
+"1857": 1,
+"1858": 1,
+"1859": 1
+},
+"relative": {
+"1856": 0,
+"1860": null,
+"1857": 0.7834663528622768,
+"1858": 0.7937270166420743,
+"1859": 0.8228549611159889
+},
+"sums": {
+"absolute": 3,
+"relative": 0.739321426151031
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+],
+"time": 1.4526050090789795
+}

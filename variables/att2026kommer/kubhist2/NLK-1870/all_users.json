@@ -1,0 +1,129 @@
+{
+"corpora": {
+"KUBHIST2-NLK-1870": [
+{
+"absolute": {
+"1870": 12,
+"1874": null,
+"1871": 11,
+"1872": 46,
+"1873": 13
+},
+"relative": {
+"1870": 8.912113195720403,
+"1874": null,
+"1871": 7.15299674798757,
+"1872": 28.74563425679725,
+"1873": 7.581585146158381
+},
+"sums": {
+"absolute": 82,
+"relative": 52.39232934666361
+}
+},
+{
+"absolute": {
+"1870": 12,
+"1874": null,
+"1871": 10,
+"1872": 46,
+"1873": 13
+},
+"relative": {
+"1870": 8.912113195720403,
+"1874": null,
+"1871": 6.502724316352336,
+"1872": 28.74563425679725,
+"1873": 7.581585146158381
+},
+"sums": {
+"absolute": 81,
+"relative": 51.74205691502837
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1870": 0,
+"1874": null,
+"1871": 1,
+"1872": 0
+},
+"relative": {
+"1870": 0,
+"1874": null,
+"1871": 0.6502724316352336,
+"1872": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.6502724316352336
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1870": 12,
+"1874": null,
+"1871": 11,
+"1872": 46,
+"1873": 13
+},
+"relative": {
+"1870": 8.912113195720403,
+"1874": null,
+"1871": 7.15299674798757,
+"1872": 28.74563425679725,
+"1873": 7.581585146158381
+},
+"sums": {
+"absolute": 82,
+"relative": 13.227464151555768
+}
+},
+{
+"absolute": {
+"1870": 12,
+"1874": null,
+"1871": 10,
+"1872": 46,
+"1873": 13
+},
+"relative": {
+"1870": 8.912113195720403,
+"1874": null,
+"1871": 6.502724316352336,
+"1872": 28.74563425679725,
+"1873": 7.581585146158381
+},
+"sums": {
+"absolute": 81,
+"relative": 13.066153613122161
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1870": 0,
+"1874": null,
+"1871": 1,
+"1872": 0
+},
+"relative": {
+"1870": 0,
+"1874": null,
+"1871": 0.6502724316352336,
+"1872": 0.0
+},
+"sums": {
+"absolute": 1,
+"relative": 0.1613105384336069
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+],
+"time": 1.863957166671753
+}

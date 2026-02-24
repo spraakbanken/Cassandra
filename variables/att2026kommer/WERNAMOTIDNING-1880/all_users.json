@@ -1,0 +1,129 @@
+{
+"corpora": {
+"KUBHIST2-WERNAMOTIDNING-1880": [
+{
+"absolute": {
+"1880": 11,
+"1885": null,
+"1881": 12,
+"1882": 12,
+"1883": 17,
+"1884": 1
+},
+"relative": {
+"1880": 16.064890473958084,
+"1885": null,
+"1881": 17.304031839418585,
+"1882": 17.62360388013012,
+"1883": 25.63340907754408,
+"1884": 1.486595369552743
+},
+"sums": {
+"absolute": 53,
+"relative": 78.11253064060362
+}
+},
+{
+"absolute": {
+"1880": 11,
+"1885": null,
+"1881": 12,
+"1882": 12,
+"1883": 17,
+"1884": 1
+},
+"relative": {
+"1880": 16.064890473958084,
+"1885": null,
+"1881": 17.304031839418585,
+"1882": 17.62360388013012,
+"1883": 25.63340907754408,
+"1884": 1.486595369552743
+},
+"sums": {
+"absolute": 53,
+"relative": 78.11253064060362
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1880": 0,
+"1885": null
+},
+"relative": {
+"1880": 0,
+"1885": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1880": 11,
+"1885": null,
+"1881": 12,
+"1882": 12,
+"1883": 17,
+"1884": 1
+},
+"relative": {
+"1880": 16.064890473958084,
+"1885": null,
+"1881": 17.304031839418585,
+"1882": 17.62360388013012,
+"1883": 25.63340907754408,
+"1884": 1.486595369552743
+},
+"sums": {
+"absolute": 53,
+"relative": 15.611271102093886
+}
+},
+{
+"absolute": {
+"1880": 11,
+"1885": null,
+"1881": 12,
+"1882": 12,
+"1883": 17,
+"1884": 1
+},
+"relative": {
+"1880": 16.064890473958084,
+"1885": null,
+"1881": 17.304031839418585,
+"1882": 17.62360388013012,
+"1883": 25.63340907754408,
+"1884": 1.486595369552743
+},
+"sums": {
+"absolute": 53,
+"relative": 15.611271102093886
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1880": 0,
+"1885": null
+},
+"relative": {
+"1880": 0,
+"1885": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+],
+"time": 1.308666467666626
+}

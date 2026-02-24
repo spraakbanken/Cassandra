@@ -1,0 +1,185 @@
+{
+"corpora": {
+"KUBHIST2-BORASTIDNING-1860": [
+{
+"absolute": {
+"1860": 11,
+"1870": null,
+"1861": 8,
+"1862": 10,
+"1863": 5,
+"1864": 17,
+"1865": 5,
+"1866": 11,
+"1867": 12,
+"1868": 4,
+"1869": 6
+},
+"relative": {
+"1860": 13.09039153361077,
+"1870": null,
+"1861": 9.806974229723469,
+"1862": 12.516333815629396,
+"1863": 5.840432378889874,
+"1864": 19.024342205391275,
+"1865": 5.733221726617055,
+"1866": 13.252996080727614,
+"1867": 11.729448539976893,
+"1868": 3.8448155545858076,
+"1869": 5.550400877703392
+},
+"sums": {
+"absolute": 89,
+"relative": 100.38935694285556
+}
+},
+{
+"absolute": {
+"1860": 11,
+"1870": null,
+"1861": 8,
+"1862": 10,
+"1863": 4,
+"1864": 17,
+"1865": 5,
+"1866": 11,
+"1867": 11,
+"1868": 4,
+"1869": 6
+},
+"relative": {
+"1860": 13.09039153361077,
+"1870": null,
+"1861": 9.806974229723469,
+"1862": 12.516333815629396,
+"1863": 4.672345903111899,
+"1864": 19.024342205391275,
+"1865": 5.733221726617055,
+"1866": 13.252996080727614,
+"1867": 10.751994494978819,
+"1868": 3.8448155545858076,
+"1869": 5.550400877703392
+},
+"sums": {
+"absolute": 87,
+"relative": 98.2438164220795
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1860": 0,
+"1870": null,
+"1863": 1,
+"1864": 0,
+"1867": 1,
+"1868": 0
+},
+"relative": {
+"1860": 0,
+"1870": null,
+"1863": 1.1680864757779748,
+"1864": 0.0,
+"1867": 0.9774540449980745,
+"1868": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 2.1455405207760494
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1860": 11,
+"1870": null,
+"1861": 8,
+"1862": 10,
+"1863": 5,
+"1864": 17,
+"1865": 5,
+"1866": 11,
+"1867": 12,
+"1868": 4,
+"1869": 6
+},
+"relative": {
+"1860": 13.09039153361077,
+"1870": null,
+"1861": 9.806974229723469,
+"1862": 12.516333815629396,
+"1863": 5.840432378889874,
+"1864": 19.024342205391275,
+"1865": 5.733221726617055,
+"1866": 13.252996080727614,
+"1867": 11.729448539976893,
+"1868": 3.8448155545858076,
+"1869": 5.550400877703392
+},
+"sums": {
+"absolute": 89,
+"relative": 9.832898181554633
+}
+},
+{
+"absolute": {
+"1860": 11,
+"1870": null,
+"1861": 8,
+"1862": 10,
+"1863": 4,
+"1864": 17,
+"1865": 5,
+"1866": 11,
+"1867": 11,
+"1868": 4,
+"1869": 6
+},
+"relative": {
+"1860": 13.09039153361077,
+"1870": null,
+"1861": 9.806974229723469,
+"1862": 12.516333815629396,
+"1863": 4.672345903111899,
+"1864": 19.024342205391275,
+"1865": 5.733221726617055,
+"1866": 13.252996080727614,
+"1867": 10.751994494978819,
+"1868": 3.8448155545858076,
+"1869": 5.550400877703392
+},
+"sums": {
+"absolute": 87,
+"relative": 9.611934177474753
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1860": 0,
+"1870": null,
+"1863": 1,
+"1864": 0,
+"1867": 1,
+"1868": 0
+},
+"relative": {
+"1860": 0,
+"1870": null,
+"1863": 1.1680864757779748,
+"1864": 0.0,
+"1867": 0.9774540449980745,
+"1868": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 0.22096400407987937
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+],
+"time": 2.3348746299743652
+}

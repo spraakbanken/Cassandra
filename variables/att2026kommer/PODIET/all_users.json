@@ -1,0 +1,173 @@
+{
+"corpora": {
+"PODIET": [
+{
+"absolute": {
+"2018": 11,
+"2026": null,
+"2019": 10,
+"2020": 10,
+"2021": 27,
+"2022": 17,
+"2023": 10,
+"2024": 9,
+"2025": 7
+},
+"relative": {
+"2018": 120.8074329518747,
+"2026": null,
+"2019": 75.36760549580579,
+"2020": 116.39411045801081,
+"2021": 253.98617186397627,
+"2022": 105.758224257204,
+"2023": 140.3016485443704,
+"2024": 84.65648280532771,
+"2025": 53.03391897932435
+},
+"sums": {
+"absolute": 101,
+"relative": 950.3055953558941
+}
+},
+{
+"absolute": {
+"2018": 11,
+"2026": null,
+"2019": 10,
+"2020": 10,
+"2021": 24,
+"2022": 16,
+"2023": 6,
+"2024": 8,
+"2025": 3
+},
+"relative": {
+"2018": 120.8074329518747,
+"2026": null,
+"2019": 75.36760549580579,
+"2020": 116.39411045801081,
+"2021": 225.76548610131226,
+"2022": 99.53715224207436,
+"2023": 84.18098912662224,
+"2024": 75.25020693806908,
+"2025": 22.728822419710436
+},
+"sums": {
+"absolute": 88,
+"relative": 820.0318057334796
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"2018": 0,
+"2026": null,
+"2021": 3,
+"2022": 1,
+"2023": 4,
+"2024": 1,
+"2025": 4
+},
+"relative": {
+"2018": 0,
+"2026": null,
+"2021": 28.220685762664033,
+"2022": 6.221072015129647,
+"2023": 56.12065941774816,
+"2024": 9.406275867258636,
+"2025": 30.305096559613915
+},
+"sums": {
+"absolute": 13,
+"relative": 130.27378962241437
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2018": 11,
+"2026": null,
+"2019": 10,
+"2020": 10,
+"2021": 27,
+"2022": 17,
+"2023": 10,
+"2024": 9,
+"2025": 7
+},
+"relative": {
+"2018": 120.8074329518747,
+"2026": null,
+"2019": 75.36760549580579,
+"2020": 116.39411045801081,
+"2021": 253.98617186397627,
+"2022": 105.758224257204,
+"2023": 140.3016485443704,
+"2024": 84.65648280532771,
+"2025": 53.03391897932435
+},
+"sums": {
+"absolute": 101,
+"relative": 113.95959962946205
+}
+},
+{
+"absolute": {
+"2018": 11,
+"2026": null,
+"2019": 10,
+"2020": 10,
+"2021": 24,
+"2022": 16,
+"2023": 6,
+"2024": 8,
+"2025": 3
+},
+"relative": {
+"2018": 120.8074329518747,
+"2026": null,
+"2019": 75.36760549580579,
+"2020": 116.39411045801081,
+"2021": 225.76548610131226,
+"2022": 99.53715224207436,
+"2023": 84.18098912662224,
+"2024": 75.25020693806908,
+"2025": 22.728822419710436
+},
+"sums": {
+"absolute": 88,
+"relative": 99.29153235042237
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"2018": 0,
+"2026": null,
+"2021": 3,
+"2022": 1,
+"2023": 4,
+"2024": 1,
+"2025": 4
+},
+"relative": {
+"2018": 0,
+"2026": null,
+"2021": 28.220685762664033,
+"2022": 6.221072015129647,
+"2023": 56.12065941774816,
+"2024": 9.406275867258636,
+"2025": 30.305096559613915
+},
+"sums": {
+"absolute": 13,
+"relative": 14.66806727903967
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+],
+"time": 0.8788137435913086
+}

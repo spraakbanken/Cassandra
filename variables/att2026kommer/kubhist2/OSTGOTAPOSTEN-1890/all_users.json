@@ -1,0 +1,129 @@
+{
+"corpora": {
+"KUBHIST2-OSTGOTAPOSTEN-1890": [
+{
+"absolute": {
+"1895": 11,
+"1900": null,
+"1896": 36,
+"1897": 37,
+"1898": 28,
+"1899": 30
+},
+"relative": {
+"1895": 54.36125525080306,
+"1900": null,
+"1896": 25.28066808378856,
+"1897": 25.816463088737464,
+"1898": 18.247449755972944,
+"1899": 20.877901854375242
+},
+"sums": {
+"absolute": 142,
+"relative": 144.58373803367726
+}
+},
+{
+"absolute": {
+"1895": 11,
+"1900": null,
+"1896": 36,
+"1897": 37,
+"1898": 28,
+"1899": 30
+},
+"relative": {
+"1895": 54.36125525080306,
+"1900": null,
+"1896": 25.28066808378856,
+"1897": 25.816463088737464,
+"1898": 18.247449755972944,
+"1899": 20.877901854375242
+},
+"sums": {
+"absolute": 142,
+"relative": 144.58373803367726
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1895": 0,
+"1900": null
+},
+"relative": {
+"1895": 0,
+"1900": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"1895": 11,
+"1900": null,
+"1896": 36,
+"1897": 37,
+"1898": 28,
+"1899": 30
+},
+"relative": {
+"1895": 54.36125525080306,
+"1900": null,
+"1896": 25.28066808378856,
+"1897": 25.816463088737464,
+"1898": 18.247449755972944,
+"1899": 20.877901854375242
+},
+"sums": {
+"absolute": 142,
+"relative": 23.545236036016917
+}
+},
+{
+"absolute": {
+"1895": 11,
+"1900": null,
+"1896": 36,
+"1897": 37,
+"1898": 28,
+"1899": 30
+},
+"relative": {
+"1895": 54.36125525080306,
+"1900": null,
+"1896": 25.28066808378856,
+"1897": 25.816463088737464,
+"1898": 18.247449755972944,
+"1899": 20.877901854375242
+},
+"sums": {
+"absolute": 142,
+"relative": 23.545236036016917
+},
+"cqp": "[word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+},
+{
+"absolute": {
+"1895": 0,
+"1900": null
+},
+"relative": {
+"1895": 0,
+"1900": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'taga' %c | word = 'forts\u00e4tta' %c | word = 'ha' %c | word = 'hava' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'kunna' %c | word = 'h\u00e5lla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'p\u00e5verka' %c | word = 'ske' %c | word = 'se' %c | word = 'beh\u00f6va' %c | word = '\u00f6ka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'h\u00e4nda' %c]"
+}
+],
+"time": 1.519453525543213
+}
