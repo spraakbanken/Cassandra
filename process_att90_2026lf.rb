@@ -120,19 +120,47 @@ def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     R.eval "dev.off()"
     
     #r2 = R.pull "r2"
-    r2 = R.pull "summary(log.ss)$sigma"
+    res = R.pull "summary(log.ss)$sigma"
+    if !res.nil?
+        counter = 0
+        counternil = 0
+        for i in 1..1000 do
+            #res2 = nil
+            #if i % 100 == 0 
+                #STDERR.puts i
+            #end
+            values2 = values.shuffle
+            R.assign "y2",values2
+            R.eval "log.ss2 <- nls(y2 ~ SSlogis(x, phi1, phi2, phi3))"
+            res2 = R.pull "summary(log.ss2)$sigma"
+            R.eval "rm(log.ss2)"
+            #STDERR.puts "res2: #{res2}"
+            if !res2.nil? 
+                if res2 <= res
+                    counter += 1
+                end
+            elsif
+                counternil += 1
+            end
+        end
+        rp = counter.to_f/10000
+        #STDERR.puts "Failed: #{counternil}"
+    else
+        rp = "NA"
+    end
+    
     asym = R.pull "asym"
     mid = R.pull "mid"
     growth = R.pull "growth"
     
     
-    return asym,mid,growth,r2,values
+    return asym,mid,growth,rp,values
 end
 
 
 o = File.open("summary_lf_#{corpus}_s#{smoothing}_t#{threshold}.tsv","w:utf-8")
 #o.puts "verb\tfreq\tslope\tunpredictability\tr2\tp\tmax"
-o.puts "verb\tfreq\tasym\tmid\tgrowth\tr2\tmax-min\tmax"
+o.puts "verb\tfreq\tasym\tmid\tgrowth\trp\tmax-min\tmax"
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
 #verbs.each_pair do |verb,yearhash|
@@ -150,11 +178,11 @@ verblist.each do |verb|
     end
     
     
-    asym,mid,growth,r2,values = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
+    asym,mid,growth,rp,values = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
     
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     
-    o.puts "#{verb}\t#{verbs_total[verb]}\t#{asym.to_f.round(5)}\t#{mid.to_f.round(5).abs}\t#{growth.to_f.round(5)}\t#{(r2.to_f/(values.max-values.min)).round(5)}\t#{(values.max-values.min).round(5)}\t#{values.max.round(5)}"
+    o.puts "#{verb}\t#{verbs_total[verb]}\t#{asym.to_f.round(5)}\t#{mid.to_f.round(5).abs}\t#{growth.to_f.round(5)}\t#{(rp)}\t#{(values.max-values.min).round(5)}\t#{values.max.round(5)}"
 end
 ###R.eval "dev.off()"
