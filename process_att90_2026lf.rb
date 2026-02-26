@@ -8,12 +8,12 @@ threshold = 100
 smoothing = ARGV[0].to_i
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
 files = Dir.children(path)
-@perms = 10000
+@perms = 10
 
 
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
 verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
-#verblist = ["komma"]
+#verblist = ["komma","våga"]
 verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 verbs_total = Hash.new(0)
 @reversed = ["planera","riskera","lova","tendera","låtsas","anse"]
@@ -148,22 +148,21 @@ def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     #@perms = 1000#10000
     #res2pre = -1
     if !res.nil?
+        R.eval "try(rm(log.ss),silent=TRUE)"
         counter = 0
         counternil = 0
         for i in 1..@perms do
             #res2 = nil
-            if i % 100 == 0 
+            if i % 1000 == 0 
                 STDERR.puts i
             end
             values2 = smooth(yearhash.values.shuffle,smoothing)
             R.assign "y2",values2
             R.eval "try(log.ss2 <- nls(y2 ~ SSlogis(x, phi1, phi2, phi3)),silent=TRUE)"
             res2 = R.pull "try(sum(abs(summary(log.ss2)$residuals^2)),silent=TRUE)"
-            if !res2.nil?
-                R.eval "try(rm(log.ss2),silent=TRUE)"
-            end
             #STDERR.puts "res2: #{res2}"
             if !res2.nil? 
+                R.eval "try(rm(log.ss2),silent=TRUE)"
                 if res2 <= res
                     counter += 1
                 end
