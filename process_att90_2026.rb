@@ -92,7 +92,7 @@ end
 
 
 def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
-    link = ""
+    #link = ""
     R.assign "years",yearhash.keys      
     values = smooth(yearhash.values,smoothing)
     R.assign "values",values
@@ -136,14 +136,43 @@ def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     unpredictability = unpredictability(values,slope)     
     #jagged = jaggedness(verb,centeredyears,centeredvalues)
     #R.eval "rm(list = ls())"
-    return slope,unpredictability,r2,p,values,link
+    
+    perms = 1000#10000
+    #res2pre = -1
+    counterr2 = 0
+    counterslope = 0
+    
+    for i in 1..perms do
+        #res2 = nil
+        if i % 100 == 0 
+            STDERR.puts i
+        end
+        values2 = values.shuffle
+        R.assign "values2",values2
+        R.eval "m2<-lm(values2~years)"
+        r22 = R.pull "summary(m2)$r.squared"
+        slope2 = R.pull "m2$coefficients[2]"
+        
+        if r22 >= r2
+            counterr2 += 1
+        end
+        if slope2 >= slope
+            counterslope += 1
+        end
+        
+    end
+    rp = counterr2.to_f/perms
+    rs = counterslope/perms
+    
+    
+    return slope,unpredictability,r2,p,values,rp,rs
 end
 
 
 o = File.open("summary_#{corpus}_s#{smoothing}_t#{threshold}.tsv","w:utf-8")
 
 #o.puts "verb\tfreq,\tslope\tunpredictability\tr2\tp\tmax"
-o.puts "construction\tfreq, K\tslope\tr2\tmax-min\tmax"
+o.puts "construction\tfreq, K\tslope\tr2\tmax-min\tmax\tr2_p\tslope_p"
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
 #verbs.each_pair do |verb,yearhash|
@@ -160,11 +189,11 @@ verblist.each do |verb|
     end
     
     
-    slope,unpredictability,r2,p,values,link = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
+    slope,unpredictability,r2,p,values,rp,rs = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
     
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     
-    o.puts "#{verb}\t#{(verbs_total[verb]/1000).round(0)}\t#{slope.round(5)}\t#{r2.round(2)}\t#{(values.max-values.min).round(2)}\t#{values.max.round(2)}"
+    o.puts "#{verb}\t#{(verbs_total[verb]/1000).round(0)}\t#{slope.round(5)}\t#{r2.round(2)}\t#{(values.max-values.min).round(2)}\t#{values.max.round(2)}\t#{rp}\t#{rs}"
 end
 ###R.eval "dev.off()"
