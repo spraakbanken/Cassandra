@@ -8,7 +8,7 @@ threshold = 100
 smoothing = ARGV[0].to_i
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
 files = Dir.children(path)
-@perms = 10
+@perms = 0
 
 
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
@@ -16,7 +16,7 @@ verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
 #verblist = ["komma","våga"]
 verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 verbs_total = Hash.new(0)
-@reversed = ["planera","riskera","lova","tendera","låtsas","anse"]
+#@reversed = ["planera","riskera","lova","tendera","låtsas","anse"]
 
 #,
 @startyear = 2004
@@ -83,11 +83,11 @@ files.each do |file|
                     end
                     verbs_total[verb] += total
                     v2rel = line2[5].to_f
-                    if !@reversed.include?(verb)
-                        verbs[verb][year] = v2rel
-                    else
-                        verbs[verb][year] = 1-v2rel
-                    end
+                    #if !@reversed.include?(verb)
+                    verbs[verb][year] = v2rel
+                    #else
+                    #    verbs[verb][year] = 1-v2rel
+                    #end
                 end
             end
         end
@@ -98,52 +98,88 @@ end
 #__END__
 
 
-def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
+def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
+    reversed = nil
+    #res = nil
+    R.assign "x",directyearhash.keys      
+    directvalues = smooth(directyearhash.values,smoothing)
+    R.assign "directy",directvalues
     
-    R.assign "x",yearhash.keys      
-    values = smooth(yearhash.values,smoothing)
-    R.assign "y",values
+    reversedyearhash = {}
+    
+    directyearhash.each_pair do |year,value|
+        reversedyearhash[year] = 1 - value
+    end
+    reversedvalues = smooth(reversedyearhash.values,smoothing)
+    R.assign "reversedy",reversedvalues
     
     #R.eval "df <- cbind(years1,values1)"
     
     #R.eval "y <- df[, 2]"
     #R.eval "x <- df[, 1]"
-    R.eval "log.ss <- nls(y ~ SSlogis(x, phi1, phi2, phi3))"
+    R.eval "direct.log.ss <- nls(directy ~ SSlogis(x, phi1, phi2, phi3))"
+    R.eval "reversed.log.ss <- nls(reversedy ~ SSlogis(x, phi1, phi2, phi3))"
+    directres = R.pull "sum(abs(summary(direct.log.ss)$residuals^2))"
+    reversedres = R.pull "sum(abs(summary(reversed.log.ss)$residuals^2))"
+    R.eval "try(rm(direct.log.ss2),silent=TRUE)"
+    R.eval "try(rm(reversed.log.ss2),silent=TRUE)"
     
-    #R.eval "prior <- lm(logit(y) ~ x)"
-    #R.eval "intercept <- prior$coef[1]"
-    #intercept = R.pull "intercept"
-    #R.eval "slope <- prior$coef[2]"
-    #slope = R.pull "slope"
-    #STDERR.puts intercept,slope
-    #R.eval "log.ss <- nls(y ~ theta1/(1+exp(-theta2 + theta3*x)), start=list(theta1=0.70,theta2=intercept,theta3=slope))"
+    STDERR.puts directres
+    STDERR.puts reversedres
+    
+    if directres.nil? and reversedres.nil?
+        res = nil
+    elsif directres.nil?
+        res = reversedres
+        values = reversedvalues
+        yearhash = reversedyearhash
+        R.eval "y <- reversedy"
+        R.eval "log.ss <- reversed.log.ss"
+        reversed = true
+    elsif reversedres.nil?    
+        res = directres
+        values = directvalues
+        yearhash = directyearhash
+        R.eval "y <- directy"
+        R.eval "log.ss <- direct.log.ss"
+        reversed = false
+    elsif directres <= reversedres
+        res = directres
+        values = directvalues
+        yearhash = directyearhash
+        R.eval "y <- directy"
+        R.eval "log.ss <- direct.log.ss"
+        reversed = false
+    else
+        res = reversedres
+        values = reversedvalues
+        yearhash = reversedyearhash
+        R.eval "y <- reversedy"
+        R.eval "log.ss <- reversed.log.ss"
+        reversed = true
+    end
+        
     
     R.eval "asym <- summary(log.ss)$coef[1]"
     R.eval "mid <- summary(log.ss)$coef[2]"
     R.eval "growth <- summary(log.ss)$coef[3]"
     
-    
-    
-    #R.eval "stot <- sum((y - mean(y))^2)"
-    #R.eval "sres <- sum(residuals(log.ss)^2)"
-    #R.eval "r2 <- 1 - (sres/stot)"
-    
-
+   
     
     R.eval "png(file='#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}.png')"
     #R.eval "/(y ~ x, ylim = c(#{values.min},#{values.max}), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
-    if !@reversed.include?(verb)
-        R.eval "plot(y ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
-        R.eval "lines(0:2050, predict(log.ss, data.frame(x=0:2050)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
-    else
-        R.eval "plot((1-y) ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
-        R.eval "lines(0:2050, (1-predict(log.ss, data.frame(x=0:2050))), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
-    end    
+    #if !reversed
+    R.eval "plot(y ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    R.eval "lines(0:2050, predict(log.ss, data.frame(x=0:2050)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
+    #else
+    #    R.eval "plot((1-y) ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    #    R.eval "lines(0:2050, (1-predict(log.ss, data.frame(x=0:2050))), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
+    #end    
         
     R.eval "dev.off()"
     
     #r2 = R.pull "r2"
-    res = R.pull "sum(abs(summary(log.ss)$residuals^2))"
+    
     #STDERR.puts "res: #{res}"
     #@perms = 1000#10000
     #res2pre = -1
@@ -181,13 +217,13 @@ def fitlm(yearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     growth = R.pull "growth"
     
     
-    return asym,mid,growth,rp,values,counternil,res
+    return asym,mid,growth,rp,values,counternil,res,reversed
 end
 
 
 o = File.open("summary_lf_#{corpus}_s#{smoothing}_t#{threshold}.tsv","w:utf-8")
 #o.puts "verb\tfreq\tslope\tunpredictability\tr2\tp\tmax"
-o.puts "verb\tfreq\tasym\tmid\tgrowth\trp\tmax-min\tmax\tfailed\tresiduals"
+o.puts "verb\tfreq\tasym\tmid\tgrowth\trp\tmax-min\tmax\tfailed\tresiduals\treversed"
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
 #verbs.each_pair do |verb,yearhash|
@@ -205,11 +241,11 @@ verblist.each do |verb|
     end
     
     
-    asym,mid,growth,rp,values,counternil,res = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
+    asym,mid,growth,rp,values,counternil,res,reversed = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
     
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{jagged.round(9)}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     #o.puts "#{verb}\t#{verbs_total[verb]}\t#{slope}\t#{unpredictability}\t#{r2}\t#{p}\t#{values.max}"
     
-    o.puts "#{verb}\t#{verbs_total[verb]}\t#{asym.to_f.round(5)}\t#{mid.to_f.round(5).abs}\t#{growth.to_f.round(5)}\t#{(rp)}\t#{(values.max-values.min).round(5)}\t#{values.max.round(5)}\t#{counternil}\t#{res}"
+    o.puts "#{verb}\t#{verbs_total[verb]}\t#{asym.to_f.round(5)}\t#{mid.to_f.round(5).abs}\t#{growth.to_f.round(5)}\t#{(rp)}\t#{(values.max-values.min).round(5)}\t#{values.max.round(5)}\t#{counternil}\t#{res}\t#{reversed}"
 end
 ###R.eval "dev.off()"
