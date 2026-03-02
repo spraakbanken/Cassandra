@@ -8,12 +8,12 @@ threshold = 100
 smoothing = ARGV[0].to_i
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
 files = Dir.children(path)
-@perms = 0
+@perms = 100
 
 
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
 verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
-#verblist = ["komma","våga"]
+#verblist = ["komma","våga","lova"]
 verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 verbs_total = Hash.new(0)
 #@reversed = ["planera","riskera","lova","tendera","låtsas","anse"]
@@ -117,64 +117,74 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     
     #R.eval "y <- df[, 2]"
     #R.eval "x <- df[, 1]"
-    R.eval "direct.log.ss <- nls(directy ~ SSlogis(x, phi1, phi2, phi3))"
-    R.eval "reversed.log.ss <- nls(reversedy ~ SSlogis(x, phi1, phi2, phi3))"
-    directres = R.pull "sum(abs(summary(direct.log.ss)$residuals^2))"
-    reversedres = R.pull "sum(abs(summary(reversed.log.ss)$residuals^2))"
-    R.eval "try(rm(direct.log.ss2),silent=TRUE)"
-    R.eval "try(rm(reversed.log.ss2),silent=TRUE)"
+    R.eval "try(direct.log.ss <- nls(directy ~ SSlogis(x, phi1, phi2, phi3)),silent=TRUE)"
+    R.eval "try(reversed.log.ss <- nls(reversedy ~ SSlogis(x, phi1, phi2, phi3)),silent=TRUE)"
+    directres = R.pull "try(sum(abs(summary(direct.log.ss)$residuals^2)),silent=TRUE)"
+    reversedres = R.pull "try(sum(abs(summary(reversed.log.ss)$residuals^2)),silent=TRUE)"
     
-    STDERR.puts directres
-    STDERR.puts reversedres
-    
+    #STDERR.puts directres.nil?
+    #STDERR.puts reversedres.nil?
+    values = directvalues
     if directres.nil? and reversedres.nil?
         res = nil
+        R.eval "y <- directy"
     elsif directres.nil?
         res = reversedres
-        values = reversedvalues
+        #values = reversedvalues
         yearhash = reversedyearhash
         R.eval "y <- reversedy"
         R.eval "log.ss <- reversed.log.ss"
         reversed = true
     elsif reversedres.nil?    
         res = directres
-        values = directvalues
+        #values = directvalues
         yearhash = directyearhash
         R.eval "y <- directy"
         R.eval "log.ss <- direct.log.ss"
         reversed = false
     elsif directres <= reversedres
         res = directres
-        values = directvalues
+        #values = directvalues
         yearhash = directyearhash
         R.eval "y <- directy"
         R.eval "log.ss <- direct.log.ss"
         reversed = false
     else
         res = reversedres
-        values = reversedvalues
+        #values = reversedvalues
         yearhash = reversedyearhash
         R.eval "y <- reversedy"
         R.eval "log.ss <- reversed.log.ss"
         reversed = true
     end
+    
+    if !directres.nil?
+        R.eval "try(rm(direct.log.ss),silent=TRUE)"
+    end
+    if !reversedres.nil?
+        R.eval "try(rm(reversed.log.ss),silent=TRUE)"
+    end
         
     
-    R.eval "asym <- summary(log.ss)$coef[1]"
-    R.eval "mid <- summary(log.ss)$coef[2]"
-    R.eval "growth <- summary(log.ss)$coef[3]"
-    
+   
    
     
     R.eval "png(file='#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}.png')"
     #R.eval "/(y ~ x, ylim = c(#{values.min},#{values.max}), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
-    #if !reversed
-    R.eval "plot(y ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
-    R.eval "lines(0:2050, predict(log.ss, data.frame(x=0:2050)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
-    #else
-    #    R.eval "plot((1-y) ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
-    #    R.eval "lines(0:2050, (1-predict(log.ss, data.frame(x=0:2050))), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
-    #end    
+    if reversed == false
+        R.eval "plot(y ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+        #if !res.nil?
+        R.eval "lines(0:2050, predict(log.ss, data.frame(x=0:2050)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
+        #end
+    elsif reversed == true
+        R.eval "plot((1-y) ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+        #if !res.nil?
+        R.eval "lines(0:2050, (1-predict(log.ss, data.frame(x=0:2050))), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
+        #end
+    else
+        R.eval "plot(y ~ x, xlim = c(1950,2050), ylim = c(0,1), pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+        
+    end    
         
     R.eval "dev.off()"
     
@@ -184,6 +194,12 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     #@perms = 1000#10000
     #res2pre = -1
     if !res.nil?
+        R.eval "asym <- summary(log.ss)$coef[1]"
+        R.eval "mid <- summary(log.ss)$coef[2]"
+        R.eval "growth <- summary(log.ss)$coef[3]"
+        asym = R.pull "asym"
+        mid = R.pull "mid"
+        growth =  R.pull "growth"
         R.eval "try(rm(log.ss),silent=TRUE)"
         counter = 0
         counternil = 0
@@ -208,13 +224,12 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
         end
         rp = counter.to_f/@perms
         #STDERR.puts "Failed: #{counternil}"
+ 
+    
     else
         rp = "NA"
     end
     
-    asym = R.pull "asym"
-    mid = R.pull "mid"
-    growth = R.pull "growth"
     
     
     return asym,mid,growth,rp,values,counternil,res,reversed
