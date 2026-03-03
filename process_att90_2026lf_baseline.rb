@@ -3,11 +3,11 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "flashback"
+corpus = "familjeliv"
 threshold = 100
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 10000
+@perms = 100
 smoothings = [1,3,5]
 
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
@@ -16,9 +16,11 @@ files = Dir.children(path)
 output = {}
 
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
-verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
-#verblist = ["komma","våga","lova"]
-verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
+verbs_randomized = Hash.new{|hash,key| hash[key]=Hash.new}
+
+verblist = ["komma","våga","lova"]
+#verblist = 
+["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 verbs_total = Hash.new(0)
 
 @startyear = 2004
@@ -49,6 +51,33 @@ files.each do |file|
     end
 end
 
+
+verblist.each do |verb|
+    span = verbs[verb].values.max - verbs[verb].values.min
+    #span = 1
+
+    verbs[verb].keys.sort.each.with_index do |year,index|
+        if index == 0
+            verbs_randomized[verb][year] = verbs[verb][year].clone
+        else
+            if rand(2)==0
+                verbs_randomized[verb][year] = verbs_randomized[verb][year-1] + rand*span
+            else
+                verbs_randomized[verb][year] = verbs_randomized[verb][year-1] - rand*span
+            end
+            if verbs_randomized[verb][year] > 1
+                verbs_randomized[verb][year] = 1
+            elsif verbs_randomized[verb][year] < 0
+                verbs_randomized[verb][year] = 0
+            end
+        end
+    end
+end
+
+#verbs = verbs_randomized.clone
+
+#STDERR.puts "#{verbs_randomized}"
+#__END__
 
 def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     reversed = nil
@@ -107,7 +136,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
         R.eval "try(rm(reversed.log.ss),silent=TRUE)"
     end
     
-    R.eval "png(file='att2026results/#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
+    R.eval "png(file='att2026baseline/#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
 
     if @xaxis == "zoom"
         R.assign "start",@startyear
@@ -171,7 +200,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
 end
 
 
-o = File.open("summary_lf_#{corpus}_t#{threshold}.tsv","w:utf-8")
+o = File.open("att2026baseline\\summary_lf_#{corpus}_t#{threshold}.tsv","w:utf-8")
 
 o.puts "verb\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
 
@@ -180,8 +209,9 @@ o.puts "verb\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym
 
 verblist.each do |verb|
     STDERR.puts verb
-    yearhash = verbs[verb]
+    yearhash = verbs_randomized[verb]
     output = "#{verb}\t#{verbs_total[verb].round(0)}\t#{yearhash.values.max.round(3)}\t#{yearhash.values.min.round(3)}\t#{(yearhash.values.max-yearhash.values.min).round(3)}"
+
     
     smoothings.each do |smoothing|    
         STDERR.puts "smoothing #{smoothing}"
