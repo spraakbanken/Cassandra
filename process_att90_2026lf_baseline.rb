@@ -7,7 +7,7 @@ corpus = "familjeliv"
 threshold = 100
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 100
+@perms = 1000
 smoothings = [1,3,5]
 
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
@@ -18,8 +18,8 @@ output = {}
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
 verbs_randomized = Hash.new{|hash,key| hash[key]=Hash.new}
 
-verblist = ["komma","våga","lova"]
-#verblist = 
+#verblist = ["komma"]
+verblist = 
 ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 verbs_total = Hash.new(0)
 
@@ -51,27 +51,66 @@ files.each do |file|
     end
 end
 
-
+=begin
 verblist.each do |verb|
     span = verbs[verb].values.max - verbs[verb].values.min
     #span = 1
 
     verbs[verb].keys.sort.each.with_index do |year,index|
+        STDERR.puts year
         if index == 0
-            verbs_randomized[verb][year] = verbs[verb][year].clone
+            verbs_randomized[verb][year] = verbs[verb][year].round(3)
+            
         else
-            if rand(2)==0
-                verbs_randomized[verb][year] = verbs_randomized[verb][year-1] + rand*span
+            if rand(2)==0                
+                STDERR.puts "+"
+                verbs_randomized[verb][year] = (verbs_randomized[verb][year-1] + rand*span).round(3)
             else
-                verbs_randomized[verb][year] = verbs_randomized[verb][year-1] - rand*span
+                STDERR.puts "-"
+                verbs_randomized[verb][year] = (verbs_randomized[verb][year-1] - rand*span).round(3)                
             end
             if verbs_randomized[verb][year] > 1
                 verbs_randomized[verb][year] = 1
             elsif verbs_randomized[verb][year] < 0
                 verbs_randomized[verb][year] = 0
             end
+            
         end
+        STDERR.puts verbs_randomized[verb][year]
     end
+end
+=end
+
+def randomwalk(yearhash)
+    yearhash_randomized = {}
+    span = yearhash.values.max - yearhash.values.min
+    #span = 1
+
+    yearhash.keys.sort.each.with_index do |year,index|
+        #STDERR.puts year
+        if index == 0
+            yearhash_randomized[year] = yearhash[year]
+            
+        else
+            if rand(2)==0                
+                #STDERR.puts "+"
+                yearhash_randomized[year] = (yearhash_randomized[year-1] + rand*span)
+            else
+                #STDERR.puts "-"
+                yearhash_randomized[year] = (yearhash_randomized[year-1] - rand*span)
+            end
+            if yearhash_randomized[year] > 1
+                yearhash_randomized[year] = 1
+            elsif yearhash_randomized[year] < 0
+                yearhash_randomized[year] = 0
+            end
+            
+        end
+        #STDERR.puts verbs_randomized[verb][year]
+    end
+
+    #STDERR.puts yearhash_randomized
+    return yearhash_randomized
 end
 
 #verbs = verbs_randomized.clone
@@ -202,23 +241,33 @@ end
 
 o = File.open("att2026baseline\\summary_lf_#{corpus}_t#{threshold}.tsv","w:utf-8")
 
-o.puts "verb\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
+o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\tsignif\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
 
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
+threshold = 0.01
+
 
 verblist.each do |verb|
+    signif = 0
     STDERR.puts verb
-    yearhash = verbs_randomized[verb]
+    yearhash = randomwalk(verbs[verb])
     output = "#{verb}\t#{verbs_total[verb].round(0)}\t#{yearhash.values.max.round(3)}\t#{yearhash.values.min.round(3)}\t#{(yearhash.values.max-yearhash.values.min).round(3)}"
 
     
     smoothings.each do |smoothing|    
         STDERR.puts "smoothing #{smoothing}"
         asym,mid,growth,rp,counternil,res,reversed = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
+        if rp != "NA"
+            if rp < threshold
+                signif += 1
+            end
+        end
         
         output << "\t#{(rp)}\t#{reversed}\t#{counternil}\t#{asym.to_f.round(3)}\t#{mid.to_f.round(0).abs}\t#{growth.to_f.round(2)}"
     end
+    output = [output.split("\t")[0],signif,output.split("\t")[1..-1]].join("\t")
     o.puts output
+    
 end
 ###R.eval "dev.off()"

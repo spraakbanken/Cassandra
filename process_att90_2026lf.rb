@@ -3,11 +3,11 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "flashback"
+corpus = "familjeliv"
 threshold = 100
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 10000
+@perms = 100
 smoothings = [1,3,5]
 
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
@@ -49,6 +49,38 @@ files.each do |file|
     end
 end
 
+
+def randomwalk(yearhash)
+    yearhash_randomized = {}
+    span = yearhash.values.max - yearhash.values.min
+    #span = 1
+
+    yearhash.keys.sort.each.with_index do |year,index|
+        #STDERR.puts year
+        if index == 0
+            yearhash_randomized[year] = yearhash[year]
+            
+        else
+            if rand(2)==0                
+                #STDERR.puts "+"
+                yearhash_randomized[year] = (yearhash_randomized[year-1] + rand*span)
+            else
+                #STDERR.puts "-"
+                yearhash_randomized[year] = (yearhash_randomized[year-1] - rand*span)
+            end
+            if yearhash_randomized[year] > 1
+                yearhash_randomized[year] = 1
+            elsif yearhash_randomized[year] < 0
+                yearhash_randomized[year] = 0
+            end
+            
+        end
+        #STDERR.puts verbs_randomized[verb][year]
+    end
+
+    #STDERR.puts yearhash_randomized
+    return yearhash_randomized
+end
 
 def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     reversed = nil
@@ -149,7 +181,8 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
             if i % 1000 == 0 
                 STDERR.puts "permutation #{i}"
             end
-            values2 = smooth(yearhash.values.shuffle,smoothing)
+            #values2 = smooth(yearhash.values.shuffle,smoothing)
+            values2 = smooth(randomwalk(yearhash).values,smoothing)
             R.assign "y2",values2
             R.eval "try(log.ss2 <- nls(y2 ~ SSlogis(x, phi1, phi2, phi3)),silent=TRUE)"
             res2 = R.pull "try(sum(abs(summary(log.ss2)$residuals^2)),silent=TRUE)"
@@ -171,24 +204,33 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
 end
 
 
-o = File.open("summary_lf_#{corpus}_t#{threshold}.tsv","w:utf-8")
+o = File.open("summary_lf_rw_#{corpus}_t#{threshold}.tsv","w:utf-8")
 
 o.puts "verb\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
 
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
 
+threshold = 0.05
 verblist.each do |verb|
+    signif = 0
     STDERR.puts verb
     yearhash = verbs[verb]
     output = "#{verb}\t#{verbs_total[verb].round(0)}\t#{yearhash.values.max.round(3)}\t#{yearhash.values.min.round(3)}\t#{(yearhash.values.max-yearhash.values.min).round(3)}"
     
     smoothings.each do |smoothing|    
         STDERR.puts "smoothing #{smoothing}"
+        if rp != "NA"
+            if rp < threshold
+                signif += 1
+            end
+        end
+        
         asym,mid,growth,rp,counternil,res,reversed = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
         
         output << "\t#{(rp)}\t#{reversed}\t#{counternil}\t#{asym.to_f.round(3)}\t#{mid.to_f.round(0).abs}\t#{growth.to_f.round(2)}"
     end
+    output = [output.split("\t")[0],signif,output.split("\t")[1..-1]].join("\t")
     o.puts output
 end
 ###R.eval "dev.off()"
