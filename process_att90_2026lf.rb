@@ -3,7 +3,7 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "familjeliv"
+corpus = "flashback"
 threshold = 100
 @xaxis = "zoom"
 @yaxis = "full"
