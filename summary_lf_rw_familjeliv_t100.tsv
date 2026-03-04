@@ -1,22 +1,2 @@
-verb	freq	max	min	span	s1signif	s1reversed	s1failedmodels	s1asym	s1mid	s1growth	s3signif	s3reversed	s3failedmodels	s3asym	s3mid	s3growth	s5signif	s5reversed	s5failedmodels	s5asym	s5mid	s5growth
-planera	46827	0.124	0.058	0.066	0.0	true	48	0.923	2027	-1.55	0.0	true	58	0.924	2030	-2.27	0.0	true	53	0.924	2035	-3.56
-lova	30644	0.188	0.091	0.097	NA			0.0	0	0.0	0.0	true	49	0.884	2037	-4.26	0.0	true	54	0.886	2041	-5.64
-tendera	11187	0.133	0.047	0.086	NA			0.0	0	0.0	0.0	true	49	0.934	2035	-3.78	0.0	true	55	0.933	2037	-4.25
-riskera	32748	0.161	0.095	0.065	0.0	true	50	0.899	2040	-5.78	0.0	true	46	0.897	2039	-5.46	0.0	true	41	0.899	2042	-6.33
-fortsätta	137762	0.69	0.536	0.155	0.0	false	49	0.688	1996	6.27	0.0	false	39	0.689	1995	6.62	0.0	false	41	0.695	1994	7.63
-komma	2519646	0.704	0.409	0.295	0.0	false	38	0.679	2003	2.67	0.0	false	45	0.682	2002	3.0	0.0	false	36	0.684	2002	3.48
-glömma	113035	0.866	0.793	0.073	0.0	false	56	0.851	2031	-3.11	0.0	false	39	0.853	2033	-3.74	0.0	false	50	0.854	2036	-4.57
-vägra	213407	0.877	0.793	0.083	0.0	false	50	0.867	1996	3.45	0.0	false	43	0.868	1994	4.01	0.0	false	38	0.869	1992	4.64
-anse	17444	0.935	0.898	0.037	0.0	true	47	0.094	1994	9.02	0.0	true	40	0.095	1994	9.5	0.0	true	47	0.102	1991	14.32
-sluta	187244	0.942	0.919	0.023	0.0	false	53	0.935	1994	2.52	0.0	false	55	0.935	1994	2.58	0.0	false	52	0.935	1993	2.73
-slippa	228226	0.981	0.968	0.013	0.0	false	49	0.976	1995	1.91	0.03	false	60	0.976	1995	1.9	0.04	false	56	0.976	1995	1.96
-försöka	931759	0.97	0.921	0.049	0.0	false	37	0.968	1987	5.5	0.0	false	46	0.97	1982	6.92	0.0	false	55	0.972	1978	8.27
-låtsas	9305	0.992	0.972	0.019	NA			0.0	0	0.0	0.0	true	42	0.018	2023	-2.29	0.01	true	40	0.017	2023	-2.18
-lyckas	170580	0.994	0.979	0.015	0.0	false	51	0.989	1995	2.07	0.0	false	53	0.989	1991	2.66	0.0	false	46	0.989	1988	3.23
-hinna	231128	0.995	0.982	0.013	0.0	false	62	0.991	1992	2.61	NA			0.0	0	0.0	0.01	false	56	0.991	1988	3.34
-börja	1659893	0.994	0.977	0.017	0.0	false	48	0.992	1992	2.81	0.0	false	51	0.992	1990	3.21	0.0	false	53	0.992	1988	3.6
-orka	241951	0.992	0.982	0.01	NA			0.0	0	0.0	0.02	false	49	0.989	2049	-4.29	0.01	false	58	0.989	2050	-4.51
-våga	172470	0.997	0.992	0.005	0.02	false	68	0.995	1985	2.77	0.0	false	56	0.995	1991	1.98	NA			0.0	0	0.0
-behöva	779085	1.0	0.998	0.002	NA			0.0	0	0.0	0.0	false	57	0.999	1990	1.86	0.0	false	59	0.999	1987	2.2
-bruka	1054833	1.0	0.999	0.001	0.02	false	65	1.0	1988	2.0	0.01	false	61	1.0	1989	1.91	0.04	false	60	1.0	1989	1.86
-råka	130313	1.0	0.997	0.003	NA			0.0	0	0.0	0.01	false	61	0.999	2032	-1.19	0.04	false	67	0.999	2037	-1.93
+verb	signif	freq	max	min	span	predsignifs1	s1signif	s1reversed	s1failedmodels	s1asym	s1mid	s1growth	tpredsignifs3	s3signif	s3reversed	s3failedmodels	s3asym	s3mid	s3growth	predsignifs5	s5signif	s5reversed	s5failedmodels	s5asym	s5mid	s5growth
+komma	0	2519646	0.704	0.409	0.295	NaN	NaN	false	0	0.679	2003	2.67	NaN	NaN	false	0	0.682	2002	3.0	NaN	NaN	false	0	0.684	2002	3.48

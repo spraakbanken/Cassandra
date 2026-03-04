@@ -136,7 +136,9 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
     R.eval "try(direct.log.ss <- nls(directy ~ SSlogis(x, phi1, phi2, phi3)),silent=TRUE)"
     R.eval "try(reversed.log.ss <- nls(reversedy ~ SSlogis(x, phi1, phi2, phi3)),silent=TRUE)"
     directres = R.pull "try(sum(abs(summary(direct.log.ss)$residuals^2)),silent=TRUE)"
+    #directres = R.pull "try(sum(abs(summary(direct.log.ss)$residuals)),silent=TRUE)"
     reversedres = R.pull "try(sum(abs(summary(reversed.log.ss)$residuals^2)),silent=TRUE)"
+    #reversedres = R.pull "try(sum(abs(summary(reversed.log.ss)$residuals)),silent=TRUE)"
     
     #values = directvalues
     if directres.nil? and reversedres.nil?
@@ -221,6 +223,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
             R.assign "y2",values2
             R.eval "try(log.ss2 <- nls(y2 ~ SSlogis(x, phi1, phi2, phi3)),silent=TRUE)"
             res2 = R.pull "try(sum(abs(summary(log.ss2)$residuals^2)),silent=TRUE)"
+            #res2 = R.pull "try(sum(abs(summary(log.ss2)$residuals)),silent=TRUE)"
             if !res2.nil? 
                 R.eval "try(rm(log.ss2),silent=TRUE)"
                 if res2 <= res
@@ -241,11 +244,11 @@ end
 
 o = File.open("att2026baseline\\summary_lf_#{corpus}_t#{threshold}.tsv","w:utf-8")
 
-o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\tsignif\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
+o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
 
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
-threshold = 0.01
+threshold = 0.005
 
 
 verblist.each do |verb|

@@ -1,14 +1,16 @@
 #plot regression lines
 #check unpredictability
 
+
 require "rinruby"
 require_relative "math_tools.rb"
 corpus = "familjeliv"
 threshold = 100
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 100
+@perms = 0
 smoothings = [1,3,5]
+#@mode = "predict"
 
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
 files = Dir.children(path)
@@ -17,12 +19,60 @@ output = {}
 
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
 verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
-#verblist = ["komma","våga","lova"]
-verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
+verblist = ["komma"]#,"våga","lova"]
+#verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 verbs_total = Hash.new(0)
 
 @startyear = 2004
 @lastyear = 2023
+
+
+def predict(yearhash,trainyears_set,smoothing)
+    sumtestres = 0
+    counter = 0
+    yearhash2 = yearhash.clone
+    smoothedvalues = smooth(yearhash2.values,smoothing)
+    yearhash2.keys.each.with_index do |year,index|
+        yearhash2[year] = smoothedvalues[index]
+        STDERR.puts "#{year} #{smoothedvalues[index].round(3)}"
+    end
+
+    trainyears_set.each do |trainyears|        
+        STDERR.puts "#{trainyears}"
+        #trainyears = yearhash2.keys.sample(15)
+        train = {}
+        test = {}
+        yearhash2.each_pair do |year,value|
+            if trainyears.include?(year)
+                train[year] = value
+            else
+                test[year] = value
+            end
+        end
+        R.assign "trainx",train.keys
+        R.assign "trainy",train.values
+        R.assign "testx",test.keys
+        R.assign "testy",test.values
+        #STDERR.puts test.keys
+        R.eval "try(trainlog.ss <- nls(trainy ~ SSlogis(trainx, phi1, phi2, phi3)),silent=TRUE)"
+        trainres = R.pull "try(sum(abs(summary(trainlog.ss)$residuals^2)),silent=TRUE)"
+        if !trainres.nil?
+            R.eval "predictions <- predict(trainlog.ss, data.frame(x=testx))"
+            R.eval "testres <- sum((predictions-testy)^2)"
+            testres = R.pull "testres"
+            sumtestres += testres
+            counter += 1
+        else    
+            testres = "NA"
+            STDERR.puts "Couldn't train a model"
+        end
+    end
+    #STDERR.puts "PREDICTION: #{testres}"
+    avetestres = sumtestres/counter
+    return avetestres
+
+end
+
 
 
 files.each do |file|
@@ -82,13 +132,31 @@ def randomwalk(yearhash)
     return yearhash_randomized
 end
 
-def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
+def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,trainyears_set)
     reversed = nil
 
     R.assign "x",directyearhash.keys      
     directvalues = smooth(directyearhash.values,smoothing)
     R.assign "directy",directvalues
+    STDERR.puts "train = c(#{directvalues[0..-6].join(",")})"
+    STDERR.puts "test = c(#{directvalues[-5..-1].join(",")})"
     
+    if 2 == 3
+        directdiffs = []
+        diffx = []
+        directvalues.each.with_index do |value,index|
+            if index > 0 
+                directdiffs << value - directvalues[index-1]
+                diffx << index
+            end
+        end
+        R.assign "directdiffs",directdiffs
+        R.assign "diffx",diffx
+        R.eval "png(file='att2026results/DIFF_#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
+        R.eval "plot(directdiffs ~ diffx, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+        #ylim = c(0,1),
+        R.eval "invisible(dev.off())"
+    end
     reversedyearhash = {}
     
     directyearhash.each_pair do |year,value|
@@ -132,6 +200,13 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
         reversed = true
     end
     
+    if @mode == "predict" and !res.nil?
+        STDERR.puts "Real data"
+        testres = predict(yearhash,trainyears_set,smoothing)
+        STDERR.puts testres
+    end
+    
+    
     if !directres.nil?
         R.eval "try(rm(direct.log.ss),silent=TRUE)"
     end
@@ -167,6 +242,8 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
         
     R.eval "invisible(dev.off())"
     
+
+    
     if !res.nil?
         R.eval "asym <- summary(log.ss)$coef[1]"
         R.eval "mid <- summary(log.ss)$coef[2]"
@@ -177,15 +254,20 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
         R.eval "try(rm(log.ss),silent=TRUE)"
         counter = 0
         counternil = 0
+        predcounter = 0
+        
+        
         for i in 1..@perms do
             if i % 1000 == 0 
                 STDERR.puts "permutation #{i}"
             end
-            #values2 = smooth(yearhash.values.shuffle,smoothing)
-            values2 = smooth(randomwalk(yearhash).values,smoothing)
+            shuffled = yearhash.values.shuffle
+            values2 = smooth(shuffled,smoothing)
+            #values2 = smooth(randomwalk(yearhash).values,smoothing)
             R.assign "y2",values2
             R.eval "try(log.ss2 <- nls(y2 ~ SSlogis(x, phi1, phi2, phi3)),silent=TRUE)"
             res2 = R.pull "try(sum(abs(summary(log.ss2)$residuals^2)),silent=TRUE)"
+            #STDERR.puts "res2: #{res2}"
             if !res2.nil? 
                 R.eval "try(rm(log.ss2),silent=TRUE)"
                 if res2 <= res
@@ -194,39 +276,69 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus)
             elsif
                 counternil += 1
             end
+            if @mode == "predict"
+                if !res2.nil?
+                    yearhash_shuffled = {}
+                    yearhash.keys.each.with_index do |year,index|
+                        yearhash_shuffled[year] = shuffled[index]
+                    end                  
+                    testres2 = predict(yearhash_shuffled,trainyears_set,smoothing)
+                    STDERR.puts "Shuffled: #{i} #{testres2}"
+                    if testres2 <= testres
+                        predcounter += 1
+                    end
+                else
+                
+                end
+                
+            end
+            
         end
         rp = counter.to_f/@perms
+        predrp = predcounter.to_f/@perms
     else
         rp = "NA"
     end
    
-    return asym,mid,growth,rp,counternil,res,reversed
+    return asym,mid,growth,rp,counternil,res,reversed,testres,predrp
 end
 
 
 o = File.open("summary_lf_rw_#{corpus}_t#{threshold}.tsv","w:utf-8")
 
-o.puts "verb\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
+o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
 
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
 
 threshold = 0.05
+
+trainyears_set = []
+
+for j in 0..9 do
+    trainyears_set[j] = verbs[verbs.keys[0]].keys.sample(15).sort
+end
+
 verblist.each do |verb|
     signif = 0
     STDERR.puts verb
     yearhash = verbs[verb]
     output = "#{verb}\t#{verbs_total[verb].round(0)}\t#{yearhash.values.max.round(3)}\t#{yearhash.values.min.round(3)}\t#{(yearhash.values.max-yearhash.values.min).round(3)}"
     
+    
+    
+    
     smoothings.each do |smoothing|    
         STDERR.puts "smoothing #{smoothing}"
+        
+        asym,mid,growth,rp,counternil,res,reversed,testres,predrp = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus,trainyears_set)
+        
         if rp != "NA"
             if rp < threshold
                 signif += 1
             end
         end
         
-        asym,mid,growth,rp,counternil,res,reversed = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
         
         output << "\t#{(rp)}\t#{reversed}\t#{counternil}\t#{asym.to_f.round(3)}\t#{mid.to_f.round(0).abs}\t#{growth.to_f.round(2)}"
     end
