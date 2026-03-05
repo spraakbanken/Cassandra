@@ -4,11 +4,11 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "familjeliv-2"
+corpus = "familjeliv-1"
 threshold = 50
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 100
+@perms = 1000
 smoothings = [1,3,5]
 #@mode = "predict"
 
@@ -302,13 +302,18 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
         rp = "NA"
     end
    
+    if reversed
+        asym = 1 - asym
+        growth = -growth
+    end
+   
     return asym,mid,growth,rp,counternil,res,reversed,testres,predrp
 end
 
 
 o = File.open("summary_lf_rw_#{corpus}_t#{threshold}.tsv","w:utf-8")
 
-o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth"
+o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth\tagreement"
 
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
@@ -323,6 +328,7 @@ end
 
 verblist.each do |verb|
     signif = 0
+    signs = []
     STDERR.puts verb
     yearhash = verbs[verb]
     output = "#{verb}\t#{verbs_total[verb].round(0)}\t#{yearhash.values.max.round(3)}\t#{yearhash.values.min.round(3)}\t#{(yearhash.values.max-yearhash.values.min).round(3)}"
@@ -339,12 +345,24 @@ verblist.each do |verb|
             if rp < threshold
                 signif += 1
             end
+            if growth > 0
+                signs << 1
+            elsif growth < 0
+                signs << -1
+            end
         end
         
         
         output << "\t#{(rp)}\t#{reversed}\t#{counternil}\t#{asym.to_f.round(3)}\t#{mid.to_f.round(0).abs}\t#{growth.to_f.round(2)}"
     end
-    output = [output.split("\t")[0],signif,output.split("\t")[1..-1]].join("\t")
+    if signs.uniq.length > 1
+        agreement = "no"
+    else
+        agreement = "yes"
+    end
+        
+    
+    output = [output.split("\t")[0],signif,output.split("\t")[1..-1],agreement].join("\t")
     o.puts output
 end
 ###R.eval "dev.off()"
