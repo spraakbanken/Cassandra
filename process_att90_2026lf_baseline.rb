@@ -7,7 +7,7 @@ corpus = "familjeliv"
 threshold = 100
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 1000
+@perms = 100
 smoothings = [1,3,5]
 
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
@@ -83,8 +83,8 @@ end
 
 def randomwalk(yearhash)
     yearhash_randomized = {}
-    span = yearhash.values.max - yearhash.values.min
-    #span = 1
+    #span = yearhash.values.max - yearhash.values.min
+    span = 0.1
 
     yearhash.keys.sort.each.with_index do |year,index|
         #STDERR.puts year
@@ -248,7 +248,7 @@ o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels
 
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
-threshold = 0.005
+pthreshold = 0.01
 
 
 verblist.each do |verb|
@@ -262,7 +262,7 @@ verblist.each do |verb|
         STDERR.puts "smoothing #{smoothing}"
         asym,mid,growth,rp,counternil,res,reversed = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus)
         if rp != "NA"
-            if rp < threshold
+            if rp < pthreshold
                 signif += 1
             end
         end

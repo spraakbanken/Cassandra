@@ -318,7 +318,7 @@ o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
 
-threshold = 0.05
+pthreshold = 0.05
 
 trainyears_set = []
 
@@ -339,7 +339,7 @@ verblist.each do |verb|
     smoothings.each do |smoothing|    
         STDERR.puts "smoothing #{smoothing}"
         
-        asym,mid,growth,rp,counternil,res,reversed,testres,predrp = fitlm(yearhash,verb,"black","blue",smoothing,threshold,corpus,trainyears_set)
+        asym,mid,growth,rp,counternil,res,reversed,testres,predrp = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus,trainyears_set)
         
         if rp != "NA"
             if rp < threshold
