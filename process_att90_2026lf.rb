@@ -4,11 +4,11 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "familjeliv"
-threshold = 100
+corpus = "familjeliv-2"
+threshold = 50
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 0
+@perms = 100
 smoothings = [1,3,5]
 #@mode = "predict"
 
@@ -19,8 +19,8 @@ output = {}
 
 verbs = Hash.new{|hash,key| hash[key]=Hash.new}
 verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
-verblist = ["komma"]#,"våga","lova"]
-#verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
+#verblist = ["komma"]#,"våga","lova"]
+verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","anse","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 verbs_total = Hash.new(0)
 
 @startyear = 2004
@@ -138,10 +138,12 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
     R.assign "x",directyearhash.keys      
     directvalues = smooth(directyearhash.values,smoothing)
     R.assign "directy",directvalues
-    STDERR.puts "train = c(#{directvalues[0..-6].join(",")})"
-    STDERR.puts "test = c(#{directvalues[-5..-1].join(",")})"
+    
+    #STDERR.puts "train = c(#{directvalues[0..-6].join(",")})"
+    #STDERR.puts "test = c(#{directvalues[-5..-1].join(",")})"
     
     if 2 == 3
+        #differencing/ACF 
         directdiffs = []
         diffx = []
         directvalues.each.with_index do |value,index|
