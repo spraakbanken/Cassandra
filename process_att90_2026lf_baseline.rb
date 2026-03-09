@@ -84,7 +84,7 @@ end
 def randomwalk(yearhash)
     yearhash_randomized = {}
     #span = yearhash.values.max - yearhash.values.min
-    span = 0.1
+    span = 0.17
 
     yearhash.keys.sort.each.with_index do |year,index|
         #STDERR.puts year
