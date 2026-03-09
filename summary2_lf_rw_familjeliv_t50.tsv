@@ -1,23 +1,23 @@
 verb	signif	freq	max	min	span	s1signif	s1reversed	s1failedmodels	s1asym	s1mid	s1growth	s3signif	s3reversed	s3failedmodels	s3asym	s3mid	s3growth	s5signif	s5reversed	s5failedmodels	s5asym	s5mid	s5growth	agreement
-planera	0	46827	0.124	0.058	0.066	NaN	true	0	0.077	2027	1.55	yes
-lova	0	30644	0.188	0.091	0.097	NA			0.0	0	0.0	yes
-tendera	0	11187	0.133	0.047	0.086	NA			0.0	0	0.0	yes
-riskera	0	32748	0.161	0.095	0.065	NaN	true	0	0.101	2040	5.78	yes
-fortsätta	0	137762	0.69	0.536	0.155	NaN	false	0	0.688	1996	6.27	yes
-komma	0	2519646	0.704	0.409	0.295	NaN	false	0	0.679	2003	2.67	yes
-glömma	0	113035	0.866	0.793	0.073	NaN	false	0	0.851	2031	-3.11	yes
-vägra	0	213407	0.877	0.793	0.083	NaN	false	0	0.867	1996	3.45	yes
-anse	0	17444	0.935	0.898	0.037	NaN	true	0	0.906	1994	-9.02	yes
-sluta	0	187244	0.942	0.919	0.023	NaN	false	0	0.935	1994	2.52	yes
-slippa	0	228226	0.981	0.968	0.013	NaN	false	0	0.976	1995	1.91	yes
-försöka	0	931759	0.97	0.921	0.049	NaN	false	0	0.968	1987	5.5	yes
-låtsas	0	9305	0.992	0.972	0.019	NA			0.0	0	0.0	yes
-lyckas	0	170580	0.994	0.979	0.015	NaN	false	0	0.989	1995	2.07	yes
-hinna	0	231128	0.995	0.982	0.013	NaN	false	0	0.991	1992	2.61	yes
-börja	0	1659893	0.994	0.977	0.017	NaN	false	0	0.992	1992	2.81	yes
-orka	0	241951	0.992	0.982	0.01	NA			0.0	0	0.0	yes
-våga	0	172470	0.997	0.992	0.005	NaN	false	0	0.995	1985	2.77	yes
-behöva	0	779085	1.0	0.998	0.002	NA			0.0	0	0.0	yes
-bruka	0	1054833	1.0	0.999	0.001	NaN	false	0	1.0	1988	2.0	yes
-råka	0	130313	1.0	0.997	0.003	NA			0.0	0	0.0	yes
-torde	0	6299	1.0	1.0	0.0	NA			0.0	0	0.0	yes
+planera	0	46827	0.124	0.058	0.066	NaN	true	0	0.077	2027	1.55	NaN	true	0	0.076	2030	2.27	NaN	true	0	0.076	2035	3.56	yes
+lova	0	30644	0.188	0.091	0.097	NA			0.0	0	0.0	NaN	true	0	0.116	2037	4.26	NaN	true	0	0.114	2041	5.64	yes
+tendera	0	11187	0.133	0.047	0.086	NA			0.0	0	0.0	NaN	true	0	0.066	2035	3.78	NaN	true	0	0.067	2037	4.25	yes
+riskera	0	32748	0.161	0.095	0.065	NaN	true	0	0.101	2040	5.78	NaN	true	0	0.103	2039	5.46	NaN	true	0	0.101	2042	6.33	yes
+fortsätta	0	137762	0.69	0.536	0.155	NaN	false	0	0.688	1996	6.27	NaN	false	0	0.689	1995	6.62	NaN	false	0	0.695	1994	7.63	yes
+komma	0	2519646	0.704	0.409	0.295	NaN	false	0	0.679	2003	2.67	NaN	false	0	0.682	2002	3.0	NaN	false	0	0.684	2002	3.48	yes
+glömma	0	113035	0.866	0.793	0.073	NaN	false	0	0.851	2031	-3.11	NaN	false	0	0.853	2033	-3.74	NaN	false	0	0.854	2036	-4.57	yes
+vägra	0	213407	0.877	0.793	0.083	NaN	false	0	0.867	1996	3.45	NaN	false	0	0.868	1994	4.01	NaN	false	0	0.869	1992	4.64	yes
+anse	0	17444	0.935	0.898	0.037	NaN	true	0	0.906	1994	-9.02	NaN	true	0	0.905	1994	-9.5	NaN	true	0	0.898	1991	-14.32	yes
+sluta	0	187244	0.942	0.919	0.023	NaN	false	0	0.935	1994	2.52	NaN	false	0	0.935	1994	2.58	NaN	false	0	0.935	1993	2.73	yes
+slippa	0	228226	0.981	0.968	0.013	NaN	false	0	0.976	1995	1.91	NaN	false	0	0.976	1995	1.9	NaN	false	0	0.976	1995	1.96	yes
+försöka	0	931759	0.97	0.921	0.049	NaN	false	0	0.968	1987	5.5	NaN	false	0	0.97	1982	6.92	NaN	false	0	0.972	1978	8.27	yes
+låtsas	0	9305	0.992	0.972	0.019	NA			0.0	0	0.0	NaN	true	0	0.982	2023	2.29	NaN	true	0	0.983	2023	2.18	yes
+lyckas	0	170580	0.994	0.979	0.015	NaN	false	0	0.989	1995	2.07	NaN	false	0	0.989	1991	2.66	NaN	false	0	0.989	1988	3.23	yes
+hinna	0	231128	0.995	0.982	0.013	NaN	false	0	0.991	1992	2.61	NA			0.0	0	0.0	NaN	false	0	0.991	1988	3.34	yes
+börja	0	1659893	0.994	0.977	0.017	NaN	false	0	0.992	1992	2.81	NaN	false	0	0.992	1990	3.21	NaN	false	0	0.992	1988	3.6	yes
+orka	0	241951	0.992	0.982	0.01	NA			0.0	0	0.0	NaN	false	0	0.989	2049	-4.29	NaN	false	0	0.989	2050	-4.51	yes
+våga	0	172470	0.997	0.992	0.005	NaN	false	0	0.995	1985	2.77	NaN	false	0	0.995	1991	1.98	NA			0.0	0	0.0	yes
+behöva	0	779085	1.0	0.998	0.002	NA			0.0	0	0.0	NaN	false	0	0.999	1990	1.86	NaN	false	0	0.999	1987	2.2	yes
+bruka	0	1054833	1.0	0.999	0.001	NaN	false	0	1.0	1988	2.0	NaN	false	0	1.0	1989	1.91	NaN	false	0	1.0	1989	1.86	yes
+råka	0	130313	1.0	0.997	0.003	NA			0.0	0	0.0	NaN	false	0	0.999	2032	-1.19	NaN	false	0	0.999	2037	-1.93	yes
+torde	0	6299	1.0	1.0	0.0	NA			0.0	0	0.0	NA			0.0	0	0.0	NA			0.0	0	0.0	yes

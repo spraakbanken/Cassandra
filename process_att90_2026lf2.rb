@@ -1,5 +1,6 @@
-#plot regression lines
-#check unpredictability
+#for a single verb: check that y1, y2 and diffs are correct
+#check single perm2
+#check several perm2s
 
 
 require "rinruby"
@@ -12,6 +13,7 @@ threshold = 50
 @xaxis = "zoom"
 @yaxis = "full"
 @perms = 0
+@perms2 = 100
 #smoothings = [1]
 smoothings = [1,3,5]
 #@mode = "predict"
@@ -337,9 +339,9 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
             R.eval "asym2 <- summary(log.ss2)$coef[1]"
             R.eval "mid2 <- summary(log.ss2)$coef[2]"
             R.eval "growth2 <- summary(log.ss2)$coef[3]"
-            asym1 = R.pull "asym2"
-            mid1 = R.pull "mid2"
-            growth1 =  R.pull "growth2"
+            asym2 = R.pull "asym2"
+            mid2 = R.pull "mid2"
+            growth2 =  R.pull "growth2"
             
             diffasym = (asym1-asym2).abs
             diffmid = (mid1-mid2).abs
@@ -360,9 +362,9 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
                     R.eval "asym2prim <- summary(log.ss2.prim)$coef[1]"
                     R.eval "mid2prim <- summary(log.ss2.prim)$coef[2]"
                     R.eval "growth2prim <- summary(log.ss2.prim)$coef[3]"
-                    asym2 = R.pull "asym2prim"
-                    mid2 = R.pull "mid2prim"
-                    growth2 =  R.pull "growth2prim"
+                    asym2prim = R.pull "asym2prim"
+                    mid2prim = R.pull "mid2prim"
+                    growth2prim =  R.pull "growth2prim"
                     
                     diffasymprim = (asym1-asym2prim).abs
                     diffmidprim = (mid1-mid2prim).abs
@@ -381,8 +383,8 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
                     
                     
                     R.eval "try(rm(log.ss2.prim),silent=TRUE)"
-                elsif
-                    counternil += 1
+                #elsif
+                    #counternil += 1
                 end
                 
             end
@@ -409,7 +411,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
         end
     end
    
-    return asym,mid,growth,rp,counternil,res,reversed,testres,predrp
+    return asym,mid,growth,rp,counternil,res,reversed,testres,predrp,pasym,pmid,pgrowth
 end
 
 
@@ -471,7 +473,7 @@ verblist.each do |verb|
     smoothings.each do |smoothing|    
         STDERR.puts "smoothing #{smoothing}"
         
-        asym,mid,growth,rp,counternil,res,reversed,testres,predrp = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus,trainyears_set,true,"significance",nil,nil)
+        asym,mid,growth,rp,counternil,res,reversed,testres,predrp,pasym,pmid,pgrowth = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus,trainyears_set,true,"significance",nil,nil)
         
         if rp != "NA"
             if rp < threshold
@@ -509,12 +511,22 @@ verbs2, verbs2_total = extract(corpus2,verblist,threshold)
 
 STDERR.puts "After 2: #{verblist}"
 
+o2 = File.open("summary2_lf_rw_#{corpus1}_#{corpus2}_t#{threshold}.tsv","w:utf-8")
+o2.puts "verb\tpasyms1\tpmids1\tpgrowths1\tpasyms3\tpmids3\tpgrowths3\tpasyms5\tpmids5\tpgrowths5"
+
+
+
 verblist.each do |verb|
+    
     yearhash = verbs1[verb]
     STDERR.puts verb
+    output2 = "#{verb}"
+    STDERR.puts output2
+    
     smoothings.each do |smoothing|
         STDERR.puts smoothing
-        asym,mid,growth,rp,counternil,res,reversed,testres,predrp = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus,trainyears_set,false,"robustness",reversed_status[verb],verbs2[verb])
+        asym,mid,growth,rp,counternil,res,reversed,testres,predrp,pasym,pmid,pgrowth = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus,trainyears_set,false,"robustness",reversed_status[verb],verbs2[verb])
+        output2 << "\t#{pasym}\t#{pmid}\t#{pgrowth}"
     end
-   
+    o2.puts output2
 end
