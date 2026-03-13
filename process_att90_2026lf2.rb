@@ -5,16 +5,16 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "familjeliv"
-corpus1 = "familjeliv-1"
-corpus2 = "familjeliv-2"
+corpus = "flashback"
+corpus1 = "flashback-1"
+corpus2 = "flashback-2"
 
 #threshold1 = 100
 threshold = 50
 @xaxis = "full"
 @yaxis = "full"
-@perms = 10000
-@perms2 = 10000
+@perms = 1000
+@perms2 = 1000
 #smoothings = [1]
 smoothings = [1,3,5]
 #@mode = "predict"
