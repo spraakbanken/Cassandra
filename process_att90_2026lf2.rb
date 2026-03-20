@@ -5,26 +5,27 @@
 
 require "rinruby"
 require_relative "math_tools.rb"
-corpus = "flashback"
-corpus1 = "flashback-1"
-corpus2 = "flashback-2"
+corpus = "familjeliv"
+corpus1 = "#{corpus}-1"
+corpus2 = "#{corpus}-2"
 
 #threshold1 = 100
 threshold = 50
 @xaxis = "full"
 @yaxis = "full"
-@perms = 1000
-@perms2 = 1000
-#smoothings = [1]
-smoothings = [1,3,5]
+@perms = 0#1000
+@perms2 = 0#1000
+smoothings = [1]
+#smoothings = [1,3,5]
 #@mode = "predict"
 
 
-
+outputmode = false
 output = {}
 
-#verb_centered = Hash.new{|hash,key| hash[key]=Hash.new}
-#verblist = ["komma"]#,"våga","lova"]
+do_robustness = false
+
+
 verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 
 
@@ -490,33 +491,10 @@ verbs, verbs_total = extract(corpus,verblist,threshold)
 
 STDERR.puts "After general: #{verblist}"
 
-
-=begin
-min = 1
-max = 0
-
-verbs.each_pair do |verb,yearhash|
-    prev_value = nil
-    yearhash.each_value do |v2rel|
-        if !prev_value.nil?
-            diff = (v2rel - prev_value).abs
-            if diff < min
-                min = diff.clone
-            end
-            if diff > max
-                max = diff.clone
-            end
-        end
-        prev_value = v2rel.clone
-    end
+if outputmode
+    o = File.open("summary2_lf_rw_#{corpus}_t#{threshold}.tsv","w:utf-8")
+    o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth\tagreement"
 end
-STDERR.puts min,max
-=end
-
-#__END__
-o = File.open("summary2_lf_rw_#{corpus}_t#{threshold}.tsv","w:utf-8")
-
-o.puts "verb\tsignif\tfreq\tmax\tmin\tspan\ts1signif\ts1reversed\ts1failedmodels\ts1asym\ts1mid\ts1growth\ts3signif\ts3reversed\ts3failedmodels\ts3asym\ts3mid\ts3growth\ts5signif\ts5reversed\ts5failedmodels\ts5asym\ts5mid\ts5growth\tagreement"
 
 ###R.eval "pdf(file='#{corpus}_s#{smoothing}_t#{threshold}.pdf')"
 ###R.eval "par(mfrow=c(10,3))"
@@ -567,44 +545,47 @@ verblist.each do |verb|
         
     
     output = [output.split("\t")[0],signif,output.split("\t")[1..-1],agreement].join("\t")
-    o.puts output
+    if outputmode
+        o.puts output
+    end
 end
-###R.eval "dev.off()"
-#__END__
-verbs1, verbs1_total = extract(corpus1,verblist,threshold)
 
-STDERR.puts "After 1: #{verblist}"
-
-verbs2, verbs2_total = extract(corpus2,verblist,threshold)
-
-STDERR.puts "After 2: #{verblist}"
-
-o2 = File.open("summary2_lf_rw_#{corpus1}_#{corpus2}_t#{threshold}.tsv","w:utf-8")
-o2.puts "verb\tcsignif\tpcurves1\tpasyms1\tpmids1\tpgrowths1\tpcurves3\tpasyms3\tpmids3\tpgrowths3\tpcurves5\tpasyms5\tpmids5\tpgrowths5"
-
-
-
-verblist.each do |verb|
-    curvesignif = 0
-    yearhash = verbs1[verb]
-    STDERR.puts verb
-    output2 = "#{verb}"
-    #STDERR.puts output2
+if do_robustness
+    verbs1, verbs1_total = extract(corpus1,verblist,threshold)
     
-    smoothings.each do |smoothing|
-        STDERR.puts smoothing
-        asym,mid,growth,rp,counternil,res,reversed,testres,predrp,pasym,pmid,pgrowth,pcurve = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus1,trainyears_set,true,"robustness",reversed_status[verb],verbs2[verb],corpus2)
+    STDERR.puts "After 1: #{verblist}"
+    
+    verbs2, verbs2_total = extract(corpus2,verblist,threshold)
+    
+    STDERR.puts "After 2: #{verblist}"
+    
+    o2 = File.open("summary2_lf_rw_#{corpus1}_#{corpus2}_t#{threshold}.tsv","w:utf-8")
+    o2.puts "verb\tcsignif\tpcurves1\tpasyms1\tpmids1\tpgrowths1\tpcurves3\tpasyms3\tpmids3\tpgrowths3\tpcurves5\tpasyms5\tpmids5\tpgrowths5"
+    
+    
+    
+    verblist.each do |verb|
+        curvesignif = 0
+        yearhash = verbs1[verb]
+        STDERR.puts verb
+        output2 = "#{verb}"
+        #STDERR.puts output2
         
-        if !pcurve.nil?
-            if pcurve < pthreshold
-                curvesignif += 1
+        smoothings.each do |smoothing|
+            STDERR.puts smoothing
+            asym,mid,growth,rp,counternil,res,reversed,testres,predrp,pasym,pmid,pgrowth,pcurve = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus1,trainyears_set,true,"robustness",reversed_status[verb],verbs2[verb],corpus2)
+            
+            if !pcurve.nil?
+                if pcurve < pthreshold
+                    curvesignif += 1
+                end
+                
             end
             
+            
+            output2 << "\t#{pcurve}\t#{pasym}\t#{pmid}\t#{pgrowth}"
         end
-        
-        
-        output2 << "\t#{pcurve}\t#{pasym}\t#{pmid}\t#{pgrowth}"
+        output2 = [output2.split("\t")[0],curvesignif,output2.split("\t")[1..-1]].join("\t")
+        o2.puts output2
     end
-    output2 = [output2.split("\t")[0],curvesignif,output2.split("\t")[1..-1]].join("\t")
-    o2.puts output2
 end
