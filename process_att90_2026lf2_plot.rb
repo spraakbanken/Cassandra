@@ -11,7 +11,7 @@ corpus2 = "#{corpus}-2"
 
 #threshold1 = 100
 threshold = 50
-@xaxis = "zoom"
+@xaxis = "full"
 @yaxis = "full"
 @perms = 0#1000
 @perms2 = 0#1000
@@ -143,6 +143,40 @@ def randomwalk(yearhash)
     #STDERR.puts yearhash_randomized
     return yearhash_randomized
 end
+
+def plot(short_verblist,verblist,verbs,label,corpus,smoothing,threshold)
+    short_verblist.each.with_index do |verb,index|
+
+    R.eval "png(file='att2026results/verblist#{label}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
+    
+    if @xaxis == "zoom"
+        R.assign "start",@startyear
+        R.assign "finish",@lastyear
+    elsif @xaxis == "full"    
+        R.assign "start",1950
+        R.assign "finish",2050
+    end
+    if @yaxis == "zoom"
+        ylim = ""
+    elsif @yaxis == "full"    
+        ylim =", ylim = c(0,1)"    
+    end
+            
+    
+    
+    
+    
+    if index == 0
+        R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    else
+        R.eval "lines(y ~ x, pch=#{21+index}, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+    end
+    
+    end
+    R.eval "invisible(dev.off())"
+
+end
+
 
 def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,trainyears_set,plot,evaluate,reversed,directyearhash2,corpus2)
     colobserved2 = "orange"
@@ -309,6 +343,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
                 
             R.eval "invisible(dev.off())"
         
+            
         end
            
     end
@@ -484,75 +519,12 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
 end
 
 
-def plot(short_verblist,verblist,verbs,label,corpus,smoothing,threshold)
-    counter = 0
-    
-    
-    
-    R.eval "png(file='att2026results/verblist_#{label}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
-    short_verblist.each_pair do |verb,color|
-        #STDERR.puts verb, color
-        yearhash = verbs[verb]
-        R.assign "x",yearhash.keys
-        values = smooth(yearhash.values,smoothing)
-        R.assign "y",values
-        #STDERR.puts values.join(",")
-        
-        
-        if @xaxis == "zoom"
-            R.assign "start",@startyear
-            R.assign "finish",@lastyear
-        elsif @xaxis == "full"    
-            R.assign "start",1950
-            R.assign "finish",2050
-        end
-        if @yaxis == "zoom"
-            ylim = ""
-        elsif @yaxis == "full"    
-            ylim =", ylim = c(0,1)"    
-        end
-        
-        if counter == 0
-            R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{color}', bg='#{color}',type='b', xlab = 'Year', ylab = 'att-omission')"
-            
-            if short_verblist.keys.length == 3
-                pch = "c(21,22,23)"
-            elsif short_verblist.keys.length == 4
-                pch = "c(21,22,23,24)"
-            end
-            
-            
-            R.eval "legend('center', legend=c('#{short_verblist.keys.join("','")}'),col=c('#{short_verblist.values.join("','")}'), pch=#{pch})"
-        else
-            R.eval "lines(y ~ x, pch=#{21+counter}, col = '#{color}', bg='#{color}',type='b')"
-        end
-        counter += 1
-    end
-    R.eval "invisible(dev.off())"
-
-end
 
 
 
 verbs, verbs_total = extract(corpus,verblist,threshold)
+
 STDERR.puts "After general: #{verblist}"
-
-short_verblist = {"planera"=>"black", "fortsätta"=>"blue", "försöka"=>"red", "behöva"=>"darkgreen"}
-plot(short_verblist,verblist,verbs,"a",corpus,smoothings[0],threshold)
-
-short_verblist = {"riskera"=>"black", "glömma"=>"blue", "sluta"=>"red", "låtsas"=>"darkgreen"}
-plot(short_verblist,verblist,verbs,"b",corpus,smoothings[0],threshold)
-
-short_verblist = {"lova"=>"black", "komma"=>"blue", "börja"=>"red"}
-plot(short_verblist,verblist,verbs,"c",corpus,smoothings[0],threshold)
-
-short_verblist = {"tendera"=>"black", "vägra"=>"blue", "hinna"=>"red"}
-plot(short_verblist,verblist,verbs,"d",corpus,smoothings[0],threshold)
-
-
-
-__END__
-
 
 if outputmode
     o = File.open("summary2_lf_rw_#{corpus}_t#{threshold}.tsv","w:utf-8")
