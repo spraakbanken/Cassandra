@@ -12,11 +12,11 @@ corpus2 = "#{corpus}-2"
 #threshold1 = 100
 threshold = 50
 @xaxis = "zoom"
-@yaxis = "full"
+@yaxis = "zoom"
 @perms = 0#1000
 @perms2 = 0#1000
-smoothings = [1]
-#smoothings = [1,3,5]
+#smoothings = [1]
+smoothings = [1,3,5]
 #@mode = "predict"
 
 
@@ -261,13 +261,13 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
             
             
             if reversed == false
-                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
                 R.eval "lines(start:finish, predict(log.ss, data.frame(x=start:finish)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
             elsif reversed == true
-                R.eval "plot((1-y) ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+                R.eval "plot((1-y) ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
                 R.eval "lines(start:finish, (1-predict(log.ss, data.frame(x=start:finish))), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
             else
-                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
             end    
                 
             R.eval "invisible(dev.off())"
@@ -288,21 +288,21 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
             end
                         
             if reversed == false
-                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
                 R.eval "lines(start:finish, predict(log.ss1, data.frame(x=start:finish)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
                 
                 R.eval "lines(y2 ~ x, pch=21, col = '#{colobserved2}', bg='#{colobserved2}',type='b')"
                 R.eval "lines(start:finish, predict(log.ss2, data.frame(x=start:finish)), pch=22, col = '#{colfitted2}', bg='#{colfitted2}',type='l')"
                 
             elsif reversed == true
-                R.eval "plot((1-y) ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+                R.eval "plot((1-y) ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
                 R.eval "lines(start:finish, (1-predict(log.ss1, data.frame(x=start:finish))), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
                 
                 R.eval "lines((1-y2) ~ x, pch=21, col = '#{colobserved2}', bg='#{colobserved2}',type='b')"
                 R.eval "lines(start:finish, (1-predict(log.ss2, data.frame(x=start:finish))), pch=22, col = '#{colfitted2}', bg='#{colfitted2}',type='l')"
                 
             else
-                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b')"
+                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
                 R.eval "lines(y2 ~ x, pch=21, col = '#{colobserved2}', bg='#{colobserved2}',type='b')"
                 
             end    
@@ -537,6 +537,7 @@ end
 verbs, verbs_total = extract(corpus,verblist,threshold)
 STDERR.puts "After general: #{verblist}"
 
+=begin
 short_verblist = {"planera"=>"black", "fortsätta"=>"blue", "försöka"=>"red", "behöva"=>"darkgreen"}
 plot(short_verblist,verblist,verbs,"a",corpus,smoothings[0],threshold)
 
@@ -550,8 +551,8 @@ short_verblist = {"tendera"=>"black", "vägra"=>"blue", "hinna"=>"red"}
 plot(short_verblist,verblist,verbs,"d",corpus,smoothings[0],threshold)
 
 
-
 __END__
+=end
 
 
 if outputmode
@@ -636,8 +637,7 @@ if do_robustness
         
         smoothings.each do |smoothing|
             STDERR.puts smoothing
-            asym,mid,growth,rp,counternil,res,reversed,testres,predrp,pasym,pmid,pgrowth,pcurve = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus1,trainyears_set,true,"robustness",reversed_status[verb],verbs2[verb],corpus2)
-            
+            asym,mid,growth,rp,counternil,res,reversed,testres,predrp,pasym,pmid,pgrowth,pcurve = fitlm(yearhash,verb,"black","blue",smoothing,pthreshold,corpus1,trainyears_set,true,"robustness",reversed_status[verb],verbs2[verb],corpus2)            
             if !pcurve.nil?
                 if pcurve < pthreshold
                     curvesignif += 1
