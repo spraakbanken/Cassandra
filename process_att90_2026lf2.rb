@@ -12,11 +12,11 @@ corpus2 = "#{corpus}-2"
 #threshold1 = 100
 threshold = 50
 @xaxis = "zoom"
-@yaxis = "zoom"
-@perms = 0#1000
+@yaxis = "full"
+@perms = 1 #1000
 @perms2 = 0#1000
 #smoothings = [1]
-smoothings = [1,3,5]
+smoothings = [1]
 #@mode = "predict"
 
 
@@ -25,6 +25,7 @@ output = {}
 
 do_robustness = false
 
+#verblist = ["fortsätta"]
 
 verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 
@@ -261,7 +262,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
             
             
             if reversed == false
-                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
+                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')" #, main = 'Fortsätta: actual data'
                 R.eval "lines(start:finish, predict(log.ss, data.frame(x=start:finish)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
             elsif reversed == true
                 R.eval "plot((1-y) ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
@@ -307,7 +308,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
                 
             end    
                 
-            R.eval "invisible(dev.off())"
+            #R.eval "invisible(dev.off())"
         
         end
            
@@ -315,6 +316,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
 
     if evaluate == "significance"
         if !res.nil?
+            #STDERR.puts "Base model fitted, running permutations"
             R.eval "asym <- summary(log.ss)$coef[1]"
             R.eval "mid <- summary(log.ss)$coef[2]"
             R.eval "growth <- summary(log.ss)$coef[3]"
@@ -328,6 +330,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
             
             
             for i in 1..@perms do
+                #STDERR.puts i
                 if i % 1000 == 0 
                     STDERR.puts "permutation #{i}"
                 end
@@ -339,7 +342,16 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
                 resprim = R.pull "try(sum(abs(summary(log.ss.prim)$residuals^2)),silent=TRUE)"
                 #STDERR.puts "resprim: #{resprim}"
                 if !resprim.nil? 
+                    #STDERR.puts "Permuted model fitted!"
+                    #R.eval "png(file='att2026results/#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}_shuffled.png')"
+                    #R.eval "plot(yprim ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission', main = 'Fortsätta: shuffled data')"
+                    #R.eval "lines(start:finish, predict(log.ss.prim, data.frame(x=start:finish)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
+                    #R.eval "invisible(dev.off())"
+                    
+                    
                     R.eval "try(rm(log.ss.prim),silent=TRUE)"
+                    
+                    
                     if resprim <= res
                         counter += 1
                     end
