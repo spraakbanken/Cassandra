@@ -7,7 +7,7 @@ corpus = "familjeliv"
 threshold = 100
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 100
+@perms = 10000
 smoothings = [1,3,5]
 
 path = "C:\\D\\DGU\\Repos\\Cassandra\\results\\att2026\\#{corpus}"
@@ -84,7 +84,7 @@ end
 def randomwalk(yearhash)
     yearhash_randomized = {}
     #span = yearhash.values.max - yearhash.values.min
-    span = 0.17
+    span = 0.052 #average span across the 21 constructions
 
     yearhash.keys.sort.each.with_index do |year,index|
         #STDERR.puts year

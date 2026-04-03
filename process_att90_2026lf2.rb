@@ -13,7 +13,7 @@ corpus2 = "#{corpus}-2"
 threshold = 50
 @xaxis = "zoom"
 @yaxis = "full"
-@perms = 1 #1000
+@perms = 0 #1000
 @perms2 = 0#1000
 #smoothings = [1]
 smoothings = [1]
@@ -549,11 +549,11 @@ end
 verbs, verbs_total = extract(corpus,verblist,threshold)
 STDERR.puts "After general: #{verblist}"
 
-=begin
+#=begin
 short_verblist = {"planera"=>"black", "fortsätta"=>"blue", "försöka"=>"red", "behöva"=>"darkgreen"}
 plot(short_verblist,verblist,verbs,"a",corpus,smoothings[0],threshold)
 
-short_verblist = {"riskera"=>"black", "glömma"=>"blue", "sluta"=>"red", "låtsas"=>"darkgreen"}
+short_verblist = {"riskera"=>"black", "glömma"=>"blue", "sluta"=>"red", "lyckas"=>"darkgreen"}
 plot(short_verblist,verblist,verbs,"b",corpus,smoothings[0],threshold)
 
 short_verblist = {"lova"=>"black", "komma"=>"blue", "börja"=>"red"}
