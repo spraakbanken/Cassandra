@@ -14,7 +14,7 @@ threshold = 50
 @xaxis = "zoom"
 @yaxis = "full"
 @perms = 0 #1000
-@perms2 = 0#1000
+@perms2 = 1#1000
 #smoothings = [1]
 smoothings = [1]
 #@mode = "predict"
@@ -23,11 +23,11 @@ smoothings = [1]
 outputmode = false
 output = {}
 
-do_robustness = false
+do_robustness = true
 
-#verblist = ["fortsätta"]
+verblist = ["fortsätta"]
 
-verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
+#verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 
 
 @startyear = 2004
@@ -273,7 +273,7 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
                 
             R.eval "invisible(dev.off())"
         elsif evaluate == "robustness"
-            R.eval "png(file='att2026results/robustness/#{verb}_#{corpus}_#{corpus2}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
+            #R.eval "png(file='att2026results/robustness/#{verb}_#{corpus}_#{corpus2}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
             
             if @xaxis == "zoom"
                 R.assign "start",@startyear
@@ -289,11 +289,14 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
             end
                         
             if reversed == false
-                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
+                R.eval "png(file='att2026results/robustness/#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
+                R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission', main='Familjeliv-1')"
                 R.eval "lines(start:finish, predict(log.ss1, data.frame(x=start:finish)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
+                R.eval "invisible(dev.off())"
+
                 
-                R.eval "lines(y2 ~ x, pch=21, col = '#{colobserved2}', bg='#{colobserved2}',type='b')"
-                R.eval "lines(start:finish, predict(log.ss2, data.frame(x=start:finish)), pch=22, col = '#{colfitted2}', bg='#{colfitted2}',type='l')"
+                #R.eval "lines(y2 ~ x, pch=21, col = '#{colobserved2}', bg='#{colobserved2}',type='b')"
+                #R.eval "lines(start:finish, predict(log.ss2, data.frame(x=start:finish)), pch=22, col = '#{colfitted2}', bg='#{colfitted2}',type='l')"
                 
             elsif reversed == true
                 R.eval "plot((1-y) ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission')"
@@ -342,11 +345,6 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
                 resprim = R.pull "try(sum(abs(summary(log.ss.prim)$residuals^2)),silent=TRUE)"
                 #STDERR.puts "resprim: #{resprim}"
                 if !resprim.nil? 
-                    #STDERR.puts "Permuted model fitted!"
-                    #R.eval "png(file='att2026results/#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}_shuffled.png')"
-                    #R.eval "plot(yprim ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission', main = 'Fortsätta: shuffled data')"
-                    #R.eval "lines(start:finish, predict(log.ss.prim, data.frame(x=start:finish)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
-                    #R.eval "invisible(dev.off())"
                     
                     
                     R.eval "try(rm(log.ss.prim),silent=TRUE)"
@@ -429,6 +427,22 @@ def fitlm(directyearhash,verb,colobserved,colfitted,smoothing,threshold,corpus,t
                 if !res2prim.nil? 
                     #R.eval "lines(y2prim ~ x, pch=21, col = 'green', bg='green',type='b')"
                     #R.eval "lines(start:finish, predict(log.ss2.prim, data.frame(x=start:finish)), pch=22, col = 'yellow', bg='yellow',type='l')"
+                    
+                    STDERR.puts "Robustness: Permuted model fitted!"
+                    R.eval "png(file='att2026results/robustness/#{verb}_#{corpus2}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}_shuffled.png')"
+                    R.eval "plot(y2 ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{colobserved}', bg='#{colobserved}',type='b', xlab = 'Year', ylab = 'att-omission', main = 'Familjeliv-2')"
+                    R.eval "lines(start:finish, predict(log.ss2, data.frame(x=start:finish)), pch=22, col = '#{colfitted}', bg='#{colfitted}',type='l')"
+                    R.eval "lines(y2prim ~ x, pch=22, col = '#{colobserved2}', bg='#{colobserved2}',type='b')"
+                    R.eval "lines(start:finish, predict(log.ss2.prim, data.frame(x=start:finish)), pch=22, col = '#{colfitted2}', bg='#{colfitted2}',type='l',lty=5)"
+                    
+                    R.eval "invisible(dev.off())"
+                    
+                    
+                    #R.eval "png(file='att2026results/robustness/#{verb}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
+                
+                    #R.eval "invisible(dev.off())"
+                
+                
                 
                     R.eval "asym2prim <- summary(log.ss2.prim)$coef[1]"
                     R.eval "mid2prim <- summary(log.ss2.prim)$coef[2]"
@@ -549,7 +563,7 @@ end
 verbs, verbs_total = extract(corpus,verblist,threshold)
 STDERR.puts "After general: #{verblist}"
 
-#=begin
+=begin
 short_verblist = {"planera"=>"black", "fortsätta"=>"blue", "försöka"=>"red", "behöva"=>"darkgreen"}
 plot(short_verblist,verblist,verbs,"a",corpus,smoothings[0],threshold)
 
