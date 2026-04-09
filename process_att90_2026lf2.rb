@@ -14,7 +14,7 @@ threshold = 50
 @xaxis = "zoom"
 @yaxis = "full"
 @perms = 0 #1000
-@perms2 = 1#1000
+@perms2 = 0#1000
 #smoothings = [1]
 smoothings = [1]
 #@mode = "predict"
@@ -23,11 +23,11 @@ smoothings = [1]
 outputmode = false
 output = {}
 
-do_robustness = true
+do_robustness = false
 
-verblist = ["fortsätta"]
+#verblist = ["fortsätta"]
 
-#verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
+verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 
 
 @startyear = 2004
@@ -535,7 +535,7 @@ def plot(short_verblist,verblist,verbs,label,corpus,smoothing,threshold)
         if @yaxis == "zoom"
             ylim = ""
         elsif @yaxis == "full"    
-            ylim =", ylim = c(0,1)"    
+            ylim =", ylim = c(0.4,0.7)"    
         end
         
         if counter == 0
@@ -545,6 +545,8 @@ def plot(short_verblist,verblist,verbs,label,corpus,smoothing,threshold)
                 pch = "c(21,22,23)"
             elsif short_verblist.keys.length == 4
                 pch = "c(21,22,23,24)"
+            elsif short_verblist.keys.length == 2
+                pch = "c(21,22)"
             end
             
             
@@ -562,6 +564,22 @@ end
 
 verbs, verbs_total = extract(corpus,verblist,threshold)
 STDERR.puts "After general: #{verblist}"
+
+short_verblist = {"komma"=>"black", "fortsätta"=>"blue"}
+plot(short_verblist,verblist,verbs,"iv",corpus,smoothings[0],threshold)
+
+
+#short_verblist = {"vägra"=>"black", "försöka"=>"blue", "börja"=>"red"}
+#plot(short_verblist,verblist,verbs,"iii",corpus,smoothings[0],threshold)
+
+
+#short_verblist = {"komma"=>"black", "vägra"=>"blue", "börja"=>"red"}
+#plot(short_verblist,verblist,verbs,"i",corpus,smoothings[0],threshold)
+
+#short_verblist = {"fortsätta"=>"black", "försöka"=>"red"}
+#plot(short_verblist,verblist,verbs,"ii",corpus,smoothings[0],threshold)
+
+__END__
 
 =begin
 short_verblist = {"planera"=>"black", "fortsätta"=>"blue", "försöka"=>"red", "behöva"=>"darkgreen"}
