@@ -534,12 +534,13 @@ def plot(short_verblist,verblist,verbs,label,corpus,smoothing,threshold)
         end
         if @yaxis == "zoom"
             ylim = ""
-        elsif @yaxis == "full"    
-            ylim =", ylim = c(0.4,0.7)"    
+        elsif @yaxis == "full"
+            ylim =", ylim = c(0,1)"    
+            #ylim =", ylim = c(0.4,0.7)"    
         end
         
         if counter == 0
-            R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{color}', bg='#{color}',type='b', xlab = 'Year', ylab = 'att-omission')"
+            R.eval "plot(y ~ x, xlim = c(start,finish)#{ylim}, pch=21, col = '#{color}', bg='#{color}',type='l', xlab = 'Year', ylab = 'att-omission')"
             
             if short_verblist.keys.length == 3
                 pch = "c(21,22,23)"
@@ -549,10 +550,15 @@ def plot(short_verblist,verblist,verbs,label,corpus,smoothing,threshold)
                 pch = "c(21,22)"
             end
             
-            
-            R.eval "legend('center', legend=c('#{short_verblist.keys.join("','")}'),col=c('#{short_verblist.values.join("','")}'), pch=#{pch})"
+            if short_verblist.keys.length <= 4
+                R.eval "legend('center', legend=c('#{short_verblist.keys.join("','")}'),col=c('#{short_verblist.values.join("','")}'), pch=#{pch})"
+            end
         else
-            R.eval "lines(y ~ x, pch=#{21+counter}, col = '#{color}', bg='#{color}',type='b')"
+            if short_verblist.keys.length <= 4
+                R.eval "lines(y ~ x, pch=#{21+counter}, col = '#{color}', bg='#{color}',type='b')"
+            else
+                R.eval "lines(y ~ x, pch=21, col = '#{color}', bg='#{color}',type='l')"
+            end
         end
         counter += 1
     end
@@ -565,6 +571,14 @@ end
 verbs, verbs_total = extract(corpus,verblist,threshold)
 STDERR.puts "After general: #{verblist}"
 
+
+
+short_verblist = {"planera"=>"black", "lova"=>"black", "tendera"=>"black", "riskera"=>"black", "fortsätta"=>"black", "komma"=>"black", "glömma"=>"black", "vägra"=>"black", "sluta"=>"black", "slippa"=>"black", "försöka"=>"black", "låtsas"=>"black", "lyckas"=>"black", "hinna"=>"black", "börja"=>"black", "orka"=>"black", "våga"=>"black", "behöva"=>"black", "bruka"=>"black", "råka"=>"black", "torde"=>"black"}
+plot(short_verblist,verblist,verbs,"full",corpus,smoothings[0],threshold)
+
+__END__
+
+=begin
 short_verblist = {"komma"=>"black", "fortsätta"=>"blue"}
 plot(short_verblist,verblist,verbs,"iv",corpus,smoothings[0],threshold)
 
