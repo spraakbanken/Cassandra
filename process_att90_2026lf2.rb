@@ -515,6 +515,7 @@ def plot(short_verblist,verblist,verbs,label,corpus,smoothing,threshold)
     
     
     
+    #R.eval "pdf(file='att2026results/verblist_#{label}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.pdf')"
     R.eval "png(file='att2026results/verblist_#{label}_#{corpus}_lf_s#{smoothing}_t#{threshold}_x#{@xaxis}_y#{@yaxis}.png')"
     short_verblist.each_pair do |verb,color|
         #STDERR.puts verb, color
@@ -572,13 +573,13 @@ end
 verbs, verbs_total = extract(corpus,verblist,threshold)
 STDERR.puts "After general: #{verblist}"
 
-short_verblist = {"komma"=>"black", "fortsätta"=>"blue"}
-plot(short_verblist,verblist,verbs,"iv",corpus,smoothings[0],threshold)
+#short_verblist = {"komma"=>"black", "fortsätta"=>"blue"}
+#plot(short_verblist,verblist,verbs,"iv",corpus,smoothings[0],threshold)
 
 
 
-#short_verblist = {"planera"=>"black", "lova"=>"black", "tendera"=>"black", "riskera"=>"black", "fortsätta"=>"black", "komma"=>"black", "glömma"=>"black", "vägra"=>"black", "sluta"=>"black", "slippa"=>"black", "försöka"=>"black", "låtsas"=>"black", "lyckas"=>"black", "hinna"=>"black", "börja"=>"black", "orka"=>"black", "våga"=>"black", "behöva"=>"black", "bruka"=>"black", "råka"=>"black", "torde"=>"black"}
-#plot(short_verblist,verblist,verbs,"full",corpus,smoothings[0],threshold)
+short_verblist = {"planera"=>"black", "lova"=>"black", "tendera"=>"black", "riskera"=>"black", "fortsätta"=>"black", "komma"=>"black", "glömma"=>"black", "vägra"=>"black", "sluta"=>"black", "slippa"=>"black", "försöka"=>"black", "låtsas"=>"black", "lyckas"=>"black", "hinna"=>"black", "börja"=>"black", "orka"=>"black", "våga"=>"black", "behöva"=>"black", "bruka"=>"black", "råka"=>"black", "torde"=>"black"}
+plot(short_verblist,verblist,verbs,"full",corpus,smoothings[0],threshold)
 
 __END__
 
