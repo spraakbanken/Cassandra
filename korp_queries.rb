@@ -1,5 +1,11 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = att2026wellanders
+variant1 = [word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'vara' %c | word = 'få' %c | word = 'ta' %c | word = 'fortsätta' %c | word = 'ha' %c |  word = 'gå' %c | word = 'kunna' %c | word = 'göra' %c | word = 'ske' %c | word = 'se' %c | word = 'öka' %c | word = 'behöva' %c | word = 'påverka' %c | word = 'hålla' %c | word = 'kosta' %c | word = 'ge' %c | word = 'pågå' %c | word = 'leda' %c | word = 'hända' %c | word = 'ligga' %c | word = 'komma' %c]
+variant2 = [word = 'kommer' %c] [word = 'bli' %c | word = 'vara' %c | word = 'få' %c | word = 'kunna' %c | word = 'fortsätta' %c |word = 'ha' %c | word = 'ta' %c |  word = 'gå' %c | word = 'göra' %c | word = 'behöva' %c | word = 'se' %c]
+
+
+
 #label = att2026kommer
 variant1 = [word = 'kommer' %c] [word = 'att' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'få' %c | word = 'ta' %c | word = 'taga' %c | word = 'fortsätta' %c | word = 'ha' %c | word = 'hava' %c | word = 'göra' %c | word = 'gå' %c | word = 'kunna' %c | word = 'hålla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'påverka' %c | word = 'ske' %c | word = 'se' %c | word = 'behöva' %c | word = 'öka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'hända' %c]
 variant2 = [word = 'kommer' %c] [word = 'bli' %c | word = 'bliva' %c | word = 'vara' %c | word = 'få' %c | word = 'ta' %c | word = 'taga' %c | word = 'fortsätta' %c | word = 'ha' %c | word = 'hava' %c | word = 'göra' %c | word = 'gå' %c | word = 'kunna' %c | word = 'hålla' %c | word = 'finna' %c | word = 'finnas' %c | word = 'påverka' %c | word = 'ske' %c | word = 'se' %c | word = 'behöva' %c | word = 'öka' %c | word = 'spela' %c | word = 'ge' %c | word = 'giva' %c | word = 'kosta' %c | word = 'leda' %c | word = 'hända' %c]
