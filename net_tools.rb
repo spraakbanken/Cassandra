@@ -19,12 +19,12 @@ module Net
 end
 
 def clean_query(dirty)
-        dirty.gsub!("\"","\'") 
-        dirty.gsub!(" ","+")
-        clean = URI.escape(dirty)
-        clean.gsub!("+&+","+%26+")
-        return clean
-    end
+    dirty.gsub!("\"","\'") 
+    dirty.gsub!(" ","+")
+    clean = URI.escape(dirty)
+    clean.gsub!("+&+","+%26+")
+    return clean
+end
     
 def process_query(clean, filename, corpus, counter, searchyear = "", searchmonth = "", verbose = true)
     uri = URI(clean)

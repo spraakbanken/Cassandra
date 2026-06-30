@@ -32,9 +32,6 @@ var_output = outhash["var_output"]
 maincorpus = corpus_and_label.split("-")[0]
 label = corpus_and_label.split("-")[1..-1].join("-")
 
-
-
-
 #STDERR.puts corpus_and_label
 if !ARGV.include?("--nolabel")
     corpus = read_corpus_label(corpus_and_label)
@@ -47,9 +44,13 @@ end
 
 if ARGV.include?("nyordslistor")
     outputdir = "#{var_output}variables\\nyordslistor2"
+elsif ARGV.include?("wellander")
+    outputdir = "#{var_output}variables\\wellander"
 else
     outputdir = "#{var_output}variables"
 end
+
+
 
 if !Dir.exist?(outputdir)
     Dir.mkdir(outputdir)
@@ -57,7 +58,7 @@ end
 
 if variable.to_s != ""
     variable_as_dirname = variable.gsub(":","_colon_")
-    if granularity != "y"
+    if granularity != "y" and query != "statistics"
         variable_as_dirname = "#{variable_as_dirname}-----#{granularity}"
     end
     
@@ -92,6 +93,8 @@ elsif query == "authors"
     else
         filename = "#{query}\\#{maincorpus}\\#{label}"
     end
+elsif query == "statistics"
+    filename = "#{outputdir}\\#{variable_as_dirname}\\#{maincorpus}\\#{label}\\#{query}"
 end
 
 #STDERR.puts corpus_and_label
@@ -101,7 +104,7 @@ start_to_finish = get_years(corpus_and_label,nolabel)
 
 
 useradd = ""
-if username != "" and username != "all_users"
+if username != "" and username != "all_users" and query != "statistics"
     if variable != "total" and variable != "empty" and variable != "authors" #all posts of the same user
         useradd = "+&+_.text_username+=+'#{username}'"
     else
@@ -148,7 +151,10 @@ elsif query == "authors"
         safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/struct_values?corpus=#{corpus}&struct=text_username>text_date&count=true")
     end
 
-    
+elsif query == "statistics"
+    variant1, variant2 = read_in_variable(variable,useradd,nvariants,variable_source)
+    p = URI::Parser.new
+    safe_uri = p.escape("https://ws.spraakbanken.gu.se/ws/korp/v8/count?corpus=#{corpus}&cqp=(#{variant1})&group_by=word")
 end
 
 safe_uri.gsub!("+&+","+%26+")
@@ -286,6 +292,21 @@ elsif query == "authors"
         sorted.each do |pair|
             o2.puts "#{pair[0]}\t#{pair[1]}"
         end
+    end
+elsif query == "statistics"
+    o.puts "verb2\tabs\tipm"
+    rows = data_hash["combined"]["rows"]
+    hashforsorting = Hash.new{|hash, key| hash[key] = Array.new}
+    rows.each do |row|
+        value = row["value"]
+        words = value["word"]
+        verb2 = words[-1]
+        abs = row["absolute"]
+        ipm = row["relative"]
+        hashforsorting[abs] << "#{verb2}\t#{abs}\t#{ipm}"
+    end
+    hashforsorting.keys.sort.reverse.each do |abs|
+        o.puts hashforsorting[abs]
     end
 end
 

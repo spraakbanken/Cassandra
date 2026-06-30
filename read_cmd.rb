@@ -153,8 +153,16 @@ def process_cmd
             if ARGV.include?("--year")
                 year_for_authors = ARGV[ARGV.index("--year") + 1].to_i
             end
+        elsif query == "statistics"
+            if !ARGV.include?("--variable")
+                abort "Cassandra says: variable not specified, must be specified if qtype == statistics"
+            else    
+                variable = ARGV[ARGV.index("--variable") + 1]
+                nvariants = 1
+                variable_source = "korp_queries.rb"
+            end
         else 
-            abort "Cassandra says: unknown qtype, must be \"time\" or \"authors\""
+            abort "Cassandra says: unknown qtype, must be \"time\" or \"authors\", or \"statistics\""
         end
         if ARGV.include?("--local")
             only_process_local = true
