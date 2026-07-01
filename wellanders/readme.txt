@@ -37,5 +37,6 @@ Tested that for some verbs, see:
 Problem: data available only up to 1926. 
 Solution: use the bookable computer at our university library which gives full access. It is possible to email the results from there, so should be OK.
 Problem: some queries will be adjusted wrt historical variants (taga, hava, bliva, giva osv). Plural forms?
+Problem: OCR on historical newspapers might be quite bad. Some kind of evaluation desirable.
 
 7. Mediesök: leave for now.
