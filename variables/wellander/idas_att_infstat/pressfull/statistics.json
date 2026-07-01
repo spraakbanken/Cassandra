@@ -374,25 +374,6 @@
 "relative": 0.052454715450741006
 }
 },
-"WEBBNYHETER2011": {
-"rows": [
-{
-"value": {
-"word": [
-"ids",
-"att",
-"se"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.038068259663446895
-}
-},
 "WEBBNYHETER2002": {
 "rows": [
 {
@@ -410,6 +391,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.05738494619558752
+}
+},
+"WEBBNYHETER2011": {
+"rows": [
+{
+"value": {
+"word": [
+"ids",
+"att",
+"se"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.038068259663446895
 }
 }
 },
@@ -443,7 +443,7 @@
 "word": [
 "ids",
 "att",
-"se"
+"klaga"
 ]
 },
 "absolute": 1,
@@ -454,7 +454,7 @@
 "word": [
 "ids",
 "att",
-"klaga"
+"se"
 ]
 },
 "absolute": 1,
@@ -466,5 +466,5 @@
 "relative": 0.004930543057827299
 }
 },
-"time": 0.05748295783996582
+"time": 0.08468270301818848
 }

@@ -3990,91 +3990,6 @@
 "relative": 1.8243808653388716
 }
 },
-"PRESS98": {
-"rows": [
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"anstr\u00e4nga"
-]
-},
-"absolute": 2,
-"relative": 0.18620501973354248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"\u00e5ka"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"vara"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"h\u00e4lsa"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"fungera"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"anv\u00e4nda"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-}
-],
-"sums": {
-"absolute": 8,
-"relative": 0.74482007893417
-}
-},
 "SVT-2005": {
 "rows": [
 {
@@ -4169,6 +4084,91 @@
 "sums": {
 "absolute": 11,
 "relative": 3.3326809357925704
+}
+},
+"PRESS98": {
+"rows": [
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"anstr\u00e4nga"
+]
+},
+"absolute": 2,
+"relative": 0.18620501973354248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"\u00e5ka"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"h\u00e4lsa"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"fungera"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"anv\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+}
+],
+"sums": {
+"absolute": 8,
+"relative": 0.74482007893417
 }
 },
 "SVT-2006": {
@@ -6000,6 +6000,245 @@
 "relative": 1.0416606988189132
 }
 },
+"SVT-2017": {
+"rows": [
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"fungera"
+]
+},
+"absolute": 2,
+"relative": 0.09447676993371275
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"t\u00f6mma"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"s\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"spela"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"skriva"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"skaka"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"r\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"rida"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"parkera"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"l\u00e4sa"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"konsumera"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"kommunicera"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"jaga"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"fiska"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"falla"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"exkludera"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"Slutar",
+"att",
+"dricka"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"arbeta"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"anv\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+}
+],
+"sums": {
+"absolute": 22,
+"relative": 1.0392444692708405
+}
+},
 "SVT-2016": {
 "rows": [
 {
@@ -6303,245 +6542,6 @@
 "sums": {
 "absolute": 37,
 "relative": 1.703349369523647
-}
-},
-"SVT-2017": {
-"rows": [
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"fungera"
-]
-},
-"absolute": 2,
-"relative": 0.09447676993371275
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"\u00f6ka"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"t\u00f6mma"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"s\u00f6ka"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"spela"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"skriva"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"skaka"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"r\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"rida"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"parkera"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"l\u00e4sa"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"konsumera"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"kommunicera"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"jaga"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"ge"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"fiska"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"falla"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"exkludera"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"Slutar",
-"att",
-"dricka"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"arbeta"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"anv\u00e4nda"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-}
-],
-"sums": {
-"absolute": 22,
-"relative": 1.0392444692708405
 }
 },
 "SVT-2018": {
@@ -7077,179 +7077,6 @@
 "relative": 1.5341235092154804
 }
 },
-"SVT-2021": {
-"rows": [
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"spela"
-]
-},
-"absolute": 3,
-"relative": 0.20053848594245266
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"g\u00e5"
-]
-},
-"absolute": 2,
-"relative": 0.1336923239616351
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"utreda"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"tv\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"stiga"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"producera"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"prata"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"kunna"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"jobba"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"g\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"fungera"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"forska"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"erbjuda"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"br\u00e4nna"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"bryta"
-]
-},
-"absolute": 1,
-"relative": 0.06684616198081755
-}
-],
-"sums": {
-"absolute": 18,
-"relative": 1.2032309156547165
-}
-},
 "SVT-2020": {
 "rows": [
 {
@@ -7454,6 +7281,179 @@
 "sums": {
 "absolute": 27,
 "relative": 1.6875935559677588
+}
+},
+"SVT-2021": {
+"rows": [
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"spela"
+]
+},
+"absolute": 3,
+"relative": 0.20053848594245266
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"g\u00e5"
+]
+},
+"absolute": 2,
+"relative": 0.1336923239616351
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"utreda"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"tv\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"stiga"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"producera"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"prata"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"kunna"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"jobba"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"g\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"fungera"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"forska"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"erbjuda"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"br\u00e4nna"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"bryta"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+}
+],
+"sums": {
+"absolute": 18,
+"relative": 1.2032309156547165
 }
 },
 "SVT-2022": {
@@ -10269,355 +10269,6 @@
 "relative": 1.7224302045024587
 }
 },
-"WEBBNYHETER2011": {
-"rows": [
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"fungera"
-]
-},
-"absolute": 6,
-"relative": 0.22840955798068135
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"betala"
-]
-},
-"absolute": 4,
-"relative": 0.15227303865378758
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"l\u00e5na"
-]
-},
-"absolute": 2,
-"relative": 0.07613651932689379
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"flyga"
-]
-},
-"absolute": 2,
-"relative": 0.07613651932689379
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"beskjuta"
-]
-},
-"absolute": 2,
-"relative": 0.07613651932689379
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"vara"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"vaccinera"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"t\u00e4nka"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"tr\u00e4na"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"tillverka"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"tala"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"spela"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"spegla"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"sl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"sk\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"skriva"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"skada"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"sjunka"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"se"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"rotera"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"maskera"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"leverera"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"k\u00f6pa"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"g\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"falla"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"dra"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"diskriminera"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"darra"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"blomma"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"anm\u00e4la"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-}
-],
-"sums": {
-"absolute": 42,
-"relative": 1.59886690586477
-}
-},
 "WEBBNYHETER2012": {
 "rows": [
 {
@@ -10998,6 +10649,355 @@
 "sums": {
 "absolute": 42,
 "relative": 1.671173463388827
+}
+},
+"WEBBNYHETER2011": {
+"rows": [
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"fungera"
+]
+},
+"absolute": 6,
+"relative": 0.22840955798068135
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"betala"
+]
+},
+"absolute": 4,
+"relative": 0.15227303865378758
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"l\u00e5na"
+]
+},
+"absolute": 2,
+"relative": 0.07613651932689379
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"flyga"
+]
+},
+"absolute": 2,
+"relative": 0.07613651932689379
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"beskjuta"
+]
+},
+"absolute": 2,
+"relative": 0.07613651932689379
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"vaccinera"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"t\u00e4nka"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"tr\u00e4na"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"tillverka"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"tala"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"spela"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"spegla"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"sk\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"skriva"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"skada"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"sjunka"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"se"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"rotera"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"maskera"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"leverera"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"k\u00f6pa"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"g\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"falla"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"dra"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"diskriminera"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"darra"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"blomma"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"anm\u00e4la"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+}
+],
+"sums": {
+"absolute": 42,
+"relative": 1.59886690586477
 }
 },
 "WEBBNYHETER2013": {
@@ -13558,17 +13558,6 @@
 "word": [
 "slutar",
 "att",
-"h\u00e4lsa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
 "t\u00e4vla"
 ]
 },
@@ -13603,6 +13592,17 @@
 "slutar",
 "att",
 "para"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"h\u00e4lsa"
 ]
 },
 "absolute": 1,
@@ -14194,83 +14194,6 @@
 {
 "value": {
 "word": [
-"Slutar",
-"att",
-"twittra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"sommarjobba"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"skydda"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"kommunicera"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"hyra"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"annonsera"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"anlita"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
 "slutar",
 "att",
 "t\u00f6mma"
@@ -14317,6 +14240,17 @@
 "word": [
 "slutar",
 "att",
+"kommunicera"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
 "fiska"
 ]
 },
@@ -14340,6 +14274,72 @@
 "Slutar",
 "att",
 "dricka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"Slutar",
+"att",
+"twittra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"sommarjobba"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"skydda"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"hyra"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"annonsera"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"anlita"
 ]
 },
 "absolute": 1,
@@ -14471,11 +14471,44 @@
 "word": [
 "slutar",
 "att",
+"\u00f6verraska"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
 "utreda"
 ]
 },
 "absolute": 3,
 "relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"visa"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"syres\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -14505,39 +14538,6 @@
 "slutar",
 "att",
 "br\u00e4nna"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"\u00f6verraska"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"visa"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"syres\u00e4tta"
 ]
 },
 "absolute": 1,
@@ -15373,72 +15373,6 @@
 "word": [
 "slutar",
 "att",
-"vaccinera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"spegla"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"sk\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"rotera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"maskera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
-"darra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"slutar",
-"att",
 "uppmuntra"
 ]
 },
@@ -15516,6 +15450,72 @@
 "word": [
 "slutar",
 "att",
+"vaccinera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"spegla"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"sk\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"rotera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"maskera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
+"darra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"slutar",
+"att",
 "uppvakta"
 ]
 },
@@ -15572,5 +15572,5 @@
 "relative": 1.5469578843933154
 }
 },
-"time": 0.12337899208068848
+"time": 0.26532506942749023
 }

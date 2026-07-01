@@ -164,44 +164,6 @@
 "relative": 0.5417682753067004
 }
 },
-"GP2002": {
-"rows": [
-{
-"value": {
-"word": [
-"planerar",
-"bygga"
-]
-},
-"absolute": 2,
-"relative": 0.09494745655228125
-},
-{
-"value": {
-"word": [
-"Planerar",
-"investera"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"planerar",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-}
-],
-"sums": {
-"absolute": 4,
-"relative": 0.1898949131045625
-}
-},
 "GP2003": {
 "rows": [
 {
@@ -280,7 +242,7 @@
 "relative": 0.5770018699581511
 }
 },
-"GP2004": {
+"GP2002": {
 "rows": [
 {
 "value": {
@@ -290,72 +252,32 @@
 ]
 },
 "absolute": 2,
-"relative": 0.08948455776172276
+"relative": 0.09494745655228125
+},
+{
+"value": {
+"word": [
+"Planerar",
+"investera"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
 },
 {
 "value": {
 "word": [
 "planerar",
-"Trygghansa"
+"g\u00f6ra"
 ]
 },
 "absolute": 1,
-"relative": 0.04474227888086138
-},
-{
-"value": {
-"word": [
-"planerar",
-"sk\u00e4ra"
-]
-},
-"absolute": 1,
-"relative": 0.04474227888086138
-},
-{
-"value": {
-"word": [
-"planerar",
-"resa"
-]
-},
-"absolute": 1,
-"relative": 0.04474227888086138
-},
-{
-"value": {
-"word": [
-"planerar",
-"l\u00e4gga"
-]
-},
-"absolute": 1,
-"relative": 0.04474227888086138
-},
-{
-"value": {
-"word": [
-"planerar",
-"fira"
-]
-},
-"absolute": 1,
-"relative": 0.04474227888086138
-},
-{
-"value": {
-"word": [
-"planerar",
-"anst\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.04474227888086138
+"relative": 0.047473728276140624
 }
 ],
 "sums": {
-"absolute": 8,
-"relative": 0.35793823104689104
+"absolute": 4,
+"relative": 0.1898949131045625
 }
 },
 "GP2005": {
@@ -464,6 +386,84 @@
 "sums": {
 "absolute": 11,
 "relative": 0.47508271082022024
+}
+},
+"GP2004": {
+"rows": [
+{
+"value": {
+"word": [
+"planerar",
+"bygga"
+]
+},
+"absolute": 2,
+"relative": 0.08948455776172276
+},
+{
+"value": {
+"word": [
+"planerar",
+"Trygghansa"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"planerar",
+"sk\u00e4ra"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"planerar",
+"resa"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"planerar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"planerar",
+"fira"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"planerar",
+"anst\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+}
+],
+"sums": {
+"absolute": 8,
+"relative": 0.35793823104689104
 }
 },
 "GP2006": {
@@ -752,6 +752,74 @@
 "relative": 1.0749947513381268
 }
 },
+"GP2008": {
+"rows": [
+{
+"value": {
+"word": [
+"planerar",
+"ta"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"planerar",
+"flytta"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"planerar",
+"l\u00e5ta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"planerar",
+"dra"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"planerar",
+"byta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"planerar",
+"bes\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+}
+],
+"sums": {
+"absolute": 8,
+"relative": 0.47107901649771705
+}
+},
 "GP2009": {
 "rows": [
 {
@@ -830,72 +898,92 @@
 "relative": 0.5185811067765413
 }
 },
-"GP2008": {
+"GP2011": {
 "rows": [
 {
 "value": {
 "word": [
 "planerar",
-"ta"
+"s\u00e4nda"
 ]
 },
 "absolute": 2,
-"relative": 0.11776975412442928
+"relative": 0.10030899684934456
 },
 {
 "value": {
 "word": [
 "planerar",
-"flytta"
+"st\u00f6rta"
 ]
 },
 "absolute": 2,
-"relative": 0.11776975412442928
+"relative": 0.10030899684934456
 },
 {
 "value": {
 "word": [
 "planerar",
-"l\u00e5ta"
+"skaffa"
 ]
 },
-"absolute": 1,
-"relative": 0.05888487706221464
+"absolute": 2,
+"relative": 0.10030899684934456
 },
 {
 "value": {
 "word": [
 "planerar",
-"dra"
+"muta"
 ]
 },
-"absolute": 1,
-"relative": 0.05888487706221464
+"absolute": 2,
+"relative": 0.10030899684934456
 },
 {
 "value": {
 "word": [
 "planerar",
-"byta"
+"avg\u00e5"
 ]
 },
-"absolute": 1,
-"relative": 0.05888487706221464
+"absolute": 2,
+"relative": 0.10030899684934456
 },
 {
 "value": {
 "word": [
 "planerar",
-"bes\u00f6ka"
+"upprusta"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.05015449842467228
+},
+{
+"value": {
+"word": [
+"planerar",
+"bygga"
+]
+},
+"absolute": 1,
+"relative": 0.05015449842467228
+},
+{
+"value": {
+"word": [
+"planerar",
+"bekosta"
+]
+},
+"absolute": 1,
+"relative": 0.05015449842467228
 }
 ],
 "sums": {
-"absolute": 8,
-"relative": 0.47107901649771705
+"absolute": 13,
+"relative": 0.6520084795207395
 }
 },
 "GP2010": {
@@ -1006,68 +1094,8 @@
 "relative": 0.697225883465085
 }
 },
-"GP2011": {
+"GP2012": {
 "rows": [
-{
-"value": {
-"word": [
-"planerar",
-"s\u00e4nda"
-]
-},
-"absolute": 2,
-"relative": 0.10030899684934456
-},
-{
-"value": {
-"word": [
-"planerar",
-"st\u00f6rta"
-]
-},
-"absolute": 2,
-"relative": 0.10030899684934456
-},
-{
-"value": {
-"word": [
-"planerar",
-"skaffa"
-]
-},
-"absolute": 2,
-"relative": 0.10030899684934456
-},
-{
-"value": {
-"word": [
-"planerar",
-"muta"
-]
-},
-"absolute": 2,
-"relative": 0.10030899684934456
-},
-{
-"value": {
-"word": [
-"planerar",
-"avg\u00e5"
-]
-},
-"absolute": 2,
-"relative": 0.10030899684934456
-},
-{
-"value": {
-"word": [
-"planerar",
-"upprusta"
-]
-},
-"absolute": 1,
-"relative": 0.05015449842467228
-},
 {
 "value": {
 "word": [
@@ -1075,23 +1103,33 @@
 "bygga"
 ]
 },
-"absolute": 1,
-"relative": 0.05015449842467228
+"absolute": 2,
+"relative": 0.11653626937918042
 },
 {
 "value": {
 "word": [
 "planerar",
-"bekosta"
+"st\u00e4mma"
 ]
 },
 "absolute": 1,
-"relative": 0.05015449842467228
+"relative": 0.05826813468959021
+},
+{
+"value": {
+"word": [
+"planerar",
+"kidnappa"
+]
+},
+"absolute": 1,
+"relative": 0.05826813468959021
 }
 ],
 "sums": {
-"absolute": 13,
-"relative": 0.6520084795207395
+"absolute": 4,
+"relative": 0.23307253875836084
 }
 },
 "GP2013": {
@@ -1160,44 +1198,6 @@
 "sums": {
 "absolute": 12,
 "relative": 0.711235740686531
-}
-},
-"GP2012": {
-"rows": [
-{
-"value": {
-"word": [
-"planerar",
-"bygga"
-]
-},
-"absolute": 2,
-"relative": 0.11653626937918042
-},
-{
-"value": {
-"word": [
-"planerar",
-"st\u00e4mma"
-]
-},
-"absolute": 1,
-"relative": 0.05826813468959021
-},
-{
-"value": {
-"word": [
-"planerar",
-"kidnappa"
-]
-},
-"absolute": 1,
-"relative": 0.05826813468959021
-}
-],
-"sums": {
-"absolute": 4,
-"relative": 0.23307253875836084
 }
 },
 "PRESS76": {
@@ -1296,54 +1296,6 @@
 "relative": 0.9124444386511464
 }
 },
-"PRESS96": {
-"rows": [
-{
-"value": {
-"word": [
-"planerar",
-"s\u00e4nda"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"planerar",
-"s\u00e4lja"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"planerar",
-"l\u00e4gga"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"planerar",
-"byta"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-}
-],
-"sums": {
-"absolute": 4,
-"relative": 0.6138707157579079
-}
-},
 "PRESS97": {
 "rows": [
 {
@@ -1440,6 +1392,54 @@
 "sums": {
 "absolute": 11,
 "relative": 0.8027275807491041
+}
+},
+"PRESS96": {
+"rows": [
+{
+"value": {
+"word": [
+"planerar",
+"s\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"planerar",
+"s\u00e4lja"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"planerar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"planerar",
+"byta"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+}
+],
+"sums": {
+"absolute": 4,
+"relative": 0.6138707157579079
 }
 },
 "PRESS98": {
@@ -1764,6 +1764,114 @@
 "relative": 0.7899798950116719
 }
 },
+"SVT-2011": {
+"rows": [
+{
+"value": {
+"word": [
+"planerar",
+"minska"
+]
+},
+"absolute": 2,
+"relative": 0.21442974981194513
+},
+{
+"value": {
+"word": [
+"planerar",
+"uppf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"planerar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"planerar",
+"s\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"planerar",
+"nyanst\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"planerar",
+"k\u00f6pa"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"planerar",
+"h\u00e5lla"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"planerar",
+"genomdriva"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"planerar",
+"bygga"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"planerar",
+"anst\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+}
+],
+"sums": {
+"absolute": 11,
+"relative": 1.1793636239656982
+}
+},
 "SVT-2010": {
 "rows": [
 {
@@ -1912,87 +2020,87 @@
 "relative": 1.8230927512616808
 }
 },
-"SVT-2011": {
+"SVT-2012": {
 "rows": [
 {
 "value": {
 "word": [
 "planerar",
-"minska"
+"inf\u00f6ra"
+]
+},
+"absolute": 3,
+"relative": 0.3143802229689335
+},
+{
+"value": {
+"word": [
+"planerar",
+"\u00f6ppna"
 ]
 },
 "absolute": 2,
-"relative": 0.21442974981194513
+"relative": 0.2095868153126223
 },
 {
 "value": {
 "word": [
 "planerar",
-"uppf\u00f6ra"
+"ge"
 ]
 },
-"absolute": 1,
-"relative": 0.10721487490597256
+"absolute": 2,
+"relative": 0.2095868153126223
 },
 {
 "value": {
 "word": [
 "planerar",
-"ta"
+"tillvarata"
 ]
 },
 "absolute": 1,
-"relative": 0.10721487490597256
+"relative": 0.10479340765631115
 },
 {
 "value": {
 "word": [
 "planerar",
-"s\u00e4tta"
+"s\u00e4nka"
 ]
 },
 "absolute": 1,
-"relative": 0.10721487490597256
+"relative": 0.10479340765631115
 },
 {
 "value": {
 "word": [
 "planerar",
-"nyanst\u00e4lla"
+"starta"
 ]
 },
 "absolute": 1,
-"relative": 0.10721487490597256
+"relative": 0.10479340765631115
 },
 {
 "value": {
 "word": [
 "planerar",
-"k\u00f6pa"
+"komma"
 ]
 },
 "absolute": 1,
-"relative": 0.10721487490597256
+"relative": 0.10479340765631115
 },
 {
 "value": {
 "word": [
 "planerar",
-"h\u00e5lla"
+"investera"
 ]
 },
 "absolute": 1,
-"relative": 0.10721487490597256
-},
-{
-"value": {
-"word": [
-"planerar",
-"genomdriva"
-]
-},
-"absolute": 1,
-"relative": 0.10721487490597256
+"relative": 0.10479340765631115
 },
 {
 "value": {
@@ -2002,22 +2110,22 @@
 ]
 },
 "absolute": 1,
-"relative": 0.10721487490597256
+"relative": 0.10479340765631115
 },
 {
 "value": {
 "word": [
 "planerar",
-"anst\u00e4lla"
+"bli"
 ]
 },
 "absolute": 1,
-"relative": 0.10721487490597256
+"relative": 0.10479340765631115
 }
 ],
 "sums": {
-"absolute": 11,
-"relative": 1.1793636239656982
+"absolute": 14,
+"relative": 1.4671077071883558
 }
 },
 "SVT-2013": {
@@ -2166,114 +2274,6 @@
 "sums": {
 "absolute": 16,
 "relative": 1.1463088425404384
-}
-},
-"SVT-2012": {
-"rows": [
-{
-"value": {
-"word": [
-"planerar",
-"inf\u00f6ra"
-]
-},
-"absolute": 3,
-"relative": 0.3143802229689335
-},
-{
-"value": {
-"word": [
-"planerar",
-"\u00f6ppna"
-]
-},
-"absolute": 2,
-"relative": 0.2095868153126223
-},
-{
-"value": {
-"word": [
-"planerar",
-"ge"
-]
-},
-"absolute": 2,
-"relative": 0.2095868153126223
-},
-{
-"value": {
-"word": [
-"planerar",
-"tillvarata"
-]
-},
-"absolute": 1,
-"relative": 0.10479340765631115
-},
-{
-"value": {
-"word": [
-"planerar",
-"s\u00e4nka"
-]
-},
-"absolute": 1,
-"relative": 0.10479340765631115
-},
-{
-"value": {
-"word": [
-"planerar",
-"starta"
-]
-},
-"absolute": 1,
-"relative": 0.10479340765631115
-},
-{
-"value": {
-"word": [
-"planerar",
-"komma"
-]
-},
-"absolute": 1,
-"relative": 0.10479340765631115
-},
-{
-"value": {
-"word": [
-"planerar",
-"investera"
-]
-},
-"absolute": 1,
-"relative": 0.10479340765631115
-},
-{
-"value": {
-"word": [
-"planerar",
-"bygga"
-]
-},
-"absolute": 1,
-"relative": 0.10479340765631115
-},
-{
-"value": {
-"word": [
-"planerar",
-"bli"
-]
-},
-"absolute": 1,
-"relative": 0.10479340765631115
-}
-],
-"sums": {
-"absolute": 14,
-"relative": 1.4671077071883558
 }
 },
 "SVT-2014": {
@@ -2612,154 +2612,6 @@
 "relative": 0.9374946289370218
 }
 },
-"SVT-2016": {
-"rows": [
-{
-"value": {
-"word": [
-"planerar",
-"st\u00e4nga"
-]
-},
-"absolute": 3,
-"relative": 0.13810940833975505
-},
-{
-"value": {
-"word": [
-"planerar",
-"bygga"
-]
-},
-"absolute": 2,
-"relative": 0.09207293889317003
-},
-{
-"value": {
-"word": [
-"planerar",
-"utrymma"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"planerar",
-"s\u00e4nka"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"planerar",
-"st\u00e4mma"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"planerar",
-"ratificera"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"Planerar",
-"plantera"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"planerar",
-"inf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"planerar",
-"h\u00e5lla"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"Planerar",
-"f\u00f6rst\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"Planerar",
-"f\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"planerar",
-"f\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"Planerar",
-"bel\u00e4gra"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"planerar",
-"anv\u00e4nda"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-}
-],
-"sums": {
-"absolute": 17,
-"relative": 0.7826199805919453
-}
-},
 "SVT-2017": {
 "rows": [
 {
@@ -2916,6 +2768,154 @@
 "sums": {
 "absolute": 17,
 "relative": 0.8030525444365585
+}
+},
+"SVT-2016": {
+"rows": [
+{
+"value": {
+"word": [
+"planerar",
+"st\u00e4nga"
+]
+},
+"absolute": 3,
+"relative": 0.13810940833975505
+},
+{
+"value": {
+"word": [
+"planerar",
+"bygga"
+]
+},
+"absolute": 2,
+"relative": 0.09207293889317003
+},
+{
+"value": {
+"word": [
+"planerar",
+"utrymma"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"planerar",
+"s\u00e4nka"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"planerar",
+"st\u00e4mma"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"planerar",
+"ratificera"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"Planerar",
+"plantera"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"planerar",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"planerar",
+"h\u00e5lla"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"Planerar",
+"f\u00f6rst\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"Planerar",
+"f\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"planerar",
+"f\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"Planerar",
+"bel\u00e4gra"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"planerar",
+"anv\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+}
+],
+"sums": {
+"absolute": 17,
+"relative": 0.7826199805919453
 }
 },
 "SVT-2018": {
@@ -3896,54 +3896,6 @@
 "relative": 0.8006047234344341
 }
 },
-"WEBBNYHETER2003": {
-"rows": [
-{
-"value": {
-"word": [
-"planerar",
-"vara"
-]
-},
-"absolute": 2,
-"relative": 0.16370245180436116
-},
-{
-"value": {
-"word": [
-"planerar",
-"resa"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"Planerar",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"planerar",
-"Fly"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-}
-],
-"sums": {
-"absolute": 5,
-"relative": 0.4092561295109029
-}
-},
 "WEBBNYHETER2002": {
 "rows": [
 {
@@ -4012,32 +3964,52 @@
 "relative": 0.3443096771735251
 }
 },
-"WEBBNYHETER2004": {
+"WEBBNYHETER2003": {
 "rows": [
 {
 "value": {
 "word": [
 "planerar",
-"l\u00e4gga"
+"vara"
 ]
 },
-"absolute": 3,
-"relative": 0.217291743790146
+"absolute": 2,
+"relative": 0.16370245180436116
 },
 {
 "value": {
 "word": [
 "planerar",
-"inr\u00e4tta"
+"resa"
 ]
 },
 "absolute": 1,
-"relative": 0.072430581263382
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"Planerar",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"planerar",
+"Fly"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
 }
 ],
 "sums": {
-"absolute": 4,
-"relative": 0.289722325053528
+"absolute": 5,
+"relative": 0.4092561295109029
 }
 },
 "WEBBNYHETER2005": {
@@ -4118,82 +4090,32 @@
 "relative": 0.44062349308883747
 }
 },
-"WEBBNYHETER2007": {
+"WEBBNYHETER2004": {
 "rows": [
 {
 "value": {
 "word": [
 "planerar",
-"ta"
+"l\u00e4gga"
 ]
 },
-"absolute": 2,
-"relative": 0.08120032595434845
+"absolute": 3,
+"relative": 0.217291743790146
 },
 {
 "value": {
 "word": [
 "planerar",
-"uttnyttja"
+"inr\u00e4tta"
 ]
 },
 "absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"planerar",
-"sl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"planerar",
-"kr\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"planerar",
-"byta"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"planerar",
-"bromsa"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"planerar",
-"besluta"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
+"relative": 0.072430581263382
 }
 ],
 "sums": {
-"absolute": 8,
-"relative": 0.3248013038173938
+"absolute": 4,
+"relative": 0.289722325053528
 }
 },
 "WEBBNYHETER2006": {
@@ -4292,6 +4214,84 @@
 "sums": {
 "absolute": 10,
 "relative": 0.4431879180591631
+}
+},
+"WEBBNYHETER2007": {
+"rows": [
+{
+"value": {
+"word": [
+"planerar",
+"ta"
+]
+},
+"absolute": 2,
+"relative": 0.08120032595434845
+},
+{
+"value": {
+"word": [
+"planerar",
+"uttnyttja"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"planerar",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"planerar",
+"kr\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"planerar",
+"byta"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"planerar",
+"bromsa"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"planerar",
+"besluta"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+}
+],
+"sums": {
+"absolute": 8,
+"relative": 0.3248013038173938
 }
 },
 "WEBBNYHETER2008": {
@@ -4490,114 +4490,6 @@
 "relative": 0.30901418718897483
 }
 },
-"WEBBNYHETER2011": {
-"rows": [
-{
-"value": {
-"word": [
-"planerar",
-"avg\u00e5"
-]
-},
-"absolute": 3,
-"relative": 0.11420477899034068
-},
-{
-"value": {
-"word": [
-"planerar",
-"s\u00e4nda"
-]
-},
-"absolute": 2,
-"relative": 0.07613651932689379
-},
-{
-"value": {
-"word": [
-"planerar",
-"uppf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"planerar",
-"s\u00e4lja"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"planerar",
-"st\u00f6rta"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"planerar",
-"stoppa"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"planerar",
-"skaffa"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"planerar",
-"resa"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"planerar",
-"inf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-},
-{
-"value": {
-"word": [
-"planerar",
-"gifta"
-]
-},
-"absolute": 1,
-"relative": 0.038068259663446895
-}
-],
-"sums": {
-"absolute": 13,
-"relative": 0.49488737562480967
-}
-},
 "WEBBNYHETER2010": {
 "rows": [
 {
@@ -4724,6 +4616,114 @@
 "sums": {
 "absolute": 14,
 "relative": 0.5881468990984001
+}
+},
+"WEBBNYHETER2011": {
+"rows": [
+{
+"value": {
+"word": [
+"planerar",
+"avg\u00e5"
+]
+},
+"absolute": 3,
+"relative": 0.11420477899034068
+},
+{
+"value": {
+"word": [
+"planerar",
+"s\u00e4nda"
+]
+},
+"absolute": 2,
+"relative": 0.07613651932689379
+},
+{
+"value": {
+"word": [
+"planerar",
+"uppf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"planerar",
+"s\u00e4lja"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"planerar",
+"st\u00f6rta"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"planerar",
+"stoppa"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"planerar",
+"skaffa"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"planerar",
+"resa"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"planerar",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"planerar",
+"gifta"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+}
+],
+"sums": {
+"absolute": 13,
+"relative": 0.49488737562480967
 }
 },
 "WEBBNYHETER2012": {
@@ -5029,26 +5029,6 @@
 {
 "value": {
 "word": [
-"Planerar",
-"investera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"g\u00f6ra"
-]
-},
-"absolute": 17,
-"relative": 0.020954807995766024
-},
-{
-"value": {
-"word": [
 "planerar",
 "ta"
 ]
@@ -5099,8 +5079,8 @@
 {
 "value": {
 "word": [
-"planerar",
-"Trygghansa"
+"Planerar",
+"investera"
 ]
 },
 "absolute": 1,
@@ -5110,31 +5090,11 @@
 "value": {
 "word": [
 "planerar",
-"l\u00e4gga"
+"g\u00f6ra"
 ]
 },
-"absolute": 20,
-"relative": 0.0246527152891365
-},
-{
-"value": {
-"word": [
-"planerar",
-"fira"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"anst\u00e4lla"
-]
-},
-"absolute": 9,
-"relative": 0.011093721880111424
+"absolute": 17,
+"relative": 0.020954807995766024
 },
 {
 "value": {
@@ -5205,6 +5165,46 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"Trygghansa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"l\u00e4gga"
+]
+},
+"absolute": 20,
+"relative": 0.0246527152891365
+},
+{
+"value": {
+"word": [
+"planerar",
+"fira"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"anst\u00e4lla"
+]
+},
+"absolute": 9,
+"relative": 0.011093721880111424
 },
 {
 "value": {
@@ -5360,26 +5360,6 @@
 "value": {
 "word": [
 "planerar",
-"\u00e5terv\u00e4nda"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"h\u00f6ja"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"planerar",
 "l\u00e5ta"
 ]
 },
@@ -5410,7 +5390,7 @@
 "value": {
 "word": [
 "planerar",
-"utf\u00f6ra"
+"\u00e5terv\u00e4nda"
 ]
 },
 "absolute": 1,
@@ -5420,21 +5400,11 @@
 "value": {
 "word": [
 "planerar",
-"Paloma"
+"h\u00f6ja"
 ]
 },
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"introducera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
+"absolute": 3,
+"relative": 0.003697907293370475
 },
 {
 "value": {
@@ -5491,6 +5461,36 @@
 "word": [
 "planerar",
 "bekosta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"utf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"Paloma"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"introducera"
 ]
 },
 "absolute": 1,
@@ -5780,6 +5780,36 @@
 "value": {
 "word": [
 "planerar",
+"uppf\u00f6ra"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"planerar",
+"nyanst\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"genomdriva"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
 "utveckla"
 ]
 },
@@ -5830,17 +5860,7 @@
 "value": {
 "word": [
 "planerar",
-"uppf\u00f6ra"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"planerar",
-"nyanst\u00e4lla"
+"tillvarata"
 ]
 },
 "absolute": 1,
@@ -5850,7 +5870,7 @@
 "value": {
 "word": [
 "planerar",
-"genomdriva"
+"bli"
 ]
 },
 "absolute": 1,
@@ -5891,26 +5911,6 @@
 "word": [
 "planerar",
 "b\u00e4nka"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"tillvarata"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"bli"
 ]
 },
 "absolute": 1,
@@ -6050,6 +6050,46 @@
 "value": {
 "word": [
 "planerar",
+"vara"
+]
+},
+"absolute": 4,
+"relative": 0.004930543057827299
+},
+{
+"value": {
+"word": [
+"Planerar",
+"st\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"bilda"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"attackera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
 "utrymma"
 ]
 },
@@ -6125,46 +6165,6 @@
 },
 "absolute": 2,
 "relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"planerar",
-"vara"
-]
-},
-"absolute": 4,
-"relative": 0.004930543057827299
-},
-{
-"value": {
-"word": [
-"Planerar",
-"st\u00e4nga"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"bilda"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"attackera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -6560,36 +6560,6 @@
 "value": {
 "word": [
 "planerar",
-"uttnyttja"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"kr\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
-"bromsa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"planerar",
 "tillbringa"
 ]
 },
@@ -6630,7 +6600,7 @@
 "value": {
 "word": [
 "planerar",
-"p\u00e5tvinga"
+"uttnyttja"
 ]
 },
 "absolute": 1,
@@ -6640,7 +6610,27 @@
 "value": {
 "word": [
 "planerar",
-"gifta"
+"kr\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"bromsa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"p\u00e5tvinga"
 ]
 },
 "absolute": 1,
@@ -6661,6 +6651,16 @@
 "word": [
 "planerar",
 "bojkotta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"planerar",
+"gifta"
 ]
 },
 "absolute": 1,
@@ -6712,5 +6712,5 @@
 "relative": 0.6717864916289696
 }
 },
-"time": 0.10548543930053711
+"time": 0.18077921867370605
 }

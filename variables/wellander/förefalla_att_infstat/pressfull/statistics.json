@@ -233,36 +233,6 @@
 "relative": 0.40203701819022225
 }
 },
-"GP2004": {
-"rows": [
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"vara"
-]
-},
-"absolute": 1,
-"relative": 0.04474227888086138
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"k\u00e4mpa"
-]
-},
-"absolute": 1,
-"relative": 0.04474227888086138
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.08948455776172276
-}
-},
 "GP2003": {
 "rows": [
 {
@@ -302,6 +272,36 @@
 "sums": {
 "absolute": 4,
 "relative": 0.20981886180296402
+}
+},
+"GP2004": {
+"rows": [
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"k\u00e4mpa"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.08948455776172276
 }
 },
 "GP2005": {
@@ -419,25 +419,6 @@
 "relative": 0.26702919737298453
 }
 },
-"GP2008": {
-"rows": [
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"vara"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.11776975412442928
-}
-},
 "GP2007": {
 "rows": [
 {
@@ -499,6 +480,25 @@
 "sums": {
 "absolute": 7,
 "relative": 0.3762481629683443
+}
+},
+"GP2008": {
+"rows": [
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"vara"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.11776975412442928
 }
 },
 "GP2009": {
@@ -572,36 +572,6 @@
 "relative": 0.11620431391084747
 }
 },
-"GP2012": {
-"rows": [
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.05826813468959021
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"ha"
-]
-},
-"absolute": 1,
-"relative": 0.05826813468959021
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.11653626937918042
-}
-},
 "GP2011": {
 "rows": [
 {
@@ -630,6 +600,36 @@
 "sums": {
 "absolute": 2,
 "relative": 0.10030899684934456
+}
+},
+"GP2012": {
+"rows": [
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.05826813468959021
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"ha"
+]
+},
+"absolute": 1,
+"relative": 0.05826813468959021
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.11653626937918042
 }
 },
 "GP2013": {
@@ -1269,36 +1269,6 @@
 "relative": 0.09207293889317003
 }
 },
-"SVT-2019": {
-"rows": [
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"ha"
-]
-},
-"absolute": 1,
-"relative": 0.05479012532912428
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"garantera"
-]
-},
-"absolute": 1,
-"relative": 0.05479012532912428
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.10958025065824856
-}
-},
 "SVT-2017": {
 "rows": [
 {
@@ -1329,23 +1299,34 @@
 "relative": 0.14171515490056913
 }
 },
-"SVT-2021": {
+"SVT-2019": {
 "rows": [
 {
 "value": {
 "word": [
 "f\u00f6refaller",
 "att",
-"vara"
+"ha"
 ]
 },
 "absolute": 1,
-"relative": 0.06684616198081755
+"relative": 0.05479012532912428
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"garantera"
+]
+},
+"absolute": 1,
+"relative": 0.05479012532912428
 }
 ],
 "sums": {
-"absolute": 1,
-"relative": 0.06684616198081755
+"absolute": 2,
+"relative": 0.10958025065824856
 }
 },
 "SVT-2020": {
@@ -1376,6 +1357,25 @@
 "sums": {
 "absolute": 2,
 "relative": 0.12500693007168584
+}
+},
+"SVT-2021": {
+"rows": [
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 0.06684616198081755
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.06684616198081755
 }
 },
 "WEBBNYHETER2002": {
@@ -2052,6 +2052,69 @@
 "relative": 0.41875085629791586
 }
 },
+"WEBBNYHETER2012": {
+"rows": [
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"vara"
+]
+},
+"absolute": 3,
+"relative": 0.11936953309920192
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"ha"
+]
+},
+"absolute": 3,
+"relative": 0.11936953309920192
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"tappa"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"bli"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"acceptera"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+}
+],
+"sums": {
+"absolute": 9,
+"relative": 0.3581085992976058
+}
+},
 "WEBBNYHETER2013": {
 "rows": [
 {
@@ -2124,69 +2187,6 @@
 "sums": {
 "absolute": 13,
 "relative": 0.57398595006022
-}
-},
-"WEBBNYHETER2012": {
-"rows": [
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"vara"
-]
-},
-"absolute": 3,
-"relative": 0.11936953309920192
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"ha"
-]
-},
-"absolute": 3,
-"relative": 0.11936953309920192
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"tappa"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"bli"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"acceptera"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-}
-],
-"sums": {
-"absolute": 9,
-"relative": 0.3581085992976058
 }
 }
 },
@@ -2330,7 +2330,7 @@
 "word": [
 "f\u00f6refaller",
 "att",
-"k\u00e4mpa"
+"samtala"
 ]
 },
 "absolute": 1,
@@ -2341,7 +2341,7 @@
 "word": [
 "f\u00f6refaller",
 "att",
-"samtala"
+"k\u00e4mpa"
 ]
 },
 "absolute": 1,
@@ -2451,22 +2451,22 @@
 "word": [
 "f\u00f6refaller",
 "att",
-"ta"
+"v\u00e4xa"
 ]
 },
-"absolute": 3,
-"relative": 0.003697907293370475
+"absolute": 2,
+"relative": 0.0024652715289136496
 },
 {
 "value": {
 "word": [
 "f\u00f6refaller",
 "att",
-"v\u00e4xa"
+"ta"
 ]
 },
-"absolute": 2,
-"relative": 0.0024652715289136496
+"absolute": 3,
+"relative": 0.003697907293370475
 },
 {
 "value": {
@@ -2968,28 +2968,6 @@
 "word": [
 "f\u00f6refaller",
 "att",
-"\u00f6vertr\u00e4ffa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
-"sitta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"f\u00f6refaller",
-"att",
 "tappa"
 ]
 },
@@ -3006,6 +2984,28 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"\u00f6vertr\u00e4ffa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"f\u00f6refaller",
+"att",
+"sitta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 }
 ],
 "sums": {
@@ -3013,5 +3013,5 @@
 "relative": 0.3081589411142062
 }
 },
-"time": 0.18506908416748047
+"time": 0.18999576568603516
 }

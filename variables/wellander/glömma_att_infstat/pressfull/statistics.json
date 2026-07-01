@@ -1042,80 +1042,6 @@
 "relative": 0.6230681272036306
 }
 },
-"GP2008": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"st\u00e4nga"
-]
-},
-"absolute": 3,
-"relative": 0.17665463118664393
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"titta"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"sm\u00f6rja"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"rensa"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"deklarera"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-}
-],
-"sums": {
-"absolute": 9,
-"relative": 0.5299638935599317
-}
-},
 "GP2009": {
 "rows": [
 {
@@ -1289,6 +1215,187 @@
 "relative": 1.0371622135530827
 }
 },
+"GP2008": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"st\u00e4nga"
+]
+},
+"absolute": 3,
+"relative": 0.17665463118664393
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"titta"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"sm\u00f6rja"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"rensa"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"deklarera"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+}
+],
+"sums": {
+"absolute": 9,
+"relative": 0.5299638935599317
+}
+},
+"GP2010": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"tala"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"spela"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"l\u00e5sa"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"g\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"flyga"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"dra"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"checka"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"betala"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"anv\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+}
+],
+"sums": {
+"absolute": 9,
+"relative": 0.5229194125988137
+}
+},
 "GP2011": {
 "rows": [
 {
@@ -1427,113 +1534,6 @@
 "sums": {
 "absolute": 13,
 "relative": 0.6520084795207395
-}
-},
-"GP2010": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"tala"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"spela"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"l\u00e5sa"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"g\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"flyga"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"dra"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"checka"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"betala"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"anv\u00e4nda"
-]
-},
-"absolute": 1,
-"relative": 0.058102156955423735
-}
-],
-"sums": {
-"absolute": 9,
-"relative": 0.5229194125988137
 }
 },
 "GP2012": {
@@ -2309,47 +2309,6 @@
 "relative": 0.9098506935011963
 }
 },
-"SVT-2010": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"pausa"
-]
-},
-"absolute": 1,
-"relative": 0.10128293062564897
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"l\u00e5sa"
-]
-},
-"absolute": 1,
-"relative": 0.10128293062564897
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"betala"
-]
-},
-"absolute": 1,
-"relative": 0.10128293062564897
-}
-],
-"sums": {
-"absolute": 3,
-"relative": 0.3038487918769469
-}
-},
 "SVT-2009": {
 "rows": [
 {
@@ -2411,6 +2370,47 @@
 "sums": {
 "absolute": 6,
 "relative": 0.6771256242957188
+}
+},
+"SVT-2010": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"pausa"
+]
+},
+"absolute": 1,
+"relative": 0.10128293062564897
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"l\u00e5sa"
+]
+},
+"absolute": 1,
+"relative": 0.10128293062564897
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"betala"
+]
+},
+"absolute": 1,
+"relative": 0.10128293062564897
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.3038487918769469
 }
 },
 "SVT-2011": {
@@ -2731,113 +2731,6 @@
 "relative": 0.7464777911970986
 }
 },
-"SVT-2015": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"blinka"
-]
-},
-"absolute": 2,
-"relative": 0.1041660698818913
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"s\u00e4ga"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"st\u00e4nga"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"sl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"n\u00e4mna"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"l\u00e5sa"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"inleda"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"beg\u00e4ra"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-}
-],
-"sums": {
-"absolute": 10,
-"relative": 0.5208303494094564
-}
-},
 "SVT-2016": {
 "rows": [
 {
@@ -2954,6 +2847,198 @@
 "sums": {
 "absolute": 13,
 "relative": 0.5984741028056052
+}
+},
+"SVT-2015": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"blinka"
+]
+},
+"absolute": 2,
+"relative": 0.1041660698818913
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"s\u00e4ga"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"st\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"n\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"l\u00e5sa"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"inleda"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"beg\u00e4ra"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+}
+],
+"sums": {
+"absolute": 10,
+"relative": 0.5208303494094564
+}
+},
+"SVT-2017": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"ta"
+]
+},
+"absolute": 3,
+"relative": 0.1417151549005691
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"titta"
+]
+},
+"absolute": 2,
+"relative": 0.09447676993371275
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"sprita"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"sl\u00e4cka"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"prioritera"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"l\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"dra"
+]
+},
+"absolute": 1,
+"relative": 0.047238384966856374
+}
+],
+"sums": {
+"absolute": 10,
+"relative": 0.47238384966856384
 }
 },
 "SVT-2018": {
@@ -3083,91 +3168,6 @@
 "sums": {
 "absolute": 13,
 "relative": 0.6915936157610141
-}
-},
-"SVT-2017": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"ta"
-]
-},
-"absolute": 3,
-"relative": 0.1417151549005691
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"titta"
-]
-},
-"absolute": 2,
-"relative": 0.09447676993371275
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"sprita"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"sl\u00e4cka"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"prioritera"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"l\u00e4mna"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"dra"
-]
-},
-"absolute": 1,
-"relative": 0.047238384966856374
-}
-],
-"sums": {
-"absolute": 10,
-"relative": 0.47238384966856384
 }
 },
 "SVT-2019": {
@@ -3378,6 +3378,25 @@
 "relative": 0.28614343955717014
 }
 },
+"WEBBNYHETER2001": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 1.62826405883895
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 1.62826405883895
+}
+},
 "WEBBNYHETER2002": {
 "rows": [
 {
@@ -3562,55 +3581,6 @@
 "relative": 1.090313977716163
 }
 },
-"WEBBNYHETER2001": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"vara"
-]
-},
-"absolute": 1,
-"relative": 1.62826405883895
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 1.62826405883895
-}
-},
-"WEBBNYHETER2004": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"spola"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"sl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.144861162526764
-}
-},
 "WEBBNYHETER2003": {
 "rows": [
 {
@@ -3650,6 +3620,36 @@
 "sums": {
 "absolute": 3,
 "relative": 0.24555367770654174
+}
+},
+"WEBBNYHETER2004": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"spola"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.144861162526764
 }
 },
 "WEBBNYHETER2005": {
@@ -5801,39 +5801,6 @@
 "word": [
 "gl\u00f6mmer",
 "att",
-"sm\u00f6rja"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"rensa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"deklarera"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
 "ifr\u00e5gas\u00e4tta"
 ]
 },
@@ -5900,6 +5867,72 @@
 "word": [
 "gl\u00f6mmer",
 "att",
+"sm\u00f6rja"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"rensa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"deklarera"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"spela"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"flyga"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"anv\u00e4nda"
+]
+},
+"absolute": 5,
+"relative": 0.006163178822284125
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
 "t\u00e4nka"
 ]
 },
@@ -5960,39 +5993,6 @@
 },
 "absolute": 4,
 "relative": 0.004930543057827299
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"spela"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"flyga"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"anv\u00e4nda"
-]
-},
-"absolute": 5,
-"relative": 0.006163178822284125
 },
 {
 "value": {
@@ -6318,17 +6318,6 @@
 "word": [
 "gl\u00f6mmer",
 "att",
-"pausa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
 "skicka"
 ]
 },
@@ -6341,6 +6330,17 @@
 "gl\u00f6mmer",
 "att",
 "dokumentera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"pausa"
 ]
 },
 "absolute": 1,
@@ -6374,28 +6374,6 @@
 "gl\u00f6mmer",
 "att",
 "f\u00f6lja"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"inleda"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"beg\u00e4ra"
 ]
 },
 "absolute": 1,
@@ -6450,6 +6428,50 @@
 "word": [
 "gl\u00f6mmer",
 "att",
+"inleda"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"beg\u00e4ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"sprita"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"prioritera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
 "utrusta"
 ]
 },
@@ -6484,28 +6506,6 @@
 "Gl\u00f6mmer",
 "att",
 "njuta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"sprita"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
-"prioritera"
 ]
 },
 "absolute": 1,
@@ -6659,17 +6659,6 @@
 "word": [
 "gl\u00f6mmer",
 "att",
-"spola"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"att",
 "h\u00f6ja"
 ]
 },
@@ -6686,6 +6675,17 @@
 },
 "absolute": 2,
 "relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"att",
+"spola"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -7089,5 +7089,5 @@
 "relative": 0.6385053259886353
 }
 },
-"time": 0.19070076942443848
+"time": 0.11601042747497559
 }

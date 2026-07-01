@@ -486,104 +486,6 @@
 "relative": 0.52454715450741
 }
 },
-"GP2005": {
-"rows": [
-{
-"value": {
-"word": [
-"avser",
-"vidta"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"avser",
-"utse"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"avser",
-"s\u00e4nka"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"avser",
-"st\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"avser",
-"ombilda"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"avser",
-"l\u00e4gga"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"avser",
-"Kundera"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"avser",
-"genomf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"avser",
-"f\u00f6rv\u00e4rva"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-}
-],
-"sums": {
-"absolute": 9,
-"relative": 0.38870403612563476
-}
-},
 "GP2004": {
 "rows": [
 {
@@ -680,6 +582,104 @@
 "sums": {
 "absolute": 14,
 "relative": 0.6263919043320592
+}
+},
+"GP2005": {
+"rows": [
+{
+"value": {
+"word": [
+"avser",
+"vidta"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"avser",
+"utse"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"avser",
+"s\u00e4nka"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"avser",
+"st\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"avser",
+"ombilda"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"avser",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"avser",
+"Kundera"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"avser",
+"genomf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"avser",
+"f\u00f6rv\u00e4rva"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+}
+],
+"sums": {
+"absolute": 9,
+"relative": 0.38870403612563476
 }
 },
 "GP2006": {
@@ -1362,6 +1362,34 @@
 "relative": 0.39104761656477705
 }
 },
+"PRESS96": {
+"rows": [
+{
+"value": {
+"word": [
+"avser",
+"tillskapa"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"avser",
+"placera"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.30693535787895393
+}
+},
 "PRESS97": {
 "rows": [
 {
@@ -1408,34 +1436,6 @@
 "sums": {
 "absolute": 4,
 "relative": 0.2919009384542196
-}
-},
-"PRESS96": {
-"rows": [
-{
-"value": {
-"word": [
-"avser",
-"tillskapa"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"avser",
-"placera"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.30693535787895393
 }
 },
 "PRESS98": {
@@ -3384,6 +3384,74 @@
 "relative": 0.572958581315264
 }
 },
+"WEBBNYHETER2004": {
+"rows": [
+{
+"value": {
+"word": [
+"avser",
+"skriva"
+]
+},
+"absolute": 2,
+"relative": 0.144861162526764
+},
+{
+"value": {
+"word": [
+"avser",
+"upph\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"avser",
+"skicka"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"avser",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"avser",
+"genomf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"avser",
+"avverka"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+}
+],
+"sums": {
+"absolute": 7,
+"relative": 0.507014068843674
+}
+},
 "WEBBNYHETER2005": {
 "rows": [
 {
@@ -3550,74 +3618,6 @@
 "sums": {
 "absolute": 28,
 "relative": 0.9490352158836504
-}
-},
-"WEBBNYHETER2004": {
-"rows": [
-{
-"value": {
-"word": [
-"avser",
-"skriva"
-]
-},
-"absolute": 2,
-"relative": 0.144861162526764
-},
-{
-"value": {
-"word": [
-"avser",
-"upph\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"avser",
-"skicka"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"avser",
-"l\u00e4gga"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"avser",
-"genomf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"avser",
-"avverka"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-}
-],
-"sums": {
-"absolute": 7,
-"relative": 0.507014068843674
 }
 },
 "WEBBNYHETER2006": {
@@ -5148,6 +5148,234 @@
 "relative": 0.9897747512496187
 }
 },
+"WEBBNYHETER2012": {
+"rows": [
+{
+"value": {
+"word": [
+"avser",
+"driva"
+]
+},
+"absolute": 3,
+"relative": 0.11936953309920192
+},
+{
+"value": {
+"word": [
+"avser",
+"\u00f6verl\u00e4mna"
+]
+},
+"absolute": 2,
+"relative": 0.07957968873280129
+},
+{
+"value": {
+"word": [
+"avser",
+"\u00f6verklaga"
+]
+},
+"absolute": 2,
+"relative": 0.07957968873280129
+},
+{
+"value": {
+"word": [
+"avser",
+"starta"
+]
+},
+"absolute": 2,
+"relative": 0.07957968873280129
+},
+{
+"value": {
+"word": [
+"avser",
+"spela"
+]
+},
+"absolute": 2,
+"relative": 0.07957968873280129
+},
+{
+"value": {
+"word": [
+"avser",
+"g\u00f6ra"
+]
+},
+"absolute": 2,
+"relative": 0.07957968873280129
+},
+{
+"value": {
+"word": [
+"avser",
+"delta"
+]
+},
+"absolute": 2,
+"relative": 0.07957968873280129
+},
+{
+"value": {
+"word": [
+"avser",
+"\u00e4gna"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"skjuta"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"samarbeta"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"r\u00f6sta"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"publicera"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"minska"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"k\u00f6pa"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"katalogisera"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"inta"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"h\u00e5lla"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"generera"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"f\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"bygga"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+},
+{
+"value": {
+"word": [
+"avser",
+"bel\u00f6na"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+}
+],
+"sums": {
+"absolute": 30,
+"relative": 1.1936953309920193
+}
+},
 "WEBBNYHETER2013": {
 "rows": [
 {
@@ -5424,234 +5652,6 @@
 "sums": {
 "absolute": 34,
 "relative": 1.5011940232344223
-}
-},
-"WEBBNYHETER2012": {
-"rows": [
-{
-"value": {
-"word": [
-"avser",
-"driva"
-]
-},
-"absolute": 3,
-"relative": 0.11936953309920192
-},
-{
-"value": {
-"word": [
-"avser",
-"\u00f6verl\u00e4mna"
-]
-},
-"absolute": 2,
-"relative": 0.07957968873280129
-},
-{
-"value": {
-"word": [
-"avser",
-"\u00f6verklaga"
-]
-},
-"absolute": 2,
-"relative": 0.07957968873280129
-},
-{
-"value": {
-"word": [
-"avser",
-"starta"
-]
-},
-"absolute": 2,
-"relative": 0.07957968873280129
-},
-{
-"value": {
-"word": [
-"avser",
-"spela"
-]
-},
-"absolute": 2,
-"relative": 0.07957968873280129
-},
-{
-"value": {
-"word": [
-"avser",
-"g\u00f6ra"
-]
-},
-"absolute": 2,
-"relative": 0.07957968873280129
-},
-{
-"value": {
-"word": [
-"avser",
-"delta"
-]
-},
-"absolute": 2,
-"relative": 0.07957968873280129
-},
-{
-"value": {
-"word": [
-"avser",
-"\u00e4gna"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"skjuta"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"samarbeta"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"r\u00f6sta"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"publicera"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"minska"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"k\u00f6pa"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"katalogisera"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"inta"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"h\u00e5lla"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"generera"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"f\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"bygga"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-},
-{
-"value": {
-"word": [
-"avser",
-"bel\u00f6na"
-]
-},
-"absolute": 1,
-"relative": 0.039789844366400644
-}
-],
-"sums": {
-"absolute": 30,
-"relative": 1.1936953309920193
 }
 }
 },
@@ -6012,6 +6012,66 @@
 "value": {
 "word": [
 "avser",
+"redovisa"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"avser",
+"s\u00e4ga"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"minska"
+]
+},
+"absolute": 8,
+"relative": 0.009861086115654599
+},
+{
+"value": {
+"word": [
+"avser",
+"f\u00f6lja"
+]
+},
+"absolute": 4,
+"relative": 0.004930543057827299
+},
+{
+"value": {
+"word": [
+"avser",
+"avyttra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"anv\u00e4nda"
+]
+},
+"absolute": 9,
+"relative": 0.011093721880111424
+},
+{
+"value": {
+"word": [
+"avser",
 "utse"
 ]
 },
@@ -6077,66 +6137,6 @@
 },
 "absolute": 3,
 "relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"avser",
-"redovisa"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"avser",
-"s\u00e4ga"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"minska"
-]
-},
-"absolute": 8,
-"relative": 0.009861086115654599
-},
-{
-"value": {
-"word": [
-"avser",
-"f\u00f6lja"
-]
-},
-"absolute": 4,
-"relative": 0.004930543057827299
-},
-{
-"value": {
-"word": [
-"avser",
-"avyttra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"anv\u00e4nda"
-]
-},
-"absolute": 9,
-"relative": 0.011093721880111424
 },
 {
 "value": {
@@ -6482,6 +6482,26 @@
 "value": {
 "word": [
 "avser",
+"tillskapa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"placera"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"avser",
 "utf\u00f6ra"
 ]
 },
@@ -6517,26 +6537,6 @@
 },
 "absolute": 3,
 "relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"avser",
-"tillskapa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"placera"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
 },
 {
 "value": {
@@ -7182,6 +7182,26 @@
 "value": {
 "word": [
 "avser",
+"upph\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"avverka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
 "evakuera"
 ]
 },
@@ -7213,26 +7233,6 @@
 "word": [
 "avser",
 "ogiltigf\u00f6rklara"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"upph\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"avverka"
 ]
 },
 "absolute": 1,
@@ -7652,76 +7652,6 @@
 "value": {
 "word": [
 "avser",
-"\u00e5ter\u00f6ppna"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"verka"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"upphandla"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"st\u00e4vja"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"sk\u00e4ra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"kapa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
-"godk\u00e4nna"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"avser",
 "spela"
 ]
 },
@@ -7797,6 +7727,76 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"\u00e5ter\u00f6ppna"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"verka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"upphandla"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"st\u00e4vja"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"sk\u00e4ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"kapa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"avser",
+"godk\u00e4nna"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 }
 ],
 "sums": {
@@ -7804,5 +7804,5 @@
 "relative": 0.8209354191282454
 }
 },
-"time": 0.10289788246154785
+"time": 0.12929558753967285
 }

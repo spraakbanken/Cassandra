@@ -295,25 +295,6 @@
 "relative": 0.17801946491532306
 }
 },
-"GP2013": {
-"rows": [
-{
-"value": {
-"word": [
-"beh\u00f6ver",
-"att",
-"f\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.05926964505721091
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.05926964505721091
-}
-},
 "GP2011": {
 "rows": [
 {
@@ -331,6 +312,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.05015449842467228
+}
+},
+"GP2013": {
+"rows": [
+{
+"value": {
+"word": [
+"beh\u00f6ver",
+"att",
+"f\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.05926964505721091
 }
 },
 "PRESS98": {
@@ -682,25 +682,6 @@
 "relative": 0.06684616198081755
 }
 },
-"WEBBNYHETER2004": {
-"rows": [
-{
-"value": {
-"word": [
-"beh\u00f6ver",
-"att",
-"fundera"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.072430581263382
-}
-},
 "SVT-2023": {
 "rows": [
 {
@@ -718,6 +699,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.1334341205724057
+}
+},
+"WEBBNYHETER2004": {
+"rows": [
+{
+"value": {
+"word": [
+"beh\u00f6ver",
+"att",
+"fundera"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.072430581263382
 }
 },
 "WEBBNYHETER2005": {
@@ -1159,7 +1159,7 @@
 "word": [
 "beh\u00f6ver",
 "att",
-"fundera"
+"\u201c"
 ]
 },
 "absolute": 1,
@@ -1170,7 +1170,7 @@
 "word": [
 "beh\u00f6ver",
 "att",
-"\u201c"
+"fundera"
 ]
 },
 "absolute": 1,
@@ -1193,5 +1193,5 @@
 "relative": 0.061631788222841245
 }
 },
-"time": 0.0813753604888916
+"time": 0.07107400894165039
 }

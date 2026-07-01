@@ -552,6 +552,24 @@
 "relative": 0.20053848594245266
 }
 },
+"SVT-2022": {
+"rows": [
+{
+"value": {
+"word": [
+"tenderar",
+"bli"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.07153585988929254
+}
+},
 "WEBBNYHETER2001": {
 "rows": [
 {
@@ -578,24 +596,6 @@
 "sums": {
 "absolute": 2,
 "relative": 3.2565281176779
-}
-},
-"SVT-2022": {
-"rows": [
-{
-"value": {
-"word": [
-"tenderar",
-"bli"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.07153585988929254
 }
 },
 "WEBBNYHETER2002": {
@@ -776,24 +776,6 @@
 "relative": 0.1624006519086969
 }
 },
-"WEBBNYHETER2008": {
-"rows": [
-{
-"value": {
-"word": [
-"tenderar",
-"diskutera"
-]
-},
-"absolute": 1,
-"relative": 0.036282095322933146
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.036282095322933146
-}
-},
 "WEBBNYHETER2009": {
 "rows": [
 {
@@ -830,6 +812,24 @@
 "sums": {
 "absolute": 3,
 "relative": 0.11588032019586555
+}
+},
+"WEBBNYHETER2008": {
+"rows": [
+{
+"value": {
+"word": [
+"tenderar",
+"diskutera"
+]
+},
+"absolute": 1,
+"relative": 0.036282095322933146
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.036282095322933146
 }
 },
 "WEBBNYHETER2010": {
@@ -1252,16 +1252,6 @@
 "value": {
 "word": [
 "tenderar",
-"diskutera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"tenderar",
 "sv\u00e4lja"
 ]
 },
@@ -1273,6 +1263,16 @@
 "word": [
 "tenderar",
 "splittra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"tenderar",
+"diskutera"
 ]
 },
 "absolute": 1,
@@ -1334,5 +1334,5 @@
 "relative": 0.07272551010295267
 }
 },
-"time": 0.09363174438476562
+"time": 0.14577174186706543
 }

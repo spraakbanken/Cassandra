@@ -142,6 +142,34 @@
 "relative": 0.4334146202453603
 }
 },
+"GP2003": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"titta"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"dra"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.10490943090148201
+}
+},
 "GP2002": {
 "rows": [
 {
@@ -170,32 +198,42 @@
 "relative": 0.09494745655228125
 }
 },
-"GP2003": {
+"GP2005": {
 "rows": [
 {
 "value": {
 "word": [
 "gl\u00f6mmer",
-"titta"
+"s\u00e4ga"
 ]
 },
 "absolute": 1,
-"relative": 0.052454715450741006
+"relative": 0.04318933734729276
 },
 {
 "value": {
 "word": [
 "gl\u00f6mmer",
-"dra"
+"knopa"
 ]
 },
 "absolute": 1,
-"relative": 0.052454715450741006
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
 }
 ],
 "sums": {
-"absolute": 2,
-"relative": 0.10490943090148201
+"absolute": 3,
+"relative": 0.1295680120418783
 }
 },
 "GP2004": {
@@ -284,44 +322,6 @@
 "sums": {
 "absolute": 10,
 "relative": 0.44742278880861375
-}
-},
-"GP2005": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"s\u00e4ga"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"knopa"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-}
-],
-"sums": {
-"absolute": 3,
-"relative": 0.1295680120418783
 }
 },
 "GP2006": {
@@ -724,24 +724,6 @@
 "relative": 0.15346767893947696
 }
 },
-"PRESS98": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"fr\u00e5ga"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.09310250986677124
-}
-},
 "PRESS97": {
 "rows": [
 {
@@ -778,6 +760,24 @@
 "sums": {
 "absolute": 3,
 "relative": 0.2189257038406647
+}
+},
+"PRESS98": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"fr\u00e5ga"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.09310250986677124
 }
 },
 "SVT-2005": {
@@ -826,24 +826,6 @@
 "relative": 0.3614230091284609
 }
 },
-"SVT-2009": {
-"rows": [
-{
-"value": {
-"word": [
-"Gl\u00f6mmer",
-"sl\u00e4cka"
-]
-},
-"absolute": 1,
-"relative": 0.11285427071595314
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.11285427071595314
-}
-},
 "SVT-2008": {
 "rows": [
 {
@@ -860,6 +842,24 @@
 "sums": {
 "absolute": 1,
 "relative": 0.12997867050017092
+}
+},
+"SVT-2009": {
+"rows": [
+{
+"value": {
+"word": [
+"Gl\u00f6mmer",
+"sl\u00e4cka"
+]
+},
+"absolute": 1,
+"relative": 0.11285427071595314
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.11285427071595314
 }
 },
 "SVT-2010": {
@@ -1152,24 +1152,6 @@
 "relative": 0.12500693007168584
 }
 },
-"SVT-2023": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"deklarera"
-]
-},
-"absolute": 1,
-"relative": 0.1334341205724057
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.1334341205724057
-}
-},
 "SVT-2021": {
 "rows": [
 {
@@ -1186,6 +1168,24 @@
 "sums": {
 "absolute": 1,
 "relative": 0.06684616198081755
+}
+},
+"SVT-2023": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"deklarera"
+]
+},
+"absolute": 1,
+"relative": 0.1334341205724057
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.1334341205724057
 }
 },
 "WEBBNYHETER2002": {
@@ -1244,6 +1244,24 @@
 "relative": 0.08185122590218058
 }
 },
+"WEBBNYHETER2005": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"ber\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.033894114852987496
+}
+},
 "WEBBNYHETER2006": {
 "rows": [
 {
@@ -1270,24 +1288,6 @@
 "sums": {
 "absolute": 2,
 "relative": 0.08863758361183262
-}
-},
-"WEBBNYHETER2005": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"ber\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.033894114852987496
 }
 },
 "WEBBNYHETER2007": {
@@ -1346,6 +1346,24 @@
 "relative": 0.038626773398621854
 }
 },
+"WEBBNYHETER2010": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"n\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.042010492792742875
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.042010492792742875
+}
+},
 "WEBBNYHETER2011": {
 "rows": [
 {
@@ -1382,24 +1400,6 @@
 "sums": {
 "absolute": 3,
 "relative": 0.11420477899034068
-}
-},
-"WEBBNYHETER2010": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"n\u00e4mna"
-]
-},
-"absolute": 1,
-"relative": 0.042010492792742875
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.042010492792742875
 }
 },
 "WEBBNYHETER2012": {
@@ -1536,6 +1536,26 @@
 "value": {
 "word": [
 "gl\u00f6mmer",
+"titta"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"dra"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
 "st\u00e4mpla"
 ]
 },
@@ -1556,7 +1576,7 @@
 "value": {
 "word": [
 "gl\u00f6mmer",
-"titta"
+"s\u00e4ga"
 ]
 },
 "absolute": 2,
@@ -1566,11 +1586,21 @@
 "value": {
 "word": [
 "gl\u00f6mmer",
-"dra"
+"knopa"
 ]
 },
-"absolute": 2,
-"relative": 0.0024652715289136496
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -1651,36 +1681,6 @@
 },
 "absolute": 2,
 "relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"s\u00e4ga"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"knopa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -2098,5 +2098,5 @@
 "relative": 0.1368225698547076
 }
 },
-"time": 0.09844827651977539
+"time": 0.12210869789123535
 }
