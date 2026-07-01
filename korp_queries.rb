@@ -1,5 +1,298 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = besluta_att_infstat
+variant1 = [word = 'beslutar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = besluta_noatt_infstat
+variant1 = [word = 'beslutar' %c] [msd = '.*INF\.AKT.*']
+
+#label = besluta_wfull
+variant1 = [word = 'beslutar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'beslutar' %c] [msd = '.*INF\.AKT.*']
+
+#label = hota_att_infstat
+variant1 = [word = 'hotar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = hota_noatt_infstat
+variant1 = [word = 'hotar' %c] [msd = '.*INF\.AKT.*']
+
+#label = hota_wfull
+variant1 = [word = 'hotar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'hotar' %c] [msd = '.*INF\.AKT.*']
+
+#label = planera_att_infstat
+variant1 = [word = 'planerar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = planera_noatt_infstat
+variant1 = [word = 'planerar' %c] [msd = '.*INF\.AKT.*']
+
+#label = planera_wfull
+variant1 = [word = 'planerar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'planerar' %c] [msd = '.*INF\.AKT.*']
+
+#label = lova_att_infstat
+variant1 = [word = 'lovar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = lova_noatt_infstat
+variant1 = [word = 'lovar' %c] [msd = '.*INF\.AKT.*']
+
+#label = lova_wfull
+variant1 = [word = 'lovar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'lovar' %c] [msd = '.*INF\.AKT.*']
+
+#label = tendera_att_infstat
+variant1 = [word = 'tenderar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = tendera_noatt_infstat
+variant1 = [word = 'tenderar' %c] [msd = '.*INF\.AKT.*']
+
+#label = tendera_wfull
+variant1 = [word = 'tenderar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'tenderar' %c] [msd = '.*INF\.AKT.*']
+
+#label = riskera_att_infstat
+variant1 = [word = 'riskerar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = riskera_noatt_infstat
+variant1 = [word = 'riskerar' %c] [msd = '.*INF\.AKT.*']
+
+#label = riskera_wfull
+variant1 = [word = 'riskerar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'riskerar' %c] [msd = '.*INF\.AKT.*']
+
+#label = avse_att_infstat
+variant1 = [word = 'avser' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = avse_noatt_infstat
+variant1 = [word = 'avser' %c] [msd = '.*INF\.AKT.*']
+
+#label = avse_wfull
+variant1 = [word = 'avser' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'avser' %c] [msd = '.*INF\.AKT.*']
+
+#label = fortsätta_att_infstat
+variant1 = [word = 'fortsätter' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = fortsätta_noatt_infstat
+variant1 = [word = 'fortsätter' %c] [msd = '.*INF\.AKT.*']
+
+#label = fortsätta_wfull
+variant1 = [word = 'fortsätter' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'fortsätter' %c] [msd = '.*INF\.AKT.*']
+
+#label = komma_att_infstat
+variant1 = [word = 'kommer' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = komma_noatt_infstat
+variant1 = [word = 'kommer' %c] [msd = '.*INF\.AKT.*']
+
+#label = komma_wfull
+variant1 = [word = 'kommer' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'kommer' %c] [msd = '.*INF\.AKT.*']
+
+#label = förmå_att_infstat
+variant1 = [word = 'förmår' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = förmå_noatt_infstat
+variant1 = [word = 'förmår' %c] [msd = '.*INF\.AKT.*']
+
+#label = förmå_wfull
+variant1 = [word = 'förmår' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'förmår' %c] [msd = '.*INF\.AKT.*']
+
+#label = glömma_att_infstat
+variant1 = [word = 'glömmer' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = glömma_noatt_infstat
+variant1 = [word = 'glömmer' %c] [msd = '.*INF\.AKT.*']
+
+#label = glömma_wfull
+variant1 = [word = 'glömmer' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'glömmer' %c] [msd = '.*INF\.AKT.*']
+
+#label = behaga_att_infstat
+variant1 = [word = 'behagar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = behaga_noatt_infstat
+variant1 = [word = 'behagar' %c] [msd = '.*INF\.AKT.*']
+
+#label = behaga_wfull
+variant1 = [word = 'behagar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'behagar' %c] [msd = '.*INF\.AKT.*']
+
+#label = vägra_att_infstat
+variant1 = [word = 'vägrar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = vägra_noatt_infstat
+variant1 = [word = 'vägrar' %c] [msd = '.*INF\.AKT.*']
+
+#label = vägra_wfull
+variant1 = [word = 'vägrar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'vägrar' %c] [msd = '.*INF\.AKT.*']
+
+#label = sluta_att_infstat
+variant1 = [word = 'slutar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = sluta_noatt_infstat
+variant1 = [word = 'slutar' %c] [msd = '.*INF\.AKT.*']
+
+#label = sluta_wfull
+variant1 = [word = 'slutar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'slutar' %c] [msd = '.*INF\.AKT.*']
+
+#label = idas_att_infstat
+variant1 = [word = 'ids' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = idas_noatt_infstat
+variant1 = [word = 'ids' %c] [msd = '.*INF\.AKT.*']
+
+#label = idas_wfull
+variant1 = [word = 'ids' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'ids' %c] [msd = '.*INF\.AKT.*']
+
+#label = slippa_att_infstat
+variant1 = [word = 'slipper' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = slippa_noatt_infstat
+variant1 = [word = 'slipper' %c] [msd = '.*INF\.AKT.*']
+
+#label = slippa_wfull
+variant1 = [word = 'slipper' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'slipper' %c] [msd = '.*INF\.AKT.*']
+
+#label = försöka_att_infstat
+variant1 = [word = 'försöker' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = försöka_noatt_infstat
+variant1 = [word = 'försöker' %c] [msd = '.*INF\.AKT.*']
+
+#label = försöka_wfull
+variant1 = [word = 'försöker' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'försöker' %c] [msd = '.*INF\.AKT.*']
+
+#label = låtsas_att_infstat
+variant1 = [word = 'låtsas' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = låtsas_noatt_infstat
+variant1 = [word = 'låtsas' %c] [msd = '.*INF\.AKT.*']
+
+#label = låtsas_wfull
+variant1 = [word = 'låtsas' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'låtsas' %c] [msd = '.*INF\.AKT.*']
+
+#label = lyckas_att_infstat
+variant1 = [word = 'lyckas' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = lyckas_noatt_infstat
+variant1 = [word = 'lyckas' %c] [msd = '.*INF\.AKT.*']
+
+#label = lyckas_wfull
+variant1 = [word = 'lyckas' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'lyckas' %c] [msd = '.*INF\.AKT.*']
+
+#label = hinna_att_infstat
+variant1 = [word = 'hinner' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = hinna_noatt_infstat
+variant1 = [word = 'hinner' %c] [msd = '.*INF\.AKT.*']
+
+#label = hinna_wfull
+variant1 = [word = 'hinner' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'hinner' %c] [msd = '.*INF\.AKT.*']
+
+#label = börja_att_infstat
+variant1 = [word = 'börjar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = börja_noatt_infstat
+variant1 = [word = 'börjar' %c] [msd = '.*INF\.AKT.*']
+
+#label = börja_wfull
+variant1 = [word = 'börjar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'börjar' %c] [msd = '.*INF\.AKT.*']
+
+#label = orka_att_infstat
+variant1 = [word = 'orkar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = orka_noatt_infstat
+variant1 = [word = 'orkar' %c] [msd = '.*INF\.AKT.*']
+
+#label = orka_wfull
+variant1 = [word = 'orkar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'orkar' %c] [msd = '.*INF\.AKT.*']
+
+#label = våga_att_infstat
+variant1 = [word = 'vågar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = våga_noatt_infstat
+variant1 = [word = 'vågar' %c] [msd = '.*INF\.AKT.*']
+
+#label = våga_wfull
+variant1 = [word = 'vågar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'vågar' %c] [msd = '.*INF\.AKT.*']
+
+#label = behöva_att_infstat
+variant1 = [word = 'behöver' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = behöva_noatt_infstat
+variant1 = [word = 'behöver' %c] [msd = '.*INF\.AKT.*']
+
+#label = behöva_wfull
+variant1 = [word = 'behöver' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'behöver' %c] [msd = '.*INF\.AKT.*']
+
+#label = bruka_att_infstat
+variant1 = [word = 'brukar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = bruka_noatt_infstat
+variant1 = [word = 'brukar' %c] [msd = '.*INF\.AKT.*']
+
+#label = bruka_wfull
+variant1 = [word = 'brukar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'brukar' %c] [msd = '.*INF\.AKT.*']
+
+#label = råka_att_infstat
+variant1 = [word = 'råkar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = råka_noatt_infstat
+variant1 = [word = 'råkar' %c] [msd = '.*INF\.AKT.*']
+
+#label = råka_wfull
+variant1 = [word = 'råkar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'råkar' %c] [msd = '.*INF\.AKT.*']
+
+#label = torde_att_infstat
+variant1 = [word = 'torde' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = torde_noatt_infstat
+variant1 = [word = 'torde' %c] [msd = '.*INF\.AKT.*']
+
+#label = torde_wfull
+variant1 = [word = 'torde' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'torde' %c] [msd = '.*INF\.AKT.*']
+
+#label = ämna_att_infstat
+variant1 = [word = 'ämnar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = ämna_noatt_infstat
+variant1 = [word = 'ämnar' %c] [msd = '.*INF\.AKT.*']
+
+#label = ämna_wfull
+variant1 = [word = 'ämnar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'ämnar' %c] [msd = '.*INF\.AKT.*']
+
+#label = förefalla_att_infstat
+variant1 = [word = 'förefaller' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = förefalla_noatt_infstat
+variant1 = [word = 'förefaller' %c] [msd = '.*INF\.AKT.*']
+
+#label = förefalla_wfull
+variant1 = [word = 'förefaller' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'förefaller' %c] [msd = '.*INF\.AKT.*']
+
+
+###
+
 #label = försöker_att_full
 variant1 = [word = 'försöker' %c] [word = 'att' %c] [msd = '.*INF.*\.AKT.*']
 

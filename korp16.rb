@@ -305,6 +305,9 @@ elsif query == "statistics"
         ipm = row["relative"]
         hashforsorting[abs] << "#{verb2}\t#{abs}\t#{ipm}"
     end
+    sumabs = data_hash["combined"]["sums"]["absolute"]
+    sumrel = data_hash["combined"]["sums"]["relative"]
+    o.puts "_total_\t#{sumabs}\t#{sumrel}"
     hashforsorting.keys.sort.reverse.each do |abs|
         o.puts hashforsorting[abs]
     end
