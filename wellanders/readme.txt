@@ -31,6 +31,7 @@ As a single measure per verb, use the sum of square differences (see allverbs.ts
 
 NEXT STEPS:
 5. If we are happy with the results of 4, run the Query2 manually at Retriever, download and process the results.
+Tested that for some verbs, see: 
 
 6. Perhaps: do the same for tidningar.kb.se. Prerequisite: write a script for parsing their html output (should not be difficult).
 Problem: data available only up to 1926. 

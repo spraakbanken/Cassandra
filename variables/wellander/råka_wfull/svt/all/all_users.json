@@ -1,0 +1,1045 @@
+ 
+ 
+{
+"corpora": {
+"SVT-2004": [
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2005": [
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2006": [
+{
+"absolute": {
+"2006": 11,
+"2007": null
+},
+"relative": {
+"2006": 2.6365549718116323,
+"2007": null
+},
+"sums": {
+"absolute": 11,
+"relative": 2.6365549718116323
+}
+},
+{
+"absolute": {
+"2006": 0,
+"2007": null
+},
+"relative": {
+"2006": 0,
+"2007": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2006": 11,
+"2007": null
+},
+"relative": {
+"2006": 2.6365549718116323,
+"2007": null
+},
+"sums": {
+"absolute": 11,
+"relative": 2.6365549718116323
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2007": [
+{
+"absolute": {
+"2007": 1,
+"2008": null
+},
+"relative": {
+"2007": 0.18071150456423046,
+"2008": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.18071150456423046
+}
+},
+{
+"absolute": {
+"2007": 0,
+"2008": null
+},
+"relative": {
+"2007": 0,
+"2008": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2007": 1,
+"2008": null
+},
+"relative": {
+"2007": 0.18071150456423046,
+"2008": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.18071150456423046
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2008": [
+{
+"absolute": {
+"2008": 11,
+"2009": null
+},
+"relative": {
+"2008": 1.42976537550188,
+"2009": null
+},
+"sums": {
+"absolute": 11,
+"relative": 1.42976537550188
+}
+},
+{
+"absolute": {
+"2008": 0,
+"2009": null
+},
+"relative": {
+"2008": 0,
+"2009": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2008": 11,
+"2009": null
+},
+"relative": {
+"2008": 1.42976537550188,
+"2009": null
+},
+"sums": {
+"absolute": 11,
+"relative": 1.42976537550188
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2009": [
+{
+"absolute": {
+"2009": 14,
+"2010": null
+},
+"relative": {
+"2009": 1.579959790023344,
+"2010": null
+},
+"sums": {
+"absolute": 14,
+"relative": 1.579959790023344
+}
+},
+{
+"absolute": {
+"2009": 0,
+"2010": null
+},
+"relative": {
+"2009": 0,
+"2010": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2009": 14,
+"2010": null
+},
+"relative": {
+"2009": 1.579959790023344,
+"2010": null
+},
+"sums": {
+"absolute": 14,
+"relative": 1.579959790023344
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2010": [
+{
+"absolute": {
+"2010": 18,
+"2011": null
+},
+"relative": {
+"2010": 1.8230927512616815,
+"2011": null
+},
+"sums": {
+"absolute": 18,
+"relative": 1.8230927512616815
+}
+},
+{
+"absolute": {
+"2010": 0,
+"2011": null
+},
+"relative": {
+"2010": 0,
+"2011": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2010": 18,
+"2011": null
+},
+"relative": {
+"2010": 1.8230927512616815,
+"2011": null
+},
+"sums": {
+"absolute": 18,
+"relative": 1.8230927512616815
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2011": [
+{
+"absolute": {
+"2011": 37,
+"2012": null
+},
+"relative": {
+"2011": 3.9669503715209844,
+"2012": null
+},
+"sums": {
+"absolute": 37,
+"relative": 3.9669503715209844
+}
+},
+{
+"absolute": {
+"2011": 0,
+"2012": null
+},
+"relative": {
+"2011": 0,
+"2012": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2011": 37,
+"2012": null
+},
+"relative": {
+"2011": 3.9669503715209844,
+"2012": null
+},
+"sums": {
+"absolute": 37,
+"relative": 3.9669503715209844
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2012": [
+{
+"absolute": {
+"2012": 25,
+"2013": null
+},
+"relative": {
+"2012": 2.6198351914077787,
+"2013": null
+},
+"sums": {
+"absolute": 25,
+"relative": 2.6198351914077787
+}
+},
+{
+"absolute": {
+"2012": 0,
+"2013": null
+},
+"relative": {
+"2012": 0,
+"2013": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2012": 25,
+"2013": null
+},
+"relative": {
+"2012": 2.6198351914077787,
+"2013": null
+},
+"sums": {
+"absolute": 25,
+"relative": 2.6198351914077787
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2013": [
+{
+"absolute": {
+"2013": 34,
+"2014": null
+},
+"relative": {
+"2013": 2.435906290398431,
+"2014": null
+},
+"sums": {
+"absolute": 34,
+"relative": 2.435906290398431
+}
+},
+{
+"absolute": {
+"2013": 0,
+"2014": null
+},
+"relative": {
+"2013": 0,
+"2014": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2013": 34,
+"2014": null
+},
+"relative": {
+"2013": 2.435906290398431,
+"2014": null
+},
+"sums": {
+"absolute": 34,
+"relative": 2.435906290398431
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2014": [
+{
+"absolute": {
+"2014": 42,
+"2015": null
+},
+"relative": {
+"2014": 2.6126722691898445,
+"2015": null
+},
+"sums": {
+"absolute": 42,
+"relative": 2.6126722691898445
+}
+},
+{
+"absolute": {
+"2014": 0,
+"2015": null
+},
+"relative": {
+"2014": 0,
+"2015": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2014": 42,
+"2015": null
+},
+"relative": {
+"2014": 2.6126722691898445,
+"2015": null
+},
+"sums": {
+"absolute": 42,
+"relative": 2.6126722691898445
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2015": [
+{
+"absolute": {
+"2015": 48,
+"2016": null
+},
+"relative": {
+"2015": 2.499985677165391,
+"2016": null
+},
+"sums": {
+"absolute": 48,
+"relative": 2.499985677165391
+}
+},
+{
+"absolute": {
+"2015": 0,
+"2016": null
+},
+"relative": {
+"2015": 0,
+"2016": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2015": 48,
+"2016": null
+},
+"relative": {
+"2015": 2.499985677165391,
+"2016": null
+},
+"sums": {
+"absolute": 48,
+"relative": 2.499985677165391
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2016": [
+{
+"absolute": {
+"2016": 59,
+"2017": null
+},
+"relative": {
+"2016": 2.716151697348516,
+"2017": null
+},
+"sums": {
+"absolute": 59,
+"relative": 2.716151697348516
+}
+},
+{
+"absolute": {
+"2016": 0,
+"2017": null
+},
+"relative": {
+"2016": 0,
+"2017": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2016": 59,
+"2017": null
+},
+"relative": {
+"2016": 2.716151697348516,
+"2017": null
+},
+"sums": {
+"absolute": 59,
+"relative": 2.716151697348516
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2017": [
+{
+"absolute": {
+"2017": 63,
+"2018": null
+},
+"relative": {
+"2017": 2.976018252911951,
+"2018": null
+},
+"sums": {
+"absolute": 63,
+"relative": 2.976018252911951
+}
+},
+{
+"absolute": {
+"2017": 0,
+"2018": null
+},
+"relative": {
+"2017": 0,
+"2018": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2017": 63,
+"2018": null
+},
+"relative": {
+"2017": 2.976018252911951,
+"2018": null
+},
+"sums": {
+"absolute": 63,
+"relative": 2.976018252911951
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2018": [
+{
+"absolute": {
+"2018": 47,
+"2019": null
+},
+"relative": {
+"2018": 2.5003769185205895,
+"2019": null
+},
+"sums": {
+"absolute": 47,
+"relative": 2.5003769185205895
+}
+},
+{
+"absolute": {
+"2018": 0,
+"2019": null
+},
+"relative": {
+"2018": 0,
+"2019": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2018": 47,
+"2019": null
+},
+"relative": {
+"2018": 2.5003769185205895,
+"2019": null
+},
+"sums": {
+"absolute": 47,
+"relative": 2.5003769185205895
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2019": [
+{
+"absolute": {
+"2019": 59,
+"2020": null
+},
+"relative": {
+"2019": 3.2326173944183325,
+"2020": null
+},
+"sums": {
+"absolute": 59,
+"relative": 3.2326173944183325
+}
+},
+{
+"absolute": {
+"2019": 0,
+"2020": null
+},
+"relative": {
+"2019": 0,
+"2020": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2019": 59,
+"2020": null
+},
+"relative": {
+"2019": 3.2326173944183325,
+"2020": null
+},
+"sums": {
+"absolute": 59,
+"relative": 3.2326173944183325
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2020": [
+{
+"absolute": {
+"2020": 41,
+"2021": null
+},
+"relative": {
+"2020": 2.56264206646956,
+"2021": null
+},
+"sums": {
+"absolute": 41,
+"relative": 2.56264206646956
+}
+},
+{
+"absolute": {
+"2020": 0,
+"2021": null
+},
+"relative": {
+"2020": 0,
+"2021": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2020": 41,
+"2021": null
+},
+"relative": {
+"2020": 2.56264206646956,
+"2021": null
+},
+"sums": {
+"absolute": 41,
+"relative": 2.56264206646956
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2021": [
+{
+"absolute": {
+"2021": 34,
+"2022": null
+},
+"relative": {
+"2021": 2.272769507347797,
+"2022": null
+},
+"sums": {
+"absolute": 34,
+"relative": 2.272769507347797
+}
+},
+{
+"absolute": {
+"2021": 0,
+"2022": null
+},
+"relative": {
+"2021": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2021": 34,
+"2022": null
+},
+"relative": {
+"2021": 2.272769507347797,
+"2022": null
+},
+"sums": {
+"absolute": 34,
+"relative": 2.272769507347797
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2022": [
+{
+"absolute": {
+"2022": 24,
+"2023": null
+},
+"relative": {
+"2022": 1.7147243162697543,
+"2023": null
+},
+"sums": {
+"absolute": 24,
+"relative": 1.7147243162697543
+}
+},
+{
+"absolute": {
+"2022": 0,
+"2023": null
+},
+"relative": {
+"2022": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2022": 24,
+"2023": null
+},
+"relative": {
+"2022": 1.7147243162697543,
+"2023": null
+},
+"sums": {
+"absolute": 24,
+"relative": 1.7147243162697543
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"SVT-2023": [
+{
+"absolute": {
+"2023": 22,
+"2024": null
+},
+"relative": {
+"2023": 2.9327460020673195,
+"2024": null
+},
+"sums": {
+"absolute": 22,
+"relative": 2.9327460020673195
+}
+},
+{
+"absolute": {
+"2023": 0,
+"2024": null
+},
+"relative": {
+"2023": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2023": 22,
+"2024": null
+},
+"relative": {
+"2023": 2.9327460020673195,
+"2024": null
+},
+"sums": {
+"absolute": 22,
+"relative": 2.9327460020673195
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2006": 11,
+"2007": 1,
+"2008": 11,
+"2009": 14,
+"2010": 18,
+"2011": 37,
+"2012": 25,
+"2013": 34,
+"2014": 42,
+"2015": 48,
+"2016": 59,
+"2017": 63,
+"2018": 47,
+"2019": 59,
+"2020": 41,
+"2021": 34,
+"2022": 24,
+"2023": 22
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2006": 2.6365549718116323,
+"2007": 0.18071150456423046,
+"2008": 1.42976537550188,
+"2009": 1.579959790023344,
+"2010": 1.8230927512616815,
+"2011": 3.9669503715209844,
+"2012": 2.6198351914077787,
+"2013": 2.435906290398431,
+"2014": 2.6126722691898445,
+"2015": 2.499985677165391,
+"2016": 2.716151697348516,
+"2017": 2.976018252911951,
+"2018": 2.5003769185205895,
+"2019": 3.2326173944183325,
+"2020": 2.56264206646956,
+"2021": 2.272769507347797,
+"2022": 1.7147243162697543,
+"2023": 2.9327460020673195
+},
+"sums": {
+"absolute": 590,
+"relative": 2.4546865895687056
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null
+},
+"relative": {
+"2004": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'r\u00e5kar' %c] [word = 'att' %c] [msd = '.*INF\\.AKT.*']"
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2006": 11,
+"2007": 1,
+"2008": 11,
+"2009": 14,
+"2010": 18,
+"2011": 37,
+"2012": 25,
+"2013": 34,
+"2014": 42,
+"2015": 48,
+"2016": 59,
+"2017": 63,
+"2018": 47,
+"2019": 59,
+"2020": 41,
+"2021": 34,
+"2022": 24,
+"2023": 22
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2006": 2.6365549718116323,
+"2007": 0.18071150456423046,
+"2008": 1.42976537550188,
+"2009": 1.579959790023344,
+"2010": 1.8230927512616815,
+"2011": 3.9669503715209844,
+"2012": 2.6198351914077787,
+"2013": 2.435906290398431,
+"2014": 2.6126722691898445,
+"2015": 2.499985677165391,
+"2016": 2.716151697348516,
+"2017": 2.976018252911951,
+"2018": 2.5003769185205895,
+"2019": 3.2326173944183325,
+"2020": 2.56264206646956,
+"2021": 2.272769507347797,
+"2022": 1.7147243162697543,
+"2023": 2.9327460020673195
+},
+"sums": {
+"absolute": 590,
+"relative": 2.4546865895687056
+},
+"cqp": "[word = 'r\u00e5kar' %c] [msd = '.*INF\\.AKT.*']"
+}
+],
+"time": 11.192221403121948
+}

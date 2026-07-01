@@ -1,0 +1,1069 @@
+ 
+ 
+{
+"corpora": {
+"SVT-2004": [
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2005": [
+{
+"absolute": {
+"2005": 8,
+"2006": null
+},
+"relative": {
+"2005": 2.423767953303687,
+"2006": null
+},
+"sums": {
+"absolute": 8,
+"relative": 2.423767953303687
+}
+},
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2005": 8,
+"2006": null
+},
+"relative": {
+"2005": 2.423767953303687,
+"2006": null
+},
+"sums": {
+"absolute": 8,
+"relative": 2.423767953303687
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2006": [
+{
+"absolute": {
+"2006": 3,
+"2007": null
+},
+"relative": {
+"2006": 0.7190604468577179,
+"2007": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.7190604468577179
+}
+},
+{
+"absolute": {
+"2006": 0,
+"2007": null
+},
+"relative": {
+"2006": 0,
+"2007": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2006": 3,
+"2007": null
+},
+"relative": {
+"2006": 0.7190604468577179,
+"2007": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.7190604468577179
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2007": [
+{
+"absolute": {
+"2007": 9,
+"2008": null
+},
+"relative": {
+"2007": 1.6264035410780742,
+"2008": null
+},
+"sums": {
+"absolute": 9,
+"relative": 1.6264035410780742
+}
+},
+{
+"absolute": {
+"2007": 0,
+"2008": null
+},
+"relative": {
+"2007": 0,
+"2008": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2007": 9,
+"2008": null
+},
+"relative": {
+"2007": 1.6264035410780742,
+"2008": null
+},
+"sums": {
+"absolute": 9,
+"relative": 1.6264035410780742
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2008": [
+{
+"absolute": {
+"2008": 5,
+"2009": null
+},
+"relative": {
+"2008": 0.6498933525008547,
+"2009": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.6498933525008547
+}
+},
+{
+"absolute": {
+"2008": 0,
+"2009": null
+},
+"relative": {
+"2008": 0,
+"2009": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2008": 5,
+"2009": null
+},
+"relative": {
+"2008": 0.6498933525008547,
+"2009": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.6498933525008547
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2009": [
+{
+"absolute": {
+"2009": 12,
+"2010": null
+},
+"relative": {
+"2009": 1.3542512485914378,
+"2010": null
+},
+"sums": {
+"absolute": 12,
+"relative": 1.3542512485914378
+}
+},
+{
+"absolute": {
+"2009": 0,
+"2010": null
+},
+"relative": {
+"2009": 0,
+"2010": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2009": 12,
+"2010": null
+},
+"relative": {
+"2009": 1.3542512485914378,
+"2010": null
+},
+"sums": {
+"absolute": 12,
+"relative": 1.3542512485914378
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2010": [
+{
+"absolute": {
+"2010": 16,
+"2011": null
+},
+"relative": {
+"2010": 1.6205268900103835,
+"2011": null
+},
+"sums": {
+"absolute": 16,
+"relative": 1.6205268900103835
+}
+},
+{
+"absolute": {
+"2010": 0,
+"2011": null
+},
+"relative": {
+"2010": 0,
+"2011": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2010": 16,
+"2011": null
+},
+"relative": {
+"2010": 1.6205268900103835,
+"2011": null
+},
+"sums": {
+"absolute": 16,
+"relative": 1.6205268900103835
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2011": [
+{
+"absolute": {
+"2011": 18,
+"2012": null
+},
+"relative": {
+"2011": 1.9298677483075057,
+"2012": null
+},
+"sums": {
+"absolute": 18,
+"relative": 1.9298677483075057
+}
+},
+{
+"absolute": {
+"2011": 0,
+"2012": null
+},
+"relative": {
+"2011": 0,
+"2012": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2011": 18,
+"2012": null
+},
+"relative": {
+"2011": 1.9298677483075057,
+"2012": null
+},
+"sums": {
+"absolute": 18,
+"relative": 1.9298677483075057
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2012": [
+{
+"absolute": {
+"2012": 21,
+"2013": null
+},
+"relative": {
+"2012": 2.2006615607825344,
+"2013": null
+},
+"sums": {
+"absolute": 21,
+"relative": 2.2006615607825344
+}
+},
+{
+"absolute": {
+"2012": 0,
+"2013": null
+},
+"relative": {
+"2012": 0,
+"2013": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2012": 21,
+"2013": null
+},
+"relative": {
+"2012": 2.2006615607825344,
+"2013": null
+},
+"sums": {
+"absolute": 21,
+"relative": 2.2006615607825344
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2013": [
+{
+"absolute": {
+"2013": 48,
+"2014": null
+},
+"relative": {
+"2013": 3.4389265276213146,
+"2014": null
+},
+"sums": {
+"absolute": 48,
+"relative": 3.4389265276213146
+}
+},
+{
+"absolute": {
+"2013": 2,
+"2014": null
+},
+"relative": {
+"2013": 0.14328860531755477,
+"2014": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.14328860531755477
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2013": 46,
+"2014": null
+},
+"relative": {
+"2013": 3.29563792230376,
+"2014": null
+},
+"sums": {
+"absolute": 46,
+"relative": 3.29563792230376
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2014": [
+{
+"absolute": {
+"2014": 50,
+"2015": null
+},
+"relative": {
+"2014": 3.11032412998791,
+"2015": null
+},
+"sums": {
+"absolute": 50,
+"relative": 3.11032412998791
+}
+},
+{
+"absolute": {
+"2014": 3,
+"2015": null
+},
+"relative": {
+"2014": 0.1866194477992746,
+"2015": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.1866194477992746
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2014": 47,
+"2015": null
+},
+"relative": {
+"2014": 2.923704682188635,
+"2015": null
+},
+"sums": {
+"absolute": 47,
+"relative": 2.923704682188635
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2015": [
+{
+"absolute": {
+"2015": 82,
+"2016": null
+},
+"relative": {
+"2015": 4.2708088651575435,
+"2016": null
+},
+"sums": {
+"absolute": 82,
+"relative": 4.2708088651575435
+}
+},
+{
+"absolute": {
+"2015": 0,
+"2016": null
+},
+"relative": {
+"2015": 0,
+"2016": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2015": 82,
+"2016": null
+},
+"relative": {
+"2015": 4.2708088651575435,
+"2016": null
+},
+"sums": {
+"absolute": 82,
+"relative": 4.2708088651575435
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2016": [
+{
+"absolute": {
+"2016": 71,
+"2017": null
+},
+"relative": {
+"2016": 3.268589330707536,
+"2017": null
+},
+"sums": {
+"absolute": 71,
+"relative": 3.268589330707536
+}
+},
+{
+"absolute": {
+"2016": 1,
+"2017": null
+},
+"relative": {
+"2016": 0.046036469446585015,
+"2017": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2016": 70,
+"2017": null
+},
+"relative": {
+"2016": 3.222552861260951,
+"2017": null
+},
+"sums": {
+"absolute": 70,
+"relative": 3.222552861260951
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2017": [
+{
+"absolute": {
+"2017": 54,
+"2018": null
+},
+"relative": {
+"2017": 2.5508727882102438,
+"2018": null
+},
+"sums": {
+"absolute": 54,
+"relative": 2.5508727882102438
+}
+},
+{
+"absolute": {
+"2017": 0,
+"2018": null
+},
+"relative": {
+"2017": 0,
+"2018": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2017": 54,
+"2018": null
+},
+"relative": {
+"2017": 2.5508727882102438,
+"2018": null
+},
+"sums": {
+"absolute": 54,
+"relative": 2.5508727882102438
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2018": [
+{
+"absolute": {
+"2018": 55,
+"2019": null
+},
+"relative": {
+"2018": 2.925972989758137,
+"2019": null
+},
+"sums": {
+"absolute": 55,
+"relative": 2.925972989758137
+}
+},
+{
+"absolute": {
+"2018": 0,
+"2019": null
+},
+"relative": {
+"2018": 0,
+"2019": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2018": 55,
+"2019": null
+},
+"relative": {
+"2018": 2.925972989758137,
+"2019": null
+},
+"sums": {
+"absolute": 55,
+"relative": 2.925972989758137
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2019": [
+{
+"absolute": {
+"2019": 56,
+"2020": null
+},
+"relative": {
+"2019": 3.06824701843096,
+"2020": null
+},
+"sums": {
+"absolute": 56,
+"relative": 3.06824701843096
+}
+},
+{
+"absolute": {
+"2019": 1,
+"2020": null
+},
+"relative": {
+"2019": 0.05479012532912428,
+"2020": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05479012532912428
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2019": 55,
+"2020": null
+},
+"relative": {
+"2019": 3.0134568931018357,
+"2020": null
+},
+"sums": {
+"absolute": 55,
+"relative": 3.0134568931018357
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2020": [
+{
+"absolute": {
+"2020": 39,
+"2021": null
+},
+"relative": {
+"2020": 2.437635136397874,
+"2021": null
+},
+"sums": {
+"absolute": 39,
+"relative": 2.437635136397874
+}
+},
+{
+"absolute": {
+"2020": 1,
+"2021": null
+},
+"relative": {
+"2020": 0.06250346503584292,
+"2021": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.06250346503584292
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2020": 38,
+"2021": null
+},
+"relative": {
+"2020": 2.375131671362031,
+"2021": null
+},
+"sums": {
+"absolute": 38,
+"relative": 2.375131671362031
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2021": [
+{
+"absolute": {
+"2021": 41,
+"2022": null
+},
+"relative": {
+"2021": 2.7406926412135197,
+"2022": null
+},
+"sums": {
+"absolute": 41,
+"relative": 2.7406926412135197
+}
+},
+{
+"absolute": {
+"2021": 1,
+"2022": null
+},
+"relative": {
+"2021": 0.06684616198081755,
+"2022": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.06684616198081755
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2021": 40,
+"2022": null
+},
+"relative": {
+"2021": 2.673846479232702,
+"2022": null
+},
+"sums": {
+"absolute": 40,
+"relative": 2.673846479232702
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2022": [
+{
+"absolute": {
+"2022": 35,
+"2023": null
+},
+"relative": {
+"2022": 2.500639627893392,
+"2023": null
+},
+"sums": {
+"absolute": 35,
+"relative": 2.500639627893392
+}
+},
+{
+"absolute": {
+"2022": 0,
+"2023": null
+},
+"relative": {
+"2022": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2022": 35,
+"2023": null
+},
+"relative": {
+"2022": 2.500639627893392,
+"2023": null
+},
+"sums": {
+"absolute": 35,
+"relative": 2.500639627893392
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"SVT-2023": [
+{
+"absolute": {
+"2023": 7,
+"2024": null
+},
+"relative": {
+"2023": 0.933146455203238,
+"2024": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.933146455203238
+}
+},
+{
+"absolute": {
+"2023": 2,
+"2024": null
+},
+"relative": {
+"2023": 0.2666132729152108,
+"2024": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.2666132729152108
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2023": 5,
+"2024": null
+},
+"relative": {
+"2023": 0.666533182288027,
+"2024": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.666533182288027
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2005": 8,
+"2006": 3,
+"2007": 9,
+"2008": 5,
+"2009": 12,
+"2010": 16,
+"2011": 18,
+"2012": 21,
+"2013": 48,
+"2014": 50,
+"2015": 82,
+"2016": 71,
+"2017": 54,
+"2018": 55,
+"2019": 56,
+"2020": 39,
+"2021": 41,
+"2022": 35,
+"2023": 7
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2005": 2.423767953303687,
+"2006": 0.7190604468577179,
+"2007": 1.6264035410780742,
+"2008": 0.6498933525008547,
+"2009": 1.3542512485914378,
+"2010": 1.6205268900103835,
+"2011": 1.9298677483075057,
+"2012": 2.2006615607825344,
+"2013": 3.4389265276213146,
+"2014": 3.11032412998791,
+"2015": 4.2708088651575435,
+"2016": 3.268589330707536,
+"2017": 2.5508727882102438,
+"2018": 2.925972989758137,
+"2019": 3.06824701843096,
+"2020": 2.437635136397874,
+"2021": 2.7406926412135197,
+"2022": 2.500639627893392,
+"2023": 0.933146455203238
+},
+"sums": {
+"absolute": 630,
+"relative": 2.6211060193699733
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2013": 2,
+"2014": 3,
+"2015": 0,
+"2016": 1,
+"2017": 0,
+"2019": 1,
+"2020": 1,
+"2021": 1,
+"2022": 0,
+"2023": 2
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2013": 0.14328860531755477,
+"2014": 0.1866194477992746,
+"2015": 0.0,
+"2016": 0.046036469446585015,
+"2017": 0.0,
+"2019": 0.05479012532912428,
+"2020": 0.06250346503584292,
+"2021": 0.06684616198081755,
+"2022": 0.0,
+"2023": 0.2666132729152108
+},
+"sums": {
+"absolute": 11,
+"relative": 0.04576534319534874
+},
+"cqp": "[word = 'orkar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'k\u00f6ra' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = '\u00e5ka' %c | word = 'spela' %c | word = 'springa' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rflytta' %c | word = 'arbeta' %c | word = 'st\u00e5' %c]"
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2005": 8,
+"2006": 3,
+"2007": 9,
+"2008": 5,
+"2009": 12,
+"2010": 16,
+"2011": 18,
+"2012": 21,
+"2013": 46,
+"2014": 47,
+"2015": 82,
+"2016": 70,
+"2017": 54,
+"2018": 55,
+"2019": 55,
+"2020": 38,
+"2021": 40,
+"2022": 35,
+"2023": 5
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2005": 2.423767953303687,
+"2006": 0.7190604468577179,
+"2007": 1.6264035410780742,
+"2008": 0.6498933525008547,
+"2009": 1.3542512485914378,
+"2010": 1.6205268900103835,
+"2011": 1.9298677483075057,
+"2012": 2.2006615607825344,
+"2013": 3.29563792230376,
+"2014": 2.923704682188635,
+"2015": 4.2708088651575435,
+"2016": 3.222552861260951,
+"2017": 2.5508727882102438,
+"2018": 2.925972989758137,
+"2019": 3.0134568931018357,
+"2020": 2.375131671362031,
+"2021": 2.673846479232702,
+"2022": 2.500639627893392,
+"2023": 0.666533182288027
+},
+"sums": {
+"absolute": 619,
+"relative": 2.5753406761746245
+},
+"cqp": "[word = 'orkar' %c] [word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'jobba' %c | word = 'b\u00e4ra' %c | word = 'g\u00e5' %c | word = 'vara' %c | word = 'g\u00f6ra' %c | word = 'st\u00e5' %c | word = 'arbeta' %c | word = 'forts\u00e4tta' %c | word = 'bry' %c | word = 'lyssna' %c | word = 'se' %c | word = 'leva' %c | word = 'l\u00e4sa' %c | word = 'v\u00e4nta' %c | word = 'springa' %c]"
+}
+],
+"time": 11.185979843139648
+}

@@ -1,0 +1,1069 @@
+ 
+ 
+{
+"corpora": {
+"SVT-2004": [
+{
+"absolute": {
+"2004": 1,
+"2005": null
+},
+"relative": {
+"2004": 2.236190961763371,
+"2005": null
+},
+"sums": {
+"absolute": 1,
+"relative": 2.236190961763371
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2004": 1,
+"2005": null
+},
+"relative": {
+"2004": 2.236190961763371,
+"2005": null
+},
+"sums": {
+"absolute": 1,
+"relative": 2.236190961763371
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2005": [
+{
+"absolute": {
+"2005": 8,
+"2006": null
+},
+"relative": {
+"2005": 2.423767953303687,
+"2006": null
+},
+"sums": {
+"absolute": 8,
+"relative": 2.423767953303687
+}
+},
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2005": 8,
+"2006": null
+},
+"relative": {
+"2005": 2.423767953303687,
+"2006": null
+},
+"sums": {
+"absolute": 8,
+"relative": 2.423767953303687
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2006": [
+{
+"absolute": {
+"2006": 22,
+"2007": null
+},
+"relative": {
+"2006": 5.273109943623265,
+"2007": null
+},
+"sums": {
+"absolute": 22,
+"relative": 5.273109943623265
+}
+},
+{
+"absolute": {
+"2006": 0,
+"2007": null
+},
+"relative": {
+"2006": 0,
+"2007": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2006": 22,
+"2007": null
+},
+"relative": {
+"2006": 5.273109943623265,
+"2007": null
+},
+"sums": {
+"absolute": 22,
+"relative": 5.273109943623265
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2007": [
+{
+"absolute": {
+"2007": 25,
+"2008": null
+},
+"relative": {
+"2007": 4.517787614105762,
+"2008": null
+},
+"sums": {
+"absolute": 25,
+"relative": 4.517787614105762
+}
+},
+{
+"absolute": {
+"2007": 1,
+"2008": null
+},
+"relative": {
+"2007": 0.18071150456423046,
+"2008": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.18071150456423046
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2007": 24,
+"2008": null
+},
+"relative": {
+"2007": 4.337076109541531,
+"2008": null
+},
+"sums": {
+"absolute": 24,
+"relative": 4.337076109541531
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2008": [
+{
+"absolute": {
+"2008": 39,
+"2009": null
+},
+"relative": {
+"2008": 5.069168149506665,
+"2009": null
+},
+"sums": {
+"absolute": 39,
+"relative": 5.069168149506665
+}
+},
+{
+"absolute": {
+"2008": 0,
+"2009": null
+},
+"relative": {
+"2008": 0,
+"2009": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2008": 39,
+"2009": null
+},
+"relative": {
+"2008": 5.069168149506665,
+"2009": null
+},
+"sums": {
+"absolute": 39,
+"relative": 5.069168149506665
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2009": [
+{
+"absolute": {
+"2009": 46,
+"2010": null
+},
+"relative": {
+"2009": 5.191296452933845,
+"2010": null
+},
+"sums": {
+"absolute": 46,
+"relative": 5.191296452933845
+}
+},
+{
+"absolute": {
+"2009": 1,
+"2010": null
+},
+"relative": {
+"2009": 0.11285427071595314,
+"2010": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.11285427071595314
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2009": 45,
+"2010": null
+},
+"relative": {
+"2009": 5.078442182217891,
+"2010": null
+},
+"sums": {
+"absolute": 45,
+"relative": 5.078442182217891
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2010": [
+{
+"absolute": {
+"2010": 38,
+"2011": null
+},
+"relative": {
+"2010": 3.848751363774661,
+"2011": null
+},
+"sums": {
+"absolute": 38,
+"relative": 3.848751363774661
+}
+},
+{
+"absolute": {
+"2010": 2,
+"2011": null
+},
+"relative": {
+"2010": 0.20256586125129794,
+"2011": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.20256586125129794
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2010": 36,
+"2011": null
+},
+"relative": {
+"2010": 3.646185502523363,
+"2011": null
+},
+"sums": {
+"absolute": 36,
+"relative": 3.646185502523363
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2011": [
+{
+"absolute": {
+"2011": 45,
+"2012": null
+},
+"relative": {
+"2011": 4.824669370768765,
+"2012": null
+},
+"sums": {
+"absolute": 45,
+"relative": 4.824669370768765
+}
+},
+{
+"absolute": {
+"2011": 1,
+"2012": null
+},
+"relative": {
+"2011": 0.10721487490597256,
+"2012": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2011": 44,
+"2012": null
+},
+"relative": {
+"2011": 4.717454495862793,
+"2012": null
+},
+"sums": {
+"absolute": 44,
+"relative": 4.717454495862793
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2012": [
+{
+"absolute": {
+"2012": 55,
+"2013": null
+},
+"relative": {
+"2012": 5.763637421097114,
+"2013": null
+},
+"sums": {
+"absolute": 55,
+"relative": 5.763637421097114
+}
+},
+{
+"absolute": {
+"2012": 1,
+"2013": null
+},
+"relative": {
+"2012": 0.10479340765631115,
+"2013": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.10479340765631115
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2012": 54,
+"2013": null
+},
+"relative": {
+"2012": 5.6588440134408025,
+"2013": null
+},
+"sums": {
+"absolute": 54,
+"relative": 5.6588440134408025
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2013": [
+{
+"absolute": {
+"2013": 87,
+"2014": null
+},
+"relative": {
+"2013": 6.233054331313633,
+"2014": null
+},
+"sums": {
+"absolute": 87,
+"relative": 6.233054331313633
+}
+},
+{
+"absolute": {
+"2013": 2,
+"2014": null
+},
+"relative": {
+"2013": 0.14328860531755477,
+"2014": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.14328860531755477
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2013": 85,
+"2014": null
+},
+"relative": {
+"2013": 6.089765725996077,
+"2014": null
+},
+"sums": {
+"absolute": 85,
+"relative": 6.089765725996077
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2014": [
+{
+"absolute": {
+"2014": 79,
+"2015": null
+},
+"relative": {
+"2014": 4.914312125380898,
+"2015": null
+},
+"sums": {
+"absolute": 79,
+"relative": 4.914312125380898
+}
+},
+{
+"absolute": {
+"2014": 2,
+"2015": null
+},
+"relative": {
+"2014": 0.1244129651995164,
+"2015": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.1244129651995164
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2014": 77,
+"2015": null
+},
+"relative": {
+"2014": 4.789899160181382,
+"2015": null
+},
+"sums": {
+"absolute": 77,
+"relative": 4.789899160181382
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2015": [
+{
+"absolute": {
+"2015": 88,
+"2016": null
+},
+"relative": {
+"2015": 4.583307074803217,
+"2016": null
+},
+"sums": {
+"absolute": 88,
+"relative": 4.583307074803217
+}
+},
+{
+"absolute": {
+"2015": 1,
+"2016": null
+},
+"relative": {
+"2015": 0.05208303494094565,
+"2016": null
+},
+"sums": {
+"absolute": 1,
+"relative": 0.05208303494094565
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2015": 87,
+"2016": null
+},
+"relative": {
+"2015": 4.531224039862272,
+"2016": null
+},
+"sums": {
+"absolute": 87,
+"relative": 4.531224039862272
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2016": [
+{
+"absolute": {
+"2016": 126,
+"2017": null
+},
+"relative": {
+"2016": 5.800595150269712,
+"2017": null
+},
+"sums": {
+"absolute": 126,
+"relative": 5.800595150269712
+}
+},
+{
+"absolute": {
+"2016": 0,
+"2017": null
+},
+"relative": {
+"2016": 0,
+"2017": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2016": 126,
+"2017": null
+},
+"relative": {
+"2016": 5.800595150269712,
+"2017": null
+},
+"sums": {
+"absolute": 126,
+"relative": 5.800595150269712
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2017": [
+{
+"absolute": {
+"2017": 93,
+"2018": null
+},
+"relative": {
+"2017": 4.393169801917642,
+"2018": null
+},
+"sums": {
+"absolute": 93,
+"relative": 4.393169801917642
+}
+},
+{
+"absolute": {
+"2017": 0,
+"2018": null
+},
+"relative": {
+"2017": 0,
+"2018": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2017": 93,
+"2018": null
+},
+"relative": {
+"2017": 4.393169801917642,
+"2018": null
+},
+"sums": {
+"absolute": 93,
+"relative": 4.393169801917642
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2018": [
+{
+"absolute": {
+"2018": 96,
+"2019": null
+},
+"relative": {
+"2018": 5.1071528548505665,
+"2019": null
+},
+"sums": {
+"absolute": 96,
+"relative": 5.1071528548505665
+}
+},
+{
+"absolute": {
+"2018": 0,
+"2019": null
+},
+"relative": {
+"2018": 0,
+"2019": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2018": 96,
+"2019": null
+},
+"relative": {
+"2018": 5.1071528548505665,
+"2019": null
+},
+"sums": {
+"absolute": 96,
+"relative": 5.1071528548505665
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2019": [
+{
+"absolute": {
+"2019": 84,
+"2020": null
+},
+"relative": {
+"2019": 4.60237052764644,
+"2020": null
+},
+"sums": {
+"absolute": 84,
+"relative": 4.60237052764644
+}
+},
+{
+"absolute": {
+"2019": 0,
+"2020": null
+},
+"relative": {
+"2019": 0,
+"2020": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2019": 84,
+"2020": null
+},
+"relative": {
+"2019": 4.60237052764644,
+"2020": null
+},
+"sums": {
+"absolute": 84,
+"relative": 4.60237052764644
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2020": [
+{
+"absolute": {
+"2020": 65,
+"2021": null
+},
+"relative": {
+"2020": 4.06272522732979,
+"2021": null
+},
+"sums": {
+"absolute": 65,
+"relative": 4.06272522732979
+}
+},
+{
+"absolute": {
+"2020": 0,
+"2021": null
+},
+"relative": {
+"2020": 0,
+"2021": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2020": 65,
+"2021": null
+},
+"relative": {
+"2020": 4.06272522732979,
+"2021": null
+},
+"sums": {
+"absolute": 65,
+"relative": 4.06272522732979
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2021": [
+{
+"absolute": {
+"2021": 71,
+"2022": null
+},
+"relative": {
+"2021": 4.746077500638046,
+"2022": null
+},
+"sums": {
+"absolute": 71,
+"relative": 4.746077500638046
+}
+},
+{
+"absolute": {
+"2021": 0,
+"2022": null
+},
+"relative": {
+"2021": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2021": 71,
+"2022": null
+},
+"relative": {
+"2021": 4.746077500638046,
+"2022": null
+},
+"sums": {
+"absolute": 71,
+"relative": 4.746077500638046
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2022": [
+{
+"absolute": {
+"2022": 62,
+"2023": null
+},
+"relative": {
+"2022": 4.429704483696866,
+"2023": null
+},
+"sums": {
+"absolute": 62,
+"relative": 4.429704483696866
+}
+},
+{
+"absolute": {
+"2022": 0,
+"2023": null
+},
+"relative": {
+"2022": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2022": 62,
+"2023": null
+},
+"relative": {
+"2022": 4.429704483696866,
+"2023": null
+},
+"sums": {
+"absolute": 62,
+"relative": 4.429704483696866
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"SVT-2023": [
+{
+"absolute": {
+"2023": 29,
+"2024": null
+},
+"relative": {
+"2023": 3.8658924572705575,
+"2024": null
+},
+"sums": {
+"absolute": 29,
+"relative": 3.8658924572705575
+}
+},
+{
+"absolute": {
+"2023": 0,
+"2024": null
+},
+"relative": {
+"2023": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2023": 29,
+"2024": null
+},
+"relative": {
+"2023": 3.8658924572705575,
+"2024": null
+},
+"sums": {
+"absolute": 29,
+"relative": 3.8658924572705575
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2004": 1,
+"2024": null,
+"2005": 8,
+"2006": 22,
+"2007": 25,
+"2008": 39,
+"2009": 46,
+"2010": 38,
+"2011": 45,
+"2012": 55,
+"2013": 87,
+"2014": 79,
+"2015": 88,
+"2016": 126,
+"2017": 93,
+"2018": 96,
+"2019": 84,
+"2020": 65,
+"2021": 71,
+"2022": 62,
+"2023": 29
+},
+"relative": {
+"2004": 2.236190961763371,
+"2024": null,
+"2005": 2.423767953303687,
+"2006": 5.273109943623265,
+"2007": 4.517787614105762,
+"2008": 5.069168149506665,
+"2009": 5.191296452933845,
+"2010": 3.848751363774661,
+"2011": 4.824669370768765,
+"2012": 5.763637421097114,
+"2013": 6.233054331313633,
+"2014": 4.914312125380898,
+"2015": 4.583307074803217,
+"2016": 5.800595150269712,
+"2017": 4.393169801917642,
+"2018": 5.1071528548505665,
+"2019": 4.60237052764644,
+"2020": 4.06272522732979,
+"2021": 4.746077500638046,
+"2022": 4.429704483696866,
+"2023": 3.8658924572705575
+},
+"sums": {
+"absolute": 1159,
+"relative": 4.822002978491745
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2007": 1,
+"2008": 0,
+"2009": 1,
+"2010": 2,
+"2011": 1,
+"2012": 1,
+"2013": 2,
+"2014": 2,
+"2015": 1,
+"2016": 0
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2007": 0.18071150456423046,
+"2008": 0.0,
+"2009": 0.11285427071595314,
+"2010": 0.20256586125129794,
+"2011": 0.10721487490597256,
+"2012": 0.10479340765631115,
+"2013": 0.14328860531755477,
+"2014": 0.1244129651995164,
+"2015": 0.05208303494094565,
+"2016": 0.0
+},
+"sums": {
+"absolute": 11,
+"relative": 0.04576534319534874
+},
+"cqp": "[word = 'hinner' %c] [word = 'att'] [word = 'bli' %c | word = 'blanda' %c | word = 'mogna' %c | word = 'sv\u00e4lla' %c | word = 'ta' %c | word = 'sitta' %c | word = 'dra' %c | word = 'spara' %c | word = '\u00e4ta' %c | word = 'komma' %c | word = 'g\u00f6ra' %c]"
+},
+{
+"absolute": {
+"2004": 1,
+"2024": null,
+"2005": 8,
+"2006": 22,
+"2007": 24,
+"2008": 39,
+"2009": 45,
+"2010": 36,
+"2011": 44,
+"2012": 54,
+"2013": 85,
+"2014": 77,
+"2015": 87,
+"2016": 126,
+"2017": 93,
+"2018": 96,
+"2019": 84,
+"2020": 65,
+"2021": 71,
+"2022": 62,
+"2023": 29
+},
+"relative": {
+"2004": 2.236190961763371,
+"2024": null,
+"2005": 2.423767953303687,
+"2006": 5.273109943623265,
+"2007": 4.337076109541531,
+"2008": 5.069168149506665,
+"2009": 5.078442182217891,
+"2010": 3.646185502523363,
+"2011": 4.717454495862793,
+"2012": 5.6588440134408025,
+"2013": 6.089765725996077,
+"2014": 4.789899160181382,
+"2015": 4.531224039862272,
+"2016": 5.800595150269712,
+"2017": 4.393169801917642,
+"2018": 5.1071528548505665,
+"2019": 4.60237052764644,
+"2020": 4.06272522732979,
+"2021": 4.746077500638046,
+"2022": 4.429704483696866,
+"2023": 3.8658924572705575
+},
+"sums": {
+"absolute": 1148,
+"relative": 4.776237635296396
+},
+"cqp": "[word = 'hinner' %c] [word = 'bli' %c | word = 'f\u00e5' %c | word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'g\u00e5' %c | word = 'komma' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4sa' %c | word = 'h\u00e4nda' %c | word = 's\u00e4tta' %c | word = '\u00e4ta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rsvinna' %c | word = 'vara' %c | word = 'd\u00f6' %c | word = 'prata' %c | word = 'svara' %c | word = 'bygga' %c | word = 'st\u00e4lla' %c | word = 'l\u00e4ka' %c | word = '\u00e5terh\u00e4mta' %c | word = 'anpassa' %c | word = 'l\u00e4gga' %c | word = 'l\u00e4ra' %c | word = 'l\u00e4mna' %c | word = 'v\u00e4xa' %c | word = 'uppfatta' %c]"
+}
+],
+"time": 11.392415523529053
+}

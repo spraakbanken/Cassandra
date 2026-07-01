@@ -1,8 +1,99 @@
- 
- 
- 
 {
 "corpora": {
+"PRESS95": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2004": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2006": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2011": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2022": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"WEBBNYHETER2001": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"WEBBNYHETER2004": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"WEBBNYHETER2008": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"GP2001": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"vattna"
+]
+},
+"absolute": 1,
+"relative": 0.05743385974146033
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.05743385974146033
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"betala"
+]
+},
+"absolute": 1,
+"relative": 0.05743385974146033
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.172301579224381
+}
+},
 "DA": {
 "rows": [
 {
@@ -49,44 +140,6 @@
 "sums": {
 "absolute": 4,
 "relative": 0.4334146202453603
-}
-},
-"GP2001": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"vattna"
-]
-},
-"absolute": 1,
-"relative": 0.05743385974146033
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"l\u00e4gga"
-]
-},
-"absolute": 1,
-"relative": 0.05743385974146033
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"betala"
-]
-},
-"absolute": 1,
-"relative": 0.05743385974146033
-}
-],
-"sums": {
-"absolute": 3,
-"relative": 0.172301579224381
 }
 },
 "GP2002": {
@@ -653,13 +706,6 @@
 "relative": 1.4835452577734063
 }
 },
-"PRESS95": {
-"rows": [],
-"sums": {
-"absolute": 0,
-"relative": 0.0
-}
-},
 "PRESS96": {
 "rows": [
 {
@@ -676,6 +722,24 @@
 "sums": {
 "absolute": 1,
 "relative": 0.15346767893947696
+}
+},
+"PRESS98": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"fr\u00e5ga"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.09310250986677124
 }
 },
 "PRESS97": {
@@ -716,31 +780,6 @@
 "relative": 0.2189257038406647
 }
 },
-"PRESS98": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"fr\u00e5ga"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.09310250986677124
-}
-},
-"SVT-2004": {
-"rows": [],
-"sums": {
-"absolute": 0,
-"relative": 0.0
-}
-},
 "SVT-2005": {
 "rows": [
 {
@@ -757,13 +796,6 @@
 "sums": {
 "absolute": 1,
 "relative": 0.30297099416296086
-}
-},
-"SVT-2006": {
-"rows": [],
-"sums": {
-"absolute": 0,
-"relative": 0.0
 }
 },
 "SVT-2007": {
@@ -794,24 +826,6 @@
 "relative": 0.3614230091284609
 }
 },
-"SVT-2008": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.12997867050017092
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.12997867050017092
-}
-},
 "SVT-2009": {
 "rows": [
 {
@@ -830,6 +844,24 @@
 "relative": 0.11285427071595314
 }
 },
+"SVT-2008": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.12997867050017092
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.12997867050017092
+}
+},
 "SVT-2010": {
 "rows": [
 {
@@ -846,13 +878,6 @@
 "sums": {
 "absolute": 1,
 "relative": 0.10128293062564897
-}
-},
-"SVT-2011": {
-"rows": [],
-"sums": {
-"absolute": 0,
-"relative": 0.0
 }
 },
 "SVT-2012": {
@@ -1071,34 +1096,6 @@
 "relative": 0.1063990178093868
 }
 },
-"SVT-2020": {
-"rows": [
-{
-"value": {
-"word": [
-"Gl\u00f6mmer",
-"h\u00e5lla"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"h\u00e5lla"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.12500693007168584
-}
-},
 "SVT-2019": {
 "rows": [
 {
@@ -1127,8 +1124,18 @@
 "relative": 0.10958025065824856
 }
 },
-"SVT-2021": {
+"SVT-2020": {
 "rows": [
+{
+"value": {
+"word": [
+"Gl\u00f6mmer",
+"h\u00e5lla"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+},
 {
 "value": {
 "word": [
@@ -1137,26 +1144,12 @@
 ]
 },
 "absolute": 1,
-"relative": 0.06684616198081755
+"relative": 0.06250346503584292
 }
 ],
 "sums": {
-"absolute": 1,
-"relative": 0.06684616198081755
-}
-},
-"SVT-2022": {
-"rows": [],
-"sums": {
-"absolute": 0,
-"relative": 0.0
-}
-},
-"WEBBNYHETER2001": {
-"rows": [],
-"sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 2,
+"relative": 0.12500693007168584
 }
 },
 "SVT-2023": {
@@ -1177,22 +1170,22 @@
 "relative": 0.1334341205724057
 }
 },
-"WEBBNYHETER2003": {
+"SVT-2021": {
 "rows": [
 {
 "value": {
 "word": [
 "gl\u00f6mmer",
-"ber\u00e4tta"
+"h\u00e5lla"
 ]
 },
 "absolute": 1,
-"relative": 0.08185122590218058
+"relative": 0.06684616198081755
 }
 ],
 "sums": {
 "absolute": 1,
-"relative": 0.08185122590218058
+"relative": 0.06684616198081755
 }
 },
 "WEBBNYHETER2002": {
@@ -1233,14 +1226,7 @@
 "relative": 0.17215483858676256
 }
 },
-"WEBBNYHETER2004": {
-"rows": [],
-"sums": {
-"absolute": 0,
-"relative": 0.0
-}
-},
-"WEBBNYHETER2005": {
+"WEBBNYHETER2003": {
 "rows": [
 {
 "value": {
@@ -1250,12 +1236,12 @@
 ]
 },
 "absolute": 1,
-"relative": 0.033894114852987496
+"relative": 0.08185122590218058
 }
 ],
 "sums": {
 "absolute": 1,
-"relative": 0.033894114852987496
+"relative": 0.08185122590218058
 }
 },
 "WEBBNYHETER2006": {
@@ -1284,6 +1270,24 @@
 "sums": {
 "absolute": 2,
 "relative": 0.08863758361183262
+}
+},
+"WEBBNYHETER2005": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"ber\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.033894114852987496
 }
 },
 "WEBBNYHETER2007": {
@@ -1324,13 +1328,6 @@
 "relative": 0.1624006519086969
 }
 },
-"WEBBNYHETER2008": {
-"rows": [],
-"sums": {
-"absolute": 0,
-"relative": 0.0
-}
-},
 "WEBBNYHETER2009": {
 "rows": [
 {
@@ -1347,24 +1344,6 @@
 "sums": {
 "absolute": 1,
 "relative": 0.038626773398621854
-}
-},
-"WEBBNYHETER2010": {
-"rows": [
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"n\u00e4mna"
-]
-},
-"absolute": 1,
-"relative": 0.042010492792742875
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.042010492792742875
 }
 },
 "WEBBNYHETER2011": {
@@ -1403,6 +1382,24 @@
 "sums": {
 "absolute": 3,
 "relative": 0.11420477899034068
+}
+},
+"WEBBNYHETER2010": {
+"rows": [
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"n\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.042010492792742875
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.042010492792742875
 }
 },
 "WEBBNYHETER2012": {
@@ -1469,6 +1466,36 @@
 "value": {
 "word": [
 "gl\u00f6mmer",
+"vattna"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"l\u00e4gga"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"betala"
+]
+},
+"absolute": 7,
+"relative": 0.008628450351197773
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
 "s\u00e4tta"
 ]
 },
@@ -1504,36 +1531,6 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"vattna"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"l\u00e4gga"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
-"betala"
-]
-},
-"absolute": 7,
-"relative": 0.008628450351197773
 },
 {
 "value": {
@@ -2049,21 +2046,21 @@
 "value": {
 "word": [
 "gl\u00f6mmer",
-"ber\u00e4tta"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"gl\u00f6mmer",
 "plantera"
 ]
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"gl\u00f6mmer",
+"ber\u00e4tta"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
 },
 {
 "value": {
@@ -2101,5 +2098,5 @@
 "relative": 0.1368225698547076
 }
 },
-"time": 18.955859184265137
+"time": 0.09844827651977539
 }

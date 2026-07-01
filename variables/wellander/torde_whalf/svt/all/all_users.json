@@ -1,0 +1,1049 @@
+ 
+ 
+{
+"corpora": {
+"SVT-2004": [
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2005": [
+{
+"absolute": {
+"2005": 5,
+"2006": null
+},
+"relative": {
+"2005": 1.5148549708148042,
+"2006": null
+},
+"sums": {
+"absolute": 5,
+"relative": 1.5148549708148042
+}
+},
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2005": 5,
+"2006": null
+},
+"relative": {
+"2005": 1.5148549708148042,
+"2006": null
+},
+"sums": {
+"absolute": 5,
+"relative": 1.5148549708148042
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2006": [
+{
+"absolute": {
+"2006": 2,
+"2007": null
+},
+"relative": {
+"2006": 0.4793736312384786,
+"2007": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.4793736312384786
+}
+},
+{
+"absolute": {
+"2006": 0,
+"2007": null
+},
+"relative": {
+"2006": 0,
+"2007": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2006": 2,
+"2007": null
+},
+"relative": {
+"2006": 0.4793736312384786,
+"2007": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.4793736312384786
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2007": [
+{
+"absolute": {
+"2007": 0,
+"2008": null
+},
+"relative": {
+"2007": 0,
+"2008": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2007": 0,
+"2008": null
+},
+"relative": {
+"2007": 0,
+"2008": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2007": 0,
+"2008": null
+},
+"relative": {
+"2007": 0,
+"2008": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2008": [
+{
+"absolute": {
+"2008": 6,
+"2009": null
+},
+"relative": {
+"2008": 0.7798720230010255,
+"2009": null
+},
+"sums": {
+"absolute": 6,
+"relative": 0.7798720230010255
+}
+},
+{
+"absolute": {
+"2008": 0,
+"2009": null
+},
+"relative": {
+"2008": 0,
+"2009": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2008": 6,
+"2009": null
+},
+"relative": {
+"2008": 0.7798720230010255,
+"2009": null
+},
+"sums": {
+"absolute": 6,
+"relative": 0.7798720230010255
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2009": [
+{
+"absolute": {
+"2009": 11,
+"2010": null
+},
+"relative": {
+"2009": 1.2413969778754845,
+"2010": null
+},
+"sums": {
+"absolute": 11,
+"relative": 1.2413969778754845
+}
+},
+{
+"absolute": {
+"2009": 0,
+"2010": null
+},
+"relative": {
+"2009": 0,
+"2010": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2009": 11,
+"2010": null
+},
+"relative": {
+"2009": 1.2413969778754845,
+"2010": null
+},
+"sums": {
+"absolute": 11,
+"relative": 1.2413969778754845
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2010": [
+{
+"absolute": {
+"2010": 10,
+"2011": null
+},
+"relative": {
+"2010": 1.0128293062564897,
+"2011": null
+},
+"sums": {
+"absolute": 10,
+"relative": 1.0128293062564897
+}
+},
+{
+"absolute": {
+"2010": 0,
+"2011": null
+},
+"relative": {
+"2010": 0,
+"2011": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2010": 10,
+"2011": null
+},
+"relative": {
+"2010": 1.0128293062564897,
+"2011": null
+},
+"sums": {
+"absolute": 10,
+"relative": 1.0128293062564897
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2011": [
+{
+"absolute": {
+"2011": 9,
+"2012": null
+},
+"relative": {
+"2011": 0.9649338741537529,
+"2012": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.9649338741537529
+}
+},
+{
+"absolute": {
+"2011": 0,
+"2012": null
+},
+"relative": {
+"2011": 0,
+"2012": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2011": 9,
+"2012": null
+},
+"relative": {
+"2011": 0.9649338741537529,
+"2012": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.9649338741537529
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2012": [
+{
+"absolute": {
+"2012": 5,
+"2013": null
+},
+"relative": {
+"2012": 0.5239670382815558,
+"2013": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.5239670382815558
+}
+},
+{
+"absolute": {
+"2012": 0,
+"2013": null
+},
+"relative": {
+"2012": 0,
+"2013": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2012": 5,
+"2013": null
+},
+"relative": {
+"2012": 0.5239670382815558,
+"2013": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.5239670382815558
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2013": [
+{
+"absolute": {
+"2013": 4,
+"2014": null
+},
+"relative": {
+"2013": 0.28657721063510955,
+"2014": null
+},
+"sums": {
+"absolute": 4,
+"relative": 0.28657721063510955
+}
+},
+{
+"absolute": {
+"2013": 0,
+"2014": null
+},
+"relative": {
+"2013": 0,
+"2014": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2013": 4,
+"2014": null
+},
+"relative": {
+"2013": 0.28657721063510955,
+"2014": null
+},
+"sums": {
+"absolute": 4,
+"relative": 0.28657721063510955
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2014": [
+{
+"absolute": {
+"2014": 13,
+"2015": null
+},
+"relative": {
+"2014": 0.8086842737968566,
+"2015": null
+},
+"sums": {
+"absolute": 13,
+"relative": 0.8086842737968566
+}
+},
+{
+"absolute": {
+"2014": 0,
+"2015": null
+},
+"relative": {
+"2014": 0,
+"2015": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2014": 13,
+"2015": null
+},
+"relative": {
+"2014": 0.8086842737968566,
+"2015": null
+},
+"sums": {
+"absolute": 13,
+"relative": 0.8086842737968566
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2015": [
+{
+"absolute": {
+"2015": 9,
+"2016": null
+},
+"relative": {
+"2015": 0.46874731446851087,
+"2016": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.46874731446851087
+}
+},
+{
+"absolute": {
+"2015": 0,
+"2016": null
+},
+"relative": {
+"2015": 0,
+"2016": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2015": 9,
+"2016": null
+},
+"relative": {
+"2015": 0.46874731446851087,
+"2016": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.46874731446851087
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2016": [
+{
+"absolute": {
+"2016": 15,
+"2017": null
+},
+"relative": {
+"2016": 0.6905470416987751,
+"2017": null
+},
+"sums": {
+"absolute": 15,
+"relative": 0.6905470416987751
+}
+},
+{
+"absolute": {
+"2016": 0,
+"2017": null
+},
+"relative": {
+"2016": 0,
+"2017": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2016": 15,
+"2017": null
+},
+"relative": {
+"2016": 0.6905470416987751,
+"2017": null
+},
+"sums": {
+"absolute": 15,
+"relative": 0.6905470416987751
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2017": [
+{
+"absolute": {
+"2017": 9,
+"2018": null
+},
+"relative": {
+"2017": 0.42514546470170733,
+"2018": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.42514546470170733
+}
+},
+{
+"absolute": {
+"2017": 0,
+"2018": null
+},
+"relative": {
+"2017": 0,
+"2018": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2017": 9,
+"2018": null
+},
+"relative": {
+"2017": 0.42514546470170733,
+"2018": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.42514546470170733
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2018": [
+{
+"absolute": {
+"2018": 10,
+"2019": null
+},
+"relative": {
+"2018": 0.531995089046934,
+"2019": null
+},
+"sums": {
+"absolute": 10,
+"relative": 0.531995089046934
+}
+},
+{
+"absolute": {
+"2018": 0,
+"2019": null
+},
+"relative": {
+"2018": 0,
+"2019": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2018": 10,
+"2019": null
+},
+"relative": {
+"2018": 0.531995089046934,
+"2019": null
+},
+"sums": {
+"absolute": 10,
+"relative": 0.531995089046934
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2019": [
+{
+"absolute": {
+"2019": 5,
+"2020": null
+},
+"relative": {
+"2019": 0.2739506266456214,
+"2020": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.2739506266456214
+}
+},
+{
+"absolute": {
+"2019": 0,
+"2020": null
+},
+"relative": {
+"2019": 0,
+"2020": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2019": 5,
+"2020": null
+},
+"relative": {
+"2019": 0.2739506266456214,
+"2020": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.2739506266456214
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2020": [
+{
+"absolute": {
+"2020": 10,
+"2021": null
+},
+"relative": {
+"2020": 0.6250346503584293,
+"2021": null
+},
+"sums": {
+"absolute": 10,
+"relative": 0.6250346503584293
+}
+},
+{
+"absolute": {
+"2020": 0,
+"2021": null
+},
+"relative": {
+"2020": 0,
+"2021": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2020": 10,
+"2021": null
+},
+"relative": {
+"2020": 0.6250346503584293,
+"2021": null
+},
+"sums": {
+"absolute": 10,
+"relative": 0.6250346503584293
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2021": [
+{
+"absolute": {
+"2021": 3,
+"2022": null
+},
+"relative": {
+"2021": 0.20053848594245266,
+"2022": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.20053848594245266
+}
+},
+{
+"absolute": {
+"2021": 0,
+"2022": null
+},
+"relative": {
+"2021": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2021": 3,
+"2022": null
+},
+"relative": {
+"2021": 0.20053848594245266,
+"2022": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.20053848594245266
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2022": [
+{
+"absolute": {
+"2022": 3,
+"2023": null
+},
+"relative": {
+"2022": 0.2143405395337193,
+"2023": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.2143405395337193
+}
+},
+{
+"absolute": {
+"2022": 0,
+"2023": null
+},
+"relative": {
+"2022": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2022": 3,
+"2023": null
+},
+"relative": {
+"2022": 0.2143405395337193,
+"2023": null
+},
+"sums": {
+"absolute": 3,
+"relative": 0.2143405395337193
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"SVT-2023": [
+{
+"absolute": {
+"2023": 0,
+"2024": null
+},
+"relative": {
+"2023": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2023": 0,
+"2024": null
+},
+"relative": {
+"2023": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2023": 0,
+"2024": null
+},
+"relative": {
+"2023": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2005": 5,
+"2006": 2,
+"2007": 0,
+"2008": 6,
+"2009": 11,
+"2010": 10,
+"2011": 9,
+"2012": 5,
+"2013": 4,
+"2014": 13,
+"2015": 9,
+"2016": 15,
+"2017": 9,
+"2018": 10,
+"2019": 5,
+"2020": 10,
+"2021": 3,
+"2022": 3,
+"2023": 0
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2005": 1.5148549708148042,
+"2006": 0.4793736312384786,
+"2007": 0.0,
+"2008": 0.7798720230010255,
+"2009": 1.2413969778754845,
+"2010": 1.0128293062564897,
+"2011": 0.9649338741537529,
+"2012": 0.5239670382815558,
+"2013": 0.28657721063510955,
+"2014": 0.8086842737968566,
+"2015": 0.46874731446851087,
+"2016": 0.6905470416987751,
+"2017": 0.42514546470170733,
+"2018": 0.531995089046934,
+"2019": 0.2739506266456214,
+"2020": 0.6250346503584293,
+"2021": 0.20053848594245266,
+"2022": 0.2143405395337193,
+"2023": 0.0
+},
+"sums": {
+"absolute": 129,
+"relative": 0.5367026611090898
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null
+},
+"relative": {
+"2004": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'torde' %c] [word = 'att']"
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2005": 5,
+"2006": 2,
+"2007": 0,
+"2008": 6,
+"2009": 11,
+"2010": 10,
+"2011": 9,
+"2012": 5,
+"2013": 4,
+"2014": 13,
+"2015": 9,
+"2016": 15,
+"2017": 9,
+"2018": 10,
+"2019": 5,
+"2020": 10,
+"2021": 3,
+"2022": 3,
+"2023": 0
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2005": 1.5148549708148042,
+"2006": 0.4793736312384786,
+"2007": 0.0,
+"2008": 0.7798720230010255,
+"2009": 1.2413969778754845,
+"2010": 1.0128293062564897,
+"2011": 0.9649338741537529,
+"2012": 0.5239670382815558,
+"2013": 0.28657721063510955,
+"2014": 0.8086842737968566,
+"2015": 0.46874731446851087,
+"2016": 0.6905470416987751,
+"2017": 0.42514546470170733,
+"2018": 0.531995089046934,
+"2019": 0.2739506266456214,
+"2020": 0.6250346503584293,
+"2021": 0.20053848594245266,
+"2022": 0.2143405395337193,
+"2023": 0.0
+},
+"sums": {
+"absolute": 129,
+"relative": 0.5367026611090898
+},
+"cqp": "[word = 'torde' %c] [word = 'vara' %c | word = 'ha' %c]"
+}
+],
+"time": 10.964125156402588
+}

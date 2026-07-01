@@ -1,0 +1,2244 @@
+{
+"corpora": {
+"SVT-2004": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2005": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2006": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2007": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2010": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2012": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2017": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2018": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2020": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2021": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2022": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"SVT-2023": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"WEBBNYHETER2001": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"WEBBNYHETER2004": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"WEBBNYHETER2008": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"WEBBNYHETER2009": {
+"rows": [],
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+"GP2001": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"f\u00f6rs\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.05743385974146033
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bolagisera"
+]
+},
+"absolute": 1,
+"relative": 0.05743385974146033
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.11486771948292065
+}
+},
+"GP2002": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"tv\u00e5ngsuttaxera"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avsl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+}
+],
+"sums": {
+"absolute": 4,
+"relative": 0.1898949131045625
+}
+},
+"DA": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.10835365506134008
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.10835365506134008
+}
+},
+"GP2003": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"\u00e4ndra"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"skicka"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"riva"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avbryta"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+}
+],
+"sums": {
+"absolute": 5,
+"relative": 0.26227357725370504
+}
+},
+"GP2004": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"beslutar",
+"sl\u00e4ppa"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"beslutar",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ha"
+]
+},
+"absolute": 1,
+"relative": 0.04474227888086138
+}
+],
+"sums": {
+"absolute": 5,
+"relative": 0.2237113944043069
+}
+},
+"GP2006": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.04450486622883076
+},
+{
+"value": {
+"word": [
+"beslutar",
+"Fifa"
+]
+},
+"absolute": 1,
+"relative": 0.04450486622883076
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bryta"
+]
+},
+"absolute": 1,
+"relative": 0.04450486622883076
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bevara"
+]
+},
+"absolute": 1,
+"relative": 0.04450486622883076
+}
+],
+"sums": {
+"absolute": 4,
+"relative": 0.17801946491532303
+}
+},
+"GP2005": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"Vinnova"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4nka"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inst\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+}
+],
+"sums": {
+"absolute": 6,
+"relative": 0.2591360240837565
+}
+},
+"GP2007": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"v\u00e4cka"
+]
+},
+"absolute": 1,
+"relative": 0.053749737566906326
+},
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.053749737566906326
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.053749737566906326
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.053749737566906326
+},
+{
+"value": {
+"word": [
+"beslutar",
+"anh\u00e5lla"
+]
+},
+"absolute": 1,
+"relative": 0.053749737566906326
+}
+],
+"sums": {
+"absolute": 5,
+"relative": 0.26874868783453165
+}
+},
+"GP2008": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"FISA"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"efterkomma"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.11776975412442928
+}
+},
+"GP2010": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"Uefa"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bryta"
+]
+},
+"absolute": 1,
+"relative": 0.058102156955423735
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.1743064708662712
+}
+},
+"GP2009": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"tilldela"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.11524024595034252
+}
+},
+"GP2011": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"samtala"
+]
+},
+"absolute": 6,
+"relative": 0.3009269905480337
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4nda"
+]
+},
+"absolute": 2,
+"relative": 0.10030899684934456
+},
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.05015449842467228
+},
+{
+"value": {
+"word": [
+"beslutar",
+"k\u00f6pa"
+]
+},
+"absolute": 1,
+"relative": 0.05015449842467228
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ansluta"
+]
+},
+"absolute": 1,
+"relative": 0.05015449842467228
+}
+],
+"sums": {
+"absolute": 11,
+"relative": 0.551699482671395
+}
+},
+"GP2012": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"flytta"
+]
+},
+"absolute": 1,
+"relative": 0.05826813468959021
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.05826813468959021
+}
+},
+"PRESS76": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"utnyttja"
+]
+},
+"absolute": 1,
+"relative": 0.7417726288867031
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.7417726288867031
+}
+},
+"GP2013": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"utvisa"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+},
+{
+"value": {
+"word": [
+"beslutar",
+"skjuta"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+},
+{
+"value": {
+"word": [
+"beslutar",
+"modifiera"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inr\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+},
+{
+"value": {
+"word": [
+"beslutar",
+"implementera"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bevara"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+}
+],
+"sums": {
+"absolute": 7,
+"relative": 0.4148875154004763
+}
+},
+"PRESS95": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"\u00f6verge"
+]
+},
+"absolute": 1,
+"relative": 0.13034920552159235
+},
+{
+"value": {
+"word": [
+"beslutar",
+"starta"
+]
+},
+"absolute": 1,
+"relative": 0.13034920552159235
+},
+{
+"value": {
+"word": [
+"beslutar",
+"godk\u00e4nna"
+]
+},
+"absolute": 1,
+"relative": 0.13034920552159235
+},
+{
+"value": {
+"word": [
+"beslutar",
+"genomf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.13034920552159235
+},
+{
+"value": {
+"word": [
+"beslutar",
+"fokusera"
+]
+},
+"absolute": 1,
+"relative": 0.13034920552159235
+},
+{
+"value": {
+"word": [
+"beslutar",
+"eliminera"
+]
+},
+"absolute": 1,
+"relative": 0.13034920552159235
+}
+],
+"sums": {
+"absolute": 6,
+"relative": 0.7820952331295541
+}
+},
+"PRESS96": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"g\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.15346767893947696
+}
+},
+"PRESS98": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avsl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.18620501973354248
+}
+},
+"PRESS97": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4nga"
+]
+},
+"absolute": 2,
+"relative": 0.1459504692271098
+},
+{
+"value": {
+"word": [
+"beslutar",
+"utnyttja"
+]
+},
+"absolute": 1,
+"relative": 0.0729752346135549
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4lja"
+]
+},
+"absolute": 1,
+"relative": 0.0729752346135549
+},
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.0729752346135549
+},
+{
+"value": {
+"word": [
+"beslutar",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0729752346135549
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avveckla"
+]
+},
+"absolute": 1,
+"relative": 0.0729752346135549
+}
+],
+"sums": {
+"absolute": 7,
+"relative": 0.5108266422948844
+}
+},
+"SVT-2008": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"utreda"
+]
+},
+"absolute": 1,
+"relative": 0.12997867050017092
+},
+{
+"value": {
+"word": [
+"beslutar",
+"f\u00f6lja"
+]
+},
+"absolute": 1,
+"relative": 0.12997867050017092
+},
+{
+"value": {
+"word": [
+"beslutar",
+"anm\u00e4la"
+]
+},
+"absolute": 1,
+"relative": 0.12997867050017092
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.38993601150051277
+}
+},
+"SVT-2009": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.11285427071595314
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.11285427071595314
+}
+},
+"SVT-2013": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.07164430265877739
+},
+{
+"value": {
+"word": [
+"beslutar",
+"skjuta"
+]
+},
+"absolute": 1,
+"relative": 0.07164430265877739
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.07164430265877739
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.07164430265877739
+}
+],
+"sums": {
+"absolute": 4,
+"relative": 0.28657721063510955
+}
+},
+"SVT-2011": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"stoppa"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"beslutar",
+"samtala"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.21442974981194513
+}
+},
+"SVT-2014": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"h\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.0622064825997582
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.0622064825997582
+}
+},
+"SVT-2015": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"anl\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.05208303494094565
+}
+},
+"SVT-2019": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.05479012532912428
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.05479012532912428
+}
+},
+"SVT-2016": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.046036469446585015
+}
+},
+"WEBBNYHETER2002": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4nga"
+]
+},
+"absolute": 2,
+"relative": 0.11476989239117504
+},
+{
+"value": {
+"word": [
+"beslutar",
+"sl\u00e4ppa"
+]
+},
+"absolute": 1,
+"relative": 0.05738494619558752
+},
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.05738494619558752
+},
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.05738494619558752
+},
+{
+"value": {
+"word": [
+"beslutar",
+"h\u00f6ja"
+]
+},
+"absolute": 1,
+"relative": 0.05738494619558752
+}
+],
+"sums": {
+"absolute": 6,
+"relative": 0.3443096771735251
+}
+},
+"WEBBNYHETER2003": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 3,
+"relative": 0.24555367770654177
+},
+{
+"value": {
+"word": [
+"beslutar",
+"skicka"
+]
+},
+"absolute": 2,
+"relative": 0.16370245180436116
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+}
+],
+"sums": {
+"absolute": 7,
+"relative": 0.5729585813152641
+}
+},
+"WEBBNYHETER2006": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"\u00f6verl\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"beslutar",
+"utf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"beslutar",
+"genomf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+}
+],
+"sums": {
+"absolute": 5,
+"relative": 0.22159395902958154
+}
+},
+"WEBBNYHETER2005": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"inst\u00e4lla"
+]
+},
+"absolute": 2,
+"relative": 0.06778822970597499
+},
+{
+"value": {
+"word": [
+"beslutar",
+"\u00e5tg\u00e4rda"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"\u00e5tala"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"uppdra"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bryta"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avst\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+}
+],
+"sums": {
+"absolute": 7,
+"relative": 0.23725880397091245
+}
+},
+"WEBBNYHETER2007": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.12180048893152268
+}
+},
+"WEBBNYHETER2010": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"\u00f6verklaga"
+]
+},
+"absolute": 1,
+"relative": 0.042010492792742875
+},
+{
+"value": {
+"word": [
+"beslutar",
+"anskaffa"
+]
+},
+"absolute": 1,
+"relative": 0.042010492792742875
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.08402098558548575
+}
+},
+"WEBBNYHETER2012": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"inleda"
+]
+},
+"absolute": 1,
+"relative": 0.039789844366400644
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.039789844366400644
+}
+},
+"WEBBNYHETER2011": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"beslutar",
+"g\u00f6mma"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.038068259663446895
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.11420477899034068
+}
+},
+"WEBBNYHETER2013": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4lja"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inleda"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.13245829616774307
+}
+}
+},
+"count": 69,
+"combined": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"f\u00f6rs\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bolagisera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"tv\u00e5ngsuttaxera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ta"
+]
+},
+"absolute": 10,
+"relative": 0.01232635764456825
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inf\u00f6ra"
+]
+},
+"absolute": 6,
+"relative": 0.00739581458674095
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avsl\u00e5"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"\u00e4ndra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"skicka"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"beslutar",
+"riva"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4gga"
+]
+},
+"absolute": 7,
+"relative": 0.008628450351197773
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avbryta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"sl\u00e4ppa"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ha"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"Fifa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bryta"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"beslutar",
+"bevara"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"Vinnova"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4nka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4nda"
+]
+},
+"absolute": 4,
+"relative": 0.004930543057827299
+},
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4nga"
+]
+},
+"absolute": 8,
+"relative": 0.009861086115654599
+},
+{
+"value": {
+"word": [
+"beslutar",
+"st\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inst\u00e4lla"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"beslutar",
+"v\u00e4cka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ge"
+]
+},
+"absolute": 7,
+"relative": 0.008628450351197773
+},
+{
+"value": {
+"word": [
+"beslutar",
+"anh\u00e5lla"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"FISA"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"efterkomma"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"Uefa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"tilldela"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"samtala"
+]
+},
+"absolute": 7,
+"relative": 0.008628450351197773
+},
+{
+"value": {
+"word": [
+"beslutar",
+"k\u00f6pa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"ansluta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"flytta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"utnyttja"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"utvisa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"skjuta"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"modifiera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inr\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"implementera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"\u00f6verge"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"starta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"godk\u00e4nna"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"genomf\u00f6ra"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"fokusera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"eliminera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"g\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4lja"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avveckla"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"utreda"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"f\u00f6lja"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"anm\u00e4la"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"stoppa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"h\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"anl\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"l\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"h\u00f6ja"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"s\u00e4tta"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"\u00f6verl\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"utf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"\u00e5tg\u00e4rda"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"\u00e5tala"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"uppdra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"avst\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"\u00f6verklaga"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"anskaffa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"inleda"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"g\u00f6mma"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+}
+],
+"sums": {
+"absolute": 126,
+"relative": 0.15531210632155992
+}
+},
+"time": 0.0863957405090332
+}

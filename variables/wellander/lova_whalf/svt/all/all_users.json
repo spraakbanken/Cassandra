@@ -1,0 +1,1087 @@
+ 
+ 
+{
+"corpora": {
+"SVT-2004": [
+{
+"absolute": {
+"2004": 3,
+"2005": null
+},
+"relative": {
+"2004": 6.7085728852901125,
+"2005": null
+},
+"sums": {
+"absolute": 3,
+"relative": 6.7085728852901125
+}
+},
+{
+"absolute": {
+"2004": 2,
+"2005": null
+},
+"relative": {
+"2004": 4.472381923526742,
+"2005": null
+},
+"sums": {
+"absolute": 2,
+"relative": 4.472381923526742
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2004": 1,
+"2005": null
+},
+"relative": {
+"2004": 2.236190961763371,
+"2005": null
+},
+"sums": {
+"absolute": 1,
+"relative": 2.236190961763371
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2005": [
+{
+"absolute": {
+"2005": 17,
+"2006": null
+},
+"relative": {
+"2005": 5.150506900770334,
+"2006": null
+},
+"sums": {
+"absolute": 17,
+"relative": 5.150506900770334
+}
+},
+{
+"absolute": {
+"2005": 11,
+"2006": null
+},
+"relative": {
+"2005": 3.332680935792569,
+"2006": null
+},
+"sums": {
+"absolute": 11,
+"relative": 3.332680935792569
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2005": 6,
+"2006": null
+},
+"relative": {
+"2005": 1.817825964977765,
+"2006": null
+},
+"sums": {
+"absolute": 6,
+"relative": 1.817825964977765
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2006": [
+{
+"absolute": {
+"2006": 30,
+"2007": null
+},
+"relative": {
+"2006": 7.190604468577178,
+"2007": null
+},
+"sums": {
+"absolute": 30,
+"relative": 7.190604468577178
+}
+},
+{
+"absolute": {
+"2006": 20,
+"2007": null
+},
+"relative": {
+"2006": 4.793736312384786,
+"2007": null
+},
+"sums": {
+"absolute": 20,
+"relative": 4.793736312384786
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2006": 10,
+"2007": null
+},
+"relative": {
+"2006": 2.396868156192393,
+"2007": null
+},
+"sums": {
+"absolute": 10,
+"relative": 2.396868156192393
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2007": [
+{
+"absolute": {
+"2007": 23,
+"2008": null
+},
+"relative": {
+"2007": 4.156364604977301,
+"2008": null
+},
+"sums": {
+"absolute": 23,
+"relative": 4.156364604977301
+}
+},
+{
+"absolute": {
+"2007": 17,
+"2008": null
+},
+"relative": {
+"2007": 3.0720955775919183,
+"2008": null
+},
+"sums": {
+"absolute": 17,
+"relative": 3.0720955775919183
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2007": 6,
+"2008": null
+},
+"relative": {
+"2007": 1.0842690273853828,
+"2008": null
+},
+"sums": {
+"absolute": 6,
+"relative": 1.0842690273853828
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2008": [
+{
+"absolute": {
+"2008": 27,
+"2009": null
+},
+"relative": {
+"2008": 3.5094241035046148,
+"2009": null
+},
+"sums": {
+"absolute": 27,
+"relative": 3.5094241035046148
+}
+},
+{
+"absolute": {
+"2008": 17,
+"2009": null
+},
+"relative": {
+"2008": 2.2096373985029056,
+"2009": null
+},
+"sums": {
+"absolute": 17,
+"relative": 2.2096373985029056
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2008": 10,
+"2009": null
+},
+"relative": {
+"2008": 1.2997867050017093,
+"2009": null
+},
+"sums": {
+"absolute": 10,
+"relative": 1.2997867050017093
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2009": [
+{
+"absolute": {
+"2009": 40,
+"2010": null
+},
+"relative": {
+"2009": 4.514170828638125,
+"2010": null
+},
+"sums": {
+"absolute": 40,
+"relative": 4.514170828638125
+}
+},
+{
+"absolute": {
+"2009": 31,
+"2010": null
+},
+"relative": {
+"2009": 3.498482392194547,
+"2010": null
+},
+"sums": {
+"absolute": 31,
+"relative": 3.498482392194547
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2009": 9,
+"2010": null
+},
+"relative": {
+"2009": 1.0156884364435783,
+"2010": null
+},
+"sums": {
+"absolute": 9,
+"relative": 1.0156884364435783
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2010": [
+{
+"absolute": {
+"2010": 47,
+"2011": null
+},
+"relative": {
+"2010": 4.760297739405502,
+"2011": null
+},
+"sums": {
+"absolute": 47,
+"relative": 4.760297739405502
+}
+},
+{
+"absolute": {
+"2010": 34,
+"2011": null
+},
+"relative": {
+"2010": 3.4436196412720648,
+"2011": null
+},
+"sums": {
+"absolute": 34,
+"relative": 3.4436196412720648
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2010": 13,
+"2011": null
+},
+"relative": {
+"2010": 1.3166780981334367,
+"2011": null
+},
+"sums": {
+"absolute": 13,
+"relative": 1.3166780981334367
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2011": [
+{
+"absolute": {
+"2011": 26,
+"2012": null
+},
+"relative": {
+"2011": 2.7875867475552867,
+"2012": null
+},
+"sums": {
+"absolute": 26,
+"relative": 2.7875867475552867
+}
+},
+{
+"absolute": {
+"2011": 18,
+"2012": null
+},
+"relative": {
+"2011": 1.9298677483075057,
+"2012": null
+},
+"sums": {
+"absolute": 18,
+"relative": 1.9298677483075057
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2011": 8,
+"2012": null
+},
+"relative": {
+"2011": 0.8577189992477805,
+"2012": null
+},
+"sums": {
+"absolute": 8,
+"relative": 0.8577189992477805
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2012": [
+{
+"absolute": {
+"2012": 38,
+"2013": null
+},
+"relative": {
+"2012": 3.9821494909398236,
+"2013": null
+},
+"sums": {
+"absolute": 38,
+"relative": 3.9821494909398236
+}
+},
+{
+"absolute": {
+"2012": 28,
+"2013": null
+},
+"relative": {
+"2012": 2.9342154143767125,
+"2013": null
+},
+"sums": {
+"absolute": 28,
+"relative": 2.9342154143767125
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2012": 10,
+"2013": null
+},
+"relative": {
+"2012": 1.0479340765631115,
+"2013": null
+},
+"sums": {
+"absolute": 10,
+"relative": 1.0479340765631115
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2013": [
+{
+"absolute": {
+"2013": 37,
+"2014": null
+},
+"relative": {
+"2013": 2.6508391983747632,
+"2014": null
+},
+"sums": {
+"absolute": 37,
+"relative": 2.6508391983747632
+}
+},
+{
+"absolute": {
+"2013": 28,
+"2014": null
+},
+"relative": {
+"2013": 2.0060404744457667,
+"2014": null
+},
+"sums": {
+"absolute": 28,
+"relative": 2.0060404744457667
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2013": 9,
+"2014": null
+},
+"relative": {
+"2013": 0.6447987239289965,
+"2014": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.6447987239289965
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2014": [
+{
+"absolute": {
+"2014": 75,
+"2015": null
+},
+"relative": {
+"2014": 4.665486194981866,
+"2015": null
+},
+"sums": {
+"absolute": 75,
+"relative": 4.665486194981866
+}
+},
+{
+"absolute": {
+"2014": 51,
+"2015": null
+},
+"relative": {
+"2014": 3.172530612587668,
+"2015": null
+},
+"sums": {
+"absolute": 51,
+"relative": 3.172530612587668
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2014": 24,
+"2015": null
+},
+"relative": {
+"2014": 1.492955582394197,
+"2015": null
+},
+"sums": {
+"absolute": 24,
+"relative": 1.492955582394197
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2015": [
+{
+"absolute": {
+"2015": 51,
+"2016": null
+},
+"relative": {
+"2015": 2.6562347819882284,
+"2016": null
+},
+"sums": {
+"absolute": 51,
+"relative": 2.6562347819882284
+}
+},
+{
+"absolute": {
+"2015": 36,
+"2016": null
+},
+"relative": {
+"2015": 1.8749892578740435,
+"2016": null
+},
+"sums": {
+"absolute": 36,
+"relative": 1.8749892578740435
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2015": 15,
+"2016": null
+},
+"relative": {
+"2015": 0.7812455241141848,
+"2016": null
+},
+"sums": {
+"absolute": 15,
+"relative": 0.7812455241141848
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2016": [
+{
+"absolute": {
+"2016": 54,
+"2017": null
+},
+"relative": {
+"2016": 2.4859693501155906,
+"2017": null
+},
+"sums": {
+"absolute": 54,
+"relative": 2.4859693501155906
+}
+},
+{
+"absolute": {
+"2016": 38,
+"2017": null
+},
+"relative": {
+"2016": 1.7493858389702306,
+"2017": null
+},
+"sums": {
+"absolute": 38,
+"relative": 1.7493858389702306
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2016": 16,
+"2017": null
+},
+"relative": {
+"2016": 0.7365835111453602,
+"2017": null
+},
+"sums": {
+"absolute": 16,
+"relative": 0.7365835111453602
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2017": [
+{
+"absolute": {
+"2017": 49,
+"2018": null
+},
+"relative": {
+"2017": 2.314680863375962,
+"2018": null
+},
+"sums": {
+"absolute": 49,
+"relative": 2.314680863375962
+}
+},
+{
+"absolute": {
+"2017": 33,
+"2018": null
+},
+"relative": {
+"2017": 1.55886670390626,
+"2018": null
+},
+"sums": {
+"absolute": 33,
+"relative": 1.55886670390626
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2017": 16,
+"2018": null
+},
+"relative": {
+"2017": 0.755814159469702,
+"2018": null
+},
+"sums": {
+"absolute": 16,
+"relative": 0.755814159469702
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2018": [
+{
+"absolute": {
+"2018": 41,
+"2019": null
+},
+"relative": {
+"2018": 2.181179865092429,
+"2019": null
+},
+"sums": {
+"absolute": 41,
+"relative": 2.181179865092429
+}
+},
+{
+"absolute": {
+"2018": 32,
+"2019": null
+},
+"relative": {
+"2018": 1.702384284950189,
+"2019": null
+},
+"sums": {
+"absolute": 32,
+"relative": 1.702384284950189
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2018": 9,
+"2019": null
+},
+"relative": {
+"2018": 0.4787955801422406,
+"2019": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.4787955801422406
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2019": [
+{
+"absolute": {
+"2019": 38,
+"2020": null
+},
+"relative": {
+"2019": 2.0820247625067227,
+"2020": null
+},
+"sums": {
+"absolute": 38,
+"relative": 2.0820247625067227
+}
+},
+{
+"absolute": {
+"2019": 30,
+"2020": null
+},
+"relative": {
+"2019": 1.6437037598737285,
+"2020": null
+},
+"sums": {
+"absolute": 30,
+"relative": 1.6437037598737285
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2019": 8,
+"2020": null
+},
+"relative": {
+"2019": 0.4383210026329942,
+"2020": null
+},
+"sums": {
+"absolute": 8,
+"relative": 0.4383210026329942
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2020": [
+{
+"absolute": {
+"2020": 27,
+"2021": null
+},
+"relative": {
+"2020": 1.687593555967759,
+"2021": null
+},
+"sums": {
+"absolute": 27,
+"relative": 1.687593555967759
+}
+},
+{
+"absolute": {
+"2020": 18,
+"2021": null
+},
+"relative": {
+"2020": 1.1250623706451726,
+"2021": null
+},
+"sums": {
+"absolute": 18,
+"relative": 1.1250623706451726
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2020": 9,
+"2021": null
+},
+"relative": {
+"2020": 0.5625311853225863,
+"2021": null
+},
+"sums": {
+"absolute": 9,
+"relative": 0.5625311853225863
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2021": [
+{
+"absolute": {
+"2021": 34,
+"2022": null
+},
+"relative": {
+"2021": 2.272769507347797,
+"2022": null
+},
+"sums": {
+"absolute": 34,
+"relative": 2.272769507347797
+}
+},
+{
+"absolute": {
+"2021": 26,
+"2022": null
+},
+"relative": {
+"2021": 1.7380002115012565,
+"2022": null
+},
+"sums": {
+"absolute": 26,
+"relative": 1.7380002115012565
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2021": 8,
+"2022": null
+},
+"relative": {
+"2021": 0.5347692958465404,
+"2022": null
+},
+"sums": {
+"absolute": 8,
+"relative": 0.5347692958465404
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2022": [
+{
+"absolute": {
+"2022": 28,
+"2023": null
+},
+"relative": {
+"2022": 2.0005117023147134,
+"2023": null
+},
+"sums": {
+"absolute": 28,
+"relative": 2.0005117023147134
+}
+},
+{
+"absolute": {
+"2022": 23,
+"2023": null
+},
+"relative": {
+"2022": 1.6432774697585146,
+"2023": null
+},
+"sums": {
+"absolute": 23,
+"relative": 1.6432774697585146
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2022": 5,
+"2023": null
+},
+"relative": {
+"2022": 0.3572342325561988,
+"2023": null
+},
+"sums": {
+"absolute": 5,
+"relative": 0.3572342325561988
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"SVT-2023": [
+{
+"absolute": {
+"2023": 13,
+"2024": null
+},
+"relative": {
+"2023": 1.7329862739488704,
+"2024": null
+},
+"sums": {
+"absolute": 13,
+"relative": 1.7329862739488704
+}
+},
+{
+"absolute": {
+"2023": 11,
+"2024": null
+},
+"relative": {
+"2023": 1.4663730010336598,
+"2024": null
+},
+"sums": {
+"absolute": 11,
+"relative": 1.4663730010336598
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2023": 2,
+"2024": null
+},
+"relative": {
+"2023": 0.2666132729152108,
+"2024": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.2666132729152108
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2004": 3,
+"2024": null,
+"2005": 17,
+"2006": 30,
+"2007": 23,
+"2008": 27,
+"2009": 40,
+"2010": 47,
+"2011": 26,
+"2012": 38,
+"2013": 37,
+"2014": 75,
+"2015": 51,
+"2016": 54,
+"2017": 49,
+"2018": 41,
+"2019": 38,
+"2020": 27,
+"2021": 34,
+"2022": 28,
+"2023": 13
+},
+"relative": {
+"2004": 6.7085728852901125,
+"2024": null,
+"2005": 5.150506900770334,
+"2006": 7.190604468577178,
+"2007": 4.156364604977301,
+"2008": 3.5094241035046148,
+"2009": 4.514170828638125,
+"2010": 4.760297739405502,
+"2011": 2.7875867475552867,
+"2012": 3.9821494909398236,
+"2013": 2.6508391983747632,
+"2014": 4.665486194981866,
+"2015": 2.6562347819882284,
+"2016": 2.4859693501155906,
+"2017": 2.314680863375962,
+"2018": 2.181179865092429,
+"2019": 2.0820247625067227,
+"2020": 1.687593555967759,
+"2021": 2.272769507347797,
+"2022": 2.0005117023147134,
+"2023": 1.7329862739488704
+},
+"sums": {
+"absolute": 698,
+"relative": 2.904019050032129
+}
+},
+{
+"absolute": {
+"2004": 2,
+"2024": null,
+"2005": 11,
+"2006": 20,
+"2007": 17,
+"2008": 17,
+"2009": 31,
+"2010": 34,
+"2011": 18,
+"2012": 28,
+"2013": 28,
+"2014": 51,
+"2015": 36,
+"2016": 38,
+"2017": 33,
+"2018": 32,
+"2019": 30,
+"2020": 18,
+"2021": 26,
+"2022": 23,
+"2023": 11
+},
+"relative": {
+"2004": 4.472381923526742,
+"2024": null,
+"2005": 3.332680935792569,
+"2006": 4.793736312384786,
+"2007": 3.0720955775919183,
+"2008": 2.2096373985029056,
+"2009": 3.498482392194547,
+"2010": 3.4436196412720648,
+"2011": 1.9298677483075057,
+"2012": 2.9342154143767125,
+"2013": 2.0060404744457667,
+"2014": 3.172530612587668,
+"2015": 1.8749892578740435,
+"2016": 1.7493858389702306,
+"2017": 1.55886670390626,
+"2018": 1.702384284950189,
+"2019": 1.6437037598737285,
+"2020": 1.1250623706451726,
+"2021": 1.7380002115012565,
+"2022": 1.6432774697585146,
+"2023": 1.4663730010336598
+},
+"sums": {
+"absolute": 504,
+"relative": 2.096884815495979
+},
+"cqp": "[word = 'lovar' %c] [word = 'att'] [word = 'g\u00f6ra' %c | word = 'ta' %c | word = 'komma' %c | word = 'h\u00e5lla' %c | word = 'ge' %c | word = 'vara' %c | word = 'forts\u00e4tta' %c | word = 'bli' %c | word = '\u00e5terkomma' %c | word = 'se' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'arbeta' %c | word = 'f\u00f6lja' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = 'bygga' %c | word = 'betala' %c | word = 'g\u00e5' %c | word = 'utreda' %c | word = 'st\u00e4lla' %c | word = 'bjuda' %c | word = 'st\u00e5' %c | word = 'l\u00e4mna' %c | word = 'unders\u00f6ka' %c | word = 'ha' %c | word = 'l\u00e4gga' %c | word = 'bidra' %c | word = 'h\u00f6ja' %c | word = 'samarbeta' %c | word = 'spela' %c | word = 'minska' %c | word = 'sluta' %c | word = 's\u00e4nka' %c | word = 'lyssna' %c | word = 'skicka' %c | word = 'titta' %c]"
+},
+{
+"absolute": {
+"2004": 1,
+"2024": null,
+"2005": 6,
+"2006": 10,
+"2007": 6,
+"2008": 10,
+"2009": 9,
+"2010": 13,
+"2011": 8,
+"2012": 10,
+"2013": 9,
+"2014": 24,
+"2015": 15,
+"2016": 16,
+"2017": 16,
+"2018": 9,
+"2019": 8,
+"2020": 9,
+"2021": 8,
+"2022": 5,
+"2023": 2
+},
+"relative": {
+"2004": 2.236190961763371,
+"2024": null,
+"2005": 1.817825964977765,
+"2006": 2.396868156192393,
+"2007": 1.0842690273853828,
+"2008": 1.2997867050017093,
+"2009": 1.0156884364435783,
+"2010": 1.3166780981334367,
+"2011": 0.8577189992477805,
+"2012": 1.0479340765631115,
+"2013": 0.6447987239289965,
+"2014": 1.492955582394197,
+"2015": 0.7812455241141848,
+"2016": 0.7365835111453602,
+"2017": 0.755814159469702,
+"2018": 0.4787955801422406,
+"2019": 0.4383210026329942,
+"2020": 0.5625311853225863,
+"2021": 0.5347692958465404,
+"2022": 0.3572342325561988,
+"2023": 0.2666132729152108
+},
+"sums": {
+"absolute": 194,
+"relative": 0.8071342345361505
+},
+"cqp": "[word = 'lovar' %c] [word = 'ta' %c | word = 'g\u00f6ra' %c | word = 'satsa' %c | word = 'hj\u00e4lpa' %c | word = '\u00e5terkomma' %c | word = 'utreda' %c | word = 'se' %c | word = 'forts\u00e4tta' %c | word = 'komma' %c | word = 'betala' %c | word = 'f\u00f6lja' %c | word = 'h\u00e5lla' %c | word = 'bygga' %c | word = 'bli' %c | word = 'ge' %c | word = 'vara' %c | word = 'stoppa' %c | word = 's\u00e4nka' %c | word = 'l\u00e4mna' %c | word = 'l\u00f6sa' %c | word = 'h\u00f6ja' %c | word = 'bek\u00e4mpa' %c | word = 'lyssna' %c | word = 'st\u00f6dja' %c | word = 'sl\u00e4ppa' %c | word = 'sluta' %c | word = 'tala' %c | word = 'minska' %c | word = 'inf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'st\u00e5' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ers\u00e4tta' %c | word = '\u00f6ka' %c | word = 'bidra' %c | word = 'samarbeta' %c]"
+}
+],
+"time": 11.330341577529907
+}

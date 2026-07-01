@@ -1,0 +1,1087 @@
+ 
+ 
+{
+"corpora": {
+"SVT-2004": [
+{
+"absolute": {
+"2004": 5,
+"2005": null
+},
+"relative": {
+"2004": 11.180954808816853,
+"2005": null
+},
+"sums": {
+"absolute": 5,
+"relative": 11.180954808816853
+}
+},
+{
+"absolute": {
+"2004": 3,
+"2005": null
+},
+"relative": {
+"2004": 6.7085728852901125,
+"2005": null
+},
+"sums": {
+"absolute": 3,
+"relative": 6.7085728852901125
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2004": 2,
+"2005": null
+},
+"relative": {
+"2004": 4.472381923526742,
+"2005": null
+},
+"sums": {
+"absolute": 2,
+"relative": 4.472381923526742
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2005": [
+{
+"absolute": {
+"2005": 54,
+"2006": null
+},
+"relative": {
+"2005": 16.360433684799883,
+"2006": null
+},
+"sums": {
+"absolute": 54,
+"relative": 16.360433684799883
+}
+},
+{
+"absolute": {
+"2005": 39,
+"2006": null
+},
+"relative": {
+"2005": 11.815868772355472,
+"2006": null
+},
+"sums": {
+"absolute": 39,
+"relative": 11.815868772355472
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2005": 15,
+"2006": null
+},
+"relative": {
+"2005": 4.544564912444412,
+"2006": null
+},
+"sums": {
+"absolute": 15,
+"relative": 4.544564912444412
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2006": [
+{
+"absolute": {
+"2006": 45,
+"2007": null
+},
+"relative": {
+"2006": 10.785906702865766,
+"2007": null
+},
+"sums": {
+"absolute": 45,
+"relative": 10.785906702865766
+}
+},
+{
+"absolute": {
+"2006": 27,
+"2007": null
+},
+"relative": {
+"2006": 6.471544021719461,
+"2007": null
+},
+"sums": {
+"absolute": 27,
+"relative": 6.471544021719461
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2006": 18,
+"2007": null
+},
+"relative": {
+"2006": 4.314362681146307,
+"2007": null
+},
+"sums": {
+"absolute": 18,
+"relative": 4.314362681146307
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2007": [
+{
+"absolute": {
+"2007": 67,
+"2008": null
+},
+"relative": {
+"2007": 12.10767080580344,
+"2008": null
+},
+"sums": {
+"absolute": 67,
+"relative": 12.10767080580344
+}
+},
+{
+"absolute": {
+"2007": 41,
+"2008": null
+},
+"relative": {
+"2007": 7.409171687133449,
+"2008": null
+},
+"sums": {
+"absolute": 41,
+"relative": 7.409171687133449
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2007": 26,
+"2008": null
+},
+"relative": {
+"2007": 4.698499118669992,
+"2008": null
+},
+"sums": {
+"absolute": 26,
+"relative": 4.698499118669992
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2008": [
+{
+"absolute": {
+"2008": 59,
+"2009": null
+},
+"relative": {
+"2008": 7.668741559510083,
+"2009": null
+},
+"sums": {
+"absolute": 59,
+"relative": 7.668741559510083
+}
+},
+{
+"absolute": {
+"2008": 35,
+"2009": null
+},
+"relative": {
+"2008": 4.549253467505983,
+"2009": null
+},
+"sums": {
+"absolute": 35,
+"relative": 4.549253467505983
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2008": 24,
+"2009": null
+},
+"relative": {
+"2008": 3.119488092004102,
+"2009": null
+},
+"sums": {
+"absolute": 24,
+"relative": 3.119488092004102
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2009": [
+{
+"absolute": {
+"2009": 69,
+"2010": null
+},
+"relative": {
+"2009": 7.786944679400767,
+"2010": null
+},
+"sums": {
+"absolute": 69,
+"relative": 7.786944679400767
+}
+},
+{
+"absolute": {
+"2009": 40,
+"2010": null
+},
+"relative": {
+"2009": 4.514170828638125,
+"2010": null
+},
+"sums": {
+"absolute": 40,
+"relative": 4.514170828638125
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2009": 29,
+"2010": null
+},
+"relative": {
+"2009": 3.272773850762641,
+"2010": null
+},
+"sums": {
+"absolute": 29,
+"relative": 3.272773850762641
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2010": [
+{
+"absolute": {
+"2010": 77,
+"2011": null
+},
+"relative": {
+"2010": 7.798785658174971,
+"2011": null
+},
+"sums": {
+"absolute": 77,
+"relative": 7.798785658174971
+}
+},
+{
+"absolute": {
+"2010": 47,
+"2011": null
+},
+"relative": {
+"2010": 4.760297739405502,
+"2011": null
+},
+"sums": {
+"absolute": 47,
+"relative": 4.760297739405502
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2010": 30,
+"2011": null
+},
+"relative": {
+"2010": 3.038487918769469,
+"2011": null
+},
+"sums": {
+"absolute": 30,
+"relative": 3.038487918769469
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2011": [
+{
+"absolute": {
+"2011": 50,
+"2012": null
+},
+"relative": {
+"2011": 5.3607437452986275,
+"2012": null
+},
+"sums": {
+"absolute": 50,
+"relative": 5.3607437452986275
+}
+},
+{
+"absolute": {
+"2011": 32,
+"2012": null
+},
+"relative": {
+"2011": 3.430875996991122,
+"2012": null
+},
+"sums": {
+"absolute": 32,
+"relative": 3.430875996991122
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2011": 18,
+"2012": null
+},
+"relative": {
+"2011": 1.9298677483075057,
+"2012": null
+},
+"sums": {
+"absolute": 18,
+"relative": 1.9298677483075057
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2012": [
+{
+"absolute": {
+"2012": 51,
+"2013": null
+},
+"relative": {
+"2012": 5.344463790471869,
+"2013": null
+},
+"sums": {
+"absolute": 51,
+"relative": 5.344463790471869
+}
+},
+{
+"absolute": {
+"2012": 31,
+"2013": null
+},
+"relative": {
+"2012": 3.248595637345646,
+"2013": null
+},
+"sums": {
+"absolute": 31,
+"relative": 3.248595637345646
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2012": 20,
+"2013": null
+},
+"relative": {
+"2012": 2.095868153126223,
+"2013": null
+},
+"sums": {
+"absolute": 20,
+"relative": 2.095868153126223
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2013": [
+{
+"absolute": {
+"2013": 58,
+"2014": null
+},
+"relative": {
+"2013": 4.155369554209089,
+"2014": null
+},
+"sums": {
+"absolute": 58,
+"relative": 4.155369554209089
+}
+},
+{
+"absolute": {
+"2013": 33,
+"2014": null
+},
+"relative": {
+"2013": 2.364261987739654,
+"2014": null
+},
+"sums": {
+"absolute": 33,
+"relative": 2.364261987739654
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2013": 25,
+"2014": null
+},
+"relative": {
+"2013": 1.7911075664694347,
+"2014": null
+},
+"sums": {
+"absolute": 25,
+"relative": 1.7911075664694347
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2014": [
+{
+"absolute": {
+"2014": 66,
+"2015": null
+},
+"relative": {
+"2014": 4.105627851584042,
+"2015": null
+},
+"sums": {
+"absolute": 66,
+"relative": 4.105627851584042
+}
+},
+{
+"absolute": {
+"2014": 46,
+"2015": null
+},
+"relative": {
+"2014": 2.861498199588877,
+"2015": null
+},
+"sums": {
+"absolute": 46,
+"relative": 2.861498199588877
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2014": 20,
+"2015": null
+},
+"relative": {
+"2014": 1.2441296519951641,
+"2015": null
+},
+"sums": {
+"absolute": 20,
+"relative": 1.2441296519951641
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2015": [
+{
+"absolute": {
+"2015": 69,
+"2016": null
+},
+"relative": {
+"2015": 3.59372941092525,
+"2016": null
+},
+"sums": {
+"absolute": 69,
+"relative": 3.59372941092525
+}
+},
+{
+"absolute": {
+"2015": 44,
+"2016": null
+},
+"relative": {
+"2015": 2.2916535374016087,
+"2016": null
+},
+"sums": {
+"absolute": 44,
+"relative": 2.2916535374016087
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2015": 25,
+"2016": null
+},
+"relative": {
+"2015": 1.3020758735236413,
+"2016": null
+},
+"sums": {
+"absolute": 25,
+"relative": 1.3020758735236413
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2016": [
+{
+"absolute": {
+"2016": 75,
+"2017": null
+},
+"relative": {
+"2016": 3.452735208493876,
+"2017": null
+},
+"sums": {
+"absolute": 75,
+"relative": 3.452735208493876
+}
+},
+{
+"absolute": {
+"2016": 47,
+"2017": null
+},
+"relative": {
+"2016": 2.1637140639894956,
+"2017": null
+},
+"sums": {
+"absolute": 47,
+"relative": 2.1637140639894956
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2016": 28,
+"2017": null
+},
+"relative": {
+"2016": 1.2890211445043802,
+"2017": null
+},
+"sums": {
+"absolute": 28,
+"relative": 1.2890211445043802
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2017": [
+{
+"absolute": {
+"2017": 52,
+"2018": null
+},
+"relative": {
+"2017": 2.456396018276531,
+"2018": null
+},
+"sums": {
+"absolute": 52,
+"relative": 2.456396018276531
+}
+},
+{
+"absolute": {
+"2017": 30,
+"2018": null
+},
+"relative": {
+"2017": 1.4171515490056912,
+"2018": null
+},
+"sums": {
+"absolute": 30,
+"relative": 1.4171515490056912
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2017": 22,
+"2018": null
+},
+"relative": {
+"2017": 1.03924446927084,
+"2018": null
+},
+"sums": {
+"absolute": 22,
+"relative": 1.03924446927084
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2018": [
+{
+"absolute": {
+"2018": 42,
+"2019": null
+},
+"relative": {
+"2018": 2.2343793739971227,
+"2019": null
+},
+"sums": {
+"absolute": 42,
+"relative": 2.2343793739971227
+}
+},
+{
+"absolute": {
+"2018": 26,
+"2019": null
+},
+"relative": {
+"2018": 1.3831872315220284,
+"2019": null
+},
+"sums": {
+"absolute": 26,
+"relative": 1.3831872315220284
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2018": 16,
+"2019": null
+},
+"relative": {
+"2018": 0.8511921424750944,
+"2019": null
+},
+"sums": {
+"absolute": 16,
+"relative": 0.8511921424750944
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2019": [
+{
+"absolute": {
+"2019": 38,
+"2020": null
+},
+"relative": {
+"2019": 2.0820247625067227,
+"2020": null
+},
+"sums": {
+"absolute": 38,
+"relative": 2.0820247625067227
+}
+},
+{
+"absolute": {
+"2019": 24,
+"2020": null
+},
+"relative": {
+"2019": 1.314963007898983,
+"2020": null
+},
+"sums": {
+"absolute": 24,
+"relative": 1.314963007898983
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2019": 14,
+"2020": null
+},
+"relative": {
+"2019": 0.76706175460774,
+"2020": null
+},
+"sums": {
+"absolute": 14,
+"relative": 0.76706175460774
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2020": [
+{
+"absolute": {
+"2020": 33,
+"2021": null
+},
+"relative": {
+"2020": 2.0626143461828166,
+"2021": null
+},
+"sums": {
+"absolute": 33,
+"relative": 2.0626143461828166
+}
+},
+{
+"absolute": {
+"2020": 23,
+"2021": null
+},
+"relative": {
+"2020": 1.4375796958243872,
+"2021": null
+},
+"sums": {
+"absolute": 23,
+"relative": 1.4375796958243872
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2020": 10,
+"2021": null
+},
+"relative": {
+"2020": 0.6250346503584293,
+"2021": null
+},
+"sums": {
+"absolute": 10,
+"relative": 0.6250346503584293
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2021": [
+{
+"absolute": {
+"2021": 38,
+"2022": null
+},
+"relative": {
+"2021": 2.5401541552710674,
+"2022": null
+},
+"sums": {
+"absolute": 38,
+"relative": 2.5401541552710674
+}
+},
+{
+"absolute": {
+"2021": 31,
+"2022": null
+},
+"relative": {
+"2021": 2.072231021405344,
+"2022": null
+},
+"sums": {
+"absolute": 31,
+"relative": 2.072231021405344
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2021": 7,
+"2022": null
+},
+"relative": {
+"2021": 0.4679231338657229,
+"2022": null
+},
+"sums": {
+"absolute": 7,
+"relative": 0.4679231338657229
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2022": [
+{
+"absolute": {
+"2022": 37,
+"2023": null
+},
+"relative": {
+"2022": 2.6435333209158713,
+"2023": null
+},
+"sums": {
+"absolute": 37,
+"relative": 2.6435333209158713
+}
+},
+{
+"absolute": {
+"2022": 20,
+"2023": null
+},
+"relative": {
+"2022": 1.4289369302247952,
+"2023": null
+},
+"sums": {
+"absolute": 20,
+"relative": 1.4289369302247952
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2022": 17,
+"2023": null
+},
+"relative": {
+"2022": 1.214596390691076,
+"2023": null
+},
+"sums": {
+"absolute": 17,
+"relative": 1.214596390691076
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"SVT-2023": [
+{
+"absolute": {
+"2023": 13,
+"2024": null
+},
+"relative": {
+"2023": 1.7329862739488704,
+"2024": null
+},
+"sums": {
+"absolute": 13,
+"relative": 1.7329862739488704
+}
+},
+{
+"absolute": {
+"2023": 9,
+"2024": null
+},
+"relative": {
+"2023": 1.1997597281184489,
+"2024": null
+},
+"sums": {
+"absolute": 9,
+"relative": 1.1997597281184489
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2023": 4,
+"2024": null
+},
+"relative": {
+"2023": 0.5332265458304216,
+"2024": null
+},
+"sums": {
+"absolute": 4,
+"relative": 0.5332265458304216
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2004": 5,
+"2024": null,
+"2005": 54,
+"2006": 45,
+"2007": 67,
+"2008": 59,
+"2009": 69,
+"2010": 77,
+"2011": 50,
+"2012": 51,
+"2013": 58,
+"2014": 66,
+"2015": 69,
+"2016": 75,
+"2017": 52,
+"2018": 42,
+"2019": 38,
+"2020": 33,
+"2021": 38,
+"2022": 37,
+"2023": 13
+},
+"relative": {
+"2004": 11.180954808816853,
+"2024": null,
+"2005": 16.360433684799883,
+"2006": 10.785906702865766,
+"2007": 12.10767080580344,
+"2008": 7.668741559510083,
+"2009": 7.786944679400767,
+"2010": 7.798785658174971,
+"2011": 5.3607437452986275,
+"2012": 5.344463790471869,
+"2013": 4.155369554209089,
+"2014": 4.105627851584042,
+"2015": 3.59372941092525,
+"2016": 3.452735208493876,
+"2017": 2.456396018276531,
+"2018": 2.2343793739971227,
+"2019": 2.0820247625067227,
+"2020": 2.0626143461828166,
+"2021": 2.5401541552710674,
+"2022": 2.6435333209158713,
+"2023": 1.7329862739488704
+},
+"sums": {
+"absolute": 998,
+"relative": 4.1521647735416405
+}
+},
+{
+"absolute": {
+"2004": 3,
+"2024": null,
+"2005": 39,
+"2006": 27,
+"2007": 41,
+"2008": 35,
+"2009": 40,
+"2010": 47,
+"2011": 32,
+"2012": 31,
+"2013": 33,
+"2014": 46,
+"2015": 44,
+"2016": 47,
+"2017": 30,
+"2018": 26,
+"2019": 24,
+"2020": 23,
+"2021": 31,
+"2022": 20,
+"2023": 9
+},
+"relative": {
+"2004": 6.7085728852901125,
+"2024": null,
+"2005": 11.815868772355472,
+"2006": 6.471544021719461,
+"2007": 7.409171687133449,
+"2008": 4.549253467505983,
+"2009": 4.514170828638125,
+"2010": 4.760297739405502,
+"2011": 3.430875996991122,
+"2012": 3.248595637345646,
+"2013": 2.364261987739654,
+"2014": 2.861498199588877,
+"2015": 2.2916535374016087,
+"2016": 2.1637140639894956,
+"2017": 1.4171515490056912,
+"2018": 1.3831872315220284,
+"2019": 1.314963007898983,
+"2020": 1.4375796958243872,
+"2021": 2.072231021405344,
+"2022": 1.4289369302247952,
+"2023": 1.1997597281184489
+},
+"sums": {
+"absolute": 628,
+"relative": 2.61278504787991
+},
+"cqp": "[word = 'hotar' %c] [word = 'att'] [word = 'dra' %c | word = 'bli' %c | word = 'ta' %c | word = 'st\u00e4mma' %c | word = 'sl\u00e5' %c | word = 'd\u00f6da' %c | word = 'l\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'g\u00f6ra' %c | word = 'stoppa' %c | word = 'g\u00e5' %c | word = 'hoppa' %c | word = 'bryta' %c | word = 'spr\u00e4nga' %c | word = 'skada' %c | word = 'rasa' %c | word = 'bojkotta' %c | word = 'l\u00e4gga' %c | word = 's\u00e4tta' %c | word = 's\u00e4ga' %c | word = 'f\u00f6rst\u00f6ra' %c | word = 'falla' %c | word = 'skjuta' %c | word = 'flytta' %c | word = 'skapa' %c | word = 'leda' %c | word = 'sprida' %c | word = 'sluta' %c | word = 'spr\u00e4cka' %c | word = 'blockera' %c]"
+},
+{
+"absolute": {
+"2004": 2,
+"2024": null,
+"2005": 15,
+"2006": 18,
+"2007": 26,
+"2008": 24,
+"2009": 29,
+"2010": 30,
+"2011": 18,
+"2012": 20,
+"2013": 25,
+"2014": 20,
+"2015": 25,
+"2016": 28,
+"2017": 22,
+"2018": 16,
+"2019": 14,
+"2020": 10,
+"2021": 7,
+"2022": 17,
+"2023": 4
+},
+"relative": {
+"2004": 4.472381923526742,
+"2024": null,
+"2005": 4.544564912444412,
+"2006": 4.314362681146307,
+"2007": 4.698499118669992,
+"2008": 3.119488092004102,
+"2009": 3.272773850762641,
+"2010": 3.038487918769469,
+"2011": 1.9298677483075057,
+"2012": 2.095868153126223,
+"2013": 1.7911075664694347,
+"2014": 1.2441296519951641,
+"2015": 1.3020758735236413,
+"2016": 1.2890211445043802,
+"2017": 1.03924446927084,
+"2018": 0.8511921424750944,
+"2019": 0.76706175460774,
+"2020": 0.6250346503584293,
+"2021": 0.4679231338657229,
+"2022": 1.214596390691076,
+"2023": 0.5332265458304216
+},
+"sums": {
+"absolute": 370,
+"relative": 1.5393797256617303
+},
+"cqp": "[word = 'hotar' %c] [word = 'l\u00e4mna' %c | word = 'st\u00e4mma' %c | word = 'stoppa' %c | word = 'dra' %c | word = 'st\u00e4nga' %c | word = 'bryta' %c | word = 'hoppa' %c | word = 'sl\u00e5' %c | word = 'bli' %c | word = 'ta' %c | word = 'bojkotta' %c | word = 's\u00e4ga' %c | word = 'l\u00e4gga' %c | word = 'spr\u00e4nga' %c | word = 'g\u00e5' %c | word = 'd\u00f6da' %c | word = 'sprida' %c | word = 'flytta' %c | word = 'stj\u00e4lpa' %c]"
+}
+],
+"time": 10.671209335327148
+}

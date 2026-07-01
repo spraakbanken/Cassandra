@@ -1,0 +1,980 @@
+ 
+{
+"corpora": {
+"SVT-2004": [
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2004": 0,
+"2005": null
+},
+"relative": {
+"2004": 0,
+"2005": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2005": [
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2005": 0,
+"2006": null
+},
+"relative": {
+"2005": 0,
+"2006": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2006": [
+{
+"absolute": {
+"2006": 2,
+"2007": null
+},
+"relative": {
+"2006": 0.4793736312384786,
+"2007": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.4793736312384786
+}
+},
+{
+"absolute": {
+"2006": 0,
+"2007": null
+},
+"relative": {
+"2006": 0,
+"2007": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2006": 2,
+"2007": null
+},
+"relative": {
+"2006": 0.4793736312384786,
+"2007": null
+},
+"sums": {
+"absolute": 2,
+"relative": 0.4793736312384786
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2007": [
+{
+"absolute": {
+"2007": 0,
+"2008": null
+},
+"relative": {
+"2007": 0,
+"2008": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2007": 0,
+"2008": null
+},
+"relative": {
+"2007": 0,
+"2008": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2007": 0,
+"2008": null
+},
+"relative": {
+"2007": 0,
+"2008": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2008": [
+{
+"absolute": {
+"2008": 0,
+"2009": null
+},
+"relative": {
+"2008": 0,
+"2009": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2008": 0,
+"2009": null
+},
+"relative": {
+"2008": 0,
+"2009": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2008": 0,
+"2009": null
+},
+"relative": {
+"2008": 0,
+"2009": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2009": [
+{
+"absolute": {
+"2009": 0,
+"2010": null
+},
+"relative": {
+"2009": 0,
+"2010": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2009": 0,
+"2010": null
+},
+"relative": {
+"2009": 0,
+"2010": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2009": 0,
+"2010": null
+},
+"relative": {
+"2009": 0,
+"2010": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2010": [
+{
+"absolute": {
+"2010": 0,
+"2011": null
+},
+"relative": {
+"2010": 0,
+"2011": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2010": 0,
+"2011": null
+},
+"relative": {
+"2010": 0,
+"2011": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2010": 0,
+"2011": null
+},
+"relative": {
+"2010": 0,
+"2011": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2011": [
+{
+"absolute": {
+"2011": 0,
+"2012": null
+},
+"relative": {
+"2011": 0,
+"2012": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2011": 0,
+"2012": null
+},
+"relative": {
+"2011": 0,
+"2012": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2011": 0,
+"2012": null
+},
+"relative": {
+"2011": 0,
+"2012": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2012": [
+{
+"absolute": {
+"2012": 0,
+"2013": null
+},
+"relative": {
+"2012": 0,
+"2013": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2012": 0,
+"2013": null
+},
+"relative": {
+"2012": 0,
+"2013": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2012": 0,
+"2013": null
+},
+"relative": {
+"2012": 0,
+"2013": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2013": [
+{
+"absolute": {
+"2013": 0,
+"2014": null
+},
+"relative": {
+"2013": 0,
+"2014": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2013": 0,
+"2014": null
+},
+"relative": {
+"2013": 0,
+"2014": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2013": 0,
+"2014": null
+},
+"relative": {
+"2013": 0,
+"2014": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2014": [
+{
+"absolute": {
+"2014": 0,
+"2015": null
+},
+"relative": {
+"2014": 0,
+"2015": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2014": 0,
+"2015": null
+},
+"relative": {
+"2014": 0,
+"2015": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2014": 0,
+"2015": null
+},
+"relative": {
+"2014": 0,
+"2015": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2015": [
+{
+"absolute": {
+"2015": 0,
+"2016": null
+},
+"relative": {
+"2015": 0,
+"2016": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2015": 0,
+"2016": null
+},
+"relative": {
+"2015": 0,
+"2016": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2015": 0,
+"2016": null
+},
+"relative": {
+"2015": 0,
+"2016": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2016": [
+{
+"absolute": {
+"2016": 0,
+"2017": null
+},
+"relative": {
+"2016": 0,
+"2017": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2016": 0,
+"2017": null
+},
+"relative": {
+"2016": 0,
+"2017": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2016": 0,
+"2017": null
+},
+"relative": {
+"2016": 0,
+"2017": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2017": [
+{
+"absolute": {
+"2017": 0,
+"2018": null
+},
+"relative": {
+"2017": 0,
+"2018": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2017": 0,
+"2018": null
+},
+"relative": {
+"2017": 0,
+"2018": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2017": 0,
+"2018": null
+},
+"relative": {
+"2017": 0,
+"2018": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2018": [
+{
+"absolute": {
+"2018": 0,
+"2019": null
+},
+"relative": {
+"2018": 0,
+"2019": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2018": 0,
+"2019": null
+},
+"relative": {
+"2018": 0,
+"2019": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2018": 0,
+"2019": null
+},
+"relative": {
+"2018": 0,
+"2019": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2019": [
+{
+"absolute": {
+"2019": 0,
+"2020": null
+},
+"relative": {
+"2019": 0,
+"2020": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2019": 0,
+"2020": null
+},
+"relative": {
+"2019": 0,
+"2020": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2019": 0,
+"2020": null
+},
+"relative": {
+"2019": 0,
+"2020": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2020": [
+{
+"absolute": {
+"2020": 0,
+"2021": null
+},
+"relative": {
+"2020": 0,
+"2021": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2020": 0,
+"2021": null
+},
+"relative": {
+"2020": 0,
+"2021": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2020": 0,
+"2021": null
+},
+"relative": {
+"2020": 0,
+"2021": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2021": [
+{
+"absolute": {
+"2021": 0,
+"2022": null
+},
+"relative": {
+"2021": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2021": 0,
+"2022": null
+},
+"relative": {
+"2021": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2021": 0,
+"2022": null
+},
+"relative": {
+"2021": 0,
+"2022": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2022": [
+{
+"absolute": {
+"2022": 0,
+"2023": null
+},
+"relative": {
+"2022": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2022": 0,
+"2023": null
+},
+"relative": {
+"2022": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2022": 0,
+"2023": null
+},
+"relative": {
+"2022": 0,
+"2023": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"SVT-2023": [
+{
+"absolute": {
+"2023": 0,
+"2024": null
+},
+"relative": {
+"2023": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+}
+},
+{
+"absolute": {
+"2023": 0,
+"2024": null
+},
+"relative": {
+"2023": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2023": 0,
+"2024": null
+},
+"relative": {
+"2023": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+]
+},
+"combined": [
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2006": 2,
+"2007": 0
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2006": 0.4793736312384786,
+"2007": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 0.008320971490063408
+}
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null
+},
+"relative": {
+"2004": 0,
+"2024": null
+},
+"sums": {
+"absolute": 0,
+"relative": 0.0
+},
+"cqp": "[word = 'ids' %c] [word = 'att'] [word = 'avg\u00e5' %c | word = 'plocka' %c | word = 'klaga' %c]"
+},
+{
+"absolute": {
+"2004": 0,
+"2024": null,
+"2006": 2,
+"2007": 0
+},
+"relative": {
+"2004": 0,
+"2024": null,
+"2006": 0.4793736312384786,
+"2007": 0.0
+},
+"sums": {
+"absolute": 2,
+"relative": 0.008320971490063408
+},
+"cqp": "[word = 'ids' %c] [word = 'ta' %c | word = 'l\u00e4sa' %c | word = 'g\u00f6ra' %c | word = 'bry' %c | word = 'l\u00e4gga' %c | word = 'tillvarata' %c | word = 'g\u00e5' %c | word = '\u00e5ka' %c | word = 'r\u00e4kna' %c | word = 'plocka' %c | word = 'schasa' %c | word = 'h\u00e5lla' %c]"
+}
+],
+"time": 8.531288146972656
+}
