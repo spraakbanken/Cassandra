@@ -28,7 +28,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -74,7 +74,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -120,7 +120,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -166,7 +166,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -212,7 +212,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -258,7 +258,7 @@
 "absolute": 1,
 "relative": 0.11285427071595314
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -304,7 +304,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -350,7 +350,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -396,7 +396,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -442,7 +442,7 @@
 "absolute": 1,
 "relative": 0.07164430265877739
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -488,7 +488,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -509,32 +509,32 @@
 "SVT-2015": [
 {
 "absolute": {
-"2015": 1,
+"2015": 0,
 "2016": null
 },
 "relative": {
-"2015": 0.05208303494094565,
+"2015": 0,
 "2016": null
 },
 "sums": {
-"absolute": 1,
-"relative": 0.05208303494094565
+"absolute": 0,
+"relative": 0.0
 }
 },
 {
 "absolute": {
-"2015": 1,
+"2015": 0,
 "2016": null
 },
 "relative": {
-"2015": 0.05208303494094565,
+"2015": 0,
 "2016": null
 },
 "sums": {
-"absolute": 1,
-"relative": 0.05208303494094565
+"absolute": 0,
+"relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -580,7 +580,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -626,7 +626,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -672,7 +672,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -718,7 +718,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -739,32 +739,32 @@
 "SVT-2020": [
 {
 "absolute": {
-"2020": 0,
+"2020": 1,
 "2021": null
 },
 "relative": {
-"2020": 0,
+"2020": 0.06250346503584292,
 "2021": null
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.06250346503584292
 }
 },
 {
 "absolute": {
-"2020": 0,
+"2020": 1,
 "2021": null
 },
 "relative": {
-"2020": 0,
+"2020": 0.06250346503584292,
 "2021": null
 },
 "sums": {
-"absolute": 0,
-"relative": 0.0
+"absolute": 1,
+"relative": 0.06250346503584292
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -810,7 +810,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -856,7 +856,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -902,7 +902,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -930,9 +930,11 @@
 "2010": 0,
 "2013": 1,
 "2014": 2,
-"2015": 1,
+"2015": 0,
 "2016": 4,
 "2017": 0,
+"2020": 1,
+"2021": 0,
 "2023": 1
 },
 "relative": {
@@ -942,9 +944,11 @@
 "2010": 0.0,
 "2013": 0.07164430265877739,
 "2014": 0.1244129651995164,
-"2015": 0.05208303494094565,
+"2015": 0.0,
 "2016": 0.18414587778634006,
 "2017": 0.0,
+"2020": 0.06250346503584292,
+"2021": 0.0,
 "2023": 0.1333066364576054
 },
 "sums": {
@@ -960,8 +964,8 @@
 "2010": 0,
 "2013": 1,
 "2014": 0,
-"2015": 1,
-"2016": 0
+"2020": 1,
+"2021": 0
 },
 "relative": {
 "2004": 0,
@@ -970,14 +974,14 @@
 "2010": 0.0,
 "2013": 0.07164430265877739,
 "2014": 0.0,
-"2015": 0.05208303494094565,
-"2016": 0.0
+"2020": 0.06250346503584292,
+"2021": 0.0
 },
 "sums": {
 "absolute": 3,
 "relative": 0.012481457235095113
 },
-"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'komma' %c]"
+"cqp": "[word = 'behagar' %c] [word = 'att'] [word = 'titta' %c | word = 'visa' %c | word = 'minska' %c]"
 },
 {
 "absolute": {
@@ -1009,5 +1013,5 @@
 "cqp": "[word = 'behagar' %c] [word = 'visa' %c | word = 'dyka' %c | word = 'komma' %c | word = 'ta' %c | word = 'sk\u00e4mta' %c | word = 'infinna' %c | word = 'g\u00e5' %c | word = 'anl\u00e4nda' %c | word = 'f\u00f6ra' %c | word = 's\u00e4nda' %c | word = 'anv\u00e4nda' %c]"
 }
 ],
-"time": 0.21404242515563965
+"time": 0.21361207962036133
 }

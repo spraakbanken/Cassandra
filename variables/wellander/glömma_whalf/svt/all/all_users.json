@@ -1,5 +1,3 @@
- 
- 
 {
 "corpora": {
 "SVT-2004": [
@@ -30,7 +28,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -45,7 +43,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2005": [
@@ -76,7 +74,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -91,7 +89,7 @@
 "absolute": 1,
 "relative": 0.30297099416296086
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2006": [
@@ -122,7 +120,7 @@
 "absolute": 1,
 "relative": 0.2396868156192393
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -137,7 +135,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2007": [
@@ -168,7 +166,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -183,7 +181,7 @@
 "absolute": 2,
 "relative": 0.3614230091284609
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2008": [
@@ -214,7 +212,7 @@
 "absolute": 1,
 "relative": 0.12997867050017092
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -229,7 +227,7 @@
 "absolute": 1,
 "relative": 0.12997867050017092
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2009": [
@@ -260,7 +258,7 @@
 "absolute": 2,
 "relative": 0.22570854143190627
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -275,7 +273,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2010": [
@@ -306,7 +304,7 @@
 "absolute": 2,
 "relative": 0.20256586125129794
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -321,7 +319,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2011": [
@@ -352,7 +350,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -367,7 +365,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2012": [
@@ -398,7 +396,7 @@
 "absolute": 4,
 "relative": 0.4191736306252446
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -413,7 +411,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2013": [
@@ -444,7 +442,7 @@
 "absolute": 3,
 "relative": 0.21493290797633216
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -459,7 +457,7 @@
 "absolute": 1,
 "relative": 0.07164430265877739
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2014": [
@@ -490,7 +488,7 @@
 "absolute": 5,
 "relative": 0.31103241299879103
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -505,7 +503,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2015": [
@@ -536,7 +534,7 @@
 "absolute": 5,
 "relative": 0.26041517470472825
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -551,7 +549,7 @@
 "absolute": 1,
 "relative": 0.05208303494094565
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2016": [
@@ -582,7 +580,7 @@
 "absolute": 3,
 "relative": 0.13810940833975505
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -597,7 +595,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2017": [
@@ -628,7 +626,7 @@
 "absolute": 7,
 "relative": 0.33066869476799454
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -643,7 +641,7 @@
 "absolute": 1,
 "relative": 0.047238384966856374
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2018": [
@@ -674,7 +672,7 @@
 "absolute": 7,
 "relative": 0.3723965623328538
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -689,7 +687,7 @@
 "absolute": 2,
 "relative": 0.1063990178093868
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2019": [
@@ -720,7 +718,7 @@
 "absolute": 1,
 "relative": 0.05479012532912428
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -735,7 +733,7 @@
 "absolute": 2,
 "relative": 0.10958025065824856
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2020": [
@@ -766,7 +764,7 @@
 "absolute": 1,
 "relative": 0.06250346503584292
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -781,7 +779,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2021": [
@@ -812,7 +810,7 @@
 "absolute": 2,
 "relative": 0.1336923239616351
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -827,7 +825,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2022": [
@@ -858,7 +856,7 @@
 "absolute": 1,
 "relative": 0.07144684651123977
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -873,7 +871,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
 "SVT-2023": [
@@ -904,7 +902,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -919,7 +917,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ]
 },
@@ -1025,7 +1023,7 @@
 "absolute": 45,
 "relative": 0.18722185852642667
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'l\u00e4mna' %c | word = 'skriva' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'att'] [word = 'ta' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = '\u00e4ta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fr\u00e5ga' %c | word = 'l\u00e5sa' %c | word = 's\u00e4ga' %c | word = 't\u00e4nka' %c | word = 'se' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'tala' %c | word = 's\u00e4tta' %c | word = 'leva' %c | word = 'vara' %c | word = 'skriva' %c | word = 'l\u00e4mna' %c]"
 },
 {
 "absolute": {
@@ -1066,8 +1064,8 @@
 "absolute": 11,
 "relative": 0.04576534319534874
 },
-"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'titta' %c | word = 'dra' %c | word = 'st\u00e4mpla' %c | word = 's\u00e4ga' %c | word = 'byta' %c | word = 'servera' %c | word = 'fylla' %c]"
+"cqp": "[word = 'gl\u00f6mmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 's\u00e4tta' %c | word = 'fr\u00e5ga' %c | word = 'n\u00e4mna' %c | word = 'st\u00e4nga' %c | word = 'ber\u00e4tta' %c | word = 'l\u00e4gga' %c | word = 'st\u00e4mpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 's\u00e4ga' %c | word = 'servera' %c | word = 'fylla' %c]"
 }
 ],
-"time": 11.132853507995605
+"time": 0.21894359588623047
 }

@@ -700,44 +700,6 @@
 "relative": 0.06778822970597499
 }
 },
-"WEBBNYHETER2006": {
-"rows": [
-{
-"value": {
-"word": [
-"tenderar",
-"tro"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"tenderar",
-"intressera"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"tenderar",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-}
-],
-"sums": {
-"absolute": 3,
-"relative": 0.13295637541774893
-}
-},
 "WEBBNYHETER2007": {
 "rows": [
 {
@@ -776,6 +738,62 @@
 "relative": 0.1624006519086969
 }
 },
+"WEBBNYHETER2006": {
+"rows": [
+{
+"value": {
+"word": [
+"tenderar",
+"tro"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"tenderar",
+"intressera"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"tenderar",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.13295637541774893
+}
+},
+"WEBBNYHETER2008": {
+"rows": [
+{
+"value": {
+"word": [
+"tenderar",
+"diskutera"
+]
+},
+"absolute": 1,
+"relative": 0.036282095322933146
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.036282095322933146
+}
+},
 "WEBBNYHETER2009": {
 "rows": [
 {
@@ -812,24 +830,6 @@
 "sums": {
 "absolute": 3,
 "relative": 0.11588032019586555
-}
-},
-"WEBBNYHETER2008": {
-"rows": [
-{
-"value": {
-"word": [
-"tenderar",
-"diskutera"
-]
-},
-"absolute": 1,
-"relative": 0.036282095322933146
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.036282095322933146
 }
 },
 "WEBBNYHETER2010": {
@@ -1252,6 +1252,16 @@
 "value": {
 "word": [
 "tenderar",
+"diskutera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"tenderar",
 "sv\u00e4lja"
 ]
 },
@@ -1263,16 +1273,6 @@
 "word": [
 "tenderar",
 "splittra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"tenderar",
-"diskutera"
 ]
 },
 "absolute": 1,
@@ -1334,5 +1334,5 @@
 "relative": 0.07272551010295267
 }
 },
-"time": 0.14577174186706543
+"time": 0.08473372459411621
 }

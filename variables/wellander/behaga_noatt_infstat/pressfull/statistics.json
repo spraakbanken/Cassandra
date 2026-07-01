@@ -980,6 +980,24 @@
 "relative": 0.05479012532912428
 }
 },
+"SVT-2023": {
+"rows": [
+{
+"value": {
+"word": [
+"behagar",
+"anv\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.1334341205724057
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.1334341205724057
+}
+},
 "WEBBNYHETER2002": {
 "rows": [
 {
@@ -1028,22 +1046,22 @@
 "relative": 0.3443096771735251
 }
 },
-"SVT-2023": {
+"WEBBNYHETER2003": {
 "rows": [
 {
 "value": {
 "word": [
 "behagar",
-"anv\u00e4nda"
+"komma"
 ]
 },
 "absolute": 1,
-"relative": 0.1334341205724057
+"relative": 0.08185122590218058
 }
 ],
 "sums": {
 "absolute": 1,
-"relative": 0.1334341205724057
+"relative": 0.08185122590218058
 }
 },
 "WEBBNYHETER2004": {
@@ -1062,24 +1080,6 @@
 "sums": {
 "absolute": 1,
 "relative": 0.072430581263382
-}
-},
-"WEBBNYHETER2003": {
-"rows": [
-{
-"value": {
-"word": [
-"behagar",
-"komma"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.08185122590218058
 }
 },
 "WEBBNYHETER2005": {
@@ -1158,6 +1158,44 @@
 "relative": 0.13295637541774893
 }
 },
+"WEBBNYHETER2007": {
+"rows": [
+{
+"value": {
+"word": [
+"behagar",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"behagar",
+"resa"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"behagar",
+"kissa"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.12180048893152268
+}
+},
 "WEBBNYHETER2009": {
 "rows": [
 {
@@ -1234,44 +1272,6 @@
 "sums": {
 "absolute": 8,
 "relative": 0.30901418718897483
-}
-},
-"WEBBNYHETER2007": {
-"rows": [
-{
-"value": {
-"word": [
-"behagar",
-"vara"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"behagar",
-"resa"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"behagar",
-"kissa"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-}
-],
-"sums": {
-"absolute": 3,
-"relative": 0.12180048893152268
 }
 },
 "WEBBNYHETER2011": {
@@ -1836,6 +1836,36 @@
 "value": {
 "word": [
 "behagar",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"behagar",
+"resa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"behagar",
+"kissa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"behagar",
 "\u00e5terv\u00e4nda"
 ]
 },
@@ -1886,36 +1916,6 @@
 "value": {
 "word": [
 "behagar",
-"vara"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"behagar",
-"resa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"behagar",
-"kissa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"behagar",
 "l\u00e4gga"
 ]
 },
@@ -1938,5 +1938,5 @@
 "relative": 0.1368225698547076
 }
 },
-"time": 0.09628725051879883
+"time": 0.09090328216552734
 }

@@ -449,6 +449,34 @@
 "relative": 0.17801946491532303
 }
 },
+"GP2008": {
+"rows": [
+{
+"value": {
+"word": [
+"ids",
+"\u00e5ka"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"ids",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.11776975412442928
+}
+},
 "GP2007": {
 "rows": [
 {
@@ -487,34 +515,6 @@
 "relative": 0.16124921270071899
 }
 },
-"GP2008": {
-"rows": [
-{
-"value": {
-"word": [
-"ids",
-"\u00e5ka"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"ids",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.11776975412442928
-}
-},
 "GP2009": {
 "rows": [
 {
@@ -551,24 +551,6 @@
 "relative": 0.058102156955423735
 }
 },
-"GP2012": {
-"rows": [
-{
-"value": {
-"word": [
-"ids",
-"ta"
-]
-},
-"absolute": 2,
-"relative": 0.11653626937918042
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.11653626937918042
-}
-},
 "GP2011": {
 "rows": [
 {
@@ -585,6 +567,24 @@
 "sums": {
 "absolute": 1,
 "relative": 0.05015449842467228
+}
+},
+"GP2012": {
+"rows": [
+{
+"value": {
+"word": [
+"ids",
+"ta"
+]
+},
+"absolute": 2,
+"relative": 0.11653626937918042
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.11653626937918042
 }
 },
 "PRESS95": {
@@ -623,24 +623,6 @@
 "relative": 0.15346767893947696
 }
 },
-"PRESS98": {
-"rows": [
-{
-"value": {
-"word": [
-"ids",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.09310250986677124
-}
-},
 "PRESS97": {
 "rows": [
 {
@@ -667,6 +649,24 @@
 "sums": {
 "absolute": 2,
 "relative": 0.1459504692271098
+}
+},
+"PRESS98": {
+"rows": [
+{
+"value": {
+"word": [
+"ids",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.09310250986677124
 }
 },
 "SVT-2006": {
@@ -703,6 +703,24 @@
 "sums": {
 "absolute": 1,
 "relative": 0.10128293062564897
+}
+},
+"SVT-2020": {
+"rows": [
+{
+"value": {
+"word": [
+"ids",
+"jaga"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.06250346503584292
 }
 },
 "WEBBNYHETER2002": {
@@ -751,24 +769,6 @@
 "sums": {
 "absolute": 5,
 "relative": 0.2869247309779376
-}
-},
-"SVT-2020": {
-"rows": [
-{
-"value": {
-"word": [
-"ids",
-"jaga"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.06250346503584292
 }
 },
 "WEBBNYHETER2003": {
@@ -1361,6 +1361,16 @@
 "value": {
 "word": [
 "ids",
+"jaga"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"ids",
 "schasa"
 ]
 },
@@ -1382,16 +1392,6 @@
 "word": [
 "ids",
 "lyssna"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"ids",
-"jaga"
 ]
 },
 "absolute": 1,
@@ -1583,5 +1583,5 @@
 "relative": 0.09244768233426189
 }
 },
-"time": 0.17621731758117676
+"time": 0.0976247787475586
 }

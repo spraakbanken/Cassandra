@@ -271,69 +271,6 @@
 "relative": 0.34460315844876194
 }
 },
-"GP2003": {
-"rows": [
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"mogna"
-]
-},
-"absolute": 2,
-"relative": 0.10490943090148201
-},
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"sv\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"bli"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"blanda"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"avge"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-}
-],
-"sums": {
-"absolute": 6,
-"relative": 0.314728292704446
-}
-},
 "GP2004": {
 "rows": [
 {
@@ -419,23 +356,67 @@
 "relative": 0.5369073465703365
 }
 },
-"GP2006": {
+"GP2003": {
 "rows": [
 {
 "value": {
 "word": [
 "hinner",
 "att",
-"spela"
+"mogna"
+]
+},
+"absolute": 2,
+"relative": 0.10490943090148201
+},
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"sv\u00e4lla"
 ]
 },
 "absolute": 1,
-"relative": 0.04450486622883076
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"bli"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"blanda"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"avge"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
 }
 ],
 "sums": {
-"absolute": 1,
-"relative": 0.04450486622883076
+"absolute": 6,
+"relative": 0.314728292704446
 }
 },
 "GP2005": {
@@ -455,6 +436,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.04318933734729276
+}
+},
+"GP2006": {
+"rows": [
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"spela"
+]
+},
+"absolute": 1,
+"relative": 0.04450486622883076
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.04450486622883076
 }
 },
 "GP2007": {
@@ -544,25 +544,6 @@
 "relative": 0.05826813468959021
 }
 },
-"PRESS76": {
-"rows": [
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"tr\u00e4na"
-]
-},
-"absolute": 1,
-"relative": 0.7417726288867031
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.7417726288867031
-}
-},
 "PRESS95": {
 "rows": [
 {
@@ -580,6 +561,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.13034920552159235
+}
+},
+"PRESS76": {
+"rows": [
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"tr\u00e4na"
+]
+},
+"absolute": 1,
+"relative": 0.7417726288867031
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.7417726288867031
 }
 },
 "PRESS97": {
@@ -806,25 +806,6 @@
 "relative": 0.20256586125129794
 }
 },
-"SVT-2011": {
-"rows": [
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"bli"
-]
-},
-"absolute": 1,
-"relative": 0.10721487490597256
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.10721487490597256
-}
-},
 "SVT-2012": {
 "rows": [
 {
@@ -855,34 +836,23 @@
 "relative": 0.3143802229689334
 }
 },
-"SVT-2014": {
+"SVT-2011": {
 "rows": [
 {
 "value": {
 "word": [
 "hinner",
 "att",
-"\u00e4ta"
+"bli"
 ]
 },
 "absolute": 1,
-"relative": 0.0622064825997582
-},
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.0622064825997582
+"relative": 0.10721487490597256
 }
 ],
 "sums": {
-"absolute": 2,
-"relative": 0.1244129651995164
+"absolute": 1,
+"relative": 0.10721487490597256
 }
 },
 "SVT-2013": {
@@ -913,6 +883,36 @@
 "sums": {
 "absolute": 2,
 "relative": 0.14328860531755477
+}
+},
+"SVT-2014": {
+"rows": [
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"\u00e4ta"
+]
+},
+"absolute": 1,
+"relative": 0.0622064825997582
+},
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0622064825997582
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.1244129651995164
 }
 },
 "SVT-2015": {
@@ -1035,25 +1035,6 @@
 "relative": 0.1063990178093868
 }
 },
-"SVT-2019": {
-"rows": [
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"behandla"
-]
-},
-"absolute": 1,
-"relative": 0.05479012532912428
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.05479012532912428
-}
-},
 "SVT-2021": {
 "rows": [
 {
@@ -1071,6 +1052,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.06684616198081755
+}
+},
+"SVT-2019": {
+"rows": [
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"behandla"
+]
+},
+"absolute": 1,
+"relative": 0.05479012532912428
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.05479012532912428
 }
 },
 "WEBBNYHETER2003": {
@@ -1220,25 +1220,6 @@
 "relative": 0.08402098558548575
 }
 },
-"WEBBNYHETER2011": {
-"rows": [
-{
-"value": {
-"word": [
-"hinner",
-"att",
-"komma"
-]
-},
-"absolute": 2,
-"relative": 0.07613651932689379
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.07613651932689379
-}
-},
 "WEBBNYHETER2013": {
 "rows": [
 {
@@ -1256,6 +1237,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.04415276538924769
+}
+},
+"WEBBNYHETER2011": {
+"rows": [
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"komma"
+]
+},
+"absolute": 2,
+"relative": 0.07613651932689379
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.07613651932689379
 }
 }
 },
@@ -1399,17 +1399,6 @@
 "word": [
 "hinner",
 "att",
-"avge"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"hinner",
-"att",
 "spara"
 ]
 },
@@ -1422,6 +1411,17 @@
 "Hinner",
 "att",
 "h\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"hinner",
+"att",
+"avge"
 ]
 },
 "absolute": 1,
@@ -1487,7 +1487,7 @@
 "word": [
 "hinner",
 "att",
-"tr\u00e4na"
+"observera"
 ]
 },
 "absolute": 1,
@@ -1498,7 +1498,7 @@
 "word": [
 "hinner",
 "att",
-"observera"
+"tr\u00e4na"
 ]
 },
 "absolute": 1,
@@ -1774,5 +1774,5 @@
 "relative": 0.11463512609448473
 }
 },
-"time": 0.20952558517456055
+"time": 0.07956862449645996
 }

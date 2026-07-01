@@ -763,6 +763,224 @@
 "relative": 13.435853227606167
 }
 },
+"GP2002": {
+"rows": [
+{
+"value": {
+"word": [
+"riskerar",
+"bli"
+]
+},
+"absolute": 20,
+"relative": 0.9494745655228125
+},
+{
+"value": {
+"word": [
+"riskerar",
+"missa"
+]
+},
+"absolute": 3,
+"relative": 0.14242118482842187
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 3,
+"relative": 0.14242118482842187
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00e5"
+]
+},
+"absolute": 3,
+"relative": 0.14242118482842187
+},
+{
+"value": {
+"word": [
+"riskerar",
+"\u00e5ka"
+]
+},
+"absolute": 2,
+"relative": 0.09494745655228125
+},
+{
+"value": {
+"word": [
+"riskerar",
+"tappa"
+]
+},
+"absolute": 2,
+"relative": 0.09494745655228125
+},
+{
+"value": {
+"word": [
+"riskerar",
+"leda"
+]
+},
+"absolute": 2,
+"relative": 0.09494745655228125
+},
+{
+"value": {
+"word": [
+"riskerar",
+"hamna"
+]
+},
+"absolute": 2,
+"relative": 0.09494745655228125
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rsvinna"
+]
+},
+"absolute": 2,
+"relative": 0.09494745655228125
+},
+{
+"value": {
+"word": [
+"riskerar",
+"fastna"
+]
+},
+"absolute": 2,
+"relative": 0.09494745655228125
+},
+{
+"value": {
+"word": [
+"riskerar",
+"\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"st\u00f6ta"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"stj\u00e4lpa"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"r\u00f6ta"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"rasera"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"krascha"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"h\u00f6ja"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"dra"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"bryta"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"bli"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+},
+{
+"value": {
+"word": [
+"riskerar",
+"ber\u00f6va"
+]
+},
+"absolute": 1,
+"relative": 0.047473728276140624
+}
+],
+"sums": {
+"absolute": 52,
+"relative": 2.468633870359314
+}
+},
 "GP2003": {
 "rows": [
 {
@@ -989,492 +1207,6 @@
 "sums": {
 "absolute": 50,
 "relative": 2.622735772537049
-}
-},
-"GP2002": {
-"rows": [
-{
-"value": {
-"word": [
-"riskerar",
-"bli"
-]
-},
-"absolute": 20,
-"relative": 0.9494745655228125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"missa"
-]
-},
-"absolute": 3,
-"relative": 0.14242118482842187
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 3,
-"relative": 0.14242118482842187
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00e5"
-]
-},
-"absolute": 3,
-"relative": 0.14242118482842187
-},
-{
-"value": {
-"word": [
-"riskerar",
-"\u00e5ka"
-]
-},
-"absolute": 2,
-"relative": 0.09494745655228125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"tappa"
-]
-},
-"absolute": 2,
-"relative": 0.09494745655228125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"leda"
-]
-},
-"absolute": 2,
-"relative": 0.09494745655228125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"hamna"
-]
-},
-"absolute": 2,
-"relative": 0.09494745655228125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rsvinna"
-]
-},
-"absolute": 2,
-"relative": 0.09494745655228125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"fastna"
-]
-},
-"absolute": 2,
-"relative": 0.09494745655228125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"\u00f6ka"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"st\u00f6ta"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"stj\u00e4lpa"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"r\u00f6ta"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"rasera"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"krascha"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"h\u00f6ja"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"dra"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"bryta"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"bli"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-},
-{
-"value": {
-"word": [
-"riskerar",
-"ber\u00f6va"
-]
-},
-"absolute": 1,
-"relative": 0.047473728276140624
-}
-],
-"sums": {
-"absolute": 52,
-"relative": 2.468633870359314
-}
-},
-"GP2005": {
-"rows": [
-{
-"value": {
-"word": [
-"riskerar",
-"bli"
-]
-},
-"absolute": 22,
-"relative": 0.9501654216404407
-},
-{
-"value": {
-"word": [
-"riskerar",
-"missa"
-]
-},
-"absolute": 7,
-"relative": 0.3023253614310493
-},
-{
-"value": {
-"word": [
-"riskerar",
-"hamna"
-]
-},
-"absolute": 5,
-"relative": 0.2159466867364638
-},
-{
-"value": {
-"word": [
-"riskerar",
-"mista"
-]
-},
-"absolute": 4,
-"relative": 0.17275734938917103
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 4,
-"relative": 0.17275734938917103
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00e5"
-]
-},
-"absolute": 4,
-"relative": 0.17275734938917103
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"bli"
-]
-},
-"absolute": 3,
-"relative": 0.1295680120418783
-},
-{
-"value": {
-"word": [
-"riskerar",
-"\u00f6ka"
-]
-},
-"absolute": 2,
-"relative": 0.08637867469458552
-},
-{
-"value": {
-"word": [
-"riskerar",
-"leda"
-]
-},
-"absolute": 2,
-"relative": 0.08637867469458552
-},
-{
-"value": {
-"word": [
-"riskerar",
-"g\u00e5"
-]
-},
-"absolute": 2,
-"relative": 0.08637867469458552
-},
-{
-"value": {
-"word": [
-"riskerar",
-"torka"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"tillbringa"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"st\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"sl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"r\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"placera"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"l\u00e4cka"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"kv\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"kraschlanda"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"gr\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rfalla"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"fisksn\u00e4rtskada"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"d\u00f6"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-},
-{
-"value": {
-"word": [
-"riskerar",
-"bryta"
-]
-},
-"absolute": 1,
-"relative": 0.04318933734729276
-}
-],
-"sums": {
-"absolute": 71,
-"relative": 3.066442951657784
 }
 },
 "GP2004": {
@@ -1813,6 +1545,274 @@
 "sums": {
 "absolute": 71,
 "relative": 3.176701800541157
+}
+},
+"GP2005": {
+"rows": [
+{
+"value": {
+"word": [
+"riskerar",
+"bli"
+]
+},
+"absolute": 22,
+"relative": 0.9501654216404407
+},
+{
+"value": {
+"word": [
+"riskerar",
+"missa"
+]
+},
+"absolute": 7,
+"relative": 0.3023253614310493
+},
+{
+"value": {
+"word": [
+"riskerar",
+"hamna"
+]
+},
+"absolute": 5,
+"relative": 0.2159466867364638
+},
+{
+"value": {
+"word": [
+"riskerar",
+"mista"
+]
+},
+"absolute": 4,
+"relative": 0.17275734938917103
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 4,
+"relative": 0.17275734938917103
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00e5"
+]
+},
+"absolute": 4,
+"relative": 0.17275734938917103
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"bli"
+]
+},
+"absolute": 3,
+"relative": 0.1295680120418783
+},
+{
+"value": {
+"word": [
+"riskerar",
+"\u00f6ka"
+]
+},
+"absolute": 2,
+"relative": 0.08637867469458552
+},
+{
+"value": {
+"word": [
+"riskerar",
+"leda"
+]
+},
+"absolute": 2,
+"relative": 0.08637867469458552
+},
+{
+"value": {
+"word": [
+"riskerar",
+"g\u00e5"
+]
+},
+"absolute": 2,
+"relative": 0.08637867469458552
+},
+{
+"value": {
+"word": [
+"riskerar",
+"torka"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"tillbringa"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"st\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"r\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"placera"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"l\u00e4cka"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"kv\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"kraschlanda"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"gr\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rfalla"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"fisksn\u00e4rtskada"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"d\u00f6"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+},
+{
+"value": {
+"word": [
+"riskerar",
+"bryta"
+]
+},
+"absolute": 1,
+"relative": 0.04318933734729276
+}
+],
+"sums": {
+"absolute": 71,
+"relative": 3.066442951657784
 }
 },
 "GP2006": {
@@ -2411,6 +2411,304 @@
 "relative": 2.9562355661798514
 }
 },
+"GP2008": {
+"rows": [
+{
+"value": {
+"word": [
+"riskerar",
+"bli"
+]
+},
+"absolute": 14,
+"relative": 0.824388278871005
+},
+{
+"value": {
+"word": [
+"riskerar",
+"mista"
+]
+},
+"absolute": 8,
+"relative": 0.4710790164977171
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 8,
+"relative": 0.4710790164977171
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00e5"
+]
+},
+"absolute": 5,
+"relative": 0.2944243853110732
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rsvinna"
+]
+},
+"absolute": 3,
+"relative": 0.17665463118664393
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"bli"
+]
+},
+"absolute": 3,
+"relative": 0.17665463118664393
+},
+{
+"value": {
+"word": [
+"riskerar",
+"\u00e5ka"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"riskerar",
+"missa"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"riskerar",
+"l\u00e4mna"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"riskerar",
+"leda"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"riskerar",
+"hamna"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"riskerar",
+"g\u00e5"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"riskerar",
+"utpl\u00e5na"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"s\u00e5ra"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"st\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"st\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"stj\u00e4lpa"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"Ria"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"orsaka"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"mista"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"minska"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"medf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"krympa"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"krocka"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"falla"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"riskerar",
+"d\u00f6"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+}
+],
+"sums": {
+"absolute": 70,
+"relative": 4.1219413943550265
+}
+},
 "GP2009": {
 "rows": [
 {
@@ -2717,304 +3015,6 @@
 "sums": {
 "absolute": 75,
 "relative": 4.321509223137845
-}
-},
-"GP2008": {
-"rows": [
-{
-"value": {
-"word": [
-"riskerar",
-"bli"
-]
-},
-"absolute": 14,
-"relative": 0.824388278871005
-},
-{
-"value": {
-"word": [
-"riskerar",
-"mista"
-]
-},
-"absolute": 8,
-"relative": 0.4710790164977171
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 8,
-"relative": 0.4710790164977171
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00e5"
-]
-},
-"absolute": 5,
-"relative": 0.2944243853110732
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rsvinna"
-]
-},
-"absolute": 3,
-"relative": 0.17665463118664393
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"bli"
-]
-},
-"absolute": 3,
-"relative": 0.17665463118664393
-},
-{
-"value": {
-"word": [
-"riskerar",
-"\u00e5ka"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-},
-{
-"value": {
-"word": [
-"riskerar",
-"missa"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-},
-{
-"value": {
-"word": [
-"riskerar",
-"l\u00e4mna"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-},
-{
-"value": {
-"word": [
-"riskerar",
-"leda"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-},
-{
-"value": {
-"word": [
-"riskerar",
-"hamna"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-},
-{
-"value": {
-"word": [
-"riskerar",
-"g\u00e5"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-},
-{
-"value": {
-"word": [
-"riskerar",
-"utpl\u00e5na"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"s\u00e5ra"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"st\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"st\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"stj\u00e4lpa"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"Ria"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"orsaka"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"mista"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"minska"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"medf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"krympa"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"krocka"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"ge"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"falla"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"riskerar",
-"d\u00f6"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-}
-],
-"sums": {
-"absolute": 70,
-"relative": 4.1219413943550265
 }
 },
 "GP2010": {
@@ -4525,6 +4525,114 @@
 "relative": 3.1283809325182177
 }
 },
+"PRESS96": {
+"rows": [
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 3,
+"relative": 0.4604030368184308
+},
+{
+"value": {
+"word": [
+"riskerar",
+"leda"
+]
+},
+"absolute": 2,
+"relative": 0.30693535787895393
+},
+{
+"value": {
+"word": [
+"riskerar",
+"bli"
+]
+},
+"absolute": 2,
+"relative": 0.30693535787895393
+},
+{
+"value": {
+"word": [
+"riskerar",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"riskerar",
+"mista"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"riskerar",
+"missa"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"riskerar",
+"haverera"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"riskerar",
+"blockera"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"bli"
+]
+},
+"absolute": 1,
+"relative": 0.15346767893947696
+}
+],
+"sums": {
+"absolute": 14,
+"relative": 2.148547505152677
+}
+},
 "PRESS97": {
 "rows": [
 {
@@ -4721,114 +4829,6 @@
 "sums": {
 "absolute": 24,
 "relative": 1.751405630725317
-}
-},
-"PRESS96": {
-"rows": [
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 3,
-"relative": 0.4604030368184308
-},
-{
-"value": {
-"word": [
-"riskerar",
-"leda"
-]
-},
-"absolute": 2,
-"relative": 0.30693535787895393
-},
-{
-"value": {
-"word": [
-"riskerar",
-"bli"
-]
-},
-"absolute": 2,
-"relative": 0.30693535787895393
-},
-{
-"value": {
-"word": [
-"riskerar",
-"sl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"riskerar",
-"mista"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"riskerar",
-"missa"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"riskerar",
-"haverera"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"riskerar",
-"blockera"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"bli"
-]
-},
-"absolute": 1,
-"relative": 0.15346767893947696
-}
-],
-"sums": {
-"absolute": 14,
-"relative": 2.148547505152677
 }
 },
 "PRESS98": {
@@ -11715,6 +11715,640 @@
 "relative": 1.9556256941113153
 }
 },
+"WEBBNYHETER2005": {
+"rows": [
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00e5"
+]
+},
+"absolute": 7,
+"relative": 0.23725880397091248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"missa"
+]
+},
+"absolute": 6,
+"relative": 0.203364689117925
+},
+{
+"value": {
+"word": [
+"riskerar",
+"bli"
+]
+},
+"absolute": 6,
+"relative": 0.203364689117925
+},
+{
+"value": {
+"word": [
+"riskerar",
+"leda"
+]
+},
+"absolute": 4,
+"relative": 0.13557645941194998
+},
+{
+"value": {
+"word": [
+"riskerar",
+"s\u00e4nka"
+]
+},
+"absolute": 3,
+"relative": 0.1016823445589625
+},
+{
+"value": {
+"word": [
+"riskerar",
+"g\u00e5"
+]
+},
+"absolute": 3,
+"relative": 0.1016823445589625
+},
+{
+"value": {
+"word": [
+"riskerar",
+"tr\u00e4nga"
+]
+},
+"absolute": 2,
+"relative": 0.06778822970597499
+},
+{
+"value": {
+"word": [
+"riskerar",
+"tappa"
+]
+},
+"absolute": 2,
+"relative": 0.06778822970597499
+},
+{
+"value": {
+"word": [
+"riskerar",
+"gr\u00e4va"
+]
+},
+"absolute": 2,
+"relative": 0.06778822970597499
+},
+{
+"value": {
+"word": [
+"riskerar",
+"ge"
+]
+},
+"absolute": 2,
+"relative": 0.06778822970597499
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rbli"
+]
+},
+"absolute": 2,
+"relative": 0.06778822970597499
+},
+{
+"value": {
+"word": [
+"riskerar",
+"\u00e4ventyra"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"v\u00e4cka"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"resultera"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"mista"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"kantra"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"elda"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"br\u00e4nna"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"beh\u00f6va"
+]
+},
+"absolute": 1,
+"relative": 0.033894114852987496
+}
+],
+"sums": {
+"absolute": 49,
+"relative": 1.6608116277963871
+}
+},
+"WEBBNYHETER2006": {
+"rows": [
+{
+"value": {
+"word": [
+"riskerar",
+"leda"
+]
+},
+"absolute": 8,
+"relative": 0.3545503344473305
+},
+{
+"value": {
+"word": [
+"riskerar",
+"bli"
+]
+},
+"absolute": 5,
+"relative": 0.22159395902958154
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00e5"
+]
+},
+"absolute": 4,
+"relative": 0.17727516722366524
+},
+{
+"value": {
+"word": [
+"riskerar",
+"slita"
+]
+},
+"absolute": 3,
+"relative": 0.1329563754177489
+},
+{
+"value": {
+"word": [
+"riskerar",
+"missa"
+]
+},
+"absolute": 3,
+"relative": 0.1329563754177489
+},
+{
+"value": {
+"word": [
+"riskerar",
+"orsaka"
+]
+},
+"absolute": 2,
+"relative": 0.08863758361183262
+},
+{
+"value": {
+"word": [
+"riskerar",
+"ha"
+]
+},
+"absolute": 2,
+"relative": 0.08863758361183262
+},
+{
+"value": {
+"word": [
+"riskerar",
+"g\u00f6ra"
+]
+},
+"absolute": 2,
+"relative": 0.08863758361183262
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rv\u00e4rra"
+]
+},
+"absolute": 2,
+"relative": 0.08863758361183262
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 2,
+"relative": 0.08863758361183262
+},
+{
+"value": {
+"word": [
+"riskerar",
+"\u00e5terfalla"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"undergr\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"tappa"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"stanna"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"skjuta"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"skapa"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"p\u00e5verka"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"krama"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"komma"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"genomg\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"erodera"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"riskerar",
+"d\u00f6"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"bli"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+}
+],
+"sums": {
+"absolute": 47,
+"relative": 2.0829832148780665
+}
+},
+"WEBBNYHETER2007": {
+"rows": [
+{
+"value": {
+"word": [
+"riskerar",
+"bli"
+]
+},
+"absolute": 6,
+"relative": 0.24360097786304535
+},
+{
+"value": {
+"word": [
+"riskerar",
+"l\u00e4gga"
+]
+},
+"absolute": 3,
+"relative": 0.12180048893152268
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00e5"
+]
+},
+"absolute": 3,
+"relative": 0.12180048893152268
+},
+{
+"value": {
+"word": [
+"riskerar",
+"\u00f6ka"
+]
+},
+"absolute": 2,
+"relative": 0.08120032595434845
+},
+{
+"value": {
+"word": [
+"riskerar",
+"skr\u00e4mma"
+]
+},
+"absolute": 2,
+"relative": 0.08120032595434845
+},
+{
+"value": {
+"word": [
+"riskerar",
+"medf\u00f6ra"
+]
+},
+"absolute": 2,
+"relative": 0.08120032595434845
+},
+{
+"value": {
+"word": [
+"riskerar",
+"l\u00e4cka"
+]
+},
+"absolute": 2,
+"relative": 0.08120032595434845
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 2,
+"relative": 0.08120032595434845
+},
+{
+"value": {
+"word": [
+"riskerar",
+"tappa"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"riskerar",
+"st\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"riskerar",
+"st\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"riskerar",
+"rosta"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"riskerar",
+"missa"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"riskerar",
+"ha"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"riskerar",
+"gr\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"riskerar",
+"d\u00f6"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+}
+],
+"sums": {
+"absolute": 30,
+"relative": 1.2180048893152264
+}
+},
 "SVT-2021": {
 "rows": [
 {
@@ -12343,472 +12977,6 @@
 "relative": 7.018847007985828
 }
 },
-"WEBBNYHETER2005": {
-"rows": [
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00e5"
-]
-},
-"absolute": 7,
-"relative": 0.23725880397091248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"missa"
-]
-},
-"absolute": 6,
-"relative": 0.203364689117925
-},
-{
-"value": {
-"word": [
-"riskerar",
-"bli"
-]
-},
-"absolute": 6,
-"relative": 0.203364689117925
-},
-{
-"value": {
-"word": [
-"riskerar",
-"leda"
-]
-},
-"absolute": 4,
-"relative": 0.13557645941194998
-},
-{
-"value": {
-"word": [
-"riskerar",
-"s\u00e4nka"
-]
-},
-"absolute": 3,
-"relative": 0.1016823445589625
-},
-{
-"value": {
-"word": [
-"riskerar",
-"g\u00e5"
-]
-},
-"absolute": 3,
-"relative": 0.1016823445589625
-},
-{
-"value": {
-"word": [
-"riskerar",
-"tr\u00e4nga"
-]
-},
-"absolute": 2,
-"relative": 0.06778822970597499
-},
-{
-"value": {
-"word": [
-"riskerar",
-"tappa"
-]
-},
-"absolute": 2,
-"relative": 0.06778822970597499
-},
-{
-"value": {
-"word": [
-"riskerar",
-"gr\u00e4va"
-]
-},
-"absolute": 2,
-"relative": 0.06778822970597499
-},
-{
-"value": {
-"word": [
-"riskerar",
-"ge"
-]
-},
-"absolute": 2,
-"relative": 0.06778822970597499
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rbli"
-]
-},
-"absolute": 2,
-"relative": 0.06778822970597499
-},
-{
-"value": {
-"word": [
-"riskerar",
-"\u00e4ventyra"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"v\u00e4cka"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"resultera"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"mista"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"kantra"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"elda"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"br\u00e4nna"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"beh\u00f6va"
-]
-},
-"absolute": 1,
-"relative": 0.033894114852987496
-}
-],
-"sums": {
-"absolute": 49,
-"relative": 1.6608116277963871
-}
-},
-"WEBBNYHETER2006": {
-"rows": [
-{
-"value": {
-"word": [
-"riskerar",
-"leda"
-]
-},
-"absolute": 8,
-"relative": 0.3545503344473305
-},
-{
-"value": {
-"word": [
-"riskerar",
-"bli"
-]
-},
-"absolute": 5,
-"relative": 0.22159395902958154
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00e5"
-]
-},
-"absolute": 4,
-"relative": 0.17727516722366524
-},
-{
-"value": {
-"word": [
-"riskerar",
-"slita"
-]
-},
-"absolute": 3,
-"relative": 0.1329563754177489
-},
-{
-"value": {
-"word": [
-"riskerar",
-"missa"
-]
-},
-"absolute": 3,
-"relative": 0.1329563754177489
-},
-{
-"value": {
-"word": [
-"riskerar",
-"orsaka"
-]
-},
-"absolute": 2,
-"relative": 0.08863758361183262
-},
-{
-"value": {
-"word": [
-"riskerar",
-"ha"
-]
-},
-"absolute": 2,
-"relative": 0.08863758361183262
-},
-{
-"value": {
-"word": [
-"riskerar",
-"g\u00f6ra"
-]
-},
-"absolute": 2,
-"relative": 0.08863758361183262
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rv\u00e4rra"
-]
-},
-"absolute": 2,
-"relative": 0.08863758361183262
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 2,
-"relative": 0.08863758361183262
-},
-{
-"value": {
-"word": [
-"riskerar",
-"\u00e5terfalla"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"undergr\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"tappa"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"stanna"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"sl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"skjuta"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"skapa"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"p\u00e5verka"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"krama"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"komma"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"genomg\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"erodera"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"riskerar",
-"d\u00f6"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"bli"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-}
-],
-"sums": {
-"absolute": 47,
-"relative": 2.0829832148780665
-}
-},
 "WEBBNYHETER2008": {
 "rows": [
 {
@@ -13165,174 +13333,6 @@
 "sums": {
 "absolute": 77,
 "relative": 2.7937213398658503
-}
-},
-"WEBBNYHETER2007": {
-"rows": [
-{
-"value": {
-"word": [
-"riskerar",
-"bli"
-]
-},
-"absolute": 6,
-"relative": 0.24360097786304535
-},
-{
-"value": {
-"word": [
-"riskerar",
-"l\u00e4gga"
-]
-},
-"absolute": 3,
-"relative": 0.12180048893152268
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00e5"
-]
-},
-"absolute": 3,
-"relative": 0.12180048893152268
-},
-{
-"value": {
-"word": [
-"riskerar",
-"\u00f6ka"
-]
-},
-"absolute": 2,
-"relative": 0.08120032595434845
-},
-{
-"value": {
-"word": [
-"riskerar",
-"skr\u00e4mma"
-]
-},
-"absolute": 2,
-"relative": 0.08120032595434845
-},
-{
-"value": {
-"word": [
-"riskerar",
-"medf\u00f6ra"
-]
-},
-"absolute": 2,
-"relative": 0.08120032595434845
-},
-{
-"value": {
-"word": [
-"riskerar",
-"l\u00e4cka"
-]
-},
-"absolute": 2,
-"relative": 0.08120032595434845
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 2,
-"relative": 0.08120032595434845
-},
-{
-"value": {
-"word": [
-"riskerar",
-"tappa"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"riskerar",
-"st\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"riskerar",
-"st\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"riskerar",
-"rosta"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"riskerar",
-"missa"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"riskerar",
-"ha"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"riskerar",
-"gr\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"riskerar",
-"d\u00f6"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-}
-],
-"sums": {
-"absolute": 30,
-"relative": 1.2180048893152264
 }
 },
 "WEBBNYHETER2009": {
@@ -15573,6 +15573,66 @@
 "value": {
 "word": [
 "riskerar",
+"fastna"
+]
+},
+"absolute": 10,
+"relative": 0.01232635764456825
+},
+{
+"value": {
+"word": [
+"riskerar",
+"r\u00f6ta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"rasera"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"krascha"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"dra"
+]
+},
+"absolute": 12,
+"relative": 0.0147916291734819
+},
+{
+"value": {
+"word": [
+"riskerar",
+"ber\u00f6va"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
 "st\u00f6ra"
 ]
 },
@@ -15598,16 +15658,6 @@
 },
 "absolute": 5,
 "relative": 0.006163178822284125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"krascha"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
 },
 {
 "value": {
@@ -15654,176 +15704,6 @@
 "word": [
 "riskerar",
 "d\u00e4mpa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"fastna"
-]
-},
-"absolute": 10,
-"relative": 0.01232635764456825
-},
-{
-"value": {
-"word": [
-"riskerar",
-"r\u00f6ta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"rasera"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"dra"
-]
-},
-"absolute": 12,
-"relative": 0.0147916291734819
-},
-{
-"value": {
-"word": [
-"riskerar",
-"ber\u00f6va"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"torka"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"tillbringa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"st\u00e5"
-]
-},
-"absolute": 31,
-"relative": 0.038211708698161574
-},
-{
-"value": {
-"word": [
-"riskerar",
-"r\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"placera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"l\u00e4cka"
-]
-},
-"absolute": 11,
-"relative": 0.013558993409025076
-},
-{
-"value": {
-"word": [
-"riskerar",
-"kv\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"kraschlanda"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"gr\u00e4va"
-]
-},
-"absolute": 5,
-"relative": 0.006163178822284125
-},
-{
-"value": {
-"word": [
-"Riskerar",
-"f\u00f6rlora"
-]
-},
-"absolute": 17,
-"relative": 0.020954807995766024
-},
-{
-"value": {
-"word": [
-"riskerar",
-"f\u00f6rfalla"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"fisksn\u00e4rtskada"
 ]
 },
 "absolute": 1,
@@ -15978,6 +15858,126 @@
 },
 "absolute": 2,
 "relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"torka"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"tillbringa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"st\u00e5"
+]
+},
+"absolute": 31,
+"relative": 0.038211708698161574
+},
+{
+"value": {
+"word": [
+"riskerar",
+"r\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"placera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"l\u00e4cka"
+]
+},
+"absolute": 11,
+"relative": 0.013558993409025076
+},
+{
+"value": {
+"word": [
+"riskerar",
+"kv\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"kraschlanda"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"gr\u00e4va"
+]
+},
+"absolute": 5,
+"relative": 0.006163178822284125
+},
+{
+"value": {
+"word": [
+"Riskerar",
+"f\u00f6rlora"
+]
+},
+"absolute": 17,
+"relative": 0.020954807995766024
+},
+{
+"value": {
+"word": [
+"riskerar",
+"f\u00f6rfalla"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"fisksn\u00e4rtskada"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -16183,7 +16183,17 @@
 "value": {
 "word": [
 "riskerar",
-"tacka"
+"utpl\u00e5na"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"s\u00e5ra"
 ]
 },
 "absolute": 1,
@@ -16198,6 +16208,46 @@
 },
 "absolute": 15,
 "relative": 0.018489536466852374
+},
+{
+"value": {
+"word": [
+"riskerar",
+"Ria"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"medf\u00f6ra"
+]
+},
+"absolute": 7,
+"relative": 0.008628450351197773
+},
+{
+"value": {
+"word": [
+"riskerar",
+"krympa"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
+"tacka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -16244,56 +16294,6 @@
 "word": [
 "riskerar",
 "belasta"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"utpl\u00e5na"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"riskerar",
-"s\u00e5ra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"Ria"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"medf\u00f6ra"
-]
-},
-"absolute": 7,
-"relative": 0.008628450351197773
-},
-{
-"value": {
-"word": [
-"riskerar",
-"krympa"
 ]
 },
 "absolute": 2,
@@ -16773,6 +16773,26 @@
 "value": {
 "word": [
 "riskerar",
+"haverera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"blockera"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"riskerar",
 "undergr\u00e4va"
 ]
 },
@@ -16818,26 +16838,6 @@
 },
 "absolute": 5,
 "relative": 0.006163178822284125
-},
-{
-"value": {
-"word": [
-"riskerar",
-"haverera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"blockera"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
 },
 {
 "value": {
@@ -18152,6 +18152,86 @@
 {
 "value": {
 "word": [
+"riskerar",
+"v\u00e4cka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"resultera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"kantra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"elda"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"slita"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"riskerar",
+"krama"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"genomg\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"riskerar",
+"rosta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
 "Riskerar",
 "\u00f6verbelasta"
 ]
@@ -18303,76 +18383,6 @@
 "value": {
 "word": [
 "riskerar",
-"v\u00e4cka"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"resultera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"kantra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"elda"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"slita"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"riskerar",
-"krama"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"genomg\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
 "tvinga"
 ]
 },
@@ -18504,16 +18514,6 @@
 "word": [
 "riskerar",
 "f\u00f6rm\u00f6rka"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"riskerar",
-"rosta"
 ]
 },
 "absolute": 1,
@@ -18735,5 +18735,5 @@
 "relative": 3.5808068957470764
 }
 },
-"time": 0.8777039051055908
+"time": 0.8893582820892334
 }

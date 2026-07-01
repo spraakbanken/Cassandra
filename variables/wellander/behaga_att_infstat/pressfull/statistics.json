@@ -367,25 +367,6 @@
 "relative": 0.11285427071595314
 }
 },
-"SVT-2015": {
-"rows": [
-{
-"value": {
-"word": [
-"behagar",
-"att",
-"komma"
-]
-},
-"absolute": 1,
-"relative": 0.05208303494094565
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.05208303494094565
-}
-},
 "SVT-2020": {
 "rows": [
 {
@@ -403,6 +384,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.06250346503584292
+}
+},
+"SVT-2015": {
+"rows": [
+{
+"value": {
+"word": [
+"behagar",
+"att",
+"komma"
+]
+},
+"absolute": 1,
+"relative": 0.05208303494094565
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.05208303494094565
 }
 },
 "WEBBNYHETER2006": {
@@ -455,7 +455,7 @@
 "word": [
 "behagar",
 "att",
-"komma"
+"minska"
 ]
 },
 "absolute": 1,
@@ -466,7 +466,7 @@
 "word": [
 "behagar",
 "att",
-"minska"
+"komma"
 ]
 },
 "absolute": 1,
@@ -489,5 +489,5 @@
 "relative": 0.006163178822284125
 }
 },
-"time": 0.150374174118042
+"time": 0.07502365112304688
 }

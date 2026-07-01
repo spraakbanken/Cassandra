@@ -1,5 +1,3 @@
- 
- 
 {
 "corpora": {
 "SVT-2004": [
@@ -30,7 +28,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -45,7 +43,7 @@
 "absolute": 1,
 "relative": 2.236190961763371
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2005": [
@@ -76,7 +74,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -91,7 +89,7 @@
 "absolute": 2,
 "relative": 0.6059419883259217
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2006": [
@@ -122,7 +120,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -137,7 +135,7 @@
 "absolute": 2,
 "relative": 0.4793736312384786
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2007": [
@@ -168,7 +166,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -183,7 +181,7 @@
 "absolute": 1,
 "relative": 0.18071150456423046
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2008": [
@@ -214,7 +212,7 @@
 "absolute": 2,
 "relative": 0.25995734100034185
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -229,7 +227,7 @@
 "absolute": 1,
 "relative": 0.12997867050017092
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2009": [
@@ -260,7 +258,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -275,7 +273,7 @@
 "absolute": 8,
 "relative": 0.9028341657276251
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2010": [
@@ -306,7 +304,7 @@
 "absolute": 2,
 "relative": 0.20256586125129794
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -321,7 +319,7 @@
 "absolute": 14,
 "relative": 1.4179610287590856
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2011": [
@@ -352,7 +350,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -367,7 +365,7 @@
 "absolute": 8,
 "relative": 0.8577189992477805
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2012": [
@@ -398,7 +396,7 @@
 "absolute": 1,
 "relative": 0.10479340765631115
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -413,7 +411,7 @@
 "absolute": 4,
 "relative": 0.4191736306252446
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2013": [
@@ -444,7 +442,7 @@
 "absolute": 2,
 "relative": 0.14328860531755477
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -459,7 +457,7 @@
 "absolute": 9,
 "relative": 0.6447987239289965
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2014": [
@@ -490,7 +488,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -505,7 +503,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2015": [
@@ -536,7 +534,7 @@
 "absolute": 1,
 "relative": 0.05208303494094565
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -551,7 +549,7 @@
 "absolute": 7,
 "relative": 0.36458124458661956
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2016": [
@@ -582,7 +580,7 @@
 "absolute": 1,
 "relative": 0.046036469446585015
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -597,7 +595,7 @@
 "absolute": 7,
 "relative": 0.32225528612609505
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2017": [
@@ -628,7 +626,7 @@
 "absolute": 2,
 "relative": 0.09447676993371275
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -643,7 +641,7 @@
 "absolute": 10,
 "relative": 0.47238384966856367
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2018": [
@@ -674,7 +672,7 @@
 "absolute": 1,
 "relative": 0.0531995089046934
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -689,7 +687,7 @@
 "absolute": 8,
 "relative": 0.4255960712375472
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2019": [
@@ -720,7 +718,7 @@
 "absolute": 1,
 "relative": 0.05479012532912428
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -735,7 +733,7 @@
 "absolute": 10,
 "relative": 0.5479012532912428
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2020": [
@@ -766,7 +764,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -781,7 +779,7 @@
 "absolute": 6,
 "relative": 0.3750207902150575
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2021": [
@@ -812,7 +810,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -827,7 +825,7 @@
 "absolute": 7,
 "relative": 0.4679231338657229
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2022": [
@@ -858,7 +856,7 @@
 "absolute": 3,
 "relative": 0.2143405395337193
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -873,7 +871,7 @@
 "absolute": 6,
 "relative": 0.4286810790674386
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
 "SVT-2023": [
@@ -904,7 +902,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -919,7 +917,7 @@
 "absolute": 4,
 "relative": 0.5332265458304216
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ]
 },
@@ -1019,7 +1017,7 @@
 "absolute": 16,
 "relative": 0.06656777192050727
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'bilda' %c | word = 'respektera' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'att'] [word = 'forts\u00e4tta' %c | word = 'g\u00f6ra' %c | word = 'vara' %c | word = 'landa' %c | word = 'publicera' %c | word = 'respektera' %c | word = 'bilda' %c | word = '\u00f6verklaga' %c | word = '\u00e4ndra' %c | word = 'polisanm\u00e4la' %c | word = 'h\u00e4va' %c | word = 'hindra' %c | word = 'privatisera' %c | word = 'placera' %c | word = 'sk\u00e4ra' %c | word = 'utnyttja' %c | word = 'h\u00f6ja' %c]"
 },
 {
 "absolute": {
@@ -1072,8 +1070,8 @@
 "absolute": 115,
 "relative": 0.478455860678646
 },
-"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'l\u00e4mna' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'bygga' %c | word = 'f\u00f6lja' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
+"cqp": "[word = '\u00e4mnar' %c] [word = 'g\u00f6ra' %c | word = 'forts\u00e4tta' %c | word = 'ta' %c | word = 'g\u00e5' %c | word = 'h\u00e5lla' %c | word = 'f\u00f6rs\u00f6ka' %c | word = 'l\u00e4mna' %c | word = 'ge' %c | word = 'sitta' %c | word = 'genomf\u00f6ra' %c | word = 'st\u00e4lla' %c | word = 'f\u00f6ra' %c | word = 'l\u00e5ta' %c | word = 'l\u00e4gga' %c | word = 'dra' %c | word = 'skriva' %c | word = 'beh\u00e5lla' %c | word = 's\u00e4lja' %c | word = '\u00f6ppna' %c | word = 'r\u00f6sta' %c | word = 'stanna' %c | word = 'anv\u00e4nda' %c | word = 's\u00f6ka' %c | word = 'driva' %c | word = 'delta' %c | word = 'starta' %c | word = 'satsa' %c | word = 'avg\u00e5' %c | word = '\u00e5terv\u00e4nda' %c | word = 'stoppa' %c | word = 'f\u00f6lja' %c | word = 'bygga' %c | word = 's\u00e4tta' %c | word = 'flytta' %c | word = 'bli' %c | word = '\u00f6verklaga' %c | word = 'infria' %c | word = 'komma' %c | word = 'vidta' %c | word = 'diskutera' %c | word = 'n\u00e4rvara' %c | word = 'sl\u00e4ppa' %c | word = 'godta' %c | word = 'avst\u00e5' %c | word = 'protestera' %c | word = 'utnyttja' %c | word = 'erk\u00e4nna' %c | word = 'fullf\u00f6lja' %c]"
 }
 ],
-"time": 11.413116455078125
+"time": 0.2530252933502197
 }

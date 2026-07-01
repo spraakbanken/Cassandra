@@ -180,84 +180,150 @@
 "relative": 0.8615078961219048
 }
 },
-"DA": {
+"GP2003": {
 "rows": [
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"\u00f6ka"
+"skjuta"
 ]
 },
-"absolute": 1,
-"relative": 0.10835365506134008
+"absolute": 2,
+"relative": 0.10490943090148201
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"utvisa"
+"l\u00e4gga"
 ]
 },
-"absolute": 1,
-"relative": 0.10835365506134008
+"absolute": 2,
+"relative": 0.10490943090148201
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"uppmana"
+"l\u00e5ta"
 ]
 },
-"absolute": 1,
-"relative": 0.10835365506134008
+"absolute": 2,
+"relative": 0.10490943090148201
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"till\u00e5ta"
+"\u00f6verge"
 ]
 },
 "absolute": 1,
-"relative": 0.10835365506134008
+"relative": 0.052454715450741006
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"l\u00e4mna"
+"verkst\u00e4lla"
 ]
 },
 "absolute": 1,
-"relative": 0.10835365506134008
+"relative": 0.052454715450741006
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"g\u00f6ra"
+"tacka"
 ]
 },
 "absolute": 1,
-"relative": 0.10835365506134008
+"relative": 0.052454715450741006
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"g\u00e5"
+"s\u00e4nka"
 ]
 },
 "absolute": 1,
-"relative": 0.10835365506134008
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"stoppa"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"sp\u00e4rra"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"prioritera"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00e4kta"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"genomf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
 },
 {
 "value": {
@@ -268,23 +334,45 @@
 ]
 },
 "absolute": 1,
-"relative": 0.10835365506134008
+"relative": 0.052454715450741006
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"bevilja"
+"betrakta"
 ]
 },
 "absolute": 1,
-"relative": 0.10835365506134008
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avliva"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"anfalla"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
 }
 ],
 "sums": {
-"absolute": 9,
-"relative": 0.9751828955520607
+"absolute": 20,
+"relative": 1.04909430901482
 }
 },
 "GP2002": {
@@ -601,201 +689,6 @@
 "sums": {
 "absolute": 38,
 "relative": 1.8040016744933431
-}
-},
-"GP2003": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"skjuta"
-]
-},
-"absolute": 2,
-"relative": 0.10490943090148201
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e4gga"
-]
-},
-"absolute": 2,
-"relative": 0.10490943090148201
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e5ta"
-]
-},
-"absolute": 2,
-"relative": 0.10490943090148201
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00f6verge"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"verkst\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"tacka"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4nka"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"stoppa"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"sp\u00e4rra"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"prioritera"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00e4kta"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"genomf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ge"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"bygga"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"betrakta"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avliva"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"anfalla"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-}
-],
-"sums": {
-"absolute": 20,
-"relative": 1.04909430901482
 }
 },
 "GP2004": {
@@ -1732,19 +1625,8 @@
 "relative": 1.0749947513381268
 }
 },
-"GP2008": {
+"DA": {
 "rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e4gga"
-]
-},
-"absolute": 2,
-"relative": 0.11776975412442928
-},
 {
 "value": {
 "word": [
@@ -1754,100 +1636,207 @@
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"v\u00e4nda"
+"utvisa"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"tysta"
+"uppmana"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"ta"
+"till\u00e5ta"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"st\u00e4nga"
+"l\u00e4mna"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"stoppa"
+"g\u00f6ra"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"l\u00e5ta"
+"g\u00e5"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"granska"
+"bygga"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"angripa"
+"bevilja"
 ]
 },
 "absolute": 1,
-"relative": 0.05888487706221464
+"relative": 0.10835365506134008
 }
 ],
 "sums": {
-"absolute": 11,
-"relative": 0.647733647684361
+"absolute": 9,
+"relative": 0.9751828955520607
+}
+},
+"GP2009": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"skjuta"
+]
+},
+"absolute": 2,
+"relative": 0.11524024595034252
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4lja"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"skicka"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"organisera"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00f6ja"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"fr\u00e5ng\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"betala"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avbryta"
+]
+},
+"absolute": 1,
+"relative": 0.05762012297517126
+}
+],
+"sums": {
+"absolute": 10,
+"relative": 0.5762012297517126
 }
 },
 "GP2010": {
@@ -2010,113 +1999,6 @@
 "sums": {
 "absolute": 21,
 "relative": 1.2201452960638983
-}
-},
-"GP2009": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"skjuta"
-]
-},
-"absolute": 2,
-"relative": 0.11524024595034252
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4lja"
-]
-},
-"absolute": 1,
-"relative": 0.05762012297517126
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"skicka"
-]
-},
-"absolute": 1,
-"relative": 0.05762012297517126
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"organisera"
-]
-},
-"absolute": 1,
-"relative": 0.05762012297517126
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00f6ja"
-]
-},
-"absolute": 1,
-"relative": 0.05762012297517126
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.05762012297517126
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"fr\u00e5ng\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.05762012297517126
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"betala"
-]
-},
-"absolute": 1,
-"relative": 0.05762012297517126
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avbryta"
-]
-},
-"absolute": 1,
-"relative": 0.05762012297517126
-}
-],
-"sums": {
-"absolute": 10,
-"relative": 0.5762012297517126
 }
 },
 "GP2011": {
@@ -2323,6 +2205,124 @@
 "sums": {
 "absolute": 38,
 "relative": 1.905870940137546
+}
+},
+"GP2008": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"l\u00e4gga"
+]
+},
+"absolute": 2,
+"relative": 0.11776975412442928
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"v\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"tysta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"st\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"stoppa"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"l\u00e5ta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"granska"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"angripa"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+}
+],
+"sums": {
+"absolute": 11,
+"relative": 0.647733647684361
 }
 },
 "GP2012": {
@@ -2750,124 +2750,6 @@
 "relative": 0.15346767893947696
 }
 },
-"PRESS98": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"g\u00e5"
-]
-},
-"absolute": 2,
-"relative": 0.18620501973354248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"undanr\u00f6ja"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00f6ka"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ge"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rorda"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rl\u00e4gga"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ers\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"b\u00e4rga"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"begr\u00e4nsa"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avbryta"
-]
-},
-"absolute": 1,
-"relative": 0.09310250986677124
-}
-],
-"sums": {
-"absolute": 11,
-"relative": 1.0241276085344837
-}
-},
 "PRESS97": {
 "rows": [
 {
@@ -2986,6 +2868,124 @@
 "relative": 0.9486780499762139
 }
 },
+"PRESS98": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"g\u00e5"
+]
+},
+"absolute": 2,
+"relative": 0.18620501973354248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"undanr\u00f6ja"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ge"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rorda"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rl\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ers\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"b\u00e4rga"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"begr\u00e4nsa"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avbryta"
+]
+},
+"absolute": 1,
+"relative": 0.09310250986677124
+}
+],
+"sums": {
+"absolute": 11,
+"relative": 1.0241276085344837
+}
+},
 "SVT-2004": {
 "rows": [
 {
@@ -3044,6 +3044,36 @@
 "sums": {
 "absolute": 3,
 "relative": 0.9089129824888826
+}
+},
+"SVT-2006": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ta"
+]
+},
+"absolute": 2,
+"relative": 0.4793736312384786
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"samarbeta"
+]
+},
+"absolute": 1,
+"relative": 0.2396868156192393
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.7190604468577179
 }
 },
 "SVT-2007": {
@@ -3107,36 +3137,6 @@
 "sums": {
 "absolute": 5,
 "relative": 0.9035575228211523
-}
-},
-"SVT-2006": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ta"
-]
-},
-"absolute": 2,
-"relative": 0.4793736312384786
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"samarbeta"
-]
-},
-"absolute": 1,
-"relative": 0.2396868156192393
-}
-],
-"sums": {
-"absolute": 3,
-"relative": 0.7190604468577179
 }
 },
 "SVT-2008": {
@@ -3342,113 +3342,6 @@
 "relative": 1.1285427071595313
 }
 },
-"SVT-2011": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00f6ja"
-]
-},
-"absolute": 2,
-"relative": 0.21442974981194513
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"flytta"
-]
-},
-"absolute": 2,
-"relative": 0.21442974981194513
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avbryta"
-]
-},
-"absolute": 2,
-"relative": 0.21442974981194513
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00f6ppna"
-]
-},
-"absolute": 1,
-"relative": 0.10721487490597256
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.10721487490597256
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"skicka"
-]
-},
-"absolute": 1,
-"relative": 0.10721487490597256
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.10721487490597256
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"granska"
-]
-},
-"absolute": 1,
-"relative": 0.10721487490597256
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.10721487490597256
-}
-],
-"sums": {
-"absolute": 12,
-"relative": 1.2865784988716706
-}
-},
 "SVT-2010": {
 "rows": [
 {
@@ -3565,6 +3458,113 @@
 "sums": {
 "absolute": 10,
 "relative": 1.0128293062564897
+}
+},
+"SVT-2011": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00f6ja"
+]
+},
+"absolute": 2,
+"relative": 0.21442974981194513
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"flytta"
+]
+},
+"absolute": 2,
+"relative": 0.21442974981194513
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avbryta"
+]
+},
+"absolute": 2,
+"relative": 0.21442974981194513
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00f6ppna"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"skicka"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"granska"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.10721487490597256
+}
+],
+"sums": {
+"absolute": 12,
+"relative": 1.2865784988716706
 }
 },
 "SVT-2012": {
@@ -4171,6 +4171,322 @@
 "relative": 1.2499928385826955
 }
 },
+"SVT-2016": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"genomf\u00f6ra"
+]
+},
+"absolute": 3,
+"relative": 0.13810940833975505
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"upph\u00e4va"
+]
+},
+"absolute": 2,
+"relative": 0.09207293889317003
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ta"
+]
+},
+"absolute": 2,
+"relative": 0.09207293889317003
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"st\u00e4nga"
+]
+},
+"absolute": 2,
+"relative": 0.09207293889317003
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ogilla"
+]
+},
+"absolute": 2,
+"relative": 0.09207293889317003
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"l\u00e4gga"
+]
+},
+"absolute": 2,
+"relative": 0.09207293889317003
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ge"
+]
+},
+"absolute": 2,
+"relative": 0.09207293889317003
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00f6ppna"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00e5ka"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"utreda"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"utf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4nka"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4ga"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"st\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"stoppa"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"slopa"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"l\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"l\u00e5ta"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"kr\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00e4kta"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rs\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rl\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"forts\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"flytta"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"d\u00f6ma"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avvisa"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avbryta"
+]
+},
+"absolute": 1,
+"relative": 0.046036469446585015
+}
+],
+"sums": {
+"absolute": 36,
+"relative": 1.657312900077062
+}
+},
 "SVT-2017": {
 "rows": [
 {
@@ -4520,62 +4836,18 @@
 "relative": 1.7478202437736847
 }
 },
-"SVT-2016": {
+"SVT-2018": {
 "rows": [
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"genomf\u00f6ra"
+"\u00e5terkalla"
 ]
 },
 "absolute": 3,
-"relative": 0.13810940833975505
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"upph\u00e4va"
-]
-},
-"absolute": 2,
-"relative": 0.09207293889317003
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ta"
-]
-},
-"absolute": 2,
-"relative": 0.09207293889317003
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"st\u00e4nga"
-]
-},
-"absolute": 2,
-"relative": 0.09207293889317003
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ogilla"
-]
-},
-"absolute": 2,
-"relative": 0.09207293889317003
+"relative": 0.1595985267140802
 },
 {
 "value": {
@@ -4585,8 +4857,63 @@
 "l\u00e4gga"
 ]
 },
+"absolute": 3,
+"relative": 0.1595985267140802
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"g\u00f6ra"
+]
+},
 "absolute": 2,
-"relative": 0.09207293889317003
+"relative": 0.1063990178093868
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"bygga"
+]
+},
+"absolute": 2,
+"relative": 0.1063990178093868
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00e5beropa"
+]
+},
+"absolute": 1,
+"relative": 0.0531995089046934
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"upph\u00e4va"
+]
+},
+"absolute": 1,
+"relative": 0.0531995089046934
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4lja"
+]
+},
+"absolute": 1,
+"relative": 0.0531995089046934
 },
 {
 "value": {
@@ -4596,244 +4923,46 @@
 "ge"
 ]
 },
-"absolute": 2,
-"relative": 0.09207293889317003
+"absolute": 1,
+"relative": 0.0531995089046934
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"\u00f6ppna"
+"fastst\u00e4lla"
 ]
 },
 "absolute": 1,
-"relative": 0.046036469446585015
+"relative": 0.0531995089046934
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"\u00e5ka"
+"bryta"
 ]
 },
 "absolute": 1,
-"relative": 0.046036469446585015
+"relative": 0.0531995089046934
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"utreda"
+"bidra"
 ]
 },
 "absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"utf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4nka"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4ga"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"st\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"stoppa"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"slopa"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e4mna"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e5ta"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"kr\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00e4kta"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rs\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rl\u00e4nga"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"forts\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"flytta"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"d\u00f6ma"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avvisa"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avbryta"
-]
-},
-"absolute": 1,
-"relative": 0.046036469446585015
+"relative": 0.0531995089046934
 }
 ],
 "sums": {
-"absolute": 36,
-"relative": 1.657312900077062
+"absolute": 17,
+"relative": 0.9043916513797877
 }
 },
 "SVT-2019": {
@@ -5064,135 +5193,6 @@
 "relative": 1.643703759873729
 }
 },
-"SVT-2018": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00e5terkalla"
-]
-},
-"absolute": 3,
-"relative": 0.1595985267140802
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e4gga"
-]
-},
-"absolute": 3,
-"relative": 0.1595985267140802
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"g\u00f6ra"
-]
-},
-"absolute": 2,
-"relative": 0.1063990178093868
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"bygga"
-]
-},
-"absolute": 2,
-"relative": 0.1063990178093868
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00e5beropa"
-]
-},
-"absolute": 1,
-"relative": 0.0531995089046934
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"upph\u00e4va"
-]
-},
-"absolute": 1,
-"relative": 0.0531995089046934
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4lja"
-]
-},
-"absolute": 1,
-"relative": 0.0531995089046934
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ge"
-]
-},
-"absolute": 1,
-"relative": 0.0531995089046934
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"fastst\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.0531995089046934
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"bryta"
-]
-},
-"absolute": 1,
-"relative": 0.0531995089046934
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"bidra"
-]
-},
-"absolute": 1,
-"relative": 0.0531995089046934
-}
-],
-"sums": {
-"absolute": 17,
-"relative": 0.9043916513797877
-}
-},
 "SVT-2020": {
 "rows": [
 {
@@ -5375,146 +5375,6 @@
 "sums": {
 "absolute": 25,
 "relative": 1.562586625896073
-}
-},
-"SVT-2022": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"st\u00e4lla"
-]
-},
-"absolute": 2,
-"relative": 0.14307171977858507
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"hindra"
-]
-},
-"absolute": 2,
-"relative": 0.14307171977858507
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"g\u00e5"
-]
-},
-"absolute": 2,
-"relative": 0.14307171977858507
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ge"
-]
-},
-"absolute": 2,
-"relative": 0.14307171977858507
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00e5terkalla"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4ga"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"st\u00e4nga"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"samlokalisera"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"k\u00f6pa"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"bygga"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avskriva"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avbryta"
-]
-},
-"absolute": 1,
-"relative": 0.07153585988929254
-}
-],
-"sums": {
-"absolute": 16,
-"relative": 1.1445737582286808
 }
 },
 "SVT-2021": {
@@ -5701,6 +5561,146 @@
 "relative": 1.136384753673899
 }
 },
+"SVT-2022": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"st\u00e4lla"
+]
+},
+"absolute": 2,
+"relative": 0.14307171977858507
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"hindra"
+]
+},
+"absolute": 2,
+"relative": 0.14307171977858507
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"g\u00e5"
+]
+},
+"absolute": 2,
+"relative": 0.14307171977858507
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ge"
+]
+},
+"absolute": 2,
+"relative": 0.14307171977858507
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00e5terkalla"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4ga"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"st\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"samlokalisera"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"k\u00f6pa"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"bygga"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avskriva"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avbryta"
+]
+},
+"absolute": 1,
+"relative": 0.07153585988929254
+}
+],
+"sums": {
+"absolute": 16,
+"relative": 1.1445737582286808
+}
+},
 "SVT-2023": {
 "rows": [
 {
@@ -5817,146 +5817,6 @@
 "sums": {
 "absolute": 10,
 "relative": 1.334341205724057
-}
-},
-"WEBBNYHETER2003": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00f6verge"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"v\u00e4nda"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"vara"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"splittra"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"sl\u00e4ppa"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"sl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ordna"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"fullf\u00f6lja"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"bevilja"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"betala"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"anv\u00e4nda"
-]
-},
-"absolute": 1,
-"relative": 0.08185122590218058
-}
-],
-"sums": {
-"absolute": 12,
-"relative": 0.9822147108261672
 }
 },
 "WEBBNYHETER2002": {
@@ -6196,6 +6056,308 @@
 "sums": {
 "absolute": 26,
 "relative": 1.4920086010852758
+}
+},
+"WEBBNYHETER2003": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00f6verge"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"v\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"splittra"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"sl\u00e4ppa"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"sl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ordna"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"fullf\u00f6lja"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"bevilja"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"betala"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"anv\u00e4nda"
+]
+},
+"absolute": 1,
+"relative": 0.08185122590218058
+}
+],
+"sums": {
+"absolute": 12,
+"relative": 0.9822147108261672
+}
+},
+"WEBBNYHETER2004": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"rena"
+]
+},
+"absolute": 3,
+"relative": 0.217291743790146
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"reducera"
+]
+},
+"absolute": 3,
+"relative": 0.217291743790146
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"visitera"
+]
+},
+"absolute": 2,
+"relative": 0.144861162526764
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4nka"
+]
+},
+"absolute": 2,
+"relative": 0.144861162526764
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"stifta"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"starta"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"placera"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"l\u00e4mna"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"g\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"genomf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rl\u00e4gga"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"flytta"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"beh\u00e5lla"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avbryta"
+]
+},
+"absolute": 1,
+"relative": 0.072430581263382
+}
+],
+"sums": {
+"absolute": 20,
+"relative": 1.4486116252676404
 }
 },
 "WEBBNYHETER2005": {
@@ -6492,168 +6654,6 @@
 "relative": 1.2540822495605373
 }
 },
-"WEBBNYHETER2004": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"rena"
-]
-},
-"absolute": 3,
-"relative": 0.217291743790146
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"reducera"
-]
-},
-"absolute": 3,
-"relative": 0.217291743790146
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"visitera"
-]
-},
-"absolute": 2,
-"relative": 0.144861162526764
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4nka"
-]
-},
-"absolute": 2,
-"relative": 0.144861162526764
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"stifta"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"starta"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"placera"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e4mna"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"g\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"genomf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rl\u00e4gga"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"flytta"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"beh\u00e5lla"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avbryta"
-]
-},
-"absolute": 1,
-"relative": 0.072430581263382
-}
-],
-"sums": {
-"absolute": 20,
-"relative": 1.4486116252676404
-}
-},
 "WEBBNYHETER2006": {
 "rows": [
 {
@@ -6860,6 +6860,201 @@
 "relative": 0.8863758361183265
 }
 },
+"WEBBNYHETER2007": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"utlysa"
+]
+},
+"absolute": 2,
+"relative": 0.08120032595434845
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"v\u00e4cka"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"tidsbest\u00e4mma"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"st\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"skydda"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"skrota"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"samla"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ogiltigf\u00f6rklara"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"k\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"granska"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rl\u00e4nga"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rlova"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6lja"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avvisa"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avsl\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.040600162977174226
+}
+],
+"sums": {
+"absolute": 18,
+"relative": 0.7308029335891357
+}
+},
 "WEBBNYHETER2008": {
 "rows": [
 {
@@ -7064,201 +7259,6 @@
 "sums": {
 "absolute": 26,
 "relative": 0.9433344783962617
-}
-},
-"WEBBNYHETER2007": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"utlysa"
-]
-},
-"absolute": 2,
-"relative": 0.08120032595434845
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"v\u00e4cka"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"tidsbest\u00e4mma"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"st\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"skydda"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"skrota"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"samla"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ogiltigf\u00f6rklara"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"k\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"granska"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rl\u00e4nga"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rlova"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6lja"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avvisa"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avsl\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.040600162977174226
-}
-],
-"sums": {
-"absolute": 18,
-"relative": 0.7308029335891357
 }
 },
 "WEBBNYHETER2009": {
@@ -7978,168 +7978,6 @@
 "relative": 1.0278430109130656
 }
 },
-"WEBBNYHETER2013": {
-"rows": [
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"b\u00f6rja"
-]
-},
-"absolute": 9,
-"relative": 0.3973748885032292
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ta"
-]
-},
-"absolute": 2,
-"relative": 0.08830553077849539
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4nka"
-]
-},
-"absolute": 2,
-"relative": 0.08830553077849539
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e4gga"
-]
-},
-"absolute": 2,
-"relative": 0.08830553077849539
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00f6ja"
-]
-},
-"absolute": 2,
-"relative": 0.08830553077849539
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"emittera"
-]
-},
-"absolute": 2,
-"relative": 0.08830553077849539
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00f6ka"
-]
-},
-"absolute": 1,
-"relative": 0.04415276538924769
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"utreda"
-]
-},
-"absolute": 1,
-"relative": 0.04415276538924769
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"uppmana"
-]
-},
-"absolute": 1,
-"relative": 0.04415276538924769
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"inf\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.04415276538924769
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"grunda"
-]
-},
-"absolute": 1,
-"relative": 0.04415276538924769
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.04415276538924769
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"beslagta"
-]
-},
-"absolute": 1,
-"relative": 0.04415276538924769
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avbryta"
-]
-},
-"absolute": 1,
-"relative": 0.04415276538924769
-}
-],
-"sums": {
-"absolute": 27,
-"relative": 1.1921246655096878
-}
-},
 "WEBBNYHETER2012": {
 "rows": [
 {
@@ -8367,6 +8205,168 @@
 "absolute": 22,
 "relative": 0.8753765760608142
 }
+},
+"WEBBNYHETER2013": {
+"rows": [
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"b\u00f6rja"
+]
+},
+"absolute": 9,
+"relative": 0.3973748885032292
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ta"
+]
+},
+"absolute": 2,
+"relative": 0.08830553077849539
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4nka"
+]
+},
+"absolute": 2,
+"relative": 0.08830553077849539
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"l\u00e4gga"
+]
+},
+"absolute": 2,
+"relative": 0.08830553077849539
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00f6ja"
+]
+},
+"absolute": 2,
+"relative": 0.08830553077849539
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"emittera"
+]
+},
+"absolute": 2,
+"relative": 0.08830553077849539
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"utreda"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"uppmana"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"inf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"grunda"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"beslagta"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avbryta"
+]
+},
+"absolute": 1,
+"relative": 0.04415276538924769
+}
+],
+"sums": {
+"absolute": 27,
+"relative": 1.1921246655096878
+}
 }
 },
 "count": 252,
@@ -8542,51 +8542,29 @@
 "word": [
 "beslutar",
 "att",
-"\u00f6ka"
+"skjuta"
 ]
 },
-"absolute": 5,
-"relative": 0.006163178822284125
+"absolute": 16,
+"relative": 0.019722172231309197
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"utvisa"
+"l\u00e4gga"
 ]
 },
-"absolute": 2,
-"relative": 0.0024652715289136496
+"absolute": 46,
+"relative": 0.05670124516501395
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"uppmana"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"till\u00e5ta"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e4mna"
+"l\u00e5ta"
 ]
 },
 "absolute": 8,
@@ -8597,22 +8575,110 @@
 "word": [
 "beslutar",
 "att",
-"g\u00f6ra"
+"\u00f6verge"
 ]
 },
-"absolute": 18,
-"relative": 0.022187443760222848
+"absolute": 5,
+"relative": 0.006163178822284125
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"g\u00e5"
+"verkst\u00e4lla"
 ]
 },
-"absolute": 20,
-"relative": 0.0246527152891365
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"tacka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"s\u00e4nka"
+]
+},
+"absolute": 12,
+"relative": 0.0147916291734819
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"stoppa"
+]
+},
+"absolute": 10,
+"relative": 0.01232635764456825
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"sp\u00e4rra"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"prioritera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00e4kta"
+]
+},
+"absolute": 11,
+"relative": 0.013558993409025076
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"genomf\u00f6ra"
+]
+},
+"absolute": 14,
+"relative": 0.017256900702395547
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ge"
+]
+},
+"absolute": 36,
+"relative": 0.044374887520445695
 },
 {
 "value": {
@@ -8630,22 +8696,33 @@
 "word": [
 "beslutar",
 "att",
-"bevilja"
+"betrakta"
 ]
 },
-"absolute": 3,
-"relative": 0.003697907293370475
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"l\u00e4gga"
+"avliva"
 ]
 },
-"absolute": 46,
-"relative": 0.05670124516501395
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"anfalla"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -8685,33 +8762,11 @@
 "word": [
 "beslutar",
 "att",
-"ge"
-]
-},
-"absolute": 36,
-"relative": 0.044374887520445695
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
 "flytta"
 ]
 },
 "absolute": 11,
 "relative": 0.013558993409025076
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00f6verge"
-]
-},
-"absolute": 5,
-"relative": 0.006163178822284125
 },
 {
 "value": {
@@ -8756,17 +8811,6 @@
 },
 "absolute": 2,
 "relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"stoppa"
-]
-},
-"absolute": 10,
-"relative": 0.01232635764456825
 },
 {
 "value": {
@@ -8839,17 +8883,6 @@
 "word": [
 "beslutar",
 "att",
-"genomf\u00f6ra"
-]
-},
-"absolute": 14,
-"relative": 0.017256900702395547
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
 "forts\u00e4tta"
 ]
 },
@@ -8905,127 +8938,6 @@
 "word": [
 "beslutar",
 "att",
-"skjuta"
-]
-},
-"absolute": 16,
-"relative": 0.019722172231309197
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"l\u00e5ta"
-]
-},
-"absolute": 8,
-"relative": 0.009861086115654599
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"verkst\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"tacka"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"s\u00e4nka"
-]
-},
-"absolute": 12,
-"relative": 0.0147916291734819
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"sp\u00e4rra"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"prioritera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00e4kta"
-]
-},
-"absolute": 11,
-"relative": 0.013558993409025076
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"betrakta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avliva"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"anfalla"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
 "avbryta"
 ]
 },
@@ -9053,6 +8965,17 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"till\u00e5ta"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
 },
 {
 "value": {
@@ -9097,6 +9020,17 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"l\u00e4mna"
+]
+},
+"absolute": 8,
+"relative": 0.009861086115654599
 },
 {
 "value": {
@@ -9284,6 +9218,17 @@
 },
 "absolute": 2,
 "relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"g\u00e5"
+]
+},
+"absolute": 20,
+"relative": 0.0246527152891365
 },
 {
 "value": {
@@ -9587,66 +9532,55 @@
 "word": [
 "beslutar",
 "att",
-"v\u00e4nda"
+"\u00f6ka"
 ]
 },
-"absolute": 3,
-"relative": 0.003697907293370475
+"absolute": 5,
+"relative": 0.006163178822284125
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"tysta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"angripa"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"beg\u00e5"
-]
-},
-"absolute": 6,
-"relative": 0.00739581458674095
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"utf\u00f6ra"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"tilldela"
+"utvisa"
 ]
 },
 "absolute": 2,
 "relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"uppmana"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"g\u00f6ra"
+]
+},
+"absolute": 18,
+"relative": 0.022187443760222848
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"bevilja"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
 },
 {
 "value": {
@@ -9658,39 +9592,6 @@
 },
 "absolute": 7,
 "relative": 0.008628450351197773
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"h\u00e4mta"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rs\u00f6ka"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"beh\u00e5lla"
-]
-},
-"absolute": 6,
-"relative": 0.00739581458674095
 },
 {
 "value": {
@@ -9730,6 +9631,72 @@
 "word": [
 "beslutar",
 "att",
+"beg\u00e5"
+]
+},
+"absolute": 6,
+"relative": 0.00739581458674095
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"utf\u00f6ra"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"tilldela"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"h\u00e4mta"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rs\u00f6ka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"beh\u00e5lla"
+]
+},
+"absolute": 6,
+"relative": 0.00739581458674095
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
 "\u00f6verklaga"
 ]
 },
@@ -9753,6 +9720,39 @@
 "beslutar",
 "att",
 "bitr\u00e4da"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"v\u00e4nda"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"tysta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"angripa"
 ]
 },
 "absolute": 1,
@@ -9917,39 +9917,6 @@
 "word": [
 "beslutar",
 "att",
-"undanr\u00f6ja"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ers\u00e4tta"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"b\u00e4rga"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
 "\u00f6verl\u00e4mna"
 ]
 },
@@ -9984,6 +9951,39 @@
 "beslutar",
 "att",
 "driva"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"undanr\u00f6ja"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ers\u00e4tta"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"b\u00e4rga"
 ]
 },
 "absolute": 1,
@@ -10093,22 +10093,22 @@
 "word": [
 "beslutar",
 "att",
-"h\u00e4va"
+"pr\u00f6va"
 ]
 },
-"absolute": 8,
-"relative": 0.009861086115654599
+"absolute": 5,
+"relative": 0.006163178822284125
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"pr\u00f6va"
+"h\u00e4va"
 ]
 },
-"absolute": 5,
-"relative": 0.006163178822284125
+"absolute": 8,
+"relative": 0.009861086115654599
 },
 {
 "value": {
@@ -10313,11 +10313,55 @@
 "word": [
 "beslutar",
 "att",
+"ogilla"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
 "kr\u00e4va"
 ]
 },
 "absolute": 5,
 "relative": 0.006163178822284125
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"f\u00f6rs\u00e4tta"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"d\u00f6ma"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avvisa"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
 },
 {
 "value": {
@@ -10456,51 +10500,7 @@
 "word": [
 "beslutar",
 "att",
-"ogilla"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"f\u00f6rs\u00e4tta"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"d\u00f6ma"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"avvisa"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"notera"
+"\u00e5beropa"
 ]
 },
 "absolute": 1,
@@ -10511,7 +10511,7 @@
 "word": [
 "beslutar",
 "att",
-"\u00e5beropa"
+"notera"
 ]
 },
 "absolute": 1,
@@ -10555,28 +10555,6 @@
 "word": [
 "beslutar",
 "att",
-"hindra"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"samlokalisera"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
 "rekommendera"
 ]
 },
@@ -10599,40 +10577,18 @@
 "word": [
 "beslutar",
 "att",
-"vara"
+"hindra"
 ]
 },
-"absolute": 1,
-"relative": 0.0012326357644568248
+"absolute": 2,
+"relative": 0.0024652715289136496
 },
 {
 "value": {
 "word": [
 "beslutar",
 "att",
-"splittra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"ordna"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"fullf\u00f6lja"
+"samlokalisera"
 ]
 },
 "absolute": 1,
@@ -10731,18 +10687,7 @@
 "word": [
 "beslutar",
 "att",
-"avveckla"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"springa"
+"vara"
 ]
 },
 "absolute": 1,
@@ -10753,11 +10698,33 @@
 "word": [
 "beslutar",
 "att",
-"bli"
+"splittra"
 ]
 },
-"absolute": 2,
-"relative": 0.0024652715289136496
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"ordna"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"fullf\u00f6lja"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
@@ -10791,6 +10758,39 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"avveckla"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"springa"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"bli"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
 },
 {
 "value": {
@@ -10863,50 +10863,6 @@
 "word": [
 "beslutar",
 "att",
-"anta"
-]
-},
-"absolute": 2,
-"relative": 0.0024652715289136496
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"\u00e5tala"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"sparka"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"Beslutar",
-"att",
-"avst\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
 "tidsbest\u00e4mma"
 ]
 },
@@ -10941,6 +10897,50 @@
 "beslutar",
 "att",
 "f\u00f6rlova"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"anta"
+]
+},
+"absolute": 2,
+"relative": 0.0024652715289136496
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"\u00e5tala"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"sparka"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"Beslutar",
+"att",
+"avst\u00e5"
 ]
 },
 "absolute": 1,
@@ -11072,28 +11072,6 @@
 "word": [
 "beslutar",
 "att",
-"grunda"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
-"beslagta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"beslutar",
-"att",
 "f\u00f6rvisa"
 ]
 },
@@ -11143,6 +11121,28 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"grunda"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"beslutar",
+"att",
+"beslagta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
 }
 ],
 "sums": {
@@ -11150,5 +11150,5 @@
 "relative": 1.1155353668334265
 }
 },
-"time": 0.17733097076416016
+"time": 0.10742449760437012
 }

@@ -353,25 +353,6 @@
 "relative": 0.04318933734729276
 }
 },
-"SVT-2007": {
-"rows": [
-{
-"value": {
-"word": [
-"brukar",
-"att",
-"vara"
-]
-},
-"absolute": 1,
-"relative": 0.18071150456423046
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.18071150456423046
-}
-},
 "SVT-2018": {
 "rows": [
 {
@@ -400,6 +381,25 @@
 "sums": {
 "absolute": 2,
 "relative": 0.1063990178093868
+}
+},
+"SVT-2007": {
+"rows": [
+{
+"value": {
+"word": [
+"brukar",
+"att",
+"vara"
+]
+},
+"absolute": 1,
+"relative": 0.18071150456423046
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.18071150456423046
 }
 },
 "SVT-2019": {
@@ -490,22 +490,22 @@
 "word": [
 "brukar",
 "att",
-"vara"
+"gilla"
 ]
 },
-"absolute": 3,
-"relative": 0.003697907293370475
+"absolute": 1,
+"relative": 0.0012326357644568248
 },
 {
 "value": {
 "word": [
 "brukar",
 "att",
-"gilla"
+"vara"
 ]
 },
-"absolute": 1,
-"relative": 0.0012326357644568248
+"absolute": 3,
+"relative": 0.003697907293370475
 }
 ],
 "sums": {
@@ -513,5 +513,5 @@
 "relative": 0.011093721880111424
 }
 },
-"time": 0.07196784019470215
+"time": 0.05105900764465332
 }

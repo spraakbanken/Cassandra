@@ -193,25 +193,6 @@
 "relative": 0.10835365506134008
 }
 },
-"GP2003": {
-"rows": [
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"k\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.052454715450741006
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.052454715450741006
-}
-},
 "GP2002": {
 "rows": [
 {
@@ -251,6 +232,25 @@
 "sums": {
 "absolute": 3,
 "relative": 0.14242118482842187
+}
+},
+"GP2003": {
+"rows": [
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"k\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.052454715450741006
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.052454715450741006
 }
 },
 "GP2005": {
@@ -313,6 +313,36 @@
 "relative": 0.08900973245766151
 }
 },
+"GP2008": {
+"rows": [
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"s\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+},
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"agera"
+]
+},
+"absolute": 1,
+"relative": 0.05888487706221464
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.11776975412442928
+}
+},
 "GP2007": {
 "rows": [
 {
@@ -352,36 +382,6 @@
 "sums": {
 "absolute": 5,
 "relative": 0.26874868783453165
-}
-},
-"GP2008": {
-"rows": [
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"s\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-},
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"agera"
-]
-},
-"absolute": 1,
-"relative": 0.05888487706221464
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.11776975412442928
 }
 },
 "GP2011": {
@@ -433,6 +433,25 @@
 "relative": 0.05826813468959021
 }
 },
+"PRESS95": {
+"rows": [
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"forts\u00e4tta"
+]
+},
+"absolute": 2,
+"relative": 0.2606984110431847
+}
+],
+"sums": {
+"absolute": 2,
+"relative": 0.2606984110431847
+}
+},
 "PRESS97": {
 "rows": [
 {
@@ -461,25 +480,6 @@
 "sums": {
 "absolute": 2,
 "relative": 0.1459504692271098
-}
-},
-"PRESS95": {
-"rows": [
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"forts\u00e4tta"
-]
-},
-"absolute": 2,
-"relative": 0.2606984110431847
-}
-],
-"sums": {
-"absolute": 2,
-"relative": 0.2606984110431847
 }
 },
 "PRESS98": {
@@ -640,25 +640,6 @@
 "relative": 0.0531995089046934
 }
 },
-"SVT-2020": {
-"rows": [
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"ta"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.06250346503584292
-}
-},
 "SVT-2019": {
 "rows": [
 {
@@ -676,6 +657,25 @@
 "sums": {
 "absolute": 1,
 "relative": 0.05479012532912428
+}
+},
+"SVT-2020": {
+"rows": [
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"ta"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.06250346503584292
 }
 },
 "SVT-2021": {
@@ -874,6 +874,36 @@
 "relative": 0.08863758361183262
 }
 },
+"WEBBNYHETER2009": {
+"rows": [
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"spela"
+]
+},
+"absolute": 2,
+"relative": 0.07725354679724371
+},
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"forts\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.038626773398621854
+}
+],
+"sums": {
+"absolute": 3,
+"relative": 0.11588032019586555
+}
+},
 "WEBBNYHETER2007": {
 "rows": [
 {
@@ -913,36 +943,6 @@
 "sums": {
 "absolute": 4,
 "relative": 0.1624006519086969
-}
-},
-"WEBBNYHETER2009": {
-"rows": [
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"spela"
-]
-},
-"absolute": 2,
-"relative": 0.07725354679724371
-},
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"forts\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.038626773398621854
-}
-],
-"sums": {
-"absolute": 3,
-"relative": 0.11588032019586555
 }
 },
 "WEBBNYHETER2010": {
@@ -1088,17 +1088,6 @@
 "word": [
 "orkar",
 "att",
-"k\u00f6ra"
-]
-},
-"absolute": 3,
-"relative": 0.003697907293370475
-},
-{
-"value": {
-"word": [
-"orkar",
-"att",
 "\u00e4lska"
 ]
 },
@@ -1126,6 +1115,17 @@
 },
 "absolute": 1,
 "relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"k\u00f6ra"
+]
+},
+"absolute": 3,
+"relative": 0.003697907293370475
 },
 {
 "value": {
@@ -1176,6 +1176,28 @@
 "word": [
 "orkar",
 "att",
+"s\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"orkar",
+"att",
+"agera"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"orkar",
+"att",
 "f\u00f6rflytta"
 ]
 },
@@ -1199,28 +1221,6 @@
 "orkar",
 "att",
 "skjuta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"s\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"orkar",
-"att",
-"agera"
 ]
 },
 "absolute": 1,
@@ -1485,5 +1485,5 @@
 "relative": 0.0838192319830641
 }
 },
-"time": 0.3772704601287842
+"time": 0.09219646453857422
 }

@@ -7369,114 +7369,6 @@
 "relative": 0.9043916513797876
 }
 },
-"SVT-2020": {
-"rows": [
-{
-"value": {
-"word": [
-"Lovar",
-"ta"
-]
-},
-"absolute": 2,
-"relative": 0.12500693007168584
-},
-{
-"value": {
-"word": [
-"lovar",
-"ta"
-]
-},
-"absolute": 2,
-"relative": 0.12500693007168584
-},
-{
-"value": {
-"word": [
-"lovar",
-"hj\u00e4lpa"
-]
-},
-"absolute": 2,
-"relative": 0.12500693007168584
-},
-{
-"value": {
-"word": [
-"lovar",
-"st\u00e4lla"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-},
-{
-"value": {
-"word": [
-"lovar",
-"matcha"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-},
-{
-"value": {
-"word": [
-"lovar",
-"g\u00f6ra"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-},
-{
-"value": {
-"word": [
-"lovar",
-"forts\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-},
-{
-"value": {
-"word": [
-"lovar",
-"besegra"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-},
-{
-"value": {
-"word": [
-"lovar",
-"ber\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-},
-{
-"value": {
-"word": [
-"lovar",
-"agera"
-]
-},
-"absolute": 1,
-"relative": 0.06250346503584292
-}
-],
-"sums": {
-"absolute": 13,
-"relative": 0.812545045465958
-}
-},
 "SVT-2019": {
 "rows": [
 {
@@ -7643,6 +7535,114 @@
 "sums": {
 "absolute": 17,
 "relative": 0.9314321305951131
+}
+},
+"SVT-2020": {
+"rows": [
+{
+"value": {
+"word": [
+"Lovar",
+"ta"
+]
+},
+"absolute": 2,
+"relative": 0.12500693007168584
+},
+{
+"value": {
+"word": [
+"lovar",
+"ta"
+]
+},
+"absolute": 2,
+"relative": 0.12500693007168584
+},
+{
+"value": {
+"word": [
+"lovar",
+"hj\u00e4lpa"
+]
+},
+"absolute": 2,
+"relative": 0.12500693007168584
+},
+{
+"value": {
+"word": [
+"lovar",
+"st\u00e4lla"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+},
+{
+"value": {
+"word": [
+"lovar",
+"matcha"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+},
+{
+"value": {
+"word": [
+"lovar",
+"g\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+},
+{
+"value": {
+"word": [
+"lovar",
+"forts\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+},
+{
+"value": {
+"word": [
+"lovar",
+"besegra"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+},
+{
+"value": {
+"word": [
+"lovar",
+"ber\u00e4tta"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+},
+{
+"value": {
+"word": [
+"lovar",
+"agera"
+]
+},
+"absolute": 1,
+"relative": 0.06250346503584292
+}
+],
+"sums": {
+"absolute": 13,
+"relative": 0.812545045465958
 }
 },
 "SVT-2021": {
@@ -12523,36 +12523,6 @@
 "value": {
 "word": [
 "lovar",
-"matcha"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"lovar",
-"besegra"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"lovar",
-"ber\u00e4tta"
-]
-},
-"absolute": 1,
-"relative": 0.0012326357644568248
-},
-{
-"value": {
-"word": [
-"lovar",
 "kontakta"
 ]
 },
@@ -12574,6 +12544,36 @@
 "word": [
 "Lovar",
 "genomf\u00f6ra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"lovar",
+"matcha"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"lovar",
+"besegra"
+]
+},
+"absolute": 1,
+"relative": 0.0012326357644568248
+},
+{
+"value": {
+"word": [
+"lovar",
+"ber\u00e4tta"
 ]
 },
 "absolute": 1,
@@ -12865,5 +12865,5 @@
 "relative": 1.4064374072452372
 }
 },
-"time": 0.10826349258422852
+"time": 0.12112164497375488
 }

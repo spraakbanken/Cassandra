@@ -314,25 +314,6 @@
 "relative": 0.05015449842467228
 }
 },
-"GP2013": {
-"rows": [
-{
-"value": {
-"word": [
-"beh\u00f6ver",
-"att",
-"f\u00e5"
-]
-},
-"absolute": 1,
-"relative": 0.05926964505721091
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.05926964505721091
-}
-},
 "PRESS98": {
 "rows": [
 {
@@ -361,6 +342,25 @@
 "sums": {
 "absolute": 2,
 "relative": 0.18620501973354248
+}
+},
+"GP2013": {
+"rows": [
+{
+"value": {
+"word": [
+"beh\u00f6ver",
+"att",
+"f\u00e5"
+]
+},
+"absolute": 1,
+"relative": 0.05926964505721091
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.05926964505721091
 }
 },
 "SVT-2005": {
@@ -720,6 +720,25 @@
 "relative": 0.072430581263382
 }
 },
+"WEBBNYHETER2006": {
+"rows": [
+{
+"value": {
+"word": [
+"beh\u00f6ver",
+"att",
+"bryta"
+]
+},
+"absolute": 1,
+"relative": 0.04431879180591631
+}
+],
+"sums": {
+"absolute": 1,
+"relative": 0.04431879180591631
+}
+},
 "WEBBNYHETER2005": {
 "rows": [
 {
@@ -748,25 +767,6 @@
 "sums": {
 "absolute": 3,
 "relative": 0.1016823445589625
-}
-},
-"WEBBNYHETER2006": {
-"rows": [
-{
-"value": {
-"word": [
-"beh\u00f6ver",
-"att",
-"bryta"
-]
-},
-"absolute": 1,
-"relative": 0.04431879180591631
-}
-],
-"sums": {
-"absolute": 1,
-"relative": 0.04431879180591631
 }
 },
 "WEBBNYHETER2007": {
@@ -1193,5 +1193,5 @@
 "relative": 0.061631788222841245
 }
 },
-"time": 0.07107400894165039
+"time": 0.08295536041259766
 }

@@ -30,7 +30,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -76,7 +76,7 @@
 "absolute": 2,
 "relative": 0.6059419883259217
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -122,7 +122,7 @@
 "absolute": 2,
 "relative": 0.4793736312384786
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -168,7 +168,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -214,7 +214,7 @@
 "absolute": 1,
 "relative": 0.12997867050017092
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -260,7 +260,7 @@
 "absolute": 2,
 "relative": 0.22570854143190627
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -281,32 +281,32 @@
 "SVT-2010": [
 {
 "absolute": {
-"2010": 103,
+"2010": 102,
 "2011": null
 },
 "relative": {
-"2010": 10.432141854441845,
+"2010": 10.330858923816196,
 "2011": null
 },
 "sums": {
-"absolute": 103,
-"relative": 10.432141854441845
+"absolute": 102,
+"relative": 10.330858923816196
 }
 },
 {
 "absolute": {
-"2010": 2,
+"2010": 1,
 "2011": null
 },
 "relative": {
-"2010": 0.20256586125129794,
+"2010": 0.10128293062564897,
 "2011": null
 },
 "sums": {
-"absolute": 2,
-"relative": 0.20256586125129794
+"absolute": 1,
+"relative": 0.10128293062564897
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -327,32 +327,32 @@
 "SVT-2011": [
 {
 "absolute": {
-"2011": 108,
+"2011": 107,
 "2012": null
 },
 "relative": {
-"2011": 11.579206489845037,
+"2011": 11.471991614939064,
 "2012": null
 },
 "sums": {
-"absolute": 108,
-"relative": 11.579206489845037
+"absolute": 107,
+"relative": 11.471991614939064
 }
 },
 {
 "absolute": {
-"2011": 1,
+"2011": 0,
 "2012": null
 },
 "relative": {
-"2011": 0.10721487490597256,
+"2011": 0,
 "2012": null
 },
 "sums": {
-"absolute": 1,
-"relative": 0.10721487490597256
+"absolute": 0,
+"relative": 0.0
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -398,7 +398,7 @@
 "absolute": 1,
 "relative": 0.10479340765631115
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -444,7 +444,7 @@
 "absolute": 1,
 "relative": 0.07164430265877739
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -465,32 +465,32 @@
 "SVT-2014": [
 {
 "absolute": {
-"2014": 213,
+"2014": 212,
 "2015": null
 },
 "relative": {
-"2014": 13.249980793748497,
+"2014": 13.187774311148738,
 "2015": null
 },
 "sums": {
-"absolute": 213,
-"relative": 13.249980793748497
+"absolute": 212,
+"relative": 13.187774311148738
 }
 },
 {
 "absolute": {
-"2014": 6,
+"2014": 5,
 "2015": null
 },
 "relative": {
-"2014": 0.3732388955985492,
+"2014": 0.31103241299879103,
 "2015": null
 },
 "sums": {
-"absolute": 6,
-"relative": 0.3732388955985492
+"absolute": 5,
+"relative": 0.31103241299879103
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -536,7 +536,7 @@
 "absolute": 3,
 "relative": 0.15624910482283694
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -582,7 +582,7 @@
 "absolute": 3,
 "relative": 0.13810940833975505
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -628,7 +628,7 @@
 "absolute": 4,
 "relative": 0.1889535398674255
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -674,7 +674,7 @@
 "absolute": 8,
 "relative": 0.4255960712375472
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -720,7 +720,7 @@
 "absolute": 4,
 "relative": 0.2191605013164971
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -766,7 +766,7 @@
 "absolute": 3,
 "relative": 0.18751039510752876
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -812,7 +812,7 @@
 "absolute": 3,
 "relative": 0.20053848594245266
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -858,7 +858,7 @@
 "absolute": 0,
 "relative": 0.0
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -904,7 +904,7 @@
 "absolute": 1,
 "relative": 0.1333066364576054
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -933,11 +933,11 @@
 "2007": 45,
 "2008": 74,
 "2009": 84,
-"2010": 103,
-"2011": 108,
+"2010": 102,
+"2011": 107,
 "2012": 126,
 "2013": 182,
-"2014": 213,
+"2014": 212,
 "2015": 283,
 "2016": 282,
 "2017": 292,
@@ -956,11 +956,11 @@
 "2007": 8.132017705390371,
 "2008": 9.618421617012649,
 "2009": 9.479758740140063,
-"2010": 10.432141854441845,
-"2011": 11.579206489845037,
+"2010": 10.330858923816196,
+"2011": 11.471991614939064,
 "2012": 13.203969364695205,
 "2013": 13.039263083897485,
-"2014": 13.249980793748497,
+"2014": 13.187774311148738,
 "2015": 14.739498888287619,
 "2016": 12.982284383936975,
 "2017": 13.79360841032206,
@@ -972,8 +972,8 @@
 "2023": 14.397116737421385
 },
 "sums": {
-"absolute": 3179,
-"relative": 13.226184183455786
+"absolute": 3176,
+"relative": 13.213702726220692
 }
 },
 {
@@ -985,11 +985,11 @@
 "2007": 0,
 "2008": 1,
 "2009": 2,
-"2010": 2,
-"2011": 1,
+"2010": 1,
+"2011": 0,
 "2012": 1,
 "2013": 1,
-"2014": 6,
+"2014": 5,
 "2015": 3,
 "2016": 3,
 "2017": 4,
@@ -1008,11 +1008,11 @@
 "2007": 0.0,
 "2008": 0.12997867050017092,
 "2009": 0.22570854143190627,
-"2010": 0.20256586125129794,
-"2011": 0.10721487490597256,
+"2010": 0.10128293062564897,
+"2011": 0.0,
 "2012": 0.10479340765631115,
 "2013": 0.07164430265877739,
-"2014": 0.3732388955985492,
+"2014": 0.31103241299879103,
 "2015": 0.15624910482283694,
 "2016": 0.13810940833975505,
 "2017": 0.1889535398674255,
@@ -1024,10 +1024,10 @@
 "2023": 0.1333066364576054
 },
 "sums": {
-"absolute": 47,
-"relative": 0.1955428300164901
+"absolute": 44,
+"relative": 0.18306137278139495
 },
-"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 's\u00e4lja' %c | word = 'hitta' %c | word = 'bilda' %c | word = 'utf\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'bli' %c | word = 'sl\u00e5' %c | word = 'ingjuta' %c | word = 'samla' %c | word = 'vinna' %c | word = 'komma' %c]"
+"cqp": "[word = 'lyckas' %c] [word = 'att'] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'n\u00e5' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'genomf\u00f6ra' %c | word = 'v\u00e4nda' %c | word = 'bilda' %c | word = 'hitta' %c | word = 's\u00e4lja' %c | word = 'utf\u00f6ra' %c | word = 'ge' %c | word = 'vinna' %c | word = 'komma' %c | word = 'bli' %c | word = 'ingjuta' %c | word = 'samla' %c]"
 },
 {
 "absolute": {
@@ -1083,5 +1083,5 @@
 "cqp": "[word = 'lyckas' %c] [word = 'f\u00e5' %c | word = 'ta' %c | word = 'h\u00e5lla' %c | word = 'g\u00f6ra' %c | word = 'n\u00e5' %c | word = 'komma' %c | word = 'hitta' %c | word = 'vinna' %c | word = 'skapa' %c | word = 'v\u00e4nda' %c | word = 'bli' %c | word = 'f\u00e5nga' %c | word = 'beh\u00e5lla' %c | word = 'locka' %c | word = 's\u00e4lja' %c | word = 'l\u00f6sa' %c | word = 'sl\u00e5' %c | word = 'vara' %c | word = '\u00f6vertyga' %c | word = 'stoppa' %c | word = 'bryta' %c | word = 's\u00e4tta' %c | word = 'samla' %c | word = 'f\u00f6rmedla' %c | word = 'fly' %c | word = 'genomf\u00f6ra' %c | word = 'rekrytera' %c]"
 }
 ],
-"time": 11.632921695709229
+"time": 11.880997657775879
 }
