@@ -159,7 +159,11 @@ def process_cmd
             else    
                 variable = ARGV[ARGV.index("--variable") + 1]
                 nvariants = 1
-                variable_source = "korp_queries.rb"
+                if !ARGV.include?("--variable_source")
+                    variable_source = "korp_queries.rb"
+                else
+                    variable_source = ARGV[ARGV.index("--variable_source") + 1]
+                end
             end
         else 
             abort "Cassandra says: unknown qtype, must be \"time\" or \"authors\", or \"statistics\""

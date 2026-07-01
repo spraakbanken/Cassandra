@@ -1,5 +1,10 @@
 ### Use single quotes, not double quotes in this file!
 
+#label = glömma_whalf
+variant1 = [word = 'glömmer' %c] [word = 'att'] [word = 'ta' %c | word = 'nämna' %c | word = 'stänga' %c | word = 'berätta' %c | word = 'äta' %c | word = 'betala' %c | word = 'titta' %c | word = 'fråga' %c | word = 'låsa' %c | word = 'säga' %c | word = 'tänka' %c | word = 'se' %c | word = 'lägga' %c | word = 'dra' %c | word = 'tala' %c | word = 'sätta' %c | word = 'leva' %c | word = 'vara' %c | word = 'lämna' %c | word = 'skriva' %c]
+variant2 = [word = 'glömmer' %c] [word = 'ta' %c | word = 'betala' %c | word = 'sätta' %c | word = 'fråga' %c | word = 'nämna' %c | word = 'stänga' %c | word = 'berätta' %c | word = 'lägga' %c | word = 'stämpla' %c | word = 'titta' %c | word = 'dra' %c | word = 'byta' %c | word = 'säga' %c | word = 'servera' %c | word = 'fylla' %c]
+
+
 #label = besluta_att_infstat
 variant1 = [word = 'beslutar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
 

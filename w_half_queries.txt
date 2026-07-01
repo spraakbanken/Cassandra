@@ -1,0 +1,7 @@
+#label = börja_whalf
+variant1 = [word = 'börjar' %c] [word = 'att'] [word = 'gälla' %c | word = 'bli' %c | word = 'ta' %c | word = 'se' %c | word = 'dra' %c | word = 'komma' %c | word = 'gå' %c | word = 'få' %c | word = 'jobba' %c | word = 'ge' %c | word = 'spela' %c | word = 'prata' %c | word = 'göra' %c | word = 'växa' %c | word = 'närma' %c | word = 'känna' %c | word = 'köra' %c | word = 'brinna' %c | word = 'använda' %c | word = 'arbeta' %c | word = 'lägga' %c | word = 'hitta' %c | word = 'röka' %c | word = 'återhämta' %c | word = 'studera' %c | word = 'sälja' %c | word = 'röra' %c | word = 'förstå' %c | word = 'falla' %c | word = 'rulla' %c | word = 'tänka' %c | word = 'förhandla' %c]
+variant2 = [word = 'börjar' %c] [word = 'bli' %c | word = 'få' %c | word = 'gälla' %c | word = 'ta' %c | word = 'närma' %c | word = 'komma' %c | word = 'gå' %c | word = 'se' %c | word = 'brinna' %c | word = 'jobba' %c | word = 'prata' %c | word = 'ge' %c | word = 'känna' %c | word = 'spela' %c | word = 'dra' %c | word = 'fundera' %c | word = 'arbeta' %c | word = 'tänka' %c | word = 'likna' %c | word = 'röra' %c | word = 'göra' %c | word = 'tala' %c | word = 'växa' %c | word = 'använda' %c | word = 'rulla' %c | word = 'förstå' %c | word = 'falla' %c | word = 'sälja' %c | word = 'läsa' %c | word = 'träna' %c | word = 'hitta' %c | word = 'gråta' %c | word = 'bygga' %c | word = 'inse' %c]
+#label = börja_wfull
+variant1 = [word = 'börjar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+variant2 = [word = 'börjar' %c] [msd = '.*INF\.AKT.*']
+
