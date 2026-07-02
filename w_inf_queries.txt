@@ -1,3 +1,9 @@
+#label = börja_att_infstat
+variant1 = [word = 'börjar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
+
+#label = börja_noatt_infstat
+variant1 = [word = 'börjar' %c] [msd = '.*INF\.AKT.*']
+
 #label = besluta_att_infstat
 variant1 = [word = 'beslutar' %c] [word = 'att' %c] [msd = '.*INF\.AKT.*']
 

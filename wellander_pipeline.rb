@@ -1,9 +1,10 @@
 load 'wellander_vars.rb'
-generate_inf_queries = true
-run_inf_queries = true
-generate_half_queries = true
-run_half_queries = true
-compare_queries = true
+generate_inf_queries = false
+run_inf_queries = false
+generate_half_queries = false
+run_half_queries = false
+compare_queries = false
+w_plot_retriever = true
 corpus = "pressfull"
 timecorpus = "svt-all"
 coverage = 0.5

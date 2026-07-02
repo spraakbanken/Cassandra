@@ -1,8 +1,11 @@
-Built a pipeline for steps 1-4 and ran it for the 29 verbs from the NJL manuscript.
+Built a pipeline for steps 1-5 and ran it for the 29 verbs from the NJL manuscript. 
+Excluded: "torde" never occurred with "att", "idas" almost never
 
 1. Search in (almost) all modern newspaper corpora at Språkbanken for all active infinitives that occur after:
 Query1a: VERB1.PRS att (INF.AKT)
 Query1b: VERB1.PRS (INF.AKT)
+
+General question: should we add preteritum (both here and in the main queries below)? Or other forms? Separately or jointly?
 
 Corpus composition: GP2001,GP2002,GP2003,GP2004,GP2005,GP2006,GP2007,GP2008,GP2009,GP2010,GP2011,GP2012,GP2013,SVT-2004,SVT-2005,SVT-2006,SVT-2007,SVT-2008,SVT-2009,SVT-2010,SVT-2011,SVT-2012,SVT-2013,SVT-2014,SVT-2015,SVT-2016,SVT-2017,SVT-2018,SVT-2019,SVT-2020,SVT-2021,SVT-2022,SVT-2023,da,PRESS76,PRESS95,PRESS96,PRESS97,PRESS98,WEBBNYHETER2001,WEBBNYHETER2002,WEBBNYHETER2003,WEBBNYHETER2004,WEBBNYHETER2005,WEBBNYHETER2006,WEBBNYHETER2007,WEBBNYHETER2008,WEBBNYHETER2009,WEBBNYHETER2010,WEBBNYHETER2011,WEBBNYHETER2012,WEBBNYHETER2013
 Change? Don't really think it matters.
@@ -21,7 +24,9 @@ Query2b: "VERB1.PRS INF1" OR "VERB1.PRS INF2" ... OR "VERB1.PRS INF25"
 See: https://github.com/spraakbanken/Cassandra/blob/main/w_naive_queries.txt
 
 NB: we lump together all possible combinations of VERB1 + INF into a single query conjoining them by OR. This means we have to run two manual queries per verb and not 20-50. 
-Unfortunately, in Retriever the numbers of hits for the query A OR B is a bit different than the sum of hits for A and for B separately (I guess it counts not the occurrences, but sentences where the search item appears or smth like that). The deviation, however, seems to be small. No such problem in tidningar.kb.se.
+Unfortunately, in Retriever the numbers of hits for the query A OR B is a bit different than the sum of hits for A and for B separately (I guess it counts not the occurrences, but sentences where the search item appears or smth like that). The deviation, however, seems to be small. I tried both approaches for "komma", have a look at the plot (black: each query "kommer INF" separately, then summed up, blue: all queries conjoined by OR): https://github.com/spraakbanken/Cassandra/blob/main/wellanders/comparisons/komma_0.5_separate_queries_vs_OR.pdf
+No such problem in tidningar.kb.se.
+
 
 4. Test whether Query2 ("half query") is as good as Query1 ("full query").
 Choose a test corpus (SVT).
@@ -33,7 +38,7 @@ Seems to depend on the frequency of VERB1. Take that into account somehow?
 
 NEXT STEPS:
 5. If we are happy with the results of 4, run the Query2 manually at Retriever, download and process the results.
-Tested that for some verbs, see: https://github.com/spraakbanken/Cassandra/tree/main/wellanders/retriever
+Tested that, see: https://github.com/spraakbanken/Cassandra/tree/main/wellanders/retriever
 
 6. Perhaps: do the same for tidningar.kb.se. Prerequisite: write a script for parsing their html output (should not be difficult).
 Problem: data available only up to 1926. 
