@@ -38,7 +38,7 @@ Seems to depend on the frequency of VERB1. Take that into account somehow?
 
 NEXT STEPS:
 5. If we are happy with the results of 4, run the Query2 manually at Retriever, download and process the results.
-Tested that, see: https://github.com/spraakbanken/Cassandra/tree/main/wellanders/retriever
+Tested that, see: https://github.com/spraakbanken/Cassandra/tree/main/wellanders/retriever. Years with total <20 are excluded.
 
 6. Perhaps: do the same for tidningar.kb.se. Prerequisite: write a script for parsing their html output (should not be difficult).
 Problem: data available only up to 1926. 
