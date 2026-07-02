@@ -18,6 +18,7 @@ Note that n is different for Query1a and Query1b, we ignore that in the future. 
 3. For every VERB1, generate two "naive" queries that can be used in Retriever and potentially tidningar.kb.se (and Mediesök) using the infinitives found in 2. 
 Query2a: "VERB1.PRS att INF1" OR "VERB1.PRS att INF2" ... OR "VERB1.PRS att INF25"
 Query2b: "VERB1.PRS INF1" OR "VERB1.PRS INF2" ... OR "VERB1.PRS INF25"
+See: https://github.com/spraakbanken/Cassandra/blob/main/w_naive_queries.txt
 
 NB: we lump together all possible combinations of VERB1 + INF into a single query conjoining them by OR. This means we have to run two manual queries per verb and not 20-50. 
 Unfortunately, in Retriever the numbers of hits for the query A OR B is a bit different than the sum of hits for A and for B separately (I guess it counts not the occurrences, but sentences where the search item appears or smth like that). The deviation, however, seems to be small. No such problem in tidningar.kb.se.
@@ -32,7 +33,7 @@ Seems to depend on the frequency of VERB1. Take that into account somehow?
 
 NEXT STEPS:
 5. If we are happy with the results of 4, run the Query2 manually at Retriever, download and process the results.
-Tested that for some verbs, see: 
+Tested that for some verbs, see: https://github.com/spraakbanken/Cassandra/tree/main/wellanders/retriever
 
 6. Perhaps: do the same for tidningar.kb.se. Prerequisite: write a script for parsing their html output (should not be difficult).
 Problem: data available only up to 1926. 
