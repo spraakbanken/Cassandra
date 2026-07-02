@@ -31,6 +31,6 @@ if compare_queries
 end
 
 if w_plot_retriever
-    
+    system "ruby w_plot_retriever.rb #{coverage}"
 end
 #end

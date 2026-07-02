@@ -25,9 +25,10 @@ Unfortunately, in Retriever the numbers of hits for the query A OR B is a bit di
 4. Test whether Query2 ("half query") is as good as Query1 ("full query").
 Choose a test corpus (SVT).
 Run a diachronic query in the usual Cassandra style (counting/plotting the proportion of the innovative variant): 1a vs 1b, 2a vs 2b. The qualitative picture should be the same. See https://github.com/spraakbanken/Cassandra/tree/main/wellanders/comparisons
-Plot the two trajectories (see pdfs)
+Plot the two trajectories (see pdfs). "Full" query is solid black, "half" query is dashed blue. 
 For every verb, calculate the difference between the values for the same year (see separate tsvs per verb)
 As a single measure per verb, use the sum of square differences (see allverbs.tsv). This measure is difficult to interpret, we need some comparison ground.
+Seems to depend on the frequency of VERB1. Take that into account somehow?
 
 NEXT STEPS:
 5. If we are happy with the results of 4, run the Query2 manually at Retriever, download and process the results.

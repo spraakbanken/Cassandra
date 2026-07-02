@@ -1,6 +1,6 @@
 $PATH = "C:\\D\\DGU\\Repos\\Cassandra"
 
-$verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
+$verblist = ["fortsätta"]
 
 #$verblist = ["besluta","hota","planera","lova","tendera","riskera","avse","fortsätta","komma","förmå","glömma","behaga","vägra","sluta","idas","slippa","försöka","låtsas","lyckas","hinna","börja","orka","våga","behöva","bruka","råka","torde","ämna","förefalla"]
 
