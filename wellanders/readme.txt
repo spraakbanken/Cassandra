@@ -40,10 +40,8 @@ NEXT STEPS:
 5. If we are happy with the results of 4, run the Query2 manually at Retriever, download and process the results.
 Tested that, see: https://github.com/spraakbanken/Cassandra/tree/main/wellanders/retriever. Years with total <20 are excluded.
 
-6. Perhaps: do the same for tidningar.kb.se. Prerequisite: write a script for parsing their html output (should not be difficult).
-Problem: data available only up to 1926. 
-Solution: use the bookable computer at our university library which gives full access. It is possible to email the results from there, so should be OK.
-Problem: some queries will be adjusted wrt historical variants (taga, hava, bliva, giva osv). Plural forms?
-Problem: OCR on historical newspapers might be quite bad. Some kind of evaluation desirable.
+6. Perhaps: do the same for tidningar.kb.se. 
+DONE in October 2026! No evaluation. Solution: use the bookable computer at our university library which gives full access.
 
 7. Mediesök: leave for now.
+
